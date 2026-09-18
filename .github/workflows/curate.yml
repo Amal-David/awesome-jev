@@ -11,6 +11,7 @@ on:
       - 'tests/**'
       - 'data/curated.json'
       - 'examples/**'
+      - '.github/workflows/curate.yml'
 
 permissions:
   contents: read
@@ -26,7 +27,7 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
         with:
           fetch-depth: 0
       - name: Run offline tests
@@ -38,18 +39,7 @@ jobs:
         run: python3 scripts/curate.py --refresh
       - name: Validate generated catalog
         run: python3 scripts/curate.py --check
-      - name: Commit meaningful directory changes
+      - name: Commit and verify directory updates
         env:
           DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
-        run: |
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add README.md data/catalog.json docs/CATALOG.md data/discoveries.json
-          if git diff --cached --quiet; then
-            echo 'No directory changes.' >> "$GITHUB_STEP_SUMMARY"
-            exit 0
-          fi
-          git commit -m 'chore: refresh Jev directory and source metadata'
-          git pull --rebase origin "$DEFAULT_BRANCH"
-          git push origin "HEAD:$DEFAULT_BRANCH"
-          echo "Published directory update: $(git rev-parse --short HEAD)" >> "$GITHUB_STEP_SUMMARY"
+        run: bash scripts/publish.sh
