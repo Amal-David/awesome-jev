@@ -2,7 +2,7 @@
 
 A living directory of **Jev demos, repositories, skills, reusable code, integrations, and independent reproductions**.
 
-**564 catalog entries · 482 repository links · 91 companion demo/site links · 17 primary-source-reviewed selections**
+**592 catalog entries · 509 repository links · 92 companion demo/site links · 17 primary-source-reviewed selections**
 
 [Full categorized catalog](docs/CATALOG.md) · [Machine-readable data](data/catalog.json) · [Code examples](examples/README.md) · [Agent skill](skills/jev-curator/SKILL.md) · [Refresh history](https://github.com/Amal-David/awesome-jev/actions/workflows/curate.yml)
 
@@ -18,8 +18,8 @@ Missing licenses are marked **not-checked**, **not-detected**, or **NOASSERTION*
 
 | Project | Jev role / reuse notes | Links | Evidence | License / status |
 |---|---|---|---|---|
-| TypeSafe JavaScript SDK | Official JavaScript and TypeScript client with answer types inferred from named questions. | [repo](https://github.com/typesafe-ai/typesafe-sdk-js) · [code](https://github.com/typesafe-ai/typesafe-sdk-js/blob/main/src/types.ts) · [evidence](https://github.com/typesafe-ai/typesafe-sdk-js/blob/main/README.md) | primary-source-reviewed / 2026-09-18 | not-checked |
-| TypeSafe Python SDK | Official Python client; its quickstart routes a support ticket using a typed Choice. | [repo](https://github.com/typesafe-ai/typesafe-sdk-python) · [demo](https://docs.typesafe.ai/sdk/python) · [code](https://github.com/typesafe-ai/typesafe-sdk-python/blob/main/README.md#quickstart) · [evidence](https://github.com/typesafe-ai/typesafe-sdk-python/blob/main/README.md) | primary-source-reviewed / 2026-09-18 | not-checked |
+| TypeSafe JavaScript SDK | Official JavaScript and TypeScript client with answer types inferred from named questions. | [repo](https://github.com/typesafe-ai/typesafe-sdk-js) · [code](https://github.com/typesafe-ai/typesafe-sdk-js/blob/main/src/types.ts) · [evidence](https://github.com/typesafe-ai/typesafe-sdk-js/blob/main/README.md) | primary-source-reviewed / 2026-09-18 | MIT |
+| TypeSafe Python SDK | Official Python client; its quickstart routes a support ticket using a typed Choice. | [repo](https://github.com/typesafe-ai/typesafe-sdk-python) · [demo](https://docs.typesafe.ai/sdk/python) · [code](https://github.com/typesafe-ai/typesafe-sdk-python/blob/main/README.md#quickstart) · [evidence](https://github.com/typesafe-ai/typesafe-sdk-python/blob/main/README.md) | primary-source-reviewed / 2026-09-18 | MIT |
 
 ## Skills and reusable agent workflows
 
@@ -34,8 +34,8 @@ Missing licenses are marked **not-checked**, **not-detected**, or **NOASSERTION*
 
 | Project | Jev role / reuse notes | Links | Evidence | License / status |
 |---|---|---|---|---|
-| Jev Plays Snake | Code computes legal moves and board facts; Jev chooses one direction per game tick. Useful separation of legal-action generation, model choice, deadlines, and local execution. | [repo](https://github.com/sorrycc/typesafe-snake) · [code](https://github.com/sorrycc/typesafe-snake/blob/main/src/jev/prompt.ts) · [evidence](https://github.com/sorrycc/typesafe-snake) | primary-source-reviewed / 2026-09-18 | not-checked |
-| JevPilot | Three.js driving simulation where Jev selects from locally generated steering and speed candidates. Simulation only; not an autonomous-driving safety system. The hosted demo may require login. | [repo](https://github.com/standardagents/jevpilot) · [evidence](https://github.com/standardagents/jevpilot) | primary-source-reviewed / 2026-09-18 | not-checked |
+| Jev Plays Snake | Code computes legal moves and board facts; Jev chooses one direction per game tick. Useful separation of legal-action generation, model choice, deadlines, and local execution. | [repo](https://github.com/sorrycc/typesafe-snake) · [code](https://github.com/sorrycc/typesafe-snake/blob/main/src/jev/prompt.ts) · [evidence](https://github.com/sorrycc/typesafe-snake) | primary-source-reviewed / 2026-09-18 | not-detected |
+| JevPilot | Three.js driving simulation where Jev selects from locally generated steering and speed candidates. Simulation only; not an autonomous-driving safety system. The hosted demo may require login. | [repo](https://github.com/standardagents/jevpilot) · [evidence](https://github.com/standardagents/jevpilot) | primary-source-reviewed / 2026-09-18 | not-detected |
 | PROMPT FPS / Jev Doom | Chocolate Doom WASM instances expose structured state; Jev chooses tactical macros executed by local controllers. Ships Freedoom, not commercial Doom assets. Engine and content have separate GPL/BSD notices; inspect licenses/. | [repo](https://github.com/lukaske/jev-doom-agent) · [evidence](https://github.com/lukaske/jev-doom-agent/blob/main/README.md) | primary-source-reviewed / 2026-09-18 | not-detected |
 | TypeSafe Mario | An emulator-state parser supplies structured telemetry; Jev selects bounded NES controller inputs. Requires a lawful local game setup; repository does not include Nintendo ROMs. | [repo](https://github.com/fhshaik/typesafe-mario) · [evidence](https://github.com/fhshaik/typesafe-mario) | primary-source-reviewed / 2026-09-18 | not-detected |
 
@@ -43,7 +43,7 @@ Missing licenses are marked **not-checked**, **not-detected**, or **NOASSERTION*
 
 | Project | Jev role / reuse notes | Links | Evidence | License / status |
 |---|---|---|---|---|
-| Jev Music Playground | Jev selects composition enums; deterministic code expands them into notation, playback, and MIDI. Includes an explicitly labeled offline heuristic mode; Jev does not directly generate audio. | [repo](https://github.com/wustep/jev-playground) · [demo](https://jev-playground.vercel.app) · [code](https://github.com/wustep/jev-playground/blob/main/src/planner/JevPlanner.ts) · [evidence](https://github.com/wustep/jev-playground/blob/main/README.md) | primary-source-reviewed / 2026-09-18 | not-checked |
+| Jev Music Playground | Jev selects composition enums; deterministic code expands them into notation, playback, and MIDI. Includes an explicitly labeled offline heuristic mode; Jev does not directly generate audio. | [repo](https://github.com/wustep/jev-playground) · [demo](https://jev-playground.vercel.app) · [code](https://github.com/wustep/jev-playground/blob/main/src/planner/JevPlanner.ts) · [evidence](https://github.com/wustep/jev-playground/blob/main/README.md) | primary-source-reviewed / 2026-09-18 | not-detected |
 
 ## Browser and computer use
 
