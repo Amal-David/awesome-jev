@@ -2,7 +2,7 @@
 
 A living directory of **Jev demos, repositories, skills, reusable code, integrations, and independent reproductions**.
 
-**468 catalog entries · 386 repository links · 72 companion demo/site links · 17 primary-source-reviewed selections**
+**564 catalog entries · 482 repository links · 91 companion demo/site links · 17 primary-source-reviewed selections**
 
 [Full categorized catalog](docs/CATALOG.md) · [Machine-readable data](data/catalog.json) · [Code examples](examples/README.md) · [Agent skill](skills/jev-curator/SKILL.md) · [Refresh history](https://github.com/Amal-David/awesome-jev/actions/workflows/curate.yml)
 
@@ -26,7 +26,7 @@ Missing licenses are marked **not-checked**, **not-detected**, or **NOASSERTION*
 | Project | Jev role / reuse notes | Links | Evidence | License / status |
 |---|---|---|---|---|
 | Jev Logs | Scores log records with typed questions to route selected records for deeper analysis while preserving the archive. | [repo](https://github.com/reachjalil/jevlogs) · [skill](https://github.com/reachjalil/jevlogs/blob/main/skills/jevlogs/SKILL.md) · [evidence](https://github.com/reachjalil/jevlogs/blob/main/skills/jevlogs/SKILL.md) | primary-source-reviewed / 2026-09-18 | MIT |
-| Jevify | Reusable discovery skill that finds Jev opportunities, designs question packs, and proposes comparison experiments. Independent skill, not the model or an official SDK. | [repo](https://github.com/altryne/jevify) · [skill](https://github.com/altryne/jevify/blob/main/SKILL.md) · [evidence](https://github.com/altryne/jevify/blob/main/README.md) | primary-source-reviewed / 2026-09-18 | MIT |
+| Jevify | Reusable discovery skill that finds Jev opportunities, designs question packs, and proposes comparison experiments. Independent skill, not the model or an official SDK. | [repo](https://github.com/altryne/jevify) · [demo](https://thursdai.news) · [skill](https://github.com/altryne/jevify/blob/main/SKILL.md) · [evidence](https://github.com/altryne/jevify/blob/main/README.md) | primary-source-reviewed / 2026-09-18 | MIT |
 | Official TypeSafe skill | Official agent skill for choosing primitives, composing typed decisions, and evaluating integrations. | [repo](https://github.com/typesafe-ai/skills) · [demo](https://typesafe.ai) · [skill](https://github.com/typesafe-ai/skills/blob/main/skills/typesafe-ai/SKILL.md) · [evidence](https://github.com/typesafe-ai/skills/blob/main/skills/typesafe-ai/SKILL.md) | primary-source-reviewed / 2026-09-18 | MIT |
 | Skillbox | Self-hosted versioned skill library with optional Jev-based task-aware recommendations and deterministic fallback. Jev is an optional recommender, not required for the core library. | [repo](https://github.com/kitze/skillbox) · [skill](https://github.com/kitze/skillbox/blob/main/bootstrap/SKILL.md) · [evidence](https://github.com/kitze/skillbox) | primary-source-reviewed / 2026-09-18 | MIT |
 
