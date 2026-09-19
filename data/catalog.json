@@ -673,6 +673,20 @@
     "url": "https://github.com/Icohen007/jev-play-ping-pong"
   },
   {
+    "category": "games",
+    "code": "https://github.com/valentynkit/jev-plays-pokemon-red/blob/main/src/jpp/policy.py",
+    "description": "Pokemon Red on PyBoy: code owns the route and the arithmetic, Jev picks only at branches, and every battle turn logs a faint prediction scored by Brier against what the RAM says.",
+    "evidence_level": "primary-source-reviewed",
+    "license": "MIT",
+    "name": "jev-plays-pokemon-red",
+    "repo": "valentynkit/jev-plays-pokemon-red",
+    "reviewed": "2026-09-19",
+    "sources": [
+      "https://github.com/valentynkit/jev-plays-pokemon-red/blob/main/src/jpp/policy.py"
+    ],
+    "url": "https://github.com/valentynkit/jev-plays-pokemon-red"
+  },
+  {
     "archived": false,
     "category": "games",
     "description": "An experimental Snake environment where the game engine owns deterministic rules and TypeSafe AI's Jev makes the movement decision from structured state on every tick.",
@@ -4625,6 +4639,20 @@
     "url": "https://github.com/vmendes90/jev-shield"
   },
   {
+    "category": "browser",
+    "code": "https://github.com/valentynkit/jev-skip/blob/main/entrypoints/background.ts",
+    "description": "Browser extension that reads the YouTube caption track and paints a per-segment sponsor probability on the seek bar before the intro ends, with no crowd database. Reports 77% of SponsorBlock's sponsor seconds caught over 23 videos at $0.0008 a video.",
+    "evidence_level": "primary-source-reviewed",
+    "license": "MIT",
+    "name": "jev-skip",
+    "repo": "valentynkit/jev-skip",
+    "reviewed": "2026-09-19",
+    "sources": [
+      "https://github.com/valentynkit/jev-skip/blob/main/entrypoints/background.ts"
+    ],
+    "url": "https://github.com/valentynkit/jev-skip"
+  },
+  {
     "archived": false,
     "category": "browser",
     "description": "Control a real browser by voice. Jev (TypeSafe System One) decides intent + target in ~300 ms per spoken word; Playwright acts — often before you finish the sentence.",
@@ -5359,6 +5387,20 @@
     ],
     "stars": 13,
     "url": "https://github.com/shiftynick/jev-axi"
+  },
+  {
+    "category": "agents",
+    "code": "https://github.com/valentynkit/jev-belay/blob/main/belay.mjs",
+    "description": "Claude Code Stop hook: reads the transcript for evidence and, only when files changed with no passing check since, spends one four-question Jev call before letting an unverified done through. Fails open on every error path.",
+    "evidence_level": "primary-source-reviewed",
+    "license": "MIT",
+    "name": "jev-belay",
+    "repo": "valentynkit/jev-belay",
+    "reviewed": "2026-09-19",
+    "sources": [
+      "https://github.com/valentynkit/jev-belay/blob/main/belay.mjs"
+    ],
+    "url": "https://github.com/valentynkit/jev-belay"
   },
   {
     "archived": false,
@@ -8104,6 +8146,20 @@
     "url": "https://vercel.com/ai-gateway/models/jev"
   },
   {
+    "category": "integrations",
+    "code": "https://github.com/valentynkit/jev-commit/blob/main/jev_commit/jev.py",
+    "description": "Pre-commit hook: one Jev call judges whether the commit message matches the staged diff, plus debug leftovers, unmentioned work, and a credential belt. Warns except on a secret, which it blocks.",
+    "evidence_level": "primary-source-reviewed",
+    "license": "MIT",
+    "name": "jev-commit",
+    "repo": "valentynkit/jev-commit",
+    "reviewed": "2026-09-19",
+    "sources": [
+      "https://github.com/valentynkit/jev-commit/blob/main/jev_commit/jev.py"
+    ],
+    "url": "https://github.com/valentynkit/jev-commit"
+  },
+  {
     "archived": false,
     "category": "integrations",
     "description": "Fish-style zsh history autosuggestions ranked by Jev (TypeSafe)",
@@ -8120,6 +8176,20 @@
     ],
     "stars": 27,
     "url": "https://github.com/mrnugget/jev-shell-history"
+  },
+  {
+    "category": "integrations",
+    "code": "https://github.com/valentynkit/jev.nvim/blob/main/lua/jev/client.lua",
+    "description": "Neovim plugin: ask the buffer a plain-language question, Treesitter splits it into functions, Jev scores each one, and answers land in quickfix ranked by probability.",
+    "evidence_level": "primary-source-reviewed",
+    "license": "MIT",
+    "name": "jev.nvim",
+    "repo": "valentynkit/jev.nvim",
+    "reviewed": "2026-09-19",
+    "sources": [
+      "https://github.com/valentynkit/jev.nvim/blob/main/lua/jev/client.lua"
+    ],
+    "url": "https://github.com/valentynkit/jev.nvim"
   },
   {
     "archived": false,
