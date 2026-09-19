@@ -2,7 +2,7 @@
 
 A living directory of **Jev demos, repositories, skills, reusable code, integrations, and independent reproductions**.
 
-**615 catalog entries · 532 repository links · 92 companion demo/site links · 17 primary-source-reviewed selections**
+**705 catalog entries · 622 repository links · 119 companion demo/site links · 17 primary-source-reviewed selections**
 
 [Full categorized catalog](docs/CATALOG.md) · [Machine-readable data](data/catalog.json) · [Code examples](examples/README.md) · [Agent skill](skills/jev-curator/SKILL.md) · [Refresh history](https://github.com/Amal-David/awesome-jev/actions/workflows/curate.yml)
 
@@ -55,7 +55,7 @@ Missing licenses are marked **not-checked**, **not-detected**, or **NOASSERTION*
 
 | Project | Jev role / reuse notes | Links | Evidence | License / status |
 |---|---|---|---|---|
-| Foreman | Uses independent Noul checks to supervise a coding worker while deterministic policy decides interventions. Architectural experiment; its README provides an offline deterministic demo. | [repo](https://github.com/thruwire/foreman) · [post](https://x.com/JoshARosen/status/2100573432089866717) · [evidence](https://github.com/thruwire/foreman) | primary-source-reviewed / 2026-09-18 | MIT |
+| Foreman | Uses independent Noul checks to supervise a coding worker while deterministic policy decides interventions. Architectural experiment; its README provides an offline deterministic demo. | [repo](https://github.com/thruwire/foreman) · [demo](https://thruwire.ai) · [post](https://x.com/JoshARosen/status/2100573432089866717) · [evidence](https://github.com/thruwire/foreman) | primary-source-reviewed / 2026-09-18 | MIT |
 | Jev MCP | MCP tools use Jev to verify claims against evidence, screen incoming content, and rank candidates. Review tool permissions and environment handling before installation. | [repo](https://github.com/jkudish/jev-mcp) · [post](https://x.com/0xLogicrw/status/2100478725393686556) · [evidence](https://github.com/jkudish/jev-mcp) | primary-source-reviewed / 2026-09-18 | MIT |
 | TypeSafe MCP | Go MCP server exposing typed Jev judgments to coding agents, with documented client setup and retries. | [repo](https://github.com/itsmostafa/typesafe-mcp) · [post](https://x.com/0xLogicrw/status/2100478725393686556) · [evidence](https://github.com/itsmostafa/typesafe-mcp) | primary-source-reviewed / 2026-09-18 | MIT |
 
