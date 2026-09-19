@@ -2,7 +2,7 @@
 
 A living directory of **Jev demos, repositories, skills, reusable code, integrations, and independent reproductions**.
 
-**592 catalog entries · 509 repository links · 92 companion demo/site links · 17 primary-source-reviewed selections**
+**615 catalog entries · 532 repository links · 92 companion demo/site links · 17 primary-source-reviewed selections**
 
 [Full categorized catalog](docs/CATALOG.md) · [Machine-readable data](data/catalog.json) · [Code examples](examples/README.md) · [Agent skill](skills/jev-curator/SKILL.md) · [Refresh history](https://github.com/Amal-David/awesome-jev/actions/workflows/curate.yml)
 
