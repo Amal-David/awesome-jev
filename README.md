@@ -2,7 +2,7 @@
 
 A living directory of **Jev demos, repositories, skills, reusable code, integrations, and independent reproductions**.
 
-**615 catalog entries · 532 repository links · 92 companion demo/site links · 17 primary-source-reviewed selections**
+**620 catalog entries · 537 repository links · 92 companion demo/site links · 22 primary-source-reviewed selections**
 
 [Full categorized catalog](docs/CATALOG.md) · [Machine-readable data](data/catalog.json) · [Code examples](examples/README.md) · [Agent skill](skills/jev-curator/SKILL.md) · [Refresh history](https://github.com/Amal-David/awesome-jev/actions/workflows/curate.yml)
 
@@ -35,6 +35,7 @@ Missing licenses are marked **not-checked**, **not-detected**, or **NOASSERTION*
 | Project | Jev role / reuse notes | Links | Evidence | License / status |
 |---|---|---|---|---|
 | Jev Plays Snake | Code computes legal moves and board facts; Jev chooses one direction per game tick. Useful separation of legal-action generation, model choice, deadlines, and local execution. | [repo](https://github.com/sorrycc/typesafe-snake) · [code](https://github.com/sorrycc/typesafe-snake/blob/main/src/jev/prompt.ts) · [evidence](https://github.com/sorrycc/typesafe-snake) | primary-source-reviewed / 2026-09-18 | not-detected |
+| jev-plays-pokemon-red | Pokemon Red on PyBoy: code owns the route and the arithmetic, Jev picks only at branches, and every battle turn logs a faint prediction scored by Brier against what the RAM says. | [repo](https://github.com/valentynkit/jev-plays-pokemon-red) · [code](https://github.com/valentynkit/jev-plays-pokemon-red/blob/main/src/jpp/policy.py) · [evidence](https://github.com/valentynkit/jev-plays-pokemon-red/blob/main/src/jpp/policy.py) | primary-source-reviewed / 2026-09-19 | MIT |
 | JevPilot | Three.js driving simulation where Jev selects from locally generated steering and speed candidates. Simulation only; not an autonomous-driving safety system. The hosted demo may require login. | [repo](https://github.com/standardagents/jevpilot) · [evidence](https://github.com/standardagents/jevpilot) | primary-source-reviewed / 2026-09-18 | not-detected |
 | PROMPT FPS / Jev Doom | Chocolate Doom WASM instances expose structured state; Jev chooses tactical macros executed by local controllers. Ships Freedoom, not commercial Doom assets. Engine and content have separate GPL/BSD notices; inspect licenses/. | [repo](https://github.com/lukaske/jev-doom-agent) · [evidence](https://github.com/lukaske/jev-doom-agent/blob/main/README.md) | primary-source-reviewed / 2026-09-18 | not-detected |
 | TypeSafe Mario | An emulator-state parser supplies structured telemetry; Jev selects bounded NES controller inputs. Requires a lawful local game setup; repository does not include Nintendo ROMs. | [repo](https://github.com/fhshaik/typesafe-mario) · [evidence](https://github.com/fhshaik/typesafe-mario) | primary-source-reviewed / 2026-09-18 | not-detected |
@@ -50,6 +51,7 @@ Missing licenses are marked **not-checked**, **not-detected**, or **NOASSERTION*
 | Project | Jev role / reuse notes | Links | Evidence | License / status |
 |---|---|---|---|---|
 | Jev Ultrafast | Selects browser operation and observed DOM target with Jev; a separate model generates typing text. Published timing is a narrow author-run demonstration, not a general reliability guarantee. | [repo](https://github.com/browser-use/jev-ultrafast) · [demo](https://browser-use.com) · [code](https://github.com/browser-use/jev-ultrafast/blob/452c1ad2dd628008f1d5608f28158d76e49e6cc0/jev_ultrafast/model.py) · [post](https://x.com/gregpr07/status/2100411066966749359) · [evidence](https://github.com/browser-use/jev-ultrafast/blob/452c1ad2dd628008f1d5608f28158d76e49e6cc0/README.md) | primary-source-reviewed / 2026-09-18 | MIT |
+| jev-skip | Browser extension that reads the YouTube caption track and paints a per-segment sponsor probability on the seek bar before the intro ends, with no crowd database. Reports 77% of SponsorBlock's sponsor seconds caught over 23 videos at $0.0008 a video. | [repo](https://github.com/valentynkit/jev-skip) · [code](https://github.com/valentynkit/jev-skip/blob/main/entrypoints/background.ts) · [evidence](https://github.com/valentynkit/jev-skip/blob/main/entrypoints/background.ts) | primary-source-reviewed / 2026-09-19 | MIT |
 
 ## Agent tooling and MCP
 
@@ -57,6 +59,7 @@ Missing licenses are marked **not-checked**, **not-detected**, or **NOASSERTION*
 |---|---|---|---|---|
 | Foreman | Uses independent Noul checks to supervise a coding worker while deterministic policy decides interventions. Architectural experiment; its README provides an offline deterministic demo. | [repo](https://github.com/thruwire/foreman) · [post](https://x.com/JoshARosen/status/2100573432089866717) · [evidence](https://github.com/thruwire/foreman) | primary-source-reviewed / 2026-09-18 | MIT |
 | Jev MCP | MCP tools use Jev to verify claims against evidence, screen incoming content, and rank candidates. Review tool permissions and environment handling before installation. | [repo](https://github.com/jkudish/jev-mcp) · [post](https://x.com/0xLogicrw/status/2100478725393686556) · [evidence](https://github.com/jkudish/jev-mcp) | primary-source-reviewed / 2026-09-18 | MIT |
+| jev-belay | Claude Code Stop hook: reads the transcript for evidence and, only when files changed with no passing check since, spends one four-question Jev call before letting an unverified done through. Fails open on every error path. | [repo](https://github.com/valentynkit/jev-belay) · [code](https://github.com/valentynkit/jev-belay/blob/main/belay.mjs) · [evidence](https://github.com/valentynkit/jev-belay/blob/main/belay.mjs) | primary-source-reviewed / 2026-09-19 | MIT |
 | TypeSafe MCP | Go MCP server exposing typed Jev judgments to coding agents, with documented client setup and retries. | [repo](https://github.com/itsmostafa/typesafe-mcp) · [post](https://x.com/0xLogicrw/status/2100478725393686556) · [evidence](https://github.com/itsmostafa/typesafe-mcp) | primary-source-reviewed / 2026-09-18 | MIT |
 
 ## Integrations
@@ -64,6 +67,8 @@ Missing licenses are marked **not-checked**, **not-detected**, or **NOASSERTION*
 | Project | Jev role / reuse notes | Links | Evidence | License / status |
 |---|---|---|---|---|
 | Home Assistant Jev | Turns Jev probability, choice, and score answers into Home Assistant entities and automation results. Inspect the example automations and keep consequential actions behind explicit policy. | [repo](https://github.com/AboveColin/HA-Jev) · [evidence](https://github.com/AboveColin/HA-Jev) | primary-source-reviewed / 2026-09-18 | MIT |
+| jev-commit | Pre-commit hook: one Jev call judges whether the commit message matches the staged diff, plus debug leftovers, unmentioned work, and a credential belt. Warns except on a secret, which it blocks. | [repo](https://github.com/valentynkit/jev-commit) · [code](https://github.com/valentynkit/jev-commit/blob/main/jev_commit/jev.py) · [evidence](https://github.com/valentynkit/jev-commit/blob/main/jev_commit/jev.py) | primary-source-reviewed / 2026-09-19 | MIT |
+| jev.nvim | Neovim plugin: ask the buffer a plain-language question, Treesitter splits it into functions, Jev scores each one, and answers land in quickfix ranked by probability. | [repo](https://github.com/valentynkit/jev.nvim) · [code](https://github.com/valentynkit/jev.nvim/blob/main/lua/jev/client.lua) · [evidence](https://github.com/valentynkit/jev.nvim/blob/main/lua/jev/client.lua) | primary-source-reviewed / 2026-09-19 | MIT |
 
 ## Research and independent reproductions
 

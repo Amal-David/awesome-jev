@@ -36,7 +36,7 @@ Evidence: **primary-source-reviewed** = public primary source inspected; **commu
 | Official TypeSafe skill | Official agent skill for choosing primitives, composing typed decisions, and evaluating integrations. | [repo](https://github.com/typesafe-ai/skills) · [demo](https://typesafe.ai) · [skill](https://github.com/typesafe-ai/skills/blob/main/skills/typesafe-ai/SKILL.md) · [evidence](https://github.com/typesafe-ai/skills/blob/main/skills/typesafe-ai/SKILL.md) | primary-source-reviewed / 2026-09-18 | MIT |
 | Skillbox | Self-hosted versioned skill library with optional Jev-based task-aware recommendations and deterministic fallback. Jev is an optional recommender, not required for the core library. | [repo](https://github.com/kitze/skillbox) · [skill](https://github.com/kitze/skillbox/blob/main/bootstrap/SKILL.md) · [evidence](https://github.com/kitze/skillbox) | primary-source-reviewed / 2026-09-18 | MIT |
 
-## Games and simulations (49)
+## Games and simulations (50)
 
 | Project | Jev role / reuse notes | Links | Evidence | License / status |
 |---|---|---|---|---|
@@ -62,6 +62,7 @@ Evidence: **primary-source-reviewed** = public primary source inspected; **commu
 | jev-gomoku | MoonBit client for Jev plus a Jev-vs-Jev gomoku match, with timing logs. | [repo](https://github.com/mizchi/jev-gomoku) · [evidence](https://github.com/hellogumbo/awesome-jev) | community-indexed | not-detected |
 | jev-gomoku (XieChengYuan) | 弈瞬：双 Jev 五子棋九宫格输入实验台，逐手查看模型决策，支持真实对局回放与实时对战。 | [repo](https://github.com/XieChengYuan/jev-gomoku) · [demo](https://xiechengyuan.github.io/jev-gomoku/) · [evidence](https://github.com/hellogumbo/awesome-jev) | community-indexed | not-detected |
 | jev-play-ping-pong | Jev plays browser table tennis in real time: structured telemetry, typed decisions, ordinary Chrome inputs, and auditable evidence. | [repo](https://github.com/Icohen007/jev-play-ping-pong) · [demo](https://indispensable-lingonberry-hot.julius.site/) · [evidence](https://github.com/hellogumbo/awesome-jev) | community-indexed | MIT |
+| jev-plays-pokemon-red | Pokemon Red on PyBoy: code owns the route and the arithmetic, Jev picks only at branches, and every battle turn logs a faint prediction scored by Brier against what the RAM says. | [repo](https://github.com/valentynkit/jev-plays-pokemon-red) · [code](https://github.com/valentynkit/jev-plays-pokemon-red/blob/main/src/jpp/policy.py) · [evidence](https://github.com/valentynkit/jev-plays-pokemon-red/blob/main/src/jpp/policy.py) | primary-source-reviewed / 2026-09-19 | MIT |
 | jev-snake | An experimental Snake environment where the game engine owns deterministic rules and TypeSafe AI's Jev makes the movement decision from structured state on every tick. | [repo](https://github.com/iammusham/jev-snake) · [evidence](https://github.com/hellogumbo/awesome-jev) | community-indexed | not-detected |
 | jev-t-rex-runner | Chrome dino game played by Typesafe AI Jev model | [repo](https://github.com/joshlarsen/jev-t-rex-runner) · [demo](https://devfolioco.github.io/t-rex-runner-game/) · [evidence](https://github.com/hellogumbo/awesome-jev) | community-indexed | BSD-3-Clause |
 | jev-tetris | A visual TypeSafe demo where Jev chooses verified Tetris placements. | [repo](https://github.com/MachineLearning-Nerd/jev-tetris) · [evidence](https://github.com/hellogumbo/awesome-jev) | community-indexed | not-detected |
@@ -260,7 +261,7 @@ Evidence: **primary-source-reviewed** = public primary source inspected; **commu
 | Yes / No | Free, no-signup Noul demo. Ask a question, get yes, no, or maybe, with web search when needed. | [project](https://yesno.coderai.dev) · [evidence](https://github.com/hellogumbo/awesome-jev) | community-indexed | not-checked |
 | yoshi | Context-pruning proxy for Claude Code and Codex: Jev judges which history is still needed, measured not claimed. POC here now, heading soon into https://github.com/compozy/compozy Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review. | [repo](https://github.com/compozy/yoshi) · [evidence](https://github.com/compozy/yoshi/blob/main/README.md) | readme-matched | MIT |
 
-## Browser and computer use (35)
+## Browser and computer use (36)
 
 | Project | Jev role / reuse notes | Links | Evidence | License / status |
 |---|---|---|---|---|
@@ -284,6 +285,7 @@ Evidence: **primary-source-reviewed** = public primary source inspected; **commu
 | jev-mobile | Fast structured Android control loops with TypeSafe Jev and Mobile MCP | [repo](https://github.com/Friedjof/jev-mobile) · [evidence](https://github.com/hellogumbo/awesome-jev) | community-indexed | MIT |
 | jev-playwright-mcp | Jev-augmented Playwright MCP proxy — page-state triage, prompt-injection shielding, goal-based snapshot pruning, risky-action gating. Drop-in wrapper around @playwright/mcp for any coding agent. | [repo](https://github.com/krw82/jev-playwright-mcp) · [evidence](https://github.com/hellogumbo/awesome-jev) | community-indexed | MIT |
 | jev-shield (vmendes90) | Privacy-first Chrome extension that semantically blocks native ads, sponsored feed cards, and video ads using TypeSafe Jev | [repo](https://github.com/vmendes90/jev-shield) · [evidence](https://github.com/hellogumbo/awesome-jev) | community-indexed | MIT |
+| jev-skip | Browser extension that reads the YouTube caption track and paints a per-segment sponsor probability on the seek bar before the intro ends, with no crowd database. Reports 77% of SponsorBlock's sponsor seconds caught over 23 videos at $0.0008 a video. | [repo](https://github.com/valentynkit/jev-skip) · [code](https://github.com/valentynkit/jev-skip/blob/main/entrypoints/background.ts) · [evidence](https://github.com/valentynkit/jev-skip/blob/main/entrypoints/background.ts) | primary-source-reviewed / 2026-09-19 | MIT |
 | jev-voice-browser | Control a real browser by voice. Jev (TypeSafe System One) decides intent + target in ~300 ms per spoken word; Playwright acts — often before you finish the sentence. | [repo](https://github.com/moritzkremb/jev-voice-browser) · [evidence](https://github.com/hellogumbo/awesome-jev) | community-indexed | MIT |
 | Jevbridge | ACP and MCP adapter that bridges TypeSafe Jev with any LLM — computer use and typed decisions alongside Codex, Claude, Grok, and OpenCode. | [repo](https://github.com/gamesonrblx/Jevbridge) · [evidence](https://github.com/hellogumbo/awesome-jev) | community-indexed | MIT |
 | JevTest | Bounded exploratory browser testing with Jev, deterministic assertions, and replayable evidence. | [repo](https://github.com/CorieW/JevTest) · [demo](https://jevtest.dev) · [evidence](https://github.com/hellogumbo/awesome-jev) | community-indexed | not-detected |
@@ -300,7 +302,7 @@ Evidence: **primary-source-reviewed** = public primary source inspected; **commu
 | vibecheck | Chrome extension: vibe-check your X posts with TypeSafe's Jev before you hit Post | [repo](https://github.com/RafalWilinski/vibecheck) · [evidence](https://github.com/hellogumbo/awesome-jev) | community-indexed | not-detected |
 | xtags | 在 X 的时间线上，给每条帖子标出它想让你干什么。判断来自 Jev，一个只返回概率、不生成文本的模型。 | [repo](https://github.com/manifoldor/xtags) · [evidence](https://github.com/hellogumbo/awesome-jev) | community-indexed | MIT |
 
-## Agent tooling and MCP (87)
+## Agent tooling and MCP (88)
 
 | Project | Jev role / reuse notes | Links | Evidence | License / status |
 |---|---|---|---|---|
@@ -329,6 +331,7 @@ Evidence: **primary-source-reviewed** = public primary source inspected; **commu
 | Jev MCP | MCP tools use Jev to verify claims against evidence, screen incoming content, and rank candidates. Review tool permissions and environment handling before installation. | [repo](https://github.com/jkudish/jev-mcp) · [post](https://x.com/0xLogicrw/status/2100478725393686556) · [evidence](https://github.com/jkudish/jev-mcp) | primary-source-reviewed / 2026-09-18 | MIT |
 | jev-agent-skill-router | Typed, confidence-aware agent skill routing with TypeSafe Jev. | [repo](https://github.com/GodsBoy/jev-agent-skill-router) · [evidence](https://github.com/hellogumbo/awesome-jev) | community-indexed | MIT |
 | jev-axi | Agent-ergonomic CLI for TypeSafe's Jev: fast calibrated judgments (pick, rate, check, rank, triage, guard) from the shell | [repo](https://github.com/shiftynick/jev-axi) · [evidence](https://github.com/hellogumbo/awesome-jev) | community-indexed | MIT |
+| jev-belay | Claude Code Stop hook: reads the transcript for evidence and, only when files changed with no passing check since, spends one four-question Jev call before letting an unverified done through. Fails open on every error path. | [repo](https://github.com/valentynkit/jev-belay) · [code](https://github.com/valentynkit/jev-belay/blob/main/belay.mjs) · [evidence](https://github.com/valentynkit/jev-belay/blob/main/belay.mjs) | primary-source-reviewed / 2026-09-19 | MIT |
 | jev-builder-loop | Grok skill: Jev as a judgment sensor in a builder-agent loop (priors × probabilities → next act) | [repo](https://github.com/rainbowpuffpuff/jev-builder-loop) · [evidence](https://github.com/hellogumbo/awesome-jev) | community-indexed | MIT |
 | jev-cli (Nasrallah-AL) | Command-line tool for TypeSafe's Jev AI model | [repo](https://github.com/Nasrallah-AL/jev-cli) · [demo](https://jevcli.vectorz.app/) · [evidence](https://github.com/hellogumbo/awesome-jev) | community-indexed | MIT |
 | jev-code | Bounded TypeSafe Jev workflows for coding agents. | [repo](https://github.com/devagrawal09/jev-code) · [evidence](https://github.com/hellogumbo/awesome-jev) | community-indexed | MIT |
@@ -485,7 +488,7 @@ Evidence: **primary-source-reviewed** = public primary source inspected; **commu
 | zio-typesafe-ai | Scala 3 / ZIO client for the System One API: typed end-to-end, several questions per round-trip via NamedTuple. | [repo](https://github.com/jamesward/zio-typesafe-ai) · [evidence](https://github.com/hellogumbo/awesome-jev) | community-indexed | Apache-2.0 |
 | zod-jev | Zod validates the shape, Jev validates the meaning: semantic checks on request bodies become calibrated probabilities you threshold in code. | [repo](https://github.com/jomatsu/zod-jev) · [evidence](https://github.com/hellogumbo/awesome-jev) | community-indexed | MIT |
 
-## Integrations (25)
+## Integrations (27)
 
 | Project | Jev role / reuse notes | Links | Evidence | License / status |
 |---|---|---|---|---|
@@ -495,7 +498,9 @@ Evidence: **primary-source-reviewed** = public primary source inspected; **commu
 | eve | Vercel's open agent framework, which ships Jev as the default evaluation model in its experimental evaluate path. | [repo](https://github.com/vercel/eve) · [demo](https://eve.dev) · [evidence](https://github.com/hellogumbo/awesome-jev) | community-indexed | Apache-2.0 |
 | Home Assistant Jev | Turns Jev probability, choice, and score answers into Home Assistant entities and automation results. Inspect the example automations and keep consequential actions behind explicit policy. | [repo](https://github.com/AboveColin/HA-Jev) · [evidence](https://github.com/AboveColin/HA-Jev) | primary-source-reviewed / 2026-09-18 | MIT |
 | Jev on Vercel AI Gateway | Hosted typesafe-ai/jev for AI SDK evaluate calls, no TypeSafe waitlist required. | [project](https://vercel.com/ai-gateway/models/jev) · [post](https://x.com/typesafeai/status/2100376436272173088) · [evidence](https://github.com/hellogumbo/awesome-jev) | community-indexed | not-checked |
+| jev-commit | Pre-commit hook: one Jev call judges whether the commit message matches the staged diff, plus debug leftovers, unmentioned work, and a credential belt. Warns except on a secret, which it blocks. | [repo](https://github.com/valentynkit/jev-commit) · [code](https://github.com/valentynkit/jev-commit/blob/main/jev_commit/jev.py) · [evidence](https://github.com/valentynkit/jev-commit/blob/main/jev_commit/jev.py) | primary-source-reviewed / 2026-09-19 | MIT |
 | jev-shell-history | Fish-style zsh history autosuggestions ranked by Jev (TypeSafe) | [repo](https://github.com/mrnugget/jev-shell-history) · [evidence](https://github.com/hellogumbo/awesome-jev) | community-indexed | not-detected |
+| jev.nvim | Neovim plugin: ask the buffer a plain-language question, Treesitter splits it into functions, Jev scores each one, and answers land in quickfix ranked by probability. | [repo](https://github.com/valentynkit/jev.nvim) · [code](https://github.com/valentynkit/jev.nvim/blob/main/lua/jev/client.lua) · [evidence](https://github.com/valentynkit/jev.nvim/blob/main/lua/jev/client.lua) | primary-source-reviewed / 2026-09-19 | MIT |
 | Jev4Mellea | Jev adapter to Mellea | [repo](https://github.com/SoundBlaster/Jev4Mellea) · [evidence](https://github.com/hellogumbo/awesome-jev) | community-indexed | Apache-2.0 |
 | judging-with-typesafe | Скилл для агентов Letta: суждения по критериям через TypeSafe System One (Jev) | [repo](https://github.com/carlsonchik/judging-with-typesafe) · [evidence](https://github.com/hellogumbo/awesome-jev) | community-indexed | not-detected |
 | laravel-typesafe-jev | Unofficial Laravel integration for TypeSafe Jev AI with typed responses, async requests, scoped dependency injection, and testing fakes. | [repo](https://github.com/Butochnikov/laravel-typesafe-jev) · [evidence](https://github.com/hellogumbo/awesome-jev) | community-indexed | MIT |
