@@ -138,15 +138,7 @@ A visual community directory of **TypeSafe Jev demos, repositories, agent skills
 
 These are the creators' original GitHub-hosted uploads, not re-encoded copies. A direct watch link is retained for clients that do not render a player.
 
-<h4>Abide — checking project rules during an agent session</h4>
-
-<p>Check edits against natural-language project rules and ask the coding agent to repair flagged violations.</p>
-
-https://github.com/user-attachments/assets/2d45f6b0-c889-474c-ab4a-8d019fdc7140
-
-<a href="https://github.com/user-attachments/assets/2d45f6b0-c889-474c-ab4a-8d019fdc7140">Open recording</a> · <a href="https://github.com/coldteadotai/abide">Repository</a> · <a href="https://github.com/coldteadotai/abide/blob/master/README.md">Creator source</a>
-
-<sub>Cold Tea / coldteadotai — Author recording. Rule checks are probabilistic; selected diffs and instructions enter inference requests. Not a security guarantee or replacement for tests.</sub>
+<p><strong>Abide — checking project rules during an agent session</strong> — the recording could not be verified by the latest public-access check. <a href="https://github.com/coldteadotai/abide/blob/master/README.md">View the creator source</a>.</p>
 
 <h4>Jevthoven — from a prompt to editable music</h4>
 
