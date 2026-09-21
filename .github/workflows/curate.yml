@@ -11,6 +11,7 @@ on:
       - 'tests/**'
       - 'data/curated.json'
       - 'data/x_demos.json'
+      - 'data/media.json'
       - 'templates/**'
       - 'examples/**'
       - '.github/workflows/curate.yml'
@@ -39,11 +40,14 @@ jobs:
           GITHUB_TOKEN: ${{ github.token }}
           PYTHONUNBUFFERED: '1'
         run: python3 scripts/curate.py --refresh
+      - name: Check public media and render the visual gallery
+        run: python3 scripts/curate_media.py --refresh
       - name: Render editorial homepage and curated X demos
         run: python3 scripts/curate_x.py
       - name: Validate generated catalog and editorial pages
         run: |
           python3 scripts/curate.py --check
+          python3 scripts/curate_media.py --check
           python3 scripts/curate_x.py --check
       - name: Commit and verify directory updates
         env:

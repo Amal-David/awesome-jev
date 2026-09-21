@@ -16,7 +16,7 @@ git config user.name 'github-actions[bot]'
 git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
 git add -- README.md data/catalog.json docs/CATALOG.md data/discoveries.json
 # Optional in older checkouts and isolated publishing fixtures.
-for path in .github/README.md docs/X_DEMOS.md; do
+for path in .github/README.md docs/X_DEMOS.md templates/README.md docs/MEDIA.md data/media_cache.json; do
   if [[ -f "$path" ]]; then
     git add -- "$path"
   fi
@@ -28,7 +28,7 @@ fi
 # An unrelated staged file must never slip into the bot's commit.
 while IFS= read -r -d '' path; do
   case "$path" in
-    README.md|data/catalog.json|docs/CATALOG.md|data/discoveries.json|.github/README.md|docs/X_DEMOS.md) ;;
+    README.md|data/catalog.json|docs/CATALOG.md|data/discoveries.json|.github/README.md|docs/X_DEMOS.md|templates/README.md|docs/MEDIA.md|data/media_cache.json) ;;
     *) printf 'Refusing to commit unexpected staged file: %s\n' "$path" >&2; exit 1 ;;
   esac
 done < <(git diff --cached --name-only -z)
