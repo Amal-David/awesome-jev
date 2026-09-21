@@ -1,0 +1,44 @@
+name: Suggest a Jev demo or resource
+description: Share the original demo, code, and the concrete role of Jev.
+title: '[Resource] '
+body:
+  - type: input
+    id: project
+    attributes:
+      label: Project name and original creator
+    validations:
+      required: true
+  - type: textarea
+    id: links
+    attributes:
+      label: Original X post, repository, demo, or skill links
+      description: Use canonical URLs. Say explicitly when source code is unavailable.
+    validations:
+      required: true
+  - type: textarea
+    id: role
+    attributes:
+      label: What does Jev actually decide?
+      description: Explain the state, typed judgment, and what code executes afterward.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence and limitations
+      description: Link a direct implementation or author explanation. Disclose mock/replay modes, paid APIs, private data, and whether you actually ran it.
+    validations:
+      required: true
+  - type: input
+    id: license
+    attributes:
+      label: License and rights
+      description: Link the project's license, or state unknown. Do not attach unlicensed videos or ROMs.
+  - type: checkboxes
+    id: disclosure
+    attributes:
+      label: Relationship
+      options:
+        - label: I am the author or otherwise affiliated with this project.
+        - label: This is a discovery suggestion, not a claim that the project passed a security audit.
+          required: true

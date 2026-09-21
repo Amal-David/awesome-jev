@@ -10,6 +10,8 @@ on:
       - 'scripts/**'
       - 'tests/**'
       - 'data/curated.json'
+      - 'data/x_demos.json'
+      - 'templates/**'
       - 'examples/**'
       - '.github/workflows/curate.yml'
 
@@ -37,8 +39,12 @@ jobs:
           GITHUB_TOKEN: ${{ github.token }}
           PYTHONUNBUFFERED: '1'
         run: python3 scripts/curate.py --refresh
-      - name: Validate generated catalog
-        run: python3 scripts/curate.py --check
+      - name: Render editorial homepage and curated X demos
+        run: python3 scripts/curate_x.py
+      - name: Validate generated catalog and editorial pages
+        run: |
+          python3 scripts/curate.py --check
+          python3 scripts/curate_x.py --check
       - name: Commit and verify directory updates
         env:
           DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
