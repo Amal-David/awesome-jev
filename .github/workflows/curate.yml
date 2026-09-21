@@ -35,7 +35,11 @@ jobs:
           fetch-depth: 0
       - name: Run offline tests
         run: python3 -m unittest discover -s tests -v
+      - name: Render catalog for editorial changes
+        if: github.event_name == 'push'
+        run: python3 scripts/curate.py
       - name: Discover, verify metadata, and render
+        if: github.event_name != 'push'
         env:
           GITHUB_TOKEN: ${{ github.token }}
           PYTHONUNBUFFERED: '1'

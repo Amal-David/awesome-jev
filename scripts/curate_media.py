@@ -215,6 +215,9 @@ def render(data: dict, cache: dict) -> str:
     lines += ['### Full recordings — play inline', '',
         'These are the creators\' original GitHub-hosted uploads, not re-encoded copies. A direct watch link is retained for clients that do not render a player.', '']
     for item in [i for i in data['items'] if i['group'] == 'videos']:
+        if cache.get(item['id'], {}).get('error'):
+            lines += ['<p><strong>' + esc(item['title']) + '</strong> — the recording could not be verified by the latest public-access check. ' + anchor('View the creator source', item['source']) + '.</p>', '']
+            continue
         lines += ['<h4>' + esc(item['title']) + '</h4>', '', '<p>' + esc(item['caption']) + '</p>', '', item['watch'], '',
                   anchor('Open recording', item['watch']) + ' · ' + anchor('Repository', item['repo']) + ' · ' + anchor('Creator source', item['source']), '',
                   '<sub>' + esc(item['creator'] + ' — ' + item['note']) + '</sub>', '']
@@ -285,7 +288,8 @@ def main() -> int:
     gallery = render(data, cache)
     write(ROOT / 'templates/README.md', replace_block(template, gallery), args.check)
     write(ROOT / 'docs/MEDIA.md', source_index(data, cache), args.check)
-    print(f'Media gallery validated: {len(data["items"])} source records, {gallery.count("<img ")} previews, {sum(i["group"] == "videos" for i in data["items"])} native video references.')
+    players = sum(line.startswith('https://github.com/user-attachments/assets/') for line in gallery.splitlines())
+    print(f'Media gallery validated: {len(data["items"])} source records, {gallery.count("<img ")} previews, {players} inline video references.')
     return 0
 
 
