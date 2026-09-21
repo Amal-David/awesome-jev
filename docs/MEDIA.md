@@ -206,13 +206,13 @@ Checked means a bounded public metadata/media request succeeded, not that the vi
 
 **Last check:** 2026-09-21; reachable-image; youtube-oembed.
 
-<h2>JevPilot — driving in a simulation</h2>
+<h2>Abide — checking project rules during an agent session</h2>
 
-<a href="https://github.com/user-attachments/assets/4baef58e-54ef-4d17-9982-353a0b6e6f45">Original / watch</a> · <a href="https://github.com/standardagents/jevpilot/blob/main/README.md">Source context</a>
+<a href="https://github.com/user-attachments/assets/2d45f6b0-c889-474c-ab4a-8d019fdc7140">Original / watch</a> · <a href="https://github.com/coldteadotai/abide/blob/master/README.md">Source context</a>
 
-**Creator:** Standard Agents
+**Creator:** Cold Tea / coldteadotai
 
-**Presentation:** Simulation only, not a real autonomous-driving safety system. Hosted use may need login or credits.
+**Presentation:** Author recording. Rule checks are probabilistic; selected diffs and instructions enter inference requests. Not a security guarantee or replacement for tests.
 
 **Last check:** 2026-09-21; media unresolved; author-source reference.
 

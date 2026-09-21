@@ -138,15 +138,15 @@ A visual community directory of **TypeSafe Jev demos, repositories, agent skills
 
 These are the creators' original GitHub-hosted uploads, not re-encoded copies. A direct watch link is retained for clients that do not render a player.
 
-<h4>JevPilot — driving in a simulation</h4>
+<h4>Abide — checking project rules during an agent session</h4>
 
-<p>Jev chooses between locally generated steering and speed candidates.</p>
+<p>Check edits against natural-language project rules and ask the coding agent to repair flagged violations.</p>
 
-https://github.com/user-attachments/assets/4baef58e-54ef-4d17-9982-353a0b6e6f45
+https://github.com/user-attachments/assets/2d45f6b0-c889-474c-ab4a-8d019fdc7140
 
-<a href="https://github.com/user-attachments/assets/4baef58e-54ef-4d17-9982-353a0b6e6f45">Open recording</a> · <a href="https://github.com/standardagents/jevpilot">Repository</a> · <a href="https://github.com/standardagents/jevpilot/blob/main/README.md">Creator source</a>
+<a href="https://github.com/user-attachments/assets/2d45f6b0-c889-474c-ab4a-8d019fdc7140">Open recording</a> · <a href="https://github.com/coldteadotai/abide">Repository</a> · <a href="https://github.com/coldteadotai/abide/blob/master/README.md">Creator source</a>
 
-<sub>Standard Agents — Simulation only, not a real autonomous-driving safety system. Hosted use may need login or credits.</sub>
+<sub>Cold Tea / coldteadotai — Author recording. Rule checks are probabilistic; selected diffs and instructions enter inference requests. Not a security guarantee or replacement for tests.</sub>
 
 <h4>Jevthoven — from a prompt to editable music</h4>
 
