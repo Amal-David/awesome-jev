@@ -1,10 +1,103 @@
 # Awesome Jev
 
-**Watch the demo. Find the code. Understand the decision.**
+**From an interesting demo to code you can actually understand.**
 
-A visual community directory of **TypeSafe Jev demos, repositories, agent skills, reusable code, and practical integrations** — original creator previews from X, GitHub, and YouTube, with the implementation one click away.
+A curated starting point for TypeSafe Jev: reviewed projects, reusable skills, small code examples, and creator demos from X, GitHub, and YouTube.
 
-[Watch the demos](#watch-jev-in-action) · [Curated X index](https://github.com/Amal-David/awesome-jev/blob/main/docs/X_DEMOS.md) · [Reviewed projects](https://github.com/Amal-David/awesome-jev/blob/main/README.md) · [Full catalog](https://github.com/Amal-David/awesome-jev/blob/main/docs/CATALOG.md) · [Code examples](https://github.com/Amal-David/awesome-jev/tree/main/examples) · [Contribute a demo](https://github.com/Amal-David/awesome-jev/issues/new?template=suggest-resource.yml)
+**17 reviewed picks** — start with the source-reviewed selection, not the raw index.
+
+<a href="https://github.com/Amal-David/awesome-jev/blob/main/docs/REVIEWED.md">Browse reviewed picks</a> · <a href="https://github.com/Amal-David/awesome-jev/blob/main/docs/STATUS.md">Freshness and link health</a>
+
+**Evidence legend:** `Reviewed` = primary source inspected · `Indexed` = community listing · `Auto-discovered` = README keyword match. These labels are not security certifications.
+
+<sub>**Last discovery:** 2026-09-22T08:59:02Z (UTC). **Latest repository metadata date:** 2026-09-22. **Unavailable repositories at last check:** 13. <a href="https://github.com/Amal-David/awesome-jev/blob/main/docs/STATUS.md">Coverage, failures and run receipts</a>.</sub>
+
+**Navigate:** [Quick start](#20-second-quick-start) · [Choose a path](#choose-your-path) · [Reviewed picks](#reviewed-picks) · [Watch demos](#watch-jev-in-action) · [Search the catalog](#find-a-project) · [Contribute](#contribute)
+
+> Source-reviewed does not mean security-audited. Keep credentials private and inspect permissions before running a project.
+
+## What is Jev?
+
+Jev is TypeSafe AI's model for answering typed questions about text or JSON: choose an option, estimate whether something is true, or score it against a rubric. Use it for bounded decisions such as routing, ranking, or selecting an agent's next action; use a generative LLM when you need new prose, code, or an open-ended plan. Your application still controls permissions, validation, and execution. [Official documentation](https://docs.typesafe.ai) · [Official Python quick-start source](https://github.com/typesafe-ai/typesafe-sdk-python#quickstart).
+
+## 20-second quick-start
+
+**JSON in → one typed decision out.** With `typesafe-sdk` installed and `TYPESAFE_API_KEY` set, this makes one billable API request:
+
+```python
+from typesafe_sdk import Choice, TypeSafeClient
+
+with TypeSafeClient() as client:
+    result = client.system_one(
+        state={"document": "I was charged twice."},
+        questions={"team": Choice(
+            instructions="Which team should handle this ticket?",
+            criteria={"billing": None, "technical": None, "other": None},
+        )},
+    )
+print(result.choices["team"].choice)  # e.g. billing; actual output can differ
+```
+
+**No key yet?** Clone this repository and run `python3 examples/route_ticket.py` to inspect an offline request without making an API call. [Setup and next steps](https://github.com/Amal-David/awesome-jev/blob/main/docs/START_HERE.md#build-your-first-typed-classifier) · [More question packs](https://github.com/Amal-David/awesome-jev/blob/main/examples/README.md).
+
+<a href="https://x.com/gregpr07/status/2100411066966749359"><img src="https://raw.githubusercontent.com/browser-use/jev-ultrafast/1231850a0bf1a0c0341fe408ef1668dbbfdfac46/docs/demo.gif" width="680" alt="Browser Use author recording: Jev selects a browser action and target"></a>
+
+<sub>Browser Use / @gregpr07. Author recording, not our benchmark. <a href="https://github.com/browser-use/jev-ultrafast">Implementation</a> · <a href="#watch-jev-in-action">More demos and videos</a>.</sub>
+
+## Choose your path
+
+**Build your first typed classifier →** [JSON input, a Choice question, and your first response](https://github.com/Amal-David/awesome-jev/blob/main/docs/START_HERE.md#build-your-first-typed-classifier).
+
+**Use Jev in an agent →** [Select observed actions, validate them, and keep a fallback](https://github.com/Amal-David/awesome-jev/blob/main/docs/START_HERE.md#use-jev-in-an-agent).
+
+**Explore a local alternative →** [Independent implementations, hardware requirements, and important differences](https://github.com/Amal-David/awesome-jev/blob/main/docs/START_HERE.md#explore-a-local-alternative).
+
+## Reviewed picks
+
+These are the editorial selections. Follow a project immediately, or open the full reviewed page for its concrete Jev role, source evidence, review date, and reuse notes.
+
+**Start building:** <a href="https://github.com/typesafe-ai/typesafe-sdk-js">TypeSafe JavaScript SDK</a> · <a href="https://github.com/typesafe-ai/typesafe-sdk-python">TypeSafe Python SDK</a> · <a href="https://github.com/reachjalil/jevlogs">Jev Logs</a> · <a href="https://github.com/altryne/jevify">Jevify</a> · <a href="https://github.com/typesafe-ai/skills">Official TypeSafe skill</a> · <a href="https://github.com/kitze/skillbox">Skillbox</a>.
+
+**Use it in an agent or app:** <a href="https://github.com/browser-use/jev-ultrafast">Jev Ultrafast</a> · <a href="https://github.com/thruwire/foreman">Foreman</a> · <a href="https://github.com/jkudish/jev-mcp">Jev MCP</a> · <a href="https://github.com/itsmostafa/typesafe-mcp">TypeSafe MCP</a> · <a href="https://github.com/AboveColin/HA-Jev">Home Assistant Jev</a>.
+
+**Explore games and creative tools:** <a href="https://github.com/sorrycc/typesafe-snake">Jev Plays Snake</a> · <a href="https://github.com/standardagents/jevpilot">JevPilot</a> · <a href="https://github.com/lukaske/jev-doom-agent">PROMPT FPS / Jev Doom</a> · <a href="https://github.com/fhshaik/typesafe-mario">TypeSafe Mario</a> · <a href="https://github.com/wustep/jev-playground">Jev Music Playground</a>.
+
+**Investigate local alternatives:** <a href="https://github.com/ekzhang/openjev-sglang">OpenJev SGLang</a>.
+
+<a href="https://github.com/Amal-David/awesome-jev/blob/main/docs/REVIEWED.md">All 17 reviewed picks — with evidence, dates and reuse notes</a>
+
+## Find a project
+
+**On GitHub:** open the [categorized catalog](https://github.com/Amal-David/awesome-jev/blob/main/docs/CATALOG.md), choose a heading from its outline, and use **Cmd/Ctrl+F** for a project, creator, or keyword.
+
+**Prefer filters?** The [local catalog viewer](https://github.com/Amal-David/awesome-jev/blob/main/docs/BROWSE.md) starts with reviewed picks. Search by keyword, then filter by evidence level, category, available code/skill/demo, and license. It runs without dependencies, sign-in, API keys, or a server; the viewer's data is embedded at build time. [Browse instructions](https://github.com/Amal-David/awesome-jev/blob/main/docs/BROWSE.md) · [Machine-readable catalog](https://github.com/Amal-David/awesome-jev/blob/main/data/catalog.json).
+
+## Why this exists
+
+A compelling clip often leaves the useful questions unanswered: **what did Jev decide, where is the implementation, and what can I reuse?** This directory connects the original demo to the code and separates inspected sources from the much larger discovery queue. A high raw entry count is not the goal; a shorter path to something useful is.
+
+## What belongs here?
+
+A concrete Jev integration, demo, skill, SDK, reusable snippet, tutorial, or clearly labeled independent reproduction—with a traceable primary source and a specific explanation of Jev's role. Generic type-safety libraries, unrelated projects named Jev, unsupported performance claims, and duplicate listings do not belong.
+
+Repositories are deduplicated by canonical owner/name; renamed projects should point to their successor. Maintainers can correct an entry, remove it from the reviewed selection, or exclude it from future imports. [Inclusion, deduplication, and removal policy](https://github.com/Amal-David/awesome-jev/blob/main/docs/CURATION.md).
+
+## Contribute
+
+[Suggest a demo or correction](https://github.com/Amal-David/awesome-jev/issues/new?template=suggest-resource.yml) with the original creator, a source link, what Jev decides, and any code, skill, or recording. For a PR, edit the relevant JSON source and run `python3 scripts/build.py`, then `python3 -m unittest discover -s tests -v` and `python3 scripts/build.py --check`. [Contributor guide](https://github.com/Amal-David/awesome-jev/blob/main/CONTRIBUTING.md).
+
+The four-hour workflow performs bounded discovery and rotating checks; it does not continuously inspect every website. [Freshness, unavailable repositories, media errors, and run receipts](https://github.com/Amal-David/awesome-jev/blob/main/docs/STATUS.md) distinguish actual checks from scheduled intentions.
+
+<details>
+<summary><strong>Safety, licensing, and evidence limits</strong></summary>
+
+Source review is not a security audit, successful execution test, benchmark replication, or endorsement. Inspect permissions and outbound data before installing hooks, browser extensions, or agent skills. Keep API credentials private; demos can use paid inference, privileged desktop access, or logged-in browser profiles.
+
+Recordings, illustrations, fixtures, and mock modes are labeled where known. A live-looking dashboard is not evidence of real inference or profitable trading. Independent reproductions are not official Jev weights or proof of equivalent quality.
+
+Missing licenses remain `not-checked`, `not-detected`, or `NOASSERTION`, not assumed permission to reuse. Original code and writing follow the repository's [license](https://github.com/Amal-David/awesome-jev/blob/main/LICENSE); imported metadata and linked media retain their original terms. This is an unofficial community directory, not endorsed by TypeSafe AI. [Security policy](https://github.com/Amal-David/awesome-jev/blob/main/SECURITY.md) · [Attribution](https://github.com/Amal-David/awesome-jev/blob/main/SOURCES.md).
+
+</details>
 
 <!-- MEDIA_GALLERY:START -->
 
@@ -196,20 +289,12 @@ https://github.com/user-attachments/assets/81650587-e3f1-4655-8213-ed5f6e120e9a
 
 <!-- MEDIA_GALLERY:END -->
 
-## Start here
-
-**Want to build?** Start with the [official TypeSafe skill](https://github.com/typesafe-ai/skills), [Python SDK](https://github.com/typesafe-ai/typesafe-sdk-python), [JavaScript SDK](https://github.com/typesafe-ai/typesafe-sdk-js), and [live documentation](https://docs.typesafe.ai).
-
-**Want ideas?** Browse the previews above, then follow each implementation. The [full directory](https://github.com/Amal-David/awesome-jev/blob/main/docs/CATALOG.md) also covers games, applications, MCP servers, SDKs, integrations, and independent reproductions.
-
-**Want reusable patterns?** Read the [offline-first examples](https://github.com/Amal-David/awesome-jev/blob/main/examples/README.md) and [curator skill](https://github.com/Amal-David/awesome-jev/blob/main/skills/jev-curator/SKILL.md). A useful pattern is: observed state → bounded candidates → typed judgment → validated action.
+<details>
+<summary><strong>Curated X demos: compact source index</strong></summary>
 
 ## Curated X demos
 
-Inspired by [Moritz Kremb's Jev project roundup](https://x.com/moritzkremb/status/2100895894287839255). This is a growing, separately researched selection, **not a claim that every reply in that thread has been captured**.
-
-<details>
-<summary>Open the compact X-demo index and implementation links</summary>
+Inspired by [Moritz Kremb's Jev project roundup](https://x.com/moritzkremb/status/2100895894287839255). This separately researched collection is not a claim to include every reply in the thread. [Full X index and access notes](https://github.com/Amal-David/awesome-jev/blob/main/docs/X_DEMOS.md).
 
 | Demo | What Jev does | Watch / inspect |
 |---|---|---|
@@ -221,28 +306,4 @@ Inspired by [Moritz Kremb's Jev project roundup](https://x.com/moritzkremb/statu
 
 </details>
 
-**Evidence matters:** the linked project documentation was inspected. X URLs are indexed social references where the original post could not be fully retrieved. A preview-metadata check does not upgrade that evidence status. No demo was executed and no timing, cost, or trading claim was independently reproduced. [Read the source-access notes and reuse patterns](https://github.com/Amal-David/awesome-jev/blob/main/docs/X_DEMOS.md).
-
-## What makes this directory useful
-
-Every editorial selection should answer three questions: **what does Jev decide, where is the implementation, and what can you reuse?** Missing source code stays missing; a social video is not an open-source license; a mock or replay is not a live model result.
-
-The larger catalog separates **primary-source-reviewed**, **community-indexed**, and **automatically README-matched** entries. Those labels describe evidence, not a security certification or an endorsement. Independent reproductions are not official Jev weights or proof of equivalent quality.
-
-## About Jev
-
-Jev is TypeSafe AI's typed-decision model: application code supplies state and questions, and consumes typed judgments rather than generated prose. The surrounding code still owns permissions, exact calculations, legal actions, validation, and consequences. Consult the [official docs](https://docs.typesafe.ai) for the current API and model behavior.
-
-This repository is maintained by [Amal-David](https://github.com/Amal-David) and community contributors. It is **unofficial** and not endorsed by TypeSafe AI. Original directory scripts, examples, and writing use the repository's [MIT terms](https://github.com/Amal-David/awesome-jev/blob/main/LICENSE); imported metadata and linked projects retain their own licenses. Embedded media stay hosted by, and attributed to, their creators/platforms.
-
-## Updated every four hours
-
-The [repository-native refresh workflow](https://github.com/Amal-David/awesome-jev/actions/workflows/curate.yml) searches public GitHub sources, refreshes the broad catalog, and validates the editorial homepage. Media metadata and source availability are checked at most daily; the four-hour render preserves previews and watch links. It does not run discovered projects, install skills, trade, or spend model credits. GitHub can delay scheduled starts; the run history shows actual executions.
-
-X curation is an editorial input, not an authenticated X scraper. New selections go into [data/x_demos.json](https://github.com/Amal-David/awesome-jev/blob/main/data/x_demos.json), and visual selections into [data/media.json](https://github.com/Amal-David/awesome-jev/blob/main/data/media.json). The generators keep the gallery and index consistent without replacing them with bulk discoveries. See [media provenance and maintenance](https://github.com/Amal-David/awesome-jev/blob/main/docs/MEDIA.md).
-
-## Contribute
-
-Found a good demo? [Submit its original post, preview, repository, and concrete Jev role](https://github.com/Amal-David/awesome-jev/issues/new?template=suggest-resource.yml), or open a PR. Include the original creator, direct evidence, any mock/offline mode, privacy requirements, and license information. See [CONTRIBUTING.md](https://github.com/Amal-David/awesome-jev/blob/main/CONTRIBUTING.md) and [SECURITY.md](https://github.com/Amal-David/awesome-jev/blob/main/SECURITY.md).
-
-**Star this repository to bookmark the collection.** A useful contribution is even better: one working source link, one corrected claim, or one well-explained demo.
+**Star to bookmark the reviewed collection.** A corrected source link or a well-explained contribution is just as valuable.

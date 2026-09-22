@@ -240,6 +240,6 @@ Checked means a bounded public metadata/media request succeeded, not that the vi
 
 ## Maintenance
 
-Edit `data/media.json` for editorial changes. `python3 scripts/curate_media.py --refresh` performs bounded, unauthenticated requests to approved public hosts; it reads no API keys. `python3 scripts/curate_media.py` renders offline. Run it before `curate_x.py`. `--check` validates generated output without network access. Metadata checks rotate daily; the four-hour workflow preserves the gallery and last-known previews.
+Edit `data/media.json` for editorial changes. `python3 scripts/build.py --refresh-media` performs bounded, unauthenticated requests to approved public hosts; it reads no API keys. `python3 scripts/build.py` renders offline. The unified builder also regenerates both READMEs and the local viewer. `--check` validates generated output without network access. Metadata checks rotate daily; the four-hour workflow preserves the gallery and last-known previews.
 
 Discovery leads included the attributed media index in [wuyoscar/jev-skill](https://github.com/wuyoscar/jev-skill/blob/main/docs/media/README.md) and [AppitStudio/awesome-jev](https://github.com/AppitStudio/awesome-jev). Each GitHub visual above is linked back to its original project README. YouTube metadata is checked directly using its public oEmbed endpoint when available. No third-party code, skill, or installation command is executed.

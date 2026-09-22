@@ -76,4 +76,4 @@ User-supplied discovery seed. The root post introduces a roundup of Jev projects
 
 Edit `data/x_demos.json`, not the generated tables. Keep canonical X status URLs and direct author/project evidence. Distinguish a post reference from a fully reviewed post; never infer that every entry belongs to the same thread. Do not invent repositories, copy unlicensed media, or treat reported timing, cost, or profit as independently reproduced.
 
-Run `python3 scripts/curate_x.py` and `python3 scripts/curate_x.py --check`. The four-hour workflow validates and preserves this section; it does not authenticate to X or autonomously scrape every thread reply. New editorial selections require source review.
+Run `python3 scripts/build.py` and `python3 scripts/build.py --check`. The four-hour workflow validates and preserves this section; it does not authenticate to X or autonomously scrape every thread reply. New editorial selections require source review.
