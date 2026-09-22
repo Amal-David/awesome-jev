@@ -371,7 +371,7 @@ The [full catalog](https://github.com/Amal-David/awesome-jev/blob/main/docs/CATA
 <details>
 <summary>Refresh status</summary>
 
-**Last discovery:** 2026-09-22T13:30:23Z (UTC). **Latest repository metadata date:** 2026-09-22. **Unavailable repositories at last check:** 13. <a href="https://github.com/Amal-David/awesome-jev/blob/main/docs/STATUS.md">Coverage, failures and run receipts</a>.
+**Last discovery:** 2026-09-22T19:47:53Z (UTC). **Latest repository metadata date:** 2026-09-22. **Unavailable repositories at last check:** 14. <a href="https://github.com/Amal-David/awesome-jev/blob/main/docs/STATUS.md">Coverage, failures and run receipts</a>.
 
 The four-hour job updates the discovery catalog and checks a rotating set of links. It does not choose projects for the README. [Check history and coverage](https://github.com/Amal-David/awesome-jev/blob/main/docs/STATUS.md).
 
