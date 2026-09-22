@@ -135,7 +135,7 @@ class NavigationTests(unittest.TestCase):
         self.assertIn('primary-source-reviewed', out)
 
     def test_viewer_has_no_unsafe_dom_html_assignment(self):
-        text = (ROOT / 'templates/catalog.html').read_text()
+        text = (ROOT / 'templates/catalog.html').read_text(encoding='utf-8')
         self.assertNotIn('.innerHTML', text)
         self.assertNotIn('fetch(', text)
         self.assertIn('textContent', text)
