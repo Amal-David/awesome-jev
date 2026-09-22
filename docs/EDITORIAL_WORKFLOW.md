@@ -1,30 +1,41 @@
-# Maintain the homepage and X collection
+# Maintain the directory's navigation and content
 
-The two README surfaces have different jobs:
+[Start here](../README.md) · [Contribute](../CONTRIBUTING.md) · [Curation rules](CURATION.md)
 
-| Surface | Source of truth | Generator |
-|---|---|---|
-| `.github/README.md` — GitHub's repository landing page | `templates/README.md` and `data/x_demos.json` | `scripts/curate_x.py` |
-| Root `README.md` — reviewed-project inventory | `data/curated.json` plus the merged catalog | `scripts/curate.py` |
-| `docs/X_DEMOS.md` — social demo evidence and reuse notes | `data/x_demos.json` | `scripts/curate_x.py` |
-| `docs/CATALOG.md` — broad categorized directory | `data/catalog.json` | `scripts/curate.py` |
+## One homepage, not two competing READMEs
 
-GitHub displays the `.github` README before the root README. This deliberate separation keeps a short, useful editorial homepage without deleting or fighting the existing automated inventory. See [GitHub's README documentation](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes).
+Root `README.md` and `.github/README.md` are generated identically from `templates/README.md`, reviewed catalog data, X sources and media. GitHub prefers the `.github` README, so synchronizing both also fixes the view reached through direct root links. [GitHub README precedence](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes).
 
-## Add an X demo
+The hierarchy is: reviewed-first summary and evidence legend → plain explanation → tiny quick-start → one visual → three task paths → reviewed links → search/filter help → purpose and inclusion policy → contribution/freshness → collapsible safety detail → full media gallery and compact X index.
 
-Add a record to `data/x_demos.json`. Use a canonical status URL, the correct creator and repository, a direct primary project source, a concrete Jev role, a reusable pattern, limitations, and an accurate source-review date. Keep `post_status` as `indexed-reference` when only a secondary index or existing attribution identifies the social post. Use `primary-post-reviewed` only after actually inspecting the original post. Source-code review, social-post review, and live execution are different things.
+## Source and generated views
 
-Roundups belong in the separate `roundups` array. Do not treat the root of a thread as proof that all its replies have been captured, or assume separately discovered demos are members of that thread.
+| Source | Generated surface |
+|---|---|
+| `templates/README.md` plus source catalogs | Both READMEs |
+| `data/curated.json` | `docs/REVIEWED.md` |
+| Merged catalog plus `templates/catalog.html` | `docs/CATALOG.md` and the local searchable `docs/catalog.html` |
+| `data/x_demos.json` | `docs/X_DEMOS.md` and the homepage's compact X index |
+| `data/media.json` and access receipts | Preserved homepage gallery and `docs/MEDIA.md` |
+| Completed discovery receipt and rolling check metadata | `docs/STATUS.md` and the top freshness line |
+| `data/exclusions.json` | Excluded from future generated/imported listings |
+
+The unified `scripts/build.py` invokes the existing component functions in the correct order. The older component CLIs retain legacy output layouts; do not use them to publish. Templates remain editorial inputs, not files rewritten by network refresh.
+
+## Add an X demo or visual
+
+Keep canonical status URLs, correct creator/repository attribution, direct primary evidence, a concrete Jev role, reuse pattern, limitations and an accurate review date. `indexed-reference` means the source post was not fully retrieved; only use `primary-post-reviewed` after inspecting it. Roundups have a separate array and do not establish coverage of all replies.
+
+A media check means a bounded request succeeded, not that the video was watched or its claims reproduced. Keep known mock/fixture/archived/illustration labels and original source links. Do not install discovered skills or copy social videos without permission.
+
+## Regenerate and verify
 
 ```sh
-python3 scripts/curate_x.py
-python3 scripts/curate_x.py --check
+python3 scripts/build.py
 python3 -m unittest discover -s tests -v
+python3 scripts/build.py --check
 ```
 
-Commit the source data/template and both generated editorial files. The four-hour refresh runs the same generator and commits only explicitly allowed generated outputs. It does not log into X, scrape hidden replies, install third-party projects, or spend inference credits. The broader catalog's independent discovery continues separately.
+Everything above is offline. `--refresh` explicitly discovers public GitHub sources and records a completion time; `--refresh-media` explicitly checks public media. The four-hour workflow runs both, validates all surfaces, and publishes an allowlisted set of generated files without force-pushing.
 
-## Publish writing responsibly
-
-`DEVTO_DRAFT.md` is a draft, not a live DEV post. Do not auto-publish it, claim an account was created, or imply human experimentation that has not happened. `REPOSITORY_SETTINGS.md` contains prepared sidebar metadata, not proof that the GitHub About fields were changed. Keep work status accurate in subsequent updates.
+`DEVTO_DRAFT.md` remains an unpublished draft. `REPOSITORY_SETTINGS.md` remains prepared sidebar metadata unless a settings action actually succeeds. The local HTML viewer is not a deployed website. Keep these distinctions explicit in updates.

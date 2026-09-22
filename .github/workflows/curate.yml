@@ -12,6 +12,7 @@ on:
       - 'data/curated.json'
       - 'data/x_demos.json'
       - 'data/media.json'
+      - 'data/exclusions.json'
       - 'templates/**'
       - 'examples/**'
       - '.github/workflows/curate.yml'
@@ -35,24 +36,13 @@ jobs:
           fetch-depth: 0
       - name: Run offline tests
         run: python3 -m unittest discover -s tests -v
-      - name: Render catalog for editorial changes
-        if: github.event_name == 'push'
-        run: python3 scripts/curate.py
-      - name: Discover, verify metadata, and render
-        if: github.event_name != 'push'
+      - name: Discover and build the complete directory
         env:
           GITHUB_TOKEN: ${{ github.token }}
           PYTHONUNBUFFERED: '1'
-        run: python3 scripts/curate.py --refresh
-      - name: Check public media and render the visual gallery
-        run: python3 scripts/curate_media.py --refresh
-      - name: Render editorial homepage and curated X demos
-        run: python3 scripts/curate_x.py
-      - name: Validate generated catalog and editorial pages
-        run: |
-          python3 scripts/curate.py --check
-          python3 scripts/curate_media.py --check
-          python3 scripts/curate_x.py --check
+        run: python3 scripts/build.py --refresh --refresh-media
+      - name: Validate every generated surface offline
+        run: python3 scripts/build.py --check
       - name: Commit and verify directory updates
         env:
           DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
