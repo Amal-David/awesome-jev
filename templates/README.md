@@ -8,7 +8,7 @@ A curated starting point for TypeSafe Jev: reviewed projects, reusable skills, s
 
 <sub><!-- FRESHNESS --></sub>
 
-**Navigate:** [Quick start](#20-second-quick-start) · [Choose a path](#choose-your-path) · [Reviewed picks](#reviewed-picks) · [OpenRouter winners](#openrouter-community-winners) · [Watch demos](#watch-jev-in-action) · [Search the catalog](#find-a-project) · [Contribute](#contribute)
+**Navigate:** [Quick start](#20-second-quick-start) · [Choose a path](#choose-your-path) · [CUA & drivers](#computer-use-and-drivers) · [Reviewed picks](#reviewed-picks) · [OpenRouter winners](#openrouter-community-winners) · [Watch demos](#watch-jev-in-action) · [Search the catalog](#find-a-project) · [Contribute](#contribute)
 
 > Source-reviewed does not mean security-audited. Keep credentials private and inspect permissions before running a project.
 
@@ -45,6 +45,14 @@ print(result.choices["team"].choice)  # e.g. billing; actual output can differ
 **Use Jev in an agent →** [Select observed actions, validate them, and keep a fallback](https://github.com/Amal-David/awesome-jev/blob/main/docs/START_HERE.md#use-jev-in-an-agent).
 
 **Explore a local alternative →** [Independent implementations, hardware requirements, and important differences](https://github.com/Amal-David/awesome-jev/blob/main/docs/START_HERE.md#explore-a-local-alternative).
+
+## Computer use and drivers
+
+[Computer-use map: integrations, drivers, skills, and local alternatives](https://github.com/Amal-David/awesome-jev/blob/main/docs/CUA.md).
+
+**Native/desktop:** [Cua Driver + jev-use](https://github.com/trycua/cua/tree/main/libs/cua-driver/examples/jev-use), [Jev Cua](https://github.com/Eronmmer/jev-cua), and [jev-bot](https://github.com/stoopid-computers/jev-bot). **Browser:** compare Jev Ultrafast, the smaller browser skill, Jev Browser, and the existing-connection Codex skill in the map.
+
+Keep the layers separate: **Jev selects; the driver executes; application code verifies.** Browser Harness and Cua Driver are supporting runtimes, not Jev models. CUA-S1-FORMS and Jevlike are independent local-model projects, not official Jev weights. A locally installed agent may still call hosted Jev.
 
 ## Reviewed picks
 

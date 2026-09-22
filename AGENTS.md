@@ -37,3 +37,9 @@ For a network pass: `GITHUB_TOKEN=... python3 scripts/build.py --refresh --refre
 Use canonical repo links and verified deep code/skill links. Missing license does not imply permission. Do not copy third-party media, code, weights, datasets, or game assets without appropriate rights. Review sensitive data boundaries and author-reported measurements.
 
 Fetch the latest branch head before writing and publish only meaningful corrections/additions or real refresh receipts. The existing four-hour workflow performs bounded discovery and metadata checks, not autonomous editorial judgment. Check its actual result before claiming success. Do not claim a DEV account, external post, hosted viewer, or About-sidebar change without a successful corresponding action.
+
+## Computer-use dependency coverage
+
+Read `docs/CUA.md` when curating browser or native-desktop work. Inspect the actual execution backend, adapter/example subdirectories, skill, and observation/verification boundaries, not only repository names containing Jev. Follow first-party dependency links and record a concrete relationship before adding adjacent infrastructure.
+
+Use `kind: adjacent-infrastructure` for supporting drivers and `kind: independent-reproduction` for independently trained/local models. Optional hosted Jev routing must remain distinct from local native execution. Local execution does not imply local Jev inference. Keep separate monorepo components visible through deep links without duplicating their root repository. Do not promote Indexed entries solely because they appear in the media gallery or claim complete coverage of the CUA ecosystem. An intentional removal must update the coverage guide and its regression checks as well as the editorial seed.
