@@ -4,15 +4,15 @@
 
 A curated starting point for TypeSafe Jev: reviewed projects, reusable skills, small code examples, and creator demos from X, GitHub, and YouTube.
 
-**22 reviewed picks** — start with the source-reviewed selection, not the raw index.
+**33 reviewed picks** — start with the source-reviewed selection, not the raw index.
 
 <a href="https://github.com/Amal-David/awesome-jev/blob/main/docs/REVIEWED.md">Browse reviewed picks</a> · <a href="https://github.com/Amal-David/awesome-jev/blob/main/docs/STATUS.md">Freshness and link health</a>
 
 **Evidence legend:** `Reviewed` = primary source inspected · `Indexed` = community listing · `Auto-discovered` = README keyword match. These labels are not security certifications.
 
-<sub>**Last discovery:** 2026-09-22T09:44:42Z (UTC). **Latest repository metadata date:** 2026-09-22. **Unavailable repositories at last check:** 13. <a href="https://github.com/Amal-David/awesome-jev/blob/main/docs/STATUS.md">Coverage, failures and run receipts</a>.</sub>
+<sub>**Last discovery:** 2026-09-22T10:34:05Z (UTC). **Latest repository metadata date:** 2026-09-22. **Unavailable repositories at last check:** 13. <a href="https://github.com/Amal-David/awesome-jev/blob/main/docs/STATUS.md">Coverage, failures and run receipts</a>.</sub>
 
-**Navigate:** [Quick start](#20-second-quick-start) · [Choose a path](#choose-your-path) · [Reviewed picks](#reviewed-picks) · [OpenRouter winners](#openrouter-community-winners) · [Watch demos](#watch-jev-in-action) · [Search the catalog](#find-a-project) · [Contribute](#contribute)
+**Navigate:** [Quick start](#20-second-quick-start) · [Choose a path](#choose-your-path) · [CUA & drivers](#computer-use-and-drivers) · [Reviewed picks](#reviewed-picks) · [OpenRouter winners](#openrouter-community-winners) · [Watch demos](#watch-jev-in-action) · [Search the catalog](#find-a-project) · [Contribute](#contribute)
 
 > Source-reviewed does not mean security-audited. Keep credentials private and inspect permissions before running a project.
 
@@ -52,19 +52,27 @@ print(result.choices["team"].choice)  # e.g. billing; actual output can differ
 
 **Explore a local alternative →** [Independent implementations, hardware requirements, and important differences](https://github.com/Amal-David/awesome-jev/blob/main/docs/START_HERE.md#explore-a-local-alternative).
 
+## Computer use and drivers
+
+[Computer-use map: integrations, drivers, skills, and local alternatives](https://github.com/Amal-David/awesome-jev/blob/main/docs/CUA.md).
+
+**Native/desktop:** [Cua Driver + jev-use](https://github.com/trycua/cua/tree/main/libs/cua-driver/examples/jev-use), [Jev Cua](https://github.com/Eronmmer/jev-cua), and [jev-bot](https://github.com/stoopid-computers/jev-bot). **Browser:** compare Jev Ultrafast, the smaller browser skill, Jev Browser, and the existing-connection Codex skill in the map.
+
+Keep the layers separate: **Jev selects; the driver executes; application code verifies.** Browser Harness and Cua Driver are supporting runtimes, not Jev models. CUA-S1-FORMS and Jevlike are independent local-model projects, not official Jev weights. A locally installed agent may still call hosted Jev.
+
 ## Reviewed picks
 
 These are the editorial selections. Follow a project immediately, or open the full reviewed page for its concrete Jev role, source evidence, review date, and reuse notes.
 
 **Start building:** <a href="https://github.com/typesafe-ai/typesafe-sdk-js">TypeSafe JavaScript SDK</a> · <a href="https://github.com/typesafe-ai/typesafe-sdk-python">TypeSafe Python SDK</a> · <a href="https://github.com/reachjalil/jevlogs">Jev Logs</a> · <a href="https://github.com/altryne/jevify">Jevify</a> · <a href="https://github.com/typesafe-ai/skills">Official TypeSafe skill</a> · <a href="https://github.com/kitze/skillbox">Skillbox</a>.
 
-**Use it in an agent or app:** <a href="https://github.com/browser-use/jev-ultrafast">Jev Ultrafast</a> · <a href="https://github.com/thruwire/foreman">Foreman</a> · <a href="https://github.com/jkudish/jev-mcp">Jev MCP</a> · <a href="https://github.com/caio0452/jev_search">jev_search</a> · <a href="https://github.com/itsmostafa/typesafe-mcp">TypeSafe MCP</a> · <a href="https://github.com/cairodavila/tisco">tisco</a> · <a href="https://obstudio.org/tools/vibe-domain/">Vibe Domain</a> · <a href="https://github.com/AboveColin/HA-Jev">Home Assistant Jev</a>.
+**Use it in an agent or app:** <a href="https://github.com/trycua/cua">Cua Driver + jev-use</a> · <a href="https://github.com/jkudish/jev-browser">Jev Browser (MCP, CLI, library)</a> · <a href="https://github.com/zurfyx/jev-browser-skill">Jev Browser Skill</a> · <a href="https://github.com/wy-coliney/jev-browser-use">Jev Browser Use (existing Codex connection)</a> · <a href="https://github.com/Eronmmer/jev-cua">Jev Cua (Codex/Waku)</a> · <a href="https://github.com/browser-use/jev-ultrafast">Jev Ultrafast</a> · <a href="https://github.com/moritzkremb/jev-voice-browser">Jev voice browser</a> · <a href="https://github.com/stoopid-computers/jev-bot">jev-bot (@compootor)</a> · <a href="https://github.com/awlevin/typesafe-computer-use">TypeSafe computer use (macOS)</a> · <a href="https://github.com/thruwire/foreman">Foreman</a> · <a href="https://github.com/jkudish/jev-mcp">Jev MCP</a> · <a href="https://github.com/caio0452/jev_search">jev_search</a> · <a href="https://github.com/itsmostafa/typesafe-mcp">TypeSafe MCP</a> · <a href="https://github.com/cairodavila/tisco">tisco</a> · <a href="https://obstudio.org/tools/vibe-domain/">Vibe Domain</a> · <a href="https://github.com/browser-use/browser-harness">Browser Harness (supporting driver)</a> · <a href="https://github.com/AboveColin/HA-Jev">Home Assistant Jev</a>.
 
 **Explore games and creative tools:** <a href="https://jevchess.com/">Jev Chess</a> · <a href="https://github.com/sorrycc/typesafe-snake">Jev Plays Snake</a> · <a href="https://github.com/ShiftSad/mage">JevAI for XMage</a> · <a href="https://github.com/standardagents/jevpilot">JevPilot</a> · <a href="https://github.com/lukaske/jev-doom-agent">PROMPT FPS / Jev Doom</a> · <a href="https://github.com/fhshaik/typesafe-mario">TypeSafe Mario</a> · <a href="https://github.com/wustep/jev-playground">Jev Music Playground</a>.
 
-**Investigate local alternatives:** <a href="https://github.com/ekzhang/openjev-sglang">OpenJev SGLang</a>.
+**Investigate local alternatives:** <a href="https://huggingface.co/cua-ai/cua-s1-forms">CUA-S1-FORMS (independent specialist)</a> · <a href="https://github.com/vinnylarouge/jevlike">Jevlike (independent option scorer)</a> · <a href="https://github.com/ekzhang/openjev-sglang">OpenJev SGLang</a>.
 
-<a href="https://github.com/Amal-David/awesome-jev/blob/main/docs/REVIEWED.md">All 22 reviewed picks — with evidence, dates and reuse notes</a>
+<a href="https://github.com/Amal-David/awesome-jev/blob/main/docs/REVIEWED.md">All 33 reviewed picks — with evidence, dates and reuse notes</a>
 
 ## OpenRouter community winners
 
