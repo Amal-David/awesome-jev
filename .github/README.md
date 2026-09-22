@@ -10,7 +10,7 @@ A curated starting point for TypeSafe Jev: reviewed projects, reusable skills, s
 
 **Evidence legend:** `Reviewed` = primary source inspected · `Indexed` = community listing · `Auto-discovered` = README keyword match. These labels are not security certifications.
 
-<sub>**Last discovery:** 2026-09-22T10:34:05Z (UTC). **Latest repository metadata date:** 2026-09-22. **Unavailable repositories at last check:** 13. <a href="https://github.com/Amal-David/awesome-jev/blob/main/docs/STATUS.md">Coverage, failures and run receipts</a>.</sub>
+<sub>**Last discovery:** 2026-09-22T13:30:23Z (UTC). **Latest repository metadata date:** 2026-09-22. **Unavailable repositories at last check:** 13. <a href="https://github.com/Amal-David/awesome-jev/blob/main/docs/STATUS.md">Coverage, failures and run receipts</a>.</sub>
 
 **Navigate:** [Quick start](#20-second-quick-start) · [Choose a path](#choose-your-path) · [CUA & drivers](#computer-use-and-drivers) · [Reviewed picks](#reviewed-picks) · [OpenRouter winners](#openrouter-community-winners) · [Watch demos](#watch-jev-in-action) · [Search the catalog](#find-a-project) · [Contribute](#contribute)
 

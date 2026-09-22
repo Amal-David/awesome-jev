@@ -6,11 +6,11 @@
 
 | Measure | Recorded value |
 |---|---|
-| Reviewed / indexed / auto-discovered | 33 / 896 / 471 |
-| Catalog entries (not all reviewed) | 1400 |
-| Last completed discovery pass (UTC) | 2026-09-22T10:34:05Z |
+| Reviewed / indexed / auto-discovered | 33 / 896 / 492 |
+| Catalog entries (not all reviewed) | 1421 |
+| Last completed discovery pass (UTC) | 2026-09-22T13:30:23Z |
 | Latest rotating repository metadata check | 2026-09-22 |
-| Repositories with a recorded metadata check | 1311 / 1311 |
+| Repositories with a recorded metadata check | 1332 / 1332 |
 | Repositories unavailable at their last check (404/410) | 13 |
 | Media records with a latest-attempt error | 1 |
 | Editorial exclusions | 0 |
@@ -21,7 +21,7 @@ Repository checks rotate: the newest check date does not mean every entry was ch
 
 The discovery timestamp advances only after a network discovery pass completes. An offline README rebuild, test run or media-only refresh never advances it. The Actions result, not the cron expression, establishes that a workflow ran successfully.
 
-<a href="https://github.com/Amal-David/awesome-jev/actions/runs/35716557216">Discovery run receipt</a>
+<a href="https://github.com/Amal-David/awesome-jev/actions/runs/35733676574">Discovery run receipt</a>
 
 <a href="https://github.com/Amal-David/awesome-jev/actions/workflows/curate.yml">All refresh runs</a>
 
