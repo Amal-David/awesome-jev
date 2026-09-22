@@ -24319,6 +24319,24 @@
     "url": "https://github.com/reycn/smart-switch"
   },
   {
+    "category": "apps",
+    "code": "https://github.com/antonio-ivanovski/spliit-cloud/blob/908ea55e7772940ae2a76ae516021abc32326d64/apps/api/src/lib/ai/system-one-categorize.ts",
+    "demo": "https://spliit.cloud/",
+    "description": "After local dictionary and group-history misses, an optional Jev Choice categorizes a single expense or bulk-review candidates; code applies a confidence floor before offering reviewable suggestions.",
+    "evidence_level": "primary-source-reviewed",
+    "kind": "optional-integration",
+    "license": "MIT",
+    "name": "Spliit Cloud",
+    "notes": "Submitted by the Spliit Cloud maintainer. Single suggestions send the truncated title, language, group name/currency, and recent title/category pairs; bulk runs add expense dates, confirmed/recent examples, title-matched rejected categories, and opt-in nearby expenses to the configured System One endpoint; credentials remain server-side and suggestion paths log no titles. Malformed Choice answers become no suggestion; low-confidence or no-fit results become no suggestion, single runs are opt-in and bulk runs are admin-gated. The hosted instance's active category engine was not verified and no paid inference call was made for this review.",
+    "repo": "antonio-ivanovski/spliit-cloud",
+    "reviewed": "2026-09-24",
+    "sources": [
+      "https://github.com/antonio-ivanovski/spliit-cloud/blob/908ea55e7772940ae2a76ae516021abc32326d64/README.md#deduce-category-from-title",
+      "https://github.com/antonio-ivanovski/spliit-cloud/blob/6d9bb03a8b54221859da14ee812a427b21c436b7/README.md#deduce-category-from-title"
+    ],
+    "url": "https://github.com/antonio-ivanovski/spliit-cloud"
+  },
+  {
     "archived": false,
     "category": "apps",
     "description": "Using Apple's Neural Engine as a fast and free local \"System One\" Decision Engine (macOS 27) - \"Honey, we have Jev at home\"",
