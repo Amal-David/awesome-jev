@@ -50,6 +50,20 @@ def link(label: str, url: str) -> str:
     return f'[{text(label)}]({quote(url, safe=":/?&=#%+@,;-._~")})'
 
 
+def project_link(item: dict) -> tuple[str, str]:
+    """Exactly one known repository or public project URL; never invent missing code."""
+    repo, url = item.get('repo'), item.get('url')
+    if bool(repo) == bool(url):
+        raise ValueError('Use exactly one repo or project url')
+    if repo:
+        if not isinstance(repo, str) or not REPO.fullmatch(repo) or any(p in ('.', '..') for p in repo.split('/')):
+            raise ValueError('Invalid repository')
+        return 'repo', 'https://github.com/' + repo
+    if not safe_url(url):
+        raise ValueError('Unsafe project URL')
+    return 'project', url
+
+
 def validate(data: dict) -> None:
     if not isinstance(data, dict) or data.get('version') != 1:
         raise ValueError('Expected X catalog version 1')
@@ -61,7 +75,7 @@ def validate(data: dict) -> None:
     for item in data['demos']:
         if not isinstance(item, dict):
             raise ValueError('Each demo must be an object')
-        for field in ('id', 'name', 'author', 'post', 'repo', 'source', 'description', 'pattern', 'notes', 'reviewed', 'post_status'):
+        for field in ('id', 'name', 'author', 'post', 'source', 'description', 'pattern', 'notes', 'reviewed', 'post_status'):
             if not isinstance(item.get(field), str) or not item[field].strip():
                 raise ValueError('Missing demo field: ' + field)
         if not re.fullmatch(r'[a-z0-9]+(?:-[a-z0-9]+)*', item['id']) or item['id'] in seen_ids:
@@ -71,13 +85,22 @@ def validate(data: dict) -> None:
         if ident in seen_posts:
             raise ValueError('Duplicate X post')
         seen_posts.add(ident)
-        if not REPO.fullmatch(item['repo']) or any(p in ('.', '..') for p in item['repo'].split('/')):
-            raise ValueError('Invalid repository')
-        expected = 'https://github.com/' + item['repo'] + '/'
-        if not safe_url(item['source']) or not item['source'].startswith(expected):
-            raise ValueError('Evidence must belong to the linked repository')
+        kind, target = project_link(item)
+        if not safe_url(item['source']):
+            raise ValueError('Unsafe project evidence')
+        if kind == 'repo':
+            if not item['source'].startswith(target + '/'):
+                raise ValueError('Evidence must belong to the linked repository')
+        else:
+            source, project = urlsplit(item['source']), urlsplit(target)
+            base_path = project.path.rstrip('/')
+            if (source.hostname != project.hostname or
+                    not (source.path.rstrip('/') == base_path or source.path.startswith(base_path + '/'))):
+                raise ValueError('Evidence must belong to the linked project')
         if item['post_status'] not in STATUS:
             raise ValueError('Unknown post verification status')
+        if 'post_access' in item and (not isinstance(item['post_access'], str) or not item['post_access'].strip()):
+            raise ValueError('Post access notes must be nonempty text')
         date = dt.date.fromisoformat(item['reviewed'])
         if date.isoformat() != item['reviewed'] or date > dt.datetime.now(dt.timezone.utc).date():
             raise ValueError('Invalid source review date')
@@ -94,8 +117,8 @@ def validate(data: dict) -> None:
 def table(demos: list[dict]) -> str:
     lines = ['| Demo | What Jev does | Watch / inspect |', '|---|---|---|']
     for item in demos:
-        urls = ' · '.join((link('X demo', item['post']), link('repo', 'https://github.com/' + item['repo']),
-                            link('source', item['source'])))
+        kind, target = project_link(item)
+        urls = ' · '.join((link('X demo', item['post']), link(kind, target), link('source', item['source'])))
         lines.append(f"| **{text(item['name'])}** — {text(item['author'])} | {text(item['description'])} | {urls} |")
     return '\n'.join(lines)
 
@@ -107,23 +130,25 @@ def render(data: dict, template: str) -> tuple[str, str]:
     rows = table(data['demos'])
     home = template.replace(MARKER, rows).rstrip() + '\n'
     lines = ['# Curated X demos', '',
-             '[Repository homepage](https://github.com/Amal-David/awesome-jev#readme) · [JSON source](../data/x_demos.json)', '',
-             'Watch the original post, then inspect the implementation. The project descriptions below are based on the linked authors\' repository documentation. They are not live execution tests or security endorsements.', '',
-             '## Roundup that seeded this collection', '']
+             '[Repository homepage](https://github.com/Amal-David/awesome-jev#readme) · [JSON source](../data/x_demos.json) · [OpenRouter winner context](OPENROUTER_SHOWCASE.md)', '',
+             'Open the publisher post, then inspect the linked repository or project page. Website-only demos are labeled project, not source code. These are not live execution tests or security endorsements.', '',
+             '## Roundups and publisher showcases', '']
     for item in data['roundups']:
         lines += [link(item['name'], item['post']), '', text(item['notes']), '']
     lines += ['## Demos and code', '', rows, '', '## Reuse patterns and evidence', '']
     for item in data['demos']:
-        status = ('Original post inspected' if item['post_status'] == 'primary-post-reviewed'
+        status = ('Original post text inspected' if item['post_status'] == 'primary-post-reviewed'
                   else 'X URL is an indexed social reference; the original post was not fully retrievable in this review')
+        if item.get('post_access'):
+            status += '. ' + text(item['post_access'])
         lines += ['### ' + text(item['name']), '',
                   '**Pattern:** ' + text(item['pattern']), '',
                   '**Source review:** ' + text(item['reviewed']) + '. ' + link('Primary project source', item['source']) + '.', '',
                   '**Post access:** ' + status + '.', '',
                   '**Limitations:** ' + text(item['notes']), '']
     lines += ['## Curation rules', '',
-              'Edit `data/x_demos.json`, not the generated tables. Keep canonical X status URLs and direct author/project evidence. Distinguish a post reference from a fully reviewed post; never infer that every entry belongs to the same thread. Do not invent repositories, copy unlicensed media, or treat reported timing, cost, or profit as independently reproduced.', '',
-              'Run `python3 scripts/curate_x.py` and `python3 scripts/curate_x.py --check`. The four-hour workflow validates and preserves this section; it does not authenticate to X or autonomously scrape every thread reply. New editorial selections require source review.', '']
+              'Edit `data/x_demos.json`, not the generated tables. Use exactly one `repo` or public project `url`, plus direct evidence from that repository or project. Keep canonical X status URLs and original creator attribution. Record mirror access in `post_access`; a readable publisher post is not live-demo verification. Missing code stays missing. Do not infer that unrelated entries belong to the same thread, copy unlicensed media, or present reported timings as reproduced.', '',
+              'Run `python3 scripts/build.py` and `python3 scripts/build.py --check`. The four-hour workflow preserves and validates this section; it does not authenticate to X or autonomously scrape every reply. New editorial selections require source review.', '']
     return home, '\n'.join(lines)
 
 

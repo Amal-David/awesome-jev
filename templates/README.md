@@ -8,7 +8,7 @@ A curated starting point for TypeSafe Jev: reviewed projects, reusable skills, s
 
 <sub><!-- FRESHNESS --></sub>
 
-**Navigate:** [Quick start](#20-second-quick-start) · [Choose a path](#choose-your-path) · [Reviewed picks](#reviewed-picks) · [Watch demos](#watch-jev-in-action) · [Search the catalog](#find-a-project) · [Contribute](#contribute)
+**Navigate:** [Quick start](#20-second-quick-start) · [Choose a path](#choose-your-path) · [Reviewed picks](#reviewed-picks) · [OpenRouter winners](#openrouter-community-winners) · [Watch demos](#watch-jev-in-action) · [Search the catalog](#find-a-project) · [Contribute](#contribute)
 
 > Source-reviewed does not mean security-audited. Keep credentials private and inspect permissions before running a project.
 
@@ -52,6 +52,12 @@ These are the editorial selections. Follow a project immediately, or open the fu
 
 <!-- REVIEWED_PICKS -->
 
+## OpenRouter community winners
+
+[OpenRouter's 21 September 2026 showcase](https://x.com/OpenRouter/status/2102125748723339774) named five projects: [JevAI for XMage](https://github.com/ShiftSad/mage/tree/master/Mage.Server.Plugins/Mage.Player.JevAI), [Jev Chess](https://jevchess.com/), [tisco](https://github.com/cairodavila/tisco), [Vibe Domain](https://obstudio.org/tools/vibe-domain/), and [jev_search](https://github.com/caio0452/jev_search).
+
+Explore **game decisions, transcript search, domain ranking, and two-pass code search**. Each winner has its original post and publisher screenshot in the [visual gallery](#watch-jev-in-action), plus [source and implementation notes](https://github.com/Amal-David/awesome-jev/blob/main/docs/OPENROUTER_SHOWCASE.md). Three have linked source repositories; the other two are public project pages, not verified open-source releases. “Winner” is OpenRouter's designation, not our ranking or a security certification.
+
 ## Find a project
 
 **On GitHub:** open the [categorized catalog](https://github.com/Amal-David/awesome-jev/blob/main/docs/CATALOG.md), choose a heading from its outline, and use **Cmd/Ctrl+F** for a project, creator, or keyword.
@@ -93,7 +99,7 @@ Missing licenses remain `not-checked`, `not-detected`, or `NOASSERTION`, not ass
 
 ## Curated X demos
 
-Inspired by [Moritz Kremb's Jev project roundup](https://x.com/moritzkremb/status/2100895894287839255). This separately researched collection is not a claim to include every reply in the thread. [Full X index and access notes](https://github.com/Amal-David/awesome-jev/blob/main/docs/X_DEMOS.md).
+Sources include [Moritz Kremb's roundup](https://x.com/moritzkremb/status/2100895894287839255) and [OpenRouter's five community winners](https://x.com/OpenRouter/status/2102125748723339774). The five OpenRouter winner posts are covered; Moritz's thread is not claimed complete. [Full X index and access notes](https://github.com/Amal-David/awesome-jev/blob/main/docs/X_DEMOS.md).
 
 <!-- X_DEMOS -->
 

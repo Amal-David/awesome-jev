@@ -1,77 +1,19 @@
 {
   "version": 1,
   "roundups": [
-    {
-      "name": "Moritz Kremb's Jev project roundup",
-      "post": "https://x.com/moritzkremb/status/2100895894287839255",
-      "notes": "User-supplied discovery seed. The root post introduces a roundup of Jev projects; not all replies were accessible. The demos below were researched separately and must not be represented as a complete extraction of this thread."
-    }
+    {"name":"Moritz Kremb's Jev project roundup","post":"https://x.com/moritzkremb/status/2100895894287839255","notes":"User-supplied discovery seed. The root post introduces a roundup of Jev projects; not all replies were accessible. The demos below were researched separately and must not be represented as a complete extraction of this thread."},
+    {"name":"OpenRouter community winners — 21 September 2026","post":"https://x.com/OpenRouter/status/2102125748723339774","notes":"All five winner posts (2–6) were inspected through the public X mirror, with the narrative cross-checked against OpenRouter's public LinkedIn page. The announcement attributes judging to Jev. This covers the five announced winners, not every submission; it is OpenRouter's designation, not this directory's ranking, security audit, or reproduced benchmark."}
   ],
   "demos": [
-    {
-      "id": "voice-browser",
-      "name": "Voice-controlled browser",
-      "author": "@moritzkremb",
-      "post": "https://x.com/moritzkremb/status/2100577979021832365",
-      "repo": "moritzkremb/jev-voice-browser",
-      "source": "https://github.com/moritzkremb/jev-voice-browser/blob/main/README.md#how-a-decision-is-made",
-      "description": "Maps partial speech transcripts to typed intents and observed page targets; Playwright executes the selected action.",
-      "pattern": "Speech recognition → structured page state → parallel typed questions → explicit act, wait, clarify, or confirm policy.",
-      "notes": "The project documents a loopback control server, a persistent browser profile, and external speech processing. Do not expose the control port or use sensitive logged-in accounts. Published timings are author measurements, not reproduced here.",
-      "reviewed": "2026-09-21",
-      "post_status": "indexed-reference"
-    },
-    {
-      "id": "browser-use-ultrafast",
-      "name": "Browser Use × Jev Ultrafast",
-      "author": "@gregpr07",
-      "post": "https://x.com/gregpr07/status/2100411066966749359",
-      "repo": "browser-use/jev-ultrafast",
-      "source": "https://github.com/browser-use/jev-ultrafast/blob/main/README.md#the-action-space",
-      "description": "Chooses an operation and compatible DOM target in one decision cycle; a separate model supplies typing text.",
-      "pattern": "Regenerate the legal action space from observations; ask speculative target questions together; execute only the chosen branch.",
-      "notes": "The author's flight-search video is a narrow task demonstration, not general browser reliability. Real runs use paid APIs and an existing browser profile; the documented flight example stops at results, not booking.",
-      "reviewed": "2026-09-21",
-      "post_status": "indexed-reference"
-    },
-    {
-      "id": "macos-computer-use",
-      "name": "macOS computer use",
-      "author": "@awlevin",
-      "post": "https://x.com/awlevin/status/2100262612428894676",
-      "repo": "awlevin/typesafe-computer-use",
-      "source": "https://github.com/awlevin/typesafe-computer-use/blob/main/README.md#how-a-step-works",
-      "description": "Selects desktop actions from OCR and accessibility-derived state, with a separate writer for free text.",
-      "pattern": "Convert screen observations into indexed choices; keep deterministic parsing and execution outside the model.",
-      "notes": "Requires macOS screen-recording and accessibility permissions. The project documents a dry-run default and an explicit --act switch. Screen text can contain private information; listed cost and speed comparisons are not independently reproduced.",
-      "reviewed": "2026-09-21",
-      "post_status": "indexed-reference"
-    },
-    {
-      "id": "foreman",
-      "name": "Foreman coding-agent supervisor",
-      "author": "@JoshARosen",
-      "post": "https://x.com/JoshARosen/status/2100573432089866717",
-      "repo": "thruwire/foreman",
-      "source": "https://github.com/thruwire/foreman/blob/main/README.md#what-is-foreman",
-      "description": "Assesses coding-worker progress and verification needs while deterministic policy decides interventions.",
-      "pattern": "Separate the generative worker from an independent, bounded semantic-supervision loop.",
-      "notes": "An architectural experiment, not a demonstrated replacement for tests or code review. Bounded diffs, worker output, and repository instructions may enter inference requests; review data handling and worker permissions first.",
-      "reviewed": "2026-09-21",
-      "post_status": "indexed-reference"
-    },
-    {
-      "id": "jev-trader",
-      "name": "Jev trading-loop demonstration",
-      "author": "@jarrodwatts",
-      "post": "https://x.com/jarrodwatts/status/2100356151468585346",
-      "repo": "jarrodwatts/jev-trader",
-      "source": "https://github.com/jarrodwatts/jev-trader/blob/main/README.md#run",
-      "description": "Uses typed buy/sell judgments in an order-book loop, while code owns quoting, limits, and execution.",
-      "pattern": "Bound one decision cycle, reject late answers, and distinguish simulated outcomes from live execution.",
-      "notes": "The README says the default model is mock and no PRIVATE_KEY means dry-run; its documented deployment is dry-run/mock. A dashboard is not proof of live Jev inference, profitable trading, or safe custody. No wallet, deployment, or paid call was used for this review.",
-      "reviewed": "2026-09-21",
-      "post_status": "indexed-reference"
-    }
+    {"id":"voice-browser","name":"Voice-controlled browser","author":"@moritzkremb","post":"https://x.com/moritzkremb/status/2100577979021832365","repo":"moritzkremb/jev-voice-browser","source":"https://github.com/moritzkremb/jev-voice-browser/blob/main/README.md#how-a-decision-is-made","description":"Maps partial speech transcripts to typed intents and observed page targets; Playwright executes the selected action.","pattern":"Speech recognition → structured page state → parallel typed questions → explicit act, wait, clarify, or confirm policy.","notes":"The project documents a loopback control server, a persistent browser profile, and external speech processing. Do not expose the control port or use sensitive logged-in accounts. Published timings are author measurements, not reproduced here.","reviewed":"2026-09-21","post_status":"indexed-reference"},
+    {"id":"browser-use-ultrafast","name":"Browser Use × Jev Ultrafast","author":"@gregpr07","post":"https://x.com/gregpr07/status/2100411066966749359","repo":"browser-use/jev-ultrafast","source":"https://github.com/browser-use/jev-ultrafast/blob/main/README.md#the-action-space","description":"Chooses an operation and compatible DOM target in one decision cycle; a separate model supplies typing text.","pattern":"Regenerate the legal action space from observations; ask speculative target questions together; execute only the chosen branch.","notes":"The author's flight-search video is a narrow task demonstration, not general browser reliability. Real runs use paid APIs and an existing browser profile; the documented flight example stops at results, not booking.","reviewed":"2026-09-21","post_status":"indexed-reference"},
+    {"id":"macos-computer-use","name":"macOS computer use","author":"@awlevin","post":"https://x.com/awlevin/status/2100262612428894676","repo":"awlevin/typesafe-computer-use","source":"https://github.com/awlevin/typesafe-computer-use/blob/main/README.md#how-a-step-works","description":"Selects desktop actions from OCR and accessibility-derived state, with a separate writer for free text.","pattern":"Convert screen observations into indexed choices; keep deterministic parsing and execution outside the model.","notes":"Requires macOS screen-recording and accessibility permissions. The project documents a dry-run default and an explicit --act switch. Screen text can contain private information; listed cost and speed comparisons are not independently reproduced.","reviewed":"2026-09-21","post_status":"indexed-reference"},
+    {"id":"foreman","name":"Foreman coding-agent supervisor","author":"@JoshARosen","post":"https://x.com/JoshARosen/status/2100573432089866717","repo":"thruwire/foreman","source":"https://github.com/thruwire/foreman/blob/main/README.md#what-is-foreman","description":"Assesses coding-worker progress and verification needs while deterministic policy decides interventions.","pattern":"Separate the generative worker from an independent, bounded semantic-supervision loop.","notes":"An architectural experiment, not a demonstrated replacement for tests or code review. Bounded diffs, worker output, and repository instructions may enter inference requests; review data handling and worker permissions first.","reviewed":"2026-09-21","post_status":"indexed-reference"},
+    {"id":"jev-trader","name":"Jev trading-loop demonstration","author":"@jarrodwatts","post":"https://x.com/jarrodwatts/status/2100356151468585346","repo":"jarrodwatts/jev-trader","source":"https://github.com/jarrodwatts/jev-trader/blob/main/README.md#run","description":"Uses typed buy/sell judgments in an order-book loop, while code owns quoting, limits, and execution.","pattern":"Bound one decision cycle, reject late answers, and distinguish simulated outcomes from live execution.","notes":"The README says the default model is mock and no PRIVATE_KEY means dry-run; its documented deployment is dry-run/mock. A dashboard is not proof of live Jev inference, profitable trading, or safe custody. No wallet, deployment, or paid call was used for this review.","reviewed":"2026-09-21","post_status":"indexed-reference"},
+    {"id":"xmage-jevai","name":"JevAI for XMage","author":"ShiftSad · featured by @OpenRouter","post":"https://x.com/OpenRouter/status/2102125765773144286","repo":"ShiftSad/mage","source":"https://github.com/ShiftSad/mage/blob/master/Mage.Server.Plugins/Mage.Player.JevAI/README.md","description":"XMage supplies legal plays; pure and hybrid players use Jev for bounded decisions and selection among searched lines.","pattern":"Separate legal-action generation, deterministic search, semantic choice, and network fallback.","notes":"OpenRouter community winner. Plugin inside an XMage fork, not the entire upstream engine. The reported 11-6-3 record belongs to the hybrid across 20 author-run games with turn-cap draws. Hybrid pruning is off by default. No game or benchmark was run here.","reviewed":"2026-09-22","post_status":"primary-post-reviewed","post_access":"Publisher post text and screenshot metadata inspected through the public X mirror; narrative cross-checked with OpenRouter's public LinkedIn page. No live execution verified."},
+    {"id":"jev-chess","name":"Jev Chess","author":"sliday · featured by @OpenRouter","post":"https://x.com/OpenRouter/status/2102125782219075865","url":"https://jevchess.com/","source":"https://jevchess.com/","description":"A shared internet-versus-Jev chess game visualizes probabilities over legal move candidates.","pattern":"Enforce the move set in game code; let a typed model select from observed legal options.","notes":"OpenRouter community winner. Public project-page metadata inspected; no public source repository or code license verified. No shared game move submitted or result reproduced.","reviewed":"2026-09-22","post_status":"primary-post-reviewed","post_access":"Publisher post text and screenshot metadata inspected through the public X mirror; public project metadata independently read. No live execution verified."},
+    {"id":"tisco","name":"tisco","author":"cairodavila · featured by @OpenRouter","post":"https://x.com/OpenRouter/status/2102125798371283444","repo":"cairodavila/tisco","source":"https://github.com/cairodavila/tisco/blob/main/README.md","description":"Jev searches transcript meaning; code previews and applies approved clip moves and renames.","pattern":"Transcribe separately, judge relevance, surface uncertainty, then require approval for exact file changes.","notes":"OpenRouter community winner. Transcript-based, not visual video understanding. Approved audio uploads and transcript judgments use OpenRouter; the project also documents a synthetic offline demo. No clips, keys, or paid calls were used here.","reviewed":"2026-09-22","post_status":"primary-post-reviewed","post_access":"Publisher post text and screenshot metadata inspected through the public X mirror; project README and MIT license independently read. No live execution verified."},
+    {"id":"vibe-domain","name":"Vibe Domain","author":"OB Studio / Oliver · featured by @OpenRouter","post":"https://x.com/OpenRouter/status/2102125815031071157","url":"https://obstudio.org/tools/vibe-domain/","source":"https://obstudio.org/tools/vibe-domain/","description":"Ranks domain candidates against vibe and keyword preferences, separately from registry and availability checks.","pattern":"Check external facts in code; judge semantic fit only among supplied candidates.","notes":"OpenRouter community winner. Public page inspected; no public source repository or code license verified. The documented no-key heuristic mode is not live Jev. Recheck availability with a registrar and inspect key handling; no scan, purchase, or model call was made.","reviewed":"2026-09-22","post_status":"primary-post-reviewed","post_access":"Publisher post text and screenshot metadata inspected through the public X mirror; public product page independently read. No live execution verified."},
+    {"id":"jev-search","name":"jev_search","author":"caio0452 · featured by @OpenRouter","post":"https://x.com/OpenRouter/status/2102125830185075060","repo":"caio0452/jev_search","source":"https://github.com/caio0452/jev_search/blob/main/README.md","description":"Keyword-density code prioritizes files and chunks; Jev judges passages in a fast first pass and a broader second pass.","pattern":"Keep retrieval heuristics separate from model judging and publish useful partial results before the complete scan finishes.","notes":"OpenRouter community winner. Current primary source attributes file prioritization to code rather than Jev. The author marks it fully AI-generated and not for production. Source text reaches OpenRouter; favor environment variables over command-line secrets. No project code was executed.","reviewed":"2026-09-22","post_status":"primary-post-reviewed","post_access":"Publisher post text and screenshot metadata inspected through the public X mirror; README and entry-point code independently read. No live execution verified."}
   ]
 }
