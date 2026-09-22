@@ -111,6 +111,7 @@ The [full creator gallery](docs/DIRECTORY.md#watch-jev-in-action) retains the ot
 - [Home Assistant Jev](https://github.com/AboveColin/HA-Jev) - Typed decisions for Home Assistant entities and automations.
 - [nospace](https://github.com/riesvile/nospace) - Experimental word-spacing interface where Jev chooses splits and a separate model handles spelling.
 - [Vibe Domain](https://obstudio.org/tools/vibe-domain) - Domain-name ranking with a no-key heuristic mode and an optional hosted Jev mode.
+- [Spliit Cloud](https://github.com/antonio-ivanovski/spliit-cloud) - Optional expense-category suggestions where Jev picks a category after local dictionary and history matching miss.
 
 ## Games and Creative Projects
 
