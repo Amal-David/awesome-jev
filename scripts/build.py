@@ -118,12 +118,9 @@ def statistics(records: list[dict], cache: dict, refresh: dict) -> dict:
 
 def summary(stats: dict) -> str:
     reviewed = stats[LEVELS[0]]
-    return (f'**{reviewed} reviewed picks** — start with the source-reviewed selection, not the raw index.\n\n'
-            f'{anchor("Browse reviewed picks", DOC + "REVIEWED.md")} · '
-            f'{anchor("Freshness and link health", DOC + "STATUS.md")}\n\n'
-            '**Evidence legend:** `Reviewed` = primary source inspected · '
-            '`Indexed` = community listing · `Auto-discovered` = README keyword match. '
-            'These labels are not security certifications.')
+    return (f'**{reviewed} reviewed picks**. '
+            + anchor('Source notes and licenses', DOC + 'REVIEWED.md')
+            + '. The larger discovery catalog is separate.')
 
 
 def featured(media: dict, cache: dict) -> str:
@@ -144,18 +141,38 @@ def featured(media: dict, cache: dict) -> str:
 def picks(records: list[dict]) -> str:
     chosen = [e for e in records if e.get('evidence_level') == LEVELS[0]]
     groups = [
-        ('Start building', {'official', 'skills'}),
-        ('Use it in an agent or app', {'agents', 'browser', 'integrations', 'apps', 'sdks'}),
-        ('Explore games and creative tools', {'games', 'demos'}),
-        ('Investigate local alternatives', {'research'}),
+        ('SDKs and skills', {'official', 'skills', 'sdks'}),
+        ('Browser and desktop tools', {'browser'}),
+        ('Agent tools', {'agents'}),
+        ('Apps and integrations', {'apps', 'integrations'}),
+        ('Games and creative projects', {'games', 'demos'}),
+        ('Independent models', {'research'}),
+        ('Reading and other lists', {'articles', 'lists'}),
     ]
-    rows = []
+    rows, included = [], set()
     for title, categories in groups:
-        found = [e for e in chosen if e['category'] in categories]
+        found = [e for e in chosen if e['category'] in categories
+                 and e.get('kind') != 'adjacent-infrastructure']
         if found:
-            rows.append('**' + title + ':** ' + ' · '.join(anchor(e['name'], e['url']) for e in found) + '.')
-    rows += [anchor(f'All {len(chosen)} reviewed picks — with evidence, dates and reuse notes', DOC + 'REVIEWED.md')]
-    return '\n\n'.join(rows)
+            rows.extend(['### ' + title, ''])
+            for entry in found:
+                rows.append('- ' + anchor(entry['name'], entry['url'])
+                            + ' - ' + esc(entry['description']))
+                included.add(entry['url'])
+            rows.append('')
+    supporting = [e for e in chosen if e.get('kind') == 'adjacent-infrastructure']
+    if supporting:
+        rows.extend(['### Supporting drivers', ''])
+        for entry in supporting:
+            rows.append('- ' + anchor(entry['name'], entry['url'])
+                        + ' - ' + esc(entry['description']))
+            included.add(entry['url'])
+        rows.append('')
+    if included != {e['url'] for e in chosen}:
+        raise ValueError('A reviewed project has no README category')
+    rows.append(anchor(f'All {len(chosen)} reviewed picks: source notes and licenses',
+                       DOC + 'REVIEWED.md'))
+    return '\n'.join(rows)
 
 
 def status_page(records: list[dict], cache: dict, stats: dict, excluded: set[str]) -> str:

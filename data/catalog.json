@@ -175,7 +175,7 @@
     "archived": false,
     "category": "official",
     "code": "https://github.com/typesafe-ai/typesafe-sdk-js/blob/main/src/types.ts",
-    "description": "Official JavaScript and TypeScript client with answer types inferred from named questions.",
+    "description": "Official JavaScript and TypeScript client.",
     "evidence_level": "primary-source-reviewed",
     "language": "TypeScript",
     "license": "MIT",
@@ -197,7 +197,7 @@
     "category": "official",
     "code": "https://github.com/typesafe-ai/typesafe-sdk-python/blob/main/README.md#quickstart",
     "demo": "https://docs.typesafe.ai/sdk/python",
-    "description": "Official Python client; its quickstart routes a support ticket using a typed Choice.",
+    "description": "Official Python client, with a support-ticket routing example.",
     "evidence_level": "primary-source-reviewed",
     "language": "Python",
     "license": "MIT",
@@ -228,7 +228,7 @@
   {
     "archived": false,
     "category": "skills",
-    "description": "Scores log records with typed questions to route selected records for deeper analysis while preserving the archive.",
+    "description": "Scores log entries with Jev to decide which need a closer look.",
     "evidence_level": "primary-source-reviewed",
     "language": "TypeScript",
     "license": "MIT",
@@ -250,7 +250,7 @@
     "archived": false,
     "category": "skills",
     "demo": "https://thursdai.news",
-    "description": "Reusable discovery skill that finds Jev opportunities, designs question packs, and proposes comparison experiments.",
+    "description": "Agent skill for finding places to use Jev and planning comparisons with existing code.",
     "evidence_level": "primary-source-reviewed",
     "language": "Python",
     "license": "MIT",
@@ -273,7 +273,7 @@
     "archived": false,
     "category": "skills",
     "demo": "https://typesafe.ai",
-    "description": "Official agent skill for choosing primitives, composing typed decisions, and evaluating integrations.",
+    "description": "Official skill for writing Jev requests and choosing between Noul, Choice, and Score.",
     "evidence_level": "primary-source-reviewed",
     "language": null,
     "license": "MIT",
@@ -294,7 +294,7 @@
   {
     "archived": false,
     "category": "skills",
-    "description": "Self-hosted versioned skill library with optional Jev-based task-aware recommendations and deterministic fallback.",
+    "description": "Self-hosted skill library with optional Jev-based recommendations.",
     "evidence_level": "primary-source-reviewed",
     "language": "TypeScript",
     "license": "MIT",
@@ -311,6 +311,23 @@
     ],
     "stars": 226,
     "url": "https://github.com/kitze/skillbox"
+  },
+  {
+    "category": "skills",
+    "code": "https://github.com/suraj-phanindra/wellposed/blob/main/skills/wellposed/scripts/structural.mjs",
+    "description": "Offline linter and agent skill for Jev requests: checks missing options, broken state references, and question types.",
+    "evidence_level": "primary-source-reviewed",
+    "kind": "optional-integration",
+    "license": "MIT",
+    "name": "wellposed",
+    "notes": "Submitted in HN comment 49803528. Structural rules and tests were inspected, not executed. Structural lint is offline; --semantic makes paid TypeSafe calls and can send request state. Rules are heuristic and version-specific. The author's evaluation corpus is model-generated/labeled, so its reported scores are not independent validation.",
+    "repo": "suraj-phanindra/wellposed",
+    "reviewed": "2026-09-22",
+    "skill": "https://github.com/suraj-phanindra/wellposed/blob/main/skills/wellposed/SKILL.md",
+    "sources": [
+      "https://github.com/suraj-phanindra/wellposed/blob/main/README.md"
+    ],
+    "url": "https://github.com/suraj-phanindra/wellposed"
   },
   {
     "archived": false,
@@ -576,7 +593,7 @@
   },
   {
     "category": "games",
-    "description": "A shared internet-versus-Jev chess game presents legal move candidates and visualizes their decision probabilities.",
+    "description": "A shared chess game against Jev with move probabilities. Hosted demo; source code not verified.",
     "evidence_level": "primary-source-reviewed",
     "name": "Jev Chess",
     "notes": "OpenRouter community winner, announced 2026-09-21. Public project-page metadata inspected, not server code. No public source repository or code license verified. No shared game move was submitted, and advertised results were not reproduced.",
@@ -622,7 +639,7 @@
     "archived": false,
     "category": "games",
     "code": "https://github.com/sorrycc/typesafe-snake/blob/main/src/jev/prompt.ts",
-    "description": "Code computes legal moves and board facts; Jev chooses one direction per game tick.",
+    "description": "Snake where code finds legal moves and Jev picks a direction.",
     "evidence_level": "primary-source-reviewed",
     "language": "TypeScript",
     "license": "not-detected",
@@ -1026,7 +1043,7 @@
     "archived": false,
     "category": "games",
     "code": "https://github.com/ShiftSad/mage/tree/master/Mage.Server.Plugins/Mage.Player.JevAI/src",
-    "description": "XMage supplies legal plays; a pure player asks Jev for decisions, while a hybrid uses Jev to choose between searched lines.",
+    "description": "Magic: The Gathering bots that use Jev alone or alongside XMage search.",
     "evidence_level": "primary-source-reviewed",
     "language": "Java",
     "license": "MIT",
@@ -1066,7 +1083,7 @@
   {
     "archived": false,
     "category": "games",
-    "description": "Three.js driving simulation where Jev selects from locally generated steering and speed candidates.",
+    "description": "Driving simulation where Jev chooses steering and speed. Not a real-world driving system.",
     "evidence_level": "primary-source-reviewed",
     "language": "JavaScript",
     "license": "not-detected",
@@ -1215,7 +1232,7 @@
   {
     "archived": false,
     "category": "games",
-    "description": "Chocolate Doom WASM instances expose structured state; Jev chooses tactical macros executed by local controllers.",
+    "description": "Jev chooses actions in a browser-based Doom engine. Uses Freedoom assets.",
     "evidence_level": "primary-source-reviewed",
     "language": "TypeScript",
     "license": "not-detected",
@@ -1474,7 +1491,7 @@
   {
     "archived": false,
     "category": "games",
-    "description": "An emulator-state parser supplies structured telemetry; Jev selects bounded NES controller inputs.",
+    "description": "Jev picks controller inputs from emulator state. Requires a lawful local game setup.",
     "evidence_level": "primary-source-reviewed",
     "language": "Python",
     "license": "not-detected",
@@ -2685,25 +2702,6 @@
     ],
     "stars": 0,
     "url": "https://github.com/nizki-kasaph/ClaudeCode"
-  },
-  {
-    "archived": false,
-    "category": "demos",
-    "description": "Browser extension to clean up Twitter feed",
-    "evidence_level": "readme-matched",
-    "language": "TypeScript",
-    "license": "MIT",
-    "metadata_checked": "2026-09-21",
-    "name": "clean-twitter",
-    "notes": "Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.",
-    "pushed_at": "2026-09-18T17:29:25Z",
-    "repo": "midplane/clean-twitter",
-    "repository_status": "accessible",
-    "sources": [
-      "https://github.com/midplane/clean-twitter/blob/main/README.md"
-    ],
-    "stars": 1,
-    "url": "https://github.com/midplane/clean-twitter"
   },
   {
     "archived": false,
@@ -4832,7 +4830,7 @@
     "category": "demos",
     "code": "https://github.com/wustep/jev-playground/blob/main/src/planner/JevPlanner.ts",
     "demo": "https://jev-playground.vercel.app",
-    "description": "Jev selects composition enums; deterministic code expands them into notation, playback, and MIDI.",
+    "description": "Jev picks musical parameters; code turns them into notes and MIDI. Includes an offline mode.",
     "evidence_level": "primary-source-reviewed",
     "language": "TypeScript",
     "license": "not-detected",
@@ -12422,7 +12420,7 @@
     "category": "browser",
     "code": "https://github.com/trycua/cua/tree/main/libs/cua-driver/examples/jev-use",
     "demo": "https://cua.ai/docs/how-to-guides/driver/jev-use",
-    "description": "The jev-use recipe builds bounded browser-action candidates; TypeSafe Jev selects an ID, while Cua Driver observes, executes, and verifies the result.",
+    "description": "Cua Driver example in Python and TypeScript: Jev chooses an action, the driver runs it, and code checks the result.",
     "evidence_level": "primary-source-reviewed",
     "kind": "direct-integration",
     "language": "HTML",
@@ -12516,7 +12514,7 @@
   {
     "archived": false,
     "category": "browser",
-    "description": "Jev selects page actions and judges progress in a Playwright browser; the MCP/CLI/library runtime owns budgets, recovery, and stop gates.",
+    "description": "Playwright browser controlled by Jev, available as an MCP server, CLI, or library.",
     "evidence_level": "primary-source-reviewed",
     "kind": "direct-integration",
     "language": "TypeScript",
@@ -12539,7 +12537,7 @@
     "archived": false,
     "category": "browser",
     "demo": "https://jev-browser.vercel.app",
-    "description": "A small reference implementation that supplies observed controls as bounded action and target choices, then validates and executes the selected branch.",
+    "description": "Small browser-control reference showing how to build and execute Jev action choices.",
     "evidence_level": "primary-source-reviewed",
     "kind": "direct-integration",
     "language": "JavaScript",
@@ -12561,7 +12559,7 @@
   {
     "archived": false,
     "category": "browser",
-    "description": "A community skill delegates navigation, clicks and scrolling to Jev while the existing Codex Computer Use runtime handles execution, text entry, and verification.",
+    "description": "Skill that uses an existing Codex browser connection. Jev clicks and scrolls; Codex types and checks the result.",
     "evidence_level": "primary-source-reviewed",
     "kind": "direct-integration",
     "language": "JavaScript",
@@ -12583,7 +12581,7 @@
   {
     "archived": false,
     "category": "browser",
-    "description": "A local Mac computer-use runtime with Cua Driver, guarded native actions and compiled workflows; optional Jev routing recommends a reviewed workflow.",
+    "description": "Mac automation using Cua Driver, with optional Jev recommendations for saved workflows.",
     "evidence_level": "primary-source-reviewed",
     "kind": "optional-integration",
     "language": "TypeScript",
@@ -12625,7 +12623,7 @@
     "category": "browser",
     "code": "https://github.com/browser-use/jev-ultrafast/blob/452c1ad2dd628008f1d5608f28158d76e49e6cc0/jev_ultrafast/model.py",
     "demo": "https://browser-use.com",
-    "description": "Selects browser operation and observed DOM target with Jev; a separate model generates typing text.",
+    "description": "Jev picks browser actions and page elements; a separate model writes text.",
     "evidence_level": "primary-source-reviewed",
     "language": "Python",
     "license": "MIT",
@@ -12647,7 +12645,7 @@
   {
     "archived": false,
     "category": "browser",
-    "description": "Converts partial speech and observed browser controls into typed Jev intents and targets; Playwright executes actions under local policy.",
+    "description": "Voice-controlled Playwright browser. Jev chooses actions from partial speech and page controls.",
     "evidence_level": "primary-source-reviewed",
     "kind": "direct-integration",
     "language": "JavaScript",
@@ -12705,7 +12703,7 @@
   {
     "archived": false,
     "category": "browser",
-    "description": "Native Mac automation through a persistent JavaScript MCP session and Cua Driver; use exact element IDs or optional Jev-based control selection.",
+    "description": "Native Mac controls through a JavaScript MCP session, with optional Jev element selection.",
     "evidence_level": "primary-source-reviewed",
     "kind": "optional-integration",
     "language": "TypeScript",
@@ -13699,7 +13697,7 @@
   {
     "archived": false,
     "category": "browser",
-    "description": "Converts local OCR and accessibility observations into candidate desktop actions; Jev chooses actions and a separate writer can supply free text.",
+    "description": "Mac automation using local OCR and accessibility data, with Jev choosing the next action.",
     "evidence_level": "primary-source-reviewed",
     "kind": "direct-integration",
     "language": "Python",
@@ -14377,7 +14375,7 @@
     "archived": false,
     "category": "agents",
     "demo": "https://thruwire.ai",
-    "description": "Uses independent Noul checks to supervise a coding worker while deterministic policy decides interventions.",
+    "description": "Uses Jev to check a coding agent's progress and decide when it needs intervention.",
     "evidence_level": "primary-source-reviewed",
     "language": "Python",
     "license": "MIT",
@@ -14643,7 +14641,7 @@
   {
     "archived": false,
     "category": "agents",
-    "description": "MCP tools use Jev to verify claims against evidence, screen incoming content, and rank candidates.",
+    "description": "MCP tools for checking claims against evidence, screening content, and ranking candidates.",
     "evidence_level": "primary-source-reviewed",
     "language": "JavaScript",
     "license": "MIT",
@@ -16000,7 +15998,7 @@
     "archived": false,
     "category": "agents",
     "code": "https://github.com/caio0452/jev_search/blob/main/jev_search.py",
-    "description": "Code prioritizes files and chunks by keyword density; Jev judges matching passages in a priority pass followed by a broader scan.",
+    "description": "Ranks files by keyword, then checks their passages with Jev in two passes. Author marks it experimental.",
     "evidence_level": "primary-source-reviewed",
     "language": "Python",
     "license": "not-detected",
@@ -17233,7 +17231,7 @@
   {
     "archived": false,
     "category": "agents",
-    "description": "Go MCP server exposing typed Jev judgments to coding agents, with documented client setup and retries.",
+    "description": "Go MCP server for making Jev requests from coding agents.",
     "evidence_level": "primary-source-reviewed",
     "language": "Go",
     "license": "MIT",
@@ -18929,6 +18927,22 @@
     "url": "https://github.com/YehuiTang0316/jev-nlgrep"
   },
   {
+    "category": "apps",
+    "code": "https://github.com/riesvile/nospace/blob/main/src/server/providers.ts",
+    "demo": "https://levmiseri.com/nospace",
+    "description": "Adds spaces while you type. Jev chooses between possible word splits; a separate model handles spelling corrections.",
+    "evidence_level": "primary-source-reviewed",
+    "license": "Apache-2.0",
+    "name": "nospace",
+    "notes": "Submitted in HN comment 49802812. Reviewed the provider code and tests for stale replies, caret preservation, undo, and composition input; no upstream tests or live model calls were run. English-only experimental demo; HN users reported ambiguous splits. Text reaches hosted inference through server routes, and spelling correction uses a separate paid model. Word list retains its MIT notice.",
+    "repo": "riesvile/nospace",
+    "reviewed": "2026-09-22",
+    "sources": [
+      "https://github.com/riesvile/nospace/blob/main/README.md"
+    ],
+    "url": "https://github.com/riesvile/nospace"
+  },
+  {
     "archived": false,
     "category": "apps",
     "demo": "https://www.usenotra.com/",
@@ -19178,7 +19192,7 @@
   {
     "archived": false,
     "category": "apps",
-    "description": "Jev judges video transcripts against natural-language requests; code previews clip moves and renames for approval.",
+    "description": "Searches video transcripts with Jev, then previews clip moves and renames for approval.",
     "evidence_level": "primary-source-reviewed",
     "language": "TypeScript",
     "license": "MIT",
@@ -19378,7 +19392,7 @@
   },
   {
     "category": "apps",
-    "description": "Code generates and checks domain candidates; the documented Jev route judges fit to a requested vibe, keywords, and extensions.",
+    "description": "Ranks domain names by the requested style. Has a no-key heuristic mode and a hosted Jev option.",
     "evidence_level": "primary-source-reviewed",
     "name": "Vibe Domain",
     "notes": "OpenRouter community winner, announced 2026-09-21. Public page reviewed; no public source repository or code license verified. Documentation distinguishes a no-key heuristic mode from live OpenRouter inference. No availability check or API call was run here. Recheck names at a registrar and review key handling before entering credentials.",
@@ -20775,7 +20789,7 @@
   {
     "archived": false,
     "category": "integrations",
-    "description": "Model-neutral CDP browser control, reusable helpers, an agent skill, and an MCP surface; used as the browser connection layer by Jev Ultrafast.",
+    "description": "The CDP browser connection used by Jev Ultrafast. Model-neutral, not a Jev model.",
     "evidence_level": "primary-source-reviewed",
     "kind": "adjacent-infrastructure",
     "language": "Python",
@@ -20833,7 +20847,7 @@
   {
     "archived": false,
     "category": "integrations",
-    "description": "Turns Jev probability, choice, and score answers into Home Assistant entities and automation results.",
+    "description": "Adds Jev decisions to Home Assistant entities and automations.",
     "evidence_level": "primary-source-reviewed",
     "language": "Python",
     "license": "MIT",
@@ -21082,6 +21096,21 @@
     ],
     "stars": 3,
     "url": "https://github.com/WiktorB2004/llama-index-jev"
+  },
+  {
+    "category": "integrations",
+    "code": "https://github.com/simonw/llm-typesafe/blob/main/llm_typesafe.py",
+    "description": "Use Jev from the LLM command line or Python, with stdin, templates, and sync/async calls.",
+    "evidence_level": "primary-source-reviewed",
+    "license": "Apache-2.0",
+    "name": "llm-typesafe",
+    "notes": "Suggested by the author in issue #2. Reviewed the client and error tests, including redirect refusal and malformed JSON handling; no upstream tests or live inference were run here. Sends input to TypeSafe. The host LLM tool's normal logging can retain prompts and provider responses.",
+    "repo": "simonw/llm-typesafe",
+    "reviewed": "2026-09-22",
+    "sources": [
+      "https://github.com/simonw/llm-typesafe/blob/main/README.md"
+    ],
+    "url": "https://github.com/simonw/llm-typesafe"
   },
   {
     "archived": false,
@@ -21524,7 +21553,7 @@
   {
     "category": "research",
     "code": "https://github.com/trycua/cua/tree/main/libs/cua-s1",
-    "description": "Cua-published form-filling specialist model, adjacent to Jev-style typed decisions rather than a TypeSafe Jev checkpoint or general computer-use agent.",
+    "description": "Cua's independent form-filling model and dataset. Not a general desktop agent or official Jev weights.",
     "evidence_level": "primary-source-reviewed",
     "kind": "independent-reproduction",
     "license": "MIT",
@@ -23237,7 +23266,7 @@
   {
     "archived": false,
     "category": "research",
-    "description": "Independent trainable one-pass scorer for a changing set of text options, with optional visual game examples and local training/evaluation code.",
+    "description": "Independent one-pass option scorer with training code and game examples. Not TypeSafe Jev.",
     "evidence_level": "primary-source-reviewed",
     "kind": "independent-reproduction",
     "language": "Python",
@@ -23853,7 +23882,7 @@
     "archived": false,
     "category": "research",
     "code": "https://github.com/ekzhang/openjev-sglang/tree/main/examples",
-    "description": "Independent API-compatible typed-decision server using open-model label probabilities through SGLang.",
+    "description": "Independent typed-decision server using open models and SGLang. Not official Jev weights.",
     "evidence_level": "primary-source-reviewed",
     "kind": "independent-reproduction",
     "language": "Python",

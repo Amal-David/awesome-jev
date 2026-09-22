@@ -43,3 +43,11 @@ Fetch the latest branch head before writing and publish only meaningful correcti
 Read `docs/CUA.md` when curating browser or native-desktop work. Inspect the actual execution backend, adapter/example subdirectories, skill, and observation/verification boundaries, not only repository names containing Jev. Follow first-party dependency links and record a concrete relationship before adding adjacent infrastructure.
 
 Use `kind: adjacent-infrastructure` for supporting drivers and `kind: independent-reproduction` for independently trained/local models. Optional hosted Jev routing must remain distinct from local native execution. Local execution does not imply local Jev inference. Keep separate monorepo components visible through deep links without duplicating their root repository. Do not promote Indexed entries solely because they appear in the media gallery or claim complete coverage of the CUA ecosystem. An intentional removal must update the coverage guide and its regression checks as well as the editorial seed.
+
+## README voice and selection
+
+Keep the README a useful list: plain descriptions, one project per line, and headings people can scan. Do not add slogans, theatrical contrasts, motivational introductions, or repeated safety paragraphs. Keep detailed provenance in the linked docs. Preserve the X/media collection unless the owner asks to change it. See `docs/HN_REVIEW_2026-09-22.md` for the current submission decisions.
+
+Do not promote a project because its author posted it, it is popular, or its README sounds confident. Inspect the implementation and an example or relevant tests; look for a useful, distinct contribution and clear limitations. Do not execute third-party code during curation. Missing evidence means defer, not invent. A feature demo is not a security evaluation. Respect exclusions and keep automatic discoveries separate from README selections.
+
+Editorial pushes build offline. Scheduled/manual runs keep the existing bounded discovery process; they never auto-promote entries to the reviewed selection.

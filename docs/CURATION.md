@@ -39,3 +39,9 @@ python3 scripts/build.py --check
 ```
 
 The four-hour workflow runs the same unified builder with explicit network flags and only publishes validated outputs. It does not execute discovered projects or install their skills. Review the diff, including generated pages, before merging a contribution.
+
+## What gets selected
+
+A small, useful project with readable implementation code and a concrete example can qualify without stars. We look for a clear Jev role, a reason to use the project, meaningful tests or inspectable behavior, and honest setup/privacy limitations. An author submission is a lead, not an endorsement. Unverified claims and unresolved credential-handling concerns are reasons to wait.
+
+Write entries as `Project - what it does`. Keep author measurements attributed, and keep the longer caveats in source notes. Do not add marketing slogans.

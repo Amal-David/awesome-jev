@@ -31,7 +31,8 @@ class NavigationTests(unittest.TestCase):
         text = b.summary(stats)
         self.assertTrue(text.startswith('**1 reviewed picks**'))
         self.assertNotIn('2 catalog entries', text)
-        self.assertIn('Auto-discovered', text)
+        self.assertIn('Source notes and licenses', text)
+        self.assertIn('Auto-discovered', (ROOT / 'templates/README.md').read_text())
 
     def test_statistics_distinguish_errors_and_unavailable(self):
         stats = b.statistics([example(repository_status='unavailable', metadata_checked='2026-09-18'),

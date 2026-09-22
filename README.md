@@ -1,28 +1,18 @@
 # Awesome Jev
 
-**From an interesting demo to code you can actually understand.**
+Projects, demos, and tools built with [Jev](https://docs.typesafe.ai/).
 
-A curated starting point for TypeSafe Jev: reviewed projects, reusable skills, small code examples, and creator demos from X, GitHub, and YouTube.
+Jev answers questions about data: pick an option, return a yes/no probability, or score something on a scale. It does not write text. The examples here show what people are using it for, with links to the code where available.
 
-**33 reviewed picks** — start with the source-reviewed selection, not the raw index.
+**36 reviewed picks**. <a href="https://github.com/Amal-David/awesome-jev/blob/main/docs/REVIEWED.md">Source notes and licenses</a>. The larger discovery catalog is separate.
 
-<a href="https://github.com/Amal-David/awesome-jev/blob/main/docs/REVIEWED.md">Browse reviewed picks</a> · <a href="https://github.com/Amal-David/awesome-jev/blob/main/docs/STATUS.md">Freshness and link health</a>
+[Quick start](#20-second-quick-start) · [Projects](#reviewed-picks) · [Demos from X](#watch-jev-in-action) · [CUA & drivers](#computer-use-and-drivers) · [OpenRouter winners](#openrouter-community-winners) · [Contributing](#contribute)
 
-**Evidence legend:** `Reviewed` = primary source inspected · `Indexed` = community listing · `Auto-discovered` = README keyword match. These labels are not security certifications.
-
-<sub>**Last discovery:** 2026-09-22T13:30:23Z (UTC). **Latest repository metadata date:** 2026-09-22. **Unavailable repositories at last check:** 13. <a href="https://github.com/Amal-David/awesome-jev/blob/main/docs/STATUS.md">Coverage, failures and run receipts</a>.</sub>
-
-**Navigate:** [Quick start](#20-second-quick-start) · [Choose a path](#choose-your-path) · [CUA & drivers](#computer-use-and-drivers) · [Reviewed picks](#reviewed-picks) · [OpenRouter winners](#openrouter-community-winners) · [Watch demos](#watch-jev-in-action) · [Search the catalog](#find-a-project) · [Contribute](#contribute)
-
-> Source-reviewed does not mean security-audited. Keep credentials private and inspect permissions before running a project.
-
-## What is Jev?
-
-Jev is TypeSafe AI's model for answering typed questions about text or JSON: choose an option, estimate whether something is true, or score it against a rubric. Use it for bounded decisions such as routing, ranking, or selecting an agent's next action; use a generative LLM when you need new prose, code, or an open-ended plan. Your application still controls permissions, validation, and execution. [Official documentation](https://docs.typesafe.ai) · [Official Python quick-start source](https://github.com/typesafe-ai/typesafe-sdk-python#quickstart).
+> Check permissions and data handling before running a project. A listing here is not a security audit.
 
 ## 20-second quick-start
 
-**JSON in → one typed decision out.** With `typesafe-sdk` installed and `TYPESAFE_API_KEY` set, this makes one billable API request:
+Install `typesafe-sdk` and set `TYPESAFE_API_KEY` in your environment. This example makes one paid request:
 
 ```python
 from typesafe_sdk import Choice, TypeSafeClient
@@ -38,80 +28,82 @@ with TypeSafeClient() as client:
 print(result.choices["team"].choice)  # e.g. billing; actual output can differ
 ```
 
-**No key yet?** Clone this repository and run `python3 examples/route_ticket.py` to inspect an offline request without making an API call. [Setup and next steps](https://github.com/Amal-David/awesome-jev/blob/main/docs/START_HERE.md#build-your-first-typed-classifier) · [More question packs](https://github.com/Amal-David/awesome-jev/blob/main/examples/README.md).
+No key yet? `python3 examples/route_ticket.py` prints the request without calling the API. [SDK setup](https://github.com/typesafe-ai/typesafe-sdk-python#quickstart).
+
+<a id="choose-your-path"></a>
+
+Start with a [classifier](https://github.com/Amal-David/awesome-jev/blob/main/docs/START_HERE.md#build-your-first-typed-classifier), [an agent](https://github.com/Amal-David/awesome-jev/blob/main/docs/START_HERE.md#use-jev-in-an-agent), or [a local alternative](https://github.com/Amal-David/awesome-jev/blob/main/docs/START_HERE.md#explore-a-local-alternative).
+
+For simple rules, parsing, or arithmetic, use code. A dedicated classifier may be a better fit for a fixed task. Jev is worth trying when the choices change or the input is messy; test it on your own examples rather than relying on a demo's timing.
 
 <a href="https://x.com/gregpr07/status/2100411066966749359"><img src="https://raw.githubusercontent.com/browser-use/jev-ultrafast/1231850a0bf1a0c0341fe408ef1668dbbfdfac46/docs/demo.gif" width="680" alt="Browser Use author recording: Jev selects a browser action and target"></a>
 
 <sub>Browser Use / @gregpr07. Author recording, not our benchmark. <a href="https://github.com/browser-use/jev-ultrafast">Implementation</a> · <a href="#watch-jev-in-action">More demos and videos</a>.</sub>
 
-## Choose your path
+## Reviewed picks
 
-**Build your first typed classifier →** [JSON input, a Choice question, and your first response](https://github.com/Amal-David/awesome-jev/blob/main/docs/START_HERE.md#build-your-first-typed-classifier).
+### SDKs and skills
 
-**Use Jev in an agent →** [Select observed actions, validate them, and keep a fallback](https://github.com/Amal-David/awesome-jev/blob/main/docs/START_HERE.md#use-jev-in-an-agent).
+- <a href="https://github.com/typesafe-ai/typesafe-sdk-js">TypeSafe JavaScript SDK</a> - Official JavaScript and TypeScript client.
+- <a href="https://github.com/typesafe-ai/typesafe-sdk-python">TypeSafe Python SDK</a> - Official Python client, with a support-ticket routing example.
+- <a href="https://github.com/reachjalil/jevlogs">Jev Logs</a> - Scores log entries with Jev to decide which need a closer look.
+- <a href="https://github.com/altryne/jevify">Jevify</a> - Agent skill for finding places to use Jev and planning comparisons with existing code.
+- <a href="https://github.com/typesafe-ai/skills">Official TypeSafe skill</a> - Official skill for writing Jev requests and choosing between Noul, Choice, and Score.
+- <a href="https://github.com/kitze/skillbox">Skillbox</a> - Self-hosted skill library with optional Jev-based recommendations.
+- <a href="https://github.com/suraj-phanindra/wellposed">wellposed</a> - Offline linter and agent skill for Jev requests: checks missing options, broken state references, and question types.
 
-**Explore a local alternative →** [Independent implementations, hardware requirements, and important differences](https://github.com/Amal-David/awesome-jev/blob/main/docs/START_HERE.md#explore-a-local-alternative).
+### Browser and desktop tools
+
+- <a href="https://github.com/trycua/cua">Cua Driver + jev-use</a> - Cua Driver example in Python and TypeScript: Jev chooses an action, the driver runs it, and code checks the result.
+- <a href="https://github.com/jkudish/jev-browser">Jev Browser (MCP, CLI, library)</a> - Playwright browser controlled by Jev, available as an MCP server, CLI, or library.
+- <a href="https://github.com/zurfyx/jev-browser-skill">Jev Browser Skill</a> - Small browser-control reference showing how to build and execute Jev action choices.
+- <a href="https://github.com/wy-coliney/jev-browser-use">Jev Browser Use (existing Codex connection)</a> - Skill that uses an existing Codex browser connection. Jev clicks and scrolls; Codex types and checks the result.
+- <a href="https://github.com/Eronmmer/jev-cua">Jev Cua (Codex/Waku)</a> - Mac automation using Cua Driver, with optional Jev recommendations for saved workflows.
+- <a href="https://github.com/browser-use/jev-ultrafast">Jev Ultrafast</a> - Jev picks browser actions and page elements; a separate model writes text.
+- <a href="https://github.com/moritzkremb/jev-voice-browser">Jev voice browser</a> - Voice-controlled Playwright browser. Jev chooses actions from partial speech and page controls.
+- <a href="https://github.com/stoopid-computers/jev-bot">jev-bot (@compootor)</a> - Native Mac controls through a JavaScript MCP session, with optional Jev element selection.
+- <a href="https://github.com/awlevin/typesafe-computer-use">TypeSafe computer use (macOS)</a> - Mac automation using local OCR and accessibility data, with Jev choosing the next action.
+
+### Agent tools
+
+- <a href="https://github.com/thruwire/foreman">Foreman</a> - Uses Jev to check a coding agent&#x27;s progress and decide when it needs intervention.
+- <a href="https://github.com/jkudish/jev-mcp">Jev MCP</a> - MCP tools for checking claims against evidence, screening content, and ranking candidates.
+- <a href="https://github.com/caio0452/jev_search">jev_search</a> - Ranks files by keyword, then checks their passages with Jev in two passes. Author marks it experimental.
+- <a href="https://github.com/itsmostafa/typesafe-mcp">TypeSafe MCP</a> - Go MCP server for making Jev requests from coding agents.
+
+### Apps and integrations
+
+- <a href="https://github.com/riesvile/nospace">nospace</a> - Adds spaces while you type. Jev chooses between possible word splits; a separate model handles spelling corrections.
+- <a href="https://github.com/cairodavila/tisco">tisco</a> - Searches video transcripts with Jev, then previews clip moves and renames for approval.
+- <a href="https://obstudio.org/tools/vibe-domain/">Vibe Domain</a> - Ranks domain names by the requested style. Has a no-key heuristic mode and a hosted Jev option.
+- <a href="https://github.com/AboveColin/HA-Jev">Home Assistant Jev</a> - Adds Jev decisions to Home Assistant entities and automations.
+- <a href="https://github.com/simonw/llm-typesafe">llm-typesafe</a> - Use Jev from the LLM command line or Python, with stdin, templates, and sync/async calls.
+
+### Games and creative projects
+
+- <a href="https://jevchess.com/">Jev Chess</a> - A shared chess game against Jev with move probabilities. Hosted demo; source code not verified.
+- <a href="https://github.com/sorrycc/typesafe-snake">Jev Plays Snake</a> - Snake where code finds legal moves and Jev picks a direction.
+- <a href="https://github.com/ShiftSad/mage">JevAI for XMage</a> - Magic: The Gathering bots that use Jev alone or alongside XMage search.
+- <a href="https://github.com/standardagents/jevpilot">JevPilot</a> - Driving simulation where Jev chooses steering and speed. Not a real-world driving system.
+- <a href="https://github.com/lukaske/jev-doom-agent">PROMPT FPS / Jev Doom</a> - Jev chooses actions in a browser-based Doom engine. Uses Freedoom assets.
+- <a href="https://github.com/fhshaik/typesafe-mario">TypeSafe Mario</a> - Jev picks controller inputs from emulator state. Requires a lawful local game setup.
+- <a href="https://github.com/wustep/jev-playground">Jev Music Playground</a> - Jev picks musical parameters; code turns them into notes and MIDI. Includes an offline mode.
+
+### Independent models
+
+- <a href="https://huggingface.co/cua-ai/cua-s1-forms">CUA-S1-FORMS (independent specialist)</a> - Cua&#x27;s independent form-filling model and dataset. Not a general desktop agent or official Jev weights.
+- <a href="https://github.com/vinnylarouge/jevlike">Jevlike (independent option scorer)</a> - Independent one-pass option scorer with training code and game examples. Not TypeSafe Jev.
+- <a href="https://github.com/ekzhang/openjev-sglang">OpenJev SGLang</a> - Independent typed-decision server using open models and SGLang. Not official Jev weights.
+
+### Supporting drivers
+
+- <a href="https://github.com/browser-use/browser-harness">Browser Harness (supporting driver)</a> - The CDP browser connection used by Jev Ultrafast. Model-neutral, not a Jev model.
+
+<a href="https://github.com/Amal-David/awesome-jev/blob/main/docs/REVIEWED.md">All 36 reviewed picks: source notes and licenses</a>
 
 ## Computer use and drivers
 
-[Computer-use map: integrations, drivers, skills, and local alternatives](https://github.com/Amal-David/awesome-jev/blob/main/docs/CUA.md).
-
-**Native/desktop:** [Cua Driver + jev-use](https://github.com/trycua/cua/tree/main/libs/cua-driver/examples/jev-use), [Jev Cua](https://github.com/Eronmmer/jev-cua), and [jev-bot](https://github.com/stoopid-computers/jev-bot). **Browser:** compare Jev Ultrafast, the smaller browser skill, Jev Browser, and the existing-connection Codex skill in the map.
-
-Keep the layers separate: **Jev selects; the driver executes; application code verifies.** Browser Harness and Cua Driver are supporting runtimes, not Jev models. CUA-S1-FORMS and Jevlike are independent local-model projects, not official Jev weights. A locally installed agent may still call hosted Jev.
-
-## Reviewed picks
-
-These are the editorial selections. Follow a project immediately, or open the full reviewed page for its concrete Jev role, source evidence, review date, and reuse notes.
-
-**Start building:** <a href="https://github.com/typesafe-ai/typesafe-sdk-js">TypeSafe JavaScript SDK</a> · <a href="https://github.com/typesafe-ai/typesafe-sdk-python">TypeSafe Python SDK</a> · <a href="https://github.com/reachjalil/jevlogs">Jev Logs</a> · <a href="https://github.com/altryne/jevify">Jevify</a> · <a href="https://github.com/typesafe-ai/skills">Official TypeSafe skill</a> · <a href="https://github.com/kitze/skillbox">Skillbox</a>.
-
-**Use it in an agent or app:** <a href="https://github.com/trycua/cua">Cua Driver + jev-use</a> · <a href="https://github.com/jkudish/jev-browser">Jev Browser (MCP, CLI, library)</a> · <a href="https://github.com/zurfyx/jev-browser-skill">Jev Browser Skill</a> · <a href="https://github.com/wy-coliney/jev-browser-use">Jev Browser Use (existing Codex connection)</a> · <a href="https://github.com/Eronmmer/jev-cua">Jev Cua (Codex/Waku)</a> · <a href="https://github.com/browser-use/jev-ultrafast">Jev Ultrafast</a> · <a href="https://github.com/moritzkremb/jev-voice-browser">Jev voice browser</a> · <a href="https://github.com/stoopid-computers/jev-bot">jev-bot (@compootor)</a> · <a href="https://github.com/awlevin/typesafe-computer-use">TypeSafe computer use (macOS)</a> · <a href="https://github.com/thruwire/foreman">Foreman</a> · <a href="https://github.com/jkudish/jev-mcp">Jev MCP</a> · <a href="https://github.com/caio0452/jev_search">jev_search</a> · <a href="https://github.com/itsmostafa/typesafe-mcp">TypeSafe MCP</a> · <a href="https://github.com/cairodavila/tisco">tisco</a> · <a href="https://obstudio.org/tools/vibe-domain/">Vibe Domain</a> · <a href="https://github.com/browser-use/browser-harness">Browser Harness (supporting driver)</a> · <a href="https://github.com/AboveColin/HA-Jev">Home Assistant Jev</a>.
-
-**Explore games and creative tools:** <a href="https://jevchess.com/">Jev Chess</a> · <a href="https://github.com/sorrycc/typesafe-snake">Jev Plays Snake</a> · <a href="https://github.com/ShiftSad/mage">JevAI for XMage</a> · <a href="https://github.com/standardagents/jevpilot">JevPilot</a> · <a href="https://github.com/lukaske/jev-doom-agent">PROMPT FPS / Jev Doom</a> · <a href="https://github.com/fhshaik/typesafe-mario">TypeSafe Mario</a> · <a href="https://github.com/wustep/jev-playground">Jev Music Playground</a>.
-
-**Investigate local alternatives:** <a href="https://huggingface.co/cua-ai/cua-s1-forms">CUA-S1-FORMS (independent specialist)</a> · <a href="https://github.com/vinnylarouge/jevlike">Jevlike (independent option scorer)</a> · <a href="https://github.com/ekzhang/openjev-sglang">OpenJev SGLang</a>.
-
-<a href="https://github.com/Amal-David/awesome-jev/blob/main/docs/REVIEWED.md">All 33 reviewed picks — with evidence, dates and reuse notes</a>
-
-## OpenRouter community winners
-
-[OpenRouter's 21 September 2026 showcase](https://x.com/OpenRouter/status/2102125748723339774) named five projects: [JevAI for XMage](https://github.com/ShiftSad/mage/tree/master/Mage.Server.Plugins/Mage.Player.JevAI), [Jev Chess](https://jevchess.com/), [tisco](https://github.com/cairodavila/tisco), [Vibe Domain](https://obstudio.org/tools/vibe-domain/), and [jev_search](https://github.com/caio0452/jev_search).
-
-Explore **game decisions, transcript search, domain ranking, and two-pass code search**. Each winner has its original post and publisher screenshot in the [visual gallery](#watch-jev-in-action), plus [source and implementation notes](https://github.com/Amal-David/awesome-jev/blob/main/docs/OPENROUTER_SHOWCASE.md). Three have linked source repositories; the other two are public project pages, not verified open-source releases. “Winner” is OpenRouter's designation, not our ranking or a security certification.
-
-## Find a project
-
-**On GitHub:** open the [categorized catalog](https://github.com/Amal-David/awesome-jev/blob/main/docs/CATALOG.md), choose a heading from its outline, and use **Cmd/Ctrl+F** for a project, creator, or keyword.
-
-**Prefer filters?** The [local catalog viewer](https://github.com/Amal-David/awesome-jev/blob/main/docs/BROWSE.md) starts with reviewed picks. Search by keyword, then filter by evidence level, category, available code/skill/demo, and license. It runs without dependencies, sign-in, API keys, or a server; the viewer's data is embedded at build time. [Browse instructions](https://github.com/Amal-David/awesome-jev/blob/main/docs/BROWSE.md) · [Machine-readable catalog](https://github.com/Amal-David/awesome-jev/blob/main/data/catalog.json).
-
-## Why this exists
-
-A compelling clip often leaves the useful questions unanswered: **what did Jev decide, where is the implementation, and what can I reuse?** This directory connects the original demo to the code and separates inspected sources from the much larger discovery queue. A high raw entry count is not the goal; a shorter path to something useful is.
-
-## What belongs here?
-
-A concrete Jev integration, demo, skill, SDK, reusable snippet, tutorial, or clearly labeled independent reproduction—with a traceable primary source and a specific explanation of Jev's role. Generic type-safety libraries, unrelated projects named Jev, unsupported performance claims, and duplicate listings do not belong.
-
-Repositories are deduplicated by canonical owner/name; renamed projects should point to their successor. Maintainers can correct an entry, remove it from the reviewed selection, or exclude it from future imports. [Inclusion, deduplication, and removal policy](https://github.com/Amal-David/awesome-jev/blob/main/docs/CURATION.md).
-
-## Contribute
-
-[Suggest a demo or correction](https://github.com/Amal-David/awesome-jev/issues/new?template=suggest-resource.yml) with the original creator, a source link, what Jev decides, and any code, skill, or recording. For a PR, edit the relevant JSON source and run `python3 scripts/build.py`, then `python3 -m unittest discover -s tests -v` and `python3 scripts/build.py --check`. [Contributor guide](https://github.com/Amal-David/awesome-jev/blob/main/CONTRIBUTING.md).
-
-The four-hour workflow performs bounded discovery and rotating checks; it does not continuously inspect every website. [Freshness, unavailable repositories, media errors, and run receipts](https://github.com/Amal-David/awesome-jev/blob/main/docs/STATUS.md) distinguish actual checks from scheduled intentions.
-
-<details>
-<summary><strong>Safety, licensing, and evidence limits</strong></summary>
-
-Source review is not a security audit, successful execution test, benchmark replication, or endorsement. Inspect permissions and outbound data before installing hooks, browser extensions, or agent skills. Keep API credentials private; demos can use paid inference, privileged desktop access, or logged-in browser profiles.
-
-Recordings, illustrations, fixtures, and mock modes are labeled where known. A live-looking dashboard is not evidence of real inference or profitable trading. Independent reproductions are not official Jev weights or proof of equivalent quality.
-
-Missing licenses remain `not-checked`, `not-detected`, or `NOASSERTION`, not assumed permission to reuse. Original code and writing follow the repository's [license](https://github.com/Amal-David/awesome-jev/blob/main/LICENSE); imported metadata and linked media retain their original terms. This is an unofficial community directory, not endorsed by TypeSafe AI. [Security policy](https://github.com/Amal-David/awesome-jev/blob/main/SECURITY.md) · [Attribution](https://github.com/Amal-David/awesome-jev/blob/main/SOURCES.md).
-
-</details>
+[Compare the browser and desktop tools](https://github.com/Amal-David/awesome-jev/blob/main/docs/CUA.md). The guide separates Jev integrations from their drivers and from independent local models. Cua Driver and Browser Harness execute actions; neither is a Jev model. A locally installed tool may still send data to a hosted model.
 
 <!-- MEDIA_GALLERY:START -->
 
@@ -344,12 +336,16 @@ https://github.com/user-attachments/assets/81650587-e3f1-4655-8213-ed5f6e120e9a
 
 <!-- MEDIA_GALLERY:END -->
 
+## OpenRouter community winners
+
+OpenRouter's [September 21 roundup](https://x.com/OpenRouter/status/2102125748723339774) features JevAI for XMage, Jev Chess, tisco, Vibe Domain, and jev_search. Their screenshots are in the gallery above. [Project links and implementation notes](https://github.com/Amal-David/awesome-jev/blob/main/docs/OPENROUTER_SHOWCASE.md). These are OpenRouter's picks, not a ranking by this list.
+
 <details>
-<summary><strong>Curated X demos: compact source index</strong></summary>
+<summary>All curated X links</summary>
 
 ## Curated X demos
 
-Sources include [Moritz Kremb's roundup](https://x.com/moritzkremb/status/2100895894287839255) and [OpenRouter's five community winners](https://x.com/OpenRouter/status/2102125748723339774). The five OpenRouter winner posts are covered; Moritz's thread is not claimed complete. [Full X index and access notes](https://github.com/Amal-David/awesome-jev/blob/main/docs/X_DEMOS.md).
+[Moritz's roundup](https://x.com/moritzkremb/status/2100895894287839255) started this collection. [OpenRouter's thread](https://x.com/OpenRouter/status/2102125748723339774) added five more projects. [Full index and source notes](https://github.com/Amal-David/awesome-jev/blob/main/docs/X_DEMOS.md).
 
 | Demo | What Jev does | Watch / inspect |
 |---|---|---|
@@ -366,4 +362,32 @@ Sources include [Moritz Kremb's roundup](https://x.com/moritzkremb/status/210089
 
 </details>
 
-**Star to bookmark the reviewed collection.** A corrected source link or a well-explained contribution is just as valuable.
+## Find a project
+
+The [full catalog](https://github.com/Amal-David/awesome-jev/blob/main/docs/CATALOG.md) includes community listings and automatic discoveries that have not been selected for this README. Use GitHub's outline or Cmd/Ctrl+F to browse it. For filters, clone the repo and open `docs/catalog.html` locally. [Viewer instructions](https://github.com/Amal-David/awesome-jev/blob/main/docs/BROWSE.md).
+
+`Reviewed` means the primary source was inspected. `Indexed` means it came from another directory. `Auto-discovered` means a README keyword match. These labels do not imply the project was tested here.
+
+<details>
+<summary>Refresh status</summary>
+
+**Last discovery:** 2026-09-22T13:30:23Z (UTC). **Latest repository metadata date:** 2026-09-22. **Unavailable repositories at last check:** 13. <a href="https://github.com/Amal-David/awesome-jev/blob/main/docs/STATUS.md">Coverage, failures and run receipts</a>.
+
+The four-hour job updates the discovery catalog and checks a rotating set of links. It does not choose projects for the README. [Check history and coverage](https://github.com/Amal-David/awesome-jev/blob/main/docs/STATUS.md).
+
+</details>
+
+## Contribute
+
+[Suggest a project](https://github.com/Amal-David/awesome-jev/issues/new?template=suggest-resource.yml) with a source link, what Jev does, and one reason it is useful. Small projects are welcome. A clear implementation or inspectable demo matters more than stars; screenshots and performance claims alone are not enough.
+
+Found a broken link or a misleading description? Open an issue. [Contribution guide](https://github.com/Amal-David/awesome-jev/blob/main/CONTRIBUTING.md) · [Selection and removal policy](https://github.com/Amal-David/awesome-jev/blob/main/docs/CURATION.md).
+
+<details>
+<summary><strong>Safety, licensing, and evidence limits</strong></summary>
+
+Some projects use paid APIs, logged-in browser sessions, or desktop permissions. Read their setup and privacy notes before connecting them. Reported benchmarks belong to their authors unless a separate reproduction is linked. Mock modes and independent models are labeled where known.
+
+This is an unofficial list. Each linked project and media file keeps its own license. A missing license is not permission to reuse. [Security policy](https://github.com/Amal-David/awesome-jev/blob/main/SECURITY.md) · [Sources and credits](https://github.com/Amal-David/awesome-jev/blob/main/SOURCES.md).
+
+</details>
