@@ -4,7 +4,7 @@
 
 A curated starting point for TypeSafe Jev: reviewed projects, reusable skills, small code examples, and creator demos from X, GitHub, and YouTube.
 
-**17 reviewed picks** — start with the source-reviewed selection, not the raw index.
+**22 reviewed picks** — start with the source-reviewed selection, not the raw index.
 
 <a href="https://github.com/Amal-David/awesome-jev/blob/main/docs/REVIEWED.md">Browse reviewed picks</a> · <a href="https://github.com/Amal-David/awesome-jev/blob/main/docs/STATUS.md">Freshness and link health</a>
 
@@ -12,7 +12,7 @@ A curated starting point for TypeSafe Jev: reviewed projects, reusable skills, s
 
 <sub>**Last discovery:** 2026-09-22T08:59:02Z (UTC). **Latest repository metadata date:** 2026-09-22. **Unavailable repositories at last check:** 13. <a href="https://github.com/Amal-David/awesome-jev/blob/main/docs/STATUS.md">Coverage, failures and run receipts</a>.</sub>
 
-**Navigate:** [Quick start](#20-second-quick-start) · [Choose a path](#choose-your-path) · [Reviewed picks](#reviewed-picks) · [Watch demos](#watch-jev-in-action) · [Search the catalog](#find-a-project) · [Contribute](#contribute)
+**Navigate:** [Quick start](#20-second-quick-start) · [Choose a path](#choose-your-path) · [Reviewed picks](#reviewed-picks) · [OpenRouter winners](#openrouter-community-winners) · [Watch demos](#watch-jev-in-action) · [Search the catalog](#find-a-project) · [Contribute](#contribute)
 
 > Source-reviewed does not mean security-audited. Keep credentials private and inspect permissions before running a project.
 
@@ -58,13 +58,19 @@ These are the editorial selections. Follow a project immediately, or open the fu
 
 **Start building:** <a href="https://github.com/typesafe-ai/typesafe-sdk-js">TypeSafe JavaScript SDK</a> · <a href="https://github.com/typesafe-ai/typesafe-sdk-python">TypeSafe Python SDK</a> · <a href="https://github.com/reachjalil/jevlogs">Jev Logs</a> · <a href="https://github.com/altryne/jevify">Jevify</a> · <a href="https://github.com/typesafe-ai/skills">Official TypeSafe skill</a> · <a href="https://github.com/kitze/skillbox">Skillbox</a>.
 
-**Use it in an agent or app:** <a href="https://github.com/browser-use/jev-ultrafast">Jev Ultrafast</a> · <a href="https://github.com/thruwire/foreman">Foreman</a> · <a href="https://github.com/jkudish/jev-mcp">Jev MCP</a> · <a href="https://github.com/itsmostafa/typesafe-mcp">TypeSafe MCP</a> · <a href="https://github.com/AboveColin/HA-Jev">Home Assistant Jev</a>.
+**Use it in an agent or app:** <a href="https://github.com/browser-use/jev-ultrafast">Jev Ultrafast</a> · <a href="https://github.com/thruwire/foreman">Foreman</a> · <a href="https://github.com/jkudish/jev-mcp">Jev MCP</a> · <a href="https://github.com/caio0452/jev_search">jev_search</a> · <a href="https://github.com/itsmostafa/typesafe-mcp">TypeSafe MCP</a> · <a href="https://github.com/cairodavila/tisco">tisco</a> · <a href="https://obstudio.org/tools/vibe-domain/">Vibe Domain</a> · <a href="https://github.com/AboveColin/HA-Jev">Home Assistant Jev</a>.
 
-**Explore games and creative tools:** <a href="https://github.com/sorrycc/typesafe-snake">Jev Plays Snake</a> · <a href="https://github.com/standardagents/jevpilot">JevPilot</a> · <a href="https://github.com/lukaske/jev-doom-agent">PROMPT FPS / Jev Doom</a> · <a href="https://github.com/fhshaik/typesafe-mario">TypeSafe Mario</a> · <a href="https://github.com/wustep/jev-playground">Jev Music Playground</a>.
+**Explore games and creative tools:** <a href="https://jevchess.com/">Jev Chess</a> · <a href="https://github.com/sorrycc/typesafe-snake">Jev Plays Snake</a> · <a href="https://github.com/ShiftSad/mage">JevAI for XMage</a> · <a href="https://github.com/standardagents/jevpilot">JevPilot</a> · <a href="https://github.com/lukaske/jev-doom-agent">PROMPT FPS / Jev Doom</a> · <a href="https://github.com/fhshaik/typesafe-mario">TypeSafe Mario</a> · <a href="https://github.com/wustep/jev-playground">Jev Music Playground</a>.
 
 **Investigate local alternatives:** <a href="https://github.com/ekzhang/openjev-sglang">OpenJev SGLang</a>.
 
-<a href="https://github.com/Amal-David/awesome-jev/blob/main/docs/REVIEWED.md">All 17 reviewed picks — with evidence, dates and reuse notes</a>
+<a href="https://github.com/Amal-David/awesome-jev/blob/main/docs/REVIEWED.md">All 22 reviewed picks — with evidence, dates and reuse notes</a>
+
+## OpenRouter community winners
+
+[OpenRouter's 21 September 2026 showcase](https://x.com/OpenRouter/status/2102125748723339774) named five projects: [JevAI for XMage](https://github.com/ShiftSad/mage/tree/master/Mage.Server.Plugins/Mage.Player.JevAI), [Jev Chess](https://jevchess.com/), [tisco](https://github.com/cairodavila/tisco), [Vibe Domain](https://obstudio.org/tools/vibe-domain/), and [jev_search](https://github.com/caio0452/jev_search).
+
+Explore **game decisions, transcript search, domain ranking, and two-pass code search**. Each winner has its original post and publisher screenshot in the [visual gallery](#watch-jev-in-action), plus [source and implementation notes](https://github.com/Amal-David/awesome-jev/blob/main/docs/OPENROUTER_SHOWCASE.md). Three have linked source repositories; the other two are public project pages, not verified open-source releases. “Winner” is OpenRouter's designation, not our ranking or a security certification.
 
 ## Find a project
 
@@ -154,6 +160,47 @@ Missing licenses remain `not-checked`, `not-detected`, or `NOASSERTION`, not ass
 <p>The discovery thread that seeded this collection; follow the original creators.</p>
 <p><a href="https://x.com/moritzkremb/status/2100895894287839255">▶ Watch on X</a> · <a href="https://x.com/moritzkremb/status/2100895894287839255">Source</a></p>
 <p><sub>Moritz Kremb · @moritzkremb — Roundup image, not a separate working project. This directory does not claim to capture every reply.</sub></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://x.com/OpenRouter/status/2102125765773144286"><img src="https://pbs.twimg.com/media/HSxAPo7bwAAcSvf.jpg?name=orig" alt="OpenRouter winner: JevAI for XMage — creator preview; click to watch or inspect" width="480" loading="lazy"></a>
+<h4>OpenRouter winner: JevAI for XMage</h4>
+<p>Legal game actions become Jev choices; the hybrid combines XMage search with model judgment.</p>
+<p><a href="https://x.com/OpenRouter/status/2102125765773144286">▶ Watch on X</a> · <a href="https://github.com/ShiftSad/mage/tree/master/Mage.Server.Plugins/Mage.Player.JevAI">Code</a> · <a href="https://github.com/ShiftSad/mage/blob/master/Mage.Server.Plugins/Mage.Player.JevAI/README.md">Source</a></p>
+<p><sub>ShiftSad · screenshot published by OpenRouter — Publisher screenshot, not a recording or our test. The reported 11-6-3 result belongs to the hybrid; pruning is off by default. Award announced 2026-09-21.</sub></p>
+</td>
+<td width="50%" valign="top">
+<a href="https://x.com/OpenRouter/status/2102125782219075865"><img src="https://pbs.twimg.com/media/HSxAQhCbsAESKOn.png?name=orig" alt="OpenRouter winner: Jev Chess — creator preview; click to watch or inspect" width="480" loading="lazy"></a>
+<h4>OpenRouter winner: Jev Chess</h4>
+<p>A shared chess game displays Jev probabilities over legal move candidates.</p>
+<p><a href="https://x.com/OpenRouter/status/2102125782219075865">▶ Watch on X</a> · <a href="https://jevchess.com/">Source</a></p>
+<p><sub>sliday · screenshot published by OpenRouter — Publisher screenshot; Source opens the project page. No public repository or code license verified. We did not play a move or reproduce the results. Award announced 2026-09-21.</sub></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://x.com/OpenRouter/status/2102125798371283444"><img src="https://pbs.twimg.com/media/HSxARhBaIAABItD.jpg?name=orig" alt="OpenRouter winner: tisco — creator preview; click to watch or inspect" width="480" loading="lazy"></a>
+<h4>OpenRouter winner: tisco</h4>
+<p>Search spoken content, review transcript matches, and approve clip organization in a terminal.</p>
+<p><a href="https://x.com/OpenRouter/status/2102125798371283444">▶ Watch on X</a> · <a href="https://github.com/cairodavila/tisco">Code</a> · <a href="https://github.com/cairodavila/tisco/blob/main/README.md">Source</a></p>
+<p><sub>cairodavila · screenshot published by OpenRouter — Publisher screenshot. Jev judges transcripts, not video pixels. Audio uploads, live model calls, and file changes have separate data and approval implications. Award announced 2026-09-21.</sub></p>
+</td>
+<td width="50%" valign="top">
+<a href="https://x.com/OpenRouter/status/2102125815031071157"><img src="https://pbs.twimg.com/media/HSxAScJawAAJ1Lu.jpg?name=orig" alt="OpenRouter winner: Vibe Domain — creator preview; click to watch or inspect" width="480" loading="lazy"></a>
+<h4>OpenRouter winner: Vibe Domain</h4>
+<p>Separate candidate availability checks from ranking names against a requested vibe.</p>
+<p><a href="https://x.com/OpenRouter/status/2102125815031071157">▶ Watch on X</a> · <a href="https://obstudio.org/tools/vibe-domain/">Source</a></p>
+<p><sub>OB Studio / Oliver · screenshot published by OpenRouter — Publisher screenshot; Source opens the project. The page documents a no-key heuristic mode distinct from live Jev. No public repo verified; recheck availability at a registrar. Award announced 2026-09-21.</sub></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://x.com/OpenRouter/status/2102125830185075060"><img src="https://pbs.twimg.com/media/HSxATYraMAADchl.jpg?name=orig" alt="OpenRouter winner: jev_search — creator preview; click to watch or inspect" width="480" loading="lazy"></a>
+<h4>OpenRouter winner: jev_search</h4>
+<p>Keyword-density code prioritizes files; Jev evaluates passages in two passes.</p>
+<p><a href="https://x.com/OpenRouter/status/2102125830185075060">▶ Watch on X</a> · <a href="https://github.com/caio0452/jev_search">Code</a> · <a href="https://github.com/caio0452/jev_search/blob/main/README.md">Source</a></p>
+<p><sub>caio0452 · screenshot published by OpenRouter — Publisher screenshot. The author labels the project AI-generated and not for production. Selected source text reaches OpenRouter; no project code was executed here. Award announced 2026-09-21.</sub></p>
 </td>
 </tr>
 </table>
@@ -294,7 +341,7 @@ https://github.com/user-attachments/assets/81650587-e3f1-4655-8213-ed5f6e120e9a
 
 ## Curated X demos
 
-Inspired by [Moritz Kremb's Jev project roundup](https://x.com/moritzkremb/status/2100895894287839255). This separately researched collection is not a claim to include every reply in the thread. [Full X index and access notes](https://github.com/Amal-David/awesome-jev/blob/main/docs/X_DEMOS.md).
+Sources include [Moritz Kremb's roundup](https://x.com/moritzkremb/status/2100895894287839255) and [OpenRouter's five community winners](https://x.com/OpenRouter/status/2102125748723339774). The five OpenRouter winner posts are covered; Moritz's thread is not claimed complete. [Full X index and access notes](https://github.com/Amal-David/awesome-jev/blob/main/docs/X_DEMOS.md).
 
 | Demo | What Jev does | Watch / inspect |
 |---|---|---|
@@ -303,6 +350,11 @@ Inspired by [Moritz Kremb's Jev project roundup](https://x.com/moritzkremb/statu
 | **macOS computer use** — @awlevin | Selects desktop actions from OCR and accessibility-derived state, with a separate writer for free text. | [X demo](https://x.com/awlevin/status/2100262612428894676) · [repo](https://github.com/awlevin/typesafe-computer-use) · [source](https://github.com/awlevin/typesafe-computer-use/blob/main/README.md#how-a-step-works) |
 | **Foreman coding-agent supervisor** — @JoshARosen | Assesses coding-worker progress and verification needs while deterministic policy decides interventions. | [X demo](https://x.com/JoshARosen/status/2100573432089866717) · [repo](https://github.com/thruwire/foreman) · [source](https://github.com/thruwire/foreman/blob/main/README.md#what-is-foreman) |
 | **Jev trading-loop demonstration** — @jarrodwatts | Uses typed buy/sell judgments in an order-book loop, while code owns quoting, limits, and execution. | [X demo](https://x.com/jarrodwatts/status/2100356151468585346) · [repo](https://github.com/jarrodwatts/jev-trader) · [source](https://github.com/jarrodwatts/jev-trader/blob/main/README.md#run) |
+| **JevAI for XMage** — ShiftSad · featured by @OpenRouter | XMage supplies legal plays; pure and hybrid players use Jev for bounded decisions and selection among searched lines. | [X demo](https://x.com/OpenRouter/status/2102125765773144286) · [repo](https://github.com/ShiftSad/mage) · [source](https://github.com/ShiftSad/mage/blob/master/Mage.Server.Plugins/Mage.Player.JevAI/README.md) |
+| **Jev Chess** — sliday · featured by @OpenRouter | A shared internet-versus-Jev chess game visualizes probabilities over legal move candidates. | [X demo](https://x.com/OpenRouter/status/2102125782219075865) · [project](https://jevchess.com/) · [source](https://jevchess.com/) |
+| **tisco** — cairodavila · featured by @OpenRouter | Jev searches transcript meaning; code previews and applies approved clip moves and renames. | [X demo](https://x.com/OpenRouter/status/2102125798371283444) · [repo](https://github.com/cairodavila/tisco) · [source](https://github.com/cairodavila/tisco/blob/main/README.md) |
+| **Vibe Domain** — OB Studio / Oliver · featured by @OpenRouter | Ranks domain candidates against vibe and keyword preferences, separately from registry and availability checks. | [X demo](https://x.com/OpenRouter/status/2102125815031071157) · [project](https://obstudio.org/tools/vibe-domain/) · [source](https://obstudio.org/tools/vibe-domain/) |
+| **jev\_search** — caio0452 · featured by @OpenRouter | Keyword-density code prioritizes files and chunks; Jev judges passages in a fast first pass and a broader second pass. | [X demo](https://x.com/OpenRouter/status/2102125830185075060) · [repo](https://github.com/caio0452/jev_search) · [source](https://github.com/caio0452/jev_search/blob/main/README.md) |
 
 </details>
 

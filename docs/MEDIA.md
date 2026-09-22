@@ -74,6 +74,66 @@ Checked means a bounded public metadata/media request succeeded, not that the vi
 
 **Last check:** 2026-09-22; reachable-image; author-source reference.
 
+<h2>OpenRouter winner: JevAI for XMage</h2>
+
+<a href="https://x.com/OpenRouter/status/2102125765773144286">Original / watch</a> · <a href="https://github.com/ShiftSad/mage/blob/master/Mage.Server.Plugins/Mage.Player.JevAI/README.md">Source context</a>
+
+**Creator:** ShiftSad · screenshot published by OpenRouter
+
+**Presentation:** Publisher screenshot, not a recording or our test. The reported 11-6-3 result belongs to the hybrid; pruning is off by default. Award announced 2026-09-21.
+
+<a href="https://pbs.twimg.com/media/HSxAPo7bwAAcSvf.jpg?name=orig">Embedded preview source</a>
+
+**Last check:** 2026-09-22; reachable-image; author-source reference.
+
+<h2>OpenRouter winner: Jev Chess</h2>
+
+<a href="https://x.com/OpenRouter/status/2102125782219075865">Original / watch</a> · <a href="https://jevchess.com/">Source context</a>
+
+**Creator:** sliday · screenshot published by OpenRouter
+
+**Presentation:** Publisher screenshot; Source opens the project page. No public repository or code license verified. We did not play a move or reproduce the results. Award announced 2026-09-21.
+
+<a href="https://pbs.twimg.com/media/HSxAQhCbsAESKOn.png?name=orig">Embedded preview source</a>
+
+**Last check:** 2026-09-22; reachable-image; author-source reference.
+
+<h2>OpenRouter winner: tisco</h2>
+
+<a href="https://x.com/OpenRouter/status/2102125798371283444">Original / watch</a> · <a href="https://github.com/cairodavila/tisco/blob/main/README.md">Source context</a>
+
+**Creator:** cairodavila · screenshot published by OpenRouter
+
+**Presentation:** Publisher screenshot. Jev judges transcripts, not video pixels. Audio uploads, live model calls, and file changes have separate data and approval implications. Award announced 2026-09-21.
+
+<a href="https://pbs.twimg.com/media/HSxARhBaIAABItD.jpg?name=orig">Embedded preview source</a>
+
+**Last check:** 2026-09-22; reachable-image; author-source reference.
+
+<h2>OpenRouter winner: Vibe Domain</h2>
+
+<a href="https://x.com/OpenRouter/status/2102125815031071157">Original / watch</a> · <a href="https://obstudio.org/tools/vibe-domain/">Source context</a>
+
+**Creator:** OB Studio / Oliver · screenshot published by OpenRouter
+
+**Presentation:** Publisher screenshot; Source opens the project. The page documents a no-key heuristic mode distinct from live Jev. No public repo verified; recheck availability at a registrar. Award announced 2026-09-21.
+
+<a href="https://pbs.twimg.com/media/HSxAScJawAAJ1Lu.jpg?name=orig">Embedded preview source</a>
+
+**Last check:** 2026-09-22; reachable-image; author-source reference.
+
+<h2>OpenRouter winner: jev_search</h2>
+
+<a href="https://x.com/OpenRouter/status/2102125830185075060">Original / watch</a> · <a href="https://github.com/caio0452/jev_search/blob/main/README.md">Source context</a>
+
+**Creator:** caio0452 · screenshot published by OpenRouter
+
+**Presentation:** Publisher screenshot. The author labels the project AI-generated and not for production. Selected source text reaches OpenRouter; no project code was executed here. Award announced 2026-09-21.
+
+<a href="https://pbs.twimg.com/media/HSxATYraMAADchl.jpg?name=orig">Embedded preview source</a>
+
+**Last check:** 2026-09-22; reachable-image; author-source reference.
+
 <h2>Jev Tetris: see the decision</h2>
 
 <a href="https://github.com/thelau/jev-tetris">Original / watch</a> · <a href="https://github.com/thelau/jev-tetris/blob/main/README.md">Source context</a>
