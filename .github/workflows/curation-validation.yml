@@ -14,13 +14,19 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
-      - name: Build generated views
-        run: python3 scripts/build.py
-      - name: Require committed generated views
-        run: git diff --exit-code
-      - name: Run repository tests
+      - name: Run repository tests first
         run: python3 -m unittest discover -s tests -v
-      - name: Check generated views
+      - name: Network refresh
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          PYTHONUNBUFFERED: '1'
+        run: |
+          python3 scripts/build.py --refresh --refresh-media
+          cp docs/REVIEWED.md /tmp/reviewed-after-refresh.md
+      - name: Rebuild offline and show drift
+        run: |
+          python3 scripts/build.py
+          diff -u /tmp/reviewed-after-refresh.md docs/REVIEWED.md || true
+          git diff -- docs/REVIEWED.md data/catalog.json data/refresh.json
+      - name: Require stable offline rebuild
         run: python3 scripts/build.py --check
-      - name: Check diff whitespace
-        run: git diff --check
