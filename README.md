@@ -4,7 +4,7 @@ Projects, demos, and tools built with [Jev](https://docs.typesafe.ai/).
 
 Jev answers questions about data: pick an option, return a yes/no probability, or score something on a scale. It does not write text. The examples here show what people are using it for, with links to the code where available.
 
-**43 reviewed picks**. <a href="https://github.com/Amal-David/awesome-jev/blob/main/docs/REVIEWED.md">Source notes and licenses</a>. The larger discovery catalog is separate.
+**44 reviewed picks**. <a href="https://github.com/Amal-David/awesome-jev/blob/main/docs/REVIEWED.md">Source notes and licenses</a>. The larger discovery catalog is separate.
 
 [Quick start](#20-second-quick-start) · [Projects](#reviewed-picks) · [Demos from X](#watch-jev-in-action) · [CUA & drivers](#computer-use-and-drivers) · [OpenRouter winners](#openrouter-community-winners) · [Contributing](#contribute)
 
@@ -61,6 +61,7 @@ For simple rules, parsing, or arithmetic, use code. A dedicated classifier may b
 - <a href="https://github.com/zurfyx/jev-browser-skill">Jev Browser Skill</a> - Small browser-control reference showing how to build and execute Jev action choices.
 - <a href="https://github.com/wy-coliney/jev-browser-use">Jev Browser Use (existing Codex connection)</a> - Skill that uses an existing Codex browser connection. Jev clicks and scrolls; Codex types and checks the result.
 - <a href="https://github.com/Eronmmer/jev-cua">Jev Cua (Codex/Waku)</a> - Mac automation using Cua Driver, with optional Jev recommendations for saved workflows.
+- <a href="https://github.com/socai-io/jev-social">Jev Social</a> - Read-only Instagram, TikTok, and LinkedIn research loop: Jev Choice questions pick the platform and each bounded search, read, inspect, or finish operation; SocAI executes in the user&#x27;s Chrome and the app retains source-linked evidence.
 - <a href="https://github.com/browser-use/jev-ultrafast">Jev Ultrafast</a> - Jev picks browser actions and page elements; a separate model writes text.
 - <a href="https://github.com/moritzkremb/jev-voice-browser">Jev voice browser</a> - Voice-controlled Playwright browser. Jev chooses actions from partial speech and page controls.
 - <a href="https://github.com/stoopid-computers/jev-bot">jev-bot (@compootor)</a> - Native Mac controls through a JavaScript MCP session, with optional Jev element selection.
@@ -106,7 +107,7 @@ For simple rules, parsing, or arithmetic, use code. A dedicated classifier may b
 
 - <a href="https://github.com/browser-use/browser-harness">Browser Harness (supporting driver)</a> - The CDP browser connection used by Jev Ultrafast. Model-neutral, not a Jev model.
 
-<a href="https://github.com/Amal-David/awesome-jev/blob/main/docs/REVIEWED.md">All 43 reviewed picks: source notes and licenses</a>
+<a href="https://github.com/Amal-David/awesome-jev/blob/main/docs/REVIEWED.md">All 44 reviewed picks: source notes and licenses</a>
 
 ## Computer use and drivers
 
