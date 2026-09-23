@@ -16353,6 +16353,22 @@
     "url": "https://github.com/VladyslavHontar/clear-head"
   },
   {
+    "category": "agents",
+    "code": "https://github.com/suenot/codex-jev-router/blob/c31f1bcc9c792d526c5b6ca0bbbc2bad8bfdf695/src/decider.mjs",
+    "description": "Codex sends a short subagent task summary to Jev for Choice and Noul decisions, then local confidence gates select the subagent model and reasoning effort or fall back to Sol.",
+    "evidence_level": "primary-source-reviewed",
+    "kind": "direct-integration",
+    "license": "MIT",
+    "name": "Codex Jev Router",
+    "notes": "Author submission. Hosted Jev receives the sanitized task summary and requires an API key; local compatible backends are optional. The router and setup instructions were inspected, but no independent latency or cost benchmark was performed for this catalog review.",
+    "repo": "suenot/codex-jev-router",
+    "reviewed": "2026-09-24",
+    "sources": [
+      "https://github.com/suenot/codex-jev-router/blob/c31f1bcc9c792d526c5b6ca0bbbc2bad8bfdf695/src/router.mjs"
+    ],
+    "url": "https://github.com/suenot/codex-jev-router"
+  },
+  {
     "archived": false,
     "category": "agents",
     "demo": "https://wellkilo.github.io/codex-jev-preflight/",

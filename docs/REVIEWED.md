@@ -2,7 +2,7 @@
 
 [Start here](../README.md) · [Browse by task](START_HERE.md) · [Search and filters](BROWSE.md) · [Full catalog](CATALOG.md)
 
-**45 selections reviewed against primary public sources.** Source review is not a security audit or a reproduced benchmark.
+**46 selections reviewed against primary public sources.** Source review is not a security audit or a reproduced benchmark.
 
 ## Official resources
 
@@ -59,6 +59,7 @@
 
 | Project | Jev role / reuse notes | Links | Evidence | License / status |
 |---|---|---|---|---|
+| Codex Jev Router | Codex sends a short subagent task summary to Jev for Choice and Noul decisions, then local confidence gates select the subagent model and reasoning effort or fall back to Sol. Author submission. Hosted Jev receives the sanitized task summary and requires an API key; local compatible backends are optional. The router and setup instructions were inspected, but no independent latency or cost benchmark was performed for this catalog review. | [repo](https://github.com/suenot/codex-jev-router) · [code](https://github.com/suenot/codex-jev-router/blob/c31f1bcc9c792d526c5b6ca0bbbc2bad8bfdf695/src/decider.mjs) · [evidence](https://github.com/suenot/codex-jev-router/blob/c31f1bcc9c792d526c5b6ca0bbbc2bad8bfdf695/src/router.mjs) | primary-source-reviewed / 2026-09-24 | MIT |
 | Foreman | Uses Jev to check a coding agent's progress and decide when it needs intervention. Architectural experiment; its README provides an offline deterministic demo. | [repo](https://github.com/thruwire/foreman) · [demo](https://thruwire.ai) · [post](https://x.com/JoshARosen/status/2100573432089866717) · [evidence](https://github.com/thruwire/foreman) | primary-source-reviewed / 2026-09-18 | MIT |
 | Jev MCP | MCP tools for checking claims against evidence, screening content, and ranking candidates. Review tool permissions and environment handling before installation. | [repo](https://github.com/jkudish/jev-mcp) · [post](https://x.com/0xLogicrw/status/2100478725393686556) · [evidence](https://github.com/jkudish/jev-mcp) | primary-source-reviewed / 2026-09-18 | MIT |
 | jev-belay | Claude Code Stop hook that checks local run evidence before Jev judges an unverified completion claim. Submitted in PR #1. Local code establishes file-change/check evidence and fails open on errors; only redacted task/final-message text and derived counts are intended for inference. Author AUROC/latency/cost figures come from one author's model-labeled corpus and were not reproduced. Default inference is TypeSafe HTTPS; a custom JEV\_BASE\_URL is not forced to HTTPS, so use only trusted HTTPS endpoints with real credentials. Source-reviewed only; the hook and its upstream tests were not executed here. | [repo](https://github.com/valentynkit/jev-belay) · [code](https://github.com/valentynkit/jev-belay/blob/ef719db7eaadc56aa4def86c4da4ffff5bcbca35/belay.mjs) · [evidence](https://github.com/valentynkit/jev-belay/blob/ef719db7eaadc56aa4def86c4da4ffff5bcbca35/README.md) | primary-source-reviewed / 2026-09-23 | MIT |
