@@ -45,6 +45,9 @@ jobs:
           GITHUB_TOKEN: ${{ github.token }}
           PYTHONUNBUFFERED: '1'
         run: python3 scripts/build.py --refresh --refresh-media
+      - name: Normalize refreshed catalog with editorial source of truth
+        if: github.event_name != 'push'
+        run: python3 scripts/build.py
       - name: Validate every generated surface offline
         run: python3 scripts/build.py --check
       - name: Commit and verify directory updates
