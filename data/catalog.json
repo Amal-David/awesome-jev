@@ -16418,6 +16418,22 @@
     "url": "https://github.com/Bodila51/Jev-chooses-a-LLM"
   },
   {
+    "category": "agents",
+    "code": "https://github.com/kevnk/jev-claude-statusline/blob/main/hooks/jev-progress.mjs",
+    "description": "Claude Code hooks send task text, recent tool summaries, latest assistant message, and turn status to Jev (Score phase plus Noul done/waiting_on_user); answers are cached and shown as a progress segment on the Claude Code status line.",
+    "evidence_level": "primary-source-reviewed",
+    "kind": "direct-integration",
+    "license": "MIT",
+    "name": "jev-claude-statusline",
+    "notes": "Author submission. Requires a TypeSafe API key and paid Jev inference. Not official TypeSafe software. Bash activity intended for Jev uses tool descriptions, not raw command text. Source packaging of a working local setup; the hook and live inference were not executed in this catalog review. Closest cousin: valentynkit/jev-belay (Stop-hook completion check); this project estimates continuous status-line progress.",
+    "repo": "kevnk/jev-claude-statusline",
+    "reviewed": "2026-09-23",
+    "sources": [
+      "https://github.com/kevnk/jev-claude-statusline/blob/main/README.md"
+    ],
+    "url": "https://github.com/kevnk/jev-claude-statusline"
+  },
+  {
     "archived": false,
     "category": "agents",
     "description": "Typed model routing for OpenClaw agents, powered by TypeSafe Jev",

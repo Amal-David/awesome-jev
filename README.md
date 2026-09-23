@@ -4,7 +4,7 @@ Projects, demos, and tools built with [Jev](https://docs.typesafe.ai/).
 
 Jev answers questions about data: pick an option, return a yes/no probability, or score something on a scale. It does not write text. The examples here show what people are using it for, with links to the code where available.
 
-**44 reviewed picks**. <a href="https://github.com/Amal-David/awesome-jev/blob/main/docs/REVIEWED.md">Source notes and licenses</a>. The larger discovery catalog is separate.
+**45 reviewed picks**. <a href="https://github.com/Amal-David/awesome-jev/blob/main/docs/REVIEWED.md">Source notes and licenses</a>. The larger discovery catalog is separate.
 
 [Quick start](#20-second-quick-start) · [Projects](#reviewed-picks) · [Demos from X](#watch-jev-in-action) · [CUA & drivers](#computer-use-and-drivers) · [OpenRouter winners](#openrouter-community-winners) · [Contributing](#contribute)
 
@@ -72,6 +72,7 @@ For simple rules, parsing, or arithmetic, use code. A dedicated classifier may b
 - <a href="https://github.com/thruwire/foreman">Foreman</a> - Uses Jev to check a coding agent&#x27;s progress and decide when it needs intervention.
 - <a href="https://github.com/jkudish/jev-mcp">Jev MCP</a> - MCP tools for checking claims against evidence, screening content, and ranking candidates.
 - <a href="https://github.com/valentynkit/jev-belay">jev-belay</a> - Claude Code Stop hook that checks local run evidence before Jev judges an unverified completion claim.
+- <a href="https://github.com/kevnk/jev-claude-statusline">jev-claude-statusline</a> - Claude Code hooks send task text, recent tool summaries, latest assistant message, and turn status to Jev (Score phase plus Noul done/waiting_on_user); answers are cached and shown as a progress segment on the Claude Code status line.
 - <a href="https://github.com/caio0452/jev_search">jev_search</a> - Ranks files by keyword, then checks their passages with Jev in two passes. Author marks it experimental.
 - <a href="https://github.com/kyu1204/jgrep">jgrep (npm: jevgrep)</a> - Jev answers one Noul per code chunk, diff hunk, or CSV row (does this match the description?); code prints the probabilities as file:line hits, gates CI on an English rule with --diff, and lists the test files a diff can affect with --tests.
 - <a href="https://github.com/bartlomein/oko">Oko</a> - Code-search CLI and MCP server that finds candidates locally and uses Jev to rank the source snippets.
@@ -107,7 +108,7 @@ For simple rules, parsing, or arithmetic, use code. A dedicated classifier may b
 
 - <a href="https://github.com/browser-use/browser-harness">Browser Harness (supporting driver)</a> - The CDP browser connection used by Jev Ultrafast. Model-neutral, not a Jev model.
 
-<a href="https://github.com/Amal-David/awesome-jev/blob/main/docs/REVIEWED.md">All 44 reviewed picks: source notes and licenses</a>
+<a href="https://github.com/Amal-David/awesome-jev/blob/main/docs/REVIEWED.md">All 45 reviewed picks: source notes and licenses</a>
 
 ## Computer use and drivers
 
