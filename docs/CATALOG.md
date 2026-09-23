@@ -806,7 +806,7 @@ Evidence: **primary-source-reviewed** = public primary source inspected; **commu
 | x-scanner | Chrome extension that labels every post you scroll past on X with typed Jev judgments and a live cost counter Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review. | [repo](https://github.com/oso95/x-scanner) · [evidence](https://github.com/hellogumbo/awesome-jev) | community-indexed | MIT |
 | xtags | 在 X 的时间线上，给每条帖子标出它想让你干什么。判断来自 Jev，一个只返回概率、不生成文本的模型。 Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review. | [repo](https://github.com/manifoldor/xtags) · [evidence](https://github.com/hellogumbo/awesome-jev) | community-indexed | MIT |
 
-## Agent tooling and MCP (195)
+## Agent tooling and MCP (196)
 
 | Project | Jev role / reuse notes | Links | Evidence | License / status |
 |---|---|---|---|---|
@@ -947,6 +947,7 @@ Evidence: **primary-source-reviewed** = public primary source inspected; **commu
 | jevwire | Jev decision layer for agents: MCP server, embeddable DecisionModel library, and an escalate-only Claude Code plugin (TypeSafe AI's Jev) Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review. | [repo](https://github.com/Brainwires/jevwire) · [evidence](https://github.com/hellogumbo/awesome-jev) | community-indexed | MIT |
 | jevymarket | Polymarket trading bot driven by Jev (TypeSafe AI) via OpenRouter | [repo](https://github.com/markusbug/jevymarket) · [evidence](https://github.com/hellogumbo/awesome-jev) | community-indexed | MIT |
 | jgrep | grep, but the pattern is a description. Filters lines by meaning with TypeSafe's Jev decision model: ~200 ms and a thousandth of a cent per line. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review. | [repo](https://github.com/keltokhy/jgrep) · [evidence](https://github.com/hellogumbo/awesome-jev) | community-indexed | MIT |
+| jgrep (npm: jevgrep) | Jev answers one Noul per code chunk, diff hunk, or CSV row (does this match the description?); code prints the probabilities as file:line hits, gates CI on an English rule with --diff, and lists the test files a diff can affect with --tests. Every searched chunk is sent to TypeSafe; TypeSafe endpoint only. Maintainer submission. | [repo](https://github.com/kyu1204/jgrep) · [skill](https://github.com/kyu1204/jgrep/blob/main/skill/SKILL.md) · [code](https://github.com/kyu1204/jgrep/blob/main/src/jgrep.ts) · [evidence](https://github.com/kyu1204/jgrep/blob/main/src/providers.ts) | primary-source-reviewed / 2026-09-23 | MIT |
 | limpet | A Stop hook that stops your coding agent from stopping too early. Plain-language rules, judged by jev. | [repo](https://github.com/noplan-inc/limpet) · [evidence](https://github.com/hellogumbo/awesome-jev) | community-indexed | MIT |
 | magic-jev | A Magic 8 Ball for pull requests: click the ball and it answers "should I approve this?" with one of the 20 classic phrases, chosen by Jev from the PR's real signals in about 200 ms. | [repo](https://github.com/acharyaanusha/magic-jev) · [evidence](https://github.com/hellogumbo/awesome-jev) | community-indexed | MIT |
 | mastra-jev-moderation | Input moderation for Mastra agents on TypeSafe Jev — one file Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review. | [repo](https://github.com/CodeAlive-AI/mastra-jev-moderation) · [evidence](https://github.com/hellogumbo/awesome-jev) | community-indexed | MIT |
@@ -1006,7 +1007,7 @@ Evidence: **primary-source-reviewed** = public primary source inspected; **commu
 | yoshi | Context-pruning proxy for Claude Code and Codex: Jev judges which history is still needed, measured not claimed. POC here now, heading soon into https://github.com/compozy/compozy Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review. | [repo](https://github.com/compozy/yoshi) · [evidence](https://github.com/hellogumbo/awesome-jev) | community-indexed | MIT |
 | zcode-jev | Typed judgment layer for coding agents — gates from PRD to ship. Jev-ready, provider-agnostic. | [repo](https://github.com/Zahrannnn/zcode-jev) · [evidence](https://github.com/hellogumbo/awesome-jev) | community-indexed | not-detected |
 
-## Applications (107)
+## Applications (106)
 
 | Project | Jev role / reuse notes | Links | Evidence | License / status |
 |---|---|---|---|---|
@@ -1083,7 +1084,6 @@ Evidence: **primary-source-reviewed** = public primary source inspected; **commu
 | jevstudio | Jev Studio para criar programas usando Jev da TypeSafe | [repo](https://github.com/inteligenciamilgrau/jevstudio) · [evidence](https://github.com/hellogumbo/awesome-jev) | community-indexed | MIT |
 | JevTicktRouter | A .NET 10 and React 19 application for fast, structured AI-powered ticket triage using TypeSafe Jev. | [repo](https://github.com/GhrezaKh74/JevTicktRouter) · [evidence](https://github.com/hellogumbo/awesome-jev) | community-indexed | not-detected |
 | jevyoumean | Semantic "Did you mean?" for any CLI — wraps commands and uses TypeSafe's Jev to match subcommand typos by intent, not edit distance. | [repo](https://github.com/syumai/jevyoumean) · [evidence](https://github.com/hellogumbo/awesome-jev) | community-indexed | MIT |
-| jgrep (kyu1204) | grep for what code does, not what it's called. Semantic code search powered by TypeSafe Jev. | [repo](https://github.com/kyu1204/jgrep) · [evidence](https://github.com/hellogumbo/awesome-jev) | community-indexed | MIT |
 | jlink | Links records under a plain-English match rule using Jev Noul pair judgments, with local candidate blocking and match resolution. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review. | [repo](https://github.com/keltokhy/jlink) · [evidence](https://github.com/hellogumbo/awesome-jev) | community-indexed | MIT |
 | jselect | Selects source-linked evidence within a token budget using Jev Noul relevance judgments and local diversity-aware selection. | [repo](https://github.com/keltokhy/jselect) · [evidence](https://github.com/hellogumbo/awesome-jev) | community-indexed | MIT |
 | laya-server | typesafe ai &gt; systemone &gt; jev | [repo](https://github.com/pjt3591oo/laya-server) · [evidence](https://github.com/hellogumbo/awesome-jev) | community-indexed | not-detected |
