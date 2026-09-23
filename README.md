@@ -4,7 +4,7 @@ Projects, demos, and tools built with [Jev](https://docs.typesafe.ai/).
 
 Jev answers questions about data: pick an option, return a yes/no probability, or score something on a scale. It does not write text. The examples here show what people are using it for, with links to the code where available.
 
-**37 reviewed picks**. <a href="https://github.com/Amal-David/awesome-jev/blob/main/docs/REVIEWED.md">Source notes and licenses</a>. The larger discovery catalog is separate.
+**39 reviewed picks**. <a href="https://github.com/Amal-David/awesome-jev/blob/main/docs/REVIEWED.md">Source notes and licenses</a>. The larger discovery catalog is separate.
 
 [Quick start](#20-second-quick-start) · [Projects](#reviewed-picks) · [Demos from X](#watch-jev-in-action) · [CUA & drivers](#computer-use-and-drivers) · [OpenRouter winners](#openrouter-community-winners) · [Contributing](#contribute)
 
@@ -69,6 +69,7 @@ For simple rules, parsing, or arithmetic, use code. A dedicated classifier may b
 
 - <a href="https://github.com/thruwire/foreman">Foreman</a> - Uses Jev to check a coding agent&#x27;s progress and decide when it needs intervention.
 - <a href="https://github.com/jkudish/jev-mcp">Jev MCP</a> - MCP tools for checking claims against evidence, screening content, and ranking candidates.
+- <a href="https://github.com/valentynkit/jev-belay">jev-belay</a> - Claude Code Stop hook that checks local run evidence before Jev judges an unverified completion claim.
 - <a href="https://github.com/caio0452/jev_search">jev_search</a> - Ranks files by keyword, then checks their passages with Jev in two passes. Author marks it experimental.
 - <a href="https://github.com/itsmostafa/typesafe-mcp">TypeSafe MCP</a> - Go MCP server for making Jev requests from coding agents.
 
@@ -84,6 +85,7 @@ For simple rules, parsing, or arithmetic, use code. A dedicated classifier may b
 
 - <a href="https://jevchess.com/">Jev Chess</a> - A shared chess game against Jev with move probabilities. Hosted demo; source code not verified.
 - <a href="https://github.com/sorrycc/typesafe-snake">Jev Plays Snake</a> - Snake where code finds legal moves and Jev picks a direction.
+- <a href="https://github.com/valentynkit/jev-plays-pokemon-red">jev-plays-pokemon-red</a> - Pokemon Red agent where code builds legal actions and route state; Jev chooses only at branch points.
 - <a href="https://github.com/ShiftSad/mage">JevAI for XMage</a> - Magic: The Gathering bots that use Jev alone or alongside XMage search.
 - <a href="https://github.com/standardagents/jevpilot">JevPilot</a> - Driving simulation where Jev chooses steering and speed. Not a real-world driving system.
 - <a href="https://github.com/lukaske/jev-doom-agent">PROMPT FPS / Jev Doom</a> - Jev chooses actions in a browser-based Doom engine. Uses Freedoom assets.
@@ -100,7 +102,7 @@ For simple rules, parsing, or arithmetic, use code. A dedicated classifier may b
 
 - <a href="https://github.com/browser-use/browser-harness">Browser Harness (supporting driver)</a> - The CDP browser connection used by Jev Ultrafast. Model-neutral, not a Jev model.
 
-<a href="https://github.com/Amal-David/awesome-jev/blob/main/docs/REVIEWED.md">All 37 reviewed picks: source notes and licenses</a>
+<a href="https://github.com/Amal-David/awesome-jev/blob/main/docs/REVIEWED.md">All 39 reviewed picks: source notes and licenses</a>
 
 ## Computer use and drivers
 

@@ -15,7 +15,7 @@ Keep the README short and leave the existing X gallery alone unless a correction
 | [Issue #2](https://github.com/Amal-David/awesome-jev/issues/2) | Confirmed that llm-typesafe was already published; replied and closed the submission. |
 | [Issue #4](https://github.com/Amal-David/awesome-jev/issues/4) | Selected jevrs after inspecting its client, typed response validation, retry tests, example source, and license files. No Rust build or WASI runtime was run. |
 | [PR #3](https://github.com/Amal-David/awesome-jev/pull/3#pullrequestreview-5285530289) | Changes requested: runtime response validation, server-log privacy disclosure, and regeneration against current main. The application actually defaults to a 0.5 confidence floor; the earlier review note is corrected. |
-| [PR #1](https://github.com/Amal-David/awesome-jev/pull/1#pullrequestreview-5263902992) | Still open and blocked. The head and earlier review are unchanged; the current linked source still contains the previously reported credential-handling patterns. No duplicate review was posted. |
+| [PR #1](https://github.com/Amal-David/awesome-jev/pull/1#pullrequestreview-5263902992) | Partially accepted on current main: jev-belay and jev-plays-pokemon-red are now reviewed picks from pinned sources. The PR stays open because jev-commit, jev.nvim, and jev-skip still have the unchanged credential/privacy blockers, and its generated files are based on the old layout. Both accepted clients allow a custom `JEV_BASE_URL` without forcing HTTPS; use trusted HTTPS endpoints with real credentials. |
 
 This table is a dated record, not a substitute for checking the live issue or PR.
 
