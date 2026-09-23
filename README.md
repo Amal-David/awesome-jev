@@ -4,7 +4,7 @@ Projects, demos, and tools built with [Jev](https://docs.typesafe.ai/).
 
 Jev answers questions about data: pick an option, return a yes/no probability, or score something on a scale. It does not write text. The examples here show what people are using it for, with links to the code where available.
 
-**36 reviewed picks**. <a href="https://github.com/Amal-David/awesome-jev/blob/main/docs/REVIEWED.md">Source notes and licenses</a>. The larger discovery catalog is separate.
+**37 reviewed picks**. <a href="https://github.com/Amal-David/awesome-jev/blob/main/docs/REVIEWED.md">Source notes and licenses</a>. The larger discovery catalog is separate.
 
 [Quick start](#20-second-quick-start) · [Projects](#reviewed-picks) · [Demos from X](#watch-jev-in-action) · [CUA & drivers](#computer-use-and-drivers) · [OpenRouter winners](#openrouter-community-winners) · [Contributing](#contribute)
 
@@ -51,6 +51,7 @@ For simple rules, parsing, or arithmetic, use code. A dedicated classifier may b
 - <a href="https://github.com/typesafe-ai/skills">Official TypeSafe skill</a> - Official skill for writing Jev requests and choosing between Noul, Choice, and Score.
 - <a href="https://github.com/kitze/skillbox">Skillbox</a> - Self-hosted skill library with optional Jev-based recommendations.
 - <a href="https://github.com/suraj-phanindra/wellposed">wellposed</a> - Offline linter and agent skill for Jev requests: checks missing options, broken state references, and question types.
+- <a href="https://github.com/luizribeiro/jevrs">jevrs</a> - Async Rust client with typed answers, derive macros, and native or WASI transports.
 
 ### Browser and desktop tools
 
@@ -99,7 +100,7 @@ For simple rules, parsing, or arithmetic, use code. A dedicated classifier may b
 
 - <a href="https://github.com/browser-use/browser-harness">Browser Harness (supporting driver)</a> - The CDP browser connection used by Jev Ultrafast. Model-neutral, not a Jev model.
 
-<a href="https://github.com/Amal-David/awesome-jev/blob/main/docs/REVIEWED.md">All 36 reviewed picks: source notes and licenses</a>
+<a href="https://github.com/Amal-David/awesome-jev/blob/main/docs/REVIEWED.md">All 37 reviewed picks: source notes and licenses</a>
 
 ## Computer use and drivers
 

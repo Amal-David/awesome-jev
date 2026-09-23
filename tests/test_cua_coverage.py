@@ -13,9 +13,9 @@ spec.loader.exec_module(core)
 class CuaCoverageTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        cls.seed = json.loads((ROOT / 'data/curated.json').read_text())
+        cls.seed = json.loads((ROOT / 'data/curated.json').read_text(encoding='utf-8'))
         cls.entries = {e.get('repo') or e.get('url'): e for e in cls.seed}
-        cls.guide = (ROOT / 'docs/CUA.md').read_text()
+        cls.guide = (ROOT / 'docs/CUA.md').read_text(encoding='utf-8')
 
     def test_previously_missing_resources_are_in_editorial_seed(self):
         for target in ('trycua/cua', 'Eronmmer/jev-cua',
@@ -58,7 +58,7 @@ class CuaCoverageTests(unittest.TestCase):
         self.assertIn('source-only research profile', self.guide)
 
     def test_navigation_preserves_quickstart_and_existing_media(self):
-        template = (ROOT / 'templates/README.md').read_text()
+        template = (ROOT / 'templates/README.md').read_text(encoding='utf-8')
         self.assertIn('[CUA & drivers](#computer-use-and-drivers)', template)
         self.assertIn('## Computer use and drivers', template)
         self.assertIn('/docs/CUA.md', template)
@@ -75,7 +75,7 @@ class CuaCoverageTests(unittest.TestCase):
     def test_audit_limits_and_dependency_instructions_are_explicit(self):
         self.assertIn('not a claim to have enumerated every CUA project', self.guide)
         self.assertIn('not promoted or security-reviewed by this pass', self.guide)
-        self.assertIn('Computer-use dependency coverage', (ROOT / 'AGENTS.md').read_text())
+        self.assertIn('Computer-use dependency coverage', (ROOT / 'AGENTS.md').read_text(encoding='utf-8'))
 
 
 if __name__ == '__main__':

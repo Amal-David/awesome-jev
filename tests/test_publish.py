@@ -9,9 +9,10 @@ import unittest
 
 SCRIPT = Path(__file__).resolve().parents[1] / 'scripts/publish.sh'
 GIT = shutil.which('git')
+BASH = shutil.which('bash')
 
 
-@unittest.skipUnless(GIT, 'git is required for publisher integration tests')
+@unittest.skipUnless(GIT and BASH, 'git and bash are required for publisher integration tests')
 class PublishTests(unittest.TestCase):
     def setUp(self):
         self.tmp = tempfile.TemporaryDirectory()
@@ -29,7 +30,7 @@ class PublishTests(unittest.TestCase):
         for path in ('README.md', 'data/catalog.json', 'docs/CATALOG.md', 'data/discoveries.json'):
             target = self.work / path
             target.parent.mkdir(parents=True, exist_ok=True)
-            target.write_text('initial\n')
+            target.write_text('initial\n', encoding='utf-8')
         self.run_git('add', '.')
         self.run_git('commit', '-m', 'initial')
         self.run_git('push', 'origin', 'main')
@@ -38,16 +39,16 @@ class PublishTests(unittest.TestCase):
         return subprocess.run([GIT, *args], cwd=cwd or self.work, env=self.env, check=True, capture_output=True, text=True).stdout.strip()
 
     def publish(self, *, env=None):
-        return subprocess.run(['bash', str(SCRIPT)], cwd=self.work, env=env or self.env, capture_output=True, text=True, timeout=20)
+        return subprocess.run([BASH, str(SCRIPT)], cwd=self.work, env=env or self.env, capture_output=True, text=True, timeout=20)
 
     def change(self):
-        (self.work / 'README.md').write_text('updated catalog\n')
+        (self.work / 'README.md').write_text('updated catalog\n', encoding='utf-8')
 
     def install_wrapper(self, body):
         directory = self.root / 'bin'
         directory.mkdir()
         wrapper = directory / 'git'
-        wrapper.write_text('#!/usr/bin/env bash\nset -e\n' + body + '\nexec ' + shlex.quote(GIT) + ' "$@"\n')
+        wrapper.write_text('#!/usr/bin/env bash\nset -e\n' + body + '\nexec ' + shlex.quote(GIT) + ' "$@"\n', encoding='utf-8')
         wrapper.chmod(0o755)
         return dict(self.env, PATH=str(directory) + os.pathsep + self.env.get('PATH', ''))
 
@@ -84,7 +85,7 @@ class PublishTests(unittest.TestCase):
         self.run_git('clone', str(self.remote), str(other), cwd=self.root)
         self.run_git('config', 'user.name', 'Other', cwd=other)
         self.run_git('config', 'user.email', 'other@example.invalid', cwd=other)
-        (other / 'manual-note.txt').write_text('preserve this\n')
+        (other / 'manual-note.txt').write_text('preserve this\n', encoding='utf-8')
         self.run_git('add', '.', cwd=other)
         self.run_git('commit', '-m', 'concurrent manual contribution', cwd=other)
         concurrent = self.run_git('rev-parse', 'HEAD', cwd=other)
@@ -97,7 +98,7 @@ class PublishTests(unittest.TestCase):
 
     def test_unexpected_staged_file_rejected(self):
         self.change()
-        (self.work / 'private.txt').write_text('not part of the catalog')
+        (self.work / 'private.txt').write_text('not part of the catalog', encoding='utf-8')
         self.run_git('add', 'private.txt')
         before = self.run_git('rev-parse', 'main', cwd=self.remote)
         result = self.publish()

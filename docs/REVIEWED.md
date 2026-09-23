@@ -2,7 +2,7 @@
 
 [Start here](../README.md) · [Browse by task](START_HERE.md) · [Search and filters](BROWSE.md) · [Full catalog](CATALOG.md)
 
-**36 selections reviewed against primary public sources.** Source review is not a security audit or a reproduced benchmark.
+**37 selections reviewed against primary public sources.** Source review is not a security audit or a reproduced benchmark.
 
 ## Official resources
 
@@ -68,6 +68,12 @@
 | nospace | Adds spaces while you type. Jev chooses between possible word splits; a separate model handles spelling corrections. Submitted in HN comment 49802812. Reviewed the provider code and tests for stale replies, caret preservation, undo, and composition input; no upstream tests or live model calls were run. English-only experimental demo; HN users reported ambiguous splits. Text reaches hosted inference through server routes, and spelling correction uses a separate paid model. Word list retains its MIT notice. | [repo](https://github.com/riesvile/nospace) · [demo](https://levmiseri.com/nospace) · [code](https://github.com/riesvile/nospace/blob/main/src/server/providers.ts) · [evidence](https://github.com/riesvile/nospace/blob/main/README.md) | primary-source-reviewed / 2026-09-22 | Apache-2.0 |
 | tisco | Searches video transcripts with Jev, then previews clip moves and renames for approval. OpenRouter community winner, announced 2026-09-21. Transcript-based, not visual video understanding. Approved transcription uploads extracted audio; requests and transcript context reach OpenRouter. Documents a synthetic offline demo, paid live calls, and preview/undo controls. No clips or credentials were supplied for this review. | [repo](https://github.com/cairodavila/tisco) · [post](https://x.com/OpenRouter/status/2102125798371283444) · [evidence](https://github.com/cairodavila/tisco/blob/main/README.md) | primary-source-reviewed / 2026-09-22 | MIT |
 | Vibe Domain | Ranks domain names by the requested style. Has a no-key heuristic mode and a hosted Jev option. OpenRouter community winner, announced 2026-09-21. Public page reviewed; no public source repository or code license verified. Documentation distinguishes a no-key heuristic mode from live OpenRouter inference. No availability check or API call was run here. Recheck names at a registrar and review key handling before entering credentials. | [project](https://obstudio.org/tools/vibe-domain/) · [post](https://x.com/OpenRouter/status/2102125815031071157) · [evidence](https://obstudio.org/tools/vibe-domain/) | primary-source-reviewed / 2026-09-22 | not-checked |
+
+## SDKs and clients
+
+| Project | Jev role / reuse notes | Links | Evidence | License / status |
+|---|---|---|---|---|
+| jevrs | Async Rust client with typed answers, derive macros, and native or WASI transports. Author submission in issue #4. Source review covered request framing, credential-redacted Debug, typed response/probability validation, retry tests, and native/WASI example source; no Rust build, WASI runtime, upstream test suite, or live API call was run. Unofficial client. Live inputs go to TypeSafe by default. Custom base URLs are caller-controlled and checked for URI syntax, not mandatory HTTPS: keep real credentials on trusted HTTPS endpoints. Configure transport timeouts and retry budgets. The X link was supplied by the author, not independently inspected in this pass. | [repo](https://github.com/luizribeiro/jevrs) · [demo](https://github.com/luizribeiro/jevrs/tree/f5e5acc500937d16aba6ced99d338bc4ee56ec3b/examples) · [code](https://github.com/luizribeiro/jevrs/blob/f5e5acc500937d16aba6ced99d338bc4ee56ec3b/crates/jevrs/src/client.rs) · [post](https://x.com/luizribeiro/status/2102135454287970585) · [evidence](https://github.com/luizribeiro/jevrs/blob/f5e5acc500937d16aba6ced99d338bc4ee56ec3b/README.md) | primary-source-reviewed / 2026-09-23 | MIT OR Apache-2.0 |
 
 ## Integrations
 

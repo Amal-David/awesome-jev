@@ -20579,6 +20579,24 @@
     "url": "https://github.com/mountainMath/JevR"
   },
   {
+    "category": "sdks",
+    "code": "https://github.com/luizribeiro/jevrs/blob/f5e5acc500937d16aba6ced99d338bc4ee56ec3b/crates/jevrs/src/client.rs",
+    "demo": "https://github.com/luizribeiro/jevrs/tree/f5e5acc500937d16aba6ced99d338bc4ee56ec3b/examples",
+    "description": "Async Rust client with typed answers, derive macros, and native or WASI transports.",
+    "evidence_level": "primary-source-reviewed",
+    "kind": "community-client",
+    "license": "MIT OR Apache-2.0",
+    "name": "jevrs",
+    "notes": "Author submission in issue #4. Source review covered request framing, credential-redacted Debug, typed response/probability validation, retry tests, and native/WASI example source; no Rust build, WASI runtime, upstream test suite, or live API call was run. Unofficial client. Live inputs go to TypeSafe by default. Custom base URLs are caller-controlled and checked for URI syntax, not mandatory HTTPS: keep real credentials on trusted HTTPS endpoints. Configure transport timeouts and retry budgets. The X link was supplied by the author, not independently inspected in this pass.",
+    "post": "https://x.com/luizribeiro/status/2102135454287970585",
+    "repo": "luizribeiro/jevrs",
+    "reviewed": "2026-09-23",
+    "sources": [
+      "https://github.com/luizribeiro/jevrs/blob/f5e5acc500937d16aba6ced99d338bc4ee56ec3b/README.md"
+    ],
+    "url": "https://github.com/luizribeiro/jevrs"
+  },
+  {
     "archived": false,
     "category": "sdks",
     "description": "An independent, type-safe Swift SDK for TypeSafe Jev, with async/await, batching, retries, and SPM support.",

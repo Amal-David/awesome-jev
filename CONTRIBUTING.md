@@ -32,3 +32,9 @@ python3 scripts/build.py --check
 Commit source changes and generated changes together. The unified builder keeps both READMEs, reviewed picks, catalog, local viewer, freshness, X and media pages consistent. Edit `templates/README.md` for hierarchy or menu changes; do not edit generated READMEs. Do not run the older component scripts' standalone CLIs for publication.
 
 Primary-source review is not a security audit, execution test or benchmark reproduction. Preserve provenance and distinguish independent implementations from the official Jev model. No third-party project needs to be installed or executed to contribute a listing.
+
+### Test portability
+
+Repository text files are UTF-8; pass `encoding='utf-8'` when using `Path.read_text` or `Path.write_text`. Run `python -m unittest discover -s tests -v` for the full suite. Publisher integration tests also require Git and Bash; they are skipped explicitly when either is unavailable. The codec regression simulates a cp1252 default rather than claiming a native Windows run.
+
+Issues and PRs are reviewed on a separate four-hour schedule. An author submission is a lead, not automatic acceptance; see [maintenance notes](docs/MAINTENANCE.md).

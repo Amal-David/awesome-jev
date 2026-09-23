@@ -51,3 +51,9 @@ Keep the README a useful list: plain descriptions, one project per line, and hea
 Do not promote a project because its author posted it, it is popular, or its README sounds confident. Inspect the implementation and an example or relevant tests; look for a useful, distinct contribution and clear limitations. Do not execute third-party code during curation. Missing evidence means defer, not invent. A feature demo is not a security evaluation. Respect exclusions and keep automatic discoveries separate from README selections.
 
 Editorial pushes build offline. Scheduled/manual runs keep the existing bounded discovery process; they never auto-promote entries to the reviewed selection.
+
+## Issue and PR maintenance
+
+The owner authorizes a contribution-review pass every four hours, including scoped fixes, accepted merges, and closing verified completed issues. Read `docs/MAINTENANCE.md` for the latest dated review, but fetch live issues, PR heads, comments, and checks before acting. Preserve contributor credit. Merge only the reviewed and validated head; never force-push, waive substantive review concerns, or weaken protections to make a merge succeed. Leave actionable source-linked feedback when blocked, and do not repeat an unchanged review. The scheduled assistant review is separate from the existing GitHub discovery workflow; neither automatically promotes or blindly merges submissions.
+
+Use explicit UTF-8 for repository text I/O. Publisher integration tests require both Git and Bash and must report missing prerequisites as skips. Report simulated-locale testing separately from native Windows testing.

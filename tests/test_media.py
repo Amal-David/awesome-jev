@@ -15,7 +15,7 @@ spec.loader.exec_module(m)
 
 class MediaTests(unittest.TestCase):
     def setUp(self):
-        self.data = json.loads((ROOT / 'data/media.json').read_text())
+        self.data = json.loads((ROOT / 'data/media.json').read_text(encoding='utf-8'))
 
     def test_seed_valid(self):
         m.validate(self.data, {})

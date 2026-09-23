@@ -32,7 +32,7 @@ class NavigationTests(unittest.TestCase):
         self.assertTrue(text.startswith('**1 reviewed picks**'))
         self.assertNotIn('2 catalog entries', text)
         self.assertIn('Source notes and licenses', text)
-        self.assertIn('Auto-discovered', (ROOT / 'templates/README.md').read_text())
+        self.assertIn('Auto-discovered', (ROOT / 'templates/README.md').read_text(encoding='utf-8'))
 
     def test_statistics_distinguish_errors_and_unavailable(self):
         stats = b.statistics([example(repository_status='unavailable', metadata_checked='2026-09-18'),
@@ -143,7 +143,7 @@ class NavigationTests(unittest.TestCase):
         self.assertIn('value="primary-source-reviewed"', text)
 
     def test_readme_hierarchy_and_markers(self):
-        text = (ROOT / 'templates/README.md').read_text()
+        text = (ROOT / 'templates/README.md').read_text(encoding='utf-8')
         self.assertLess(text.index('20-second quick-start'), text.index('MEDIA_GALLERY:START'))
         self.assertLess(text.index('## Reviewed picks'), text.index('MEDIA_GALLERY:START'))
         for name in (*b.MARKERS, 'FRESHNESS', 'X_DEMOS'):
@@ -151,7 +151,7 @@ class NavigationTests(unittest.TestCase):
         self.assertIn('<summary><strong>Safety, licensing, and evidence limits', text)
 
     def test_sdk_quickstart_with_fake_client_only(self):
-        text = (ROOT / 'templates/README.md').read_text()
+        text = (ROOT / 'templates/README.md').read_text(encoding='utf-8')
         code = re.search(r'```python\n(.*?)\n```', text, re.S).group(1)
         calls = []
         class Choice:
@@ -178,7 +178,7 @@ class NavigationTests(unittest.TestCase):
             b.write_outputs({path: 'one'}); b.write_outputs({path: 'one'}, True)
             self.assertEqual(path.stat().st_mtime_ns, before)
             with self.assertRaises(ValueError): b.write_outputs({path: 'two'}, True)
-            self.assertEqual(path.read_text(), 'one')
+            self.assertEqual(path.read_text(encoding='utf-8'), 'one')
 
     def test_check_and_refresh_mutually_exclusive(self):
         with self.assertRaises(ValueError): b.build(check=True, refresh=True)
@@ -190,16 +190,16 @@ class NavigationTests(unittest.TestCase):
             root = Path(tmp)
             for directory in ('data', 'templates'):
                 shutil.copytree(ROOT / directory, root / directory)
-            before = (root / 'data/refresh.json').read_text() if (root / 'data/refresh.json').exists() else None
+            before = (root / 'data/refresh.json').read_text(encoding='utf-8') if (root / 'data/refresh.json').exists() else None
             b.build(root)
-            self.assertEqual((root / 'README.md').read_text(), (root / '.github/README.md').read_text())
+            self.assertEqual((root / 'README.md').read_text(encoding='utf-8'), (root / '.github/README.md').read_text(encoding='utf-8'))
             b.build(root, check=True)
             if before is not None:
-                self.assertEqual(json.loads(before), json.loads((root / 'data/refresh.json').read_text()))
+                self.assertEqual(json.loads(before), json.loads((root / 'data/refresh.json').read_text(encoding='utf-8')))
             else:
-                self.assertEqual(json.loads((root / 'data/refresh.json').read_text()), {})
-            self.assertIn('Reviewed Jev picks', (root / 'docs/REVIEWED.md').read_text())
-            self.assertNotIn('<!-- DIRECTORY_STATS -->', (root / 'README.md').read_text())
+                self.assertEqual(json.loads((root / 'data/refresh.json').read_text(encoding='utf-8')), {})
+            self.assertIn('Reviewed Jev picks', (root / 'docs/REVIEWED.md').read_text(encoding='utf-8'))
+            self.assertNotIn('<!-- DIRECTORY_STATS -->', (root / 'README.md').read_text(encoding='utf-8'))
 
 
 if __name__ == '__main__': unittest.main()

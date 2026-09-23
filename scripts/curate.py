@@ -176,7 +176,7 @@ def fetch(url: str, *, as_json: bool = True):
 
 
 def load(path: Path, default):
-    return json.loads(path.read_text()) if path.exists() else default
+    return json.loads(path.read_text(encoding='utf-8')) if path.exists() else default
 
 
 def dump(data) -> str:
@@ -185,9 +185,9 @@ def dump(data) -> str:
 
 def write(path: Path, text: str) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
-    if not path.exists() or path.read_text() != text:
+    if not path.exists() or path.read_text(encoding='utf-8') != text:
         temporary = path.with_suffix(path.suffix + '.tmp')
-        temporary.write_text(text)
+        temporary.write_text(text, encoding='utf-8')
         temporary.replace(path)
 
 
@@ -395,7 +395,7 @@ def main() -> int:
     for name, content in outputs.items():
         path = ROOT / name
         if args.check:
-            if not path.exists() or path.read_text() != content:
+            if not path.exists() or path.read_text(encoding='utf-8') != content:
                 raise ValueError('Generated file is stale: ' + name)
         else:
             write(path, content)

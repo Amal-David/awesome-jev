@@ -278,8 +278,8 @@ def main() -> int:
     mode.add_argument('--refresh', action='store_true')
     mode.add_argument('--check', action='store_true')
     args = parser.parse_args()
-    data = json.loads((ROOT / 'data/media.json').read_text())
-    cache = json.loads((ROOT / 'data/media_cache.json').read_text())
+    data = json.loads((ROOT / 'data/media.json').read_text(encoding='utf-8'))
+    cache = json.loads((ROOT / 'data/media_cache.json').read_text(encoding='utf-8'))
     validate(data, cache)
     if args.refresh:
         cache = refresh(data, cache)

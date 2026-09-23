@@ -103,7 +103,7 @@ class OpenRouterShowcaseTests(unittest.TestCase):
         with self.assertRaises(ValueError): x.validate(data)
 
     def test_showcase_is_linked_without_replacing_navigation(self):
-        template = (ROOT / 'templates/README.md').read_text()
+        template = (ROOT / 'templates/README.md').read_text(encoding='utf-8')
         self.assertIn('[OpenRouter winners](#openrouter-community-winners)', template)
         self.assertIn('## OpenRouter community winners', template)
         self.assertLess(template.index('## Reviewed picks'), template.index('## OpenRouter community winners'))
