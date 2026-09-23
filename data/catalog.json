@@ -315,6 +315,31 @@
   {
     "archived": false,
     "category": "skills",
+    "code": "https://github.com/simota/tenbin/blob/1ba0aa9646a559e6086d1488dedf9bd0a1f1c96e/tenbin/src/client.ts",
+    "description": "MCP server and skill for linting Jev questions, evaluating labeled examples, and choosing decision thresholds.",
+    "evidence_level": "primary-source-reviewed",
+    "kind": "optional-integration",
+    "language": "TypeScript",
+    "license": "MIT",
+    "metadata_checked": "2026-09-22",
+    "name": "Tenbin",
+    "notes": "Discovered through shipwithjev.com. Read the skill, SDK gateway, and ranking/batch-budget test source; no installation, upstream tests, or paid calls were run. Design and lint work offline; evaluation sends supplied state to TypeSafe. The host agent generates code, not Jev. Session limits use token estimates and usage accounting, not a guaranteed provider billing cap. Calibrate thresholds on separate labeled examples; listed performance and accuracy are not independently validated.",
+    "pushed_at": "2026-09-21T01:19:55Z",
+    "repo": "simota/tenbin",
+    "repository_status": "accessible",
+    "reviewed": "2026-09-23",
+    "skill": "https://github.com/simota/tenbin/blob/1ba0aa9646a559e6086d1488dedf9bd0a1f1c96e/skills/tenbin/SKILL.md",
+    "sources": [
+      "https://github.com/simota/tenbin/blob/1ba0aa9646a559e6086d1488dedf9bd0a1f1c96e/README.md",
+      "https://github.com/hellogumbo/awesome-jev",
+      "https://github.com/simota/tenbin/blob/main/README.md"
+    ],
+    "stars": 2,
+    "url": "https://github.com/simota/tenbin"
+  },
+  {
+    "archived": false,
+    "category": "skills",
     "code": "https://github.com/suraj-phanindra/wellposed/blob/main/skills/wellposed/scripts/structural.mjs",
     "description": "Offline linter and agent skill for Jev requests: checks missing options, broken state references, and question types.",
     "evidence_level": "primary-source-reviewed",
@@ -17196,6 +17221,22 @@
     "url": "https://github.com/daniel-farina/nitro"
   },
   {
+    "category": "agents",
+    "code": "https://github.com/bartlomein/oko/blob/8ab56f869899974d2641b824da2fb1cf04fe0395/src/ranking.rs",
+    "description": "Code-search CLI and MCP server that finds candidates locally and uses Jev to rank the source snippets.",
+    "evidence_level": "primary-source-reviewed",
+    "kind": "optional-integration",
+    "license": "MIT",
+    "name": "Oko",
+    "notes": "Discovered through shipwithjev.com. Reviewed ranking/transport code and local-fake HTTP test source, including finite probability checks and bounded candidate payloads; no upstream build, tests, or live inference were run. --no-jev keeps keyword ranking local; Jev ranking sends selected source text and the query to TypeSafe. Inspect setup changes to agent/project configuration before installation. Custom TYPESAFE_BASE_URL is caller-controlled: use trusted HTTPS with real keys. Author retrieval and speed benchmarks were not reproduced.",
+    "repo": "bartlomein/oko",
+    "reviewed": "2026-09-23",
+    "sources": [
+      "https://github.com/bartlomein/oko/blob/8ab56f869899974d2641b824da2fb1cf04fe0395/README.md"
+    ],
+    "url": "https://github.com/bartlomein/oko"
+  },
+  {
     "archived": false,
     "category": "agents",
     "description": "Verbatim Jev-scored context reduction for omp, over TypeSafe or OpenRouter",
@@ -21883,6 +21924,22 @@
     "url": "https://github.com/wundercorp/loki"
   },
   {
+    "category": "integrations",
+    "code": "https://github.com/ttlequals0/MinusPodJev/blob/ee24adf3874987b57b2d45db4448f0d110aa2f7d/backend/app/services/jev.py",
+    "description": "Podcast ad-detection adapter for MinusPod: Jev scores transcript segments and code assembles the ad spans.",
+    "evidence_level": "primary-source-reviewed",
+    "kind": "direct-integration",
+    "license": "MIT",
+    "name": "MinusPodJev",
+    "notes": "Discovered through shipwithjev.com. Proof-of-concept proxy, not an audio-generation model. Source review covered segment questions, typed response validation, cache/invalid-probability regression tests, and security documentation; none was executed here. Sends transcript text to TypeSafe and forwards the caller's bearer key. Keep the proxy on a trusted connection; deployment needs request-size/rate limits in addition to its concurrency guard. Chapter generation still requires a separate chat model. Respect the licenses of vendored compatibility code and evaluation material; benchmark results were not reproduced.",
+    "repo": "ttlequals0/MinusPodJev",
+    "reviewed": "2026-09-23",
+    "sources": [
+      "https://github.com/ttlequals0/MinusPodJev/blob/ee24adf3874987b57b2d45db4448f0d110aa2f7d/docs/how-it-works.md"
+    ],
+    "url": "https://github.com/ttlequals0/MinusPodJev"
+  },
+  {
     "archived": false,
     "category": "integrations",
     "demo": "https://www.npmjs.com/package/n8n-nodes-jev",
@@ -25162,26 +25219,6 @@
     ],
     "stars": 1,
     "url": "https://github.com/Robertzu43/system-one-security-triage"
-  },
-  {
-    "archived": false,
-    "category": "research",
-    "description": "MCP server and agent skill for the TypeSafe AI System One API (Jev): decompose a judgment into Choice / Score / Noul questions, lint them, measure on labelled data, and put calibrated thresholds in code",
-    "evidence_level": "community-indexed",
-    "language": "TypeScript",
-    "license": "MIT",
-    "metadata_checked": "2026-09-22",
-    "name": "tenbin",
-    "notes": "Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.",
-    "pushed_at": "2026-09-21T01:19:55Z",
-    "repo": "simota/tenbin",
-    "repository_status": "accessible",
-    "sources": [
-      "https://github.com/hellogumbo/awesome-jev",
-      "https://github.com/simota/tenbin/blob/main/README.md"
-    ],
-    "stars": 2,
-    "url": "https://github.com/simota/tenbin"
   },
   {
     "archived": false,

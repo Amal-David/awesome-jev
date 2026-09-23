@@ -4,7 +4,7 @@ Projects, demos, and tools built with [Jev](https://docs.typesafe.ai/).
 
 Jev answers questions about data: pick an option, return a yes/no probability, or score something on a scale. It does not write text. The examples here show what people are using it for, with links to the code where available.
 
-**40 reviewed picks**. <a href="https://github.com/Amal-David/awesome-jev/blob/main/docs/REVIEWED.md">Source notes and licenses</a>. The larger discovery catalog is separate.
+**43 reviewed picks**. <a href="https://github.com/Amal-David/awesome-jev/blob/main/docs/REVIEWED.md">Source notes and licenses</a>. The larger discovery catalog is separate.
 
 [Quick start](#20-second-quick-start) · [Projects](#reviewed-picks) · [Demos from X](#watch-jev-in-action) · [CUA & drivers](#computer-use-and-drivers) · [OpenRouter winners](#openrouter-community-winners) · [Contributing](#contribute)
 
@@ -50,6 +50,7 @@ For simple rules, parsing, or arithmetic, use code. A dedicated classifier may b
 - <a href="https://github.com/altryne/jevify">Jevify</a> - Agent skill for finding places to use Jev and planning comparisons with existing code.
 - <a href="https://github.com/typesafe-ai/skills">Official TypeSafe skill</a> - Official skill for writing Jev requests and choosing between Noul, Choice, and Score.
 - <a href="https://github.com/kitze/skillbox">Skillbox</a> - Self-hosted skill library with optional Jev-based recommendations.
+- <a href="https://github.com/simota/tenbin">Tenbin</a> - MCP server and skill for linting Jev questions, evaluating labeled examples, and choosing decision thresholds.
 - <a href="https://github.com/suraj-phanindra/wellposed">wellposed</a> - Offline linter and agent skill for Jev requests: checks missing options, broken state references, and question types.
 - <a href="https://github.com/luizribeiro/jevrs">jevrs</a> - Async Rust client with typed answers, derive macros, and native or WASI transports.
 
@@ -72,6 +73,7 @@ For simple rules, parsing, or arithmetic, use code. A dedicated classifier may b
 - <a href="https://github.com/valentynkit/jev-belay">jev-belay</a> - Claude Code Stop hook that checks local run evidence before Jev judges an unverified completion claim.
 - <a href="https://github.com/caio0452/jev_search">jev_search</a> - Ranks files by keyword, then checks their passages with Jev in two passes. Author marks it experimental.
 - <a href="https://github.com/kyu1204/jgrep">jgrep (npm: jevgrep)</a> - Jev answers one Noul per code chunk, diff hunk, or CSV row (does this match the description?); code prints the probabilities as file:line hits, gates CI on an English rule with --diff, and lists the test files a diff can affect with --tests.
+- <a href="https://github.com/bartlomein/oko">Oko</a> - Code-search CLI and MCP server that finds candidates locally and uses Jev to rank the source snippets.
 - <a href="https://github.com/itsmostafa/typesafe-mcp">TypeSafe MCP</a> - Go MCP server for making Jev requests from coding agents.
 
 ### Apps and integrations
@@ -81,6 +83,7 @@ For simple rules, parsing, or arithmetic, use code. A dedicated classifier may b
 - <a href="https://obstudio.org/tools/vibe-domain/">Vibe Domain</a> - Ranks domain names by the requested style. Has a no-key heuristic mode and a hosted Jev option.
 - <a href="https://github.com/AboveColin/HA-Jev">Home Assistant Jev</a> - Adds Jev decisions to Home Assistant entities and automations.
 - <a href="https://github.com/simonw/llm-typesafe">llm-typesafe</a> - Use Jev from the LLM command line or Python, with stdin, templates, and sync/async calls.
+- <a href="https://github.com/ttlequals0/MinusPodJev">MinusPodJev</a> - Podcast ad-detection adapter for MinusPod: Jev scores transcript segments and code assembles the ad spans.
 
 ### Games and creative projects
 
@@ -103,7 +106,7 @@ For simple rules, parsing, or arithmetic, use code. A dedicated classifier may b
 
 - <a href="https://github.com/browser-use/browser-harness">Browser Harness (supporting driver)</a> - The CDP browser connection used by Jev Ultrafast. Model-neutral, not a Jev model.
 
-<a href="https://github.com/Amal-David/awesome-jev/blob/main/docs/REVIEWED.md">All 40 reviewed picks: source notes and licenses</a>
+<a href="https://github.com/Amal-David/awesome-jev/blob/main/docs/REVIEWED.md">All 43 reviewed picks: source notes and licenses</a>
 
 ## Computer use and drivers
 
@@ -369,6 +372,8 @@ OpenRouter's [September 21 roundup](https://x.com/OpenRouter/status/210212574872
 ## Find a project
 
 The [full catalog](https://github.com/Amal-David/awesome-jev/blob/main/docs/CATALOG.md) includes community listings and automatic discoveries that have not been selected for this README. Use GitHub's outline or Cmd/Ctrl+F to browse it. For filters, clone the repo and open `docs/catalog.html` locally. [Viewer instructions](https://github.com/Amal-David/awesome-jev/blob/main/docs/BROWSE.md).
+
+For more demos and skills, browse [Ship with Jev](https://www.shipwithjev.com/). We use it for discovery, then check the original projects. [Our selections from it](https://github.com/Amal-David/awesome-jev/blob/main/docs/SHIPWITHJEV_REVIEW.md).
 
 `Reviewed` means the primary source was inspected. `Indexed` means it came from another directory. `Auto-discovered` means a README keyword match. These labels do not imply the project was tested here.
 
