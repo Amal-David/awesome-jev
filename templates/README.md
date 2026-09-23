@@ -68,6 +68,8 @@ OpenRouter's [September 21 roundup](https://x.com/OpenRouter/status/210212574872
 
 The [full catalog](https://github.com/Amal-David/awesome-jev/blob/main/docs/CATALOG.md) includes community listings and automatic discoveries that have not been selected for this README. Use GitHub's outline or Cmd/Ctrl+F to browse it. For filters, clone the repo and open `docs/catalog.html` locally. [Viewer instructions](https://github.com/Amal-David/awesome-jev/blob/main/docs/BROWSE.md).
 
+For more demos and skills, browse [Ship with Jev](https://www.shipwithjev.com/). We use it for discovery, then check the original projects. [Our selections from it](https://github.com/Amal-David/awesome-jev/blob/main/docs/SHIPWITHJEV_REVIEW.md).
+
 `Reviewed` means the primary source was inspected. `Indexed` means it came from another directory. `Auto-discovered` means a README keyword match. These labels do not imply the project was tested here.
 
 <details>

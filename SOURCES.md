@@ -2,7 +2,7 @@
 
 ## Independently reviewed selections
 
-The initial `data/curated.json` contains 17 selections inspected against their public primary README, skill, or SDK source on September 18, 2026. Each entry records its evidence URL. Descriptions and reuse notes in that file are original summaries. This means source review, not a successful live execution, security audit, or benchmark replication.
+The initial `data/curated.json` contained 17 selections inspected against their public primary README, skill, or SDK source on September 18, 2026. Each entry records its evidence URL. Descriptions and reuse notes in that file are original summaries. This means source review, not a successful live execution, security audit, or benchmark replication.
 
 Official API examples were checked against [TypeSafe's JavaScript request/response types](https://github.com/typesafe-ai/typesafe-sdk-js/blob/main/src/types.ts), the [official Python SDK quickstart](https://github.com/typesafe-ai/typesafe-sdk-python/blob/main/README.md), and the [official agent skill](https://github.com/typesafe-ai/skills/blob/main/skills/typesafe-ai/SKILL.md). The live documentation host could not be fetched from the initial research environment, so version-sensitive code was grounded in these official repository sources instead. Future changes should recheck live docs.
 
@@ -14,13 +14,21 @@ The scheduled importer verifies the CC0 license header before fetching metadata.
 
 Additional directories useful for manual discovery include [AnotiaWang/awesome-jev](https://github.com/AnotiaWang/awesome-jev), [yibie/awesome-jev](https://github.com/yibie/awesome-jev), [OmniJev/awesome-jev](https://github.com/OmniJev/awesome-jev), [yzfly/awesome-jev-zh](https://github.com/yzfly/awesome-jev-zh), and [Dropday](https://www.dropday.ai/). Their content is not bulk copied by this importer.
 
+## Ship with Jev
+
+[Ship with Jev](https://www.shipwithjev.com/) is an additional discovery source, reviewed on September 23, 2026. It organizes X posts, repositories, sites, skills, and resources. Its headline count mixes these record types; it is not a count of independently tested projects. Its performance figures belong to the linked authors.
+
+The first selective pass added Oko, Tenbin, and MinusPodJev to the reviewed collection after inspecting their implementation and relevant test sources. [Selection notes](docs/SHIPWITHJEV_REVIEW.md) link each original project and distinguish source review from running it. The entries use primary project evidence, with the directory credited in their notes. The site's summaries and media are not bulk imported or relicensed.
+
+Future curation passes can consult the [homepage](https://www.shipwithjev.com/), [skills section](https://www.shipwithjev.com/type/skill), and [llms.txt](https://www.shipwithjev.com/llms.txt) for leads, then inspect the original source. Listing here does not install a new scraper or automatically promote the site's entries. Existing exclusions and unresolved contribution reviews still apply.
+
 ## Independent recurring discovery
 
 The workflow also searches GitHub's repository API using three explicit queries in `scripts/curate.py`, with two pages of up to 100 results per query. It checks up to 30 previously pending/new READMEs per run for both Jev and TypeSafe/System One references. It labels these `readme-matched`, not editorially reviewed, and persists unchecked/rejected candidates for later inspection. Default automatic categories are provisional.
 
 Up to 100 repository metadata records are refreshed per run, oldest first. `metadata_checked` dates show actual GitHub metadata lookup dates. API errors retain old records; 404/410 responses are marked unavailable rather than deleted. Hosted demo health and benchmark accuracy are not tested by this workflow. Repository status is not demo status.
 
-This is broad discovery, not exhaustive internet coverage. Private communities, inaccessible posts, deleted sources, and search-ranking/pagination limits create gaps. Scheduled GitHub jobs can be delayed, dropped, or disabled; [Actions history](https://github.com/Amal-David/awesome-jev/actions/workflows/curate.yml) records actual runs. No ChatGPT recurring app-access task was saved; the scheduler lives in GitHub Actions.
+This is broad discovery, not exhaustive internet coverage. Private communities, inaccessible posts, deleted sources, and search-ranking/pagination limits create gaps. Scheduled GitHub jobs can be delayed, dropped, or disabled; [Actions history](https://github.com/Amal-David/awesome-jev/actions/workflows/curate.yml) records actual runs. Contribution-review maintenance is separate from GitHub discovery; see [maintenance notes](docs/MAINTENANCE.md).
 
 ## Licensing
 
