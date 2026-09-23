@@ -61,7 +61,7 @@ For simple rules, parsing, or arithmetic, use code. A dedicated classifier may b
 - <a href="https://github.com/zurfyx/jev-browser-skill">Jev Browser Skill</a> - Small browser-control reference showing how to build and execute Jev action choices.
 - <a href="https://github.com/wy-coliney/jev-browser-use">Jev Browser Use (existing Codex connection)</a> - Skill that uses an existing Codex browser connection. Jev clicks and scrolls; Codex types and checks the result.
 - <a href="https://github.com/Eronmmer/jev-cua">Jev Cua (Codex/Waku)</a> - Mac automation using Cua Driver, with optional Jev recommendations for saved workflows.
-- <a href="https://github.com/socai-io/jev-social">Jev Social</a> - Read-only Instagram, TikTok, and LinkedIn research loop: Jev Choice questions pick the platform and each bounded search, read, inspect, or finish operation; SocAI executes in the user&#x27;s Chrome and the app retains source-linked evidence.
+- <a href="https://github.com/socai-io/jev-social">Jev Social</a> - Read-only Instagram, TikTok, and LinkedIn research loop: Jev Choice questions pick the platform and each bounded search, read, inspect, or finish operation; socai CLI executes in the user&#x27;s Chrome and the app retains source-linked evidence.
 - <a href="https://github.com/browser-use/jev-ultrafast">Jev Ultrafast</a> - Jev picks browser actions and page elements; a separate model writes text.
 - <a href="https://github.com/moritzkremb/jev-voice-browser">Jev voice browser</a> - Voice-controlled Playwright browser. Jev chooses actions from partial speech and page controls.
 - <a href="https://github.com/stoopid-computers/jev-bot">jev-bot (@compootor)</a> - Native Mac controls through a JavaScript MCP session, with optional Jev element selection.
