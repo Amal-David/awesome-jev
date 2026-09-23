@@ -108,7 +108,7 @@ class OpenRouterShowcaseTests(unittest.TestCase):
         self.assertIn('## OpenRouter community winners', template)
         self.assertLess(template.index('## Reviewed picks'), template.index('## OpenRouter community winners'))
         self.assertIn('<!-- MEDIA_GALLERY:START -->', template)
-        doc = (ROOT / 'docs/OPENROUTER_SHOWCASE.md').read_text()
+        doc = (ROOT / 'docs/OPENROUTER_SHOWCASE.md').read_text(encoding='utf-8')
         self.assertIn(ROUNDUP, doc)
         for ident in POSTS:
             self.assertIn('https://x.com/OpenRouter/status/' + ident, doc)
