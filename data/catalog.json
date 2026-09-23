@@ -17101,6 +17101,29 @@
   {
     "archived": false,
     "category": "agents",
+    "code": "https://github.com/kyu1204/jgrep/blob/main/src/jgrep.ts",
+    "description": "Jev answers one Noul per code chunk, diff hunk, or CSV row (does this match the description?); code prints the probabilities as file:line hits, gates CI on an English rule with --diff, and lists the test files a diff can affect with --tests.",
+    "evidence_level": "primary-source-reviewed",
+    "language": "TypeScript",
+    "license": "MIT",
+    "metadata_checked": "2026-09-22",
+    "name": "jgrep (npm: jevgrep)",
+    "notes": "Every searched chunk is sent to TypeSafe; TypeSafe endpoint only. Maintainer submission.",
+    "pushed_at": "2026-09-22T05:53:16Z",
+    "repo": "kyu1204/jgrep",
+    "repository_status": "accessible",
+    "reviewed": "2026-09-23",
+    "skill": "https://github.com/kyu1204/jgrep/blob/main/skill/SKILL.md",
+    "sources": [
+      "https://github.com/kyu1204/jgrep/blob/main/src/providers.ts",
+      "https://github.com/hellogumbo/awesome-jev"
+    ],
+    "stars": 15,
+    "url": "https://github.com/kyu1204/jgrep"
+  },
+  {
+    "archived": false,
+    "category": "agents",
     "description": "A Stop hook that stops your coding agent from stopping too early. Plain-language rules, judged by jev.",
     "evidence_level": "community-indexed",
     "language": "Python",
@@ -19512,24 +19535,6 @@
     ],
     "stars": 9,
     "url": "https://github.com/syumai/jevyoumean"
-  },
-  {
-    "archived": false,
-    "category": "apps",
-    "description": "grep for what code does, not what it's called. Semantic code search powered by TypeSafe Jev.",
-    "evidence_level": "community-indexed",
-    "language": "TypeScript",
-    "license": "MIT",
-    "metadata_checked": "2026-09-22",
-    "name": "jgrep (kyu1204)",
-    "pushed_at": "2026-09-22T05:53:16Z",
-    "repo": "kyu1204/jgrep",
-    "repository_status": "accessible",
-    "sources": [
-      "https://github.com/hellogumbo/awesome-jev"
-    ],
-    "stars": 15,
-    "url": "https://github.com/kyu1204/jgrep"
   },
   {
     "archived": false,
