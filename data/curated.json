@@ -206,6 +206,19 @@
     "notes": "OpenRouter community winner, announced 2026-09-21. Public page reviewed; no public source repository or code license verified. Documentation distinguishes a no-key heuristic mode from live OpenRouter inference. No availability check or API call was run here. Recheck names at a registrar and review key handling before entering credentials."
   },
   {
+    "repo": "antonio-ivanovski/spliit-cloud",
+    "name": "Spliit Cloud",
+    "category": "apps",
+    "description": "After local dictionary and group-history misses, an optional Jev Choice categorizes a single expense or bulk-review candidates; code applies a confidence floor before offering reviewable suggestions.",
+    "evidence": "https://github.com/antonio-ivanovski/spliit-cloud/blob/908ea55e7772940ae2a76ae516021abc32326d64/README.md#deduce-category-from-title",
+    "demo": "https://spliit.cloud/",
+    "code": "https://github.com/antonio-ivanovski/spliit-cloud/blob/908ea55e7772940ae2a76ae516021abc32326d64/apps/api/src/lib/ai/system-one-categorize.ts",
+    "license": "MIT",
+    "kind": "optional-integration",
+    "reviewed": "2026-09-24",
+    "notes": "Submitted by the Spliit Cloud maintainer. Single suggestions send the truncated title, language, group name/currency, and recent title/category pairs; bulk runs add expense dates, confirmed/recent examples, title-matched rejected categories, and opt-in nearby expenses to the configured System One endpoint; credentials remain server-side and suggestion paths log no titles. Malformed Choice answers become no suggestion; low-confidence or no-fit results become no suggestion, single runs are opt-in and bulk runs are admin-gated. The hosted instance's active category engine was not verified and no paid inference call was made for this review."
+  },
+  {
     "repo": "caio0452/jev_search",
     "name": "jev_search",
     "category": "agents",
