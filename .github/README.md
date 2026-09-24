@@ -4,7 +4,7 @@ Projects, demos, and tools built with [Jev](https://docs.typesafe.ai/).
 
 Jev answers questions about data: pick an option, return a yes/no probability, or score something on a scale. It does not write text. The examples here show what people are using it for, with links to the code where available.
 
-**45 reviewed picks**. <a href="https://github.com/Amal-David/awesome-jev/blob/main/docs/REVIEWED.md">Source notes and licenses</a>. The larger discovery catalog is separate.
+**46 reviewed picks**. <a href="https://github.com/Amal-David/awesome-jev/blob/main/docs/REVIEWED.md">Source notes and licenses</a>. The larger discovery catalog is separate.
 
 [Quick start](#20-second-quick-start) · [Projects](#reviewed-picks) · [Demos from X](#watch-jev-in-action) · [CUA & drivers](#computer-use-and-drivers) · [OpenRouter winners](#openrouter-community-winners) · [Contributing](#contribute)
 
@@ -76,6 +76,7 @@ For simple rules, parsing, or arithmetic, use code. A dedicated classifier may b
 - <a href="https://github.com/caio0452/jev_search">jev_search</a> - Ranks files by keyword, then checks their passages with Jev in two passes. Author marks it experimental.
 - <a href="https://github.com/kyu1204/jgrep">jgrep (npm: jevgrep)</a> - Jev answers one Noul per code chunk, diff hunk, or CSV row (does this match the description?); code prints the probabilities as file:line hits, gates CI on an English rule with --diff, and lists the test files a diff can affect with --tests.
 - <a href="https://github.com/bartlomein/oko">Oko</a> - Code-search CLI and MCP server that finds candidates locally and uses Jev to rank the source snippets.
+- <a href="https://github.com/supercorp-ai/supercov">Supercov</a> - Coverage, security and code quality for coding agents: Jev checks each source file so the agent knows what to fix first.
 - <a href="https://github.com/itsmostafa/typesafe-mcp">TypeSafe MCP</a> - Go MCP server for making Jev requests from coding agents.
 
 ### Apps and integrations
@@ -108,7 +109,7 @@ For simple rules, parsing, or arithmetic, use code. A dedicated classifier may b
 
 - <a href="https://github.com/browser-use/browser-harness">Browser Harness (supporting driver)</a> - The CDP browser connection used by Jev Ultrafast. Model-neutral, not a Jev model.
 
-<a href="https://github.com/Amal-David/awesome-jev/blob/main/docs/REVIEWED.md">All 45 reviewed picks: source notes and licenses</a>
+<a href="https://github.com/Amal-David/awesome-jev/blob/main/docs/REVIEWED.md">All 46 reviewed picks: source notes and licenses</a>
 
 ## Computer use and drivers
 
