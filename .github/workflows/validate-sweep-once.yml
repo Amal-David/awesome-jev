@@ -1,0 +1,91 @@
+name: Validate September 25 editorial sweep
+
+on:
+  push:
+    branches: ['curation/web-sweep-20260925']
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Prepare Python container
+        shell: bash
+        run: |
+          set -euo pipefail
+          docker pull python:3.12-bookworm
+          docker image inspect python:3.12-bookworm --format '{{.Id}} {{json .RepoDigests}}'
+      - name: Build, test, and inspect offline
+        shell: bash
+        run: |
+          set -euo pipefail
+          image=$(docker image inspect python:3.12-bookworm --format '{{.Id}}')
+          docker run --rm -i --network none --read-only --cap-drop ALL \
+            --security-opt no-new-privileges --pids-limit 256 --memory 2g --cpus 2 \
+            --user "$(id -u):$(id -g)" --tmpfs /tmp:rw,nosuid,nodev,size=512m \
+            --mount "type=bind,source=$PWD,target=/work" --workdir /work \
+            --env HOME=/tmp --env TMPDIR=/tmp --env PYTHONDONTWRITEBYTECODE=1 \
+            --env GIT_CONFIG_NOSYSTEM=1 --env GIT_CONFIG_GLOBAL=/dev/null \
+            "$image" bash -se <<'BASH'
+          set -euo pipefail
+          command -v git
+          command -v bash
+          python3 - <<'PY'
+          import json, os, subprocess
+          from pathlib import Path
+          base = '9fc5d8a189ca4779e3c2503bfc8b490a1c37cbd5'
+          old = json.loads(subprocess.check_output(['git', 'show', base + ':data/curated.json'], text=True))
+          new = json.loads(Path('data/curated.json').read_text(encoding='utf-8'))
+          assert len(old) == 49 and len(new) == 54
+          assert new[:len(old)] == old, 'An existing selection changed'
+          expected = {'nokia-applied-research/AnyJev', 'sutro-sh/jev-align', 'jexp/neo4jev', 'tyler-dot-earth/patdown', 'libingzheren/Jev-Mem'}
+          assert {e['repo'] for e in new[len(old):]} == expected
+          changes = set(subprocess.check_output(['git', 'diff', '--name-only', base, 'HEAD'], text=True).splitlines())
+          assert changes == {'data/curated.json', 'docs/WEB_SWEEP_2026-09-25.md', '.github/workflows/validate-sweep-once.yml'}, changes
+          for name in ('GITHUB_TOKEN', 'GH_TOKEN', 'TYPESAFE_API_KEY', 'OPENAI_API_KEY', 'ANTHROPIC_API_KEY'):
+              assert not os.environ.get(name), 'Credential unexpectedly present'
+          print('Original 49 selections preserved; five intended additions; only reviewed data/docs/validation files changed.')
+          PY
+          python3 scripts/build.py
+          python3 -m unittest discover -s tests -v
+          python3 scripts/build.py --check
+          git diff --check
+          git diff --check 9fc5d8a189ca4779e3c2503bfc8b490a1c37cbd5
+          cmp README.md .github/README.md
+          git diff --exit-code 9fc5d8a189ca4779e3c2503bfc8b490a1c37cbd5 -- data/x_demos.json data/media.json data/media_cache.json data/discoveries.json data/exclusions.json data/refresh.json templates docs/X_DEMOS.md docs/MEDIA.md
+          python3 - <<'PY'
+          import hashlib, json, subprocess
+          from pathlib import Path
+          base = '9fc5d8a189ca4779e3c2503bfc8b490a1c37cbd5'
+          old = json.loads(subprocess.check_output(['git', 'show', base + ':data/catalog.json'], text=True))
+          new = json.loads(Path('data/catalog.json').read_text(encoding='utf-8'))
+          key = lambda e: str(e.get('repo') or e['url']).lower().rstrip('/')
+          old = {key(e): e for e in old}
+          new = {key(e): e for e in new}
+          targets = {'nokia-applied-research/anyjev', 'sutro-sh/jev-align', 'jexp/neo4jev', 'tyler-dot-earth/patdown', 'libingzheren/jev-mem'}
+          assert {k: v for k, v in old.items() if k not in targets} == {k: v for k, v in new.items() if k not in targets}, 'Unrelated catalog data changed'
+          assert all(new[k]['evidence_level'] == 'primary-source-reviewed' for k in targets)
+          print('CATALOG DELTA: only the five selected repositories changed.')
+          for k in sorted(targets):
+              print(json.dumps({'key': k, 'previous_level': old.get(k, {}).get('evidence_level'), 'record': new[k]}, ensure_ascii=False))
+          files = subprocess.check_output(['git', 'diff', '--name-only'], text=True).splitlines()
+          allowed = {'README.md', '.github/README.md', 'docs/REVIEWED.md', 'docs/CATALOG.md', 'docs/STATUS.md', 'docs/catalog.html', 'data/catalog.json'}
+          assert set(files) <= allowed, files
+          print('GENERATED FILE HASHES')
+          for name in files:
+              print(name, hashlib.sha256(Path(name).read_bytes()).hexdigest())
+          print('SOURCE FILE HASHES')
+          for name in ('data/curated.json', 'docs/WEB_SWEEP_2026-09-25.md', 'data/x_demos.json', 'data/media.json'):
+              print(name, hashlib.sha256(Path(name).read_bytes()).hexdigest())
+          PY
+          git diff --stat 9fc5d8a189ca4779e3c2503bfc8b490a1c37cbd5
+          git diff -- README.md .github/README.md docs/REVIEWED.md docs/CATALOG.md docs/STATUS.md
+          echo 'VALIDATED: build, unit tests, build --check, diff --check, preserved gallery, original selections, and unrelated catalog records.'
+          BASH
