@@ -4,7 +4,7 @@ Projects, demos, and tools built with [Jev](https://docs.typesafe.ai/).
 
 Jev answers questions about data: pick an option, return a yes/no probability, or score something on a scale. It does not write text. The examples here show what people are using it for, with links to the code where available.
 
-**45 reviewed picks**. <a href="https://github.com/Amal-David/awesome-jev/blob/main/docs/REVIEWED.md">Source notes and licenses</a>. The larger discovery catalog is separate.
+**49 reviewed picks**. <a href="https://github.com/Amal-David/awesome-jev/blob/main/docs/REVIEWED.md">Source notes and licenses</a>. The larger discovery catalog is separate.
 
 [Quick start](#20-second-quick-start) · [Projects](#reviewed-picks) · [Demos from X](#watch-jev-in-action) · [CUA & drivers](#computer-use-and-drivers) · [OpenRouter winners](#openrouter-community-winners) · [Contributing](#contribute)
 
@@ -77,9 +77,11 @@ For simple rules, parsing, or arithmetic, use code. A dedicated classifier may b
 - <a href="https://github.com/kyu1204/jgrep">jgrep (npm: jevgrep)</a> - Jev answers one Noul per code chunk, diff hunk, or CSV row (does this match the description?); code prints the probabilities as file:line hits, gates CI on an English rule with --diff, and lists the test files a diff can affect with --tests.
 - <a href="https://github.com/bartlomein/oko">Oko</a> - Code-search CLI and MCP server that finds candidates locally and uses Jev to rank the source snippets.
 - <a href="https://github.com/itsmostafa/typesafe-mcp">TypeSafe MCP</a> - Go MCP server for making Jev requests from coding agents.
+- <a href="https://github.com/GhalebDweikat/winnow">Winnow</a> - Claude Code context filter where Jev scores tool-output blocks and low-relevance blocks stay recallable from a local cache.
 
 ### Apps and integrations
 
+- <a href="https://github.com/jerryjliu/docjev">DocJev</a> - Classifies documents and finds packet boundaries with Jev after local parsing or optional cloud OCR.
 - <a href="https://github.com/riesvile/nospace">nospace</a> - Adds spaces while you type. Jev chooses between possible word splits; a separate model handles spelling corrections.
 - <a href="https://github.com/cairodavila/tisco">tisco</a> - Searches video transcripts with Jev, then previews clip moves and renames for approval.
 - <a href="https://obstudio.org/tools/vibe-domain/">Vibe Domain</a> - Ranks domain names by the requested style. Has a no-key heuristic mode and a hosted Jev option.
@@ -97,6 +99,8 @@ For simple rules, parsing, or arithmetic, use code. A dedicated classifier may b
 - <a href="https://github.com/lukaske/jev-doom-agent">PROMPT FPS / Jev Doom</a> - Jev chooses actions in a browser-based Doom engine. Uses Freedoom assets.
 - <a href="https://github.com/fhshaik/typesafe-mario">TypeSafe Mario</a> - Jev picks controller inputs from emulator state. Requires a lawful local game setup.
 - <a href="https://github.com/wustep/jev-playground">Jev Music Playground</a> - Jev picks musical parameters; code turns them into notes and MIDI. Includes an offline mode.
+- <a href="https://github.com/baronunread/leanest">Leanest</a> - Test selector that can use Jev to judge which Playwright or Vitest files are safe enough to skip for a code change.
+- <a href="https://github.com/sharziki/semdecide">SemDecide</a> - Unix CLI for Jev predicates, choices, scores, JSONL filtering, and CI-friendly exit codes.
 
 ### Independent models
 
@@ -108,7 +112,7 @@ For simple rules, parsing, or arithmetic, use code. A dedicated classifier may b
 
 - <a href="https://github.com/browser-use/browser-harness">Browser Harness (supporting driver)</a> - The CDP browser connection used by Jev Ultrafast. Model-neutral, not a Jev model.
 
-<a href="https://github.com/Amal-David/awesome-jev/blob/main/docs/REVIEWED.md">All 45 reviewed picks: source notes and licenses</a>
+<a href="https://github.com/Amal-David/awesome-jev/blob/main/docs/REVIEWED.md">All 49 reviewed picks: source notes and licenses</a>
 
 ## Computer use and drivers
 
