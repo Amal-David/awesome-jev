@@ -523,5 +523,65 @@
     "reviewed": "2026-09-25",
     "license": "MIT",
     "notes": "Jev is optional; classifier.dev is the default and Laya is another provider. The policy fails open on uncertainty/provider failure and has deterministic always-run overrides. Diff and test source reach the selected judge; use trusted HTTPS for a custom TypeSafe base URL. Source-reviewed, not executed here."
+  },
+  {
+    "repo": "nokia-applied-research/AnyJev",
+    "name": "AnyJev",
+    "category": "research",
+    "description": "Independent typed-decision readouts for open models, with option-order correction and per-question calibration. Not TypeSafe Jev weights.",
+    "evidence": "https://github.com/nokia-applied-research/AnyJev/blob/795a4970b47218b7c0686cd579d691fc2cf8df2f/README.md",
+    "code": "https://github.com/nokia-applied-research/AnyJev/blob/795a4970b47218b7c0686cd579d691fc2cf8df2f/anyjev/decider.py",
+    "license": "Apache-2.0",
+    "kind": "independent-reproduction",
+    "reviewed": "2026-09-25",
+    "notes": "Source and synthetic head-test review, not execution or reproduced benchmarks. L0 is not calibrated; L1/L2 need task-specific labels, and L2 heads are model-specific. The letter readout supports up to 26 options. Local Transformers and configurable vLLM backends have different data boundaries: vLLM receives submitted state and any configured bearer key; use trusted loopback or HTTPS. Models and datasets retain separate licenses. See docs/WEB_SWEEP_2026-09-25.md."
+  },
+  {
+    "repo": "sutro-sh/jev-align",
+    "name": "jev-align",
+    "category": "agents",
+    "description": "Improves Jev classifiers and scoring rubrics with human labels and GEPA-proposed definition changes.",
+    "evidence": "https://github.com/sutro-sh/jev-align/blob/3d997fc76593036655c28d4964de43b55f81fe2c/README.md",
+    "code": "https://github.com/sutro-sh/jev-align/blob/3d997fc76593036655c28d4964de43b55f81fe2c/src/jev_align/optimizer.py",
+    "license": "Apache-2.0",
+    "kind": "direct-integration",
+    "reviewed": "2026-09-25",
+    "notes": "Experimental definition optimization, not weight training. Selected dataset fields reach the Jev provider; labeled examples and rationales also reach the separately configured reflection model. Optional capture retains inputs locally, and registry publishing shares labeled data publicly. Review proposed edits and evaluate on held-out data; training scores are not generalization evidence. Evaluator, optimizer and mock-test source inspected; no upstream code, registry login or model calls run. See docs/WEB_SWEEP_2026-09-25.md."
+  },
+  {
+    "repo": "jexp/neo4jev",
+    "name": "neo4jev",
+    "category": "integrations",
+    "description": "Explores Neo4j graphs with Jev edge choices and goal checks inside a bounded beam search.",
+    "evidence": "https://github.com/jexp/neo4jev/blob/d157bbe496eb91813475156942bef1c6badfb342/README.md",
+    "code": "https://github.com/jexp/neo4jev/blob/d157bbe496eb91813475156942bef1c6badfb342/src/neo4jev/navigator.py",
+    "license": "MIT",
+    "kind": "direct-integration",
+    "reviewed": "2026-09-25",
+    "notes": "Graph exploration demo, not a complete query engine. Node/relationship properties, path context and optional schema/property samples reach TypeSafe. Candidate caps and truncated properties can hide useful paths; the supplied hash-vector lookup is a placeholder, not semantic embeddings. Use a read-only database account and data approved for hosted processing. Navigator, access-layer and fake-client test source inspected; no database connection, upstream tests or inference run. See docs/WEB_SWEEP_2026-09-25.md."
+  },
+  {
+    "repo": "tyler-dot-earth/patdown",
+    "name": "patdown",
+    "category": "agents",
+    "description": "Semantic linter that turns Markdown rules into Jev checks and maps flagged evidence back to source lines.",
+    "evidence": "https://github.com/tyler-dot-earth/patdown/blob/c7c1c71cad29b8f630c314dcbd7fb5973610c11b/README.md",
+    "code": "https://github.com/tyler-dot-earth/patdown/blob/c7c1c71cad29b8f630c314dcbd7fb5973610c11b/apps/patdown/src/typesafe-judge.ts",
+    "license": "0BSD",
+    "kind": "direct-integration",
+    "reviewed": "2026-09-25",
+    "notes": "Jev is the default, swappable judge. Selected paths, file content or stdin reach the provider; filename exclusions are not secret redaction. Custom TYPESAFE_BASE_URL does not enforce HTTPS: keep source and real keys on trusted HTTPS endpoints. The service validates finite yes-probabilities and removes provider prose from errors; this is not a security scanner or authorization boundary. Evidence-location calls add requests. Source and mocked error tests inspected, not executed. See docs/WEB_SWEEP_2026-09-25.md."
+  },
+  {
+    "repo": "libingzheren/Jev-Mem",
+    "name": "Jev-Mem",
+    "category": "agents",
+    "description": "Research agent-memory system where Jev organizes graph memories and guides retrieval; a separate model writes answers.",
+    "evidence": "https://github.com/libingzheren/Jev-Mem/blob/81574eb23f3fd8d1a6c4d54a1e7d6f2dd539e9bb/README.md",
+    "code": "https://github.com/libingzheren/Jev-Mem/blob/81574eb23f3fd8d1a6c4d54a1e7d6f2dd539e9bb/memory/jev_client.py",
+    "license": "MIT",
+    "kind": "direct-integration",
+    "reviewed": "2026-09-25",
+    "notes": "Research prototype with explicit response validation and retrieval budgets. Observations/context reach Jev; synthesis, judging and optional hosted embeddings use another provider. Caches retain conversations, and some persistence uses pickle: load only trusted files. Custom TypeSafe endpoints need trusted HTTPS. The mock demo is not a quality test; published LoCoMo results were not reproduced, and reference-aware best-of selection can bias evaluation. Client/configuration/security and offline-test source inspected, not run. See docs/WEB_SWEEP_2026-09-25.md."
   }
 ]
