@@ -4,7 +4,7 @@ Projects, demos, and tools built with [Jev](https://docs.typesafe.ai/).
 
 Jev answers questions about data: pick an option, return a yes/no probability, or score something on a scale. It does not write text. The examples here show what people are using it for, with links to the code where available.
 
-**49 reviewed picks**. <a href="https://github.com/Amal-David/awesome-jev/blob/main/docs/REVIEWED.md">Source notes and licenses</a>. The larger discovery catalog is separate.
+**54 reviewed picks**. <a href="https://github.com/Amal-David/awesome-jev/blob/main/docs/REVIEWED.md">Source notes and licenses</a>. The larger discovery catalog is separate.
 
 [Quick start](#20-second-quick-start) · [Projects](#reviewed-picks) · [Demos from X](#watch-jev-in-action) · [CUA & drivers](#computer-use-and-drivers) · [OpenRouter winners](#openrouter-community-winners) · [Contributing](#contribute)
 
@@ -71,11 +71,14 @@ For simple rules, parsing, or arithmetic, use code. A dedicated classifier may b
 
 - <a href="https://github.com/thruwire/foreman">Foreman</a> - Uses Jev to check a coding agent&#x27;s progress and decide when it needs intervention.
 - <a href="https://github.com/jkudish/jev-mcp">Jev MCP</a> - MCP tools for checking claims against evidence, screening content, and ranking candidates.
+- <a href="https://github.com/sutro-sh/jev-align">jev-align</a> - Improves Jev classifiers and scoring rubrics with human labels and GEPA-proposed definition changes.
 - <a href="https://github.com/valentynkit/jev-belay">jev-belay</a> - Claude Code Stop hook that checks local run evidence before Jev judges an unverified completion claim.
 - <a href="https://github.com/kevnk/jev-claude-statusline">jev-claude-statusline</a> - Claude Code hooks send task text, recent tool summaries, latest assistant message, and turn status to Jev (Score phase plus Noul done/waiting_on_user); answers are cached and shown as a progress segment on the Claude Code status line.
+- <a href="https://github.com/libingzheren/Jev-Mem">Jev-Mem</a> - Research agent-memory system where Jev organizes graph memories and guides retrieval; a separate model writes answers.
 - <a href="https://github.com/caio0452/jev_search">jev_search</a> - Ranks files by keyword, then checks their passages with Jev in two passes. Author marks it experimental.
 - <a href="https://github.com/kyu1204/jgrep">jgrep (npm: jevgrep)</a> - Jev answers one Noul per code chunk, diff hunk, or CSV row (does this match the description?); code prints the probabilities as file:line hits, gates CI on an English rule with --diff, and lists the test files a diff can affect with --tests.
 - <a href="https://github.com/bartlomein/oko">Oko</a> - Code-search CLI and MCP server that finds candidates locally and uses Jev to rank the source snippets.
+- <a href="https://github.com/tyler-dot-earth/patdown">patdown</a> - Semantic linter that turns Markdown rules into Jev checks and maps flagged evidence back to source lines.
 - <a href="https://github.com/itsmostafa/typesafe-mcp">TypeSafe MCP</a> - Go MCP server for making Jev requests from coding agents.
 - <a href="https://github.com/GhalebDweikat/winnow">Winnow</a> - Claude Code context filter where Jev scores tool-output blocks and low-relevance blocks stay recallable from a local cache.
 
@@ -88,6 +91,7 @@ For simple rules, parsing, or arithmetic, use code. A dedicated classifier may b
 - <a href="https://github.com/AboveColin/HA-Jev">Home Assistant Jev</a> - Adds Jev decisions to Home Assistant entities and automations.
 - <a href="https://github.com/simonw/llm-typesafe">llm-typesafe</a> - Use Jev from the LLM command line or Python, with stdin, templates, and sync/async calls.
 - <a href="https://github.com/ttlequals0/MinusPodJev">MinusPodJev</a> - Podcast ad-detection adapter for MinusPod: Jev scores transcript segments and code assembles the ad spans.
+- <a href="https://github.com/jexp/neo4jev">neo4jev</a> - Explores Neo4j graphs with Jev edge choices and goal checks inside a bounded beam search.
 
 ### Games and creative projects
 
@@ -104,6 +108,7 @@ For simple rules, parsing, or arithmetic, use code. A dedicated classifier may b
 
 ### Independent models
 
+- <a href="https://github.com/nokia-applied-research/AnyJev">AnyJev</a> - Independent typed-decision readouts for open models, with option-order correction and per-question calibration. Not TypeSafe Jev weights.
 - <a href="https://huggingface.co/cua-ai/cua-s1-forms">CUA-S1-FORMS (independent specialist)</a> - Cua&#x27;s independent form-filling model and dataset. Not a general desktop agent or official Jev weights.
 - <a href="https://github.com/vinnylarouge/jevlike">Jevlike (independent option scorer)</a> - Independent one-pass option scorer with training code and game examples. Not TypeSafe Jev.
 - <a href="https://github.com/ekzhang/openjev-sglang">OpenJev SGLang</a> - Independent typed-decision server using open models and SGLang. Not official Jev weights.
@@ -112,7 +117,7 @@ For simple rules, parsing, or arithmetic, use code. A dedicated classifier may b
 
 - <a href="https://github.com/browser-use/browser-harness">Browser Harness (supporting driver)</a> - The CDP browser connection used by Jev Ultrafast. Model-neutral, not a Jev model.
 
-<a href="https://github.com/Amal-David/awesome-jev/blob/main/docs/REVIEWED.md">All 49 reviewed picks: source notes and licenses</a>
+<a href="https://github.com/Amal-David/awesome-jev/blob/main/docs/REVIEWED.md">All 54 reviewed picks: source notes and licenses</a>
 
 ## Computer use and drivers
 
