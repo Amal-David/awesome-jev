@@ -479,5 +479,49 @@
     "kind": "direct-integration",
     "reviewed": "2026-09-23",
     "notes": "Author submission. Requires a TypeSafe API key and paid Jev inference. Not official TypeSafe software. Bash activity intended for Jev uses tool descriptions, not raw command text. Source packaging of a working local setup; the hook and live inference were not executed in this catalog review. Closest cousin: valentynkit/jev-belay (Stop-hook completion check); this project estimates continuous status-line progress."
+  },
+  {
+    "repo": "sharziki/semdecide",
+    "name": "SemDecide",
+    "category": "developer-tools",
+    "description": "Unix CLI for Jev predicates, choices, scores, JSONL filtering, and CI-friendly exit codes.",
+    "evidence": "https://github.com/sharziki/semdecide/blob/main/README.md",
+    "code": "https://github.com/sharziki/semdecide/blob/main/src/reflex_guard/providers/typesafe.py",
+    "reviewed": "2026-09-25",
+    "license": "MIT",
+    "notes": "Validates Jev response shapes and keeps uncertainty/provider failures distinct. Input is sent to the configured Jev endpoint; custom SEMDECIDE_API_URL values can carry the API key, so use a trusted HTTPS endpoint. Source-reviewed, not executed here."
+  },
+  {
+    "repo": "GhalebDweikat/winnow",
+    "name": "Winnow",
+    "category": "agents",
+    "description": "Claude Code context filter where Jev scores tool-output blocks and low-relevance blocks stay recallable from a local cache.",
+    "evidence": "https://github.com/GhalebDweikat/winnow/blob/main/README.md",
+    "code": "https://github.com/GhalebDweikat/winnow/blob/main/sidecar/src/winnow/judge.py",
+    "reviewed": "2026-09-25",
+    "license": "MIT",
+    "notes": "Keeps uncertain blocks and error output rather than pruning them. Tool output reaches the configured judge; optional summaries use a separate model, while hidden full text is cached locally for recall. Published calibration results are author-reported and were not reproduced here."
+  },
+  {
+    "repo": "jerryjliu/docjev",
+    "name": "DocJev",
+    "category": "apps",
+    "description": "Classifies documents and finds packet boundaries with Jev after local parsing or optional cloud OCR.",
+    "evidence": "https://github.com/jerryjliu/docjev/blob/main/README.md",
+    "code": "https://github.com/jerryjliu/docjev/blob/main/src/jev_docs/engines/jev.py",
+    "reviewed": "2026-09-25",
+    "license": "MIT",
+    "notes": "LiteParse extraction is local; normalized page text is sent to Jev. Optional LlamaParse uploads document bytes for OCR. The repository separates OCR and decision timing and labels its saved measurements; they were not reproduced here."
+  },
+  {
+    "repo": "baronunread/leanest",
+    "name": "Leanest",
+    "category": "developer-tools",
+    "description": "Test selector that can use Jev to judge which Playwright or Vitest files are safe enough to skip for a code change.",
+    "evidence": "https://github.com/baronunread/leanest/blob/main/README.md",
+    "code": "https://github.com/baronunread/leanest/blob/main/packages/judge/src/providers/jev.ts",
+    "reviewed": "2026-09-25",
+    "license": "MIT",
+    "notes": "Jev is optional; classifier.dev is the default and Laya is another provider. The policy fails open on uncertainty/provider failure and has deterministic always-run overrides. Diff and test source reach the selected judge; use trusted HTTPS for a custom TypeSafe base URL. Source-reviewed, not executed here."
   }
 ]
