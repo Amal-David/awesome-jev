@@ -39,7 +39,7 @@ Run the upstream formatting checker separately with Node.js 20+ and Git:
 npx --yes --ignore-scripts awesome-lint@2.3.0 README.md
 ```
 
-This is the full check, including repository age; do not suppress eligibility failures or claim a clean result when it reports them. See [Awesome submission status](docs/AWESOME_SUBMISSION.md). AI assistance must be disclosed honestly; direct editing does not make past AI-assisted work human-authored.
+Use the complete default rule set without local suppressions and record actual diagnostics. Version 2.3.0 disables its age rule upstream; the separate 30-day requirement still applies. A successful lint does not establish maturity, non-AI authorship, or acceptance. See [Awesome submission status](docs/AWESOME_SUBMISSION.md). AI assistance must be disclosed honestly; direct editing does not make past AI-assisted work human-authored.
 
 For new original list text contributed under these guidelines, apply CC0 to the rights you own. Original code contributions remain MIT. Existing contributions, imported metadata, and media keep their original terms; see [licensing scope](LICENSING.md).
 
