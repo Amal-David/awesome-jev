@@ -19,7 +19,7 @@
 
 Repository checks rotate: the newest check date does not mean every entry was checked then. A 404/410 is an unavailable-repository observation, not proof of permanent deletion. Media errors may be access restrictions or transient failures, not dead links. **A complete dead-link count is unknown:** arbitrary demo, skill, code and article URLs are not all crawled.
 
-The discovery timestamp advances only after a network discovery pass completes. An offline README rebuild, test run or media-only refresh never advances it. The Actions result, not the cron expression, establishes that a workflow ran successfully.
+The discovery timestamp advances only after a network discovery pass completes. An offline directory rebuild, test run or media-only refresh never advances it. The Actions result, not the cron expression, establishes that a workflow ran successfully.
 
 <a href="https://github.com/Amal-David/awesome-jev/actions/runs/36144120411">Discovery run receipt</a>
 

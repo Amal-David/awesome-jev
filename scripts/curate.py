@@ -404,8 +404,4 @@ def main() -> int:
 
 
 if __name__ == '__main__':
-    try:
-        sys.exit(main())
-    except (ValueError, RuntimeError, OSError) as exc:
-        print(str(exc), file=sys.stderr)
-        sys.exit(1)
+    raise SystemExit('Legacy publication is disabled; use python3 scripts/build.py instead.')

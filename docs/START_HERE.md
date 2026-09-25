@@ -1,6 +1,6 @@
 # Choose your first Jev task
 
-[Start here](../README.md) · [Reviewed picks](REVIEWED.md) · [Search and filters](BROWSE.md) · [Watch demos](https://github.com/Amal-David/awesome-jev#watch-jev-in-action)
+[Start here](../README.md) · [Reviewed picks](REVIEWED.md) · [Search and filters](BROWSE.md) · [Watch demos](https://github.com/Amal-David/awesome-jev/blob/main/docs/DIRECTORY.md#watch-jev-in-action)
 
 ## Build your first typed classifier
 

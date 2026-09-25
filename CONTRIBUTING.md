@@ -29,7 +29,19 @@ python3 -m unittest discover -s tests -v
 python3 scripts/build.py --check
 ```
 
-Commit source changes and generated changes together. The unified builder keeps both READMEs, reviewed picks, catalog, local viewer, freshness, X and media pages consistent. Edit `templates/README.md` for hierarchy or menu changes; do not edit generated READMEs. Do not run the older component scripts' standalone CLIs for publication.
+Edit root `README.md` directly when proposing a front-page selection. Use `- [Project](URL) - Description.` with a concise, objective description beginning with a capital and ending in a period. Keep `Contents` first, use its existing categories, and leave `Contributing` and `Footnotes` out of the contents list. Do not add archived, undocumented, or deprecated projects to the front page; preserve useful historical material in the supporting catalog with clear notes.
+
+Commit source changes and generated supporting views together. `scripts/build.py` checks the editorial README against `data/curated.json` and exclusions, but never rewrites it. `templates/README.md` controls `docs/DIRECTORY.md`, which retains the original demo gallery and quick-start. The builder also maintains reviewed evidence, the catalog, viewer, freshness, and X/media indexes. Do not recreate `.github/README.md` or use the disabled legacy publishing CLIs.
+
+Run the upstream formatting checker separately with Node.js 20+ and Git:
+
+```sh
+npx --yes --ignore-scripts awesome-lint@2.3.0 README.md
+```
+
+This is the full check, including repository age; do not suppress eligibility failures or claim a clean result when it reports them. See [Awesome submission status](docs/AWESOME_SUBMISSION.md). AI assistance must be disclosed honestly; direct editing does not make past AI-assisted work human-authored.
+
+For new original list text contributed under these guidelines, apply CC0 to the rights you own. Original code contributions remain MIT. Existing contributions, imported metadata, and media keep their original terms; see [licensing scope](LICENSING.md).
 
 Primary-source review is not a security audit, execution test or benchmark reproduction. Preserve provenance and distinguish independent implementations from the official Jev model. No third-party project needs to be installed or executed to contribute a listing.
 

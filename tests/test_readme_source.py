@@ -25,7 +25,7 @@ def fixture(section='Agent Tools'):
 
 
 def record(**changes):
-    return dict(repo='owner/project', evidence='https://github.com/owner/project', **changes)
+    return {'repo': 'owner/project', 'evidence': 'https://github.com/owner/project', **changes}
 
 
 class ReadmeSourceTests(unittest.TestCase):

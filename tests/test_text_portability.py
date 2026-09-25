@@ -62,13 +62,14 @@ class TextPortabilityTests(unittest.TestCase):
             target = Path(tmp)
             for folder in ('data', 'templates'):
                 shutil.copytree(ROOT / folder, target / folder)
+            shutil.copy2(ROOT / 'README.md', target / 'README.md')
+            editorial_before = (target / 'README.md').read_bytes()
             with patch.object(Path, 'open', cp1252_open):
                 b.build(target)
                 b.build(target, check=True)
-                self.assertEqual(
-                    (target / 'README.md').read_text(encoding='utf-8'),
-                    (target / '.github/README.md').read_text(encoding='utf-8'),
-                )
+                self.assertEqual((target / 'README.md').read_bytes(), editorial_before)
+                self.assertFalse((target / '.github/README.md').exists())
+                self.assertIn('Jev Project Directory', (target / 'docs/DIRECTORY.md').read_text(encoding='utf-8'))
 
     def test_publisher_tests_report_missing_bash_as_a_skip(self):
         original_which = shutil.which
