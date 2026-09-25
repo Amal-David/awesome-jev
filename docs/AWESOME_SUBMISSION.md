@@ -31,13 +31,13 @@ python3 scripts/build.py --check
 git diff --check
 ```
 
-Run the actual upstream linter separately with Node.js 20+ and a full Git history:
+Run the actual upstream linter separately with Node.js 20+ and Git:
 
 ```sh
 npx --yes --ignore-scripts awesome-lint@2.3.0 README.md
 ```
 
-This pins the directly invoked linter version and disables package lifecycle scripts; npm still resolves its declared transitive dependencies. No package scripts or dependencies from catalogued projects are needed. The command is the full lint, including repository age. Record actual diagnostics and exit status. Do not disable rules, backdate commits, or label a failed full check as a pass. The Python README checker is an additional membership/structure guard, not a replacement for awesome-lint or upstream review.
+This pins the directly invoked linter version and disables package lifecycle scripts; npm still resolves its declared transitive dependencies. No package scripts or dependencies from catalogued projects are needed. The command uses the complete default rule set, without local suppressions. The released [v2.3.0 rule configuration](https://github.com/sindresorhus/awesome-lint/blob/v2.3.0/rules/index.js) disables the age rule upstream, so the 30-day condition must still be checked separately. Record actual diagnostics and exit status. Do not disable other rules, backdate commits, or label a failed full check as a pass. The Python README checker is an additional membership/structure guard, not a replacement for awesome-lint or upstream review.
 
 ## Possible future entry
 
