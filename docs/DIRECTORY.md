@@ -1,4 +1,6 @@
-# Awesome Jev
+# Jev Project Directory
+
+Generated supporting directory with source notes, the original demo gallery, and discovery status. [Back to the editorial list](../README.md).
 
 Projects, demos, and tools built with [Jev](https://docs.typesafe.ai/).
 

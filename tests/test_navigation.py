@@ -190,16 +190,20 @@ class NavigationTests(unittest.TestCase):
             root = Path(tmp)
             for directory in ('data', 'templates'):
                 shutil.copytree(ROOT / directory, root / directory)
+            shutil.copy2(ROOT / 'README.md', root / 'README.md')
+            editorial_before = (root / 'README.md').read_bytes()
             before = (root / 'data/refresh.json').read_text(encoding='utf-8') if (root / 'data/refresh.json').exists() else None
             b.build(root)
-            self.assertEqual((root / 'README.md').read_text(encoding='utf-8'), (root / '.github/README.md').read_text(encoding='utf-8'))
+            self.assertEqual((root / 'README.md').read_bytes(), editorial_before)
+            self.assertFalse((root / '.github/README.md').exists())
+            self.assertTrue((root / 'docs/DIRECTORY.md').is_file())
             b.build(root, check=True)
             if before is not None:
                 self.assertEqual(json.loads(before), json.loads((root / 'data/refresh.json').read_text(encoding='utf-8')))
             else:
                 self.assertEqual(json.loads((root / 'data/refresh.json').read_text(encoding='utf-8')), {})
             self.assertIn('Reviewed Jev picks', (root / 'docs/REVIEWED.md').read_text(encoding='utf-8'))
-            self.assertNotIn('<!-- DIRECTORY_STATS -->', (root / 'README.md').read_text(encoding='utf-8'))
+            self.assertNotIn('<!-- DIRECTORY_STATS -->', (root / 'docs/DIRECTORY.md').read_text(encoding='utf-8'))
 
 
 if __name__ == '__main__': unittest.main()

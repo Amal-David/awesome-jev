@@ -9,15 +9,15 @@ report() {
 }
 git config user.name 'github-actions[bot]'
 git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-git add -- README.md data/catalog.json docs/CATALOG.md data/discoveries.json
+git add -- docs/DIRECTORY.md data/catalog.json docs/CATALOG.md data/discoveries.json
 # Optional in older checkouts and isolated publishing fixtures. Templates are source, not generated output.
-for path in .github/README.md docs/X_DEMOS.md docs/MEDIA.md data/media_cache.json docs/REVIEWED.md docs/STATUS.md docs/catalog.html data/refresh.json; do
+for path in docs/X_DEMOS.md docs/MEDIA.md data/media_cache.json docs/REVIEWED.md docs/STATUS.md docs/catalog.html data/refresh.json; do
   if [[ -f "$path" ]]; then git add -- "$path"; fi
 done
 if git diff --cached --quiet; then report 'No directory changes.'; exit 0; fi
 while IFS= read -r -d '' path; do
   case "$path" in
-    README.md|data/catalog.json|docs/CATALOG.md|data/discoveries.json|.github/README.md|docs/X_DEMOS.md|docs/MEDIA.md|data/media_cache.json|docs/REVIEWED.md|docs/STATUS.md|docs/catalog.html|data/refresh.json) ;;
+    docs/DIRECTORY.md|data/catalog.json|docs/CATALOG.md|data/discoveries.json|docs/X_DEMOS.md|docs/MEDIA.md|data/media_cache.json|docs/REVIEWED.md|docs/STATUS.md|docs/catalog.html|data/refresh.json) ;;
     *) printf 'Refusing to commit unexpected staged file: %s\n' "$path" >&2; exit 1 ;;
   esac
 done < <(git diff --cached --name-only -z)

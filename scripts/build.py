@@ -195,7 +195,7 @@ def status_page(records: list[dict], cache: dict, stats: dict, excluded: set[str
              'Media errors may be access restrictions or transient failures, not dead links. '
              '**A complete dead-link count is unknown:** arbitrary demo, skill, code and article URLs are not all crawled.', '',
              'The discovery timestamp advances only after a network discovery pass completes. '
-             'An offline README rebuild, test run or media-only refresh never advances it. '
+             'An offline directory rebuild, test run or media-only refresh never advances it. '
              'The Actions result, not the cron expression, establishes that a workflow ran successfully.', '']
     if stats['run_url']:
         lines += [anchor('Discovery run receipt', stats['run_url']), '']
@@ -233,6 +233,8 @@ def load(path: Path, default):
 
 def write_outputs(outputs: dict[Path, str], check: bool = False) -> None:
     # All render/validation happens before the first write. --check is strictly read-only.
+    if any(path.name.lower() == 'readme.md' for path in outputs):
+        raise ValueError('README.md is editorial source, not a generated output')
     for path, content in outputs.items():
         current = path.read_text(encoding='utf-8') if path.exists() else None
         if current == content:
@@ -257,6 +259,7 @@ def build(root: Path = ROOT, *, check: bool = False, refresh: bool = False, refr
     excluded = exclusion_keys(load(root / 'data/exclusions.json', {'version': 1, 'entries': []}))
     if excluded & {core.key(e) for e in curated}:
         raise ValueError('An excluded entry is still in curated.json; resolve the editorial conflict')
+    module('check_readme').validate_file(root / 'README.md', seed, excluded)
     old = editorial_snapshot(load(root / 'data/catalog.json', []), curated, core.key)
     records = core.merge(old, [], curated)
     queue = load(root / 'data/discoveries.json', [])
@@ -287,7 +290,7 @@ def build(root: Path = ROOT, *, check: bool = False, refresh: bool = False, refr
         + anchor('Coverage, failures and run receipts', DOC + 'STATUS.md') + '.')
     home, x_index = x.render(load(root / 'data/x_demos.json', {}), template)
     x_index = x_index.replace('scripts/curate_x.py', 'scripts/build.py')
-    media_index = media.source_index(media_data, cache).replace('scripts/curate_media.py --refresh', 'scripts/build.py --refresh-media').replace('scripts/curate_media.py', 'scripts/build.py').replace('Run it before `curate_x.py`.', 'The unified builder also regenerates both READMEs and the local viewer.')
+    media_index = media.source_index(media_data, cache).replace('scripts/curate_media.py --refresh', 'scripts/build.py --refresh-media').replace('scripts/curate_media.py', 'scripts/build.py').replace('Run it before `curate_x.py`.', 'The unified builder also regenerates the supporting directory and the local viewer.')
     _, catalog = core.render(records)
     catalog = catalog.replace('[Back to curated selections](../README.md)', '[Reviewed picks](REVIEWED.md) · [Start here](../README.md) · [Search and filters](BROWSE.md)')
     reviewed = [e for e in records if e['evidence_level'] == LEVELS[0]]
@@ -297,9 +300,9 @@ def build(root: Path = ROOT, *, check: bool = False, refresh: bool = False, refr
         group = [e for e in reviewed if e['category'] == category]
         if group:
             review_page += core.section(title, group)
-    # Both README locations intentionally match; GitHub prefers .github/README.md.
+    # README.md is editorial source. Only the supporting directory is rendered.
     outputs = {
-        root / 'README.md': home, root / '.github/README.md': home,
+        root / 'docs/DIRECTORY.md': home,
         root / 'docs/REVIEWED.md': review_page, root / 'docs/CATALOG.md': catalog,
         root / 'docs/X_DEMOS.md': x_index, root / 'docs/MEDIA.md': media_index,
         root / 'docs/STATUS.md': status_page(records, cache, stats, excluded),
@@ -320,7 +323,7 @@ def main() -> int:
     if args.check and (args.refresh or args.refresh_media):
         parser.error('--check cannot be combined with refresh flags')
     stats = build(check=args.check, refresh=args.refresh, refresh_media=args.refresh_media)
-    print(f'Built directory: {stats[LEVELS[0]]} reviewed picks; {stats["total"]} catalog entries; both READMEs match.')
+    print(f'Built directory: {stats[LEVELS[0]]} reviewed picks; {stats["total"]} catalog entries; editorial README left untouched.')
     return 0
 
 

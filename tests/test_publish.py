@@ -27,7 +27,7 @@ class PublishTests(unittest.TestCase):
         self.run_git('clone', str(self.remote), str(self.work), cwd=self.root)
         self.run_git('config', 'user.name', 'Test')
         self.run_git('config', 'user.email', 'test@example.invalid')
-        for path in ('README.md', 'data/catalog.json', 'docs/CATALOG.md', 'data/discoveries.json'):
+        for path in ('README.md', 'docs/DIRECTORY.md', 'data/catalog.json', 'docs/CATALOG.md', 'data/discoveries.json'):
             target = self.work / path
             target.parent.mkdir(parents=True, exist_ok=True)
             target.write_text('initial\n', encoding='utf-8')
@@ -42,7 +42,7 @@ class PublishTests(unittest.TestCase):
         return subprocess.run([BASH, str(SCRIPT)], cwd=self.work, env=env or self.env, capture_output=True, text=True, timeout=20)
 
     def change(self):
-        (self.work / 'README.md').write_text('updated catalog\n', encoding='utf-8')
+        (self.work / 'docs/DIRECTORY.md').write_text('updated catalog\n', encoding='utf-8')
 
     def install_wrapper(self, body):
         directory = self.root / 'bin'
@@ -95,6 +95,24 @@ class PublishTests(unittest.TestCase):
         self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
         self.run_git('merge-base', '--is-ancestor', concurrent, 'main', cwd=self.remote)
         self.assertEqual(self.run_git('show', 'main:manual-note.txt', cwd=self.remote), 'preserve this')
+
+    def test_editorial_readme_is_not_published(self):
+        self.change()
+        (self.work / 'README.md').write_text('editorial change\n', encoding='utf-8')
+        result = self.publish()
+        self.assertNotEqual(result.returncode, 0)
+        self.assertEqual(self.run_git('show', 'main:README.md', cwd=self.remote), 'initial')
+        self.assertEqual((self.work / 'README.md').read_text(encoding='utf-8'), 'editorial change\n')
+
+    def test_staged_editorial_readme_is_rejected(self):
+        self.change()
+        (self.work / 'README.md').write_text('editorial change\n', encoding='utf-8')
+        self.run_git('add', 'README.md')
+        before = self.run_git('rev-parse', 'main', cwd=self.remote)
+        result = self.publish()
+        self.assertNotEqual(result.returncode, 0)
+        self.assertIn('unexpected staged file: README.md', result.stderr)
+        self.assertEqual(before, self.run_git('rev-parse', 'main', cwd=self.remote))
 
     def test_unexpected_staged_file_rejected(self):
         self.change()
