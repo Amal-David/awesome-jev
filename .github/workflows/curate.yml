@@ -1,86 +1,57 @@
-name: Prepare Awesome format sources once
+name: Refresh Jev directory
 
 on:
+  schedule:
+    - cron: '23 */4 * * *'
+  workflow_dispatch:
   push:
-    branches: ['maintenance/awesome-format-20260925']
-    paths: ['.github/workflows/curate.yml']
+    branches: [main]
+    paths:
+      - 'README.md'
+      - 'scripts/**'
+      - 'tests/**'
+      - 'data/curated.json'
+      - 'data/x_demos.json'
+      - 'data/media.json'
+      - 'data/exclusions.json'
+      - 'templates/**'
+      - 'examples/**'
+      - '.github/workflows/curate.yml'
 
 permissions:
   contents: read
 
+concurrency:
+  group: awesome-jev-curation
+  cancel-in-progress: false
+
 jobs:
-  prepare:
-    if: github.repository == 'Amal-David/awesome-jev'
+  curate:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 20
     permissions:
       contents: write
     steps:
       - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
         with:
           fetch-depth: 0
-          persist-credentials: false
-      - name: Prepare literal source edits without credentials or network
-        shell: bash
-        run: |
-          set -euo pipefail
-          scratch=$(mktemp -d)
-          trap 'rm -rf -- "$scratch"' EXIT
-          git archive HEAD | tar -x -C "$scratch"
-          docker pull python@sha256:dbbe4ceb97851e2e5fa83798b239811f871cb743b259ba3563737349f6bcfaa0
-          docker run --rm --network none --read-only --cap-drop ALL \
-            --security-opt no-new-privileges --pids-limit 128 --memory 1g --cpus 1 \
-            --user "$(id -u):$(id -g)" --tmpfs /tmp:rw,nosuid,nodev,size=128m \
-            --mount "type=bind,source=$scratch,target=/work" --workdir /work \
-            --env HOME=/tmp --env PYTHONDONTWRITEBYTECODE=1 \
-            python@sha256:dbbe4ceb97851e2e5fa83798b239811f871cb743b259ba3563737349f6bcfaa0 \
-            python3 -I .maintenance/prepare_awesome.py
-          PREPARED_SOURCE="$scratch" python3 - <<'PY'
-          import os, shutil, subprocess
-          from pathlib import Path
-          source = Path(os.environ['PREPARED_SOURCE'])
-          paths = [
-              'README.md', '.github/README.md', 'docs/DIRECTORY.md', 'templates/README.md',
-              'scripts/build.py', 'scripts/curate.py', 'scripts/curate_media.py', 'scripts/curate_x.py',
-              'scripts/publish.sh', 'tests/test_readme_source.py', 'tests/test_navigation.py',
-              'tests/test_text_portability.py', 'tests/test_publish.py', 'LICENSE', 'LICENSE-CODE',
-              'LICENSING.md', 'AGENTS.md', 'CONTRIBUTING.md', 'docs/EDITORIAL_WORKFLOW.md',
-              'docs/MEDIA.md', 'docs/STATUS.md', 'docs/BROWSE.md', 'docs/START_HERE.md',
-              'docs/CUA.md', 'SOURCES.md', '.maintenance/CC0.txt', '.maintenance/prepare_awesome.py',
-          ]
-          for name in paths:
-              src, dst = source / name, Path(name)
-              if src.exists():
-                  assert src.is_file() and not src.is_symlink(), name
-                  dst.parent.mkdir(parents=True, exist_ok=True)
-                  shutil.copyfile(src, dst)
-              elif dst.exists():
-                  dst.unlink()
-          changes = set(subprocess.check_output(['git', 'diff', '--name-only'], text=True).splitlines())
-          assert changes <= set(paths), changes
-          subprocess.run(['git', 'add', '-A', '--', *paths], check=True)
-          print('Source edits staged. Repository code/tests have NOT been executed.')
-          PY
-          git diff --cached --check
-          git diff --cached --stat
-      - name: Publish only the prepared feature-branch sources
-        shell: bash
+      - name: Run offline tests
+        run: python3 -m unittest discover -s tests -v
+      - name: Build editorial changes offline
+        if: github.event_name == 'push'
+        run: python3 scripts/build.py
+      - name: Discover and build the complete directory
+        if: github.event_name != 'push'
         env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          set -euo pipefail
-          test "$GITHUB_REF" = refs/heads/maintenance/awesome-format-20260925
-          askpass=$(mktemp)
-          trap 'rm -f -- "$askpass"' EXIT
-          printf '%s\n' '#!/bin/sh' 'case "$1" in *Username*) printf "%s\n" x-access-token ;; *) printf "%s\n" "$GH_TOKEN" ;; esac' > "$askpass"
-          chmod 700 "$askpass"
-          export GIT_ASKPASS="$askpass" GIT_TERMINAL_PROMPT=0
-          git fetch --no-tags origin refs/heads/maintenance/awesome-format-20260925
-          test "$(git rev-parse FETCH_HEAD)" = "$GITHUB_SHA"
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git -c core.hooksPath=/dev/null commit -m 'refactor: keep the Awesome README outside generated publication'
-          git -c core.hooksPath=/dev/null push origin HEAD:refs/heads/maintenance/awesome-format-20260925
-          git fetch --no-tags origin refs/heads/maintenance/awesome-format-20260925
-          test "$(git rev-parse FETCH_HEAD)" = "$(git rev-parse HEAD)"
-          git log -1 --format='Prepared feature source commit: %H'
+          GITHUB_TOKEN: ${{ github.token }}
+          PYTHONUNBUFFERED: '1'
+        run: python3 scripts/build.py --refresh --refresh-media
+      - name: Normalize refreshed catalog with editorial source of truth
+        if: github.event_name != 'push'
+        run: python3 scripts/build.py
+      - name: Validate every generated surface offline
+        run: python3 scripts/build.py --check
+      - name: Commit and verify directory updates
+        env:
+          DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+        run: bash scripts/publish.sh
