@@ -583,5 +583,29 @@
     "kind": "direct-integration",
     "reviewed": "2026-09-25",
     "notes": "Research prototype with explicit response validation and retrieval budgets. Observations/context reach Jev; synthesis, judging and optional hosted embeddings use another provider. Caches retain conversations, and some persistence uses pickle: load only trusted files. Custom TypeSafe endpoints need trusted HTTPS. The mock demo is not a quality test; published LoCoMo results were not reproduced, and reference-aware best-of selection can bias evaluation. Client/configuration/security and offline-test source inspected, not run. See docs/WEB_SWEEP_2026-09-25.md."
+  },
+  {
+    "repo": "supercorp-ai/supercov",
+    "name": "Supercov",
+    "category": "agents",
+    "description": "Coverage, security, and code-quality tooling for coding agents; Jev evaluates named source checks while coverage runs locally.",
+    "evidence": "https://github.com/supercorp-ai/supercov/blob/fa46465f2208ee25e36d871f2a7a94c2c7e64b97/crates/supercov-cli/src/quality.rs",
+    "code": "https://github.com/supercorp-ai/supercov/blob/fa46465f2208ee25e36d871f2a7a94c2c7e64b97/crates/supercov-cli/src/quality/security.json",
+    "license": "MIT",
+    "kind": "direct-integration",
+    "reviewed": "2026-09-25",
+    "notes": "Submitted in PR #15. Quality and security assessments send selected source/context to TypeSafe and require hosted inference; coverage runs locally. Security findings are advisory source checks, not a complete security analysis. Custom TypeSafe endpoints require HTTPS except for loopback HTTP. Author-reported calibration and performance measurements were not reproduced. Source and response-validation test code were inspected; upstream code was not executed."
+  },
+  {
+    "repo": "suenot/codex-jev-router",
+    "name": "Codex Jev Router",
+    "category": "agents",
+    "description": "Routes Codex subagent model and reasoning choices from a short task summary using Jev Choice/Noul decisions with local confidence fallbacks.",
+    "evidence": "https://github.com/suenot/codex-jev-router/blob/6852285db3b2c656c86d39cdf508676d0159b506/src/router.mjs",
+    "code": "https://github.com/suenot/codex-jev-router/blob/6852285db3b2c656c86d39cdf508676d0159b506/src/decider.mjs",
+    "license": "MIT",
+    "kind": "direct-integration",
+    "reviewed": "2026-09-25",
+    "notes": "Submitted in PR #13. This is an instruction-driven workflow, not an enforced spawn hook. Hosted Jev receives the role and up to 4,000 characters of a caller-sanitized task summary; its credential-pattern checks are incomplete. Local compatible backends are optional. Custom HTTP backends can accept plaintext URLs and send authentication plus summary data, so use loopback for local services or trusted HTTPS remotely. Current source and tests were inspected; benchmark savings are author-reported and were not reproduced."
   }
 ]
