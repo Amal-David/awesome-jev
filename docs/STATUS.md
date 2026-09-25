@@ -6,11 +6,11 @@
 
 | Measure | Recorded value |
 |---|---|
-| Reviewed / indexed / auto-discovered | 54 / 1083 / 692 |
-| Catalog entries (not all reviewed) | 1829 |
-| Last completed discovery pass (UTC) | 2026-09-25T05:06:57Z |
+| Reviewed / indexed / auto-discovered | 54 / 1080 / 716 |
+| Catalog entries (not all reviewed) | 1850 |
+| Last completed discovery pass (UTC) | 2026-09-25T13:57:12Z |
 | Latest rotating repository metadata check | 2026-09-25 |
-| Repositories with a recorded metadata check | 1738 / 1738 |
+| Repositories with a recorded metadata check | 1759 / 1759 |
 | Repositories unavailable at their last check (404/410) | 17 |
 | Media records with a latest-attempt error | 1 |
 | Editorial exclusions | 1 |
@@ -21,7 +21,7 @@ Repository checks rotate: the newest check date does not mean every entry was ch
 
 The discovery timestamp advances only after a network discovery pass completes. An offline README rebuild, test run or media-only refresh never advances it. The Actions result, not the cron expression, establishes that a workflow ran successfully.
 
-<a href="https://github.com/Amal-David/awesome-jev/actions/runs/36097112730">Discovery run receipt</a>
+<a href="https://github.com/Amal-David/awesome-jev/actions/runs/36144120411">Discovery run receipt</a>
 
 <a href="https://github.com/Amal-David/awesome-jev/actions/workflows/curate.yml">All refresh runs</a>
 
@@ -38,7 +38,7 @@ The discovery timestamp advances only after a network discovery pass completes. 
 - <a href="https://github.com/novvoo/nanojev">novvoo/nanojev</a> — last check 2026-09-22
 - <a href="https://github.com/develatter/notos-intelligence-go">develatter/notos-intelligence-go</a> — last check 2026-09-25
 - <a href="https://github.com/armsteadj1/vibe-smart-router">armsteadj1/vibe-smart-router</a> — last check 2026-09-24
-- <a href="https://github.com/eriestra/almond-fastloop">eriestra/almond-fastloop</a> — last check 2026-09-21
+- <a href="https://github.com/eriestra/almond-fastloop">eriestra/almond-fastloop</a> — last check 2026-09-25
 - <a href="https://github.com/vlad-terin/jev-browser">vlad-terin/jev-browser</a> — last check 2026-09-23
 - <a href="https://github.com/benballintyn/jev-mcp">benballintyn/jev-mcp</a> — last check 2026-09-24
 - <a href="https://github.com/rajdhakad9826/routeKit">rajdhakad9826/routeKit</a> — last check 2026-09-22
