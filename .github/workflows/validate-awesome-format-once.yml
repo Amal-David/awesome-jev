@@ -1,0 +1,126 @@
+name: Validate Awesome format once
+
+on:
+  push:
+    branches: ['validation/awesome-format-20260925']
+    paths: ['.github/workflows/validate-awesome-format-once.yml']
+
+permissions:
+  contents: read
+
+jobs:
+  repository-tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
+        with:
+          ref: 327f0a1a8087596c08334447a7b9cfc2ee8b4050
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Validate reviewed tree in a network-isolated container
+        shell: bash
+        run: |
+          set -euo pipefail
+          test "$(git rev-parse HEAD)" = 327f0a1a8087596c08334447a7b9cfc2ee8b4050
+          scratch=$(mktemp -d)
+          trap 'rm -rf -- "$scratch"' EXIT
+          docker pull python@sha256:dbbe4ceb97851e2e5fa83798b239811f871cb743b259ba3563737349f6bcfaa0
+          docker run --rm -i --network none --read-only --cap-drop ALL \
+            --security-opt no-new-privileges --pids-limit 256 --memory 2g --cpus 2 \
+            --user "$(id -u):$(id -g)" --tmpfs /tmp:rw,nosuid,nodev,size=512m \
+            --mount "type=bind,source=$PWD,target=/work" --workdir /work \
+            --mount "type=bind,source=$scratch,target=/scratch" \
+            --env HOME=/tmp --env TMPDIR=/scratch --env PYTHONDONTWRITEBYTECODE=1 \
+            --env GIT_CONFIG_NOSYSTEM=1 --env GIT_CONFIG_GLOBAL=/dev/null \
+            python@sha256:dbbe4ceb97851e2e5fa83798b239811f871cb743b259ba3563737349f6bcfaa0 bash -se <<'BASH'
+          set -euo pipefail
+          python3 - <<'PY'
+          import os, subprocess
+          from pathlib import Path
+          base = 'c7491be44290ce188bfb55e628bf446660d41b81'
+          for key in ('GITHUB_TOKEN', 'GH_TOKEN', 'TYPESAFE_API_KEY', 'OPENAI_API_KEY', 'ANTHROPIC_API_KEY'):
+              assert not os.environ.get(key), 'Unexpected credential in test environment'
+          for name in ('data/curated.json', 'data/exclusions.json', 'data/x_demos.json', 'data/media.json', 'data/media_cache.json', 'data/catalog.json', 'data/discoveries.json', 'data/refresh.json'):
+              assert Path(name).read_bytes() == subprocess.check_output(['git', 'show', base + ':' + name]), name
+          old = subprocess.check_output(['git', 'show', base + ':README.md']).decode('utf-8')
+          directory = Path('docs/DIRECTORY.md').read_text(encoding='utf-8')
+          assert directory == old.replace('# Awesome Jev\n\n', '# Jev Project Directory\n\nGenerated supporting directory with source notes, the original demo gallery, and discovery status. [Back to the editorial list](../README.md).\n\n', 1)
+          assert Path('LICENSE-CODE').read_bytes() == subprocess.check_output(['git', 'show', base + ':LICENSE'])
+          assert not Path('.github/README.md').exists()
+          assert not Path('.maintenance/prepare_awesome.py').exists()
+          print('Original 54-source catalog, gallery, media attribution, exclusions, discovery data, and MIT grant preserved.')
+          PY
+          python3 scripts/build.py
+          python3 -m unittest discover -s tests -v
+          python3 scripts/build.py --check
+          git diff --check
+          git diff --check c7491be44290ce188bfb55e628bf446660d41b81
+          git diff --exit-code
+          git status --porcelain
+          echo 'VALIDATED: exact reviewed tree, offline build/tests/check, diff check, clean regeneration.'
+          BASH
+  required-topic:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    permissions:
+      contents: write
+    steps:
+      - name: Add only the requested awesome-list topic with existing repository permission
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python3 - <<'PY'
+          import json, os, urllib.request, urllib.error
+          endpoint = 'https://api.github.com/repos/Amal-David/awesome-jev/topics'
+          headers = {'Authorization': 'Bearer ' + os.environ['GH_TOKEN'], 'Accept': 'application/vnd.github+json', 'X-GitHub-Api-Version': '2022-11-28', 'User-Agent': 'awesome-jev-format-maintenance'}
+          def get():
+              with urllib.request.urlopen(urllib.request.Request(endpoint, headers=headers), timeout=20) as response:
+                  return json.load(response)['names']
+          try:
+              current = get()
+              desired = sorted(set(current) | {'awesome', 'awesome-list'})
+              if desired != sorted(current):
+                  assert get() == current, 'Topics changed concurrently; stopping'
+                  request = urllib.request.Request(endpoint, data=json.dumps({'names': desired}).encode(), headers={**headers, 'Content-Type': 'application/json'}, method='PUT')
+                  with urllib.request.urlopen(request, timeout=20) as response:
+                      result = json.load(response)
+              actual = get()
+              assert set(actual) == set(desired)
+              print('Verified topics:', ', '.join(actual))
+          except urllib.error.HTTPError as error:
+              print('Topic update unavailable with existing permissions; HTTP', error.code)
+              raise SystemExit(1)
+          PY
+  awesome-lint:
+    needs: required-topic
+    if: always()
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
+        with:
+          ref: 327f0a1a8087596c08334447a7b9cfc2ee8b4050
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Run pinned upstream linter without package lifecycle hooks or credentials
+        shell: bash
+        run: |
+          set -euo pipefail
+          tools=$(mktemp -d)
+          trap 'rm -rf -- "$tools"' EXIT
+          docker pull node:22-bookworm
+          image=$(docker image inspect node:22-bookworm --format '{{.Id}}')
+          docker image inspect "$image" --format '{{json .RepoDigests}}'
+          docker run --rm --read-only --cap-drop ALL --security-opt no-new-privileges \
+            --pids-limit 256 --memory 2g --cpus 2 --user "$(id -u):$(id -g)" \
+            --tmpfs /tmp:rw,nosuid,nodev,size=512m \
+            --mount "type=bind,source=$PWD,target=/work,readonly" \
+            --mount "type=bind,source=$tools,target=/tools" --workdir /work \
+            --env HOME=/tmp --env GIT_CONFIG_NOSYSTEM=1 --env GIT_CONFIG_GLOBAL=/dev/null \
+            "$image" bash -se -c '
+              set -euo pipefail
+              node --version
+              npm install --prefix /tools --ignore-scripts --no-audit --no-fund awesome-lint@2.3.0
+              node /tools/node_modules/awesome-lint/cli.js README.md
+            '
