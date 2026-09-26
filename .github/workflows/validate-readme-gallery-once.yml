@@ -1,0 +1,123 @@
+name: Validate README gallery once
+on:
+  push:
+    branches: ['validation/readme-demos-20260926']
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
+        with:
+          ref: 324c9f454e2dde3ae168bfcf3f8dbb38ada002c2
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Prepare isolated runtimes
+        shell: bash
+        run: |
+          set -euo pipefail
+          docker pull python@sha256:dbbe4ceb97851e2e5fa83798b239811f871cb743b259ba3563737349f6bcfaa0
+          docker pull node:22-bookworm
+          docker image inspect node:22-bookworm --format '{{.Id}} {{json .RepoDigests}}'
+      - name: Build and test reviewed repository with no network or credentials
+        shell: bash
+        run: |
+          set -euo pipefail
+          scratch=$(mktemp -d)
+          trap 'rm -rf -- "$scratch"' EXIT
+          docker run --rm -i --network none --read-only --cap-drop ALL \
+            --security-opt no-new-privileges --pids-limit 256 --memory 2g --cpus 2 \
+            --user "$(id -u):$(id -g)" --tmpfs /tmp:rw,nosuid,nodev,size=128m \
+            --mount "type=bind,source=$PWD,target=/work" --workdir /work \
+            --mount "type=bind,source=$scratch,target=/scratch" \
+            --env HOME=/tmp --env TMPDIR=/scratch --env PYTHONDONTWRITEBYTECODE=1 \
+            --env GIT_CONFIG_NOSYSTEM=1 --env GIT_CONFIG_GLOBAL=/dev/null \
+            python@sha256:dbbe4ceb97851e2e5fa83798b239811f871cb743b259ba3563737349f6bcfaa0 bash -se <<'BASH'
+          set -euo pipefail
+          python3 - <<'PY'
+          import os, subprocess
+          from pathlib import Path
+          base = 'a5d272034d8d9976a42a7fed727e12cea80c5bff'
+          head = '324c9f454e2dde3ae168bfcf3f8dbb38ada002c2'
+          assert subprocess.check_output(['git', 'rev-parse', 'HEAD'], text=True).strip() == head
+          changes = set(subprocess.check_output(['git', 'diff', '--name-only', base, head], text=True).splitlines())
+          assert changes == {'README.md', 'docs/README_GALLERY.md', 'tests/test_readme_gallery.py'}, changes
+          for name in ('GITHUB_TOKEN', 'GH_TOKEN', 'TYPESAFE_API_KEY', 'OPENAI_API_KEY', 'ANTHROPIC_API_KEY'):
+              assert not os.environ.get(name), 'Unexpected credential'
+          old = subprocess.check_output(['git', 'show', base + ':README.md'], text=True)
+          new = Path('README.md').read_text(encoding='utf-8')
+          def entries(text):
+              section, result = '', {}
+              for line in text.splitlines():
+                  if line.startswith('## '):
+                      section = line[3:]
+                  elif line.startswith('- [') and section not in {'Contents', 'Demos'}:
+                      result.setdefault(section, []).append(line)
+              return {key: sorted(value) for key, value in result.items()}
+          assert entries(old) == entries(new), 'Original project entry or category changed'
+          assert sum(map(len, entries(new).values())) == 54
+          print('Exact reviewed SHA; only three scoped files changed; all 54 original entries and categories preserved.')
+          PY
+          sha256sum README.md > /scratch/readme.sha256
+          python3 scripts/build.py
+          python3 -m unittest discover -s tests -v
+          python3 scripts/build.py --check
+          python3 scripts/check_readme.py
+          git diff --check
+          git diff --check a5d272034d8d9976a42a7fed727e12cea80c5bff HEAD
+          sha256sum --check /scratch/readme.sha256
+          git diff --exit-code
+          test -z "$(git status --porcelain)"
+          git diff --stat a5d272034d8d9976a42a7fed727e12cea80c5bff HEAD
+          echo 'PASS: build, tests, generated check, whitespace, manual README, original gallery, and original selections.'
+          BASH
+      - name: Check six public media assets without changing receipts
+        shell: bash
+        run: |
+          set -euo pipefail
+          docker run --rm -i --read-only --cap-drop ALL --security-opt no-new-privileges \
+            --pids-limit 64 --memory 512m --user "$(id -u):$(id -g)" \
+            --tmpfs /tmp:rw,nosuid,nodev,size=64m \
+            --mount "type=bind,source=$PWD,target=/work,readonly" --workdir /work \
+            --env HOME=/tmp --env PYTHONDONTWRITEBYTECODE=1 \
+            python@sha256:dbbe4ceb97851e2e5fa83798b239811f871cb743b259ba3563737349f6bcfaa0 python3 - <<'PY'
+          import importlib.util, json
+          from pathlib import Path
+          spec = importlib.util.spec_from_file_location('media', 'scripts/curate_media.py')
+          media = importlib.util.module_from_spec(spec)
+          spec.loader.exec_module(media)
+          items = {item['id']: item for item in json.loads(Path('data/media.json').read_text(encoding='utf-8'))['items']}
+          cache = json.loads(Path('data/media_cache.json').read_text(encoding='utf-8'))
+          for ident in ('ultrafast', 'voice-browser', 'align-video', 'computer-use', 'browser-skill', 'or-tisco'):
+              item = items[ident]
+              target = item['watch'] if item['group'] == 'videos' else item.get('image') or cache[ident]['image']
+              expected = 'video' if item['group'] == 'videos' else 'image'
+              actual = media.media_kind(*media.fetch(target))
+              assert actual == expected, (ident, actual)
+              print(ident, 'reachable-' + actual, target)
+          print('Only bounded public media reads; no full video download or playback claim; no cache file updated.')
+          PY
+      - name: Full awesome-lint without repository or inference credentials
+        shell: bash
+        run: |
+          set -euo pipefail
+          scratch=$(mktemp -d)
+          trap 'rm -rf -- "$scratch"' EXIT
+          image=$(docker image inspect node:22-bookworm --format '{{.Id}}')
+          set +e
+          docker run --rm --read-only --cap-drop ALL --security-opt no-new-privileges \
+            --pids-limit 128 --memory 2g --user "$(id -u):$(id -g)" \
+            --tmpfs /tmp:rw,nosuid,nodev,size=128m \
+            --mount "type=bind,source=$PWD,target=/work,readonly" --workdir /work \
+            --mount "type=bind,source=$scratch,target=/scratch" \
+            --env HOME=/scratch --env TMPDIR=/scratch --env npm_config_cache=/scratch/npm \
+            --env npm_config_ignore_scripts=true --env npm_config_audit=false --env npm_config_fund=false \
+            --env npm_config_userconfig=/dev/null --env npm_config_globalconfig=/dev/null \
+            --env GIT_CONFIG_NOSYSTEM=1 --env GIT_CONFIG_GLOBAL=/dev/null \
+            "$image" npx --yes --ignore-scripts awesome-lint@2.3.0 README.md
+          status=$?
+          set -e
+          echo "Full awesome-lint exit status: $status"
+          exit "$status"
