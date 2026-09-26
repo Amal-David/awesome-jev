@@ -91,6 +91,7 @@ The [full creator gallery](docs/DIRECTORY.md#watch-jev-in-action) retains the ot
 - [jgrep](https://github.com/kyu1204/jgrep) - Semantic matching over code chunks, diff hunks, and CSV rows, published on npm as jevgrep.
 - [SemDecide](https://github.com/sharziki/semdecide) - Unix CLI for predicates, choices, scores, JSONL filtering, and CI-friendly exit codes.
 - [Leanest](https://github.com/baronunread/leanest) - Playwright and Vitest test selector with an optional Jev judge and run-tests fallback on uncertainty.
+- [Supercov](https://github.com/supercorp-ai/supercov) - Coverage, security, and code-quality CLI for coding agents, where Jev checks each source file and the CLI orders what to fix first.
 - [Foreman](https://github.com/thruwire/foreman) - Checks coding-agent progress and decides when intervention may be needed.
 - [jev-belay](https://github.com/valentynkit/jev-belay) - Claude Code Stop hook that checks local run evidence before judging an unverified completion claim.
 - [jev-claude-statusline](https://github.com/kevnk/jev-claude-statusline) - Claude Code hooks that estimate task progress with Jev and cache it for a status-line display.
