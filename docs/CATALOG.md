@@ -1,6 +1,6 @@
 # Full Jev catalog
 
-[Reviewed picks](REVIEWED.md) · [Start here](../README.md) · [Search and filters](BROWSE.md)
+[Reviewed picks](REVIEWED.md) · [Start here](../README.md) · [Search and filters](BROWSE.md) · [JSON](../data/catalog.json) · [Attribution](../SOURCES.md)
 
 Evidence: **primary-source-reviewed** = public primary source inspected; **community-indexed** = attributed discovery, not independently reviewed here; **readme-matched** = explicit Jev and TypeSafe/System One references found automatically, not editorial approval. No entry implies a successful live test.
 
