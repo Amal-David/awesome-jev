@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
         with:
-          ref: 324c9f454e2dde3ae168bfcf3f8dbb38ada002c2
+          ref: 67d9117bb5cfca4a227da47f02a9d64fa3d2bb4a
           fetch-depth: 0
           persist-credentials: false
       - name: Prepare isolated runtimes
@@ -39,7 +39,7 @@ jobs:
           import os, subprocess
           from pathlib import Path
           base = 'a5d272034d8d9976a42a7fed727e12cea80c5bff'
-          head = '324c9f454e2dde3ae168bfcf3f8dbb38ada002c2'
+          head = '67d9117bb5cfca4a227da47f02a9d64fa3d2bb4a'
           assert subprocess.check_output(['git', 'rev-parse', 'HEAD'], text=True).strip() == head
           changes = set(subprocess.check_output(['git', 'diff', '--name-only', base, head], text=True).splitlines())
           assert changes == {'README.md', 'docs/README_GALLERY.md', 'tests/test_readme_gallery.py'}, changes
@@ -69,6 +69,22 @@ jobs:
           sha256sum --check /scratch/readme.sha256
           git diff --exit-code
           test -z "$(git status --porcelain)"
+          python3 - <<'PY'
+          import importlib.util, io, re, unittest
+          spec = importlib.util.spec_from_file_location('gallery_tests', 'tests/test_readme_gallery.py')
+          module = importlib.util.module_from_spec(spec)
+          spec.loader.exec_module(module)
+          name = 'test_image_links_reuse_editorial_assets_and_have_explanatory_alt_text'
+          test = module.ReadmeGalleryTests(name)
+          test.setUp()
+          card = test.cards[0]
+          broken = re.sub(r'\[!\[[^\]]+\]\([^\s)]+\)\]\([^\s)]+\)', '', card.group(0))
+          test.cards = list(re.finditer(r'<!-- demo:([a-z0-9-]+) -->\n(.*?)(?=\n<!-- demo:|\Z)', broken, re.S))
+          test.setUp = lambda: None
+          result = unittest.TextTestRunner(stream=io.StringIO()).run(test)
+          assert len(result.failures) == 1 and not result.errors, 'Missing preview was not rejected'
+          print('Negative control: a removed preview causes the gallery assertion to fail.')
+          PY
           git diff --stat a5d272034d8d9976a42a7fed727e12cea80c5bff HEAD
           echo 'PASS: build, tests, generated check, whitespace, manual README, original gallery, and original selections.'
           BASH
