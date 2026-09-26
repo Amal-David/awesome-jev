@@ -73,11 +73,11 @@ For simple rules, parsing, or arithmetic, use code. A dedicated classifier may b
 
 - <a href="https://github.com/thruwire/foreman">Foreman</a> - Uses Jev to check a coding agent&#x27;s progress and decide when it needs intervention.
 - <a href="https://github.com/jkudish/jev-mcp">Jev MCP</a> - MCP tools for checking claims against evidence, screening content, and ranking candidates.
-- <a href="https://github.com/caio0452/jev_search">jev_search</a> - Ranks files by keyword, then checks their passages with Jev in two passes. Author marks it experimental.
 - <a href="https://github.com/sutro-sh/jev-align">jev-align</a> - Improves Jev classifiers and scoring rubrics with human labels and GEPA-proposed definition changes.
 - <a href="https://github.com/valentynkit/jev-belay">jev-belay</a> - Claude Code Stop hook that checks local run evidence before Jev judges an unverified completion claim.
 - <a href="https://github.com/kevnk/jev-claude-statusline">jev-claude-statusline</a> - Claude Code hooks send task text, recent tool summaries, latest assistant message, and turn status to Jev (Score phase plus Noul done/waiting_on_user); answers are cached and shown as a progress segment on the Claude Code status line.
 - <a href="https://github.com/libingzheren/Jev-Mem">Jev-Mem</a> - Research agent-memory system where Jev organizes graph memories and guides retrieval; a separate model writes answers.
+- <a href="https://github.com/caio0452/jev_search">jev_search</a> - Ranks files by keyword, then checks their passages with Jev in two passes. Author marks it experimental.
 - <a href="https://github.com/kyu1204/jgrep">jgrep (npm: jevgrep)</a> - Jev answers one Noul per code chunk, diff hunk, or CSV row (does this match the description?); code prints the probabilities as file:line hits, gates CI on an English rule with --diff, and lists the test files a diff can affect with --tests.
 - <a href="https://github.com/bartlomein/oko">Oko</a> - Code-search CLI and MCP server that finds candidates locally and uses Jev to rank the source snippets.
 - <a href="https://github.com/tyler-dot-earth/patdown">patdown</a> - Semantic linter that turns Markdown rules into Jev checks and maps flagged evidence back to source lines.
