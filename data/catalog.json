@@ -24418,7 +24418,7 @@
     "category": "agents",
     "code": "https://github.com/supercorp-ai/supercov/blob/37a45eea1e8c42619d7cd658d14a91f334848a29/crates/supercov-cli/src/quality/properties.json",
     "demo": "https://supercov.com",
-    "description": "Coverage, security and code quality for coding agents: Jev checks each source file so the agent knows what to fix first.",
+    "description": "Coverage, security and code quality for coding agents: coverage runs locally, and Jev checks each source file for quality and security issues so the agent knows what to fix first.",
     "evidence_level": "primary-source-reviewed",
     "kind": "direct-integration",
     "language": "Rust",

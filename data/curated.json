@@ -588,7 +588,7 @@
     "repo": "supercorp-ai/supercov",
     "name": "Supercov",
     "category": "agents",
-    "description": "Coverage, security and code quality for coding agents: Jev checks each source file so the agent knows what to fix first.",
+    "description": "Coverage, security and code quality for coding agents: coverage runs locally, and Jev checks each source file for quality and security issues so the agent knows what to fix first.",
     "evidence": "https://github.com/supercorp-ai/supercov/blob/37a45eea1e8c42619d7cd658d14a91f334848a29/crates/supercov-cli/src/quality.rs",
     "code": "https://github.com/supercorp-ai/supercov/blob/37a45eea1e8c42619d7cd658d14a91f334848a29/crates/supercov-cli/src/quality/properties.json",
     "reviewed": "2026-09-24",
