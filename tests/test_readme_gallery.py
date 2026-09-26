@@ -9,11 +9,15 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 def load_json(path):
+    """Read a repository-owned JSON fixture as UTF-8 without fetching data."""
     return json.loads((ROOT / path).read_text(encoding='utf-8'))
 
 
 class ReadmeGalleryTests(unittest.TestCase):
+    """Keep the editorial highlights visible, source-backed, and honestly labeled."""
+
     def setUp(self):
+        """Parse the current manual gallery alongside its local source records."""
         self.readme = (ROOT / 'README.md').read_text(encoding='utf-8')
         self.gallery = self.readme.split('\n## Demos\n', 1)[1].split('\n## ', 1)[0]
         self.media = {item['id']: item for item in load_json('data/media.json')['items']}
@@ -23,6 +27,7 @@ class ReadmeGalleryTests(unittest.TestCase):
                                       self.gallery, re.S))
 
     def test_gallery_is_visible_early_and_linked_from_contents(self):
+        """Prevent burying the highlights below the list or inside a collapsed block."""
         self.assertIn('- [Demos](#demos)', self.readme)
         self.assertLess(self.readme.index('\n## Demos\n'),
                         self.readme.index('\n## SDKs and Skills\n'))
@@ -31,6 +36,7 @@ class ReadmeGalleryTests(unittest.TestCase):
         self.assertGreaterEqual(len(self.cards), 3)
 
     def test_highlights_have_registered_sources_and_reviewed_projects(self):
+        """Require unique, attributed highlights from non-excluded reviewed projects."""
         ids = [card.group(1) for card in self.cards]
         self.assertEqual(len(ids), len(set(ids)), 'A gallery item appears twice')
         for card in self.cards:
@@ -48,10 +54,14 @@ class ReadmeGalleryTests(unittest.TestCase):
                 self.assertNotIn('repo:' + repo, self.excluded)
 
     def test_image_links_reuse_editorial_assets_and_have_explanatory_alt_text(self):
+        """Reject missing or malformed previews before checking their origin and labels."""
         for card in self.cards:
             item_id, body = card.groups()
             item = self.media[item_id]
             images = re.findall(r'\[!\[([^\]]+)\]\((https://[^\s)]+)\)\]\((https://[^\s)]+)\)', body)
+            with self.subTest(item=item_id):
+                self.assertEqual(len(images), 0 if item['group'] == 'videos' else 1,
+                                 'Each preview card needs exactly one valid linked image')
             for alt, image, watch in images:
                 with self.subTest(item=item_id):
                     self.assertEqual(watch, item['watch'])
@@ -66,6 +76,7 @@ class ReadmeGalleryTests(unittest.TestCase):
                         self.assertIn('still preview', alt.lower())
 
     def test_native_videos_are_standalone_and_stills_are_not_claimed_as_video(self):
+        """Keep native recordings renderable and do not mislabel screenshot evidence."""
         native = []
         for card in self.cards:
             item_id, body = card.groups()
@@ -80,6 +91,7 @@ class ReadmeGalleryTests(unittest.TestCase):
             self.assertIn('This is a screenshot, not a video', self.gallery)
 
     def test_full_gallery_and_ranking_limits_remain_available(self):
+        """Retain the complete gallery and dated-ranking limits without a shadow README."""
         self.assertIn('docs/DIRECTORY.md#watch-jev-in-action', self.gallery)
         self.assertIn('docs/README_GALLERY.md', self.readme)
         notes = (ROOT / 'docs/README_GALLERY.md').read_text(encoding='utf-8')
