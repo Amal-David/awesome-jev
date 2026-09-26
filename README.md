@@ -87,6 +87,7 @@ The [full creator gallery](docs/DIRECTORY.md#watch-jev-in-action) retains the ot
 - [Winnow](https://github.com/GhalebDweikat/winnow) - Claude Code context filter that scores tool-output blocks and keeps hidden text locally recallable.
 - [Jev-Mem](https://github.com/libingzheren/Jev-Mem) - Research memory system where Jev organizes graph memories and guides retrieval while a separate model writes answers.
 - [patdown](https://github.com/tyler-dot-earth/patdown) - Semantic linter that turns Markdown rules into checks and maps flagged evidence to source lines.
+- [Supercov](https://github.com/supercorp-ai/supercov) - Advisory Jev checks for source-file quality and security, alongside local test coverage.
 - [Oko](https://github.com/bartlomein/oko) - Code-search CLI and MCP server with local candidate retrieval and optional hosted Jev ranking.
 - [jgrep](https://github.com/kyu1204/jgrep) - Semantic matching over code chunks, diff hunks, and CSV rows, published on npm as jevgrep.
 - [SemDecide](https://github.com/sharziki/semdecide) - Unix CLI for predicates, choices, scores, JSONL filtering, and CI-friendly exit codes.
@@ -128,6 +129,7 @@ These projects are not official TypeSafe Jev weights, and compatible outputs do 
 - [CUA-S1-FORMS](https://huggingface.co/cua-ai/cua-s1-forms) - Independent form-filling specialist and dataset, not a general desktop agent.
 - [Jevlike](https://github.com/vinnylarouge/jevlike) - Independent option scorer with training code and game examples.
 - [OpenJev SGLang](https://github.com/ekzhang/openjev-sglang) - Independent typed-decision server using open models and SGLang.
+- [Open Medical Jev](https://github.com/FeiLiuEM/open-medical-jev) - Independent frozen-model typed decisions for medical multiple-choice research with deterministic fusion and recalibration tools.
 
 ## Supporting Drivers
 

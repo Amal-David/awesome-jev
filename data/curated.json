@@ -583,5 +583,29 @@
     "kind": "direct-integration",
     "reviewed": "2026-09-25",
     "notes": "Research prototype with explicit response validation and retrieval budgets. Observations/context reach Jev; synthesis, judging and optional hosted embeddings use another provider. Caches retain conversations, and some persistence uses pickle: load only trusted files. Custom TypeSafe endpoints need trusted HTTPS. The mock demo is not a quality test; published LoCoMo results were not reproduced, and reference-aware best-of selection can bias evaluation. Client/configuration/security and offline-test source inspected, not run. See docs/WEB_SWEEP_2026-09-25.md."
+  },
+  {
+    "repo": "supercorp-ai/supercov",
+    "name": "Supercov",
+    "category": "agents",
+    "description": "Advisory source-file quality and security checks with Jev, alongside local test coverage.",
+    "evidence": "https://github.com/supercorp-ai/supercov/blob/453a9107cb94d21f9953b490f087bbb50eb26761/crates/supercov-cli/src/quality.rs",
+    "code": "https://github.com/supercorp-ai/supercov/blob/453a9107cb94d21f9953b490f087bbb50eb26761/crates/supercov-cli/src/quality/security.json",
+    "license": "MIT",
+    "kind": "direct-integration",
+    "reviewed": "2026-09-26",
+    "notes": "Submitted in PR #15. Jev answers per-file quality and security Noul checks; findings are advisory and source-scoped, while coverage runs locally. Source files reach the configured TypeSafe-compatible endpoint; the current client requires HTTPS except for loopback HTTP. Author security, quality, cost, and timing measurements were not reproduced. Current source and test code were inspected; no upstream project or paid inference was run here."
+  },
+  {
+    "repo": "FeiLiuEM/open-medical-jev",
+    "name": "Open Medical Jev",
+    "category": "research",
+    "description": "Independent frozen-model typed decisions for medical multiple-choice research, with deterministic fusion, gating, and recalibration tools.",
+    "evidence": "https://github.com/FeiLiuEM/open-medical-jev/blob/f6d4f79aa2cb5566168c3eb837939d20e92d4657/README.md",
+    "code": "https://github.com/FeiLiuEM/open-medical-jev/blob/f6d4f79aa2cb5566168c3eb837939d20e92d4657/src/open_medical_jev/router.py",
+    "license": "MIT",
+    "kind": "independent-reproduction",
+    "reviewed": "2026-09-26",
+    "notes": "Self-submitted in issue #16. Independent research software, not TypeSafe Jev weights or API and not a medical device. Readers run against user-supplied local model servers; the repository publishes code, recipes, hand-written fixtures, and aggregate results rather than exam corpora or model weights. Calibration is distribution-dependent and the documentation calls for recalibration under shift. Public CI plus router, fusion, protocol, data-policy, and mock-test source were inspected; no weights, datasets, upstream tests, or model inference were run here, and all accuracy, calibration, latency, and comparison figures remain author-reported."
   }
 ]
