@@ -6,11 +6,11 @@
 
 | Measure | Recorded value |
 |---|---|
-| Reviewed / indexed / auto-discovered | 56 / 1081 / 865 |
-| Catalog entries (not all reviewed) | 2002 |
-| Last completed discovery pass (UTC) | 2026-09-27T05:27:25Z |
+| Reviewed / indexed / auto-discovered | 56 / 1077 / 890 |
+| Catalog entries (not all reviewed) | 2023 |
+| Last completed discovery pass (UTC) | 2026-09-27T14:05:57Z |
 | Latest rotating repository metadata check | 2026-09-27 |
-| Repositories with a recorded metadata check | 1911 / 1911 |
+| Repositories with a recorded metadata check | 1932 / 1932 |
 | Repositories unavailable at their last check (404/410) | 18 |
 | Media records with a latest-attempt error | 1 |
 | Editorial exclusions | 1 |
@@ -21,7 +21,7 @@ Repository checks rotate: the newest check date does not mean every entry was ch
 
 The discovery timestamp advances only after a network discovery pass completes. An offline directory rebuild, test run or media-only refresh never advances it. The Actions result, not the cron expression, establishes that a workflow ran successfully.
 
-<a href="https://github.com/Amal-David/awesome-jev/actions/runs/36297206530">Discovery run receipt</a>
+<a href="https://github.com/Amal-David/awesome-jev/actions/runs/36324619333">Discovery run receipt</a>
 
 <a href="https://github.com/Amal-David/awesome-jev/actions/workflows/curate.yml">All refresh runs</a>
 
@@ -35,8 +35,8 @@ The discovery timestamp advances only after a network discovery pass completes. 
 - <a href="https://github.com/legostin/jev-browser">legostin/jev-browser</a> — last check 2026-09-25
 - <a href="https://github.com/cleiton1231/jev-loop">cleiton1231/jev-loop</a> — last check 2026-09-24
 - <a href="https://github.com/Baran3575/jev-voice-android">Baran3575/jev-voice-android</a> — last check 2026-09-24
-- <a href="https://github.com/notque/jevs-sprint-planning">notque/jevs-sprint-planning</a> — last check 2026-09-22
-- <a href="https://github.com/novvoo/nanojev">novvoo/nanojev</a> — last check 2026-09-22
+- <a href="https://github.com/notque/jevs-sprint-planning">notque/jevs-sprint-planning</a> — last check 2026-09-27
+- <a href="https://github.com/novvoo/nanojev">novvoo/nanojev</a> — last check 2026-09-27
 - <a href="https://github.com/develatter/notos-intelligence-go">develatter/notos-intelligence-go</a> — last check 2026-09-25
 - <a href="https://github.com/armsteadj1/vibe-smart-router">armsteadj1/vibe-smart-router</a> — last check 2026-09-24
 - <a href="https://github.com/eriestra/almond-fastloop">eriestra/almond-fastloop</a> — last check 2026-09-25
