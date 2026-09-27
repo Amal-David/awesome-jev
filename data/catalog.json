@@ -25626,18 +25626,22 @@
   {
     "archived": false,
     "category": "agents",
+    "code": "https://github.com/supercorp-ai/supercov/blob/453a9107cb94d21f9953b490f087bbb50eb26761/crates/supercov-cli/src/quality.rs",
     "demo": "https://supercov.com",
-    "description": "Code quality and test coverage for coding agents: Jev scores each source file so the agent knows what to fix first.",
-    "evidence_level": "community-indexed",
+    "description": "Coverage, security, and code-quality checks where Jev evaluates source files while test coverage remains local.",
+    "evidence_level": "primary-source-reviewed",
+    "kind": "direct-integration",
     "language": "Rust",
     "license": "MIT",
     "metadata_checked": "2026-09-23",
     "name": "Supercov",
-    "notes": "Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.",
+    "notes": "Jev provides advisory source-only quality and security judgments; source files reach TypeSafe when scoring, while coverage and test execution remain local. Custom TypeSafe endpoints require HTTPS except loopback HTTP. Security findings are not a security audit. Source, endpoint guards, tests, and documentation were inspected; no upstream project code, test suite, or paid inference was run here.",
     "pushed_at": "2026-09-23T18:42:26Z",
     "repo": "supercorp-ai/supercov",
     "repository_status": "accessible",
+    "reviewed": "2026-09-26",
     "sources": [
+      "https://github.com/supercorp-ai/supercov/blob/453a9107cb94d21f9953b490f087bbb50eb26761/crates/supercov-cli/src/quality.rs",
       "https://github.com/hellogumbo/awesome-jev",
       "https://github.com/supercorp-ai/supercov/blob/main/README.md"
     ],
@@ -33808,6 +33812,22 @@
     ],
     "stars": 1,
     "url": "https://github.com/ollaya-dev/ollaya"
+  },
+  {
+    "category": "research",
+    "code": "https://github.com/FeiLiuEM/open-medical-jev/blob/f6d4f79aa2cb5566168c3eb837939d20e92d4657/src/open_medical_jev/router.py",
+    "description": "Independent frozen-model medical decision router using two local Qwen readers, confidence fusion, a Chow gate, and conformal candidate sets.",
+    "evidence_level": "primary-source-reviewed",
+    "kind": "independent-reproduction",
+    "license": "MIT",
+    "name": "Open Medical Jev",
+    "notes": "Independent Jev-class research system, not TypeSafe Jev weights and not a medical device. The frozen readers are served locally; the repository ships code and recipes but no model weights, exam corpora, or per-item restricted evaluation data. Default calibration constants are distribution-bound and require recalibration under shift. Reported medical-exam accuracy, calibration, latency, and comparison figures are author-reported and were not reproduced here. Source, protocol, calibration, data policy, tests, and current upstream CI were inspected; no models or third-party project code were executed.",
+    "repo": "FeiLiuEM/open-medical-jev",
+    "reviewed": "2026-09-26",
+    "sources": [
+      "https://github.com/FeiLiuEM/open-medical-jev/blob/f6d4f79aa2cb5566168c3eb837939d20e92d4657/README.md"
+    ],
+    "url": "https://github.com/FeiLiuEM/open-medical-jev"
   },
   {
     "archived": false,
