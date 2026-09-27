@@ -127,6 +127,7 @@ These projects are not official TypeSafe Jev weights, and compatible outputs do 
 - [AnyJev](https://github.com/nokia-applied-research/AnyJev) - Typed-decision readouts for open models with option-order correction and per-question calibration.
 - [CUA-S1-FORMS](https://huggingface.co/cua-ai/cua-s1-forms) - Independent form-filling specialist and dataset, not a general desktop agent.
 - [Jevlike](https://github.com/vinnylarouge/jevlike) - Independent option scorer with training code and game examples.
+- [jevos](https://github.com/feder-cr/jev) - Independent CPU-only yes/no decision model, a 1B model (MiniCPM) cut to 17 layers with a one-logit head.
 - [OpenJev SGLang](https://github.com/ekzhang/openjev-sglang) - Independent typed-decision server using open models and SGLang.
 
 ## Supporting Drivers

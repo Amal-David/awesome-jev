@@ -33360,6 +33360,22 @@
     "url": "https://github.com/romiluz13/jevmory"
   },
   {
+    "category": "research",
+    "code": "https://github.com/feder-cr/jev/blob/main/src/jev/api/app.py",
+    "description": "Open-source, Jev-compatible yes/no decision model: a 1B model (MiniCPM) cut to 17 layers with a one-logit head, CPU-only GGUF (619 MB). Not TypeSafe Jev weights.",
+    "evidence_level": "primary-source-reviewed",
+    "kind": "independent-reproduction",
+    "license": "MIT",
+    "name": "jevos",
+    "notes": "Self-submission by one of the authors (Federico Elia / feder-cr, with Loris Salsi / LosaLosSantos). Serves only noul (yes/no); choice and score return 422. Author-reported: 0.815 accuracy on 2,000 held-out yes/no questions on a laptop CPU (Intel Core Ultra 7 255H) vs Jev's 0.927 on the same set; 54/220 ms latency. Not independently reproduced here.",
+    "repo": "feder-cr/jev",
+    "reviewed": "2026-09-27",
+    "sources": [
+      "https://github.com/feder-cr/jev/blob/main/README.md"
+    ],
+    "url": "https://github.com/feder-cr/jev"
+  },
+  {
     "archived": false,
     "category": "research",
     "description": "Sub-100ms security gate for AI agent tool calls, powered by TypeSafe's Jev (System-1) decision model. Single-request Choice/Noul/Score evaluation, dual-factor blocking matrix, calibrated-confidence routing, fail-closed parsing, zero-config local fallback. LangChain-ready.",
