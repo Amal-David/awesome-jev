@@ -91,6 +91,7 @@ The [full creator gallery](docs/DIRECTORY.md#watch-jev-in-action) retains the ot
 - [jgrep](https://github.com/kyu1204/jgrep) - Semantic matching over code chunks, diff hunks, and CSV rows, published on npm as jevgrep.
 - [SemDecide](https://github.com/sharziki/semdecide) - Unix CLI for predicates, choices, scores, JSONL filtering, and CI-friendly exit codes.
 - [Leanest](https://github.com/baronunread/leanest) - Playwright and Vitest test selector with an optional Jev judge and run-tests fallback on uncertainty.
+- [Supercov](https://github.com/supercorp-ai/supercov) - Coverage, security, and code-quality checks where Jev evaluates source files while test coverage stays local.
 - [Foreman](https://github.com/thruwire/foreman) - Checks coding-agent progress and decides when intervention may be needed.
 - [jev-belay](https://github.com/valentynkit/jev-belay) - Claude Code Stop hook that checks local run evidence before judging an unverified completion claim.
 - [jev-claude-statusline](https://github.com/kevnk/jev-claude-statusline) - Claude Code hooks that estimate task progress with Jev and cache it for a status-line display.
@@ -128,6 +129,7 @@ These projects are not official TypeSafe Jev weights, and compatible outputs do 
 - [CUA-S1-FORMS](https://huggingface.co/cua-ai/cua-s1-forms) - Independent form-filling specialist and dataset, not a general desktop agent.
 - [Jevlike](https://github.com/vinnylarouge/jevlike) - Independent option scorer with training code and game examples.
 - [OpenJev SGLang](https://github.com/ekzhang/openjev-sglang) - Independent typed-decision server using open models and SGLang.
+- [Open Medical Jev](https://github.com/FeiLiuEM/open-medical-jev) - Independent frozen-model medical decision router with confidence fusion and conformal candidate sets; not TypeSafe Jev weights.
 
 ## Supporting Drivers
 
