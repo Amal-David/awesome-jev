@@ -583,5 +583,17 @@
     "kind": "direct-integration",
     "reviewed": "2026-09-25",
     "notes": "Research prototype with explicit response validation and retrieval budgets. Observations/context reach Jev; synthesis, judging and optional hosted embeddings use another provider. Caches retain conversations, and some persistence uses pickle: load only trusted files. Custom TypeSafe endpoints need trusted HTTPS. The mock demo is not a quality test; published LoCoMo results were not reproduced, and reference-aware best-of selection can bias evaluation. Client/configuration/security and offline-test source inspected, not run. See docs/WEB_SWEEP_2026-09-25.md."
+  },
+  {
+    "repo": "feder-cr/jev",
+    "name": "jevos",
+    "category": "research",
+    "description": "Open-source, Jev-compatible yes/no decision model: a 1B model (MiniCPM) cut to 17 layers with a one-logit head, CPU-only GGUF (619 MB). Not TypeSafe Jev weights.",
+    "evidence": "https://github.com/feder-cr/jev/blob/main/README.md",
+    "reviewed": "2026-09-27",
+    "kind": "independent-reproduction",
+    "code": "https://github.com/feder-cr/jev/blob/main/src/jev/api/app.py",
+    "license": "MIT",
+    "notes": "Self-submission by one of the authors (Federico Elia / feder-cr, with Loris Salsi / LosaLosSantos). Serves only noul (yes/no); choice and score return 422. Author-reported: 0.815 accuracy on 2,000 held-out yes/no questions on a laptop CPU (Intel Core Ultra 7 255H) vs Jev's 0.927 on the same set; 54/220 ms latency. Not independently reproduced here."
   }
 ]
