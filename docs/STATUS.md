@@ -6,12 +6,12 @@
 
 | Measure | Recorded value |
 |---|---|
-| Reviewed / indexed / auto-discovered | 56 / 1080 / 930 |
-| Catalog entries (not all reviewed) | 2066 |
-| Last completed discovery pass (UTC) | 2026-09-27T23:09:12Z |
-| Latest rotating repository metadata check | 2026-09-27 |
-| Repositories with a recorded metadata check | 1975 / 1975 |
-| Repositories unavailable at their last check (404/410) | 19 |
+| Reviewed / indexed / auto-discovered | 56 / 1080 / 944 |
+| Catalog entries (not all reviewed) | 2080 |
+| Last completed discovery pass (UTC) | 2026-09-28T05:35:53Z |
+| Latest rotating repository metadata check | 2026-09-28 |
+| Repositories with a recorded metadata check | 1989 / 1989 |
+| Repositories unavailable at their last check (404/410) | 20 |
 | Media records with a latest-attempt error | 1 |
 | Editorial exclusions | 1 |
 
@@ -21,7 +21,7 @@ Repository checks rotate: the newest check date does not mean every entry was ch
 
 The discovery timestamp advances only after a network discovery pass completes. An offline directory rebuild, test run or media-only refresh never advances it. The Actions result, not the cron expression, establishes that a workflow ran successfully.
 
-<a href="https://github.com/Amal-David/awesome-jev/actions/runs/36357650087">Discovery run receipt</a>
+<a href="https://github.com/Amal-David/awesome-jev/actions/runs/36382492772">Discovery run receipt</a>
 
 <a href="https://github.com/Amal-David/awesome-jev/actions/workflows/curate.yml">All refresh runs</a>
 
@@ -46,7 +46,8 @@ The discovery timestamp advances only after a network discovery pass completes. 
 - <a href="https://github.com/rajdhakad9826/routeKit">rajdhakad9826/routeKit</a> — last check 2026-09-27
 - <a href="https://github.com/brudarko/jev-mac-voice">brudarko/jev-mac-voice</a> — last check 2026-09-24
 - <a href="https://github.com/kcb-swe-gh/typesafe-ai-jev">kcb-swe-gh/typesafe-ai-jev</a> — last check 2026-09-27
+- <a href="https://github.com/sysadarsh/zerosweep">sysadarsh/zerosweep</a> — last check 2026-09-28
 
 ## Media checks needing attention
 
-- abide-video — HTTPError; attempted 2026-09-27
+- abide-video — HTTPError; attempted 2026-09-28
