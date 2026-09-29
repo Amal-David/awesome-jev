@@ -308,7 +308,7 @@ Checked means a bounded public metadata/media request succeeded, not that the vi
 
 <a href="https://raw.githubusercontent.com/anishfn/shapeshift/5e24166dcbde6e794f0bd5b1b4bd395aaee5fc19/docs/demo.gif">Embedded preview source</a>
 
-**Link check:** pending. Source reference reviewed; playback was not tested.
+**Last check:** 2026-09-29; reachable-image; author-source reference.
 
 <h2>Jev Rubiks Coach</h2>
 
@@ -320,7 +320,7 @@ Checked means a bounded public metadata/media request succeeded, not that the vi
 
 <a href="https://raw.githubusercontent.com/maxlibin/jev-rubiks/f888c8392c094907bffd976e99b98303d82c1ed1/docs/coach-screenshot.jpg">Embedded preview source</a>
 
-**Link check:** pending. Source reference reviewed; playback was not tested.
+**Last check:** 2026-09-29; reachable-image; author-source reference.
 
 <h2>Readwithjev</h2>
 
@@ -330,7 +330,9 @@ Checked means a bounded public metadata/media request succeeded, not that the vi
 
 **Presentation:** Source-inspected social reference; X playback was not verified. Subjective annotations; sentence/context processing is hosted and can be cached.
 
-**Link check:** pending. Source reference reviewed; playback was not tested.
+<a href="https://pbs.twimg.com/amplify_video_thumb/2102519347701051392/img/29RFqUR1iaQ_UoY1.jpg">Embedded preview source</a>
+
+**Last check:** 2026-09-29; reachable-image; public-mirror-metadata.
 
 <h2>jevyoumean</h2>
 
@@ -342,7 +344,7 @@ Checked means a bounded public metadata/media request succeeded, not that the vi
 
 <a href="https://raw.githubusercontent.com/syumai/jevyoumean/f0bed70ebdcc6abda6b5f1984d050cadce3c5897/demo/readme.gif">Embedded preview source</a>
 
-**Link check:** pending. Source reference reviewed; playback was not tested.
+**Last check:** 2026-09-29; reachable-image; author-source reference.
 
 <h2>jevsearch</h2>
 
@@ -352,7 +354,9 @@ Checked means a bounded public metadata/media request succeeded, not that the vi
 
 **Presentation:** Source-inspected social reference; X playback was not verified. Candidate recall limits reranking; only use content approved for hosted processing.
 
-**Link check:** pending. Source reference reviewed; playback was not tested.
+<a href="https://pbs.twimg.com/amplify_video_thumb/2102036348739747840/img/jJ2WT_6DqhHb8hqG.jpg">Embedded preview source</a>
+
+**Last check:** 2026-09-29; reachable-image; public-mirror-metadata.
 
 <h2>JevQL</h2>
 
@@ -362,7 +366,9 @@ Checked means a bounded public metadata/media request succeeded, not that the vi
 
 **Presentation:** Source-inspected social reference; X playback was not verified. Rows reach TypeSafe; narrow columns and use a read-only database role.
 
-**Link check:** pending. Source reference reviewed; playback was not tested.
+<a href="https://pbs.twimg.com/amplify_video_thumb/2100953284315914241/img/SWGv5oiF1JpuCG-E.jpg">Embedded preview source</a>
+
+**Last check:** 2026-09-29; reachable-image; public-mirror-metadata.
 
 ## Maintenance
 

@@ -241,11 +241,11 @@ For simple rules, parsing, or arithmetic, use code. A dedicated classifier may b
 <p><sub>Max Libin / @maxlibin — Source-inspected social reference; X playback was not verified. Upstream still screenshot, not a copied X asset. Code solves; Jev judges coaching. Keep the key-bearing dev proxy private.</sub></p>
 </td>
 <td width="50%" valign="top">
+<a href="https://x.com/carlaiau/status/2102519449517785191"><img src="https://pbs.twimg.com/amplify_video_thumb/2102519347701051392/img/29RFqUR1iaQ_UoY1.jpg" alt="Readwithjev — creator preview; click to watch or inspect" width="480" loading="lazy"></a>
 <h4>Readwithjev</h4>
 <p>Scores sentence-level emotions while you read; a separate deterministic name-and-alias map navigates characters.</p>
 <p><a href="https://x.com/carlaiau/status/2102519449517785191">▶ Watch on X</a> · <a href="https://github.com/carlaiau/read-with-jev">Code</a> · <a href="https://github.com/carlaiau/read-with-jev/blob/e97c84ba6792ceae987f604b7571529110893ab6/src/server/reading-emotions.ts">Source</a></p>
 <p><sub>Carl Aiau / @carlaiau — Source-inspected social reference; X playback was not verified. Subjective annotations; sentence/context processing is hosted and can be cached.</sub></p>
-<p><sub>No reliable preview image was returned. The original watch link is retained.</sub></p>
 </td>
 </tr>
 <tr>
@@ -257,20 +257,20 @@ For simple rules, parsing, or arithmetic, use code. A dedicated classifier may b
 <p><sub>syumai / @__syumai — Source-inspected social reference; X playback was not verified. Upstream animated demo preview, not a copied X asset. Optional auto-run can execute corrections; command context may leave the machine.</sub></p>
 </td>
 <td width="50%" valign="top">
+<a href="https://x.com/kylemclaren/status/2102038326588878950"><img src="https://pbs.twimg.com/amplify_video_thumb/2102036348739747840/img/jJ2WT_6DqhHb8hqG.jpg" alt="jevsearch — creator preview; click to watch or inspect" width="480" loading="lazy"></a>
 <h4>jevsearch</h4>
 <p>Streams lexical site-search results first, then uses Jev to judge and rerank a bounded candidate set.</p>
 <p><a href="https://x.com/kylemclaren/status/2102038326588878950">▶ Watch on X</a> · <a href="https://github.com/kylemclaren/jevsearch">Code</a> · <a href="https://github.com/kylemclaren/jevsearch/blob/1df37decb960b3c4826c71b41d3393c15a8f28d3/src/lib/jev-search-server.ts">Source</a></p>
 <p><sub>Kyle McLaren / @kylemclaren — Source-inspected social reference; X playback was not verified. Candidate recall limits reranking; only use content approved for hosted processing.</sub></p>
-<p><sub>No reliable preview image was returned. The original watch link is retained.</sub></p>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
+<a href="https://x.com/kylemclaren/status/2100953409973108759"><img src="https://pbs.twimg.com/amplify_video_thumb/2100953284315914241/img/SWGv5oiF1JpuCG-E.jpg" alt="JevQL — creator preview; click to watch or inspect" width="480" loading="lazy"></a>
 <h4>JevQL</h4>
 <p>Adds typed semantic predicates and judgments around ordinary Postgres queries, with batching and cached row decisions.</p>
 <p><a href="https://x.com/kylemclaren/status/2100953409973108759">▶ Watch on X</a> · <a href="https://github.com/kylemclaren/jevql">Code</a> · <a href="https://github.com/kylemclaren/jevql/blob/274532af852e8edfb7715ec6dca1113e589cb191/internal/exec/judge.go">Source</a></p>
 <p><sub>Kyle McLaren / @kylemclaren — Source-inspected social reference; X playback was not verified. Rows reach TypeSafe; narrow columns and use a read-only database role.</sub></p>
-<p><sub>No reliable preview image was returned. The original watch link is retained.</sub></p>
 </td>
 </tr>
 </table>
@@ -449,7 +449,7 @@ For more demos and skills, browse [Ship with Jev](https://www.shipwithjev.com/).
 <details>
 <summary>Refresh status</summary>
 
-**Last discovery:** 2026-09-29T00:26:33Z (UTC). **Latest repository metadata date:** 2026-09-29. **Unavailable repositories at last check:** 20. <a href="https://github.com/Amal-David/awesome-jev/blob/main/docs/STATUS.md">Coverage, failures and run receipts</a>.
+**Last discovery:** 2026-09-29T10:47:40Z (UTC). **Latest repository metadata date:** 2026-09-29. **Unavailable repositories at last check:** 22. <a href="https://github.com/Amal-David/awesome-jev/blob/main/docs/STATUS.md">Coverage, failures and run receipts</a>.
 
 The four-hour job updates the discovery catalog and checks a rotating set of links. It does not choose projects for the README. [Check history and coverage](https://github.com/Amal-David/awesome-jev/blob/main/docs/STATUS.md).
 
