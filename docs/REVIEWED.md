@@ -2,7 +2,7 @@
 
 [Start here](../README.md) · [Browse by task](START_HERE.md) · [Search and filters](BROWSE.md) · [Full catalog](CATALOG.md)
 
-**56 selections reviewed against primary public sources.** Source review is not a security audit or a reproduced benchmark.
+**57 selections reviewed against primary public sources.** Source review is not a security audit or a reproduced benchmark.
 
 ## Official resources
 
@@ -109,4 +109,10 @@
 | Jevlike (independent option scorer) | Independent one-pass option scorer with training code and game examples. Not TypeSafe Jev. Not TypeSafe Jev weights or its unpublished architecture. Similar input/output shape does not establish equal quality. Selected game-video windows are not typical-play evidence; review checkpoint formats, model/data licenses, and evaluation controls before reuse. | [repo](https://github.com/vinnylarouge/jevlike) · [post](https://x.com/hhkkmon/status/2100443314957038010) · [evidence](https://github.com/vinnylarouge/jevlike/blob/main/README.md) | primary-source-reviewed / 2026-09-22 | MIT |
 | Open Medical Jev | Independent frozen-model medical decision router using two local Qwen readers, confidence fusion, a Chow gate, and conformal candidate sets. Independent Jev-class research system, not TypeSafe Jev weights and not a medical device. The frozen readers are served locally; the repository ships code and recipes but no model weights, exam corpora, or per-item restricted evaluation data. Default calibration constants are distribution-bound and require recalibration under shift. Reported medical-exam accuracy, calibration, latency, and comparison figures are author-reported and were not reproduced here. Source, protocol, calibration, data policy, tests, and current upstream CI were inspected; no models or third-party project code were executed. | [repo](https://github.com/FeiLiuEM/open-medical-jev) · [code](https://github.com/FeiLiuEM/open-medical-jev/blob/f6d4f79aa2cb5566168c3eb837939d20e92d4657/src/open_medical_jev/router.py) · [evidence](https://github.com/FeiLiuEM/open-medical-jev/blob/f6d4f79aa2cb5566168c3eb837939d20e92d4657/README.md) | primary-source-reviewed / 2026-09-26 | MIT |
 | OpenJev SGLang | Independent typed-decision server using open models and SGLang. Not official Jev weights. Not official Jev weights; no requests go to TypeSafe. Review deployment authentication and GPU costs. | [repo](https://github.com/ekzhang/openjev-sglang) · [code](https://github.com/ekzhang/openjev-sglang/tree/main/examples) · [evidence](https://github.com/ekzhang/openjev-sglang) | primary-source-reviewed / 2026-09-18 | not-detected |
+
+## Articles and demonstrations
+
+| Project | Jev role / reuse notes | Links | Evidence | License / status |
+|---|---|---|---|---|
+| Jev in the Wild | Data-driven survey of 2,170 public Jev projects, mapping early growth, application domains, and decision-use patterns. An arXiv software-engineering preprint about public Jev applications, not a runnable Jev integration or independent model evaluation. | [project](https://arxiv.org/abs/2609.30216) · [evidence](https://arxiv.org/abs/2609.30216) | primary-source-reviewed / 2026-09-29 | not-checked |
 

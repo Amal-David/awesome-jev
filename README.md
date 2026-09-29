@@ -14,6 +14,7 @@ Check permissions and data handling before running a project. Source review is n
 - [Apps and Integrations](#apps-and-integrations)
 - [Games and Creative Projects](#games-and-creative-projects)
 - [Independent Models](#independent-models)
+- [Reading and Research](#reading-and-research)
 - [Supporting Drivers](#supporting-drivers)
 
 ## Getting Started
@@ -132,6 +133,10 @@ These projects are not official TypeSafe Jev weights, and compatible outputs do 
 - [Jevlike](https://github.com/vinnylarouge/jevlike) - Independent option scorer with training code and game examples.
 - [OpenJev SGLang](https://github.com/ekzhang/openjev-sglang) - Independent typed-decision server using open models and SGLang.
 - [Open Medical Jev](https://github.com/FeiLiuEM/open-medical-jev) - Independent frozen-model medical decision router with confidence fusion and conformal candidate sets; not TypeSafe Jev weights.
+
+## Reading and Research
+
+- [Jev in the Wild](https://arxiv.org/abs/2609.30216) - Surveys 2,170 public Jev projects and maps early growth, application domains, and decision-use patterns.
 
 ## Supporting Drivers
 
