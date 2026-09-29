@@ -395,7 +395,7 @@ For more demos and skills, browse [Ship with Jev](https://www.shipwithjev.com/).
 <details>
 <summary>Refresh status</summary>
 
-**Last discovery:** 2026-09-28T16:50:06Z (UTC). **Latest repository metadata date:** 2026-09-28. **Unavailable repositories at last check:** 20. <a href="https://github.com/Amal-David/awesome-jev/blob/main/docs/STATUS.md">Coverage, failures and run receipts</a>.
+**Last discovery:** 2026-09-29T00:26:33Z (UTC). **Latest repository metadata date:** 2026-09-29. **Unavailable repositories at last check:** 20. <a href="https://github.com/Amal-David/awesome-jev/blob/main/docs/STATUS.md">Coverage, failures and run receipts</a>.
 
 The four-hour job updates the discovery catalog and checks a rotating set of links. It does not choose projects for the README. [Check history and coverage](https://github.com/Amal-David/awesome-jev/blob/main/docs/STATUS.md).
 
