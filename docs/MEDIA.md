@@ -298,6 +298,72 @@ Checked means a bounded public metadata/media request succeeded, not that the vi
 
 **Last check:** 2026-09-29; reachable-video; author-source reference.
 
+<h2>Shapeshift</h2>
+
+<a href="https://x.com/anishfn/status/2102327334485557422">Original / watch</a> · <a href="https://github.com/anishfn/shapeshift/blob/5e24166dcbde6e794f0bd5b1b4bd395aaee5fc19/src/lib/jev/client.ts">Source context</a>
+
+**Creator:** anishfn / @anishfn
+
+**Presentation:** Source-inspected social reference; X playback was not verified. Upstream animated demo preview, not a copied X asset. Offline/mock modes exist; online inputs reach TypeSafe and a short prefix is logged.
+
+<a href="https://raw.githubusercontent.com/anishfn/shapeshift/5e24166dcbde6e794f0bd5b1b4bd395aaee5fc19/docs/demo.gif">Embedded preview source</a>
+
+**Link check:** pending. Source reference reviewed; playback was not tested.
+
+<h2>Jev Rubiks Coach</h2>
+
+<a href="https://x.com/maxlibin/status/2102289217569337667">Original / watch</a> · <a href="https://github.com/maxlibin/jev-rubiks/blob/f888c8392c094907bffd976e99b98303d82c1ed1/src/app/coach.ts">Source context</a>
+
+**Creator:** Max Libin / @maxlibin
+
+**Presentation:** Source-inspected social reference; X playback was not verified. Upstream still screenshot, not a copied X asset. Code solves; Jev judges coaching. Keep the key-bearing dev proxy private.
+
+<a href="https://raw.githubusercontent.com/maxlibin/jev-rubiks/f888c8392c094907bffd976e99b98303d82c1ed1/docs/coach-screenshot.jpg">Embedded preview source</a>
+
+**Link check:** pending. Source reference reviewed; playback was not tested.
+
+<h2>Readwithjev</h2>
+
+<a href="https://x.com/carlaiau/status/2102519449517785191">Original / watch</a> · <a href="https://github.com/carlaiau/read-with-jev/blob/e97c84ba6792ceae987f604b7571529110893ab6/src/server/reading-emotions.ts">Source context</a>
+
+**Creator:** Carl Aiau / @carlaiau
+
+**Presentation:** Source-inspected social reference; X playback was not verified. Subjective annotations; sentence/context processing is hosted and can be cached.
+
+**Link check:** pending. Source reference reviewed; playback was not tested.
+
+<h2>jevyoumean</h2>
+
+<a href="https://x.com/__syumai/status/2102297752810229800">Original / watch</a> · <a href="https://github.com/syumai/jevyoumean/blob/f0bed70ebdcc6abda6b5f1984d050cadce3c5897/cmd/jym/main.go">Source context</a>
+
+**Creator:** syumai / @__syumai
+
+**Presentation:** Source-inspected social reference; X playback was not verified. Upstream animated demo preview, not a copied X asset. Optional auto-run can execute corrections; command context may leave the machine.
+
+<a href="https://raw.githubusercontent.com/syumai/jevyoumean/f0bed70ebdcc6abda6b5f1984d050cadce3c5897/demo/readme.gif">Embedded preview source</a>
+
+**Link check:** pending. Source reference reviewed; playback was not tested.
+
+<h2>jevsearch</h2>
+
+<a href="https://x.com/kylemclaren/status/2102038326588878950">Original / watch</a> · <a href="https://github.com/kylemclaren/jevsearch/blob/1df37decb960b3c4826c71b41d3393c15a8f28d3/src/lib/jev-search-server.ts">Source context</a>
+
+**Creator:** Kyle McLaren / @kylemclaren
+
+**Presentation:** Source-inspected social reference; X playback was not verified. Candidate recall limits reranking; only use content approved for hosted processing.
+
+**Link check:** pending. Source reference reviewed; playback was not tested.
+
+<h2>JevQL</h2>
+
+<a href="https://x.com/kylemclaren/status/2100953409973108759">Original / watch</a> · <a href="https://github.com/kylemclaren/jevql/blob/274532af852e8edfb7715ec6dca1113e589cb191/internal/exec/judge.go">Source context</a>
+
+**Creator:** Kyle McLaren / @kylemclaren
+
+**Presentation:** Source-inspected social reference; X playback was not verified. Rows reach TypeSafe; narrow columns and use a read-only database role.
+
+**Link check:** pending. Source reference reviewed; playback was not tested.
+
 ## Maintenance
 
 Edit `data/media.json` for editorial changes. `python3 scripts/build.py --refresh-media` performs bounded, unauthenticated requests to approved public hosts; it reads no API keys. `python3 scripts/build.py` renders offline. The unified builder also regenerates the supporting directory and the local viewer. `--check` validates generated output without network access. Metadata checks rotate daily; the four-hour workflow preserves the gallery and last-known previews.

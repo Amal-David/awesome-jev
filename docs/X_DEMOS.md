@@ -28,6 +28,12 @@ All five winner posts (2–6) were inspected through the public X mirror, with t
 | **tisco** — cairodavila · featured by @OpenRouter | Jev searches transcript meaning; code previews and applies approved clip moves and renames. | [X demo](https://x.com/OpenRouter/status/2102125798371283444) · [repo](https://github.com/cairodavila/tisco) · [source](https://github.com/cairodavila/tisco/blob/main/README.md) |
 | **Vibe Domain** — OB Studio / Oliver · featured by @OpenRouter | Ranks domain candidates against vibe and keyword preferences, separately from registry and availability checks. | [X demo](https://x.com/OpenRouter/status/2102125815031071157) · [project](https://obstudio.org/tools/vibe-domain/) · [source](https://obstudio.org/tools/vibe-domain/) |
 | **jev\_search** — caio0452 · featured by @OpenRouter | Keyword-density code prioritizes files and chunks; Jev judges passages in a fast first pass and a broader second pass. | [X demo](https://x.com/OpenRouter/status/2102125830185075060) · [repo](https://github.com/caio0452/jev_search) · [source](https://github.com/caio0452/jev_search/blob/main/README.md) |
+| **Shapeshift** — anishfn / @anishfn | Selects a prebuilt card and intent signals as you type; ordinary code handles dates, amounts, and calculations. | [X demo](https://x.com/anishfn/status/2102327334485557422) · [repo](https://github.com/anishfn/shapeshift) · [source](https://github.com/anishfn/shapeshift/blob/5e24166dcbde6e794f0bd5b1b4bd395aaee5fc19/src/lib/jev/client.ts) |
+| **Jev Rubiks Coach** — Max Libin / @maxlibin | Chooses when a cube coach should stay quiet, warn, celebrate, or offer help; deterministic solvers find the moves. | [X demo](https://x.com/maxlibin/status/2102289217569337667) · [repo](https://github.com/maxlibin/jev-rubiks) · [source](https://github.com/maxlibin/jev-rubiks/blob/f888c8392c094907bffd976e99b98303d82c1ed1/src/app/coach.ts) |
+| **Readwithjev** — Carl Aiau / @carlaiau | Scores sentence-level emotions while you read; a separate deterministic name-and-alias map navigates characters. | [X demo](https://x.com/carlaiau/status/2102519449517785191) · [repo](https://github.com/carlaiau/read-with-jev) · [source](https://github.com/carlaiau/read-with-jev/blob/e97c84ba6792ceae987f604b7571529110893ab6/src/server/reading-emotions.ts) |
+| **jevyoumean** — syumai / @\_\_syumai | Suggests semantically related CLI subcommands from the command's documented choices rather than only matching typos. | [X demo](https://x.com/__syumai/status/2102297752810229800) · [repo](https://github.com/syumai/jevyoumean) · [source](https://github.com/syumai/jevyoumean/blob/f0bed70ebdcc6abda6b5f1984d050cadce3c5897/cmd/jym/main.go) |
+| **jevsearch** — Kyle McLaren / @kylemclaren | Streams lexical site-search results first, then uses Jev to judge and rerank a bounded candidate set. | [X demo](https://x.com/kylemclaren/status/2102038326588878950) · [repo](https://github.com/kylemclaren/jevsearch) · [source](https://github.com/kylemclaren/jevsearch/blob/1df37decb960b3c4826c71b41d3393c15a8f28d3/src/lib/jev-search-server.ts) |
+| **JevQL** — Kyle McLaren / @kylemclaren | Adds typed semantic predicates and judgments around ordinary Postgres queries, with batching and cached row decisions. | [X demo](https://x.com/kylemclaren/status/2100953409973108759) · [repo](https://github.com/kylemclaren/jevql) · [source](https://github.com/kylemclaren/jevql/blob/274532af852e8edfb7715ec6dca1113e589cb191/internal/exec/judge.go) |
 
 ## Reuse patterns and evidence
 
@@ -130,6 +136,66 @@ All five winner posts (2–6) were inspected through the public X mirror, with t
 **Post access:** Original post text inspected. Publisher post text and screenshot metadata inspected through the public X mirror; README and entry-point code independently read. No live execution verified..
 
 **Limitations:** OpenRouter community winner. Current primary source attributes file prioritization to code rather than Jev. The author marks it fully AI-generated and not for production. Source text reaches OpenRouter; favor environment variables over command-line secrets. No project code was executed.
+
+### Shapeshift
+
+**Pattern:** Debounced typed classification plus a state machine changes the interface without generating UI code.
+
+**Source review:** 2026-09-29. [Primary project source](https://github.com/anishfn/shapeshift/blob/5e24166dcbde6e794f0bd5b1b4bd395aaee5fc19/src/lib/jev/client.ts).
+
+**Post access:** X URL is an indexed social reference; the original post was not fully retrievable in this review. Creator attribution and status URL were found in the public shipwithjev index. Direct X retrieval was unavailable; the recording was not independently watched. The linked implementation was inspected instead.
+
+**Limitations:** Optional hosted Jev, not a general UI generator. The default keyword classifier and scripted demo mode can run without Jev. Online mode sends typed text to TypeSafe; the route logs a 40-character normalized prefix, and saved cards use browser localStorage. Use nonsensitive demo text. Source reviewed, not executed.
+
+### Jev Rubiks Coach
+
+**Pattern:** Compute exact game facts locally, ask bounded coaching questions, then apply thresholds and prewritten messages.
+
+**Source review:** 2026-09-29. [Primary project source](https://github.com/maxlibin/jev-rubiks/blob/f888c8392c094907bffd976e99b98303d82c1ed1/src/app/coach.ts).
+
+**Post access:** X URL is an indexed social reference; the original post was not fully retrievable in this review. Creator attribution and status URL were found in the public shipwithjev index. Direct X retrieval was unavailable; the recording was not independently watched. The linked implementation was inspected instead.
+
+**Limitations:** Jev does not solve the cube or generate the coaching prose. Move/progress facts reach TypeSafe through a key-bearing local dev proxy; do not expose that proxy as an unrestricted public service. Solver timings and coaching quality were not reproduced. The preview is a repository screenshot, not an extracted X video frame.
+
+### Readwithjev
+
+**Pattern:** Viewport-driven classification adds an inspectable annotation layer to a long document.
+
+**Source review:** 2026-09-29. [Primary project source](https://github.com/carlaiau/read-with-jev/blob/e97c84ba6792ceae987f604b7571529110893ab6/src/server/reading-emotions.ts).
+
+**Post access:** X URL is an indexed social reference; the original post was not fully retrievable in this review. Creator attribution and status URL were found in the public shipwithjev index. Direct X retrieval was unavailable; the recording was not independently watched. The linked implementation was inspected instead.
+
+**Limitations:** Research reading interface, not validated emotion measurement or proof of a character's presence. Target sentences and surrounding context reach TypeSafe; requests/responses and scores can persist in local/shared caches. No book text or assets are copied here, and this sweep makes no code-license claim. Source reviewed, not executed.
+
+### jevyoumean
+
+**Pattern:** Use help-derived candidates, typed Choice answers, and local policy to suggest a bounded command correction.
+
+**Source review:** 2026-09-29. [Primary project source](https://github.com/syumai/jevyoumean/blob/f0bed70ebdcc6abda6b5f1984d050cadce3c5897/cmd/jym/main.go).
+
+**Post access:** X URL is an indexed social reference; the original post was not fully retrievable in this review. Creator attribution and status URL were found in the public shipwithjev index. Direct X retrieval was unavailable; the recording was not independently watched. The linked implementation was inspected instead.
+
+**Limitations:** Command/context and help-derived choices reach the configured endpoint; optional context arguments may be sensitive. Hint, prompt, and auto-run modes differ: auto mode can execute a correction. Keep real keys/context on trusted HTTPS endpoints and do not assume the denylist is a security boundary. Client and decision-test source inspected, not run.
+
+### jevsearch
+
+**Pattern:** Stream local retrieval first, then add hosted relevance judgments without a vector database.
+
+**Source review:** 2026-09-29. [Primary project source](https://github.com/kylemclaren/jevsearch/blob/1df37decb960b3c4826c71b41d3393c15a8f28d3/src/lib/jev-search-server.ts).
+
+**Post access:** X URL is an indexed social reference; the original post was not fully retrievable in this review. Creator attribution and status URL were found in the public shipwithjev index. Direct X retrieval was unavailable; the recording was not independently watched. The linked implementation was inspected instead.
+
+**Limitations:** Jev cannot recover a document absent from the candidate pool. Queries, titles, descriptions, and excerpts reach TypeSafe; custom API URLs need trusted HTTPS. The streaming path retains its first-pass results when judging fails. Published accuracy, latency, and cost figures were not reproduced and are omitted here.
+
+### JevQL
+
+**Pattern:** Let SQL narrow the rows, use Jev for the semantic judgment, and keep query execution and thresholds in code.
+
+**Source review:** 2026-09-29. [Primary project source](https://github.com/kylemclaren/jevql/blob/274532af852e8edfb7715ec6dca1113e589cb191/internal/exec/judge.go).
+
+**Post access:** X URL is an indexed social reference; the original post was not fully retrievable in this review. Creator attribution and status URL were found in the public shipwithjev index. Direct X retrieval was unavailable; the recording was not independently watched. The linked implementation was inspected instead.
+
+**Limitations:** Selected row values leave the database for TypeSafe; the relation-alias form can include every column. Limit columns and use a read-only database role for exploration. Plain SQL passes through, so this is not a read-only sandbox. Paid inference, database access, and project tests were not run.
 
 ## Curation rules
 

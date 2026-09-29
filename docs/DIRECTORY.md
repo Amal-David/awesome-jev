@@ -224,6 +224,54 @@ For simple rules, parsing, or arithmetic, use code. A dedicated classifier may b
 <p><a href="https://x.com/OpenRouter/status/2102125830185075060">▶ Watch on X</a> · <a href="https://github.com/caio0452/jev_search">Code</a> · <a href="https://github.com/caio0452/jev_search/blob/main/README.md">Source</a></p>
 <p><sub>caio0452 · screenshot published by OpenRouter — Publisher screenshot. The author labels the project AI-generated and not for production. Selected source text reaches OpenRouter; no project code was executed here. Award announced 2026-09-21.</sub></p>
 </td>
+<td width="50%" valign="top">
+<a href="https://x.com/anishfn/status/2102327334485557422"><img src="https://raw.githubusercontent.com/anishfn/shapeshift/5e24166dcbde6e794f0bd5b1b4bd395aaee5fc19/docs/demo.gif" alt="Shapeshift — creator preview; click to watch or inspect" width="480" loading="lazy"></a>
+<h4>Shapeshift</h4>
+<p>Selects a prebuilt card and intent signals as you type; ordinary code handles dates, amounts, and calculations.</p>
+<p><a href="https://x.com/anishfn/status/2102327334485557422">▶ Watch on X</a> · <a href="https://github.com/anishfn/shapeshift">Code</a> · <a href="https://github.com/anishfn/shapeshift/blob/5e24166dcbde6e794f0bd5b1b4bd395aaee5fc19/src/lib/jev/client.ts">Source</a></p>
+<p><sub>anishfn / @anishfn — Source-inspected social reference; X playback was not verified. Upstream animated demo preview, not a copied X asset. Offline/mock modes exist; online inputs reach TypeSafe and a short prefix is logged.</sub></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://x.com/maxlibin/status/2102289217569337667"><img src="https://raw.githubusercontent.com/maxlibin/jev-rubiks/f888c8392c094907bffd976e99b98303d82c1ed1/docs/coach-screenshot.jpg" alt="Jev Rubiks Coach — creator preview; click to watch or inspect" width="480" loading="lazy"></a>
+<h4>Jev Rubiks Coach</h4>
+<p>Chooses when a cube coach should stay quiet, warn, celebrate, or offer help; deterministic solvers find the moves.</p>
+<p><a href="https://x.com/maxlibin/status/2102289217569337667">▶ Watch on X</a> · <a href="https://github.com/maxlibin/jev-rubiks">Code</a> · <a href="https://github.com/maxlibin/jev-rubiks/blob/f888c8392c094907bffd976e99b98303d82c1ed1/src/app/coach.ts">Source</a></p>
+<p><sub>Max Libin / @maxlibin — Source-inspected social reference; X playback was not verified. Upstream still screenshot, not a copied X asset. Code solves; Jev judges coaching. Keep the key-bearing dev proxy private.</sub></p>
+</td>
+<td width="50%" valign="top">
+<h4>Readwithjev</h4>
+<p>Scores sentence-level emotions while you read; a separate deterministic name-and-alias map navigates characters.</p>
+<p><a href="https://x.com/carlaiau/status/2102519449517785191">▶ Watch on X</a> · <a href="https://github.com/carlaiau/read-with-jev">Code</a> · <a href="https://github.com/carlaiau/read-with-jev/blob/e97c84ba6792ceae987f604b7571529110893ab6/src/server/reading-emotions.ts">Source</a></p>
+<p><sub>Carl Aiau / @carlaiau — Source-inspected social reference; X playback was not verified. Subjective annotations; sentence/context processing is hosted and can be cached.</sub></p>
+<p><sub>No reliable preview image was returned. The original watch link is retained.</sub></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://x.com/__syumai/status/2102297752810229800"><img src="https://raw.githubusercontent.com/syumai/jevyoumean/f0bed70ebdcc6abda6b5f1984d050cadce3c5897/demo/readme.gif" alt="jevyoumean — creator preview; click to watch or inspect" width="480" loading="lazy"></a>
+<h4>jevyoumean</h4>
+<p>Suggests semantically related CLI subcommands from the command&#x27;s documented choices rather than only matching typos.</p>
+<p><a href="https://x.com/__syumai/status/2102297752810229800">▶ Watch on X</a> · <a href="https://github.com/syumai/jevyoumean">Code</a> · <a href="https://github.com/syumai/jevyoumean/blob/f0bed70ebdcc6abda6b5f1984d050cadce3c5897/cmd/jym/main.go">Source</a></p>
+<p><sub>syumai / @__syumai — Source-inspected social reference; X playback was not verified. Upstream animated demo preview, not a copied X asset. Optional auto-run can execute corrections; command context may leave the machine.</sub></p>
+</td>
+<td width="50%" valign="top">
+<h4>jevsearch</h4>
+<p>Streams lexical site-search results first, then uses Jev to judge and rerank a bounded candidate set.</p>
+<p><a href="https://x.com/kylemclaren/status/2102038326588878950">▶ Watch on X</a> · <a href="https://github.com/kylemclaren/jevsearch">Code</a> · <a href="https://github.com/kylemclaren/jevsearch/blob/1df37decb960b3c4826c71b41d3393c15a8f28d3/src/lib/jev-search-server.ts">Source</a></p>
+<p><sub>Kyle McLaren / @kylemclaren — Source-inspected social reference; X playback was not verified. Candidate recall limits reranking; only use content approved for hosted processing.</sub></p>
+<p><sub>No reliable preview image was returned. The original watch link is retained.</sub></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h4>JevQL</h4>
+<p>Adds typed semantic predicates and judgments around ordinary Postgres queries, with batching and cached row decisions.</p>
+<p><a href="https://x.com/kylemclaren/status/2100953409973108759">▶ Watch on X</a> · <a href="https://github.com/kylemclaren/jevql">Code</a> · <a href="https://github.com/kylemclaren/jevql/blob/274532af852e8edfb7715ec6dca1113e589cb191/internal/exec/judge.go">Source</a></p>
+<p><sub>Kyle McLaren / @kylemclaren — Source-inspected social reference; X playback was not verified. Rows reach TypeSafe; narrow columns and use a read-only database role.</sub></p>
+<p><sub>No reliable preview image was returned. The original watch link is retained.</sub></p>
+</td>
 </tr>
 </table>
 
@@ -381,6 +429,12 @@ OpenRouter's [September 21 roundup](https://x.com/OpenRouter/status/210212574872
 | **tisco** — cairodavila · featured by @OpenRouter | Jev searches transcript meaning; code previews and applies approved clip moves and renames. | [X demo](https://x.com/OpenRouter/status/2102125798371283444) · [repo](https://github.com/cairodavila/tisco) · [source](https://github.com/cairodavila/tisco/blob/main/README.md) |
 | **Vibe Domain** — OB Studio / Oliver · featured by @OpenRouter | Ranks domain candidates against vibe and keyword preferences, separately from registry and availability checks. | [X demo](https://x.com/OpenRouter/status/2102125815031071157) · [project](https://obstudio.org/tools/vibe-domain/) · [source](https://obstudio.org/tools/vibe-domain/) |
 | **jev\_search** — caio0452 · featured by @OpenRouter | Keyword-density code prioritizes files and chunks; Jev judges passages in a fast first pass and a broader second pass. | [X demo](https://x.com/OpenRouter/status/2102125830185075060) · [repo](https://github.com/caio0452/jev_search) · [source](https://github.com/caio0452/jev_search/blob/main/README.md) |
+| **Shapeshift** — anishfn / @anishfn | Selects a prebuilt card and intent signals as you type; ordinary code handles dates, amounts, and calculations. | [X demo](https://x.com/anishfn/status/2102327334485557422) · [repo](https://github.com/anishfn/shapeshift) · [source](https://github.com/anishfn/shapeshift/blob/5e24166dcbde6e794f0bd5b1b4bd395aaee5fc19/src/lib/jev/client.ts) |
+| **Jev Rubiks Coach** — Max Libin / @maxlibin | Chooses when a cube coach should stay quiet, warn, celebrate, or offer help; deterministic solvers find the moves. | [X demo](https://x.com/maxlibin/status/2102289217569337667) · [repo](https://github.com/maxlibin/jev-rubiks) · [source](https://github.com/maxlibin/jev-rubiks/blob/f888c8392c094907bffd976e99b98303d82c1ed1/src/app/coach.ts) |
+| **Readwithjev** — Carl Aiau / @carlaiau | Scores sentence-level emotions while you read; a separate deterministic name-and-alias map navigates characters. | [X demo](https://x.com/carlaiau/status/2102519449517785191) · [repo](https://github.com/carlaiau/read-with-jev) · [source](https://github.com/carlaiau/read-with-jev/blob/e97c84ba6792ceae987f604b7571529110893ab6/src/server/reading-emotions.ts) |
+| **jevyoumean** — syumai / @\_\_syumai | Suggests semantically related CLI subcommands from the command's documented choices rather than only matching typos. | [X demo](https://x.com/__syumai/status/2102297752810229800) · [repo](https://github.com/syumai/jevyoumean) · [source](https://github.com/syumai/jevyoumean/blob/f0bed70ebdcc6abda6b5f1984d050cadce3c5897/cmd/jym/main.go) |
+| **jevsearch** — Kyle McLaren / @kylemclaren | Streams lexical site-search results first, then uses Jev to judge and rerank a bounded candidate set. | [X demo](https://x.com/kylemclaren/status/2102038326588878950) · [repo](https://github.com/kylemclaren/jevsearch) · [source](https://github.com/kylemclaren/jevsearch/blob/1df37decb960b3c4826c71b41d3393c15a8f28d3/src/lib/jev-search-server.ts) |
+| **JevQL** — Kyle McLaren / @kylemclaren | Adds typed semantic predicates and judgments around ordinary Postgres queries, with batching and cached row decisions. | [X demo](https://x.com/kylemclaren/status/2100953409973108759) · [repo](https://github.com/kylemclaren/jevql) · [source](https://github.com/kylemclaren/jevql/blob/274532af852e8edfb7715ec6dca1113e589cb191/internal/exec/judge.go) |
 
 </details>
 
