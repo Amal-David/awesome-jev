@@ -608,5 +608,16 @@
     "kind": "independent-reproduction",
     "reviewed": "2026-09-26",
     "notes": "Independent Jev-class research system, not TypeSafe Jev weights and not a medical device. The frozen readers are served locally; the repository ships code and recipes but no model weights, exam corpora, or per-item restricted evaluation data. Default calibration constants are distribution-bound and require recalibration under shift. Reported medical-exam accuracy, calibration, latency, and comparison figures are author-reported and were not reproduced here. Source, protocol, calibration, data policy, tests, and current upstream CI were inspected; no models or third-party project code were executed."
+  },
+  {
+    "repo": "cwdx/1-million-emojis",
+    "name": "1 Million Emojis",
+    "category": "games",
+    "description": "Shared 1000 × 1000 emoji canvas where, after each stroke, Jev picks a neighbouring square and emoji from typed options and code finishes a shape Jev judges unfinished.",
+    "evidence": "https://github.com/cwdx/1-million-emojis",
+    "reviewed": "2026-09-29",
+    "code": "https://github.com/cwdx/1-million-emojis/blob/main/packages/emoji/src/jev-join.ts",
+    "demo": "https://chriswijnia.com/lab/emoji",
+    "license": "MIT"
   }
 ]
