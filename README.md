@@ -54,6 +54,8 @@ https://github.com/user-attachments/assets/81650587-e3f1-4655-8213-ed5f6e120e9a
 
 [![Publisher screenshot of transcript search in tisco; open the OpenRouter showcase post](https://pbs.twimg.com/media/HSxARhBaIAABItD.jpg?name=orig)](https://x.com/OpenRouter/status/2102125798371283444)
 
+More to watch: [Shapeshift's adaptive cards](docs/X_DEMOS.md#shapeshift), [a Rubik's cube coach](docs/X_DEMOS.md#jev-rubiks-coach), [sentence-level reading highlights](docs/X_DEMOS.md#readwithjev), [CLI suggestions](docs/X_DEMOS.md#jevyoumean), [site-search reranking](docs/X_DEMOS.md#jevsearch), and [semantic SQL](docs/X_DEMOS.md#jevql). Each entry links the creator post and records its source and access limits.
+
 The [full creator gallery](docs/DIRECTORY.md#watch-jev-in-action) retains the other videos, images, and attribution. Browse the [X index](docs/X_DEMOS.md), [OpenRouter roundup](docs/OPENROUTER_SHOWCASE.md), or [computer-use comparison](docs/CUA.md) for more examples and limitations.
 
 ## SDKs and Skills
