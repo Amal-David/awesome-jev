@@ -608,5 +608,15 @@
     "kind": "independent-reproduction",
     "reviewed": "2026-09-26",
     "notes": "Independent Jev-class research system, not TypeSafe Jev weights and not a medical device. The frozen readers are served locally; the repository ships code and recipes but no model weights, exam corpora, or per-item restricted evaluation data. Default calibration constants are distribution-bound and require recalibration under shift. Reported medical-exam accuracy, calibration, latency, and comparison figures are author-reported and were not reproduced here. Source, protocol, calibration, data policy, tests, and current upstream CI were inspected; no models or third-party project code were executed."
+  },
+  {
+    "url": "https://arxiv.org/abs/2609.30216",
+    "name": "Jev in the Wild",
+    "category": "articles",
+    "description": "Data-driven survey of 2,170 public Jev projects, mapping early growth, application domains, and decision-use patterns.",
+    "evidence": "https://arxiv.org/abs/2609.30216",
+    "reviewed": "2026-09-29",
+    "kind": "ecosystem-survey",
+    "notes": "An arXiv software-engineering preprint about public Jev applications, not a runnable Jev integration or independent model evaluation."
   }
 ]
