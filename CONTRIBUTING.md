@@ -4,6 +4,8 @@
 
 Submit a public project where Jev has a concrete role, or a clearly labeled independent reproduction/evaluation. Include the repository, original creator, companion demo, actual skill/code link where available, and a short explanation of the typed-decision step. Disclose affiliation. Avoid empty repositories, generic type-safety libraries, duplicate links, and unsupported performance claims.
 
+Small and experimental projects are welcome when their useful role and limitations are clear. We will help with wording, metadata and generated-file conflicts; you do not need to repeatedly rebase because our discovery job advanced `main`. Reviews distinguish necessary fixes from optional improvements. When a project-side change is needed, we will explain what blocks inclusion and what would resolve it.
+
 For a primary-source-reviewed project, add an entry to `data/curated.json`:
 
 ```json

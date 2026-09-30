@@ -206,6 +206,19 @@
     "notes": "OpenRouter community winner, announced 2026-09-21. Public page reviewed; no public source repository or code license verified. Documentation distinguishes a no-key heuristic mode from live OpenRouter inference. No availability check or API call was run here. Recheck names at a registrar and review key handling before entering credentials."
   },
   {
+    "repo": "antonio-ivanovski/spliit-cloud",
+    "name": "Spliit Cloud",
+    "category": "apps",
+    "description": "Optional Jev Choice suggestions for expense categories after local dictionary and group-history matching; code interprets confidence before presenting results.",
+    "evidence": "https://github.com/antonio-ivanovski/spliit-cloud/blob/02d2d135c68f2035a350025c48d3fff51cccd36d/README.md#deduce-category-from-title",
+    "demo": "https://spliit.cloud/",
+    "code": "https://github.com/antonio-ivanovski/spliit-cloud/blob/02d2d135c68f2035a350025c48d3fff51cccd36d/apps/api/src/lib/ai/system-one-categorize.ts",
+    "license": "MIT",
+    "kind": "optional-integration",
+    "reviewed": "2026-09-30",
+    "notes": "Submitted by the Spliit Cloud maintainer. Hosted Jev is optional and uses a server-side key; expense titles, language, group metadata and category examples reach the configured provider, with additional expense context for bulk review. Use data approved for hosted processing and a trusted HTTPS endpoint. The custom-URL guard has a broad 127. hostname-prefix exception and requests follow redirects; this is not an end-to-end transport guarantee. Confidence and probability checks support advisory suggestions, not guaranteed categorization accuracy. Source and tests were inspected, not executed; the hosted engine was not verified and no paid inference was run. See docs/MAINTENANCE.md for the scoped review and source links."
+  },
+  {
     "repo": "caio0452/jev_search",
     "name": "jev_search",
     "category": "agents",
