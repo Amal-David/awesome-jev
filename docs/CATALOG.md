@@ -2236,7 +2236,7 @@ Evidence: **primary-source-reviewed** = public primary source inspected; **commu
 | jev-radar | 📡 全网最全 · The world's most comprehensive tracker of the Jev (TypeSafe AI System One) ecosystem — 220+ documented cases · 108 confidence-graded entries · verified &amp; rescanned every 3 hours · API access guide included Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review. | [repo](https://github.com/everyinfra/jev-radar) · [evidence](https://github.com/hellogumbo/awesome-jev) | community-indexed | NOASSERTION |
 | jev-skill | An awesome collection of Jev use cases, workflows, and agent skills. | [repo](https://github.com/wuyoscar/jev-skill) · [evidence](https://github.com/hellogumbo/awesome-jev) | community-indexed | MIT |
 
-## Articles and demonstrations (52)
+## Articles and demonstrations (53)
 
 | Project | Jev role / reuse notes | Links | Evidence | License / status |
 |---|---|---|---|---|
@@ -2260,6 +2260,7 @@ Evidence: **primary-source-reviewed** = public primary source inspected; **commu
 | Jev in 34 seconds | Short video explainer of how Jev's typed-decision loop works. | [project](https://x.com/dwhitedesign/status/2100368024649769384) · [evidence](https://github.com/hellogumbo/awesome-jev) | community-indexed | not-checked |
 | Jev in a Grammarly-style Mac app | Desktop writing app using Jev for fast structured writing judgments. | [project](https://x.com/nielsmouthaan/status/2100543809465577665) · [evidence](https://github.com/hellogumbo/awesome-jev) | community-indexed | not-checked |
 | Jev in Search: Three Practical Evaluations | Independent experiments on search stopping, memory reranking, and multi-hop relation selection, with implementation links and limitations including private data, unequal sample counts, and a simulated speed illustration. | [project](https://zc277584121.github.io/rag/2026/09/22/jev-search-deep-evaluation.html) · [evidence](https://github.com/hellogumbo/awesome-jev) | community-indexed | not-checked |
+| Jev in the Wild | Data-driven survey of 2,170 public Jev projects, mapping early growth, application domains, and decision-use patterns. An arXiv software-engineering preprint about public Jev applications, not a runnable Jev integration or independent model evaluation. | [project](https://arxiv.org/abs/2609.30216) · [evidence](https://arxiv.org/abs/2609.30216) | primary-source-reviewed / 2026-09-29 | not-checked |
 | Jev plays Minecraft (r/accelerate) | Work-in-progress demo of Jev driving Minecraft, including fleeing zombies at night. | [project](https://reddit.com/r/accelerate/comments/1whk9oy/new_typesafe_ai_jev_model_playing_minecraft_wip/) · [evidence](https://github.com/hellogumbo/awesome-jev) | community-indexed | not-checked |
 | Jev Typewriter launch | Steve Krouse's playable 16-judgment demo and video. | [project](https://x.com/stevekrouse/status/2100287368221659289) · [evidence](https://github.com/hellogumbo/awesome-jev) | community-indexed | not-checked |
 | Jev vs Mistral and Gemini for event validation | Head-to-head test at validating local event listings, with cost and latency. | [project](https://nearhere.events/blog/typesafe-jev-mistral-gemini-event-validation) · [evidence](https://github.com/hellogumbo/awesome-jev) | community-indexed | not-checked |
