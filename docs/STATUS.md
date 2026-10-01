@@ -6,12 +6,12 @@
 
 | Measure | Recorded value |
 |---|---|
-| Reviewed / indexed / auto-discovered | 58 / 1082 / 1158 |
-| Catalog entries (not all reviewed) | 2298 |
-| Last completed discovery pass (UTC) | 2026-10-01T15:32:00Z |
+| Reviewed / indexed / auto-discovered | 58 / 1080 / 1181 |
+| Catalog entries (not all reviewed) | 2319 |
+| Last completed discovery pass (UTC) | 2026-10-01T21:06:50Z |
 | Latest rotating repository metadata check | 2026-10-01 |
-| Repositories with a recorded metadata check | 2206 / 2206 |
-| Repositories unavailable at their last check (404/410) | 26 |
+| Repositories with a recorded metadata check | 2227 / 2227 |
+| Repositories unavailable at their last check (404/410) | 27 |
 | Media records with a latest-attempt error | 1 |
 | Editorial exclusions | 1 |
 
@@ -21,27 +21,28 @@ Repository checks rotate: the newest check date does not mean every entry was ch
 
 The discovery timestamp advances only after a network discovery pass completes. An offline directory rebuild, test run or media-only refresh never advances it. The Actions result, not the cron expression, establishes that a workflow ran successfully.
 
-<a href="https://github.com/Amal-David/awesome-jev/actions/runs/36884836029">Discovery run receipt</a>
+<a href="https://github.com/Amal-David/awesome-jev/actions/runs/36926280334">Discovery run receipt</a>
 
 <a href="https://github.com/Amal-David/awesome-jev/actions/workflows/curate.yml">All refresh runs</a>
 
 ## Unavailable repositories at their last check
 
 - <a href="https://github.com/BunsDev/river-oaks">BunsDev/river-oaks</a> — last check 2026-09-30
-- <a href="https://github.com/elberacasa/chimbometro">elberacasa/chimbometro</a> — last check 2026-09-25
-- <a href="https://github.com/elialm94/driva">elialm94/driva</a> — last check 2026-09-25
+- <a href="https://github.com/elberacasa/chimbometro">elberacasa/chimbometro</a> — last check 2026-10-01
+- <a href="https://github.com/elialm94/driva">elialm94/driva</a> — last check 2026-10-01
 - <a href="https://github.com/cassiomc1/fast-jev-compaction-alt">cassiomc1/fast-jev-compaction-alt</a> — last check 2026-09-30
 - <a href="https://github.com/tivojn/gpt-live-avatar">tivojn/gpt-live-avatar</a> — last check 2026-09-29
 - <a href="https://github.com/aoi-yoneda/haikyuBattleJev">aoi-yoneda/haikyuBattleJev</a> — last check 2026-09-30
 - <a href="https://github.com/altregubov/jev-antigravity-decider">altregubov/jev-antigravity-decider</a> — last check 2026-09-30
 - <a href="https://github.com/legostin/jev-browser">legostin/jev-browser</a> — last check 2026-09-25
 - <a href="https://github.com/cleiton1231/jev-loop">cleiton1231/jev-loop</a> — last check 2026-09-30
+- <a href="https://github.com/dominusDeus/jev-trader-fork">dominusDeus/jev-trader-fork</a> — last check 2026-10-01
 - <a href="https://github.com/Baran3575/jev-voice-android">Baran3575/jev-voice-android</a> — last check 2026-09-30
 - <a href="https://github.com/sethsaler/jevgram">sethsaler/jevgram</a> — last check 2026-09-27
 - <a href="https://github.com/notque/jevs-sprint-planning">notque/jevs-sprint-planning</a> — last check 2026-09-27
 - <a href="https://github.com/blancaile/minecraft-ai">blancaile/minecraft-ai</a> — last check 2026-10-01
 - <a href="https://github.com/novvoo/nanojev">novvoo/nanojev</a> — last check 2026-09-27
-- <a href="https://github.com/develatter/notos-intelligence-go">develatter/notos-intelligence-go</a> — last check 2026-09-25
+- <a href="https://github.com/develatter/notos-intelligence-go">develatter/notos-intelligence-go</a> — last check 2026-10-01
 - <a href="https://github.com/zoidsh/tenet">zoidsh/tenet</a> — last check 2026-10-01
 - <a href="https://github.com/armsteadj1/vibe-smart-router">armsteadj1/vibe-smart-router</a> — last check 2026-09-30
 - <a href="https://github.com/eriestra/almond-fastloop">eriestra/almond-fastloop</a> — last check 2026-09-25
