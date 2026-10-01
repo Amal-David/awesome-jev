@@ -631,5 +631,17 @@
     "reviewed": "2026-09-29",
     "kind": "ecosystem-survey",
     "notes": "An arXiv software-engineering preprint about public Jev applications, not a runnable Jev integration or independent model evaluation."
+  },
+  {
+    "repo": "gherardo200-glitch/jev-bouncer",
+    "name": "jev-bouncer",
+    "category": "apps",
+    "description": "Self-hosted Telegram moderation bot that asks Jev for per-category scores (scam, spam, ads, toxicity, flood) on each group message and runs them through YAML-defined thresholds to decide warn, delete, mute, ban, or flag-admin.",
+    "evidence": "https://github.com/gherardo200-glitch/jev-bouncer/blob/4afb20e0783301c64d3f9db48edaae455e164bb6/README.md#worth-knowing",
+    "code": "https://github.com/gherardo200-glitch/jev-bouncer/blob/4afb20e0783301c64d3f9db48edaae455e164bb6/src/jev-client.ts",
+    "license": "MIT",
+    "kind": "optional-integration",
+    "reviewed": "2026-10-01",
+    "notes": "Submitted by the jev-bouncer maintainer. `npm run demo` was run for this review: it scores eight sample messages offline on the built-in HeuristicEngine with no JEV_API_KEY and no network calls, and the output (including the ban+flag_admin seed-phrase-scam case) matches what the README quotes. Setting JEV_API_KEY switches scoring to the live Jev API through jev-client.ts, which fixes the question instructions and criteria in code and passes the message text only as the state being judged. That file's own header discloses its request/response schema was reconstructed from public examples rather than official TypeSafe docs, and records an unauthenticated HTTP 401 it got from the real endpoint during development whose error-body shape did not match third-party examples, as partial evidence the shape may still need checking. The README separately discloses that the flood category's 'new account' signal is an in-memory per-chat message count, not Telegram's real account age, and resets when the bot restarts. Source and tests were inspected and the demo was executed; the live Jev API was not called."
   }
 ]

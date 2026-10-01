@@ -31679,6 +31679,22 @@
     "url": "https://github.com/newuser7171/antivirus"
   },
   {
+    "category": "apps",
+    "code": "https://github.com/gherardo200-glitch/jev-bouncer/blob/4afb20e0783301c64d3f9db48edaae455e164bb6/src/jev-client.ts",
+    "description": "Self-hosted Telegram moderation bot that asks Jev for per-category scores (scam, spam, ads, toxicity, flood) on each group message and runs them through YAML-defined thresholds to decide warn, delete, mute, ban, or flag-admin.",
+    "evidence_level": "primary-source-reviewed",
+    "kind": "optional-integration",
+    "license": "MIT",
+    "name": "jev-bouncer",
+    "notes": "Submitted by the jev-bouncer maintainer. `npm run demo` was run for this review: it scores eight sample messages offline on the built-in HeuristicEngine with no JEV_API_KEY and no network calls, and the output (including the ban+flag_admin seed-phrase-scam case) matches what the README quotes. Setting JEV_API_KEY switches scoring to the live Jev API through jev-client.ts, which fixes the question instructions and criteria in code and passes the message text only as the state being judged. That file's own header discloses its request/response schema was reconstructed from public examples rather than official TypeSafe docs, and records an unauthenticated HTTP 401 it got from the real endpoint during development whose error-body shape did not match third-party examples, as partial evidence the shape may still need checking. The README separately discloses that the flood category's 'new account' signal is an in-memory per-chat message count, not Telegram's real account age, and resets when the bot restarts. Source and tests were inspected and the demo was executed; the live Jev API was not called.",
+    "repo": "gherardo200-glitch/jev-bouncer",
+    "reviewed": "2026-10-01",
+    "sources": [
+      "https://github.com/gherardo200-glitch/jev-bouncer/blob/4afb20e0783301c64d3f9db48edaae455e164bb6/README.md#worth-knowing"
+    ],
+    "url": "https://github.com/gherardo200-glitch/jev-bouncer"
+  },
+  {
     "archived": false,
     "category": "apps",
     "description": "收集全网优秀 case 的收藏库 | A curated collection of excellent cases from across the web",

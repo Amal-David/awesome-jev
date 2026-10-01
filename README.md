@@ -113,6 +113,7 @@ The [full creator gallery](docs/DIRECTORY.md#watch-jev-in-action) retains the ot
 - [nospace](https://github.com/riesvile/nospace) - Experimental word-spacing interface where Jev chooses splits and a separate model handles spelling.
 - [Vibe Domain](https://obstudio.org/tools/vibe-domain) - Domain-name ranking with a no-key heuristic mode and an optional hosted Jev mode.
 - [Spliit Cloud](https://github.com/antonio-ivanovski/spliit-cloud) - Optional expense-category suggestions where Jev picks a category after local dictionary and history matching miss.
+- [jev-bouncer](https://github.com/gherardo200-glitch/jev-bouncer) - Self-hosted Telegram moderation bot that scores each message for scam, spam, ads, toxicity, and flood with Jev, then applies configurable thresholds to warn, delete, mute, ban, or flag an admin.
 
 ## Games and Creative Projects
 
