@@ -433,6 +433,17 @@
     "notes": "Submitted in PR #1. Requires a lawful local Pokemon Red dump; the repository does not ship ROM or save-state game data. Unknown or failed model choices fall back to code-owned legal actions. Author timing/cost and cartridge behavior were not reproduced. Default inference is TypeSafe HTTPS; a custom JEV_BASE_URL should be a trusted HTTPS endpoint when a real bearer key is used. Source-reviewed only; no ROM, upstream tests, or live inference were run here."
   },
   {
+    "repo": "cwdx/1-million-emojis",
+    "name": "1 Million Emojis",
+    "category": "games",
+    "description": "Shared 1000 × 1000 emoji canvas where, after each stroke, Jev picks a neighbouring square and emoji from typed options and code finishes a shape Jev judges unfinished.",
+    "evidence": "https://github.com/cwdx/1-million-emojis",
+    "reviewed": "2026-09-29",
+    "code": "https://github.com/cwdx/1-million-emojis/blob/main/packages/emoji/src/jev-join.ts",
+    "demo": "https://chriswijnia.com/lab/emoji",
+    "license": "MIT"
+  },
+  {
     "repo": "kyu1204/jgrep",
     "name": "jgrep (npm: jevgrep)",
     "category": "agents",

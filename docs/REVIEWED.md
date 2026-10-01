@@ -2,7 +2,7 @@
 
 [Start here](../README.md) · [Browse by task](START_HERE.md) · [Search and filters](BROWSE.md) · [Full catalog](CATALOG.md)
 
-**58 selections reviewed against primary public sources.** Source review is not a security audit or a reproduced benchmark.
+**59 selections reviewed against primary public sources.** Source review is not a security audit or a reproduced benchmark.
 
 ## Official resources
 
@@ -26,6 +26,7 @@
 
 | Project | Jev role / reuse notes | Links | Evidence | License / status |
 |---|---|---|---|---|
+| 1 Million Emojis | Shared 1000 × 1000 emoji canvas where, after each stroke, Jev picks a neighbouring square and emoji from typed options and code finishes a shape Jev judges unfinished. | [repo](https://github.com/cwdx/1-million-emojis) · [demo](https://chriswijnia.com/lab/emoji) · [code](https://github.com/cwdx/1-million-emojis/blob/main/packages/emoji/src/jev-join.ts) · [evidence](https://github.com/cwdx/1-million-emojis) | primary-source-reviewed / 2026-09-29 | MIT |
 | Jev Chess | A shared chess game against Jev with move probabilities. Hosted demo; source code not verified. OpenRouter community winner, announced 2026-09-21. Public project-page metadata inspected, not server code. No public source repository or code license verified. No shared game move was submitted, and advertised results were not reproduced. | [project](https://jevchess.com/) · [post](https://x.com/OpenRouter/status/2102125782219075865) · [evidence](https://jevchess.com/) | primary-source-reviewed / 2026-09-22 | not-checked |
 | Jev Plays Snake | Snake where code finds legal moves and Jev picks a direction. Useful separation of legal-action generation, model choice, deadlines, and local execution. | [repo](https://github.com/sorrycc/typesafe-snake) · [code](https://github.com/sorrycc/typesafe-snake/blob/main/src/jev/prompt.ts) · [evidence](https://github.com/sorrycc/typesafe-snake) | primary-source-reviewed / 2026-09-18 | not-detected |
 | jev-plays-pokemon-red | Pokemon Red agent where code builds legal actions and route state; Jev chooses only at branch points. Submitted in PR #1. Requires a lawful local Pokemon Red dump; the repository does not ship ROM or save-state game data. Unknown or failed model choices fall back to code-owned legal actions. Author timing/cost and cartridge behavior were not reproduced. Default inference is TypeSafe HTTPS; a custom JEV\_BASE\_URL should be a trusted HTTPS endpoint when a real bearer key is used. Source-reviewed only; no ROM, upstream tests, or live inference were run here. | [repo](https://github.com/valentynkit/jev-plays-pokemon-red) · [code](https://github.com/valentynkit/jev-plays-pokemon-red/blob/cbe5387aeb6c7b3ef6b1f67d4a95e284aee3b0af/src/jpp/policy.py) · [evidence](https://github.com/valentynkit/jev-plays-pokemon-red/blob/cbe5387aeb6c7b3ef6b1f67d4a95e284aee3b0af/README.md) | primary-source-reviewed / 2026-09-23 | MIT |
