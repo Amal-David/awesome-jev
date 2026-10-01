@@ -6,7 +6,7 @@ Projects, demos, and tools built with [Jev](https://docs.typesafe.ai/).
 
 Jev answers questions about data: pick an option, return a yes/no probability, or score something on a scale. It does not write text. The examples here show what people are using it for, with links to the code where available.
 
-**58 reviewed picks**. <a href="https://github.com/Amal-David/awesome-jev/blob/main/docs/REVIEWED.md">Source notes and licenses</a>. The larger discovery catalog is separate.
+**59 reviewed picks**. <a href="https://github.com/Amal-David/awesome-jev/blob/main/docs/REVIEWED.md">Source notes and licenses</a>. The larger discovery catalog is separate.
 
 [Quick start](#20-second-quick-start) · [Projects](#reviewed-picks) · [Demos from X](#watch-jev-in-action) · [CUA & drivers](#computer-use-and-drivers) · [OpenRouter winners](#openrouter-community-winners) · [Contributing](#contribute)
 
@@ -88,6 +88,7 @@ For simple rules, parsing, or arithmetic, use code. A dedicated classifier may b
 ### Apps and integrations
 
 - <a href="https://github.com/jerryjliu/docjev">DocJev</a> - Classifies documents and finds packet boundaries with Jev after local parsing or optional cloud OCR.
+- <a href="https://github.com/gherardo200-glitch/jev-bouncer">jev-bouncer</a> - Self-hosted Telegram moderation bot that asks Jev for per-category scores (scam, spam, ads, toxicity, flood) on each group message and runs them through YAML-defined thresholds to decide warn, delete, mute, ban, or flag-admin.
 - <a href="https://github.com/riesvile/nospace">nospace</a> - Adds spaces while you type. Jev chooses between possible word splits; a separate model handles spelling corrections.
 - <a href="https://github.com/antonio-ivanovski/spliit-cloud">Spliit Cloud</a> - Optional Jev Choice suggestions for expense categories after local dictionary and group-history matching; code interprets confidence before presenting results.
 - <a href="https://github.com/cairodavila/tisco">tisco</a> - Searches video transcripts with Jev, then previews clip moves and renames for approval.
@@ -126,7 +127,7 @@ For simple rules, parsing, or arithmetic, use code. A dedicated classifier may b
 
 - <a href="https://github.com/browser-use/browser-harness">Browser Harness (supporting driver)</a> - The CDP browser connection used by Jev Ultrafast. Model-neutral, not a Jev model.
 
-<a href="https://github.com/Amal-David/awesome-jev/blob/main/docs/REVIEWED.md">All 58 reviewed picks: source notes and licenses</a>
+<a href="https://github.com/Amal-David/awesome-jev/blob/main/docs/REVIEWED.md">All 59 reviewed picks: source notes and licenses</a>
 
 ## Computer use and drivers
 
