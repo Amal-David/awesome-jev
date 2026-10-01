@@ -14,6 +14,7 @@ Check permissions and data handling before running a project. Source review is n
 - [Apps and Integrations](#apps-and-integrations)
 - [Games and Creative Projects](#games-and-creative-projects)
 - [Independent Models](#independent-models)
+- [Reading and Research](#reading-and-research)
 - [Supporting Drivers](#supporting-drivers)
 
 ## Getting Started
@@ -111,6 +112,7 @@ The [full creator gallery](docs/DIRECTORY.md#watch-jev-in-action) retains the ot
 - [Home Assistant Jev](https://github.com/AboveColin/HA-Jev) - Typed decisions for Home Assistant entities and automations.
 - [nospace](https://github.com/riesvile/nospace) - Experimental word-spacing interface where Jev chooses splits and a separate model handles spelling.
 - [Vibe Domain](https://obstudio.org/tools/vibe-domain) - Domain-name ranking with a no-key heuristic mode and an optional hosted Jev mode.
+- [Spliit Cloud](https://github.com/antonio-ivanovski/spliit-cloud) - Optional expense-category suggestions where Jev picks a category after local dictionary and history matching miss.
 
 ## Games and Creative Projects
 
@@ -132,6 +134,10 @@ These projects are not official TypeSafe Jev weights, and compatible outputs do 
 - [Jevlike](https://github.com/vinnylarouge/jevlike) - Independent option scorer with training code and game examples.
 - [OpenJev SGLang](https://github.com/ekzhang/openjev-sglang) - Independent typed-decision server using open models and SGLang.
 - [Open Medical Jev](https://github.com/FeiLiuEM/open-medical-jev) - Independent frozen-model medical decision router with confidence fusion and conformal candidate sets; not TypeSafe Jev weights.
+
+## Reading and Research
+
+- [Jev in the Wild](https://arxiv.org/abs/2609.30216) - Surveys 2,170 public Jev projects and maps early growth, application domains, and decision-use patterns.
 
 ## Supporting Drivers
 

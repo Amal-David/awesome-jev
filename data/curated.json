@@ -206,6 +206,19 @@
     "notes": "OpenRouter community winner, announced 2026-09-21. Public page reviewed; no public source repository or code license verified. Documentation distinguishes a no-key heuristic mode from live OpenRouter inference. No availability check or API call was run here. Recheck names at a registrar and review key handling before entering credentials."
   },
   {
+    "repo": "antonio-ivanovski/spliit-cloud",
+    "name": "Spliit Cloud",
+    "category": "apps",
+    "description": "Optional Jev Choice suggestions for expense categories after local dictionary and group-history matching; code interprets confidence before presenting results.",
+    "evidence": "https://github.com/antonio-ivanovski/spliit-cloud/blob/02d2d135c68f2035a350025c48d3fff51cccd36d/README.md#deduce-category-from-title",
+    "demo": "https://spliit.cloud/",
+    "code": "https://github.com/antonio-ivanovski/spliit-cloud/blob/02d2d135c68f2035a350025c48d3fff51cccd36d/apps/api/src/lib/ai/system-one-categorize.ts",
+    "license": "MIT",
+    "kind": "optional-integration",
+    "reviewed": "2026-09-30",
+    "notes": "Submitted by the Spliit Cloud maintainer. Hosted Jev is optional and uses a server-side key; expense titles, language, group metadata and category examples reach the configured provider, with additional expense context for bulk review. Use data approved for hosted processing and a trusted HTTPS endpoint. The custom-URL guard has a broad 127. hostname-prefix exception and requests follow redirects; this is not an end-to-end transport guarantee. Confidence and probability checks support advisory suggestions, not guaranteed categorization accuracy. Source and tests were inspected, not executed; the hosted engine was not verified and no paid inference was run. See docs/MAINTENANCE.md for the scoped review and source links."
+  },
+  {
     "repo": "caio0452/jev_search",
     "name": "jev_search",
     "category": "agents",
@@ -420,6 +433,17 @@
     "notes": "Submitted in PR #1. Requires a lawful local Pokemon Red dump; the repository does not ship ROM or save-state game data. Unknown or failed model choices fall back to code-owned legal actions. Author timing/cost and cartridge behavior were not reproduced. Default inference is TypeSafe HTTPS; a custom JEV_BASE_URL should be a trusted HTTPS endpoint when a real bearer key is used. Source-reviewed only; no ROM, upstream tests, or live inference were run here."
   },
   {
+    "repo": "cwdx/1-million-emojis",
+    "name": "1 Million Emojis",
+    "category": "games",
+    "description": "Shared 1000 × 1000 emoji canvas where, after each stroke, Jev picks a neighbouring square and emoji from typed options and code finishes a shape Jev judges unfinished.",
+    "evidence": "https://github.com/cwdx/1-million-emojis",
+    "reviewed": "2026-09-29",
+    "code": "https://github.com/cwdx/1-million-emojis/blob/main/packages/emoji/src/jev-join.ts",
+    "demo": "https://chriswijnia.com/lab/emoji",
+    "license": "MIT"
+  },
+  {
     "repo": "kyu1204/jgrep",
     "name": "jgrep (npm: jevgrep)",
     "category": "agents",
@@ -610,14 +634,13 @@
     "notes": "Independent Jev-class research system, not TypeSafe Jev weights and not a medical device. The frozen readers are served locally; the repository ships code and recipes but no model weights, exam corpora, or per-item restricted evaluation data. Default calibration constants are distribution-bound and require recalibration under shift. Reported medical-exam accuracy, calibration, latency, and comparison figures are author-reported and were not reproduced here. Source, protocol, calibration, data policy, tests, and current upstream CI were inspected; no models or third-party project code were executed."
   },
   {
-    "repo": "cwdx/1-million-emojis",
-    "name": "1 Million Emojis",
-    "category": "games",
-    "description": "Shared 1000 × 1000 emoji canvas where, after each stroke, Jev picks a neighbouring square and emoji from typed options and code finishes a shape Jev judges unfinished.",
-    "evidence": "https://github.com/cwdx/1-million-emojis",
+    "url": "https://arxiv.org/abs/2609.30216",
+    "name": "Jev in the Wild",
+    "category": "articles",
+    "description": "Data-driven survey of 2,170 public Jev projects, mapping early growth, application domains, and decision-use patterns.",
+    "evidence": "https://arxiv.org/abs/2609.30216",
     "reviewed": "2026-09-29",
-    "code": "https://github.com/cwdx/1-million-emojis/blob/main/packages/emoji/src/jev-join.ts",
-    "demo": "https://chriswijnia.com/lab/emoji",
-    "license": "MIT"
+    "kind": "ecosystem-survey",
+    "notes": "An arXiv software-engineering preprint about public Jev applications, not a runnable Jev integration or independent model evaluation."
   }
 ]

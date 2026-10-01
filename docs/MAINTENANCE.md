@@ -6,6 +6,18 @@ Each pass reads open issues, PR diffs, new comments, previous reviews, and curre
 
 Keep the README short and leave the existing X gallery alone unless a correction is needed. Do not run submitted projects, install their dependencies or skills, use real inference keys, or enable privileged fork workflows to perform a review.
 
+## September 30: proportional contribution review
+
+The owner asked for a more developer-friendly approach. Routine list maintenance belongs to us; optional hardening is not automatically a blocking requirement. Review the risk in the project's expected use, keep limitations explicit, and do not treat a directory entry as a security certification. Required checks, source evidence, licensing clarity and material safety concerns still apply.
+
+### Spliit Cloud — PR #3
+
+The [submission](https://github.com/Amal-David/awesome-jev/pull/3) is accepted as an **optional integration** with a trusted-HTTPS usage boundary. The earlier nonnumeric-confidence issue is addressed by the current [response checks](https://github.com/antonio-ivanovski/spliit-cloud/blob/02d2d135c68f2035a350025c48d3fff51cccd36d/apps/api/src/lib/ai/system-one-categorize.ts); [test source](https://github.com/antonio-ivanovski/spliit-cloud/blob/02d2d135c68f2035a350025c48d3fff51cccd36d/apps/api/src/lib/ai/system-one-categorize.test.ts) covers invalid answer types, confidence and probability payloads. This is source inspection, not execution of those tests or a claim of fully calibrated distributions. The [MIT license](https://github.com/antonio-ivanovski/spliit-cloud/blob/02d2d135c68f2035a350025c48d3fff51cccd36d/LICENSE) was inspected.
+
+The [URL guard](https://github.com/antonio-ivanovski/spliit-cloud/blob/02d2d135c68f2035a350025c48d3fff51cccd36d/apps/api/src/lib/ai/system-one-base-url.ts) still accepts hostnames beginning with `127.`, and the request follows redirects. These remain real limitations, not claimed fixes. Their relevance here is an operator-configured optional endpoint, rather than a demonstrated exposure in the default TypeSafe HTTPS route. The listing therefore instructs operators to use trusted HTTPS and removes the overly broad transport-security claim. The hostname correction and redirect rejection are non-blocking hardening for this scoped listing, not prerequisites for another author push. This supersedes the earlier request to hold the listing solely for that edge case.
+
+The maintainer handles the current-main integration and regenerated views. Original contributor credit is retained. No project code, account, expense data or paid inference is used for curation; the hosted instance's active engine and performance are not verified.
+
 ## September 23 review
 
 | Item | Outcome |

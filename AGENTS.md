@@ -57,6 +57,12 @@ Editorial pushes build offline. Scheduled/manual runs keep the existing bounded 
 
 The owner authorizes a contribution-review pass every four hours, including scoped fixes, accepted merges, and closing verified completed issues. Read `docs/MAINTENANCE.md` for the latest dated review, but fetch live issues, PR heads, comments, and checks before acting. Preserve contributor credit. Merge only the reviewed and validated head; never force-push, waive substantive review concerns, or weaken protections to make a merge succeed. Leave actionable source-linked feedback when blocked, and do not repeat an unchanged review. The scheduled assistant review is separate from the existing GitHub discovery workflow; neither automatically promotes or blindly merges submissions.
 
+### Developer-friendly review (owner direction, September 30, 2026)
+
+Treat contributors as collaborators. A directory submission is not a production-security certification. Assess usefulness, honest scope and realistic risk; do not turn every optional-configuration edge case or hardening suggestion into an admission requirement. A limitation may be documented rather than block inclusion when the expected use is reasonably safe, the boundary is clear, and the description makes no stronger guarantee. Explain that judgment; never claim an unresolved bug was fixed or dismiss a material credential/data risk merely as an edge case.
+
+Handle routine wording, metadata, generated-view conflicts and current-main forward-ports ourselves, preserving contributor credit. Do not ask for another rebase solely because scheduled discovery advanced main. Give one friendly, consolidated review that separates required fixes from non-blocking suggestions; reserve blockers for substantive evidence, licensing, correctness or safety concerns that cannot be responsibly scoped. Do not add unrelated requirements after earlier feedback is addressed. Validate the exact intended result and respect existing checks and approval gates; then publish accepted contributions promptly and leave one brief first-person thank-you after verified completion. No duplicate nudges or promises of continuous monitoring.
+
 Use explicit UTF-8 for repository text I/O. Publisher integration tests require both Git and Bash and must report missing prerequisites as skips. Report simulated-locale testing separately from native Windows testing.
 
 ## Awesome index preparation
