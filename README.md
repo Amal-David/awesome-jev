@@ -109,6 +109,7 @@ The [full creator gallery](docs/DIRECTORY.md#watch-jev-in-action) retains the ot
 - [neo4jev](https://github.com/jexp/neo4jev) - Neo4j graph exploration using edge choices and goal checks inside a bounded beam search.
 - [MinusPodJev](https://github.com/ttlequals0/MinusPodJev) - Podcast ad-detection adapter that scores transcript segments and assembles ad spans in code.
 - [llm-typesafe](https://github.com/simonw/llm-typesafe) - Jev access from the LLM command line or Python, including stdin, templates, and async calls.
+- [jevotron](https://cmungall.github.io/jevotron/) - Command line tools for Jev, with convenient adapters for multiple input file formats.
 - [Home Assistant Jev](https://github.com/AboveColin/HA-Jev) - Typed decisions for Home Assistant entities and automations.
 - [nospace](https://github.com/riesvile/nospace) - Experimental word-spacing interface where Jev chooses splits and a separate model handles spelling.
 - [Vibe Domain](https://obstudio.org/tools/vibe-domain) - Domain-name ranking with a no-key heuristic mode and an optional hosted Jev mode.
