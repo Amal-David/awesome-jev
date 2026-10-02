@@ -6,11 +6,11 @@
 
 | Measure | Recorded value |
 |---|---|
-| Reviewed / indexed / auto-discovered | 58 / 1080 / 1181 |
-| Catalog entries (not all reviewed) | 2319 |
-| Last completed discovery pass (UTC) | 2026-10-01T21:06:50Z |
-| Latest rotating repository metadata check | 2026-10-01 |
-| Repositories with a recorded metadata check | 2227 / 2227 |
+| Reviewed / indexed / auto-discovered | 58 / 1082 / 1204 |
+| Catalog entries (not all reviewed) | 2344 |
+| Last completed discovery pass (UTC) | 2026-10-02T05:53:26Z |
+| Latest rotating repository metadata check | 2026-10-02 |
+| Repositories with a recorded metadata check | 2252 / 2252 |
 | Repositories unavailable at their last check (404/410) | 27 |
 | Media records with a latest-attempt error | 1 |
 | Editorial exclusions | 1 |
@@ -21,7 +21,7 @@ Repository checks rotate: the newest check date does not mean every entry was ch
 
 The discovery timestamp advances only after a network discovery pass completes. An offline directory rebuild, test run or media-only refresh never advances it. The Actions result, not the cron expression, establishes that a workflow ran successfully.
 
-<a href="https://github.com/Amal-David/awesome-jev/actions/runs/36926280334">Discovery run receipt</a>
+<a href="https://github.com/Amal-David/awesome-jev/actions/runs/36970858844">Discovery run receipt</a>
 
 <a href="https://github.com/Amal-David/awesome-jev/actions/workflows/curate.yml">All refresh runs</a>
 
@@ -45,7 +45,7 @@ The discovery timestamp advances only after a network discovery pass completes. 
 - <a href="https://github.com/develatter/notos-intelligence-go">develatter/notos-intelligence-go</a> — last check 2026-10-01
 - <a href="https://github.com/zoidsh/tenet">zoidsh/tenet</a> — last check 2026-10-01
 - <a href="https://github.com/armsteadj1/vibe-smart-router">armsteadj1/vibe-smart-router</a> — last check 2026-09-30
-- <a href="https://github.com/eriestra/almond-fastloop">eriestra/almond-fastloop</a> — last check 2026-09-25
+- <a href="https://github.com/eriestra/almond-fastloop">eriestra/almond-fastloop</a> — last check 2026-10-02
 - <a href="https://github.com/vlad-terin/jev-browser">vlad-terin/jev-browser</a> — last check 2026-09-29
 - <a href="https://github.com/benballintyn/jev-mcp">benballintyn/jev-mcp</a> — last check 2026-09-30
 - <a href="https://github.com/rajdhakad9826/routeKit">rajdhakad9826/routeKit</a> — last check 2026-09-27
@@ -57,4 +57,4 @@ The discovery timestamp advances only after a network discovery pass completes. 
 
 ## Media checks needing attention
 
-- abide-video — HTTPError; attempted 2026-10-01
+- abide-video — HTTPError; attempted 2026-10-02
