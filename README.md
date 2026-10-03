@@ -134,6 +134,7 @@ These projects are not official TypeSafe Jev weights, and compatible outputs do 
 - [Jevlike](https://github.com/vinnylarouge/jevlike) - Independent option scorer with training code and game examples.
 - [OpenJev SGLang](https://github.com/ekzhang/openjev-sglang) - Independent typed-decision server using open models and SGLang.
 - [Open Medical Jev](https://github.com/FeiLiuEM/open-medical-jev) - Independent frozen-model medical decision router with confidence fusion and conformal candidate sets; not TypeSafe Jev weights.
+- [WaterSheep](https://github.com/SamratDuttaOfficial/WaterSheep) - Independent open-weight model for yes/no, choice, score and multi-label questions, with a probability for every option; not TypeSafe Jev weights.
 
 ## Reading and Research
 

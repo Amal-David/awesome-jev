@@ -44081,6 +44081,22 @@
     "url": "https://github.com/wfzyx/von"
   },
   {
+    "category": "research",
+    "code": "https://github.com/SamratDuttaOfficial/WaterSheep/blob/3ccf02b3839fd2d72e6fb29750488010c7d76360/watersheep/cli.py",
+    "description": "Independent open-weight model for yes/no, choice, score and multi-label questions, with a probability for every option. Not TypeSafe Jev weights.",
+    "evidence_level": "primary-source-reviewed",
+    "kind": "independent-reproduction",
+    "license": "Apache-2.0",
+    "name": "WaterSheep",
+    "notes": "Author submission. Weights are on Hugging Face as samratduttaofficial/WaterSheep. `watersheep --serve` answers POST /v1/systemone on localhost and sends nothing to TypeSafe; the official Python SDK works through TYPESAFE_BASE_URL. English only. The accuracy and calibration figures in its README are the author's own and have not been reproduced independently.",
+    "repo": "SamratDuttaOfficial/WaterSheep",
+    "reviewed": "2026-10-04",
+    "sources": [
+      "https://github.com/SamratDuttaOfficial/WaterSheep/blob/3ccf02b3839fd2d72e6fb29750488010c7d76360/README.md"
+    ],
+    "url": "https://github.com/SamratDuttaOfficial/WaterSheep"
+  },
+  {
     "archived": false,
     "category": "research",
     "demo": "https://pypi.org/project/watfile/",
