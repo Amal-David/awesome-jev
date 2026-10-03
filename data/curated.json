@@ -631,5 +631,17 @@
     "reviewed": "2026-09-29",
     "kind": "ecosystem-survey",
     "notes": "An arXiv software-engineering preprint about public Jev applications, not a runnable Jev integration or independent model evaluation."
+  },
+  {
+    "repo": "SamratDuttaOfficial/WaterSheep",
+    "name": "WaterSheep",
+    "category": "research",
+    "description": "Independent open-weight model for yes/no, choice, score and multi-label questions, with a probability for every option. Not TypeSafe Jev weights.",
+    "evidence": "https://github.com/SamratDuttaOfficial/WaterSheep/blob/3ccf02b3839fd2d72e6fb29750488010c7d76360/README.md",
+    "code": "https://github.com/SamratDuttaOfficial/WaterSheep/blob/3ccf02b3839fd2d72e6fb29750488010c7d76360/watersheep/cli.py",
+    "license": "Apache-2.0",
+    "kind": "independent-reproduction",
+    "reviewed": "2026-10-04",
+    "notes": "Author submission. Weights are on Hugging Face as samratduttaofficial/WaterSheep. `watersheep --serve` answers POST /v1/systemone on localhost and sends nothing to TypeSafe; the official Python SDK works through TYPESAFE_BASE_URL. English only. The accuracy and calibration figures in its README are the author's own and have not been reproduced independently."
   }
 ]
