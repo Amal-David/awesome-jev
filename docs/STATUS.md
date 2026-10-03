@@ -6,12 +6,12 @@
 
 | Measure | Recorded value |
 |---|---|
-| Reviewed / indexed / auto-discovered | 58 / 1078 / 1266 |
-| Catalog entries (not all reviewed) | 2402 |
-| Last completed discovery pass (UTC) | 2026-10-03T05:28:34Z |
+| Reviewed / indexed / auto-discovered | 58 / 1081 / 1286 |
+| Catalog entries (not all reviewed) | 2425 |
+| Last completed discovery pass (UTC) | 2026-10-03T13:31:40Z |
 | Latest rotating repository metadata check | 2026-10-03 |
-| Repositories with a recorded metadata check | 2310 / 2310 |
-| Repositories unavailable at their last check (404/410) | 30 |
+| Repositories with a recorded metadata check | 2333 / 2333 |
+| Repositories unavailable at their last check (404/410) | 31 |
 | Media records with a latest-attempt error | 1 |
 | Editorial exclusions | 1 |
 
@@ -21,7 +21,7 @@ Repository checks rotate: the newest check date does not mean every entry was ch
 
 The discovery timestamp advances only after a network discovery pass completes. An offline directory rebuild, test run or media-only refresh never advances it. The Actions result, not the cron expression, establishes that a workflow ran successfully.
 
-<a href="https://github.com/Amal-David/awesome-jev/actions/runs/37099876947">Discovery run receipt</a>
+<a href="https://github.com/Amal-David/awesome-jev/actions/runs/37126398579">Discovery run receipt</a>
 
 <a href="https://github.com/Amal-David/awesome-jev/actions/workflows/curate.yml">All refresh runs</a>
 
@@ -31,6 +31,7 @@ The discovery timestamp advances only after a network discovery pass completes. 
 - <a href="https://github.com/elberacasa/chimbometro">elberacasa/chimbometro</a> — last check 2026-10-01
 - <a href="https://github.com/elialm94/driva">elialm94/driva</a> — last check 2026-10-01
 - <a href="https://github.com/cassiomc1/fast-jev-compaction-alt">cassiomc1/fast-jev-compaction-alt</a> — last check 2026-09-30
+- <a href="https://github.com/fine5351/game-assistant">fine5351/game-assistant</a> — last check 2026-10-03
 - <a href="https://github.com/hellomrleeus/google-maps-place-scout">hellomrleeus/google-maps-place-scout</a> — last check 2026-10-02
 - <a href="https://github.com/tivojn/gpt-live-avatar">tivojn/gpt-live-avatar</a> — last check 2026-09-29
 - <a href="https://github.com/aoi-yoneda/haikyuBattleJev">aoi-yoneda/haikyuBattleJev</a> — last check 2026-09-30
