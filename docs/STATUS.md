@@ -6,12 +6,12 @@
 
 | Measure | Recorded value |
 |---|---|
-| Reviewed / indexed / auto-discovered | 58 / 1081 / 1357 |
-| Catalog entries (not all reviewed) | 2496 |
-| Last completed discovery pass (UTC) | 2026-10-04T06:03:57Z |
+| Reviewed / indexed / auto-discovered | 58 / 1081 / 1380 |
+| Catalog entries (not all reviewed) | 2519 |
+| Last completed discovery pass (UTC) | 2026-10-04T14:09:38Z |
 | Latest rotating repository metadata check | 2026-10-04 |
-| Repositories with a recorded metadata check | 2404 / 2404 |
-| Repositories unavailable at their last check (404/410) | 31 |
+| Repositories with a recorded metadata check | 2427 / 2427 |
+| Repositories unavailable at their last check (404/410) | 32 |
 | Media records with a latest-attempt error | 1 |
 | Editorial exclusions | 1 |
 
@@ -21,7 +21,7 @@ Repository checks rotate: the newest check date does not mean every entry was ch
 
 The discovery timestamp advances only after a network discovery pass completes. An offline directory rebuild, test run or media-only refresh never advances it. The Actions result, not the cron expression, establishes that a workflow ran successfully.
 
-<a href="https://github.com/Amal-David/awesome-jev/actions/runs/37181640421">Discovery run receipt</a>
+<a href="https://github.com/Amal-David/awesome-jev/actions/runs/37208143814">Discovery run receipt</a>
 
 <a href="https://github.com/Amal-David/awesome-jev/actions/workflows/curate.yml">All refresh runs</a>
 
@@ -34,6 +34,7 @@ The discovery timestamp advances only after a network discovery pass completes. 
 - <a href="https://github.com/fine5351/game-assistant">fine5351/game-assistant</a> — last check 2026-10-03
 - <a href="https://github.com/hellomrleeus/google-maps-place-scout">hellomrleeus/google-maps-place-scout</a> — last check 2026-10-02
 - <a href="https://github.com/tivojn/gpt-live-avatar">tivojn/gpt-live-avatar</a> — last check 2026-09-29
+- <a href="https://github.com/itsaslamopenclawdata/GrowthCompany_JevOutputs">itsaslamopenclawdata/GrowthCompany_JevOutputs</a> — last check 2026-10-04
 - <a href="https://github.com/aoi-yoneda/haikyuBattleJev">aoi-yoneda/haikyuBattleJev</a> — last check 2026-09-30
 - <a href="https://github.com/mjyoke1111/jev-agent-safety-arena">mjyoke1111/jev-agent-safety-arena</a> — last check 2026-10-02
 - <a href="https://github.com/altregubov/jev-antigravity-decider">altregubov/jev-antigravity-decider</a> — last check 2026-09-30
