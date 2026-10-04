@@ -6,11 +6,11 @@
 
 | Measure | Recorded value |
 |---|---|
-| Reviewed / indexed / auto-discovered | 58 / 1081 / 1380 |
-| Catalog entries (not all reviewed) | 2519 |
-| Last completed discovery pass (UTC) | 2026-10-04T14:09:38Z |
+| Reviewed / indexed / auto-discovered | 58 / 1081 / 1403 |
+| Catalog entries (not all reviewed) | 2542 |
+| Last completed discovery pass (UTC) | 2026-10-04T19:43:19Z |
 | Latest rotating repository metadata check | 2026-10-04 |
-| Repositories with a recorded metadata check | 2427 / 2427 |
+| Repositories with a recorded metadata check | 2450 / 2450 |
 | Repositories unavailable at their last check (404/410) | 32 |
 | Media records with a latest-attempt error | 1 |
 | Editorial exclusions | 1 |
@@ -21,7 +21,7 @@ Repository checks rotate: the newest check date does not mean every entry was ch
 
 The discovery timestamp advances only after a network discovery pass completes. An offline directory rebuild, test run or media-only refresh never advances it. The Actions result, not the cron expression, establishes that a workflow ran successfully.
 
-<a href="https://github.com/Amal-David/awesome-jev/actions/runs/37208143814">Discovery run receipt</a>
+<a href="https://github.com/Amal-David/awesome-jev/actions/runs/37229275586">Discovery run receipt</a>
 
 <a href="https://github.com/Amal-David/awesome-jev/actions/workflows/curate.yml">All refresh runs</a>
 
@@ -56,7 +56,7 @@ The discovery timestamp advances only after a network discovery pass completes. 
 - <a href="https://github.com/rajdhakad9826/routeKit">rajdhakad9826/routeKit</a> — last check 2026-09-27
 - <a href="https://github.com/ThePikey/AOS_GLM_language">ThePikey/AOS_GLM_language</a> — last check 2026-10-01
 - <a href="https://github.com/brudarko/jev-mac-voice">brudarko/jev-mac-voice</a> — last check 2026-09-30
-- <a href="https://github.com/kcb-swe-gh/typesafe-ai-jev">kcb-swe-gh/typesafe-ai-jev</a> — last check 2026-09-27
+- <a href="https://github.com/kcb-swe-gh/typesafe-ai-jev">kcb-swe-gh/typesafe-ai-jev</a> — last check 2026-10-04
 - <a href="https://github.com/trophee-bot/typesafe-oracles">trophee-bot/typesafe-oracles</a> — last check 2026-09-29
 - <a href="https://github.com/sysadarsh/zerosweep">sysadarsh/zerosweep</a> — last check 2026-09-28
 
