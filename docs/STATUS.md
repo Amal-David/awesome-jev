@@ -6,11 +6,11 @@
 
 | Measure | Recorded value |
 |---|---|
-| Reviewed / indexed / auto-discovered | 59 / 1081 / 1311 |
-| Catalog entries (not all reviewed) | 2451 |
-| Last completed discovery pass (UTC) | 2026-10-03T19:18:53Z |
-| Latest rotating repository metadata check | 2026-10-03 |
-| Repositories with a recorded metadata check | 2358 / 2359 |
+| Reviewed / indexed / auto-discovered | 59 / 1081 / 1357 |
+| Catalog entries (not all reviewed) | 2497 |
+| Last completed discovery pass (UTC) | 2026-10-04T06:03:57Z |
+| Latest rotating repository metadata check | 2026-10-04 |
+| Repositories with a recorded metadata check | 2404 / 2405 |
 | Repositories unavailable at their last check (404/410) | 31 |
 | Media records with a latest-attempt error | 1 |
 | Editorial exclusions | 1 |
@@ -21,7 +21,7 @@ Repository checks rotate: the newest check date does not mean every entry was ch
 
 The discovery timestamp advances only after a network discovery pass completes. An offline directory rebuild, test run or media-only refresh never advances it. The Actions result, not the cron expression, establishes that a workflow ran successfully.
 
-<a href="https://github.com/Amal-David/awesome-jev/actions/runs/37147373061">Discovery run receipt</a>
+<a href="https://github.com/Amal-David/awesome-jev/actions/runs/37181640421">Discovery run receipt</a>
 
 <a href="https://github.com/Amal-David/awesome-jev/actions/workflows/curate.yml">All refresh runs</a>
 
@@ -61,4 +61,4 @@ The discovery timestamp advances only after a network discovery pass completes. 
 
 ## Media checks needing attention
 
-- abide-video — HTTPError; attempted 2026-10-03
+- abide-video — HTTPError; attempted 2026-10-04
