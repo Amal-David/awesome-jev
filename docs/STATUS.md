@@ -6,11 +6,11 @@
 
 | Measure | Recorded value |
 |---|---|
-| Reviewed / indexed / auto-discovered | 58 / 1317 / 1570 |
-| Catalog entries (not all reviewed) | 2945 |
-| Last completed discovery pass (UTC) | 2026-10-07T06:11:31Z |
+| Reviewed / indexed / auto-discovered | 58 / 1348 / 1588 |
+| Catalog entries (not all reviewed) | 2994 |
+| Last completed discovery pass (UTC) | 2026-10-07T15:38:44Z |
 | Latest rotating repository metadata check | 2026-10-07 |
-| Repositories with a recorded metadata check | 2845 / 2845 |
+| Repositories with a recorded metadata check | 2894 / 2894 |
 | Repositories unavailable at their last check (404/410) | 33 |
 | Media records with a latest-attempt error | 1 |
 | Editorial exclusions | 1 |
@@ -21,7 +21,7 @@ Repository checks rotate: the newest check date does not mean every entry was ch
 
 The discovery timestamp advances only after a network discovery pass completes. An offline directory rebuild, test run or media-only refresh never advances it. The Actions result, not the cron expression, establishes that a workflow ran successfully.
 
-<a href="https://github.com/Amal-David/awesome-jev/actions/runs/37580075638">Discovery run receipt</a>
+<a href="https://github.com/Amal-David/awesome-jev/actions/runs/37645395309">Discovery run receipt</a>
 
 <a href="https://github.com/Amal-David/awesome-jev/actions/workflows/curate.yml">All refresh runs</a>
 
@@ -59,7 +59,7 @@ The discovery timestamp advances only after a network discovery pass completes. 
 - <a href="https://github.com/brudarko/jev-mac-voice">brudarko/jev-mac-voice</a> — last check 2026-09-30
 - <a href="https://github.com/kcb-swe-gh/typesafe-ai-jev">kcb-swe-gh/typesafe-ai-jev</a> — last check 2026-10-04
 - <a href="https://github.com/trophee-bot/typesafe-oracles">trophee-bot/typesafe-oracles</a> — last check 2026-09-29
-- <a href="https://github.com/sysadarsh/zerosweep">sysadarsh/zerosweep</a> — last check 2026-09-28
+- <a href="https://github.com/sysadarsh/zerosweep">sysadarsh/zerosweep</a> — last check 2026-10-07
 
 ## Media checks needing attention
 
