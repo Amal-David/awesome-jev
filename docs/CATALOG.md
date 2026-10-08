@@ -3046,7 +3046,7 @@ Evidence: **primary-source-reviewed** = public primary source inspected; **commu
 | jev-radar | 📡 全网最全 · The world's most comprehensive tracker of the Jev (TypeSafe AI System One) ecosystem — 220+ documented cases · 108 confidence-graded entries · verified &amp; rescanned every 3 hours · API access guide included Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review. | [repo](https://github.com/everyinfra/jev-radar) · [evidence](https://github.com/hellogumbo/awesome-jev) | community-indexed | NOASSERTION |
 | jev-skill | An awesome collection of Jev use cases, workflows, and agent skills. | [repo](https://github.com/wuyoscar/jev-skill) · [evidence](https://github.com/hellogumbo/awesome-jev) | community-indexed | MIT |
 
-## Articles and demonstrations (54)
+## Articles and demonstrations (55)
 
 | Project | Jev role / reuse notes | Links | Evidence | License / status |
 |---|---|---|---|---|
@@ -3073,6 +3073,7 @@ Evidence: **primary-source-reviewed** = public primary source inspected; **commu
 | Jev in the Wild | Data-driven survey of 2,170 public Jev projects, mapping early growth, application domains, and decision-use patterns. An arXiv software-engineering preprint about public Jev applications, not a runnable Jev integration or independent model evaluation. | [project](https://arxiv.org/abs/2609.30216) · [evidence](https://arxiv.org/abs/2609.30216) | primary-source-reviewed / 2026-09-29 | not-checked |
 | Jev plays Minecraft (r/accelerate) | Work-in-progress demo of Jev driving Minecraft, including fleeing zombies at night. | [project](https://reddit.com/r/accelerate/comments/1whk9oy/new_typesafe_ai_jev_model_playing_minecraft_wip/) · [evidence](https://github.com/hellogumbo/awesome-jev) | community-indexed | not-checked |
 | Jev Typewriter launch | Steve Krouse's playable 16-judgment demo and video. | [project](https://x.com/stevekrouse/status/2100287368221659289) · [evidence](https://github.com/hellogumbo/awesome-jev) | community-indexed | not-checked |
+| Jev vs an LLM: the numbers builders published | Puts published Jev and LLM runs of the same job side by side and lists the cases where the larger model still won. Submitted by Jon Kraayenbrink, who runs madewithjev.com. A compilation of builder-reported numbers, not independent measurements or a runnable integration; part of the page is embedded builder posts. | [project](https://madewithjev.com/jev-vs-llm) · [evidence](https://madewithjev.com/jev-vs-llm) | primary-source-reviewed / 2026-10-08 | not-checked |
 | Jev vs Mistral and Gemini for event validation | Head-to-head test at validating local event listings, with cost and latency. | [project](https://nearhere.events/blog/typesafe-jev-mistral-gemini-event-validation) · [evidence](https://github.com/hellogumbo/awesome-jev) | community-indexed | not-checked |
 | Jev vs Qwen on Cerebras | Video comparison against a structured-output LLM baseline. | [project](https://x.com/iamMrDuncan/status/2100467548298899918) · [evidence](https://github.com/hellogumbo/awesome-jev) | community-indexed | not-checked |
 | jev 同士に五目並べで対戦させた | Jev vs Jev gomoku with source and timing logs. | [project](https://zenn.dev/mizchi/articles/jev-plays-gomoku) · [evidence](https://github.com/hellogumbo/awesome-jev) | community-indexed | not-checked |

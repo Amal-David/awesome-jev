@@ -155,6 +155,7 @@ These projects are not official TypeSafe Jev weights, and compatible outputs do 
 ## Reading and Research
 
 - [Jev in the Wild](https://arxiv.org/abs/2609.30216) - Surveys 2,170 public Jev projects and maps early growth, application domains, and decision-use patterns.
+- [Jev vs an LLM: the numbers builders published](https://madewithjev.com/jev-vs-llm) - Puts published Jev and LLM runs of the same job side by side (100,000 posts for $0.67 against 214 for $0.98) and lists the cases where the larger model still won.
 
 ## Supporting Drivers
 

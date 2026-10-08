@@ -2,7 +2,7 @@
 
 [Start here](../README.md) · [Browse by task](START_HERE.md) · [Search and filters](BROWSE.md) · [Full catalog](CATALOG.md)
 
-**68 selections reviewed against primary public sources.** Source review is not a security audit or a reproduced benchmark.
+**69 selections reviewed against primary public sources.** Source review is not a security audit or a reproduced benchmark.
 
 ## Official resources
 
@@ -126,4 +126,5 @@
 | Project | Jev role / reuse notes | Links | Evidence | License / status |
 |---|---|---|---|---|
 | Jev in the Wild | Data-driven survey of 2,170 public Jev projects, mapping early growth, application domains, and decision-use patterns. An arXiv software-engineering preprint about public Jev applications, not a runnable Jev integration or independent model evaluation. | [project](https://arxiv.org/abs/2609.30216) · [evidence](https://arxiv.org/abs/2609.30216) | primary-source-reviewed / 2026-09-29 | not-checked |
+| Jev vs an LLM: the numbers builders published | Puts published Jev and LLM runs of the same job side by side and lists the cases where the larger model still won. Submitted by Jon Kraayenbrink, who runs madewithjev.com. A compilation of builder-reported numbers, not independent measurements or a runnable integration; part of the page is embedded builder posts. | [project](https://madewithjev.com/jev-vs-llm) · [evidence](https://madewithjev.com/jev-vs-llm) | primary-source-reviewed / 2026-10-08 | not-checked |
 
