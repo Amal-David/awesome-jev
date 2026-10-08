@@ -147,6 +147,7 @@ The [full creator gallery](docs/DIRECTORY.md#watch-jev-in-action) retains the ot
 
 These projects are not official TypeSafe Jev weights, and compatible outputs do not establish equivalent quality.
 
+- [Cloudflare Clef / Clef-flash](https://huggingface.co/Cloudflare/clef) - Open-weight 27B and 9B multimodal decision models with a Jev-compatible API, runnable locally or through Workers AI; not TypeSafe Jev weights.
 - [AnyJev](https://github.com/nokia-applied-research/AnyJev) - Typed-decision readouts for open models with option-order correction and per-question calibration.
 - [CUA-S1-FORMS](https://huggingface.co/cua-ai/cua-s1-forms) - Independent form-filling specialist and dataset, not a general desktop agent.
 - [Jevlike](https://github.com/vinnylarouge/jevlike) - Independent option scorer with training code and game examples.

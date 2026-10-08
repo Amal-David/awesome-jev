@@ -808,5 +808,18 @@
     "kind": "direct-integration",
     "reviewed": "2026-10-08",
     "notes": "Sends up to roughly 900 characters from the beginning and end of an agent's last message, plus agent/project labels and timing, to TypeSafe. With no key or on API failure it uses a local punctuation/state fallback; sound synthesis and playback remain local. Treat the audio as an ambient notification, not a reliable task-success signal. Request construction, response parsing, synthesizer boundaries, test source, key handling and license were inspected; no plugin, Tern runtime, audio command, upstream tests or paid inference was run here."
+  },
+  {
+    "url": "https://huggingface.co/Cloudflare/clef",
+    "name": "Cloudflare Clef / Clef-flash",
+    "category": "research",
+    "description": "Independent open-weight 27B and 9B multimodal decision models with a Jev-compatible API, for local use or hosted Workers AI inference.",
+    "evidence": "https://huggingface.co/Cloudflare/clef/blob/ed3eed331870db2eff4b0db01237128ede8a00ce/README.md",
+    "code": "https://huggingface.co/Cloudflare/clef/blob/ed3eed331870db2eff4b0db01237128ede8a00ce/joint_schema_model.py",
+    "demo": "https://developers.cloudflare.com/workers-ai/models/clef/",
+    "license": "Apache-2.0",
+    "kind": "independent-reproduction",
+    "reviewed": "2026-10-08",
+    "notes": "Cloudflare-trained models, not TypeSafe Jev weights: Clef uses a Qwen3.8-27B backbone and Clef-flash uses Qwen3.5-9B. The paired Clef-flash model card was inspected at fde727a287004204b7518dcc983fe64379776712; both revisions ship the same Jev/SystemOne adapter source and separate safetensor weights. The adapter supports noul, choice and score answers, truncates long state input to its configured token budget, and extends the shape with local image/video objects. Hosted Workers AI sends state, questions and optional media to Cloudflare; its data-usage documentation says customer content is not used for training or service improvement without explicit consent and may be stored when a storage service is used. Publisher benchmarks and compatibility claims were not independently reproduced. Model weights, custom code, dependencies and inference were not downloaded or executed."
   }
 ]
