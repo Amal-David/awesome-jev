@@ -314,34 +314,34 @@ For simple rules, parsing, or arithmetic, use code. A dedicated classifier may b
 </tr>
 <tr>
 <td width="50%" valign="top">
+<a href="https://x.com/bendiken/status/2102377817459872084"><img src="https://pbs.twimg.com/tweet_video_thumb/HS0hXk4a8AALTFv.jpg" alt="ASIMOV Jev output filter — creator preview; click to watch or inspect" width="480" loading="lazy"></a>
 <h4>ASIMOV Jev output filter</h4>
 <p>Filters fetched or listed JSON records with a plain-language Jev question before optional jq projection.</p>
 <p><a href="https://x.com/bendiken/status/2102377817459872084">▶ Watch on X</a> · <a href="https://github.com/asimov-platform/asimov-cli">Code</a> · <a href="https://github.com/asimov-platform/asimov-cli/blob/db1c26c77060bfbfff5e6ca5b972b80e4d6c8973/src/shared.rs">Source</a></p>
 <p><sub>Arto Bendiken / @bendiken — Original X post dates from September 2026; newly added to this gallery on 2026-10-08. Source inspected, not executed; X recording not independently watched.</sub></p>
-<p><sub>No reliable preview image was returned. The original watch link is retained.</sub></p>
 </td>
 <td width="50%" valign="top">
+<a href="https://x.com/trycua/status/2100649543079502213"><img src="https://pbs.twimg.com/media/HSb_nmIWYAAkGKa.jpg?name=orig" alt="Cua Driver + jev-use — creator preview; click to watch or inspect" width="480" loading="lazy"></a>
 <h4>Cua Driver + jev-use</h4>
 <p>Jev selects bounded driver actions; code executes and checks the outcome.</p>
 <p><a href="https://x.com/trycua/status/2100649543079502213">▶ Watch on X</a> · <a href="https://github.com/trycua/cua">Code</a> · <a href="https://github.com/trycua/cua/blob/49e924c4632882134b204b2e8a0ce8fae44418df/libs/cua-driver/examples/jev-use/README.md">Source</a></p>
 <p><sub>Cua / @trycua — Creator thread and source inspected; video not independently watched. The current source recipe uses a browser form fixture, so it does not reproduce the thread&#x27;s 2048 timing. Live decisions use hosted TypeSafe. Link-only entry; no media copied.</sub></p>
-<p><sub>No reliable preview image was returned. The original watch link is retained.</sub></p>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
+<a href="https://x.com/tamarajtran/status/2100694549362553153"><img src="https://pbs.twimg.com/amplify_video_thumb/2100694537672998912/img/OF8vottg6-45ZgNl.jpg" alt="fast-jev-compaction: selective history pruning — creator preview; click to watch or inspect" width="480" loading="lazy"></a>
 <h4>fast-jev-compaction: selective history pruning</h4>
 <p>A source-backed experiment in keeping or dropping tool history with Jev judgments.</p>
 <p><a href="https://x.com/tamarajtran/status/2100694549362553153">▶ Watch on X</a> · <a href="https://github.com/tamaratran/fast-jev-compaction">Code</a> · <a href="https://github.com/tamaratran/fast-jev-compaction/blob/e3f262a7f4d42bd8dd32ced30d26176f7cb545b0/README.md">Source</a></p>
 <p><sub>Tamara Tran / @tamarajtran — The repository&#x27;s animation is scripted; the API-backed library is separate. X recording not independently watched. Tool-result bodies are omitted from the decision state, and useful evidence can be lost. Link-only entry; no performance or quality result reproduced.</sub></p>
-<p><sub>No reliable preview image was returned. The original watch link is retained.</sub></p>
 </td>
 <td width="50%" valign="top">
+<a href="https://x.com/melvindvivas/status/2105347987098755186"><img src="https://pbs.twimg.com/media/HTeyC0daIAAroZ9.jpg?name=orig" alt="Jev dev: a desktop decision workbench — creator preview; click to watch or inspect" width="480" loading="lazy"></a>
 <h4>Jev dev: a desktop decision workbench</h4>
 <p>Edit typed Jev questions and inspect saved runs; browser preview uses demo answers.</p>
 <p><a href="https://x.com/melvindvivas/status/2105347987098755186">▶ Watch on X</a> · <a href="https://github.com/donvito/jev-dev">Code</a> · <a href="https://github.com/donvito/jev-dev/blob/5df666eb3223688a311e89edfb9278a82b1cc9e3/README.md">Source</a></p>
 <p><sub>donvito / @melvindvivas — Source-inspected social reference; X playback was not verified. Live requests send state and questions to TypeSafe; request and response history persists locally. No code or media license verified. Link-only entry; no preview asset copied.</sub></p>
-<p><sub>No reliable preview image was returned. The original watch link is retained.</sub></p>
 </td>
 </tr>
 </table>
@@ -527,7 +527,7 @@ For more demos and skills, browse [Ship with Jev](https://www.shipwithjev.com/).
 <details>
 <summary>Refresh status</summary>
 
-**Last discovery:** 2026-10-08T06:19:08Z (UTC). **Latest repository metadata date:** 2026-10-08. **Unavailable repositories at last check:** 34. <a href="https://github.com/Amal-David/awesome-jev/blob/main/docs/STATUS.md">Coverage, failures and run receipts</a>.
+**Last discovery:** 2026-10-08T15:43:49Z (UTC). **Latest repository metadata date:** 2026-10-08. **Unavailable repositories at last check:** 34. <a href="https://github.com/Amal-David/awesome-jev/blob/main/docs/STATUS.md">Coverage, failures and run receipts</a>.
 
 The four-hour job updates the discovery catalog and checks a rotating set of links. It does not choose projects for the README. [Check history and coverage](https://github.com/Amal-David/awesome-jev/blob/main/docs/STATUS.md).
 

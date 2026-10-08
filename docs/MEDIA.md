@@ -380,7 +380,7 @@ Checked means a bounded public metadata/media request succeeded, not that the vi
 
 <a href="https://raw.githubusercontent.com/kylemclaren/jevpdf/7f230370961c4a8e2f8b19c1729085b852124448/.github/demo.gif">Embedded preview source</a>
 
-**Link check:** pending. Source reference reviewed; playback was not tested.
+**Last check:** 2026-10-08; reachable-image; author-source reference.
 
 <h2>softlint</h2>
 
@@ -392,7 +392,7 @@ Checked means a bounded public metadata/media request succeeded, not that the vi
 
 <a href="https://raw.githubusercontent.com/blazejkustra/softlint/b2aeb846eeeb7a88099852ded34df82d2e61dc02/docs/demo.gif">Embedded preview source</a>
 
-**Link check:** pending. Source reference reviewed; playback was not tested.
+**Last check:** 2026-10-08; reachable-image; author-source reference.
 
 <h2>Jev Dreaming</h2>
 
@@ -402,7 +402,7 @@ Checked means a bounded public metadata/media request succeeded, not that the vi
 
 **Presentation:** Original X post dates from September 2026; newly added to this gallery on 2026-10-08. Source inspected, not executed; X recording not independently watched.
 
-**Link check:** pending. Source reference reviewed; playback was not tested.
+**Last check:** 2026-10-08; link-only-no-poster; no-poster-returned.
 
 <h2>ASIMOV Jev output filter</h2>
 
@@ -412,7 +412,9 @@ Checked means a bounded public metadata/media request succeeded, not that the vi
 
 **Presentation:** Original X post dates from September 2026; newly added to this gallery on 2026-10-08. Source inspected, not executed; X recording not independently watched.
 
-**Link check:** pending. Source reference reviewed; playback was not tested.
+<a href="https://pbs.twimg.com/tweet_video_thumb/HS0hXk4a8AALTFv.jpg">Embedded preview source</a>
+
+**Last check:** 2026-10-08; reachable-image; public-mirror-metadata.
 
 <h2>Cua Driver + jev-use</h2>
 
@@ -422,7 +424,9 @@ Checked means a bounded public metadata/media request succeeded, not that the vi
 
 **Presentation:** Creator thread and source inspected; video not independently watched. The current source recipe uses a browser form fixture, so it does not reproduce the thread&#x27;s 2048 timing. Live decisions use hosted TypeSafe. Link-only entry; no media copied.
 
-**Link check:** pending. Source reference reviewed; playback was not tested.
+<a href="https://pbs.twimg.com/media/HSb_nmIWYAAkGKa.jpg?name=orig">Embedded preview source</a>
+
+**Last check:** 2026-10-08; reachable-image; public-mirror-metadata.
 
 <h2>fast-jev-compaction: selective history pruning</h2>
 
@@ -432,7 +436,9 @@ Checked means a bounded public metadata/media request succeeded, not that the vi
 
 **Presentation:** The repository&#x27;s animation is scripted; the API-backed library is separate. X recording not independently watched. Tool-result bodies are omitted from the decision state, and useful evidence can be lost. Link-only entry; no performance or quality result reproduced.
 
-**Link check:** pending. Source reference reviewed; playback was not tested.
+<a href="https://pbs.twimg.com/amplify_video_thumb/2100694537672998912/img/OF8vottg6-45ZgNl.jpg">Embedded preview source</a>
+
+**Last check:** 2026-10-08; reachable-image; public-mirror-metadata.
 
 <h2>Jev dev: a desktop decision workbench</h2>
 
@@ -442,7 +448,9 @@ Checked means a bounded public metadata/media request succeeded, not that the vi
 
 **Presentation:** Source-inspected social reference; X playback was not verified. Live requests send state and questions to TypeSafe; request and response history persists locally. No code or media license verified. Link-only entry; no preview asset copied.
 
-**Link check:** pending. Source reference reviewed; playback was not tested.
+<a href="https://pbs.twimg.com/media/HTeyC0daIAAroZ9.jpg?name=orig">Embedded preview source</a>
+
+**Last check:** 2026-10-08; reachable-image; public-mirror-metadata.
 
 ## Maintenance
 
