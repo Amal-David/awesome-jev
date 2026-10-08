@@ -528,6 +528,22 @@
     "url": "https://chess-jev.loomens.com"
   },
   {
+    "category": "games",
+    "code": "https://github.com/Noctivoro/tern-chirp/blob/1bffd5f7138f471bdb72e992a895ee2387237df9/lib/director.luau",
+    "description": "Turns coding-agent completion state into short synthesized notification sounds, with Jev choosing bounded mood and voice parameters.",
+    "evidence_level": "primary-source-reviewed",
+    "kind": "direct-integration",
+    "license": "MIT",
+    "name": "Chirp",
+    "notes": "Sends up to roughly 900 characters from the beginning and end of an agent's last message, plus agent/project labels and timing, to TypeSafe. With no key or on API failure it uses a local punctuation/state fallback; sound synthesis and playback remain local. Treat the audio as an ambient notification, not a reliable task-success signal. Request construction, response parsing, synthesizer boundaries, test source, key handling and license were inspected; no plugin, Tern runtime, audio command, upstream tests or paid inference was run here.",
+    "repo": "Noctivoro/tern-chirp",
+    "reviewed": "2026-10-08",
+    "sources": [
+      "https://github.com/Noctivoro/tern-chirp/blob/1bffd5f7138f471bdb72e992a895ee2387237df9/README.md"
+    ],
+    "url": "https://github.com/Noctivoro/tern-chirp"
+  },
+  {
     "archived": false,
     "category": "games",
     "demo": "https://bytelabs-oss.github.io/clash-jev/",
@@ -42859,6 +42875,22 @@
     "url": "https://github.com/bismawy/pi-jev-eye"
   },
   {
+    "category": "agents",
+    "code": "https://github.com/qianyuxiang-369/pi-jev-governor/blob/6e3e1594e2b5468bc40543e5d8e468e3d28dfe69/src/permission.ts",
+    "description": "Routes planning, model tier, tool permission and completion decisions for the pi coding agent, with deterministic gates and human or fail-closed fallbacks.",
+    "evidence_level": "primary-source-reviewed",
+    "kind": "direct-integration",
+    "license": "MIT",
+    "name": "pi-jev-governor",
+    "notes": "Jev receives a scrubbed task prompt and bounded summaries for routing, permission and outcome judgments; sensitive tool inputs stay in a local confirmation or fail-closed path. The plugin is workflow control in the same process, not an OS sandbox. Remote outages fall back for routing and completion but keep the local permission gate active. Source, response validation, redaction, permission logic, test source and recorded local-mock acceptance evidence were inspected at the pinned revision; no dependency, project test, agent model or paid inference was run here.",
+    "repo": "qianyuxiang-369/pi-jev-governor",
+    "reviewed": "2026-10-08",
+    "sources": [
+      "https://github.com/qianyuxiang-369/pi-jev-governor/blob/6e3e1594e2b5468bc40543e5d8e468e3d28dfe69/README.md"
+    ],
+    "url": "https://github.com/qianyuxiang-369/pi-jev-governor"
+  },
+  {
     "archived": false,
     "category": "agents",
     "description": "Route pi prompts to task-appropriate model tiers with TypeSafe Jev typed judgments. Budget-aware, with automatic fallback.",
@@ -46552,6 +46584,22 @@
     ],
     "stars": 7,
     "url": "https://github.com/kitze/pagegrade"
+  },
+  {
+    "category": "apps",
+    "code": "https://github.com/adelghaenian/pen-find/blob/fb95edaf5c01eeeb3e0d460d76d8877524ea37d4/skills/pen-find/scripts/pen-find.mjs",
+    "description": "Finds Pen design frames by sending node names, paths, text and structure to Jev for semantic ranking.",
+    "evidence_level": "primary-source-reviewed",
+    "kind": "direct-integration",
+    "license": "MIT",
+    "name": "pen-find",
+    "notes": "Reads a local Pen file through Pen's bundled MCP server and sends frame/group names, hierarchy paths, text, size and component/icon summaries to TypeSafe; do not use it for design text that must stay local. It stores its key and index cache owner-only and applies targeted secret-pattern redaction, which is not a guarantee that all sensitive design content is removed. Results are a shortlist for review, not verified matches. Implementation, install metadata, license and privacy documentation were inspected; no Pen file, skill installation, upstream code, paid inference or author speed/cost benchmark was run here.",
+    "repo": "adelghaenian/pen-find",
+    "reviewed": "2026-10-08",
+    "sources": [
+      "https://github.com/adelghaenian/pen-find/blob/fb95edaf5c01eeeb3e0d460d76d8877524ea37d4/README.md"
+    ],
+    "url": "https://github.com/adelghaenian/pen-find"
   },
   {
     "archived": false,

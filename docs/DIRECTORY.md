@@ -6,7 +6,7 @@ Projects, demos, and tools built with [Jev](https://docs.typesafe.ai/).
 
 Jev answers questions about data: pick an option, return a yes/no probability, or score something on a scale. It does not write text. The examples here show what people are using it for, with links to the code where available.
 
-**69 reviewed picks**. <a href="https://github.com/Amal-David/awesome-jev/blob/main/docs/REVIEWED.md">Source notes and licenses</a>. The larger discovery catalog is separate.
+**72 reviewed picks**. <a href="https://github.com/Amal-David/awesome-jev/blob/main/docs/REVIEWED.md">Source notes and licenses</a>. The larger discovery catalog is separate.
 
 [Quick start](#20-second-quick-start) · [Projects](#reviewed-picks) · [Demos from X](#watch-jev-in-action) · [CUA & drivers](#computer-use-and-drivers) · [OpenRouter winners](#openrouter-community-winners) · [Contributing](#contribute)
 
@@ -83,6 +83,7 @@ For simple rules, parsing, or arithmetic, use code. A dedicated classifier may b
 - <a href="https://github.com/kyu1204/jgrep">jgrep (npm: jevgrep)</a> - Jev answers one Noul per code chunk, diff hunk, or CSV row (does this match the description?); code prints the probabilities as file:line hits, gates CI on an English rule with --diff, and lists the test files a diff can affect with --tests.
 - <a href="https://github.com/bartlomein/oko">Oko</a> - Code-search CLI and MCP server that finds candidates locally and uses Jev to rank the source snippets.
 - <a href="https://github.com/tyler-dot-earth/patdown">patdown</a> - Semantic linter that turns Markdown rules into Jev checks and maps flagged evidence back to source lines.
+- <a href="https://github.com/qianyuxiang-369/pi-jev-governor">pi-jev-governor</a> - Routes planning, model tier, tool permission and completion decisions for the pi coding agent, with deterministic gates and human or fail-closed fallbacks.
 - <a href="https://github.com/blazejkustra/softlint">softlint</a> - Checks changed diff hunks against plain-English rules, then asks Jev which added line best locates each finding.
 - <a href="https://github.com/supercorp-ai/supercov">Supercov</a> - Coverage, security, and code-quality checks where Jev evaluates source files while test coverage remains local.
 - <a href="https://github.com/itsmostafa/typesafe-mcp">TypeSafe MCP</a> - Go MCP server for making Jev requests from coding agents.
@@ -94,6 +95,7 @@ For simple rules, parsing, or arithmetic, use code. A dedicated classifier may b
 - <a href="https://github.com/donvito/jev-dev">Jev dev</a> - Desktop workbench for editing Jev requests, inspecting typed answers and keeping run history, with a separate demo mode.
 - <a href="https://github.com/kylemclaren/jevpdf">JevPDF</a> - Highlights PDF lines that answer a natural-language query; pdf.js extracts text locally and Jev scores each candidate line.
 - <a href="https://github.com/riesvile/nospace">nospace</a> - Adds spaces while you type. Jev chooses between possible word splits; a separate model handles spelling corrections.
+- <a href="https://github.com/adelghaenian/pen-find">pen-find</a> - Finds Pen design frames by sending node names, paths, text and structure to Jev for semantic ranking.
 - <a href="https://github.com/antonio-ivanovski/spliit-cloud">Spliit Cloud</a> - Optional Jev Choice suggestions for expense categories after local dictionary and group-history matching; code interprets confidence before presenting results.
 - <a href="https://github.com/cairodavila/tisco">tisco</a> - Searches video transcripts with Jev, then previews clip moves and renames for approval.
 - <a href="https://obstudio.org/tools/vibe-domain/">Vibe Domain</a> - Ranks domain names by the requested style. Has a no-key heuristic mode and a hosted Jev option.
@@ -107,6 +109,7 @@ For simple rules, parsing, or arithmetic, use code. A dedicated classifier may b
 ### Games and creative projects
 
 - <a href="https://github.com/cwdx/1-million-emojis">1 Million Emojis</a> - Shared 1000 × 1000 emoji canvas where Jev chooses an emoji and nearby square, or judges whether code should finish a stroke.
+- <a href="https://github.com/Noctivoro/tern-chirp">Chirp</a> - Turns coding-agent completion state into short synthesized notification sounds, with Jev choosing bounded mood and voice parameters.
 - <a href="https://jevchess.com/">Jev Chess</a> - A shared chess game against Jev with move probabilities. Hosted demo; source code not verified.
 - <a href="https://github.com/sorrycc/typesafe-snake">Jev Plays Snake</a> - Snake where code finds legal moves and Jev picks a direction.
 - <a href="https://github.com/valentynkit/jev-plays-pokemon-red">jev-plays-pokemon-red</a> - Pokemon Red agent where code builds legal actions and route state; Jev chooses only at branch points.
@@ -137,7 +140,7 @@ For simple rules, parsing, or arithmetic, use code. A dedicated classifier may b
 
 - <a href="https://github.com/browser-use/browser-harness">Browser Harness (supporting driver)</a> - The CDP browser connection used by Jev Ultrafast. Model-neutral, not a Jev model.
 
-<a href="https://github.com/Amal-David/awesome-jev/blob/main/docs/REVIEWED.md">All 69 reviewed picks: source notes and licenses</a>
+<a href="https://github.com/Amal-David/awesome-jev/blob/main/docs/REVIEWED.md">All 72 reviewed picks: source notes and licenses</a>
 
 ## Computer use and drivers
 
