@@ -37,6 +37,14 @@ The [X index](X_DEMOS.md) records creator links and access limits; [reviewed sou
 
 Two discovery leads were not promoted: [jev-sec-audit](https://github.com/DhanushNehru/jev-sec-audit/blob/b61fe1b7d7b928156dbfe64d75dd9fd4ef800f22/index.js) has no actual Jev call in the inspected entry point, and [semantic-jev](https://github.com/johnnymakhoul/semantic-jev/blob/f25611a4ebe289f0268a43eec73536c42adabe2e/src/jevClient.ts) has hardcoded date/confidence behavior and mock adapter fallbacks that do not support an unqualified production description. These are dated source judgments, not blanket exclusions of future corrected revisions.
 
+### Verified completion
+
+The integrated update is published in [6052f23](https://github.com/Amal-David/awesome-jev/commit/6052f2304fe21f9e6c2a45fd6e4a45688d54b163). All 159 repository tests, `scripts/build.py --check`, and `git diff --check` passed on the intended tree. The [push workflow](https://github.com/Amal-David/awesome-jev/actions/runs/37749546917) also completed successfully. All previous curated projects, catalog records, X references and media entries were preserved; the viewer's executable/markup content outside the embedded catalog JSON is unchanged. The offline update did not advance the discovery receipt.
+
+The three accepted PRs were closed as applied, with co-author credit in the commit and individual completion comments. Issue #21 was closed as completed after its entry was verified on main. PRs #13 and #24 were closed with the reasons above. A fresh read of both open-issue and open-PR collections returned zero items. The two addressed/outdated inline threads on #25 and #26 were resolved. The existing assistant maintenance task was rechecked as enabled.
+
+The separate `awesome-lint@2.3.0` invocation could not start successfully in this environment: an initial network-configuration failure was followed by npm `ECOMPROMISED` / `Lock compromised` errors, including with an isolated fresh cache. No formatting pass is claimed, and this update makes no upstream Awesome-index eligibility claim. This did not affect the completed repository tests or the successful GitHub publication workflow.
+
 ## September 30: proportional contribution review
 
 The owner asked for a more developer-friendly approach. Routine list maintenance belongs to us; optional hardening is not automatically a blocking requirement. Review the risk in the project's expected use, keep limitations explicit, and do not treat a directory entry as a security certification. Required checks, source evidence, licensing clarity and material safety concerns still apply.
