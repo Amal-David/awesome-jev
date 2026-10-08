@@ -93,6 +93,7 @@ The [full creator gallery](docs/DIRECTORY.md#watch-jev-in-action) retains the ot
 
 ## Agent Tools
 
+- [pi-jev-governor](https://github.com/qianyuxiang-369/pi-jev-governor) - Routes planning, model tier, tool permission, and completion decisions for the pi coding agent, with deterministic gates and human or fail-closed fallbacks.
 - [softlint](https://github.com/blazejkustra/softlint) - Checks changed diff hunks against plain-English rules and locates findings on added lines.
 - [Jev Dreaming](https://github.com/AdnanQuazi/jev-dreaming) - Experimental memory graph where Jev filters text and judges memory relationships while Gemini writes the memories.
 - [fast-jev-compaction](https://github.com/tamaratran/fast-jev-compaction) - Experimental history pruning that uses Jev judgments to keep, truncate or drop tool-call pairs.
@@ -114,6 +115,7 @@ The [full creator gallery](docs/DIRECTORY.md#watch-jev-in-action) retains the ot
 
 ## Apps and Integrations
 
+- [pen-find](https://github.com/adelghaenian/pen-find) - Finds Pen design frames by sending node names, paths, text, and structure to Jev for semantic ranking.
 - [JevPDF](https://github.com/kylemclaren/jevpdf) - Meaning-based PDF search with locally extracted text and Jev-ranked line highlights.
 - [ASIMOV Jev output filter](https://github.com/asimov-platform/asimov-cli) - Optional plain-language filtering of JSON records before deterministic output projection.
 - [Jev dev](https://github.com/donvito/jev-dev) - Desktop workbench for typed Jev requests, answer inspection and saved run history, with a separate demo mode.
@@ -130,6 +132,7 @@ The [full creator gallery](docs/DIRECTORY.md#watch-jev-in-action) retains the ot
 
 ## Games and Creative Projects
 
+- [Chirp](https://github.com/Noctivoro/tern-chirp) - Turns coding-agent completion state into short synthesized notification sounds, with Jev choosing bounded mood and voice parameters.
 - [1 Million Emojis](https://github.com/cwdx/1-million-emojis) - Shared emoji canvas where Jev chooses nearby emoji placements and judges whether to finish a stroke.
 - [Jev Music Playground](https://github.com/wustep/jev-playground) - Musical-parameter selection with code-generated notes and MIDI, plus a labeled offline mode.
 - [JevAI for XMage](https://github.com/ShiftSad/mage) - Magic: The Gathering bots using Jev alone or alongside XMage search.
