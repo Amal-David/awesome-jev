@@ -6,7 +6,7 @@ Projects, demos, and tools built with [Jev](https://docs.typesafe.ai/).
 
 Jev answers questions about data: pick an option, return a yes/no probability, or score something on a scale. It does not write text. The examples here show what people are using it for, with links to the code where available.
 
-**68 reviewed picks**. <a href="https://github.com/Amal-David/awesome-jev/blob/main/docs/REVIEWED.md">Source notes and licenses</a>. The larger discovery catalog is separate.
+**69 reviewed picks**. <a href="https://github.com/Amal-David/awesome-jev/blob/main/docs/REVIEWED.md">Source notes and licenses</a>. The larger discovery catalog is separate.
 
 [Quick start](#20-second-quick-start) · [Projects](#reviewed-picks) · [Demos from X](#watch-jev-in-action) · [CUA & drivers](#computer-use-and-drivers) · [OpenRouter winners](#openrouter-community-winners) · [Contributing](#contribute)
 
@@ -131,12 +131,13 @@ For simple rules, parsing, or arithmetic, use code. A dedicated classifier may b
 ### Reading and other lists
 
 - <a href="https://arxiv.org/abs/2609.30216">Jev in the Wild</a> - Data-driven survey of 2,170 public Jev projects, mapping early growth, application domains, and decision-use patterns.
+- <a href="https://madewithjev.com/jev-vs-llm">Jev vs an LLM: the numbers builders published</a> - Puts published Jev and LLM runs of the same job side by side and lists the cases where the larger model still won.
 
 ### Supporting drivers
 
 - <a href="https://github.com/browser-use/browser-harness">Browser Harness (supporting driver)</a> - The CDP browser connection used by Jev Ultrafast. Model-neutral, not a Jev model.
 
-<a href="https://github.com/Amal-David/awesome-jev/blob/main/docs/REVIEWED.md">All 68 reviewed picks: source notes and licenses</a>
+<a href="https://github.com/Amal-David/awesome-jev/blob/main/docs/REVIEWED.md">All 69 reviewed picks: source notes and licenses</a>
 
 ## Computer use and drivers
 

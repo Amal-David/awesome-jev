@@ -56665,6 +56665,20 @@
   },
   {
     "category": "articles",
+    "description": "Puts published Jev and LLM runs of the same job side by side and lists the cases where the larger model still won.",
+    "evidence_level": "primary-source-reviewed",
+    "kind": "article",
+    "name": "Jev vs an LLM: the numbers builders published",
+    "notes": "Submitted by Jon Kraayenbrink, who runs madewithjev.com. A compilation of builder-reported numbers, not independent measurements or a runnable integration; part of the page is embedded builder posts.",
+    "repo": null,
+    "reviewed": "2026-10-08",
+    "sources": [
+      "https://madewithjev.com/jev-vs-llm"
+    ],
+    "url": "https://madewithjev.com/jev-vs-llm"
+  },
+  {
+    "category": "articles",
     "description": "Head-to-head test at validating local event listings, with cost and latency.",
     "evidence_level": "community-indexed",
     "name": "Jev vs Mistral and Gemini for event validation",
