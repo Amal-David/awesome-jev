@@ -2,6 +2,14 @@
 
 [Editorial list](../README.md#demos) · [Full creator gallery](DIRECTORY.md#watch-jev-in-action) · [Media sources](MEDIA.md)
 
+## October 8, 2026 additions
+
+JevPDF adds a seventh visible highlight: its author-hosted repository GIF shows meaning-based PDF highlighting and links to the creator's original X post. The existing six highlights keep their order and attribution. The GIF is pinned to the reviewed repository commit; it is not a copied X recording or an independent execution test.
+
+The full gallery also gains softlint, Jev Dreaming, ASIMOV Jev output filtering, Cua Driver + jev-use, fast-jev-compaction and Jev dev. Softlint has an author-hosted GIF; the remaining additions link to their creator posts without invented preview assets. These are newly curated September references. Their individual source and access notes are in the [X index](X_DEMOS.md), with the maintenance decisions in the [October 8 review](MAINTENANCE.md#october-8-backlog-review-and-monitoring-recovery).
+
+This addition uses practical variety and inspectable source, not a fresh popularity ranking. The September 26 metrics below remain a historical snapshot.
+
 ## September 26, 2026 selection
 
 The owner requested visible demos in the README again, alongside a one-time reorder informed by public interest and practical usefulness. The six highlights are existing reviewed projects, not new admissions. All 54 existing project entries remain; this pass changes presentation, not their evidence status.

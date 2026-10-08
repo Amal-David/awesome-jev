@@ -55,6 +55,13 @@ https://github.com/user-attachments/assets/81650587-e3f1-4655-8213-ed5f6e120e9a
 
 [![Publisher screenshot of transcript search in tisco; open the OpenRouter showcase post](https://pbs.twimg.com/media/HSxARhBaIAABItD.jpg?name=orig)](https://x.com/OpenRouter/status/2102125798371283444)
 
+<!-- demo:jevpdf -->
+- [JevPDF](https://github.com/kylemclaren/jevpdf/blob/7f230370961c4a8e2f8b19c1729085b852124448/src/lib/jev.ts) - Find PDF passages by meaning and highlight relevant lines. Kyle McLaren / @kylemclaren. Author-hosted repository animation; meaning search sends extracted text to TypeSafe.
+
+[![Author-hosted JevPDF animation showing query-driven PDF highlights; open the creator post](https://raw.githubusercontent.com/kylemclaren/jevpdf/7f230370961c4a8e2f8b19c1729085b852124448/.github/demo.gif)](https://x.com/kylemclaren/status/2102703300302791055)
+
+Newly added: [plain-English diff checks](docs/X_DEMOS.md#softlint), [memory-graph decisions](docs/X_DEMOS.md#jev-dreaming), [JSON record filtering](docs/X_DEMOS.md#asimov-jev-output-filter), [Cua driver decisions](docs/X_DEMOS.md#cua-driver--jev-use), [context pruning](docs/X_DEMOS.md#fast-jev-compaction), and [a desktop Jev workbench](docs/X_DEMOS.md#jev-dev). These are newly curated September posts; each entry records source and playback limits.
+
 More to watch: [Shapeshift's adaptive cards](docs/X_DEMOS.md#shapeshift), [a Rubik's cube coach](docs/X_DEMOS.md#jev-rubiks-coach), [sentence-level reading highlights](docs/X_DEMOS.md#readwithjev), [CLI suggestions](docs/X_DEMOS.md#jevyoumean), [site-search reranking](docs/X_DEMOS.md#jevsearch), and [semantic SQL](docs/X_DEMOS.md#jevql). Each entry links the creator post and records its source and access limits.
 
 The [full creator gallery](docs/DIRECTORY.md#watch-jev-in-action) retains the other videos, images, and attribution. Browse the [X index](docs/X_DEMOS.md), [OpenRouter roundup](docs/OPENROUTER_SHOWCASE.md), or [computer-use comparison](docs/CUA.md) for more examples and limitations.
@@ -86,6 +93,9 @@ The [full creator gallery](docs/DIRECTORY.md#watch-jev-in-action) retains the ot
 
 ## Agent Tools
 
+- [softlint](https://github.com/blazejkustra/softlint) - Checks changed diff hunks against plain-English rules and locates findings on added lines.
+- [Jev Dreaming](https://github.com/AdnanQuazi/jev-dreaming) - Experimental memory graph where Jev filters text and judges memory relationships while Gemini writes the memories.
+- [fast-jev-compaction](https://github.com/tamaratran/fast-jev-compaction) - Experimental history pruning that uses Jev judgments to keep, truncate or drop tool-call pairs.
 - [jev-align](https://github.com/sutro-sh/jev-align) - Improves classifier definitions and scoring rubrics using labels and GEPA-proposed edits.
 - [Winnow](https://github.com/GhalebDweikat/winnow) - Claude Code context filter that scores tool-output blocks and keeps hidden text locally recallable.
 - [Jev-Mem](https://github.com/libingzheren/Jev-Mem) - Research memory system where Jev organizes graph memories and guides retrieval while a separate model writes answers.
@@ -104,6 +114,10 @@ The [full creator gallery](docs/DIRECTORY.md#watch-jev-in-action) retains the ot
 
 ## Apps and Integrations
 
+- [JevPDF](https://github.com/kylemclaren/jevpdf) - Meaning-based PDF search with locally extracted text and Jev-ranked line highlights.
+- [ASIMOV Jev output filter](https://github.com/asimov-platform/asimov-cli) - Optional plain-language filtering of JSON records before deterministic output projection.
+- [Jev dev](https://github.com/donvito/jev-dev) - Desktop workbench for typed Jev requests, answer inspection and saved run history, with a separate demo mode.
+- [jevotron](https://github.com/cmungall/jevotron) - CLI that uses Jev to flag anomalies in selected fields, with file-format adapters, local previews and cached assessments.
 - [DocJev](https://github.com/jerryjliu/docjev) - Document classification and packet-boundary detection after local parsing or optional cloud OCR.
 - [tisco](https://github.com/cairodavila/tisco) - Video-transcript search with previews of proposed clip moves and renames for approval.
 - [neo4jev](https://github.com/jexp/neo4jev) - Neo4j graph exploration using edge choices and goal checks inside a bounded beam search.
@@ -116,6 +130,7 @@ The [full creator gallery](docs/DIRECTORY.md#watch-jev-in-action) retains the ot
 
 ## Games and Creative Projects
 
+- [1 Million Emojis](https://github.com/cwdx/1-million-emojis) - Shared emoji canvas where Jev chooses nearby emoji placements and judges whether to finish a stroke.
 - [Jev Music Playground](https://github.com/wustep/jev-playground) - Musical-parameter selection with code-generated notes and MIDI, plus a labeled offline mode.
 - [JevAI for XMage](https://github.com/ShiftSad/mage) - Magic: The Gathering bots using Jev alone or alongside XMage search.
 - [PROMPT FPS](https://github.com/lukaske/jev-doom-agent) - Action selection in a browser-based Doom engine using Freedoom assets.
@@ -134,6 +149,8 @@ These projects are not official TypeSafe Jev weights, and compatible outputs do 
 - [Jevlike](https://github.com/vinnylarouge/jevlike) - Independent option scorer with training code and game examples.
 - [OpenJev SGLang](https://github.com/ekzhang/openjev-sglang) - Independent typed-decision server using open models and SGLang.
 - [Open Medical Jev](https://github.com/FeiLiuEM/open-medical-jev) - Independent frozen-model medical decision router with confidence fusion and conformal candidate sets; not TypeSafe Jev weights.
+- [WaterSheep](https://github.com/SamratDuttaOfficial/WaterSheep) - Independent open-weight model for yes/no, choice, score and multi-label questions, with option probabilities; not TypeSafe Jev weights.
+- [TetraJev](https://github.com/FeiLiuEM/tetrajev) - Independent research recipes combining letter and per-option readouts from two frozen local models, with agreement-based decision routing.
 
 ## Reading and Research
 

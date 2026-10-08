@@ -370,6 +370,80 @@ Checked means a bounded public metadata/media request succeeded, not that the vi
 
 **Last check:** 2026-10-08; reachable-image; public-mirror-metadata.
 
+<h2>JevPDF</h2>
+
+<a href="https://x.com/kylemclaren/status/2102703300302791055">Original / watch</a> · <a href="https://github.com/kylemclaren/jevpdf/blob/7f230370961c4a8e2f8b19c1729085b852124448/src/lib/jev.ts">Source context</a>
+
+**Creator:** Kyle McLaren / @kylemclaren
+
+**Presentation:** Author-hosted repository GIF, not an extracted X frame. Original X post: 2026-09-23. Meaning search sends extracted text to TypeSafe; results were not reproduced.
+
+<a href="https://raw.githubusercontent.com/kylemclaren/jevpdf/7f230370961c4a8e2f8b19c1729085b852124448/.github/demo.gif">Embedded preview source</a>
+
+**Link check:** pending. Source reference reviewed; playback was not tested.
+
+<h2>softlint</h2>
+
+<a href="https://x.com/blazejkustra_/status/2101616583424516392">Original / watch</a> · <a href="https://github.com/blazejkustra/softlint/blob/b2aeb846eeeb7a88099852ded34df82d2e61dc02/src/jev.ts">Source context</a>
+
+**Creator:** Błażej Kustra / @blazejkustra_
+
+**Presentation:** Author-hosted repository GIF of a demo PR, not an extracted X frame. Original X post: 2026-09-20. Detection and cost claims were not reproduced.
+
+<a href="https://raw.githubusercontent.com/blazejkustra/softlint/b2aeb846eeeb7a88099852ded34df82d2e61dc02/docs/demo.gif">Embedded preview source</a>
+
+**Link check:** pending. Source reference reviewed; playback was not tested.
+
+<h2>Jev Dreaming</h2>
+
+<a href="https://x.com/_itzadnan_/status/2102717202663416049">Original / watch</a> · <a href="https://github.com/AdnanQuazi/jev-dreaming/blob/f2dab2ebc666e4bc9e48f4103278c4ceda1f7630/lib/jev.ts">Source context</a>
+
+**Creator:** Adnan Quazi / @_itzadnan_
+
+**Presentation:** Original X post dates from September 2026; newly added to this gallery on 2026-10-08. Source inspected, not executed; X recording not independently watched.
+
+**Link check:** pending. Source reference reviewed; playback was not tested.
+
+<h2>ASIMOV Jev output filter</h2>
+
+<a href="https://x.com/bendiken/status/2102377817459872084">Original / watch</a> · <a href="https://github.com/asimov-platform/asimov-cli/blob/db1c26c77060bfbfff5e6ca5b972b80e4d6c8973/src/shared.rs">Source context</a>
+
+**Creator:** Arto Bendiken / @bendiken
+
+**Presentation:** Original X post dates from September 2026; newly added to this gallery on 2026-10-08. Source inspected, not executed; X recording not independently watched.
+
+**Link check:** pending. Source reference reviewed; playback was not tested.
+
+<h2>Cua Driver + jev-use</h2>
+
+<a href="https://x.com/trycua/status/2100649543079502213">Original / watch</a> · <a href="https://github.com/trycua/cua/blob/49e924c4632882134b204b2e8a0ce8fae44418df/libs/cua-driver/examples/jev-use/README.md">Source context</a>
+
+**Creator:** Cua / @trycua
+
+**Presentation:** Creator thread and source inspected; video not independently watched. The current source recipe uses a browser form fixture, so it does not reproduce the thread&#x27;s 2048 timing. Live decisions use hosted TypeSafe. Link-only entry; no media copied.
+
+**Link check:** pending. Source reference reviewed; playback was not tested.
+
+<h2>fast-jev-compaction: selective history pruning</h2>
+
+<a href="https://x.com/tamarajtran/status/2100694549362553153">Original / watch</a> · <a href="https://github.com/tamaratran/fast-jev-compaction/blob/e3f262a7f4d42bd8dd32ced30d26176f7cb545b0/README.md">Source context</a>
+
+**Creator:** Tamara Tran / @tamarajtran
+
+**Presentation:** The repository&#x27;s animation is scripted; the API-backed library is separate. X recording not independently watched. Tool-result bodies are omitted from the decision state, and useful evidence can be lost. Link-only entry; no performance or quality result reproduced.
+
+**Link check:** pending. Source reference reviewed; playback was not tested.
+
+<h2>Jev dev: a desktop decision workbench</h2>
+
+<a href="https://x.com/melvindvivas/status/2105347987098755186">Original / watch</a> · <a href="https://github.com/donvito/jev-dev/blob/5df666eb3223688a311e89edfb9278a82b1cc9e3/README.md">Source context</a>
+
+**Creator:** donvito / @melvindvivas
+
+**Presentation:** Source-inspected social reference; X playback was not verified. Live requests send state and questions to TypeSafe; request and response history persists locally. No code or media license verified. Link-only entry; no preview asset copied.
+
+**Link check:** pending. Source reference reviewed; playback was not tested.
+
 ## Maintenance
 
 Edit `data/media.json` for editorial changes. `python3 scripts/build.py --refresh-media` performs bounded, unauthenticated requests to approved public hosts; it reads no API keys. `python3 scripts/build.py` renders offline. The unified builder also regenerates the supporting directory and the local viewer. `--check` validates generated output without network access. Metadata checks rotate daily; the four-hour workflow preserves the gallery and last-known previews.

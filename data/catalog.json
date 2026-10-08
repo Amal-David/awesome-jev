@@ -383,17 +383,22 @@
   {
     "archived": false,
     "category": "games",
-    "demo": "https://chriswijnia.com/experiments/emoji",
-    "description": "A shared 1000 × 1000 emoji canvas, live for everyone, where Jev joins each stroke by choosing a square next to it and its emoji as one Choice.",
-    "evidence_level": "community-indexed",
+    "code": "https://github.com/cwdx/1-million-emojis/blob/f0e8273ebcedee466c0302f2a8fdb30c7964c29b/packages/emoji/src/jev-join.ts",
+    "demo": "https://chriswijnia.com/lab/emoji",
+    "description": "Shared 1000 × 1000 emoji canvas where Jev chooses an emoji and nearby square, or judges whether code should finish a stroke.",
+    "evidence_level": "primary-source-reviewed",
+    "kind": "direct-integration",
     "language": "TypeScript",
     "license": "MIT",
     "metadata_checked": "2026-10-06",
     "name": "1 Million Emojis",
+    "notes": "Submitted by cwdx in PR #22. Inspected the public canvas logic, Jev client and unit-test source; no tests or paid inference were run. The inspected request sends stroke geometry, nearby emoji names and a text grid, without painter identity. The client routes through Vercel AI Gateway with TypeSafe HTTPS as fallback; running inference from source requires an API key. The repository mirrors reusable packages, not the hosted site's server. Visitor limits and the daily spending cap are author-described and were not verified; no shared canvas was changed.",
     "pushed_at": "2026-09-30T14:24:12Z",
     "repo": "cwdx/1-million-emojis",
     "repository_status": "accessible",
+    "reviewed": "2026-10-08",
     "sources": [
+      "https://github.com/cwdx/1-million-emojis/blob/f0e8273ebcedee466c0302f2a8fdb30c7964c29b/README.md",
       "https://github.com/hellogumbo/awesome-jev"
     ],
     "stars": 0,
@@ -21054,25 +21059,6 @@
   {
     "archived": false,
     "category": "demos",
-    "demo": "https://jevpdf.fly.dev",
-    "description": "Ask a PDF in your own words and watch the matching lines light up. React + pdf.js + TypeSafe Jev.",
-    "evidence_level": "community-indexed",
-    "language": "TypeScript",
-    "license": "MIT",
-    "metadata_checked": "2026-09-30",
-    "name": "jevpdf",
-    "pushed_at": "2026-09-23T13:31:55Z",
-    "repo": "kylemclaren/jevpdf",
-    "repository_status": "accessible",
-    "sources": [
-      "https://github.com/hellogumbo/awesome-jev"
-    ],
-    "stars": 4,
-    "url": "https://github.com/kylemclaren/jevpdf"
-  },
-  {
-    "archived": false,
-    "category": "demos",
     "description": "@typesafeai 's Jev controls the 2 hands and each finger to play the piano in real-time.  Jev only \"sees\" what we see and plays this from the \"note waterfall\". It uses  @browser_use 's jev-ultrafast and some decision scheduling to make this happen in real-time.  Sound on 🔈🔉🔊",
     "evidence_level": "readme-matched",
     "language": "JavaScript",
@@ -30378,25 +30364,6 @@
   {
     "archived": false,
     "category": "demos",
-    "description": "Enforce rules a linter can't. A GitHub Action that reviews PRs against plain-English rules, judged by Jev.",
-    "evidence_level": "readme-matched",
-    "language": "TypeScript",
-    "license": "MIT",
-    "metadata_checked": "2026-10-01",
-    "name": "softlint",
-    "notes": "Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.",
-    "pushed_at": "2026-09-20T10:10:43Z",
-    "repo": "blazejkustra/softlint",
-    "repository_status": "accessible",
-    "sources": [
-      "https://github.com/blazejkustra/softlint/blob/main/README.md"
-    ],
-    "stars": 6,
-    "url": "https://github.com/blazejkustra/softlint"
-  },
-  {
-    "archived": false,
-    "category": "demos",
     "description": "Long, real workflows on Solari browsers and desktops: solari-reflex (Jev) vs Codex + GPT-6 Astra, recorded and verified by the apps themselves.",
     "evidence_level": "readme-matched",
     "language": "TypeScript",
@@ -35319,7 +35286,7 @@
   {
     "archived": false,
     "category": "browser",
-    "code": "https://github.com/trycua/cua/tree/main/libs/cua-driver/examples/jev-use",
+    "code": "https://github.com/trycua/cua/tree/49e924c4632882134b204b2e8a0ce8fae44418df/libs/cua-driver/examples/jev-use",
     "demo": "https://cua.ai/docs/how-to-guides/driver/jev-use",
     "description": "Cua Driver example in Python and TypeScript: Jev chooses an action, the driver runs it, and code checks the result.",
     "evidence_level": "primary-source-reviewed",
@@ -35328,12 +35295,14 @@
     "license": "MIT",
     "metadata_checked": "2026-10-07",
     "name": "Cua Driver + jev-use",
-    "notes": "Cua-maintained public-preview Python/TypeScript recipe, not a Jev model built into Driver. The mock path uses no Jev credentials but still operates a browser fixture. Live choices use hosted TypeSafe; screenshots are not sent to Jev by this adapter. Driver permissions, capture freshness, and independent postconditions remain application responsibilities.",
+    "notes": "Cua-maintained public-preview Python/TypeScript recipe, not a Jev model built into Driver. The mock path uses no Jev credentials but still operates a browser fixture. Live choices use hosted TypeSafe; screenshots are not sent to Jev by this adapter. Driver permissions, capture freshness, and independent postconditions remain application responsibilities. October 8 recheck inspected the Python adapter, fixture runner and fake-client tests. The original September 17 X thread includes a 2048 run; the current browser-form fixture is a separate example and does not reproduce that recording.",
+    "post": "https://x.com/trycua/status/2100649543079502213",
     "pushed_at": "2026-10-07T20:50:51Z",
     "repo": "trycua/cua",
     "repository_status": "accessible",
-    "reviewed": "2026-09-22",
+    "reviewed": "2026-10-08",
     "sources": [
+      "https://github.com/trycua/cua/blob/49e924c4632882134b204b2e8a0ce8fae44418df/libs/cua-driver/examples/jev-use/README.md",
       "https://github.com/trycua/cua/blob/main/libs/cua-driver/examples/jev-use/README.md"
     ],
     "stars": 28701,
@@ -38269,16 +38238,22 @@
   {
     "archived": false,
     "category": "agents",
-    "description": "Claude Code plugin that replaces the compaction summary with Jev decisions: every tool call and result is scored in one fast request, stale ones are dropped or truncated, everything kept stays verbatim.",
-    "evidence_level": "community-indexed",
+    "code": "https://github.com/tamaratran/fast-jev-compaction/blob/e3f262a7f4d42bd8dd32ced30d26176f7cb545b0/src/compact.ts",
+    "description": "Experimental context pruning: Jev scores tool-call/result pairs, and local code keeps, truncates or drops them while preserving retained text.",
+    "evidence_level": "primary-source-reviewed",
+    "kind": "direct-integration",
     "language": "TypeScript",
     "license": "MIT",
     "metadata_checked": "2026-09-29",
     "name": "fast-jev-compaction",
+    "notes": "September 2026 creator post; the inspected mirror displays Sep 18, while the post ID encodes Sep 17 UTC. Conversation text and tool inputs reach TypeSafe, but tool-result bodies are omitted from the model's decision state. Pruning can discard useful evidence; the hook falls back to a normal summary on errors or insufficient reduction. The repository's animated demo is explicitly scripted; it is separate from the real API-backed library. Client, compaction, hook and fake-client test source inspected; no integration, quality/cost evaluation or paid inference run.",
+    "post": "https://x.com/tamarajtran/status/2100694549362553153",
     "pushed_at": "2026-09-18T04:45:31Z",
     "repo": "tamaratran/fast-jev-compaction",
     "repository_status": "accessible",
+    "reviewed": "2026-10-08",
     "sources": [
+      "https://github.com/tamaratran/fast-jev-compaction/blob/e3f262a7f4d42bd8dd32ced30d26176f7cb545b0/README.md",
       "https://github.com/hellogumbo/awesome-jev"
     ],
     "stars": 7137,
@@ -38688,6 +38663,23 @@
     ],
     "stars": 1,
     "url": "https://github.com/f-tiger/jev-decision-gate"
+  },
+  {
+    "category": "agents",
+    "code": "https://github.com/AdnanQuazi/jev-dreaming/blob/f2dab2ebc666e4bc9e48f4103278c4ceda1f7630/lib/jev.ts",
+    "demo": "https://jev-dreaming.vercel.app",
+    "description": "Filters incoming text for memorable information and judges relationships between memories; Gemini generates the memory text.",
+    "evidence_level": "primary-source-reviewed",
+    "kind": "direct-integration",
+    "name": "Jev Dreaming",
+    "notes": "Original X post: 2026-09-23. Experimental memory-graph comparison with a Gemini-only pipeline, not validated memory accuracy. Text and candidate memories reach hosted providers; applying a run can update browser IndexedDB. The Jev route uses a server-held key without application authentication, so keep self-hosted exploration local. No public code license was verified; no project code or benchmarks were run. Creator post is an indexed reference; X playback was not verified.",
+    "post": "https://x.com/_itzadnan_/status/2102717202663416049",
+    "repo": "AdnanQuazi/jev-dreaming",
+    "reviewed": "2026-10-08",
+    "sources": [
+      "https://github.com/AdnanQuazi/jev-dreaming/blob/f2dab2ebc666e4bc9e48f4103278c4ceda1f7630/lib/jev.ts"
+    ],
+    "url": "https://github.com/AdnanQuazi/jev-dreaming"
   },
   {
     "archived": false,
@@ -42854,6 +42846,30 @@
   {
     "archived": false,
     "category": "agents",
+    "code": "https://github.com/blazejkustra/softlint/blob/b2aeb846eeeb7a88099852ded34df82d2e61dc02/src/jev.ts",
+    "description": "Checks changed diff hunks against plain-English rules, then asks Jev which added line best locates each finding.",
+    "evidence_level": "primary-source-reviewed",
+    "kind": "direct-integration",
+    "language": "TypeScript",
+    "license": "MIT",
+    "metadata_checked": "2026-10-01",
+    "name": "softlint",
+    "notes": "Original X post: 2026-09-20. Sends selected source diffs and rules to TypeSafe. Hunks are truncated to a fixed budget, so findings are limited to supplied context; this supplements code review and ordinary linting. The fake-shop example and injected-client test source were inspected. Advertised detection/cost results were not reproduced. Creator post is an indexed reference; X playback was not verified.",
+    "post": "https://x.com/blazejkustra_/status/2101616583424516392",
+    "pushed_at": "2026-09-20T10:10:43Z",
+    "repo": "blazejkustra/softlint",
+    "repository_status": "accessible",
+    "reviewed": "2026-10-08",
+    "sources": [
+      "https://github.com/blazejkustra/softlint/blob/b2aeb846eeeb7a88099852ded34df82d2e61dc02/src/jev.ts",
+      "https://github.com/blazejkustra/softlint/blob/main/README.md"
+    ],
+    "stars": 6,
+    "url": "https://github.com/blazejkustra/softlint"
+  },
+  {
+    "archived": false,
+    "category": "agents",
     "description": "Jev-powered /effort advisor for Claude Code: tells you when to switch effort, per prompt",
     "evidence_level": "community-indexed",
     "language": "Python",
@@ -44068,6 +44084,22 @@
       "https://github.com/hellogumbo/awesome-jev"
     ],
     "url": "https://jevclassifier.vercel.app"
+  },
+  {
+    "category": "apps",
+    "code": "https://github.com/donvito/jev-dev/blob/5df666eb3223688a311e89edfb9278a82b1cc9e3/src-tauri/src/client.rs",
+    "description": "Desktop workbench for editing Jev requests, inspecting typed answers and keeping run history, with a separate demo mode.",
+    "evidence_level": "primary-source-reviewed",
+    "kind": "direct-integration",
+    "name": "Jev dev",
+    "notes": "Live requests run in the desktop app with a TypeSafe API key; browser preview uses demo answers. Live inference sends the request state and questions to TypeSafe, and local run history retains request, response and error text. No code license was found in the reviewed source tree. Implementation, request example and test source inspected; no app, installer, project tests or inference run. Creator post is an indexed reference; X playback was not verified.",
+    "post": "https://x.com/melvindvivas/status/2105347987098755186",
+    "repo": "donvito/jev-dev",
+    "reviewed": "2026-10-08",
+    "sources": [
+      "https://github.com/donvito/jev-dev/blob/5df666eb3223688a311e89edfb9278a82b1cc9e3/README.md"
+    ],
+    "url": "https://github.com/donvito/jev-dev"
   },
   {
     "archived": false,
@@ -45395,6 +45427,31 @@
     ],
     "stars": 20,
     "url": "https://github.com/unicodeveloper/jevocks"
+  },
+  {
+    "archived": false,
+    "category": "apps",
+    "code": "https://github.com/kylemclaren/jevpdf/blob/7f230370961c4a8e2f8b19c1729085b852124448/src/lib/jev.ts",
+    "demo": "https://jevpdf.fly.dev",
+    "description": "Highlights PDF lines that answer a natural-language query; pdf.js extracts text locally and Jev scores each candidate line.",
+    "evidence_level": "primary-source-reviewed",
+    "kind": "direct-integration",
+    "language": "TypeScript",
+    "license": "MIT",
+    "metadata_checked": "2026-09-30",
+    "name": "JevPDF",
+    "notes": "Original X post: 2026-09-23. Exact text search stays local; meaning search sends extracted page text and the query through the app server to TypeSafe. Optional user API keys also pass through that server. Text extraction is not OCR, and relevance scores do not establish factual correctness. Extraction/search/proxy source inspected; no PDF, key, paid call or benchmark used. Creator post is an indexed reference; X playback was not verified.",
+    "post": "https://x.com/kylemclaren/status/2102703300302791055",
+    "pushed_at": "2026-09-23T13:31:55Z",
+    "repo": "kylemclaren/jevpdf",
+    "repository_status": "accessible",
+    "reviewed": "2026-10-08",
+    "sources": [
+      "https://github.com/kylemclaren/jevpdf/blob/7f230370961c4a8e2f8b19c1729085b852124448/src/lib/jev.ts",
+      "https://github.com/hellogumbo/awesome-jev"
+    ],
+    "stars": 4,
+    "url": "https://github.com/kylemclaren/jevpdf"
   },
   {
     "archived": false,
@@ -48475,6 +48532,23 @@
     "url": "https://github.com/vercel-labs/ai-cli"
   },
   {
+    "category": "integrations",
+    "code": "https://github.com/asimov-platform/asimov-cli/blob/db1c26c77060bfbfff5e6ca5b972b80e4d6c8973/src/shared.rs",
+    "description": "Filters fetched or listed JSON records with a plain-language Jev question before optional jq projection.",
+    "evidence_level": "primary-source-reviewed",
+    "kind": "direct-integration",
+    "license": "Unlicense",
+    "name": "ASIMOV Jev output filter",
+    "notes": "Original X post: 2026-09-22; current source reviewed through 2026-10-07. --jev is optional and uses TYPESAFE_API_TOKEN. Original records reach TypeSafe before jq projection, so selecting fewer output fields does not reduce data sent upstream. Current filtering keeps scores strictly above 0.80, validates responses and surfaces failures. Implementation and regression-test source inspected; no modules, accounts or live calls used. Creator post is an indexed reference; X playback was not verified.",
+    "post": "https://x.com/bendiken/status/2102377817459872084",
+    "repo": "asimov-platform/asimov-cli",
+    "reviewed": "2026-10-08",
+    "sources": [
+      "https://github.com/asimov-platform/asimov-cli/blob/db1c26c77060bfbfff5e6ca5b972b80e4d6c8973/src/shared.rs"
+    ],
+    "url": "https://github.com/asimov-platform/asimov-cli"
+  },
+  {
     "archived": false,
     "category": "integrations",
     "description": "The CDP browser connection used by Jev Ultrafast. Model-neutral, not a Jev model.",
@@ -48871,6 +48945,24 @@
     ],
     "stars": 5,
     "url": "https://github.com/ishantanu/jevmetrics"
+  },
+  {
+    "category": "integrations",
+    "code": "https://github.com/cmungall/jevotron/blob/300a67b332dbb6bb6a18fc39532dffcb18fe8055/src/jevotron/runner.py",
+    "demo": "https://cmungall.github.io/jevotron/",
+    "description": "CLI that uses Jev to flag anomalies in selected fields, with file-format adapters, local previews and cached assessments.",
+    "evidence_level": "primary-source-reviewed",
+    "kind": "direct-integration",
+    "license": "BSD-3-Clause",
+    "name": "jevotron",
+    "notes": "Submitted by Chris Mungall in PR #25. Live scans send full parsed entries, guidance and exemplars to TypeSafe; selecting fields limits scoring, not the context transmitted. The local SQLite cache retains request and response text. Preview is offline; Python config files execute code and must be trusted. Client, request construction, response validation, cache, example and fake-client test source inspected; no upstream code, tests or paid inference executed. Author pilot results were not reproduced.",
+    "repo": "cmungall/jevotron",
+    "reviewed": "2026-10-08",
+    "skill": "https://github.com/cmungall/jevotron/blob/300a67b332dbb6bb6a18fc39532dffcb18fe8055/skills/jt-triage/SKILL.md",
+    "sources": [
+      "https://github.com/cmungall/jevotron/blob/300a67b332dbb6bb6a18fc39532dffcb18fe8055/README.md"
+    ],
+    "url": "https://github.com/cmungall/jevotron"
   },
   {
     "archived": false,
@@ -54354,16 +54446,21 @@
   {
     "archived": false,
     "category": "research",
-    "description": "High-performance, high-precision, locally-fast-deployed Jev-class decision service — four readings, one routed decision, zero training.",
-    "evidence_level": "community-indexed",
+    "code": "https://github.com/FeiLiuEM/tetrajev/blob/2ee296af7bcf731ecb9a1d3613fad4defaf49a2a/scripts/run_ours_bench.py",
+    "description": "Independent research recipes combining letter and per-option readouts from two frozen local models, with agreement-based decision routing.",
+    "evidence_level": "primary-source-reviewed",
+    "kind": "independent-reproduction",
     "language": "Python",
     "license": "MIT",
     "metadata_checked": "2026-10-06",
     "name": "TetraJev",
+    "notes": "Submitted by Fei Liu in issue #21. Research scripts and aggregate results, not TypeSafe Jev weights or a packaged decision service. Local core inference uses separately obtained Qwen models through llama.cpp; --server is caller-configured, and the optional run_jev_api.py reference runner sends benchmark state to paid TypeSafe inference. Adapt hard-coded local paths before reuse. Author accuracy and coverage curves were not reproduced; retrospective coverage is not a deployment guarantee, and equal-weight fusion can underperform a stronger reader. Method, readouts, fusion/routing code, usage examples, data policy and license inspected; no project code or models run.",
     "pushed_at": "2026-09-29T04:28:56Z",
     "repo": "FeiLiuEM/tetrajev",
     "repository_status": "accessible",
+    "reviewed": "2026-10-08",
     "sources": [
+      "https://github.com/FeiLiuEM/tetrajev/blob/2ee296af7bcf731ecb9a1d3613fad4defaf49a2a/README.md",
       "https://github.com/hellogumbo/awesome-jev"
     ],
     "stars": 1,
@@ -54810,17 +54907,22 @@
   {
     "archived": false,
     "category": "research",
-    "demo": "https://samratduttaofficial.github.io/WaterSheep/",
-    "description": "Open, Apache-2.0 alternative to Jev that runs locally. Its server accepts Jev's /v1/systemone requests, so TypeSafe's Python SDK works against it, and it adds multi-label questions.",
-    "evidence_level": "community-indexed",
+    "code": "https://github.com/SamratDuttaOfficial/WaterSheep/blob/3ccf02b3839fd2d72e6fb29750488010c7d76360/watersheep/cli.py",
+    "demo": "https://huggingface.co/spaces/samratduttaofficial/WaterSheep",
+    "description": "Independent open-weight model for yes/no, choice, score and multi-label questions, with option probabilities. Not TypeSafe Jev weights.",
+    "evidence_level": "primary-source-reviewed",
+    "kind": "independent-reproduction",
     "language": "Python",
     "license": "Apache-2.0",
     "metadata_checked": "2026-10-06",
     "name": "WaterSheep",
+    "notes": "Submitted by Samrat Dutta in PR #26. The local CLI binds 127.0.0.1 and answers POST /v1/systemone without calling TypeSafe; model files are downloaded separately from Hugging Face. The project documents Python SDK routing through TYPESAFE_BASE_URL; compatibility was source-reviewed, not executed. English only, with truncated long inputs; large option sets use grouping and tournament passes. Calibration and accuracy are author-reported, domain-dependent and not reproduced. Model, inference, local server, request example, toy self-test, license and published model metadata inspected; no models or third-party code run.",
     "pushed_at": "2026-10-02T14:00:13Z",
     "repo": "SamratDuttaOfficial/WaterSheep",
     "repository_status": "accessible",
+    "reviewed": "2026-10-08",
     "sources": [
+      "https://github.com/SamratDuttaOfficial/WaterSheep/blob/3ccf02b3839fd2d72e6fb29750488010c7d76360/README.md",
       "https://github.com/hellogumbo/awesome-jev"
     ],
     "stars": 6,

@@ -6,7 +6,7 @@ Projects, demos, and tools built with [Jev](https://docs.typesafe.ai/).
 
 Jev answers questions about data: pick an option, return a yes/no probability, or score something on a scale. It does not write text. The examples here show what people are using it for, with links to the code where available.
 
-**58 reviewed picks**. <a href="https://github.com/Amal-David/awesome-jev/blob/main/docs/REVIEWED.md">Source notes and licenses</a>. The larger discovery catalog is separate.
+**68 reviewed picks**. <a href="https://github.com/Amal-David/awesome-jev/blob/main/docs/REVIEWED.md">Source notes and licenses</a>. The larger discovery catalog is separate.
 
 [Quick start](#20-second-quick-start) · [Projects](#reviewed-picks) · [Demos from X](#watch-jev-in-action) · [CUA & drivers](#computer-use-and-drivers) · [OpenRouter winners](#openrouter-community-winners) · [Contributing](#contribute)
 
@@ -71,7 +71,9 @@ For simple rules, parsing, or arithmetic, use code. A dedicated classifier may b
 
 ### Agent tools
 
+- <a href="https://github.com/tamaratran/fast-jev-compaction">fast-jev-compaction</a> - Experimental context pruning: Jev scores tool-call/result pairs, and local code keeps, truncates or drops them while preserving retained text.
 - <a href="https://github.com/thruwire/foreman">Foreman</a> - Uses Jev to check a coding agent&#x27;s progress and decide when it needs intervention.
+- <a href="https://github.com/AdnanQuazi/jev-dreaming">Jev Dreaming</a> - Filters incoming text for memorable information and judges relationships between memories; Gemini generates the memory text.
 - <a href="https://github.com/jkudish/jev-mcp">Jev MCP</a> - MCP tools for checking claims against evidence, screening content, and ranking candidates.
 - <a href="https://github.com/sutro-sh/jev-align">jev-align</a> - Improves Jev classifiers and scoring rubrics with human labels and GEPA-proposed definition changes.
 - <a href="https://github.com/valentynkit/jev-belay">jev-belay</a> - Claude Code Stop hook that checks local run evidence before Jev judges an unverified completion claim.
@@ -81,6 +83,7 @@ For simple rules, parsing, or arithmetic, use code. A dedicated classifier may b
 - <a href="https://github.com/kyu1204/jgrep">jgrep (npm: jevgrep)</a> - Jev answers one Noul per code chunk, diff hunk, or CSV row (does this match the description?); code prints the probabilities as file:line hits, gates CI on an English rule with --diff, and lists the test files a diff can affect with --tests.
 - <a href="https://github.com/bartlomein/oko">Oko</a> - Code-search CLI and MCP server that finds candidates locally and uses Jev to rank the source snippets.
 - <a href="https://github.com/tyler-dot-earth/patdown">patdown</a> - Semantic linter that turns Markdown rules into Jev checks and maps flagged evidence back to source lines.
+- <a href="https://github.com/blazejkustra/softlint">softlint</a> - Checks changed diff hunks against plain-English rules, then asks Jev which added line best locates each finding.
 - <a href="https://github.com/supercorp-ai/supercov">Supercov</a> - Coverage, security, and code-quality checks where Jev evaluates source files while test coverage remains local.
 - <a href="https://github.com/itsmostafa/typesafe-mcp">TypeSafe MCP</a> - Go MCP server for making Jev requests from coding agents.
 - <a href="https://github.com/GhalebDweikat/winnow">Winnow</a> - Claude Code context filter where Jev scores tool-output blocks and low-relevance blocks stay recallable from a local cache.
@@ -88,17 +91,22 @@ For simple rules, parsing, or arithmetic, use code. A dedicated classifier may b
 ### Apps and integrations
 
 - <a href="https://github.com/jerryjliu/docjev">DocJev</a> - Classifies documents and finds packet boundaries with Jev after local parsing or optional cloud OCR.
+- <a href="https://github.com/donvito/jev-dev">Jev dev</a> - Desktop workbench for editing Jev requests, inspecting typed answers and keeping run history, with a separate demo mode.
+- <a href="https://github.com/kylemclaren/jevpdf">JevPDF</a> - Highlights PDF lines that answer a natural-language query; pdf.js extracts text locally and Jev scores each candidate line.
 - <a href="https://github.com/riesvile/nospace">nospace</a> - Adds spaces while you type. Jev chooses between possible word splits; a separate model handles spelling corrections.
 - <a href="https://github.com/antonio-ivanovski/spliit-cloud">Spliit Cloud</a> - Optional Jev Choice suggestions for expense categories after local dictionary and group-history matching; code interprets confidence before presenting results.
 - <a href="https://github.com/cairodavila/tisco">tisco</a> - Searches video transcripts with Jev, then previews clip moves and renames for approval.
 - <a href="https://obstudio.org/tools/vibe-domain/">Vibe Domain</a> - Ranks domain names by the requested style. Has a no-key heuristic mode and a hosted Jev option.
+- <a href="https://github.com/asimov-platform/asimov-cli">ASIMOV Jev output filter</a> - Filters fetched or listed JSON records with a plain-language Jev question before optional jq projection.
 - <a href="https://github.com/AboveColin/HA-Jev">Home Assistant Jev</a> - Adds Jev decisions to Home Assistant entities and automations.
+- <a href="https://github.com/cmungall/jevotron">jevotron</a> - CLI that uses Jev to flag anomalies in selected fields, with file-format adapters, local previews and cached assessments.
 - <a href="https://github.com/simonw/llm-typesafe">llm-typesafe</a> - Use Jev from the LLM command line or Python, with stdin, templates, and sync/async calls.
 - <a href="https://github.com/ttlequals0/MinusPodJev">MinusPodJev</a> - Podcast ad-detection adapter for MinusPod: Jev scores transcript segments and code assembles the ad spans.
 - <a href="https://github.com/jexp/neo4jev">neo4jev</a> - Explores Neo4j graphs with Jev edge choices and goal checks inside a bounded beam search.
 
 ### Games and creative projects
 
+- <a href="https://github.com/cwdx/1-million-emojis">1 Million Emojis</a> - Shared 1000 × 1000 emoji canvas where Jev chooses an emoji and nearby square, or judges whether code should finish a stroke.
 - <a href="https://jevchess.com/">Jev Chess</a> - A shared chess game against Jev with move probabilities. Hosted demo; source code not verified.
 - <a href="https://github.com/sorrycc/typesafe-snake">Jev Plays Snake</a> - Snake where code finds legal moves and Jev picks a direction.
 - <a href="https://github.com/valentynkit/jev-plays-pokemon-red">jev-plays-pokemon-red</a> - Pokemon Red agent where code builds legal actions and route state; Jev chooses only at branch points.
@@ -117,6 +125,8 @@ For simple rules, parsing, or arithmetic, use code. A dedicated classifier may b
 - <a href="https://github.com/vinnylarouge/jevlike">Jevlike (independent option scorer)</a> - Independent one-pass option scorer with training code and game examples. Not TypeSafe Jev.
 - <a href="https://github.com/FeiLiuEM/open-medical-jev">Open Medical Jev</a> - Independent frozen-model medical decision router using two local Qwen readers, confidence fusion, a Chow gate, and conformal candidate sets.
 - <a href="https://github.com/ekzhang/openjev-sglang">OpenJev SGLang</a> - Independent typed-decision server using open models and SGLang. Not official Jev weights.
+- <a href="https://github.com/FeiLiuEM/tetrajev">TetraJev</a> - Independent research recipes combining letter and per-option readouts from two frozen local models, with agreement-based decision routing.
+- <a href="https://github.com/SamratDuttaOfficial/WaterSheep">WaterSheep</a> - Independent open-weight model for yes/no, choice, score and multi-label questions, with option probabilities. Not TypeSafe Jev weights.
 
 ### Reading and other lists
 
@@ -126,7 +136,7 @@ For simple rules, parsing, or arithmetic, use code. A dedicated classifier may b
 
 - <a href="https://github.com/browser-use/browser-harness">Browser Harness (supporting driver)</a> - The CDP browser connection used by Jev Ultrafast. Model-neutral, not a Jev model.
 
-<a href="https://github.com/Amal-David/awesome-jev/blob/main/docs/REVIEWED.md">All 58 reviewed picks: source notes and licenses</a>
+<a href="https://github.com/Amal-David/awesome-jev/blob/main/docs/REVIEWED.md">All 68 reviewed picks: source notes and licenses</a>
 
 ## Computer use and drivers
 
@@ -276,6 +286,61 @@ For simple rules, parsing, or arithmetic, use code. A dedicated classifier may b
 <p>Adds typed semantic predicates and judgments around ordinary Postgres queries, with batching and cached row decisions.</p>
 <p><a href="https://x.com/kylemclaren/status/2100953409973108759">▶ Watch on X</a> · <a href="https://github.com/kylemclaren/jevql">Code</a> · <a href="https://github.com/kylemclaren/jevql/blob/274532af852e8edfb7715ec6dca1113e589cb191/internal/exec/judge.go">Source</a></p>
 <p><sub>Kyle McLaren / @kylemclaren — Source-inspected social reference; X playback was not verified. Rows reach TypeSafe; narrow columns and use a read-only database role.</sub></p>
+</td>
+<td width="50%" valign="top">
+<a href="https://x.com/kylemclaren/status/2102703300302791055"><img src="https://raw.githubusercontent.com/kylemclaren/jevpdf/7f230370961c4a8e2f8b19c1729085b852124448/.github/demo.gif" alt="JevPDF — creator preview; click to watch or inspect" width="480" loading="lazy"></a>
+<h4>JevPDF</h4>
+<p>Highlights PDF lines that answer a natural-language query; pdf.js extracts text locally and Jev scores each candidate line.</p>
+<p><a href="https://x.com/kylemclaren/status/2102703300302791055">▶ Watch on X</a> · <a href="https://github.com/kylemclaren/jevpdf">Code</a> · <a href="https://github.com/kylemclaren/jevpdf/blob/7f230370961c4a8e2f8b19c1729085b852124448/src/lib/jev.ts">Source</a></p>
+<p><sub>Kyle McLaren / @kylemclaren — Author-hosted repository GIF, not an extracted X frame. Original X post: 2026-09-23. Meaning search sends extracted text to TypeSafe; results were not reproduced.</sub></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://x.com/blazejkustra_/status/2101616583424516392"><img src="https://raw.githubusercontent.com/blazejkustra/softlint/b2aeb846eeeb7a88099852ded34df82d2e61dc02/docs/demo.gif" alt="softlint — creator preview; click to watch or inspect" width="480" loading="lazy"></a>
+<h4>softlint</h4>
+<p>Checks changed diff hunks against plain-English rules, then asks Jev which added line best locates each finding.</p>
+<p><a href="https://x.com/blazejkustra_/status/2101616583424516392">▶ Watch on X</a> · <a href="https://github.com/blazejkustra/softlint">Code</a> · <a href="https://github.com/blazejkustra/softlint/blob/b2aeb846eeeb7a88099852ded34df82d2e61dc02/src/jev.ts">Source</a></p>
+<p><sub>Błażej Kustra / @blazejkustra_ — Author-hosted repository GIF of a demo PR, not an extracted X frame. Original X post: 2026-09-20. Detection and cost claims were not reproduced.</sub></p>
+</td>
+<td width="50%" valign="top">
+<h4>Jev Dreaming</h4>
+<p>Filters incoming text for memorable information and judges relationships between memories; Gemini generates the memory text.</p>
+<p><a href="https://x.com/_itzadnan_/status/2102717202663416049">▶ Watch on X</a> · <a href="https://github.com/AdnanQuazi/jev-dreaming">Code</a> · <a href="https://github.com/AdnanQuazi/jev-dreaming/blob/f2dab2ebc666e4bc9e48f4103278c4ceda1f7630/lib/jev.ts">Source</a></p>
+<p><sub>Adnan Quazi / @_itzadnan_ — Original X post dates from September 2026; newly added to this gallery on 2026-10-08. Source inspected, not executed; X recording not independently watched.</sub></p>
+<p><sub>No reliable preview image was returned. The original watch link is retained.</sub></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h4>ASIMOV Jev output filter</h4>
+<p>Filters fetched or listed JSON records with a plain-language Jev question before optional jq projection.</p>
+<p><a href="https://x.com/bendiken/status/2102377817459872084">▶ Watch on X</a> · <a href="https://github.com/asimov-platform/asimov-cli">Code</a> · <a href="https://github.com/asimov-platform/asimov-cli/blob/db1c26c77060bfbfff5e6ca5b972b80e4d6c8973/src/shared.rs">Source</a></p>
+<p><sub>Arto Bendiken / @bendiken — Original X post dates from September 2026; newly added to this gallery on 2026-10-08. Source inspected, not executed; X recording not independently watched.</sub></p>
+<p><sub>No reliable preview image was returned. The original watch link is retained.</sub></p>
+</td>
+<td width="50%" valign="top">
+<h4>Cua Driver + jev-use</h4>
+<p>Jev selects bounded driver actions; code executes and checks the outcome.</p>
+<p><a href="https://x.com/trycua/status/2100649543079502213">▶ Watch on X</a> · <a href="https://github.com/trycua/cua">Code</a> · <a href="https://github.com/trycua/cua/blob/49e924c4632882134b204b2e8a0ce8fae44418df/libs/cua-driver/examples/jev-use/README.md">Source</a></p>
+<p><sub>Cua / @trycua — Creator thread and source inspected; video not independently watched. The current source recipe uses a browser form fixture, so it does not reproduce the thread&#x27;s 2048 timing. Live decisions use hosted TypeSafe. Link-only entry; no media copied.</sub></p>
+<p><sub>No reliable preview image was returned. The original watch link is retained.</sub></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h4>fast-jev-compaction: selective history pruning</h4>
+<p>A source-backed experiment in keeping or dropping tool history with Jev judgments.</p>
+<p><a href="https://x.com/tamarajtran/status/2100694549362553153">▶ Watch on X</a> · <a href="https://github.com/tamaratran/fast-jev-compaction">Code</a> · <a href="https://github.com/tamaratran/fast-jev-compaction/blob/e3f262a7f4d42bd8dd32ced30d26176f7cb545b0/README.md">Source</a></p>
+<p><sub>Tamara Tran / @tamarajtran — The repository&#x27;s animation is scripted; the API-backed library is separate. X recording not independently watched. Tool-result bodies are omitted from the decision state, and useful evidence can be lost. Link-only entry; no performance or quality result reproduced.</sub></p>
+<p><sub>No reliable preview image was returned. The original watch link is retained.</sub></p>
+</td>
+<td width="50%" valign="top">
+<h4>Jev dev: a desktop decision workbench</h4>
+<p>Edit typed Jev questions and inspect saved runs; browser preview uses demo answers.</p>
+<p><a href="https://x.com/melvindvivas/status/2105347987098755186">▶ Watch on X</a> · <a href="https://github.com/donvito/jev-dev">Code</a> · <a href="https://github.com/donvito/jev-dev/blob/5df666eb3223688a311e89edfb9278a82b1cc9e3/README.md">Source</a></p>
+<p><sub>donvito / @melvindvivas — Source-inspected social reference; X playback was not verified. Live requests send state and questions to TypeSafe; request and response history persists locally. No code or media license verified. Link-only entry; no preview asset copied.</sub></p>
+<p><sub>No reliable preview image was returned. The original watch link is retained.</sub></p>
 </td>
 </tr>
 </table>
@@ -440,6 +505,13 @@ OpenRouter's [September 21 roundup](https://x.com/OpenRouter/status/210212574872
 | **jevyoumean** — syumai / @\_\_syumai | Suggests semantically related CLI subcommands from the command's documented choices rather than only matching typos. | [X demo](https://x.com/__syumai/status/2102297752810229800) · [repo](https://github.com/syumai/jevyoumean) · [source](https://github.com/syumai/jevyoumean/blob/f0bed70ebdcc6abda6b5f1984d050cadce3c5897/cmd/jym/main.go) |
 | **jevsearch** — Kyle McLaren / @kylemclaren | Streams lexical site-search results first, then uses Jev to judge and rerank a bounded candidate set. | [X demo](https://x.com/kylemclaren/status/2102038326588878950) · [repo](https://github.com/kylemclaren/jevsearch) · [source](https://github.com/kylemclaren/jevsearch/blob/1df37decb960b3c4826c71b41d3393c15a8f28d3/src/lib/jev-search-server.ts) |
 | **JevQL** — Kyle McLaren / @kylemclaren | Adds typed semantic predicates and judgments around ordinary Postgres queries, with batching and cached row decisions. | [X demo](https://x.com/kylemclaren/status/2100953409973108759) · [repo](https://github.com/kylemclaren/jevql) · [source](https://github.com/kylemclaren/jevql/blob/274532af852e8edfb7715ec6dca1113e589cb191/internal/exec/judge.go) |
+| **JevPDF** — Kyle McLaren / @kylemclaren | Highlights PDF lines that answer a natural-language query; pdf.js extracts text locally and Jev scores each candidate line. | [X demo](https://x.com/kylemclaren/status/2102703300302791055) · [repo](https://github.com/kylemclaren/jevpdf) · [source](https://github.com/kylemclaren/jevpdf/blob/7f230370961c4a8e2f8b19c1729085b852124448/src/lib/jev.ts) |
+| **softlint** — Błażej Kustra / @blazejkustra\_ | Checks changed diff hunks against plain-English rules, then asks Jev which added line best locates each finding. | [X demo](https://x.com/blazejkustra_/status/2101616583424516392) · [repo](https://github.com/blazejkustra/softlint) · [source](https://github.com/blazejkustra/softlint/blob/b2aeb846eeeb7a88099852ded34df82d2e61dc02/src/jev.ts) |
+| **Jev Dreaming** — Adnan Quazi / @\_itzadnan\_ | Filters incoming text for memorable information and judges relationships between memories; Gemini generates the memory text. | [X demo](https://x.com/_itzadnan_/status/2102717202663416049) · [repo](https://github.com/AdnanQuazi/jev-dreaming) · [source](https://github.com/AdnanQuazi/jev-dreaming/blob/f2dab2ebc666e4bc9e48f4103278c4ceda1f7630/lib/jev.ts) |
+| **ASIMOV Jev output filter** — Arto Bendiken / @bendiken | Filters fetched or listed JSON records with a plain-language Jev question before optional jq projection. | [X demo](https://x.com/bendiken/status/2102377817459872084) · [repo](https://github.com/asimov-platform/asimov-cli) · [source](https://github.com/asimov-platform/asimov-cli/blob/db1c26c77060bfbfff5e6ca5b972b80e4d6c8973/src/shared.rs) |
+| **Cua Driver + jev-use** — Cua / @trycua | Creator's computer-use demonstration, with a maintained recipe where Jev chooses bounded driver actions and local code checks fixture outcomes. | [X demo](https://x.com/trycua/status/2100649543079502213) · [repo](https://github.com/trycua/cua) · [source](https://github.com/trycua/cua/blob/49e924c4632882134b204b2e8a0ce8fae44418df/libs/cua-driver/examples/jev-use/python/jev_adapter.py) |
+| **fast-jev-compaction** — Tamara Tran / @tamarajtran | Experimental context pruning: Jev scores tool-call/result pairs, and local code keeps, truncates or drops them while preserving retained text. | [X demo](https://x.com/tamarajtran/status/2100694549362553153) · [repo](https://github.com/tamaratran/fast-jev-compaction) · [source](https://github.com/tamaratran/fast-jev-compaction/blob/e3f262a7f4d42bd8dd32ced30d26176f7cb545b0/src/compact.ts) |
+| **Jev dev** — donvito / @melvindvivas | Desktop workbench for editing Jev requests, inspecting typed answers and keeping run history, with a separate demo mode. | [X demo](https://x.com/melvindvivas/status/2105347987098755186) · [repo](https://github.com/donvito/jev-dev) · [source](https://github.com/donvito/jev-dev/blob/5df666eb3223688a311e89edfb9278a82b1cc9e3/src-tauri/src/client.rs) |
 
 </details>
 

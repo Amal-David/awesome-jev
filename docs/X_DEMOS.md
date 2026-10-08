@@ -34,6 +34,13 @@ All five winner posts (2–6) were inspected through the public X mirror, with t
 | **jevyoumean** — syumai / @\_\_syumai | Suggests semantically related CLI subcommands from the command's documented choices rather than only matching typos. | [X demo](https://x.com/__syumai/status/2102297752810229800) · [repo](https://github.com/syumai/jevyoumean) · [source](https://github.com/syumai/jevyoumean/blob/f0bed70ebdcc6abda6b5f1984d050cadce3c5897/cmd/jym/main.go) |
 | **jevsearch** — Kyle McLaren / @kylemclaren | Streams lexical site-search results first, then uses Jev to judge and rerank a bounded candidate set. | [X demo](https://x.com/kylemclaren/status/2102038326588878950) · [repo](https://github.com/kylemclaren/jevsearch) · [source](https://github.com/kylemclaren/jevsearch/blob/1df37decb960b3c4826c71b41d3393c15a8f28d3/src/lib/jev-search-server.ts) |
 | **JevQL** — Kyle McLaren / @kylemclaren | Adds typed semantic predicates and judgments around ordinary Postgres queries, with batching and cached row decisions. | [X demo](https://x.com/kylemclaren/status/2100953409973108759) · [repo](https://github.com/kylemclaren/jevql) · [source](https://github.com/kylemclaren/jevql/blob/274532af852e8edfb7715ec6dca1113e589cb191/internal/exec/judge.go) |
+| **JevPDF** — Kyle McLaren / @kylemclaren | Highlights PDF lines that answer a natural-language query; pdf.js extracts text locally and Jev scores each candidate line. | [X demo](https://x.com/kylemclaren/status/2102703300302791055) · [repo](https://github.com/kylemclaren/jevpdf) · [source](https://github.com/kylemclaren/jevpdf/blob/7f230370961c4a8e2f8b19c1729085b852124448/src/lib/jev.ts) |
+| **softlint** — Błażej Kustra / @blazejkustra\_ | Checks changed diff hunks against plain-English rules, then asks Jev which added line best locates each finding. | [X demo](https://x.com/blazejkustra_/status/2101616583424516392) · [repo](https://github.com/blazejkustra/softlint) · [source](https://github.com/blazejkustra/softlint/blob/b2aeb846eeeb7a88099852ded34df82d2e61dc02/src/jev.ts) |
+| **Jev Dreaming** — Adnan Quazi / @\_itzadnan\_ | Filters incoming text for memorable information and judges relationships between memories; Gemini generates the memory text. | [X demo](https://x.com/_itzadnan_/status/2102717202663416049) · [repo](https://github.com/AdnanQuazi/jev-dreaming) · [source](https://github.com/AdnanQuazi/jev-dreaming/blob/f2dab2ebc666e4bc9e48f4103278c4ceda1f7630/lib/jev.ts) |
+| **ASIMOV Jev output filter** — Arto Bendiken / @bendiken | Filters fetched or listed JSON records with a plain-language Jev question before optional jq projection. | [X demo](https://x.com/bendiken/status/2102377817459872084) · [repo](https://github.com/asimov-platform/asimov-cli) · [source](https://github.com/asimov-platform/asimov-cli/blob/db1c26c77060bfbfff5e6ca5b972b80e4d6c8973/src/shared.rs) |
+| **Cua Driver + jev-use** — Cua / @trycua | Creator's computer-use demonstration, with a maintained recipe where Jev chooses bounded driver actions and local code checks fixture outcomes. | [X demo](https://x.com/trycua/status/2100649543079502213) · [repo](https://github.com/trycua/cua) · [source](https://github.com/trycua/cua/blob/49e924c4632882134b204b2e8a0ce8fae44418df/libs/cua-driver/examples/jev-use/python/jev_adapter.py) |
+| **fast-jev-compaction** — Tamara Tran / @tamarajtran | Experimental context pruning: Jev scores tool-call/result pairs, and local code keeps, truncates or drops them while preserving retained text. | [X demo](https://x.com/tamarajtran/status/2100694549362553153) · [repo](https://github.com/tamaratran/fast-jev-compaction) · [source](https://github.com/tamaratran/fast-jev-compaction/blob/e3f262a7f4d42bd8dd32ced30d26176f7cb545b0/src/compact.ts) |
+| **Jev dev** — donvito / @melvindvivas | Desktop workbench for editing Jev requests, inspecting typed answers and keeping run history, with a separate demo mode. | [X demo](https://x.com/melvindvivas/status/2105347987098755186) · [repo](https://github.com/donvito/jev-dev) · [source](https://github.com/donvito/jev-dev/blob/5df666eb3223688a311e89edfb9278a82b1cc9e3/src-tauri/src/client.rs) |
 
 ## Reuse patterns and evidence
 
@@ -196,6 +203,76 @@ All five winner posts (2–6) were inspected through the public X mirror, with t
 **Post access:** X URL is an indexed social reference; the original post was not fully retrievable in this review. Creator attribution and status URL were found in the public shipwithjev index. Direct X retrieval was unavailable; the recording was not independently watched. The linked implementation was inspected instead.
 
 **Limitations:** Selected row values leave the database for TypeSafe; the relation-alias form can include every column. Limit columns and use a read-only database role for exploration. Plain SQL passes through, so this is not a read-only sandbox. Paid inference, database access, and project tests were not run.
+
+### JevPDF
+
+**Pattern:** Extract text and page geometry locally, batch independent relevance questions, then stream probability-ranked highlights.
+
+**Source review:** 2026-10-08. [Primary project source](https://github.com/kylemclaren/jevpdf/blob/7f230370961c4a8e2f8b19c1729085b852124448/src/lib/jev.ts).
+
+**Post access:** X URL is an indexed social reference; the original post was not fully retrievable in this review. Creator attribution, original post URL and date were inspected in the public X embed/index on shipwithjev.com. Direct X and public-mirror retrieval were unavailable. The linked primary implementation was inspected; no recording or live execution was independently reproduced..
+
+**Limitations:** Original X post: 2026-09-23. Exact text search stays local; meaning search sends extracted page text and the query through the app server to TypeSafe. Optional user API keys also pass through that server. Text extraction is not OCR, and relevance scores do not establish factual correctness. Extraction/search/proxy source inspected; no PDF, key, paid call or benchmark used.
+
+### softlint
+
+**Pattern:** Code scopes rules and builds bounded batches; Noul judges violations, Choice selects a line, and local thresholds produce annotations.
+
+**Source review:** 2026-10-08. [Primary project source](https://github.com/blazejkustra/softlint/blob/b2aeb846eeeb7a88099852ded34df82d2e61dc02/src/jev.ts).
+
+**Post access:** X URL is an indexed social reference; the original post was not fully retrievable in this review. Creator attribution, original post URL and date were inspected in the public X embed/index on shipwithjev.com. Direct X and public-mirror retrieval were unavailable. The linked primary implementation was inspected; no recording or live execution was independently reproduced..
+
+**Limitations:** Original X post: 2026-09-20. Sends selected source diffs and rules to TypeSafe. Hunks are truncated to a fixed budget, so findings are limited to supplied context; this supplements code review and ordinary linting. The fake-shop example and injected-client test source were inspected. Advertised detection/cost results were not reproduced.
+
+### Jev Dreaming
+
+**Pattern:** Batch triage before generation, retrieve related memories locally, then classify append, extend, supersede or unrelated relationships.
+
+**Source review:** 2026-10-08. [Primary project source](https://github.com/AdnanQuazi/jev-dreaming/blob/f2dab2ebc666e4bc9e48f4103278c4ceda1f7630/lib/jev.ts).
+
+**Post access:** X URL is an indexed social reference; the original post was not fully retrievable in this review. Creator attribution, original post URL and date were inspected in the public X embed/index on shipwithjev.com. Direct X and public-mirror retrieval were unavailable. The linked primary implementation was inspected; no recording or live execution was independently reproduced..
+
+**Limitations:** Original X post: 2026-09-23. Experimental memory-graph comparison with a Gemini-only pipeline, not validated memory accuracy. Text and candidate memories reach hosted providers; applying a run can update browser IndexedDB. The Jev route uses a server-held key without application authentication, so keep self-hosted exploration local. No public code license was verified; no project code or benchmarks were run.
+
+### ASIMOV Jev output filter
+
+**Pattern:** Bound the record batch, validate all Noul answers, preserve matching original records and their order, then apply deterministic formatting.
+
+**Source review:** 2026-10-08. [Primary project source](https://github.com/asimov-platform/asimov-cli/blob/db1c26c77060bfbfff5e6ca5b972b80e4d6c8973/src/shared.rs).
+
+**Post access:** X URL is an indexed social reference; the original post was not fully retrievable in this review. Creator attribution, original post URL and date were inspected in the public X embed/index on shipwithjev.com. Direct X and public-mirror retrieval were unavailable. The linked primary implementation was inspected; no recording or live execution was independently reproduced..
+
+**Limitations:** Original X post: 2026-09-22; current source reviewed through 2026-10-07. --jev is optional and uses TYPESAFE\_API\_TOKEN. Original records reach TypeSafe before jq projection, so selecting fewer output fields does not reduce data sent upstream. Current filtering keeps scores strictly above 0.80, validates responses and surfaces failures. Implementation and regression-test source inspected; no modules, accounts or live calls used.
+
+### Cua Driver + jev-use
+
+**Pattern:** Observe the page, offer named executable candidates plus reobserve/abstain, validate the returned ID, execute locally, and verify the result independently.
+
+**Source review:** 2026-10-08. [Primary project source](https://github.com/trycua/cua/blob/49e924c4632882134b204b2e8a0ce8fae44418df/libs/cua-driver/examples/jev-use/python/jev_adapter.py).
+
+**Post access:** X URL is an indexed social reference; the original post was not fully retrievable in this review. The creator thread, attribution, date and linked Cua repository were inspected through its public Zamantika mirror. Direct X retrieval was unavailable, and the video was not independently watched. The maintained jev-use adapter, runner and test source were inspected separately..
+
+**Limitations:** Original X thread: 2026-09-17. The thread includes an author-measured 2048 run; the current companion recipe reviewed here uses a browser form fixture, not a reproduction of that recording. Live choices send compact page/region metadata to hosted TypeSafe; screenshot bytes are not sent by the inspected adapter. The default mock path still operates a browser. Adapter, fixture runner and fake-client test source inspected; no desktop/browser automation, live calls or benchmark run.
+
+### fast-jev-compaction
+
+**Pattern:** Use typed relevance judgments to select retained history, then apply deterministic pruning with recent-message preservation and a summary fallback.
+
+**Source review:** 2026-10-08. [Primary project source](https://github.com/tamaratran/fast-jev-compaction/blob/e3f262a7f4d42bd8dd32ced30d26176f7cb545b0/src/compact.ts).
+
+**Post access:** X URL is an indexed social reference; the original post was not fully retrievable in this review. The creator's original text and source-link reply were inspected through a public Zamantika mirror. Direct X retrieval was unavailable and the recording was not independently watched. The linked primary implementation was inspected; its repository animation is documented as scripted..
+
+**Limitations:** September 2026 creator post; the inspected mirror displays Sep 18, while the post ID encodes Sep 17 UTC. Conversation text and tool inputs reach TypeSafe, but tool-result bodies are omitted from the model's decision state. Pruning can discard useful evidence; the hook falls back to a normal summary on errors or insufficient reduction. The repository's animated demo is explicitly scripted; it is separate from the real API-backed library. Client, compaction, hook and fake-client test source inspected; no integration, quality/cost evaluation or paid inference run.
+
+### Jev dev
+
+**Pattern:** Keep saved questions and run evidence local while sending explicit live evaluations to the hosted decision model.
+
+**Source review:** 2026-10-08. [Primary project source](https://github.com/donvito/jev-dev/blob/5df666eb3223688a311e89edfb9278a82b1cc9e3/src-tauri/src/client.rs).
+
+**Post access:** X URL is an indexed social reference; the original post was not fully retrievable in this review. Creator attribution and the canonical post URL were inspected in the public Jev Wiki tools index. Direct X and public-mirror retrieval returned HTTP 403, so the recording was not watched. The linked primary implementation, example and test source were inspected independently..
+
+**Limitations:** Current source reviewed through 2026-10-05. Browser preview is demo-only; live desktop requests send request state and questions to TypeSafe. Local history retains request, response and error text. No code license was found in the reviewed source tree. Implementation, request example and test source inspected; no app, installer, project tests or inference run.
 
 ## Curation rules
 
