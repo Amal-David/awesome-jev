@@ -70,7 +70,9 @@ The [full creator gallery](docs/DIRECTORY.md#watch-jev-in-action) retains the ot
 
 - [TypeSafe Python SDK](https://github.com/typesafe-ai/typesafe-sdk-python) - Official Python client with a support-ticket routing example.
 - [TypeSafe JavaScript SDK](https://github.com/typesafe-ai/typesafe-sdk-js) - Official JavaScript and TypeScript client.
+- [TypeSafe Go SDK](https://github.com/kisshan13/typesafe-ai-go) - Community Go client with typed question builders, response helpers, retries, and runnable examples.
 - [Official TypeSafe Skill](https://github.com/typesafe-ai/skills) - Request-writing guidance for Noul, Choice, and Score questions.
+- [gut](https://github.com/Kungie/gut) - Python decision API with Jev, local, and OpenAI-compatible backends, plus batching, caching, and human-escalation thresholds.
 - [Tenbin](https://github.com/simota/tenbin) - MCP server and skill for linting questions, evaluating labeled examples, and choosing thresholds.
 - [wellposed](https://github.com/suraj-phanindra/wellposed) - Offline request linter for missing options, broken state references, and question types.
 - [jevrs](https://github.com/luizribeiro/jevrs) - Async Rust client with typed answers, derive macros, and native or WASI transports.
@@ -117,6 +119,7 @@ The [full creator gallery](docs/DIRECTORY.md#watch-jev-in-action) retains the ot
 
 - [pen-find](https://github.com/adelghaenian/pen-find) - Finds Pen design frames by sending node names, paths, text, and structure to Jev for semantic ranking.
 - [JevPDF](https://github.com/kylemclaren/jevpdf) - Meaning-based PDF search with locally extracted text and Jev-ranked line highlights.
+- [jev-eyes](https://github.com/LeddoEngano/jev-eyes) - Locally extracts OCR text and spatial layout from images into inspectable state, with an optional helper that sends that state to Jev.
 - [ASIMOV Jev output filter](https://github.com/asimov-platform/asimov-cli) - Optional plain-language filtering of JSON records before deterministic output projection.
 - [Jev dev](https://github.com/donvito/jev-dev) - Desktop workbench for typed Jev requests, answer inspection and saved run history, with a separate demo mode.
 - [jevotron](https://github.com/cmungall/jevotron) - CLI that uses Jev to flag anomalies in selected fields, with file-format adapters, local previews and cached assessments.
@@ -160,6 +163,7 @@ These projects are not official TypeSafe Jev weights, and compatible outputs do 
 
 - [Jev in the Wild](https://arxiv.org/abs/2609.30216) - Surveys 2,170 public Jev projects and maps early growth, application domains, and decision-use patterns.
 - [Jev vs an LLM: the numbers builders published](https://madewithjev.com/jev-vs-llm) - Puts published Jev and LLM runs of the same job side by side (100,000 posts for $0.67 against 214 for $0.98) and lists the cases where the larger model still won.
+- [Jev benchmark](https://github.com/Kumzha/jev-benchmark) - Publishes a harness and raw per-item results for author-run Jev comparisons on two small classification tasks.
 
 ## Supporting Drivers
 

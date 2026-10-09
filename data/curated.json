@@ -821,5 +821,53 @@
     "kind": "independent-reproduction",
     "reviewed": "2026-10-08",
     "notes": "Cloudflare-trained models, not TypeSafe Jev weights: Clef uses a Qwen3.8-27B backbone and Clef-flash uses Qwen3.5-9B. The paired Clef-flash model card was inspected at fde727a287004204b7518dcc983fe64379776712; both revisions ship the same Jev/SystemOne adapter source and separate safetensor weights. The adapter supports noul, choice and score answers, truncates long state input to its configured token budget, and extends the shape with local image/video objects. Hosted Workers AI sends state, questions and optional media to Cloudflare; its data-usage documentation says customer content is not used for training or service improvement without explicit consent and may be stored when a storage service is used. Publisher benchmarks and compatibility claims were not independently reproduced. Model weights, custom code, dependencies and inference were not downloaded or executed."
+  },
+  {
+    "repo": "kisshan13/typesafe-ai-go",
+    "name": "TypeSafe Go SDK",
+    "category": "sdks",
+    "description": "Community Go client with typed question builders, response helpers, configurable transport, retries and runnable examples.",
+    "evidence": "https://github.com/kisshan13/typesafe-ai-go/blob/c18752f466fff7dd8eaebc3810e49121bfa40e1a/README.md",
+    "code": "https://github.com/kisshan13/typesafe-ai-go/blob/c18752f466fff7dd8eaebc3810e49121bfa40e1a/client.go",
+    "license": "MIT",
+    "kind": "community-sdk",
+    "reviewed": "2026-10-09",
+    "notes": "Independent community SDK, not an official TypeSafe client. State and questions reach TypeSafe through the default HTTPS endpoint; custom base URLs are caller-controlled, so use a trusted HTTPS endpoint with real credentials. The caller can supply an HTTP client for timeouts and transport policy. Client, types, validation, examples, retry tests and license were inspected at the pinned revision; no Go code, tests or paid inference ran."
+  },
+  {
+    "repo": "Kungie/gut",
+    "name": "gut",
+    "category": "sdks",
+    "description": "Python decision API with Jev, local and OpenAI-compatible backends, plus batching, caching and human-escalation thresholds.",
+    "evidence": "https://github.com/Kungie/gut/blob/d3db14e242312393e4f2f9f90422131357084468/README.md",
+    "code": "https://github.com/Kungie/gut/blob/d3db14e242312393e4f2f9f90422131357084468/src/gut/_backends/jev.py",
+    "license": "Apache-2.0",
+    "kind": "multi-backend-sdk",
+    "reviewed": "2026-10-09",
+    "notes": "Jev is a first-class hosted backend; local NLI/transformer models, OpenAI-compatible servers and the OpenAI Decisions API are separate alternatives rather than Jev implementations. Subjects and questions go to the configured backend, and optional local backends require separately installed model dependencies. Reported probabilities are backend-specific and are not accuracy estimates or authorization decisions. Jev translation, error handling, batching, caching, examples, limitations, offline tests and license were inspected at the pinned revision; its exact-head upstream CI succeeded. No package, model, dependency, project test or paid inference ran here."
+  },
+  {
+    "repo": "LeddoEngano/jev-eyes",
+    "name": "jev-eyes",
+    "category": "apps",
+    "description": "Locally extracts OCR text and spatial layout from images into inspectable state, with an optional helper that sends that state to Jev.",
+    "evidence": "https://github.com/LeddoEngano/jev-eyes/blob/9ae9a6dc2088359a52d7092891bbf7c8f2030936/README.md",
+    "code": "https://github.com/LeddoEngano/jev-eyes/blob/9ae9a6dc2088359a52d7092891bbf7c8f2030936/src/jev_eyes/see.py",
+    "license": "MIT",
+    "kind": "direct-integration",
+    "reviewed": "2026-10-09",
+    "notes": "OCR, spatial layout and optional SigLIP labels run locally and return plain JSON-serializable state. Calling ask() sends that state—including extracted text, image dimensions, source filename and optional boxes/labels—to TypeSafe; use only images approved for hosted processing. Jev receives derived text and layout, not image pixels, and OCR or relative label scores can be wrong. Core perception, state construction, hosted helper, CLI/MCP boundaries, test source and license were inspected at the pinned revision; its exact-head upstream CI succeeded. No package, OCR/model dependency, image processing, test or paid inference ran here."
+  },
+  {
+    "repo": "Kumzha/jev-benchmark",
+    "name": "Jev benchmark",
+    "category": "articles",
+    "description": "Publishes a harness and raw per-item results for author-run Jev comparisons on two small classification tasks.",
+    "evidence": "https://github.com/Kumzha/jev-benchmark/blob/a254d3716e7b87f4ad6c017da910378b960857e4/README.md",
+    "code": "https://github.com/Kumzha/jev-benchmark/blob/a254d3716e7b87f4ad6c017da910378b960857e4/run.py",
+    "license": "MIT",
+    "kind": "author-run-benchmark",
+    "reviewed": "2026-10-09",
+    "notes": "Author-run September 19 comparison using 200 items per task for accuracy/cost and separate 60-item sequential latency runs; raw per-item results, adapters and scoring-policy tests are committed. Banking77 and prompt-injection detection are both classification tasks, local supervised baselines had labeled training data, and hosted lanes used different routes. Prices, providers, network geography and model aliases can change. Harness, matching policy, result files, methodology and license were inspected at the pinned revision; no dataset, dependency, API call, benchmark lane or result reproduction ran here."
   }
 ]

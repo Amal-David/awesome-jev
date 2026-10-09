@@ -2,7 +2,7 @@
 
 This repository has not been submitted to or accepted by `sindresorhus/awesome`. The badge indicates the Awesome-list format, not acceptance. This preparation was AI-assisted and does not certify compliance with the index's authorship or editorial requirements.
 
-Sources checked September 25, 2026: [submission checklist](https://github.com/sindresorhus/awesome/blob/main/pull_request_template.md), [creating a list](https://github.com/sindresorhus/awesome/blob/main/create-list.md), [manifesto](https://github.com/sindresorhus/awesome/blob/main/awesome.md), and [awesome-lint](https://github.com/sindresorhus/awesome-lint). Re-read their current versions before doing anything upstream.
+Sources rechecked October 9, 2026: [submission checklist](https://github.com/sindresorhus/awesome/blob/main/pull_request_template.md), [creating a list](https://github.com/sindresorhus/awesome/blob/main/create-list.md), [manifesto](https://github.com/sindresorhus/awesome/blob/main/awesome.md), and [awesome-lint](https://github.com/sindresorhus/awesome-lint). Re-read their current versions before doing anything upstream.
 
 ## Structural preparation
 
@@ -12,7 +12,7 @@ The migration is published in [PR #17](https://github.com/Amal-David/awesome-jev
 
 CC0 applies only to designated original editorial contributions owned by the affirmer. Earlier contributions, code, imported metadata, and media are not relicensed on behalf of their authors. The original MIT grant is retained in `LICENSE-CODE`; see [LICENSING.md](../LICENSING.md).
 
-Repository name and default branch already match the checklist. Required topics are `awesome` and `awesome-list`; verify the live repository About panel rather than treating this document as a settings receipt. The September 25 check still found `awesome-list` missing. Its attempted update with the existing repository token returned HTTP 403; no permissions were expanded. An owner can add it under About > gear > Topics > Save changes.
+Repository name and default branch already match the checklist. Required topics are `awesome` and `awesome-list`; the live repository topics rechecked October 9 include both. This resolves the earlier missing-topic blocker but does not resolve maturity, authorship, submission access, editorial-review, or community-review requirements.
 
 ## Eligibility is still unresolved
 

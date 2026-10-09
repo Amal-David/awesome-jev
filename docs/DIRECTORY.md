@@ -6,7 +6,7 @@ Projects, demos, and tools built with [Jev](https://docs.typesafe.ai/).
 
 Jev answers questions about data: pick an option, return a yes/no probability, or score something on a scale. It does not write text. The examples here show what people are using it for, with links to the code where available.
 
-**73 reviewed picks**. <a href="https://github.com/Amal-David/awesome-jev/blob/main/docs/REVIEWED.md">Source notes and licenses</a>. The larger discovery catalog is separate.
+**77 reviewed picks**. <a href="https://github.com/Amal-David/awesome-jev/blob/main/docs/REVIEWED.md">Source notes and licenses</a>. The larger discovery catalog is separate.
 
 [Quick start](#20-second-quick-start) · [Projects](#reviewed-picks) · [Demos from X](#watch-jev-in-action) · [CUA & drivers](#computer-use-and-drivers) · [OpenRouter winners](#openrouter-community-winners) · [Contributing](#contribute)
 
@@ -54,7 +54,9 @@ For simple rules, parsing, or arithmetic, use code. A dedicated classifier may b
 - <a href="https://github.com/kitze/skillbox">Skillbox</a> - Self-hosted skill library with optional Jev-based recommendations.
 - <a href="https://github.com/simota/tenbin">Tenbin</a> - MCP server and skill for linting Jev questions, evaluating labeled examples, and choosing decision thresholds.
 - <a href="https://github.com/suraj-phanindra/wellposed">wellposed</a> - Offline linter and agent skill for Jev requests: checks missing options, broken state references, and question types.
+- <a href="https://github.com/Kungie/gut">gut</a> - Python decision API with Jev, local and OpenAI-compatible backends, plus batching, caching and human-escalation thresholds.
 - <a href="https://github.com/luizribeiro/jevrs">jevrs</a> - Async Rust client with typed answers, derive macros, and native or WASI transports.
+- <a href="https://github.com/kisshan13/typesafe-ai-go">TypeSafe Go SDK</a> - Community Go client with typed question builders, response helpers, configurable transport, retries and runnable examples.
 
 ### Browser and desktop tools
 
@@ -93,6 +95,7 @@ For simple rules, parsing, or arithmetic, use code. A dedicated classifier may b
 
 - <a href="https://github.com/jerryjliu/docjev">DocJev</a> - Classifies documents and finds packet boundaries with Jev after local parsing or optional cloud OCR.
 - <a href="https://github.com/donvito/jev-dev">Jev dev</a> - Desktop workbench for editing Jev requests, inspecting typed answers and keeping run history, with a separate demo mode.
+- <a href="https://github.com/LeddoEngano/jev-eyes">jev-eyes</a> - Locally extracts OCR text and spatial layout from images into inspectable state, with an optional helper that sends that state to Jev.
 - <a href="https://github.com/kylemclaren/jevpdf">JevPDF</a> - Highlights PDF lines that answer a natural-language query; pdf.js extracts text locally and Jev scores each candidate line.
 - <a href="https://github.com/riesvile/nospace">nospace</a> - Adds spaces while you type. Jev chooses between possible word splits; a separate model handles spelling corrections.
 - <a href="https://github.com/adelghaenian/pen-find">pen-find</a> - Finds Pen design frames by sending node names, paths, text and structure to Jev for semantic ranking.
@@ -134,6 +137,7 @@ For simple rules, parsing, or arithmetic, use code. A dedicated classifier may b
 
 ### Reading and other lists
 
+- <a href="https://github.com/Kumzha/jev-benchmark">Jev benchmark</a> - Publishes a harness and raw per-item results for author-run Jev comparisons on two small classification tasks.
 - <a href="https://arxiv.org/abs/2609.30216">Jev in the Wild</a> - Data-driven survey of 2,170 public Jev projects, mapping early growth, application domains, and decision-use patterns.
 - <a href="https://madewithjev.com/jev-vs-llm">Jev vs an LLM: the numbers builders published</a> - Puts published Jev and LLM runs of the same job side by side and lists the cases where the larger model still won.
 
@@ -141,7 +145,7 @@ For simple rules, parsing, or arithmetic, use code. A dedicated classifier may b
 
 - <a href="https://github.com/browser-use/browser-harness">Browser Harness (supporting driver)</a> - The CDP browser connection used by Jev Ultrafast. Model-neutral, not a Jev model.
 
-<a href="https://github.com/Amal-David/awesome-jev/blob/main/docs/REVIEWED.md">All 73 reviewed picks: source notes and licenses</a>
+<a href="https://github.com/Amal-David/awesome-jev/blob/main/docs/REVIEWED.md">All 77 reviewed picks: source notes and licenses</a>
 
 ## Computer use and drivers
 

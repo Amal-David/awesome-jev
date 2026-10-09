@@ -9046,26 +9046,6 @@
   {
     "archived": false,
     "category": "demos",
-    "description": "Judgment calls as one line of Python, built for TypeSafe AI's Jev and running on any small model: likely / classify / rate → YES, NO or UNSURE. Also local NLI, local LLMs, Ollama, vLLM, OpenAI.",
-    "evidence_level": "readme-matched",
-    "language": "Python",
-    "license": "Apache-2.0",
-    "metadata_checked": "2026-10-08",
-    "name": "gut",
-    "notes": "Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.",
-    "pushed_at": "2026-10-07T14:29:10Z",
-    "repo": "Kungie/gut",
-    "repository_status": "accessible",
-    "sources": [
-      "https://github.com/Kungie/gut/blob/main/README.md",
-      "https://github.com/hellogumbo/awesome-jev"
-    ],
-    "stars": 6,
-    "url": "https://github.com/Kungie/gut"
-  },
-  {
-    "archived": false,
-    "category": "demos",
     "description": "Home Assistant custom component: Conversation agent with Jev fast-path + Grok fallback",
     "evidence_level": "readme-matched",
     "language": "Python",
@@ -11686,25 +11666,6 @@
   {
     "archived": false,
     "category": "demos",
-    "description": "Jev vs nine cheap models on price, speed and accuracy. Human-labelled data, reproducible harness.",
-    "evidence_level": "readme-matched",
-    "language": "Python",
-    "license": "MIT",
-    "metadata_checked": "2026-10-08",
-    "name": "jev-benchmark",
-    "notes": "Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.",
-    "pushed_at": "2026-09-20T11:19:48Z",
-    "repo": "Kumzha/jev-benchmark",
-    "repository_status": "accessible",
-    "sources": [
-      "https://github.com/Kumzha/jev-benchmark/blob/main/README.md"
-    ],
-    "stars": 0,
-    "url": "https://github.com/Kumzha/jev-benchmark"
-  },
-  {
-    "archived": false,
-    "category": "demos",
     "description": "Benchmark the whole agent loop, not single model calls",
     "evidence_level": "readme-matched",
     "language": null,
@@ -13940,25 +13901,6 @@
     ],
     "stars": 0,
     "url": "https://github.com/dangquan1402/jev-extract"
-  },
-  {
-    "archived": false,
-    "category": "demos",
-    "description": "Give Jev eyes — honest, local image perception for TypeSafe's text-only System One model. OCR + spatial layout → Jev state. CLI, MCP server, agent skill.",
-    "evidence_level": "readme-matched",
-    "language": "Python",
-    "license": "MIT",
-    "metadata_checked": "2026-10-08",
-    "name": "jev-eyes",
-    "notes": "Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.",
-    "pushed_at": "2026-09-20T15:20:56Z",
-    "repo": "LeddoEngano/jev-eyes",
-    "repository_status": "accessible",
-    "sources": [
-      "https://github.com/LeddoEngano/jev-eyes/blob/main/README.md"
-    ],
-    "stars": 1,
-    "url": "https://github.com/LeddoEngano/jev-eyes"
   },
   {
     "archived": false,
@@ -45431,6 +45373,29 @@
   {
     "archived": false,
     "category": "apps",
+    "code": "https://github.com/LeddoEngano/jev-eyes/blob/9ae9a6dc2088359a52d7092891bbf7c8f2030936/src/jev_eyes/see.py",
+    "description": "Locally extracts OCR text and spatial layout from images into inspectable state, with an optional helper that sends that state to Jev.",
+    "evidence_level": "primary-source-reviewed",
+    "kind": "direct-integration",
+    "language": "Python",
+    "license": "MIT",
+    "metadata_checked": "2026-10-08",
+    "name": "jev-eyes",
+    "notes": "OCR, spatial layout and optional SigLIP labels run locally and return plain JSON-serializable state. Calling ask() sends that state—including extracted text, image dimensions, source filename and optional boxes/labels—to TypeSafe; use only images approved for hosted processing. Jev receives derived text and layout, not image pixels, and OCR or relative label scores can be wrong. Core perception, state construction, hosted helper, CLI/MCP boundaries, test source and license were inspected at the pinned revision; its exact-head upstream CI succeeded. No package, OCR/model dependency, image processing, test or paid inference ran here.",
+    "pushed_at": "2026-09-20T15:20:56Z",
+    "repo": "LeddoEngano/jev-eyes",
+    "repository_status": "accessible",
+    "reviewed": "2026-10-09",
+    "sources": [
+      "https://github.com/LeddoEngano/jev-eyes/blob/9ae9a6dc2088359a52d7092891bbf7c8f2030936/README.md",
+      "https://github.com/LeddoEngano/jev-eyes/blob/main/README.md"
+    ],
+    "stars": 1,
+    "url": "https://github.com/LeddoEngano/jev-eyes"
+  },
+  {
+    "archived": false,
+    "category": "apps",
     "description": "用 Jev 把一句自然语言设计指令拆成几道选择题，再由代码在 Figma 里画出来 · Jev decides, code draws: a Figma plugin that turns one sentence into multiple-choice questions for Jev (System One)",
     "evidence_level": "community-indexed",
     "language": "TypeScript",
@@ -47711,6 +47676,30 @@
   {
     "archived": false,
     "category": "sdks",
+    "code": "https://github.com/Kungie/gut/blob/d3db14e242312393e4f2f9f90422131357084468/src/gut/_backends/jev.py",
+    "description": "Python decision API with Jev, local and OpenAI-compatible backends, plus batching, caching and human-escalation thresholds.",
+    "evidence_level": "primary-source-reviewed",
+    "kind": "multi-backend-sdk",
+    "language": "Python",
+    "license": "Apache-2.0",
+    "metadata_checked": "2026-10-08",
+    "name": "gut",
+    "notes": "Jev is a first-class hosted backend; local NLI/transformer models, OpenAI-compatible servers and the OpenAI Decisions API are separate alternatives rather than Jev implementations. Subjects and questions go to the configured backend, and optional local backends require separately installed model dependencies. Reported probabilities are backend-specific and are not accuracy estimates or authorization decisions. Jev translation, error handling, batching, caching, examples, limitations, offline tests and license were inspected at the pinned revision; its exact-head upstream CI succeeded. No package, model, dependency, project test or paid inference ran here.",
+    "pushed_at": "2026-10-07T14:29:10Z",
+    "repo": "Kungie/gut",
+    "repository_status": "accessible",
+    "reviewed": "2026-10-09",
+    "sources": [
+      "https://github.com/Kungie/gut/blob/d3db14e242312393e4f2f9f90422131357084468/README.md",
+      "https://github.com/Kungie/gut/blob/main/README.md",
+      "https://github.com/hellogumbo/awesome-jev"
+    ],
+    "stars": 6,
+    "url": "https://github.com/Kungie/gut"
+  },
+  {
+    "archived": false,
+    "category": "sdks",
     "description": "Python library, with a TypeScript port, that turns Jev Choice, Score, and Noul questions into functions over lists and DataFrames: classify, score, check, where, extract, pick, rank, verify.",
     "evidence_level": "community-indexed",
     "language": "Python",
@@ -48781,6 +48770,30 @@
     ],
     "stars": 2,
     "url": "https://github.com/mattneel/typesafe"
+  },
+  {
+    "archived": false,
+    "category": "sdks",
+    "code": "https://github.com/kisshan13/typesafe-ai-go/blob/c18752f466fff7dd8eaebc3810e49121bfa40e1a/client.go",
+    "description": "Community Go client with typed question builders, response helpers, configurable transport, retries and runnable examples.",
+    "evidence_level": "primary-source-reviewed",
+    "kind": "community-sdk",
+    "language": "Go",
+    "license": "MIT",
+    "metadata_checked": "2026-10-08",
+    "name": "TypeSafe Go SDK",
+    "notes": "Independent community SDK, not an official TypeSafe client. State and questions reach TypeSafe through the default HTTPS endpoint; custom base URLs are caller-controlled, so use a trusted HTTPS endpoint with real credentials. The caller can supply an HTTP client for timeouts and transport policy. Client, types, validation, examples, retry tests and license were inspected at the pinned revision; no Go code, tests or paid inference ran.",
+    "pushed_at": "2026-09-20T15:42:27Z",
+    "repo": "kisshan13/typesafe-ai-go",
+    "repository_status": "accessible",
+    "reviewed": "2026-10-09",
+    "sources": [
+      "https://github.com/kisshan13/typesafe-ai-go/blob/c18752f466fff7dd8eaebc3810e49121bfa40e1a/README.md",
+      "https://github.com/hellogumbo/awesome-jev",
+      "https://github.com/kisshan13/typesafe-ai-go/blob/main/README.md"
+    ],
+    "stars": 4,
+    "url": "https://github.com/kisshan13/typesafe-ai-go"
   },
   {
     "archived": false,
@@ -55825,26 +55838,6 @@
   {
     "archived": false,
     "category": "research",
-    "description": "Community-maintained Go SDK for the TypeSafe AI System One evaluation API, with typed questions, fluent builders, retries, and examples.",
-    "evidence_level": "community-indexed",
-    "language": "Go",
-    "license": "MIT",
-    "metadata_checked": "2026-10-08",
-    "name": "typesafe-ai-go",
-    "notes": "Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.",
-    "pushed_at": "2026-09-20T15:42:27Z",
-    "repo": "kisshan13/typesafe-ai-go",
-    "repository_status": "accessible",
-    "sources": [
-      "https://github.com/hellogumbo/awesome-jev",
-      "https://github.com/kisshan13/typesafe-ai-go/blob/main/README.md"
-    ],
-    "stars": 4,
-    "url": "https://github.com/kisshan13/typesafe-ai-go"
-  },
-  {
-    "archived": false,
-    "category": "research",
     "description": "FUn little experiment with Typesafe AI Jev Model playing chess against stockfish :)",
     "evidence_level": "community-indexed",
     "language": "JavaScript",
@@ -57783,6 +57776,29 @@
       "https://github.com/hellogumbo/awesome-jev"
     ],
     "url": "https://x.com/isNickMa/status/2100566407524344225"
+  },
+  {
+    "archived": false,
+    "category": "articles",
+    "code": "https://github.com/Kumzha/jev-benchmark/blob/a254d3716e7b87f4ad6c017da910378b960857e4/run.py",
+    "description": "Publishes a harness and raw per-item results for author-run Jev comparisons on two small classification tasks.",
+    "evidence_level": "primary-source-reviewed",
+    "kind": "author-run-benchmark",
+    "language": "Python",
+    "license": "MIT",
+    "metadata_checked": "2026-10-08",
+    "name": "Jev benchmark",
+    "notes": "Author-run September 19 comparison using 200 items per task for accuracy/cost and separate 60-item sequential latency runs; raw per-item results, adapters and scoring-policy tests are committed. Banking77 and prompt-injection detection are both classification tasks, local supervised baselines had labeled training data, and hosted lanes used different routes. Prices, providers, network geography and model aliases can change. Harness, matching policy, result files, methodology and license were inspected at the pinned revision; no dataset, dependency, API call, benchmark lane or result reproduction ran here.",
+    "pushed_at": "2026-09-20T11:19:48Z",
+    "repo": "Kumzha/jev-benchmark",
+    "repository_status": "accessible",
+    "reviewed": "2026-10-09",
+    "sources": [
+      "https://github.com/Kumzha/jev-benchmark/blob/a254d3716e7b87f4ad6c017da910378b960857e4/README.md",
+      "https://github.com/Kumzha/jev-benchmark/blob/main/README.md"
+    ],
+    "stars": 0,
+    "url": "https://github.com/Kumzha/jev-benchmark"
   },
   {
     "category": "articles",
