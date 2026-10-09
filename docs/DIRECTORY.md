@@ -449,15 +449,7 @@ https://github.com/user-attachments/assets/176c69e4-501e-4b71-8517-957cc692882a
 
 <sub>cocktailpeanut — Code renders notes and audio. Fixture/manual modes are distinct from billable live Jev decisions.</sub>
 
-<h4>jev-align — improve a decision with human labels</h4>
-
-<p>Find uncertain examples, label them, and review proposed AI-function improvements.</p>
-
-https://github.com/user-attachments/assets/81650587-e3f1-4655-8213-ed5f6e120e9a
-
-<a href="https://github.com/user-attachments/assets/81650587-e3f1-4655-8213-ed5f6e120e9a">Open recording</a> · <a href="https://github.com/sutro-sh/jev-align">Repository</a> · <a href="https://github.com/sutro-sh/jev-align/blob/main/README.md">Creator source</a>
-
-<sub>Sutro — Experimental active-learning CLI. Training improvement is not held-out quality; inference and reflection models may both bill.</sub>
+<p><strong>jev-align — improve a decision with human labels</strong> — the recording could not be verified by the latest public-access check. <a href="https://github.com/sutro-sh/jev-align/blob/main/README.md">View the creator source</a>.</p>
 
 ### Longer walkthroughs on YouTube
 
@@ -546,7 +538,7 @@ For more demos and skills, browse [Ship with Jev](https://www.shipwithjev.com/).
 <details>
 <summary>Refresh status</summary>
 
-**Last discovery:** 2026-10-08T21:24:33Z (UTC). **Latest repository metadata date:** 2026-10-08. **Unavailable repositories at last check:** 35. <a href="https://github.com/Amal-David/awesome-jev/blob/main/docs/STATUS.md">Coverage, failures and run receipts</a>.
+**Last discovery:** 2026-10-09T06:21:24Z (UTC). **Latest repository metadata date:** 2026-10-09. **Unavailable repositories at last check:** 35. <a href="https://github.com/Amal-David/awesome-jev/blob/main/docs/STATUS.md">Coverage, failures and run receipts</a>.
 
 The four-hour job updates the discovery catalog and checks a rotating set of links. It does not choose projects for the README. [Check history and coverage](https://github.com/Amal-David/awesome-jev/blob/main/docs/STATUS.md).
 
