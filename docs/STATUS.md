@@ -6,11 +6,11 @@
 
 | Measure | Recorded value |
 |---|---|
-| Reviewed / indexed / auto-discovered | 78 / 1388 / 1705 |
-| Catalog entries (not all reviewed) | 3171 |
-| Last completed discovery pass (UTC) | 2026-10-09T15:23:00Z |
+| Reviewed / indexed / auto-discovered | 78 / 1387 / 1728 |
+| Catalog entries (not all reviewed) | 3193 |
+| Last completed discovery pass (UTC) | 2026-10-09T21:01:45Z |
 | Latest rotating repository metadata check | 2026-10-09 |
-| Repositories with a recorded metadata check | 3069 / 3069 |
+| Repositories with a recorded metadata check | 3091 / 3091 |
 | Repositories unavailable at their last check (404/410) | 35 |
 | Media records with a latest-attempt error | 3 |
 | Editorial exclusions | 1 |
@@ -21,7 +21,7 @@ Repository checks rotate: the newest check date does not mean every entry was ch
 
 The discovery timestamp advances only after a network discovery pass completes. An offline directory rebuild, test run or media-only refresh never advances it. The Actions result, not the cron expression, establishes that a workflow ran successfully.
 
-<a href="https://github.com/Amal-David/awesome-jev/actions/runs/37951158291">Discovery run receipt</a>
+<a href="https://github.com/Amal-David/awesome-jev/actions/runs/37990743558">Discovery run receipt</a>
 
 <a href="https://github.com/Amal-David/awesome-jev/actions/workflows/curate.yml">All refresh runs</a>
 
@@ -35,10 +35,10 @@ The discovery timestamp advances only after a network discovery pass completes. 
 - <a href="https://github.com/hellomrleeus/google-maps-place-scout">hellomrleeus/google-maps-place-scout</a> — last check 2026-10-02
 - <a href="https://github.com/tivojn/gpt-live-avatar">tivojn/gpt-live-avatar</a> — last check 2026-10-09
 - <a href="https://github.com/itsaslamopenclawdata/GrowthCompany_JevOutputs">itsaslamopenclawdata/GrowthCompany_JevOutputs</a> — last check 2026-10-04
-- <a href="https://github.com/aoi-yoneda/haikyuBattleJev">aoi-yoneda/haikyuBattleJev</a> — last check 2026-09-30
+- <a href="https://github.com/aoi-yoneda/haikyuBattleJev">aoi-yoneda/haikyuBattleJev</a> — last check 2026-10-09
 - <a href="https://github.com/pnll1991/io-delegation-skill">pnll1991/io-delegation-skill</a> — last check 2026-10-05
 - <a href="https://github.com/mjyoke1111/jev-agent-safety-arena">mjyoke1111/jev-agent-safety-arena</a> — last check 2026-10-02
-- <a href="https://github.com/altregubov/jev-antigravity-decider">altregubov/jev-antigravity-decider</a> — last check 2026-09-30
+- <a href="https://github.com/altregubov/jev-antigravity-decider">altregubov/jev-antigravity-decider</a> — last check 2026-10-09
 - <a href="https://github.com/legostin/jev-browser">legostin/jev-browser</a> — last check 2026-10-02
 - <a href="https://github.com/Nolane-x/JEV-language">Nolane-x/JEV-language</a> — last check 2026-10-08
 - <a href="https://github.com/cleiton1231/jev-loop">cleiton1231/jev-loop</a> — last check 2026-09-30
@@ -52,7 +52,7 @@ The discovery timestamp advances only after a network discovery pass completes. 
 - <a href="https://github.com/novvoo/nanojev">novvoo/nanojev</a> — last check 2026-10-04
 - <a href="https://github.com/develatter/notos-intelligence-go">develatter/notos-intelligence-go</a> — last check 2026-10-01
 - <a href="https://github.com/zoidsh/tenet">zoidsh/tenet</a> — last check 2026-10-01
-- <a href="https://github.com/armsteadj1/vibe-smart-router">armsteadj1/vibe-smart-router</a> — last check 2026-09-30
+- <a href="https://github.com/armsteadj1/vibe-smart-router">armsteadj1/vibe-smart-router</a> — last check 2026-10-09
 - <a href="https://github.com/eriestra/almond-fastloop">eriestra/almond-fastloop</a> — last check 2026-10-02
 - <a href="https://github.com/vlad-terin/jev-browser">vlad-terin/jev-browser</a> — last check 2026-10-09
 - <a href="https://github.com/benballintyn/jev-mcp">benballintyn/jev-mcp</a> — last check 2026-09-30
