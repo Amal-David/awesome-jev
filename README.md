@@ -117,6 +117,7 @@ The [full creator gallery](docs/DIRECTORY.md#watch-jev-in-action) retains the ot
 
 ## Apps and Integrations
 
+- [TypeSafe AI for n8n](https://github.com/typesafe-ai/n8n-nodes-typesafe-ai) - Official community node for evaluating or routing workflow items with Choice, Noul, and Score questions.
 - [pen-find](https://github.com/adelghaenian/pen-find) - Finds Pen design frames by sending node names, paths, text, and structure to Jev for semantic ranking.
 - [JevPDF](https://github.com/kylemclaren/jevpdf) - Meaning-based PDF search with locally extracted text and Jev-ranked line highlights.
 - [jev-eyes](https://github.com/LeddoEngano/jev-eyes) - Locally extracts OCR text and spatial layout from images into inspectable state, with an optional helper that sends that state to Jev.

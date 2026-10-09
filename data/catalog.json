@@ -50468,6 +50468,24 @@
     "url": "https://github.com/TrainLCD/Functions/pull/33"
   },
   {
+    "category": "integrations",
+    "code": "https://github.com/typesafe-ai/n8n-nodes-typesafe-ai/blob/c12537bbd9ed7159b7bbe23678ca128c7b2fb52b/nodes/TypeSafeAi/TypeSafeAi.node.ts",
+    "demo": "https://community.n8n.io/t/typesafes-jev-is-now-in-n8n-free-on-cloud-via-gateway-credits-until-october-10/317957",
+    "description": "Official n8n community node for evaluating or routing workflow items with Choice, Noul and Score questions.",
+    "evidence_level": "primary-source-reviewed",
+    "kind": "direct-integration",
+    "license": "MIT",
+    "name": "TypeSafe AI for n8n",
+    "notes": "Official TypeSafe-maintained n8n community node. It sends selected text, JSON or the full input item plus typed questions to the configured TypeSafe endpoint, once per input item; use only workflow data approved for hosted processing. Choice confidence fallback, Noul uncertainty bands and Score routes are workflow controls, not accuracy guarantees. Custom base URLs are operator-controlled; bearer credentials are blocked from cross-origin redirects, but real keys still belong only on trusted HTTPS endpoints. Implementation, validation, error/fallback routing, example, mocked tests, CI/publish workflows and license were inspected at the pinned revision; its exact-head upstream CI succeeded. The time-limited n8n Cloud credit promotion is not treated as a permanent project feature. No package, dependency, n8n instance, test or paid inference ran here.",
+    "post": "https://x.com/n8n_io/status/2105609243827077164",
+    "repo": "typesafe-ai/n8n-nodes-typesafe-ai",
+    "reviewed": "2026-10-09",
+    "sources": [
+      "https://github.com/typesafe-ai/n8n-nodes-typesafe-ai/blob/c12537bbd9ed7159b7bbe23678ca128c7b2fb52b/README.md"
+    ],
+    "url": "https://github.com/typesafe-ai/n8n-nodes-typesafe-ai"
+  },
+  {
     "archived": false,
     "category": "integrations",
     "description": "A Home Assistant voice agent that decides with typed, calibrated judgements instead of an LLM. One ~300 ms call per command, and it asks when it isn't sure.",

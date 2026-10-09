@@ -452,6 +452,16 @@ Checked means a bounded public metadata/media request succeeded, not that the vi
 
 **Last check:** 2026-10-08; reachable-image; public-mirror-metadata.
 
+<h2>TypeSafe AI for n8n</h2>
+
+<a href="https://x.com/n8n_io/status/2105609243827077164">Original / watch</a> · <a href="https://github.com/typesafe-ai/n8n-nodes-typesafe-ai/blob/c12537bbd9ed7159b7bbe23678ca128c7b2fb52b/README.md">Source context</a>
+
+**Creator:** n8n / @n8n_io
+
+**Presentation:** Original publisher post dates from 2026-10-01 and is newly indexed here on 2026-10-09, not presented as a new launch. Source-inspected link-only entry; X playback was unavailable, and no media was copied. Each item may send selected or full workflow data to hosted TypeSafe.
+
+**Link check:** pending. Source reference reviewed; playback was not tested.
+
 ## Maintenance
 
 Edit `data/media.json` for editorial changes. `python3 scripts/build.py --refresh-media` performs bounded, unauthenticated requests to approved public hosts; it reads no API keys. `python3 scripts/build.py` renders offline. The unified builder also regenerates the supporting directory and the local viewer. `--check` validates generated output without network access. Metadata checks rotate daily; the four-hour workflow preserves the gallery and last-known previews.

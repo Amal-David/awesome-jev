@@ -41,6 +41,7 @@ All five winner posts (2–6) were inspected through the public X mirror, with t
 | **Cua Driver + jev-use** — Cua / @trycua | Creator's computer-use demonstration, with a maintained recipe where Jev chooses bounded driver actions and local code checks fixture outcomes. | [X demo](https://x.com/trycua/status/2100649543079502213) · [repo](https://github.com/trycua/cua) · [source](https://github.com/trycua/cua/blob/49e924c4632882134b204b2e8a0ce8fae44418df/libs/cua-driver/examples/jev-use/python/jev_adapter.py) |
 | **fast-jev-compaction** — Tamara Tran / @tamarajtran | Experimental context pruning: Jev scores tool-call/result pairs, and local code keeps, truncates or drops them while preserving retained text. | [X demo](https://x.com/tamarajtran/status/2100694549362553153) · [repo](https://github.com/tamaratran/fast-jev-compaction) · [source](https://github.com/tamaratran/fast-jev-compaction/blob/e3f262a7f4d42bd8dd32ced30d26176f7cb545b0/src/compact.ts) |
 | **Jev dev** — donvito / @melvindvivas | Desktop workbench for editing Jev requests, inspecting typed answers and keeping run history, with a separate demo mode. | [X demo](https://x.com/melvindvivas/status/2105347987098755186) · [repo](https://github.com/donvito/jev-dev) · [source](https://github.com/donvito/jev-dev/blob/5df666eb3223688a311e89edfb9278a82b1cc9e3/src-tauri/src/client.rs) |
+| **TypeSafe AI for n8n** — n8n / @n8n\_io | Evaluates each n8n item with typed Jev questions or routes it using Choice confidence, Noul uncertainty bands, and Score outputs. | [X demo](https://x.com/n8n_io/status/2105609243827077164) · [repo](https://github.com/typesafe-ai/n8n-nodes-typesafe-ai) · [source](https://github.com/typesafe-ai/n8n-nodes-typesafe-ai/blob/c12537bbd9ed7159b7bbe23678ca128c7b2fb52b/README.md) |
 
 ## Reuse patterns and evidence
 
@@ -273,6 +274,16 @@ All five winner posts (2–6) were inspected through the public X mirror, with t
 **Post access:** X URL is an indexed social reference; the original post was not fully retrievable in this review. Creator attribution and the canonical post URL were inspected in the public Jev Wiki tools index. Direct X and public-mirror retrieval returned HTTP 403, so the recording was not watched. The linked primary implementation, example and test source were inspected independently..
 
 **Limitations:** Current source reviewed through 2026-10-05. Browser preview is demo-only; live desktop requests send request state and questions to TypeSafe. Local history retains request, response and error text. No code license was found in the reviewed source tree. Implementation, request example and test source inspected; no app, installer, project tests or inference run.
+
+### TypeSafe AI for n8n
+
+**Pattern:** Workflow item → bounded typed questions → deterministic n8n output routing or annotated result.
+
+**Source review:** 2026-10-09. [Primary project source](https://github.com/typesafe-ai/n8n-nodes-typesafe-ai/blob/c12537bbd9ed7159b7bbe23678ca128c7b2fb52b/README.md).
+
+**Post access:** X URL is an indexed social reference; the original post was not fully retrievable in this review. Original publisher post text, creator attribution, date and status URL were inspected through a public X index. Direct X retrieval returned 403. The official repository and n8n community announcement were inspected instead; no playback or live execution was reproduced.
+
+**Limitations:** Original X post: 2026-10-01; newly indexed here on 2026-10-09, not presented as a new launch. Each input item can cause one hosted request containing selected or full workflow data. The temporary cloud-credit promotion is omitted from the durable listing. Source and mocked tests were inspected; no workflow or inference was run.
 
 ## Curation rules
 

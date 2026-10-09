@@ -869,5 +869,19 @@
     "kind": "author-run-benchmark",
     "reviewed": "2026-10-09",
     "notes": "Author-run September 19 comparison using 200 items per task for accuracy/cost and separate 60-item sequential latency runs; raw per-item results, adapters and scoring-policy tests are committed. Banking77 and prompt-injection detection are both classification tasks, local supervised baselines had labeled training data, and hosted lanes used different routes. Prices, providers, network geography and model aliases can change. Harness, matching policy, result files, methodology and license were inspected at the pinned revision; no dataset, dependency, API call, benchmark lane or result reproduction ran here."
+  },
+  {
+    "repo": "typesafe-ai/n8n-nodes-typesafe-ai",
+    "name": "TypeSafe AI for n8n",
+    "category": "integrations",
+    "description": "Official n8n community node for evaluating or routing workflow items with Choice, Noul and Score questions.",
+    "evidence": "https://github.com/typesafe-ai/n8n-nodes-typesafe-ai/blob/c12537bbd9ed7159b7bbe23678ca128c7b2fb52b/README.md",
+    "code": "https://github.com/typesafe-ai/n8n-nodes-typesafe-ai/blob/c12537bbd9ed7159b7bbe23678ca128c7b2fb52b/nodes/TypeSafeAi/TypeSafeAi.node.ts",
+    "post": "https://x.com/n8n_io/status/2105609243827077164",
+    "demo": "https://community.n8n.io/t/typesafes-jev-is-now-in-n8n-free-on-cloud-via-gateway-credits-until-october-10/317957",
+    "license": "MIT",
+    "kind": "direct-integration",
+    "reviewed": "2026-10-09",
+    "notes": "Official TypeSafe-maintained n8n community node. It sends selected text, JSON or the full input item plus typed questions to the configured TypeSafe endpoint, once per input item; use only workflow data approved for hosted processing. Choice confidence fallback, Noul uncertainty bands and Score routes are workflow controls, not accuracy guarantees. Custom base URLs are operator-controlled; bearer credentials are blocked from cross-origin redirects, but real keys still belong only on trusted HTTPS endpoints. Implementation, validation, error/fallback routing, example, mocked tests, CI/publish workflows and license were inspected at the pinned revision; its exact-head upstream CI succeeded. The time-limited n8n Cloud credit promotion is not treated as a permanent project feature. No package, dependency, n8n instance, test or paid inference ran here."
   }
 ]

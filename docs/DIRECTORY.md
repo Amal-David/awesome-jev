@@ -6,7 +6,7 @@ Projects, demos, and tools built with [Jev](https://docs.typesafe.ai/).
 
 Jev answers questions about data: pick an option, return a yes/no probability, or score something on a scale. It does not write text. The examples here show what people are using it for, with links to the code where available.
 
-**77 reviewed picks**. <a href="https://github.com/Amal-David/awesome-jev/blob/main/docs/REVIEWED.md">Source notes and licenses</a>. The larger discovery catalog is separate.
+**78 reviewed picks**. <a href="https://github.com/Amal-David/awesome-jev/blob/main/docs/REVIEWED.md">Source notes and licenses</a>. The larger discovery catalog is separate.
 
 [Quick start](#20-second-quick-start) · [Projects](#reviewed-picks) · [Demos from X](#watch-jev-in-action) · [CUA & drivers](#computer-use-and-drivers) · [OpenRouter winners](#openrouter-community-winners) · [Contributing](#contribute)
 
@@ -108,6 +108,7 @@ For simple rules, parsing, or arithmetic, use code. A dedicated classifier may b
 - <a href="https://github.com/simonw/llm-typesafe">llm-typesafe</a> - Use Jev from the LLM command line or Python, with stdin, templates, and sync/async calls.
 - <a href="https://github.com/ttlequals0/MinusPodJev">MinusPodJev</a> - Podcast ad-detection adapter for MinusPod: Jev scores transcript segments and code assembles the ad spans.
 - <a href="https://github.com/jexp/neo4jev">neo4jev</a> - Explores Neo4j graphs with Jev edge choices and goal checks inside a bounded beam search.
+- <a href="https://github.com/typesafe-ai/n8n-nodes-typesafe-ai">TypeSafe AI for n8n</a> - Official n8n community node for evaluating or routing workflow items with Choice, Noul and Score questions.
 
 ### Games and creative projects
 
@@ -145,7 +146,7 @@ For simple rules, parsing, or arithmetic, use code. A dedicated classifier may b
 
 - <a href="https://github.com/browser-use/browser-harness">Browser Harness (supporting driver)</a> - The CDP browser connection used by Jev Ultrafast. Model-neutral, not a Jev model.
 
-<a href="https://github.com/Amal-David/awesome-jev/blob/main/docs/REVIEWED.md">All 77 reviewed picks: source notes and licenses</a>
+<a href="https://github.com/Amal-David/awesome-jev/blob/main/docs/REVIEWED.md">All 78 reviewed picks: source notes and licenses</a>
 
 ## Computer use and drivers
 
@@ -352,6 +353,15 @@ For simple rules, parsing, or arithmetic, use code. A dedicated classifier may b
 <p><sub>donvito / @melvindvivas — Source-inspected social reference; X playback was not verified. Live requests send state and questions to TypeSafe; request and response history persists locally. No code or media license verified. Link-only entry; no preview asset copied.</sub></p>
 </td>
 </tr>
+<tr>
+<td width="50%" valign="top">
+<h4>TypeSafe AI for n8n</h4>
+<p>Evaluate or route workflow items with Choice, Noul, and Score questions.</p>
+<p><a href="https://x.com/n8n_io/status/2105609243827077164">▶ Watch on X</a> · <a href="https://github.com/typesafe-ai/n8n-nodes-typesafe-ai">Code</a> · <a href="https://github.com/typesafe-ai/n8n-nodes-typesafe-ai/blob/c12537bbd9ed7159b7bbe23678ca128c7b2fb52b/README.md">Source</a></p>
+<p><sub>n8n / @n8n_io — Original publisher post dates from 2026-10-01 and is newly indexed here on 2026-10-09, not presented as a new launch. Source-inspected link-only entry; X playback was unavailable, and no media was copied. Each item may send selected or full workflow data to hosted TypeSafe.</sub></p>
+<p><sub>No reliable preview image was returned. The original watch link is retained.</sub></p>
+</td>
+</tr>
 </table>
 
 ### Screenshots, animated demos, and implementation diagrams
@@ -521,6 +531,7 @@ OpenRouter's [September 21 roundup](https://x.com/OpenRouter/status/210212574872
 | **Cua Driver + jev-use** — Cua / @trycua | Creator's computer-use demonstration, with a maintained recipe where Jev chooses bounded driver actions and local code checks fixture outcomes. | [X demo](https://x.com/trycua/status/2100649543079502213) · [repo](https://github.com/trycua/cua) · [source](https://github.com/trycua/cua/blob/49e924c4632882134b204b2e8a0ce8fae44418df/libs/cua-driver/examples/jev-use/python/jev_adapter.py) |
 | **fast-jev-compaction** — Tamara Tran / @tamarajtran | Experimental context pruning: Jev scores tool-call/result pairs, and local code keeps, truncates or drops them while preserving retained text. | [X demo](https://x.com/tamarajtran/status/2100694549362553153) · [repo](https://github.com/tamaratran/fast-jev-compaction) · [source](https://github.com/tamaratran/fast-jev-compaction/blob/e3f262a7f4d42bd8dd32ced30d26176f7cb545b0/src/compact.ts) |
 | **Jev dev** — donvito / @melvindvivas | Desktop workbench for editing Jev requests, inspecting typed answers and keeping run history, with a separate demo mode. | [X demo](https://x.com/melvindvivas/status/2105347987098755186) · [repo](https://github.com/donvito/jev-dev) · [source](https://github.com/donvito/jev-dev/blob/5df666eb3223688a311e89edfb9278a82b1cc9e3/src-tauri/src/client.rs) |
+| **TypeSafe AI for n8n** — n8n / @n8n\_io | Evaluates each n8n item with typed Jev questions or routes it using Choice confidence, Noul uncertainty bands, and Score outputs. | [X demo](https://x.com/n8n_io/status/2105609243827077164) · [repo](https://github.com/typesafe-ai/n8n-nodes-typesafe-ai) · [source](https://github.com/typesafe-ai/n8n-nodes-typesafe-ai/blob/c12537bbd9ed7159b7bbe23678ca128c7b2fb52b/README.md) |
 
 </details>
 
