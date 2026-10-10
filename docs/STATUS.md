@@ -6,13 +6,13 @@
 
 | Measure | Recorded value |
 |---|---|
-| Reviewed / indexed / auto-discovered | 78 / 1387 / 1728 |
-| Catalog entries (not all reviewed) | 3193 |
-| Last completed discovery pass (UTC) | 2026-10-09T21:01:45Z |
-| Latest rotating repository metadata check | 2026-10-09 |
-| Repositories with a recorded metadata check | 3091 / 3091 |
+| Reviewed / indexed / auto-discovered | 78 / 1389 / 1750 |
+| Catalog entries (not all reviewed) | 3217 |
+| Last completed discovery pass (UTC) | 2026-10-10T06:03:31Z |
+| Latest rotating repository metadata check | 2026-10-10 |
+| Repositories with a recorded metadata check | 3115 / 3115 |
 | Repositories unavailable at their last check (404/410) | 35 |
-| Media records with a latest-attempt error | 3 |
+| Media records with a latest-attempt error | 1 |
 | Editorial exclusions | 1 |
 
 ## What the numbers mean
@@ -21,17 +21,17 @@ Repository checks rotate: the newest check date does not mean every entry was ch
 
 The discovery timestamp advances only after a network discovery pass completes. An offline directory rebuild, test run or media-only refresh never advances it. The Actions result, not the cron expression, establishes that a workflow ran successfully.
 
-<a href="https://github.com/Amal-David/awesome-jev/actions/runs/37990743558">Discovery run receipt</a>
+<a href="https://github.com/Amal-David/awesome-jev/actions/runs/38029550530">Discovery run receipt</a>
 
 <a href="https://github.com/Amal-David/awesome-jev/actions/workflows/curate.yml">All refresh runs</a>
 
 ## Unavailable repositories at their last check
 
-- <a href="https://github.com/BunsDev/river-oaks">BunsDev/river-oaks</a> — last check 2026-09-30
 - <a href="https://github.com/elberacasa/chimbometro">elberacasa/chimbometro</a> — last check 2026-10-01
 - <a href="https://github.com/elialm94/driva">elialm94/driva</a> — last check 2026-10-01
 - <a href="https://github.com/cassiomc1/fast-jev-compaction-alt">cassiomc1/fast-jev-compaction-alt</a> — last check 2026-09-30
 - <a href="https://github.com/fine5351/game-assistant">fine5351/game-assistant</a> — last check 2026-10-03
+- <a href="https://github.com/blackplume233/game-developers-skills">blackplume233/game-developers-skills</a> — last check 2026-10-10
 - <a href="https://github.com/hellomrleeus/google-maps-place-scout">hellomrleeus/google-maps-place-scout</a> — last check 2026-10-02
 - <a href="https://github.com/tivojn/gpt-live-avatar">tivojn/gpt-live-avatar</a> — last check 2026-10-09
 - <a href="https://github.com/itsaslamopenclawdata/GrowthCompany_JevOutputs">itsaslamopenclawdata/GrowthCompany_JevOutputs</a> — last check 2026-10-04
@@ -43,7 +43,7 @@ The discovery timestamp advances only after a network discovery pass completes. 
 - <a href="https://github.com/Nolane-x/JEV-language">Nolane-x/JEV-language</a> — last check 2026-10-08
 - <a href="https://github.com/cleiton1231/jev-loop">cleiton1231/jev-loop</a> — last check 2026-09-30
 - <a href="https://github.com/dominusDeus/jev-trader-fork">dominusDeus/jev-trader-fork</a> — last check 2026-10-01
-- <a href="https://github.com/Baran3575/jev-voice-android">Baran3575/jev-voice-android</a> — last check 2026-09-30
+- <a href="https://github.com/Baran3575/jev-voice-android">Baran3575/jev-voice-android</a> — last check 2026-10-10
 - <a href="https://github.com/sethsaler/jevgram">sethsaler/jevgram</a> — last check 2026-10-05
 - <a href="https://github.com/notque/jevs-sprint-planning">notque/jevs-sprint-planning</a> — last check 2026-10-04
 - <a href="https://github.com/kedi-lang/kedi-typesafe">kedi-lang/kedi-typesafe</a> — last check 2026-10-02
@@ -55,16 +55,14 @@ The discovery timestamp advances only after a network discovery pass completes. 
 - <a href="https://github.com/armsteadj1/vibe-smart-router">armsteadj1/vibe-smart-router</a> — last check 2026-10-09
 - <a href="https://github.com/eriestra/almond-fastloop">eriestra/almond-fastloop</a> — last check 2026-10-02
 - <a href="https://github.com/vlad-terin/jev-browser">vlad-terin/jev-browser</a> — last check 2026-10-09
-- <a href="https://github.com/benballintyn/jev-mcp">benballintyn/jev-mcp</a> — last check 2026-09-30
+- <a href="https://github.com/benballintyn/jev-mcp">benballintyn/jev-mcp</a> — last check 2026-10-10
 - <a href="https://github.com/rajdhakad9826/routeKit">rajdhakad9826/routeKit</a> — last check 2026-10-05
 - <a href="https://github.com/ThePikey/AOS_GLM_language">ThePikey/AOS_GLM_language</a> — last check 2026-10-01
-- <a href="https://github.com/brudarko/jev-mac-voice">brudarko/jev-mac-voice</a> — last check 2026-09-30
+- <a href="https://github.com/brudarko/jev-mac-voice">brudarko/jev-mac-voice</a> — last check 2026-10-10
 - <a href="https://github.com/kcb-swe-gh/typesafe-ai-jev">kcb-swe-gh/typesafe-ai-jev</a> — last check 2026-10-04
 - <a href="https://github.com/trophee-bot/typesafe-oracles">trophee-bot/typesafe-oracles</a> — last check 2026-10-09
 - <a href="https://github.com/sysadarsh/zerosweep">sysadarsh/zerosweep</a> — last check 2026-10-07
 
 ## Media checks needing attention
 
-- abide-video — HTTPError; attempted 2026-10-09
-- align-video — HTTPError; attempted 2026-10-09
-- needle — HTTPError; attempted 2026-10-09
+- abide-video — HTTPError; attempted 2026-10-10

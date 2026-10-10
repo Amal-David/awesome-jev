@@ -14,7 +14,7 @@ Checked means a bounded public metadata/media request succeeded, not that the vi
 
 <a href="https://raw.githubusercontent.com/browser-use/jev-ultrafast/1231850a0bf1a0c0341fe408ef1668dbbfdfac46/docs/demo.gif">Embedded preview source</a>
 
-**Last check:** 2026-10-09; reachable-image; author-source reference.
+**Last check:** 2026-10-10; reachable-image; author-source reference.
 
 <h2>Talk to a browser</h2>
 
@@ -26,7 +26,7 @@ Checked means a bounded public metadata/media request succeeded, not that the vi
 
 <a href="https://pbs.twimg.com/amplify_video_thumb/2100577954338373633/img/tbH43kHpUotE3hzK.jpg">Embedded preview source</a>
 
-**Last check:** 2026-10-09; reachable-image; public-mirror-metadata.
+**Last check:** 2026-10-10; reachable-image; public-mirror-metadata.
 
 <h2>Jev on the Mac desktop</h2>
 
@@ -38,7 +38,7 @@ Checked means a bounded public metadata/media request succeeded, not that the vi
 
 <a href="https://pbs.twimg.com/amplify_video_thumb/2100262350100246528/img/hRw0xfLBJpNNi3L9.jpg">Embedded preview source</a>
 
-**Last check:** 2026-10-09; reachable-image; public-mirror-metadata.
+**Last check:** 2026-10-10; reachable-image; public-mirror-metadata.
 
 <h2>An independent agent supervisor</h2>
 
@@ -48,7 +48,7 @@ Checked means a bounded public metadata/media request succeeded, not that the vi
 
 **Presentation:** Architectural experiment. Not a replacement for tests, review, or permission checks.
 
-**Last check:** 2026-10-09; link-only-no-poster; no-poster-returned.
+**Last check:** 2026-10-10; link-only-no-poster; no-poster-returned.
 
 <h2>An order-book decision loop</h2>
 
@@ -60,7 +60,7 @@ Checked means a bounded public metadata/media request succeeded, not that the vi
 
 <a href="https://pbs.twimg.com/amplify_video_thumb/2100355999064379392/img/BiAbeDjN57avf2VK.jpg">Embedded preview source</a>
 
-**Last check:** 2026-10-09; reachable-image; public-mirror-metadata.
+**Last check:** 2026-10-10; reachable-image; public-mirror-metadata.
 
 <h2>The community roundup</h2>
 
@@ -72,7 +72,7 @@ Checked means a bounded public metadata/media request succeeded, not that the vi
 
 <a href="https://pbs.twimg.com/media/HSfhrsxbMAEdHxj.png?name=large">Embedded preview source</a>
 
-**Last check:** 2026-10-09; reachable-image; author-source reference.
+**Last check:** 2026-10-10; reachable-image; author-source reference.
 
 <h2>OpenRouter winner: JevAI for XMage</h2>
 
@@ -84,7 +84,7 @@ Checked means a bounded public metadata/media request succeeded, not that the vi
 
 <a href="https://pbs.twimg.com/media/HSxAPo7bwAAcSvf.jpg?name=orig">Embedded preview source</a>
 
-**Last check:** 2026-10-09; reachable-image; author-source reference.
+**Last check:** 2026-10-10; reachable-image; author-source reference.
 
 <h2>OpenRouter winner: Jev Chess</h2>
 
@@ -96,7 +96,7 @@ Checked means a bounded public metadata/media request succeeded, not that the vi
 
 <a href="https://pbs.twimg.com/media/HSxAQhCbsAESKOn.png?name=orig">Embedded preview source</a>
 
-**Last check:** 2026-10-09; reachable-image; author-source reference.
+**Last check:** 2026-10-10; reachable-image; author-source reference.
 
 <h2>OpenRouter winner: tisco</h2>
 
@@ -108,7 +108,7 @@ Checked means a bounded public metadata/media request succeeded, not that the vi
 
 <a href="https://pbs.twimg.com/media/HSxARhBaIAABItD.jpg?name=orig">Embedded preview source</a>
 
-**Last check:** 2026-10-09; reachable-image; author-source reference.
+**Last check:** 2026-10-10; reachable-image; author-source reference.
 
 <h2>OpenRouter winner: Vibe Domain</h2>
 
@@ -120,7 +120,7 @@ Checked means a bounded public metadata/media request succeeded, not that the vi
 
 <a href="https://pbs.twimg.com/media/HSxAScJawAAJ1Lu.jpg?name=orig">Embedded preview source</a>
 
-**Last check:** 2026-10-09; reachable-image; author-source reference.
+**Last check:** 2026-10-10; reachable-image; author-source reference.
 
 <h2>OpenRouter winner: jev_search</h2>
 
@@ -132,7 +132,7 @@ Checked means a bounded public metadata/media request succeeded, not that the vi
 
 <a href="https://pbs.twimg.com/media/HSxATYraMAADchl.jpg?name=orig">Embedded preview source</a>
 
-**Last check:** 2026-10-09; reachable-image; author-source reference.
+**Last check:** 2026-10-10; reachable-image; author-source reference.
 
 <h2>Jev Tetris: see the decision</h2>
 
@@ -144,7 +144,7 @@ Checked means a bounded public metadata/media request succeeded, not that the vi
 
 <a href="https://raw.githubusercontent.com/thelau/jev-tetris/9869b602965cf002afff766013f8c068846d36aa/docs/stills/states/3-decided-desktop.png">Embedded preview source</a>
 
-**Last check:** 2026-10-09; reachable-image; author-source reference.
+**Last check:** 2026-10-10; reachable-image; author-source reference.
 
 <h2>A structured code-review dashboard</h2>
 
@@ -156,7 +156,7 @@ Checked means a bounded public metadata/media request succeeded, not that the vi
 
 <a href="https://raw.githubusercontent.com/devagrawal09/jev-review/31f89602797fb7bea007f8a480bf368bf564954e/docs/dashboard.png">Embedded preview source</a>
 
-**Last check:** 2026-10-09; reachable-image; author-source reference.
+**Last check:** 2026-10-10; reachable-image; author-source reference.
 
 <h2>Needle: find by meaning</h2>
 
@@ -168,9 +168,7 @@ Checked means a bounded public metadata/media request succeeded, not that the vi
 
 <a href="https://github.com/user-attachments/assets/1058589f-d686-4b3d-8873-5eb800ba35b3">Embedded preview source</a>
 
-**Last check:** 2026-10-09; reachable-image; author-source reference.
-
-**Latest attempt:** HTTPError. The original source link and any previous preview are preserved.
+**Last check:** 2026-10-10; reachable-image; author-source reference.
 
 <h2>How Jevthoven composes</h2>
 
@@ -182,7 +180,7 @@ Checked means a bounded public metadata/media request succeeded, not that the vi
 
 <a href="https://raw.githubusercontent.com/cocktailpeanut/jevthoven/main/docs/decision-pipeline.jpg">Embedded preview source</a>
 
-**Last check:** 2026-10-09; reachable-image; author-source reference.
+**Last check:** 2026-10-10; reachable-image; author-source reference.
 
 <h2>Three primitives, made visible</h2>
 
@@ -194,7 +192,7 @@ Checked means a bounded public metadata/media request succeeded, not that the vi
 
 <a href="https://raw.githubusercontent.com/davila7/jev-explained/5cbe35e04609112be77b1bd447bd79b3bde7980b/docs/jev-primitives.png">Embedded preview source</a>
 
-**Last check:** 2026-10-09; reachable-image; author-source reference.
+**Last check:** 2026-10-10; reachable-image; author-source reference.
 
 <h2>A meaning-based Mac launcher</h2>
 
@@ -206,7 +204,7 @@ Checked means a bounded public metadata/media request succeeded, not that the vi
 
 <a href="https://raw.githubusercontent.com/dabit3/jev-experiments/c469e5bfdc73eb3e1999bba2569e66b579a970fd/jev-launcher/docs/set-ambassador.png">Embedded preview source</a>
 
-**Last check:** 2026-10-09; reachable-image; author-source reference.
+**Last check:** 2026-10-10; reachable-image; author-source reference.
 
 <h2>Semantic shell suggestions</h2>
 
@@ -218,7 +216,7 @@ Checked means a bounded public metadata/media request succeeded, not that the vi
 
 <a href="https://raw.githubusercontent.com/mrnugget/jev-shell-history/4b2b75d26c0ccf5726263904514a22a8e11659ea/demo/demo.gif">Embedded preview source</a>
 
-**Last check:** 2026-10-09; reachable-image; author-source reference.
+**Last check:** 2026-10-10; reachable-image; author-source reference.
 
 <h2>A browser skill you can read</h2>
 
@@ -230,7 +228,7 @@ Checked means a bounded public metadata/media request succeeded, not that the vi
 
 <a href="https://raw.githubusercontent.com/zurfyx/jev-browser-skill/7db9b4cf1cfca82f0742c75054e22cb8089ee908/docs/demo.gif">Embedded preview source</a>
 
-**Last check:** 2026-10-09; reachable-image; author-source reference.
+**Last check:** 2026-10-10; reachable-image; author-source reference.
 
 <h2>A full Jev walkthrough</h2>
 
@@ -242,7 +240,7 @@ Checked means a bounded public metadata/media request succeeded, not that the vi
 
 <a href="https://i.ytimg.com/vi/Nq_lu5QT-fI/hqdefault.jpg">Embedded preview source</a>
 
-**Last check:** 2026-10-09; reachable-image; youtube-oembed.
+**Last check:** 2026-10-10; reachable-image; youtube-oembed.
 
 <h2>An email-classification walkthrough</h2>
 
@@ -254,7 +252,7 @@ Checked means a bounded public metadata/media request succeeded, not that the vi
 
 <a href="https://i.ytimg.com/vi/9oWxrsRo4d8/hqdefault.jpg">Embedded preview source</a>
 
-**Last check:** 2026-10-09; reachable-image; youtube-oembed.
+**Last check:** 2026-10-10; reachable-image; youtube-oembed.
 
 <h2>Practical ways to use Jev</h2>
 
@@ -266,7 +264,7 @@ Checked means a bounded public metadata/media request succeeded, not that the vi
 
 <a href="https://i.ytimg.com/vi/zZNm4zP_lEE/hqdefault.jpg">Embedded preview source</a>
 
-**Last check:** 2026-10-09; reachable-image; youtube-oembed.
+**Last check:** 2026-10-10; reachable-image; youtube-oembed.
 
 <h2>Abide — checking project rules during an agent session</h2>
 
@@ -276,7 +274,7 @@ Checked means a bounded public metadata/media request succeeded, not that the vi
 
 **Presentation:** Author recording. Rule checks are probabilistic; selected diffs and instructions enter inference requests. Not a security guarantee or replacement for tests.
 
-**Last check:** 2026-10-09; media unresolved; author-source reference.
+**Last check:** 2026-10-10; media unresolved; author-source reference.
 
 **Latest attempt:** HTTPError. The original source link and any previous preview are preserved.
 
@@ -288,7 +286,7 @@ Checked means a bounded public metadata/media request succeeded, not that the vi
 
 **Presentation:** Code renders notes and audio. Fixture/manual modes are distinct from billable live Jev decisions.
 
-**Last check:** 2026-10-09; reachable-video; author-source reference.
+**Last check:** 2026-10-10; reachable-video; author-source reference.
 
 <h2>jev-align — improve a decision with human labels</h2>
 
@@ -298,9 +296,7 @@ Checked means a bounded public metadata/media request succeeded, not that the vi
 
 **Presentation:** Experimental active-learning CLI. Training improvement is not held-out quality; inference and reflection models may both bill.
 
-**Last check:** 2026-10-09; reachable-video; author-source reference.
-
-**Latest attempt:** HTTPError. The original source link and any previous preview are preserved.
+**Last check:** 2026-10-10; reachable-video; author-source reference.
 
 <h2>Shapeshift</h2>
 
@@ -312,7 +308,7 @@ Checked means a bounded public metadata/media request succeeded, not that the vi
 
 <a href="https://raw.githubusercontent.com/anishfn/shapeshift/5e24166dcbde6e794f0bd5b1b4bd395aaee5fc19/docs/demo.gif">Embedded preview source</a>
 
-**Last check:** 2026-10-09; reachable-image; author-source reference.
+**Last check:** 2026-10-10; reachable-image; author-source reference.
 
 <h2>Jev Rubiks Coach</h2>
 
@@ -324,7 +320,7 @@ Checked means a bounded public metadata/media request succeeded, not that the vi
 
 <a href="https://raw.githubusercontent.com/maxlibin/jev-rubiks/f888c8392c094907bffd976e99b98303d82c1ed1/docs/coach-screenshot.jpg">Embedded preview source</a>
 
-**Last check:** 2026-10-09; reachable-image; author-source reference.
+**Last check:** 2026-10-10; reachable-image; author-source reference.
 
 <h2>Readwithjev</h2>
 
@@ -336,7 +332,7 @@ Checked means a bounded public metadata/media request succeeded, not that the vi
 
 <a href="https://pbs.twimg.com/amplify_video_thumb/2102519347701051392/img/29RFqUR1iaQ_UoY1.jpg">Embedded preview source</a>
 
-**Last check:** 2026-10-09; reachable-image; public-mirror-metadata.
+**Last check:** 2026-10-10; reachable-image; public-mirror-metadata.
 
 <h2>jevyoumean</h2>
 
@@ -348,7 +344,7 @@ Checked means a bounded public metadata/media request succeeded, not that the vi
 
 <a href="https://raw.githubusercontent.com/syumai/jevyoumean/f0bed70ebdcc6abda6b5f1984d050cadce3c5897/demo/readme.gif">Embedded preview source</a>
 
-**Last check:** 2026-10-09; reachable-image; author-source reference.
+**Last check:** 2026-10-10; reachable-image; author-source reference.
 
 <h2>jevsearch</h2>
 
@@ -360,7 +356,7 @@ Checked means a bounded public metadata/media request succeeded, not that the vi
 
 <a href="https://pbs.twimg.com/amplify_video_thumb/2102036348739747840/img/jJ2WT_6DqhHb8hqG.jpg">Embedded preview source</a>
 
-**Last check:** 2026-10-09; reachable-image; public-mirror-metadata.
+**Last check:** 2026-10-10; reachable-image; public-mirror-metadata.
 
 <h2>JevQL</h2>
 
@@ -372,7 +368,7 @@ Checked means a bounded public metadata/media request succeeded, not that the vi
 
 <a href="https://pbs.twimg.com/amplify_video_thumb/2100953284315914241/img/SWGv5oiF1JpuCG-E.jpg">Embedded preview source</a>
 
-**Last check:** 2026-10-09; reachable-image; public-mirror-metadata.
+**Last check:** 2026-10-10; reachable-image; public-mirror-metadata.
 
 <h2>JevPDF</h2>
 
@@ -384,7 +380,7 @@ Checked means a bounded public metadata/media request succeeded, not that the vi
 
 <a href="https://raw.githubusercontent.com/kylemclaren/jevpdf/7f230370961c4a8e2f8b19c1729085b852124448/.github/demo.gif">Embedded preview source</a>
 
-**Last check:** 2026-10-09; reachable-image; author-source reference.
+**Last check:** 2026-10-10; reachable-image; author-source reference.
 
 <h2>softlint</h2>
 
@@ -396,7 +392,7 @@ Checked means a bounded public metadata/media request succeeded, not that the vi
 
 <a href="https://raw.githubusercontent.com/blazejkustra/softlint/b2aeb846eeeb7a88099852ded34df82d2e61dc02/docs/demo.gif">Embedded preview source</a>
 
-**Last check:** 2026-10-09; reachable-image; author-source reference.
+**Last check:** 2026-10-10; reachable-image; author-source reference.
 
 <h2>Jev Dreaming</h2>
 
@@ -406,7 +402,7 @@ Checked means a bounded public metadata/media request succeeded, not that the vi
 
 **Presentation:** Original X post dates from September 2026; newly added to this gallery on 2026-10-08. Source inspected, not executed; X recording not independently watched.
 
-**Last check:** 2026-10-09; link-only-no-poster; no-poster-returned.
+**Last check:** 2026-10-10; link-only-no-poster; no-poster-returned.
 
 <h2>ASIMOV Jev output filter</h2>
 
@@ -418,7 +414,7 @@ Checked means a bounded public metadata/media request succeeded, not that the vi
 
 <a href="https://pbs.twimg.com/tweet_video_thumb/HS0hXk4a8AALTFv.jpg">Embedded preview source</a>
 
-**Last check:** 2026-10-09; reachable-image; public-mirror-metadata.
+**Last check:** 2026-10-10; reachable-image; public-mirror-metadata.
 
 <h2>Cua Driver + jev-use</h2>
 
@@ -430,7 +426,7 @@ Checked means a bounded public metadata/media request succeeded, not that the vi
 
 <a href="https://pbs.twimg.com/media/HSb_nmIWYAAkGKa.jpg?name=orig">Embedded preview source</a>
 
-**Last check:** 2026-10-09; reachable-image; public-mirror-metadata.
+**Last check:** 2026-10-10; reachable-image; public-mirror-metadata.
 
 <h2>fast-jev-compaction: selective history pruning</h2>
 
@@ -442,7 +438,7 @@ Checked means a bounded public metadata/media request succeeded, not that the vi
 
 <a href="https://pbs.twimg.com/amplify_video_thumb/2100694537672998912/img/OF8vottg6-45ZgNl.jpg">Embedded preview source</a>
 
-**Last check:** 2026-10-09; reachable-image; public-mirror-metadata.
+**Last check:** 2026-10-10; reachable-image; public-mirror-metadata.
 
 <h2>Jev dev: a desktop decision workbench</h2>
 
@@ -454,7 +450,7 @@ Checked means a bounded public metadata/media request succeeded, not that the vi
 
 <a href="https://pbs.twimg.com/media/HTeyC0daIAAroZ9.jpg?name=orig">Embedded preview source</a>
 
-**Last check:** 2026-10-09; reachable-image; public-mirror-metadata.
+**Last check:** 2026-10-10; reachable-image; public-mirror-metadata.
 
 <h2>TypeSafe AI for n8n</h2>
 
@@ -464,7 +460,7 @@ Checked means a bounded public metadata/media request succeeded, not that the vi
 
 **Presentation:** Original publisher post dates from 2026-10-01 and is newly indexed here on 2026-10-09, not presented as a new launch. Source-inspected link-only entry; X playback was unavailable, and no media was copied. Each item may send selected or full workflow data to hosted TypeSafe.
 
-**Last check:** 2026-10-09; link-only-no-poster; no-poster-returned.
+**Last check:** 2026-10-10; link-only-no-poster; no-poster-returned.
 
 ## Maintenance
 
