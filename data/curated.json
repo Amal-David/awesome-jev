@@ -883,5 +883,18 @@
     "kind": "direct-integration",
     "reviewed": "2026-10-09",
     "notes": "Official TypeSafe-maintained n8n community node. It sends selected text, JSON or the full input item plus typed questions to the configured TypeSafe endpoint, once per input item; use only workflow data approved for hosted processing. Choice confidence fallback, Noul uncertainty bands and Score routes are workflow controls, not accuracy guarantees. Custom base URLs are operator-controlled; bearer credentials are blocked from cross-origin redirects, but real keys still belong only on trusted HTTPS endpoints. Implementation, validation, error/fallback routing, example, mocked tests, CI/publish workflows and license were inspected at the pinned revision; its exact-head upstream CI succeeded. The time-limited n8n Cloud credit promotion is not treated as a permanent project feature. No package, dependency, n8n instance, test or paid inference ran here."
+  },
+  {
+    "repo": "youdotcom-oss/n8n-ai-brief-workflow",
+    "name": "Morning AI Brief",
+    "category": "integrations",
+    "description": "Jev judges each day's AI-news coverage with three typed questions (one specific new development, on-topic, materiality score); You.com Search retrieves the articles and You.com Research writes the cited per-topic Slack brief that n8n posts on weekday mornings.",
+    "evidence": "https://github.com/youdotcom-oss/n8n-ai-brief-workflow/blob/04331467d4986287415e12a4e875c1e738c1eaf4/README.md",
+    "code": "https://github.com/youdotcom-oss/n8n-ai-brief-workflow/blob/04331467d4986287415e12a4e875c1e738c1eaf4/workflow.json",
+    "demo": "https://n8n.io/workflows/20558-send-weekday-ai-news-briefs-to-slack-with-youcom-and-typesafe-jev/",
+    "license": "MIT",
+    "kind": "direct-integration",
+    "reviewed": "2026-10-10",
+    "notes": "An n8n workflow with no LLM-agent or code nodes: You.com Search retrieves the past day's coverage per topic, Jev judges each article with three typed questions (one specific new development >= 0.8, on-topic >= 0.8, materiality score >= 1.3), and You.com Research writes the cited brief grouped by topic for Slack. Article text and the team description reach You.com and TypeSafe hosted APIs, so use only topics and workflow data approved for hosted processing; a morning costs a few cents across You.com and Jev calls, and setup requires a You.com API key, a TypeSafe API key and a Slack app. Thresholds were tuned on 674 articles (160 hand-labeled) across 8 weeks with held-out-week validation, reproduced by eval/analyze.py. README, workflow.json, eval data and scripts, and the MIT license were inspected at the pinned revision; the workflow was not imported into n8n or executed, and no paid inference ran here."
   }
 ]
