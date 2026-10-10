@@ -6,11 +6,11 @@
 
 | Measure | Recorded value |
 |---|---|
-| Reviewed / indexed / auto-discovered | 78 / 1389 / 1750 |
-| Catalog entries (not all reviewed) | 3217 |
-| Last completed discovery pass (UTC) | 2026-10-10T06:03:31Z |
+| Reviewed / indexed / auto-discovered | 78 / 1401 / 1775 |
+| Catalog entries (not all reviewed) | 3254 |
+| Last completed discovery pass (UTC) | 2026-10-10T14:32:26Z |
 | Latest rotating repository metadata check | 2026-10-10 |
-| Repositories with a recorded metadata check | 3115 / 3115 |
+| Repositories with a recorded metadata check | 3152 / 3152 |
 | Repositories unavailable at their last check (404/410) | 35 |
 | Media records with a latest-attempt error | 1 |
 | Editorial exclusions | 1 |
@@ -21,7 +21,7 @@ Repository checks rotate: the newest check date does not mean every entry was ch
 
 The discovery timestamp advances only after a network discovery pass completes. An offline directory rebuild, test run or media-only refresh never advances it. The Actions result, not the cron expression, establishes that a workflow ran successfully.
 
-<a href="https://github.com/Amal-David/awesome-jev/actions/runs/38029550530">Discovery run receipt</a>
+<a href="https://github.com/Amal-David/awesome-jev/actions/runs/38059932568">Discovery run receipt</a>
 
 <a href="https://github.com/Amal-David/awesome-jev/actions/workflows/curate.yml">All refresh runs</a>
 
@@ -29,7 +29,7 @@ The discovery timestamp advances only after a network discovery pass completes. 
 
 - <a href="https://github.com/elberacasa/chimbometro">elberacasa/chimbometro</a> — last check 2026-10-01
 - <a href="https://github.com/elialm94/driva">elialm94/driva</a> — last check 2026-10-01
-- <a href="https://github.com/cassiomc1/fast-jev-compaction-alt">cassiomc1/fast-jev-compaction-alt</a> — last check 2026-09-30
+- <a href="https://github.com/cassiomc1/fast-jev-compaction-alt">cassiomc1/fast-jev-compaction-alt</a> — last check 2026-10-10
 - <a href="https://github.com/fine5351/game-assistant">fine5351/game-assistant</a> — last check 2026-10-03
 - <a href="https://github.com/blackplume233/game-developers-skills">blackplume233/game-developers-skills</a> — last check 2026-10-10
 - <a href="https://github.com/hellomrleeus/google-maps-place-scout">hellomrleeus/google-maps-place-scout</a> — last check 2026-10-02
