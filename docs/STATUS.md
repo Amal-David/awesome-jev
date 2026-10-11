@@ -6,11 +6,11 @@
 
 | Measure | Recorded value |
 |---|---|
-| Reviewed / indexed / auto-discovered | 78 / 1403 / 1835 |
-| Catalog entries (not all reviewed) | 3316 |
-| Last completed discovery pass (UTC) | 2026-10-11T06:00:54Z |
+| Reviewed / indexed / auto-discovered | 78 / 1420 / 1854 |
+| Catalog entries (not all reviewed) | 3352 |
+| Last completed discovery pass (UTC) | 2026-10-11T14:58:46Z |
 | Latest rotating repository metadata check | 2026-10-11 |
-| Repositories with a recorded metadata check | 3214 / 3214 |
+| Repositories with a recorded metadata check | 3250 / 3250 |
 | Repositories unavailable at their last check (404/410) | 38 |
 | Media records with a latest-attempt error | 1 |
 | Editorial exclusions | 1 |
@@ -21,15 +21,15 @@ Repository checks rotate: the newest check date does not mean every entry was ch
 
 The discovery timestamp advances only after a network discovery pass completes. An offline directory rebuild, test run or media-only refresh never advances it. The Actions result, not the cron expression, establishes that a workflow ran successfully.
 
-<a href="https://github.com/Amal-David/awesome-jev/actions/runs/38116590152">Discovery run receipt</a>
+<a href="https://github.com/Amal-David/awesome-jev/actions/runs/38149293968">Discovery run receipt</a>
 
 <a href="https://github.com/Amal-David/awesome-jev/actions/workflows/curate.yml">All refresh runs</a>
 
 ## Unavailable repositories at their last check
 
 - <a href="https://github.com/raminaskerov/brownie">raminaskerov/brownie</a> — last check 2026-10-10
-- <a href="https://github.com/elberacasa/chimbometro">elberacasa/chimbometro</a> — last check 2026-10-01
-- <a href="https://github.com/elialm94/driva">elialm94/driva</a> — last check 2026-10-01
+- <a href="https://github.com/elberacasa/chimbometro">elberacasa/chimbometro</a> — last check 2026-10-11
+- <a href="https://github.com/elialm94/driva">elialm94/driva</a> — last check 2026-10-11
 - <a href="https://github.com/cassiomc1/fast-jev-compaction-alt">cassiomc1/fast-jev-compaction-alt</a> — last check 2026-10-10
 - <a href="https://github.com/fine5351/game-assistant">fine5351/game-assistant</a> — last check 2026-10-03
 - <a href="https://github.com/blackplume233/game-developers-skills">blackplume233/game-developers-skills</a> — last check 2026-10-10
@@ -43,7 +43,7 @@ The discovery timestamp advances only after a network discovery pass completes. 
 - <a href="https://github.com/legostin/jev-browser">legostin/jev-browser</a> — last check 2026-10-02
 - <a href="https://github.com/Nolane-x/JEV-language">Nolane-x/JEV-language</a> — last check 2026-10-08
 - <a href="https://github.com/cleiton1231/jev-loop">cleiton1231/jev-loop</a> — last check 2026-10-10
-- <a href="https://github.com/dominusDeus/jev-trader-fork">dominusDeus/jev-trader-fork</a> — last check 2026-10-01
+- <a href="https://github.com/dominusDeus/jev-trader-fork">dominusDeus/jev-trader-fork</a> — last check 2026-10-11
 - <a href="https://github.com/pininkara/Jev-Trades">pininkara/Jev-Trades</a> — last check 2026-10-10
 - <a href="https://github.com/Baran3575/jev-voice-android">Baran3575/jev-voice-android</a> — last check 2026-10-10
 - <a href="https://github.com/sethsaler/jevgram">sethsaler/jevgram</a> — last check 2026-10-05
@@ -52,7 +52,7 @@ The discovery timestamp advances only after a network discovery pass completes. 
 - <a href="https://github.com/vhpctnyd5x-lab/localai-16gb">vhpctnyd5x-lab/localai-16gb</a> — last check 2026-10-07
 - <a href="https://github.com/blancaile/minecraft-ai">blancaile/minecraft-ai</a> — last check 2026-10-10
 - <a href="https://github.com/novvoo/nanojev">novvoo/nanojev</a> — last check 2026-10-04
-- <a href="https://github.com/develatter/notos-intelligence-go">develatter/notos-intelligence-go</a> — last check 2026-10-01
+- <a href="https://github.com/develatter/notos-intelligence-go">develatter/notos-intelligence-go</a> — last check 2026-10-11
 - <a href="https://github.com/prof-ramos/sneub">prof-ramos/sneub</a> — last check 2026-10-10
 - <a href="https://github.com/zoidsh/tenet">zoidsh/tenet</a> — last check 2026-10-01
 - <a href="https://github.com/armsteadj1/vibe-smart-router">armsteadj1/vibe-smart-router</a> — last check 2026-10-09
