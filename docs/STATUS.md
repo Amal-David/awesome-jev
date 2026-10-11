@@ -6,11 +6,11 @@
 
 | Measure | Recorded value |
 |---|---|
-| Reviewed / indexed / auto-discovered | 78 / 1418 / 1879 |
-| Catalog entries (not all reviewed) | 3375 |
-| Last completed discovery pass (UTC) | 2026-10-11T20:23:54Z |
+| Reviewed / indexed / auto-discovered | 78 / 1420 / 1899 |
+| Catalog entries (not all reviewed) | 3397 |
+| Last completed discovery pass (UTC) | 2026-10-11T23:48:18Z |
 | Latest rotating repository metadata check | 2026-10-11 |
-| Repositories with a recorded metadata check | 3273 / 3273 |
+| Repositories with a recorded metadata check | 3295 / 3295 |
 | Repositories unavailable at their last check (404/410) | 38 |
 | Media records with a latest-attempt error | 1 |
 | Editorial exclusions | 1 |
@@ -21,7 +21,7 @@ Repository checks rotate: the newest check date does not mean every entry was ch
 
 The discovery timestamp advances only after a network discovery pass completes. An offline directory rebuild, test run or media-only refresh never advances it. The Actions result, not the cron expression, establishes that a workflow ran successfully.
 
-<a href="https://github.com/Amal-David/awesome-jev/actions/runs/38171947915">Discovery run receipt</a>
+<a href="https://github.com/Amal-David/awesome-jev/actions/runs/38185557322">Discovery run receipt</a>
 
 <a href="https://github.com/Amal-David/awesome-jev/actions/workflows/curate.yml">All refresh runs</a>
 
@@ -54,13 +54,13 @@ The discovery timestamp advances only after a network discovery pass completes. 
 - <a href="https://github.com/novvoo/nanojev">novvoo/nanojev</a> — last check 2026-10-04
 - <a href="https://github.com/develatter/notos-intelligence-go">develatter/notos-intelligence-go</a> — last check 2026-10-11
 - <a href="https://github.com/prof-ramos/sneub">prof-ramos/sneub</a> — last check 2026-10-10
-- <a href="https://github.com/zoidsh/tenet">zoidsh/tenet</a> — last check 2026-10-01
+- <a href="https://github.com/zoidsh/tenet">zoidsh/tenet</a> — last check 2026-10-11
 - <a href="https://github.com/armsteadj1/vibe-smart-router">armsteadj1/vibe-smart-router</a> — last check 2026-10-09
-- <a href="https://github.com/eriestra/almond-fastloop">eriestra/almond-fastloop</a> — last check 2026-10-02
+- <a href="https://github.com/eriestra/almond-fastloop">eriestra/almond-fastloop</a> — last check 2026-10-11
 - <a href="https://github.com/vlad-terin/jev-browser">vlad-terin/jev-browser</a> — last check 2026-10-09
 - <a href="https://github.com/benballintyn/jev-mcp">benballintyn/jev-mcp</a> — last check 2026-10-10
 - <a href="https://github.com/rajdhakad9826/routeKit">rajdhakad9826/routeKit</a> — last check 2026-10-05
-- <a href="https://github.com/ThePikey/AOS_GLM_language">ThePikey/AOS_GLM_language</a> — last check 2026-10-01
+- <a href="https://github.com/ThePikey/AOS_GLM_language">ThePikey/AOS_GLM_language</a> — last check 2026-10-11
 - <a href="https://github.com/brudarko/jev-mac-voice">brudarko/jev-mac-voice</a> — last check 2026-10-10
 - <a href="https://github.com/kcb-swe-gh/typesafe-ai-jev">kcb-swe-gh/typesafe-ai-jev</a> — last check 2026-10-04
 - <a href="https://github.com/trophee-bot/typesafe-oracles">trophee-bot/typesafe-oracles</a> — last check 2026-10-09
