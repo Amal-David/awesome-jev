@@ -39081,21 +39081,6 @@
     "url": "https://github.com/wayne930242/straw-boss"
   },
   {
-    "category": "demos",
-    "code": "https://github.com/Eve2512/Strayguard/blob/main/src/strayguard/jev.py",
-    "description": "Pre-commit hook that asks Jev one Choice question per newly added file and flags likely strays before they are committed.",
-    "evidence_level": "primary-source-reviewed",
-    "license": "MIT",
-    "name": "strayguard",
-    "notes": "Author submission. Needs a paid TypeSafe API key. Sends each new file's path, size, first 40 lines (max 2,000 characters) and nearby tracked file names; files matched by local secret rules, binary files and files over 1 MB are never sent, and STRAYGUARD_NAMES_ONLY=1 sends names and sizes only. Code owns the 0.70 threshold and every action, never deletes files, and fails open on API errors. The author's 100-file eval was written by the same author as the category descriptions.",
-    "repo": "Eve2512/Strayguard",
-    "reviewed": "2026-10-14",
-    "sources": [
-      "https://github.com/Eve2512/Strayguard/blob/main/README.md"
-    ],
-    "url": "https://github.com/Eve2512/Strayguard"
-  },
-  {
     "archived": false,
     "category": "demos",
     "description": "AI coach for Slay the Spire 2 on Steam. Live in-game action recommendations powered by Typesafe Jev through OpenRouter.",
@@ -60194,6 +60179,21 @@
     ],
     "stars": 18,
     "url": "https://github.com/kieranklaassen/ruby_llm-typesafe"
+  },
+  {
+    "category": "integrations",
+    "code": "https://github.com/Eve2512/Strayguard/blob/main/src/strayguard/jev.py",
+    "description": "Pre-commit hook that asks Jev one Choice question per newly added file and flags likely strays before they are committed.",
+    "evidence_level": "primary-source-reviewed",
+    "license": "MIT",
+    "name": "strayguard",
+    "notes": "Author submission. Needs a paid TypeSafe API key. Sends each new file's path, size, first 40 lines (max 2,000 characters) and nearby tracked file names; files matched by local secret rules, binary files and files over 1 MB are never sent, and STRAYGUARD_NAMES_ONLY=1 sends names and sizes only. Code owns the 0.70 threshold and every action and never deletes files. If the API fails, only Jev's verdicts are skipped; local-rule and cached verdicts still apply, and STRAYGUARD_STRICT=1 can block on them. The author's 100-file eval was written by the same author as the category descriptions.",
+    "repo": "Eve2512/Strayguard",
+    "reviewed": "2026-10-14",
+    "sources": [
+      "https://github.com/Eve2512/Strayguard/blob/main/README.md"
+    ],
+    "url": "https://github.com/Eve2512/Strayguard"
   },
   {
     "category": "integrations",

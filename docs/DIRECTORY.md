@@ -108,6 +108,7 @@ For simple rules, parsing, or arithmetic, use code. A dedicated classifier may b
 - <a href="https://github.com/simonw/llm-typesafe">llm-typesafe</a> - Use Jev from the LLM command line or Python, with stdin, templates, and sync/async calls.
 - <a href="https://github.com/ttlequals0/MinusPodJev">MinusPodJev</a> - Podcast ad-detection adapter for MinusPod: Jev scores transcript segments and code assembles the ad spans.
 - <a href="https://github.com/jexp/neo4jev">neo4jev</a> - Explores Neo4j graphs with Jev edge choices and goal checks inside a bounded beam search.
+- <a href="https://github.com/Eve2512/Strayguard">strayguard</a> - Pre-commit hook that asks Jev one Choice question per newly added file and flags likely strays before they are committed.
 - <a href="https://github.com/typesafe-ai/n8n-nodes-typesafe-ai">TypeSafe AI for n8n</a> - Official n8n community node for evaluating or routing workflow items with Choice, Noul and Score questions.
 
 ### Games and creative projects
@@ -124,7 +125,6 @@ For simple rules, parsing, or arithmetic, use code. A dedicated classifier may b
 - <a href="https://github.com/wustep/jev-playground">Jev Music Playground</a> - Jev picks musical parameters; code turns them into notes and MIDI. Includes an offline mode.
 - <a href="https://github.com/baronunread/leanest">Leanest</a> - Test selector that can use Jev to judge which Playwright or Vitest files are safe enough to skip for a code change.
 - <a href="https://github.com/sharziki/semdecide">SemDecide</a> - Unix CLI for Jev predicates, choices, scores, JSONL filtering, and CI-friendly exit codes.
-- <a href="https://github.com/Eve2512/Strayguard">strayguard</a> - Pre-commit hook that asks Jev one Choice question per newly added file and flags likely strays before they are committed.
 
 ### Independent models
 

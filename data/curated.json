@@ -539,17 +539,6 @@
     "notes": "Jev is optional; classifier.dev is the default and Laya is another provider. The policy fails open on uncertainty/provider failure and has deterministic always-run overrides. Diff and test source reach the selected judge; use trusted HTTPS for a custom TypeSafe base URL. Source-reviewed, not executed here."
   },
   {
-    "repo": "Eve2512/Strayguard",
-    "name": "strayguard",
-    "category": "developer-tools",
-    "description": "Pre-commit hook that asks Jev one Choice question per newly added file and flags likely strays before they are committed.",
-    "evidence": "https://github.com/Eve2512/Strayguard/blob/main/README.md",
-    "code": "https://github.com/Eve2512/Strayguard/blob/main/src/strayguard/jev.py",
-    "reviewed": "2026-10-14",
-    "license": "MIT",
-    "notes": "Author submission. Needs a paid TypeSafe API key. Sends each new file's path, size, first 40 lines (max 2,000 characters) and nearby tracked file names; files matched by local secret rules, binary files and files over 1 MB are never sent, and STRAYGUARD_NAMES_ONLY=1 sends names and sizes only. Code owns the 0.70 threshold and every action, never deletes files, and fails open on API errors. The author's 100-file eval was written by the same author as the category descriptions."
-  },
-  {
     "repo": "nokia-applied-research/AnyJev",
     "name": "AnyJev",
     "category": "research",
@@ -894,5 +883,16 @@
     "kind": "direct-integration",
     "reviewed": "2026-10-09",
     "notes": "Official TypeSafe-maintained n8n community node. It sends selected text, JSON or the full input item plus typed questions to the configured TypeSafe endpoint, once per input item; use only workflow data approved for hosted processing. Choice confidence fallback, Noul uncertainty bands and Score routes are workflow controls, not accuracy guarantees. Custom base URLs are operator-controlled; bearer credentials are blocked from cross-origin redirects, but real keys still belong only on trusted HTTPS endpoints. Implementation, validation, error/fallback routing, example, mocked tests, CI/publish workflows and license were inspected at the pinned revision; its exact-head upstream CI succeeded. The time-limited n8n Cloud credit promotion is not treated as a permanent project feature. No package, dependency, n8n instance, test or paid inference ran here."
+  },
+  {
+    "repo": "Eve2512/Strayguard",
+    "name": "strayguard",
+    "category": "integrations",
+    "description": "Pre-commit hook that asks Jev one Choice question per newly added file and flags likely strays before they are committed.",
+    "evidence": "https://github.com/Eve2512/Strayguard/blob/main/README.md",
+    "code": "https://github.com/Eve2512/Strayguard/blob/main/src/strayguard/jev.py",
+    "reviewed": "2026-10-14",
+    "license": "MIT",
+    "notes": "Author submission. Needs a paid TypeSafe API key. Sends each new file's path, size, first 40 lines (max 2,000 characters) and nearby tracked file names; files matched by local secret rules, binary files and files over 1 MB are never sent, and STRAYGUARD_NAMES_ONLY=1 sends names and sizes only. Code owns the 0.70 threshold and every action and never deletes files. If the API fails, only Jev's verdicts are skipped; local-rule and cached verdicts still apply, and STRAYGUARD_STRICT=1 can block on them. The author's 100-file eval was written by the same author as the category descriptions."
   }
 ]
