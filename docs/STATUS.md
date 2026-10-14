@@ -6,12 +6,12 @@
 
 | Measure | Recorded value |
 |---|---|
-| Reviewed / indexed / auto-discovered | 78 / 1462 / 2061 |
-| Catalog entries (not all reviewed) | 3601 |
-| Last completed discovery pass (UTC) | 2026-10-14T05:04:06Z |
+| Reviewed / indexed / auto-discovered | 78 / 1478 / 2084 |
+| Catalog entries (not all reviewed) | 3640 |
+| Last completed discovery pass (UTC) | 2026-10-14T13:52:14Z |
 | Latest rotating repository metadata check | 2026-10-14 |
-| Repositories with a recorded metadata check | 3499 / 3499 |
-| Repositories unavailable at their last check (404/410) | 40 |
+| Repositories with a recorded metadata check | 3538 / 3538 |
+| Repositories unavailable at their last check (404/410) | 41 |
 | Media records with a latest-attempt error | 1 |
 | Editorial exclusions | 1 |
 
@@ -21,7 +21,7 @@ Repository checks rotate: the newest check date does not mean every entry was ch
 
 The discovery timestamp advances only after a network discovery pass completes. An offline directory rebuild, test run or media-only refresh never advances it. The Actions result, not the cron expression, establishes that a workflow ran successfully.
 
-<a href="https://github.com/Amal-David/awesome-jev/actions/runs/38514551001">Discovery run receipt</a>
+<a href="https://github.com/Amal-David/awesome-jev/actions/runs/38575219584">Discovery run receipt</a>
 
 <a href="https://github.com/Amal-David/awesome-jev/actions/workflows/curate.yml">All refresh runs</a>
 
@@ -55,6 +55,7 @@ The discovery timestamp advances only after a network discovery pass completes. 
 - <a href="https://github.com/blancaile/minecraft-ai">blancaile/minecraft-ai</a> — last check 2026-10-10
 - <a href="https://github.com/novvoo/nanojev">novvoo/nanojev</a> — last check 2026-10-04
 - <a href="https://github.com/develatter/notos-intelligence-go">develatter/notos-intelligence-go</a> — last check 2026-10-11
+- <a href="https://github.com/ivorpad/skillranker">ivorpad/skillranker</a> — last check 2026-10-14
 - <a href="https://github.com/prof-ramos/sneub">prof-ramos/sneub</a> — last check 2026-10-10
 - <a href="https://github.com/zoidsh/tenet">zoidsh/tenet</a> — last check 2026-10-11
 - <a href="https://github.com/armsteadj1/vibe-smart-router">armsteadj1/vibe-smart-router</a> — last check 2026-10-09
