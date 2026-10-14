@@ -2,7 +2,7 @@
 
 [Start here](../README.md) · [Browse by task](START_HERE.md) · [Search and filters](BROWSE.md) · [Full catalog](CATALOG.md)
 
-**78 selections reviewed against primary public sources.** Source review is not a security audit or a reproduced benchmark.
+**79 selections reviewed against primary public sources.** Source review is not a security audit or a reproduced benchmark.
 
 ## Official resources
 
@@ -43,6 +43,7 @@
 | Jev Music Playground | Jev picks musical parameters; code turns them into notes and MIDI. Includes an offline mode. Includes an explicitly labeled offline heuristic mode; Jev does not directly generate audio. | [repo](https://github.com/wustep/jev-playground) · [demo](https://jev-playground.vercel.app) · [code](https://github.com/wustep/jev-playground/blob/main/src/planner/JevPlanner.ts) · [evidence](https://github.com/wustep/jev-playground/blob/main/README.md) | primary-source-reviewed / 2026-09-18 | not-detected |
 | Leanest | Test selector that can use Jev to judge which Playwright or Vitest files are safe enough to skip for a code change. Jev is optional; classifier.dev is the default and Laya is another provider. The policy fails open on uncertainty/provider failure and has deterministic always-run overrides. Diff and test source reach the selected judge; use trusted HTTPS for a custom TypeSafe base URL. Source-reviewed, not executed here. | [repo](https://github.com/baronunread/leanest) · [code](https://github.com/baronunread/leanest/blob/main/packages/judge/src/providers/jev.ts) · [evidence](https://github.com/baronunread/leanest/blob/main/README.md) | primary-source-reviewed / 2026-09-25 | MIT |
 | SemDecide | Unix CLI for Jev predicates, choices, scores, JSONL filtering, and CI-friendly exit codes. Validates Jev response shapes and keeps uncertainty/provider failures distinct. Input is sent to the configured Jev endpoint; custom SEMDECIDE\_API\_URL values can carry the API key, so use a trusted HTTPS endpoint. Source-reviewed, not executed here. | [repo](https://github.com/sharziki/semdecide) · [code](https://github.com/sharziki/semdecide/blob/main/src/reflex_guard/providers/typesafe.py) · [post](https://x.com/0xLogicrw/status/2100478725393686556) · [evidence](https://github.com/sharziki/semdecide/blob/main/README.md) | primary-source-reviewed / 2026-09-25 | MIT |
+| strayguard | Pre-commit hook that asks Jev one Choice question per newly added file and flags likely strays before they are committed. Author submission. Needs a paid TypeSafe API key. Sends each new file's path, size, first 40 lines (max 2,000 characters) and nearby tracked file names; files matched by local secret rules, binary files and files over 1 MB are never sent, and STRAYGUARD\_NAMES\_ONLY=1 sends names and sizes only. Code owns the 0.70 threshold and every action, never deletes files, and fails open on API errors. The author's 100-file eval was written by the same author as the category descriptions. | [repo](https://github.com/Eve2512/Strayguard) · [code](https://github.com/Eve2512/Strayguard/blob/main/src/strayguard/jev.py) · [evidence](https://github.com/Eve2512/Strayguard/blob/main/README.md) | primary-source-reviewed / 2026-10-14 | MIT |
 
 ## Browser and computer use
 
