@@ -60187,7 +60187,7 @@
     "evidence_level": "primary-source-reviewed",
     "license": "MIT",
     "name": "strayguard",
-    "notes": "Author submission. Needs a paid TypeSafe API key. Sends each new file's path, size, first 40 lines (max 2,000 characters) and nearby tracked file names; files matched by local secret rules, binary files and files over 1 MB are never sent, and STRAYGUARD_NAMES_ONLY=1 sends names and sizes only. Code owns the 0.70 threshold and every action and never deletes files. If the API fails, only Jev's verdicts are skipped; local-rule and cached verdicts still apply, and STRAYGUARD_STRICT=1 can block on them. The author's 100-file eval was written by the same author as the category descriptions.",
+    "notes": "Author submission. Needs a paid TypeSafe API key. Sends each new file's path, size, first 40 lines (max 2,000 characters) and nearby tracked file names; files matched by local secret rules, binary files and files over 1 MB are never sent, and STRAYGUARD_NAMES_ONLY=1 sends names and sizes only. Code owns the threshold (default 0.70, set with STRAYGUARD_THRESHOLD) and every action and never deletes files. If the API fails, only Jev's verdicts are skipped; local-rule and cached verdicts still apply, and STRAYGUARD_STRICT=1 can block on them. The author's 100-file eval was written by the same author as the category descriptions.",
     "repo": "Eve2512/Strayguard",
     "reviewed": "2026-10-14",
     "sources": [
