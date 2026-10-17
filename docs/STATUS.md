@@ -6,12 +6,12 @@
 
 | Measure | Recorded value |
 |---|---|
-| Reviewed / indexed / auto-discovered | 78 / 1538 / 2368 |
-| Catalog entries (not all reviewed) | 3984 |
-| Last completed discovery pass (UTC) | 2026-10-17T12:16:37Z |
+| Reviewed / indexed / auto-discovered | 78 / 1537 / 2392 |
+| Catalog entries (not all reviewed) | 4007 |
+| Last completed discovery pass (UTC) | 2026-10-17T15:44:35Z |
 | Latest rotating repository metadata check | 2026-10-17 |
-| Repositories with a recorded metadata check | 3880 / 3880 |
-| Repositories unavailable at their last check (404/410) | 43 |
+| Repositories with a recorded metadata check | 3903 / 3903 |
+| Repositories unavailable at their last check (404/410) | 44 |
 | Media records with a latest-attempt error | 1 |
 | Editorial exclusions | 1 |
 
@@ -21,7 +21,7 @@ Repository checks rotate: the newest check date does not mean every entry was ch
 
 The discovery timestamp advances only after a network discovery pass completes. An offline directory rebuild, test run or media-only refresh never advances it. The Actions result, not the cron expression, establishes that a workflow ran successfully.
 
-<a href="https://github.com/Amal-David/awesome-jev/actions/runs/39031811225">Discovery run receipt</a>
+<a href="https://github.com/Amal-David/awesome-jev/actions/runs/39046270887">Discovery run receipt</a>
 
 <a href="https://github.com/Amal-David/awesome-jev/actions/workflows/curate.yml">All refresh runs</a>
 
@@ -68,6 +68,7 @@ The discovery timestamp advances only after a network discovery pass completes. 
 - <a href="https://github.com/brudarko/jev-mac-voice">brudarko/jev-mac-voice</a> — last check 2026-10-10
 - <a href="https://github.com/Alex314618-create/JevRev">Alex314618-create/JevRev</a> — last check 2026-10-16
 - <a href="https://github.com/kcb-swe-gh/typesafe-ai-jev">kcb-swe-gh/typesafe-ai-jev</a> — last check 2026-10-15
+- <a href="https://github.com/Jwuthri/SelfJev">Jwuthri/SelfJev</a> — last check 2026-10-17
 - <a href="https://github.com/trophee-bot/typesafe-oracles">trophee-bot/typesafe-oracles</a> — last check 2026-10-09
 - <a href="https://github.com/sysadarsh/zerosweep">sysadarsh/zerosweep</a> — last check 2026-10-07
 
