@@ -102,6 +102,7 @@ The [full creator gallery](docs/DIRECTORY.md#watch-jev-in-action) retains the ot
 - [jev-align](https://github.com/sutro-sh/jev-align) - Improves classifier definitions and scoring rubrics using labels and GEPA-proposed edits.
 - [Winnow](https://github.com/GhalebDweikat/winnow) - Claude Code context filter that scores tool-output blocks and keeps hidden text locally recallable.
 - [Jev-Mem](https://github.com/libingzheren/Jev-Mem) - Research memory system where Jev organizes graph memories and guides retrieval while a separate model writes answers.
+- [JevGPT](https://github.com/sunyasheng/JevGPT) - Research agent from the JevGPT paper (arXiv 2610.18272) where, for question answering, Jev locates and checks evidence in retrieved documents with Choice and Noul questions, and GPT-5.5 plans searches and writes the answer.
 - [patdown](https://github.com/tyler-dot-earth/patdown) - Semantic linter that turns Markdown rules into checks and maps flagged evidence to source lines.
 - [Oko](https://github.com/bartlomein/oko) - Code-search CLI and MCP server with local candidate retrieval and optional hosted Jev ranking.
 - [jgrep](https://github.com/kyu1204/jgrep) - Semantic matching over code chunks, diff hunks, and CSV rows, published on npm as jevgrep.
