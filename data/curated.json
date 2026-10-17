@@ -883,5 +883,18 @@
     "kind": "direct-integration",
     "reviewed": "2026-10-09",
     "notes": "Official TypeSafe-maintained n8n community node. It sends selected text, JSON or the full input item plus typed questions to the configured TypeSafe endpoint, once per input item; use only workflow data approved for hosted processing. Choice confidence fallback, Noul uncertainty bands and Score routes are workflow controls, not accuracy guarantees. Custom base URLs are operator-controlled; bearer credentials are blocked from cross-origin redirects, but real keys still belong only on trusted HTTPS endpoints. Implementation, validation, error/fallback routing, example, mocked tests, CI/publish workflows and license were inspected at the pinned revision; its exact-head upstream CI succeeded. The time-limited n8n Cloud credit promotion is not treated as a permanent project feature. No package, dependency, n8n instance, test or paid inference ran here."
+  },
+  {
+    "repo": "shimo4228/jev-skill-router",
+    "name": "jev-skill-router",
+    "category": "agents",
+    "description": "Claude Code hook that asks Jev (Choice to rank the installed skills, Noul to gate and check fit) which skill fits each prompt and logs the answer; shadow mode only logs, inject mode adds a one-line hint, and Claude still makes the final pick.",
+    "evidence": "https://github.com/shimo4228/jev-skill-router/blob/ad3b942b2b332cd3365698cb05bd88d5a53818ce/README.md",
+    "code": "https://github.com/shimo4228/jev-skill-router/blob/ad3b942b2b332cd3365698cb05bd88d5a53818ce/scripts/router.py",
+    "skill": "https://github.com/shimo4228/jev-skill-router/blob/ad3b942b2b332cd3365698cb05bd88d5a53818ce/skills/jev-skill-router/SKILL.md",
+    "license": "MIT",
+    "kind": "direct-integration",
+    "reviewed": "2026-10-15",
+    "notes": "Author submission. Requires a TypeSafe API key and paid Jev inference; not official TypeSafe software. Each routed prompt sends the full prompt text, every roster skill's name and description, and the whole SKILL.md of the top three candidates to api.typesafe.ai; the client pins that host and refuses redirects. The experiment is concluded: the author ran it in shadow mode for one week on a 52 to 66 skill roster with Japanese prompts and then removed it from their own setup. The reported count (28 of 539 suggestions followed by a call of the suggested skill) is author-reported, joined from the author's own transcripts with the bundled evals/shadow_join.py, and was not reproduced here. README, router and API client were read at the pinned revision; no install, test or paid inference ran here."
   }
 ]
