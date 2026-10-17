@@ -6,7 +6,7 @@ Projects, demos, and tools built with [Jev](https://docs.typesafe.ai/).
 
 Jev answers questions about data: pick an option, return a yes/no probability, or score something on a scale. It does not write text. The examples here show what people are using it for, with links to the code where available.
 
-**78 reviewed picks**. <a href="https://github.com/Amal-David/awesome-jev/blob/main/docs/REVIEWED.md">Source notes and licenses</a>. The larger discovery catalog is separate.
+**79 reviewed picks**. <a href="https://github.com/Amal-David/awesome-jev/blob/main/docs/REVIEWED.md">Source notes and licenses</a>. The larger discovery catalog is separate.
 
 [Quick start](#20-second-quick-start) · [Projects](#reviewed-picks) · [Demos from X](#watch-jev-in-action) · [CUA & drivers](#computer-use-and-drivers) · [OpenRouter winners](#openrouter-community-winners) · [Contributing](#contribute)
 
@@ -105,6 +105,7 @@ For simple rules, parsing, or arithmetic, use code. A dedicated classifier may b
 - <a href="https://github.com/asimov-platform/asimov-cli">ASIMOV Jev output filter</a> - Filters fetched or listed JSON records with a plain-language Jev question before optional jq projection.
 - <a href="https://github.com/AboveColin/HA-Jev">Home Assistant Jev</a> - Adds Jev decisions to Home Assistant entities and automations.
 - <a href="https://github.com/cmungall/jevotron">jevotron</a> - CLI that uses Jev to flag anomalies in selected fields, with file-format adapters, local previews and cached assessments.
+- <a href="https://github.com/tomerglick57/Jevstiller">Jevstiller</a> - Drop-in proxy that forwards each repeated Choice or Noul question to Jev, trains a small local classifier from Jev&#x27;s answers, and answers locally only within an agreement bound the user sets; the rest and a 2% audit still go to Jev.
 - <a href="https://github.com/simonw/llm-typesafe">llm-typesafe</a> - Use Jev from the LLM command line or Python, with stdin, templates, and sync/async calls.
 - <a href="https://github.com/ttlequals0/MinusPodJev">MinusPodJev</a> - Podcast ad-detection adapter for MinusPod: Jev scores transcript segments and code assembles the ad spans.
 - <a href="https://github.com/jexp/neo4jev">neo4jev</a> - Explores Neo4j graphs with Jev edge choices and goal checks inside a bounded beam search.
@@ -146,7 +147,7 @@ For simple rules, parsing, or arithmetic, use code. A dedicated classifier may b
 
 - <a href="https://github.com/browser-use/browser-harness">Browser Harness (supporting driver)</a> - The CDP browser connection used by Jev Ultrafast. Model-neutral, not a Jev model.
 
-<a href="https://github.com/Amal-David/awesome-jev/blob/main/docs/REVIEWED.md">All 78 reviewed picks: source notes and licenses</a>
+<a href="https://github.com/Amal-David/awesome-jev/blob/main/docs/REVIEWED.md">All 79 reviewed picks: source notes and licenses</a>
 
 ## Computer use and drivers
 

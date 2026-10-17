@@ -883,5 +883,17 @@
     "kind": "direct-integration",
     "reviewed": "2026-10-09",
     "notes": "Official TypeSafe-maintained n8n community node. It sends selected text, JSON or the full input item plus typed questions to the configured TypeSafe endpoint, once per input item; use only workflow data approved for hosted processing. Choice confidence fallback, Noul uncertainty bands and Score routes are workflow controls, not accuracy guarantees. Custom base URLs are operator-controlled; bearer credentials are blocked from cross-origin redirects, but real keys still belong only on trusted HTTPS endpoints. Implementation, validation, error/fallback routing, example, mocked tests, CI/publish workflows and license were inspected at the pinned revision; its exact-head upstream CI succeeded. The time-limited n8n Cloud credit promotion is not treated as a permanent project feature. No package, dependency, n8n instance, test or paid inference ran here."
+  },
+  {
+    "repo": "tomerglick57/Jevstiller",
+    "name": "Jevstiller",
+    "category": "integrations",
+    "description": "Drop-in proxy that forwards each repeated Choice or Noul question to Jev, trains a small local classifier from Jev's answers, and answers locally only within an agreement bound the user sets; the rest and a 2% audit still go to Jev.",
+    "evidence": "https://github.com/tomerglick57/Jevstiller/blob/38896923acd3e76ad4e7ba9ac151f9683781de02/README.md",
+    "code": "https://github.com/tomerglick57/Jevstiller/blob/38896923acd3e76ad4e7ba9ac151f9683781de02/jevstiller/server.py",
+    "post": "https://jevstiller.pages.dev/posts/the-guarantee/",
+    "license": "Apache-2.0",
+    "reviewed": "2026-10-17",
+    "notes": "Author submission. Coverage and latency figures are author-reported, from replays of recorded Jev answers on public datasets; the guarantee is agreement with Jev, not accuracy. Uses the caller's own paid Jev key. The README discusses TypeSafe's terms on training from Jev output."
   }
 ]

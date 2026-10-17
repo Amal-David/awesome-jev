@@ -31150,25 +31150,6 @@
   {
     "archived": false,
     "category": "demos",
-    "demo": "https://jevstiller.pages.dev",
-    "description": "Distill a repeated Jev classification task into a local model, on the fly — same answers, your hardware.",
-    "evidence_level": "community-indexed",
-    "language": "Python",
-    "license": "Apache-2.0",
-    "metadata_checked": "2026-10-06",
-    "name": "Jevstiller",
-    "pushed_at": "2026-10-05T14:47:36Z",
-    "repo": "tomerglick57/Jevstiller",
-    "repository_status": "accessible",
-    "sources": [
-      "https://github.com/hellogumbo/awesome-jev"
-    ],
-    "stars": 62,
-    "url": "https://github.com/tomerglick57/Jevstiller"
-  },
-  {
-    "archived": false,
-    "category": "demos",
     "description": "See the linked source for implementation details.",
     "evidence_level": "readme-matched",
     "language": "TypeScript",
@@ -65482,6 +65463,30 @@
     ],
     "stars": 14,
     "url": "https://github.com/kylemclaren/jevql"
+  },
+  {
+    "archived": false,
+    "category": "integrations",
+    "code": "https://github.com/tomerglick57/Jevstiller/blob/38896923acd3e76ad4e7ba9ac151f9683781de02/jevstiller/server.py",
+    "demo": "https://jevstiller.pages.dev",
+    "description": "Drop-in proxy that forwards each repeated Choice or Noul question to Jev, trains a small local classifier from Jev's answers, and answers locally only within an agreement bound the user sets; the rest and a 2% audit still go to Jev.",
+    "evidence_level": "primary-source-reviewed",
+    "language": "Python",
+    "license": "Apache-2.0",
+    "metadata_checked": "2026-10-06",
+    "name": "Jevstiller",
+    "notes": "Author submission. Coverage and latency figures are author-reported, from replays of recorded Jev answers on public datasets; the guarantee is agreement with Jev, not accuracy. Uses the caller's own paid Jev key. The README discusses TypeSafe's terms on training from Jev output.",
+    "post": "https://jevstiller.pages.dev/posts/the-guarantee/",
+    "pushed_at": "2026-10-05T14:47:36Z",
+    "repo": "tomerglick57/Jevstiller",
+    "repository_status": "accessible",
+    "reviewed": "2026-10-17",
+    "sources": [
+      "https://github.com/tomerglick57/Jevstiller/blob/38896923acd3e76ad4e7ba9ac151f9683781de02/README.md",
+      "https://github.com/hellogumbo/awesome-jev"
+    ],
+    "stars": 62,
+    "url": "https://github.com/tomerglick57/Jevstiller"
   },
   {
     "archived": false,
