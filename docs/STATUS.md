@@ -6,12 +6,12 @@
 
 | Measure | Recorded value |
 |---|---|
-| Reviewed / indexed / auto-discovered | 78 / 1547 / 2488 |
-| Catalog entries (not all reviewed) | 4113 |
-| Last completed discovery pass (UTC) | 2026-10-18T18:43:35Z |
+| Reviewed / indexed / auto-discovered | 78 / 1549 / 2499 |
+| Catalog entries (not all reviewed) | 4126 |
+| Last completed discovery pass (UTC) | 2026-10-18T22:29:35Z |
 | Latest rotating repository metadata check | 2026-10-18 |
-| Repositories with a recorded metadata check | 4009 / 4009 |
-| Repositories unavailable at their last check (404/410) | 49 |
+| Repositories with a recorded metadata check | 4022 / 4022 |
+| Repositories unavailable at their last check (404/410) | 55 |
 | Media records with a latest-attempt error | 1 |
 | Editorial exclusions | 1 |
 
@@ -21,7 +21,7 @@ Repository checks rotate: the newest check date does not mean every entry was ch
 
 The discovery timestamp advances only after a network discovery pass completes. An offline directory rebuild, test run or media-only refresh never advances it. The Actions result, not the cron expression, establishes that a workflow ran successfully.
 
-<a href="https://github.com/Amal-David/awesome-jev/actions/runs/39155374835">Discovery run receipt</a>
+<a href="https://github.com/Amal-David/awesome-jev/actions/runs/39172373243">Discovery run receipt</a>
 
 <a href="https://github.com/Amal-David/awesome-jev/actions/workflows/curate.yml">All refresh runs</a>
 
@@ -58,19 +58,25 @@ The discovery timestamp advances only after a network discovery pass completes. 
 - <a href="https://github.com/novvoo/nanojev">novvoo/nanojev</a> — last check 2026-10-15
 - <a href="https://github.com/develatter/notos-intelligence-go">develatter/notos-intelligence-go</a> — last check 2026-10-11
 - <a href="https://github.com/ivorpad/skillranker">ivorpad/skillranker</a> — last check 2026-10-14
+- <a href="https://github.com/JTech-CO/Smart-Cart-Autonomy-Lab-Jev">JTech-CO/Smart-Cart-Autonomy-Lab-Jev</a> — last check 2026-10-18
 - <a href="https://github.com/prof-ramos/sneub">prof-ramos/sneub</a> — last check 2026-10-10
 - <a href="https://github.com/zoidsh/tenet">zoidsh/tenet</a> — last check 2026-10-11
 - <a href="https://github.com/ismailakdag/typesafe-jev">ismailakdag/typesafe-jev</a> — last check 2026-10-15
 - <a href="https://github.com/armsteadj1/vibe-smart-router">armsteadj1/vibe-smart-router</a> — last check 2026-10-09
 - <a href="https://github.com/eriestra/almond-fastloop">eriestra/almond-fastloop</a> — last check 2026-10-11
 - <a href="https://github.com/vlad-terin/jev-browser">vlad-terin/jev-browser</a> — last check 2026-10-09
+- <a href="https://github.com/AkashPriyadarshii/jev-git">AkashPriyadarshii/jev-git</a> — last check 2026-10-18
 - <a href="https://github.com/benballintyn/jev-mcp">benballintyn/jev-mcp</a> — last check 2026-10-10
+- <a href="https://github.com/AkashPriyadarshii/jev-scout">AkashPriyadarshii/jev-scout</a> — last check 2026-10-18
+- <a href="https://github.com/AkashPriyadarshii/jev-seo">AkashPriyadarshii/jev-seo</a> — last check 2026-10-18
+- <a href="https://github.com/AkashPriyadarshii/jev-superpowers">AkashPriyadarshii/jev-superpowers</a> — last check 2026-10-18
 - <a href="https://github.com/rajdhakad9826/routeKit">rajdhakad9826/routeKit</a> — last check 2026-10-16
 - <a href="https://github.com/ThePikey/AOS_GLM_language">ThePikey/AOS_GLM_language</a> — last check 2026-10-11
 - <a href="https://github.com/brudarko/jev-mac-voice">brudarko/jev-mac-voice</a> — last check 2026-10-10
 - <a href="https://github.com/Alex314618-create/JevRev">Alex314618-create/JevRev</a> — last check 2026-10-16
 - <a href="https://github.com/kcb-swe-gh/typesafe-ai-jev">kcb-swe-gh/typesafe-ai-jev</a> — last check 2026-10-15
 - <a href="https://github.com/207studio/jev-codex-tools">207studio/jev-codex-tools</a> — last check 2026-10-17
+- <a href="https://github.com/AkashPriyadarshii/jev-curate">AkashPriyadarshii/jev-curate</a> — last check 2026-10-18
 - <a href="https://github.com/silex-ai-lab/jev-runtime-observability">silex-ai-lab/jev-runtime-observability</a> — last check 2026-10-17
 - <a href="https://github.com/24601/rh-guard">24601/rh-guard</a> — last check 2026-10-17
 - <a href="https://github.com/Jwuthri/SelfJev">Jwuthri/SelfJev</a> — last check 2026-10-17
