@@ -3718,7 +3718,7 @@ Evidence: **primary-source-reviewed** = public primary source inspected; **commu
 | zio-typesafe-ai | Scala 3 / ZIO client for the System One API: typed end-to-end, several questions per round-trip via NamedTuple. | [repo](https://github.com/jamesward/zio-typesafe-ai) · [evidence](https://github.com/hellogumbo/awesome-jev) | community-indexed | Apache-2.0 |
 | zod-jev | Zod validates the shape, Jev validates the meaning: semantic checks on request bodies become calibrated probabilities you threshold in code. | [repo](https://github.com/jomatsu/zod-jev) · [evidence](https://github.com/hellogumbo/awesome-jev) | community-indexed | MIT |
 
-## Integrations (59)
+## Integrations (60)
 
 | Project | Jev role / reuse notes | Links | Evidence | License / status |
 |---|---|---|---|---|
