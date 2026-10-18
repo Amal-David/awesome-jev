@@ -6,11 +6,11 @@
 
 | Measure | Recorded value |
 |---|---|
-| Reviewed / indexed / auto-discovered | 78 / 1548 / 2464 |
-| Catalog entries (not all reviewed) | 4090 |
-| Last completed discovery pass (UTC) | 2026-10-18T12:40:43Z |
+| Reviewed / indexed / auto-discovered | 78 / 1547 / 2488 |
+| Catalog entries (not all reviewed) | 4113 |
+| Last completed discovery pass (UTC) | 2026-10-18T18:43:35Z |
 | Latest rotating repository metadata check | 2026-10-18 |
-| Repositories with a recorded metadata check | 3986 / 3986 |
+| Repositories with a recorded metadata check | 4009 / 4009 |
 | Repositories unavailable at their last check (404/410) | 49 |
 | Media records with a latest-attempt error | 1 |
 | Editorial exclusions | 1 |
@@ -21,7 +21,7 @@ Repository checks rotate: the newest check date does not mean every entry was ch
 
 The discovery timestamp advances only after a network discovery pass completes. An offline directory rebuild, test run or media-only refresh never advances it. The Actions result, not the cron expression, establishes that a workflow ran successfully.
 
-<a href="https://github.com/Amal-David/awesome-jev/actions/runs/39128193457">Discovery run receipt</a>
+<a href="https://github.com/Amal-David/awesome-jev/actions/runs/39155374835">Discovery run receipt</a>
 
 <a href="https://github.com/Amal-David/awesome-jev/actions/workflows/curate.yml">All refresh runs</a>
 
@@ -53,7 +53,7 @@ The discovery timestamp advances only after a network discovery pass completes. 
 - <a href="https://github.com/sethsaler/jevgram">sethsaler/jevgram</a> — last check 2026-10-16
 - <a href="https://github.com/notque/jevs-sprint-planning">notque/jevs-sprint-planning</a> — last check 2026-10-15
 - <a href="https://github.com/kedi-lang/kedi-typesafe">kedi-lang/kedi-typesafe</a> — last check 2026-10-12
-- <a href="https://github.com/vhpctnyd5x-lab/localai-16gb">vhpctnyd5x-lab/localai-16gb</a> — last check 2026-10-07
+- <a href="https://github.com/vhpctnyd5x-lab/localai-16gb">vhpctnyd5x-lab/localai-16gb</a> — last check 2026-10-18
 - <a href="https://github.com/blancaile/minecraft-ai">blancaile/minecraft-ai</a> — last check 2026-10-10
 - <a href="https://github.com/novvoo/nanojev">novvoo/nanojev</a> — last check 2026-10-15
 - <a href="https://github.com/develatter/notos-intelligence-go">develatter/notos-intelligence-go</a> — last check 2026-10-11
@@ -75,7 +75,7 @@ The discovery timestamp advances only after a network discovery pass completes. 
 - <a href="https://github.com/24601/rh-guard">24601/rh-guard</a> — last check 2026-10-17
 - <a href="https://github.com/Jwuthri/SelfJev">Jwuthri/SelfJev</a> — last check 2026-10-17
 - <a href="https://github.com/trophee-bot/typesafe-oracles">trophee-bot/typesafe-oracles</a> — last check 2026-10-09
-- <a href="https://github.com/sysadarsh/zerosweep">sysadarsh/zerosweep</a> — last check 2026-10-07
+- <a href="https://github.com/sysadarsh/zerosweep">sysadarsh/zerosweep</a> — last check 2026-10-18
 
 ## Media checks needing attention
 
