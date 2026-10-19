@@ -6,12 +6,12 @@
 
 | Measure | Recorded value |
 |---|---|
-| Reviewed / indexed / auto-discovered | 78 / 1559 / 2535 |
-| Catalog entries (not all reviewed) | 4172 |
-| Last completed discovery pass (UTC) | 2026-10-19T15:44:56Z |
+| Reviewed / indexed / auto-discovered | 78 / 1559 / 2556 |
+| Catalog entries (not all reviewed) | 4193 |
+| Last completed discovery pass (UTC) | 2026-10-19T21:10:38Z |
 | Latest rotating repository metadata check | 2026-10-19 |
-| Repositories with a recorded metadata check | 4068 / 4068 |
-| Repositories unavailable at their last check (404/410) | 59 |
+| Repositories with a recorded metadata check | 4089 / 4089 |
+| Repositories unavailable at their last check (404/410) | 60 |
 | Media records with a latest-attempt error | 1 |
 | Editorial exclusions | 1 |
 
@@ -21,7 +21,7 @@ Repository checks rotate: the newest check date does not mean every entry was ch
 
 The discovery timestamp advances only after a network discovery pass completes. An offline directory rebuild, test run or media-only refresh never advances it. The Actions result, not the cron expression, establishes that a workflow ran successfully.
 
-<a href="https://github.com/Amal-David/awesome-jev/actions/runs/39280104384">Discovery run receipt</a>
+<a href="https://github.com/Amal-David/awesome-jev/actions/runs/39325188865">Discovery run receipt</a>
 
 <a href="https://github.com/Amal-David/awesome-jev/actions/workflows/curate.yml">All refresh runs</a>
 
@@ -56,6 +56,7 @@ The discovery timestamp advances only after a network discovery pass completes. 
 - <a href="https://github.com/kedi-lang/kedi-typesafe">kedi-lang/kedi-typesafe</a> — last check 2026-10-12
 - <a href="https://github.com/vhpctnyd5x-lab/localai-16gb">vhpctnyd5x-lab/localai-16gb</a> — last check 2026-10-18
 - <a href="https://github.com/blancaile/minecraft-ai">blancaile/minecraft-ai</a> — last check 2026-10-10
+- <a href="https://github.com/Solizardking/musebook">Solizardking/musebook</a> — last check 2026-10-19
 - <a href="https://github.com/novvoo/nanojev">novvoo/nanojev</a> — last check 2026-10-15
 - <a href="https://github.com/develatter/notos-intelligence-go">develatter/notos-intelligence-go</a> — last check 2026-10-11
 - <a href="https://github.com/karoliang/rightsize">karoliang/rightsize</a> — last check 2026-10-19
