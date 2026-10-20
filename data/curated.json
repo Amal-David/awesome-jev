@@ -883,5 +883,18 @@
     "kind": "direct-integration",
     "reviewed": "2026-10-09",
     "notes": "Official TypeSafe-maintained n8n community node. It sends selected text, JSON or the full input item plus typed questions to the configured TypeSafe endpoint, once per input item; use only workflow data approved for hosted processing. Choice confidence fallback, Noul uncertainty bands and Score routes are workflow controls, not accuracy guarantees. Custom base URLs are operator-controlled; bearer credentials are blocked from cross-origin redirects, but real keys still belong only on trusted HTTPS endpoints. Implementation, validation, error/fallback routing, example, mocked tests, CI/publish workflows and license were inspected at the pinned revision; its exact-head upstream CI succeeded. The time-limited n8n Cloud credit promotion is not treated as a permanent project feature. No package, dependency, n8n instance, test or paid inference ran here."
+  },
+  {
+    "repo": "raxITlabs/decision-models-as-guardrails",
+    "name": "Decision Models as Guardrails",
+    "category": "articles",
+    "description": "Publishes per-row results for 19 systems, including Jev 1.13.0, Jev 1.14.0 and Amazon Bedrock Guardrails, on the same 9,975 labelled guardrail checks under one fixed 0.5 block threshold.",
+    "evidence": "https://github.com/raxITlabs/decision-models-as-guardrails/blob/a6e7263980730c5d56bbe93c474557cf769d9538/README.md",
+    "code": "https://github.com/raxITlabs/decision-models-as-guardrails/blob/a6e7263980730c5d56bbe93c474557cf769d9538/benchmark/goldrails_bench/systemone.py",
+    "demo": "https://dm-as-guardrails.raxitlabs.com",
+    "license": "Apache-2.0",
+    "kind": "author-run-benchmark",
+    "reviewed": "2026-10-20",
+    "notes": "Submitted by raxIT Labs, which built and ran the benchmark. Each check goes to Jev as a Noul through the official TypeSafe Python SDK (POST /v1/systemone) and code blocks at a probability of 0.5 or more; the same rule applies to every system, with no per-model calibration. Scores are balanced accuracy with 95% bootstrap intervals, plus catch rate, false-block rate and USD per 1,000 checks at list price. The dataset is on Hugging Face (raxITLabs/decision-models-as-guardrails); its rows keep each source's licence, and some sources ship only row ids plus a rebuild script. A 2,269-row contamination-check slice is held back and not public. Results are author-reported and were not reproduced here; running the benchmark sends rows to paid APIs."
   }
 ]

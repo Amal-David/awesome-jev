@@ -6,11 +6,11 @@
 
 | Measure | Recorded value |
 |---|---|
-| Reviewed / indexed / auto-discovered | 78 / 1561 / 2575 |
-| Catalog entries (not all reviewed) | 4214 |
+| Reviewed / indexed / auto-discovered | 79 / 1561 / 2575 |
+| Catalog entries (not all reviewed) | 4215 |
 | Last completed discovery pass (UTC) | 2026-10-20T05:02:11Z |
 | Latest rotating repository metadata check | 2026-10-20 |
-| Repositories with a recorded metadata check | 4110 / 4110 |
+| Repositories with a recorded metadata check | 4110 / 4111 |
 | Repositories unavailable at their last check (404/410) | 60 |
 | Media records with a latest-attempt error | 1 |
 | Editorial exclusions | 1 |
