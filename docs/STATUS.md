@@ -6,7 +6,7 @@
 
 | Measure | Recorded value |
 |---|---|
-| Reviewed / indexed / auto-discovered | 78 / 1559 / 2556 |
+| Reviewed / indexed / auto-discovered | 79 / 1558 / 2556 |
 | Catalog entries (not all reviewed) | 4193 |
 | Last completed discovery pass (UTC) | 2026-10-19T21:10:38Z |
 | Latest rotating repository metadata check | 2026-10-19 |

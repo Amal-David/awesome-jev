@@ -60035,6 +60035,30 @@
   {
     "archived": false,
     "category": "agents",
+    "code": "https://github.com/sunyasheng/JevGPT/blob/74ea440acc647458d80bf9e2a7489a0553a49908/runtime/pi-serini/src/extensions/jev_find_v1.ts#L56-L68",
+    "demo": "https://sunyasheng.github.io/projects/JevGPT",
+    "description": "Research agent from the paper JevGPT: Thinking Fast and Slow in Autonomous Research (arXiv 2610.18272). For each document region inspected in BrowseComp-Plus question answering, Jev answers Choice questions that locate the answer lines and Noul questions that check whether the region addresses each request; code returns the original passages to GPT-5.5, which plans searches and writes the answer.",
+    "evidence_level": "primary-source-reviewed",
+    "kind": "direct-integration",
+    "language": "TypeScript",
+    "license": "Apache-2.0",
+    "metadata_checked": "2026-10-17",
+    "name": "JevGPT",
+    "notes": "Submitted by Yasheng Sun, first author of the paper (https://arxiv.org/abs/2610.18272) and maintainer of the repository. Not related to the chat projects idlivada/JevGPT and Bewinxed/jevgpt; successor of sunyasheng/JevDeepResearch, which is no longer maintained. Research questions and retrieved document text go to TypeSafe in parallel Jev requests, and the selected original passages go to the GPT provider (OpenAI by default; the paper used an Azure GPT-5.5 deployment). Live runs need GPT-provider credentials and a TypeSafe API key, plus downloaded BrowseComp-Plus indexes or a prepared NeuCLIRBench index, which may be hosted separately. Released per-item records rebuild the paper's JevGPT rows offline without model calls; BrowseComp-Plus accuracy and NeuCLIRBench nDCG@20 figures are author-reported. README, Jev request code and license were read at the pinned release commit; no runtime, test or benchmark ran for this submission.",
+    "pushed_at": "2026-10-14T20:01:21Z",
+    "repo": "sunyasheng/JevGPT",
+    "repository_status": "accessible",
+    "reviewed": "2026-10-17",
+    "sources": [
+      "https://github.com/sunyasheng/JevGPT/blob/74ea440acc647458d80bf9e2a7489a0553a49908/README.md",
+      "https://github.com/hellogumbo/awesome-jev"
+    ],
+    "stars": 8,
+    "url": "https://github.com/sunyasheng/JevGPT"
+  },
+  {
+    "archived": false,
+    "category": "agents",
     "demo": "https://pypi.org/project/jevgrep-cli/",
     "description": "grep by meaning: pipe in any text, ask a yes/no question in plain English, get only the matching lines. Works behind tail -f, about $0.004 per 1,000 lines, powered by TypeSafe's Jev.",
     "evidence_level": "community-indexed",
@@ -73719,25 +73743,6 @@
     ],
     "stars": 30,
     "url": "https://github.com/Bewinxed/jevgpt"
-  },
-  {
-    "archived": false,
-    "category": "research",
-    "demo": "https://sunyasheng.github.io/projects/JevGPT",
-    "description": "JevGPT: Thinking Fast and Slow in Autonomous Research",
-    "evidence_level": "community-indexed",
-    "language": "TypeScript",
-    "license": "Apache-2.0",
-    "metadata_checked": "2026-10-17",
-    "name": "JevGPT (sunyasheng)",
-    "pushed_at": "2026-10-14T20:01:21Z",
-    "repo": "sunyasheng/JevGPT",
-    "repository_status": "accessible",
-    "sources": [
-      "https://github.com/hellogumbo/awesome-jev"
-    ],
-    "stars": 8,
-    "url": "https://github.com/sunyasheng/JevGPT"
   },
   {
     "archived": false,

@@ -883,5 +883,17 @@
     "kind": "direct-integration",
     "reviewed": "2026-10-09",
     "notes": "Official TypeSafe-maintained n8n community node. It sends selected text, JSON or the full input item plus typed questions to the configured TypeSafe endpoint, once per input item; use only workflow data approved for hosted processing. Choice confidence fallback, Noul uncertainty bands and Score routes are workflow controls, not accuracy guarantees. Custom base URLs are operator-controlled; bearer credentials are blocked from cross-origin redirects, but real keys still belong only on trusted HTTPS endpoints. Implementation, validation, error/fallback routing, example, mocked tests, CI/publish workflows and license were inspected at the pinned revision; its exact-head upstream CI succeeded. The time-limited n8n Cloud credit promotion is not treated as a permanent project feature. No package, dependency, n8n instance, test or paid inference ran here."
+  },
+  {
+    "repo": "sunyasheng/JevGPT",
+    "name": "JevGPT",
+    "category": "agents",
+    "description": "Research agent from the paper JevGPT: Thinking Fast and Slow in Autonomous Research (arXiv 2610.18272). For each document region inspected in BrowseComp-Plus question answering, Jev answers Choice questions that locate the answer lines and Noul questions that check whether the region addresses each request; code returns the original passages to GPT-5.5, which plans searches and writes the answer.",
+    "evidence": "https://github.com/sunyasheng/JevGPT/blob/74ea440acc647458d80bf9e2a7489a0553a49908/README.md",
+    "code": "https://github.com/sunyasheng/JevGPT/blob/74ea440acc647458d80bf9e2a7489a0553a49908/runtime/pi-serini/src/extensions/jev_find_v1.ts#L56-L68",
+    "license": "Apache-2.0",
+    "kind": "direct-integration",
+    "reviewed": "2026-10-17",
+    "notes": "Submitted by Yasheng Sun, first author of the paper (https://arxiv.org/abs/2610.18272) and maintainer of the repository. Not related to the chat projects idlivada/JevGPT and Bewinxed/jevgpt; successor of sunyasheng/JevDeepResearch, which is no longer maintained. Research questions and retrieved document text go to TypeSafe in parallel Jev requests, and the selected original passages go to the GPT provider (OpenAI by default; the paper used an Azure GPT-5.5 deployment). Live runs need GPT-provider credentials and a TypeSafe API key, plus downloaded BrowseComp-Plus indexes or a prepared NeuCLIRBench index, which may be hosted separately. Released per-item records rebuild the paper's JevGPT rows offline without model calls; BrowseComp-Plus accuracy and NeuCLIRBench nDCG@20 figures are author-reported. README, Jev request code and license were read at the pinned release commit; no runtime, test or benchmark ran for this submission."
   }
 ]
