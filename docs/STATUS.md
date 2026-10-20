@@ -6,11 +6,11 @@
 
 | Measure | Recorded value |
 |---|---|
-| Reviewed / indexed / auto-discovered | 78 / 1568 / 2624 |
-| Catalog entries (not all reviewed) | 4270 |
-| Last completed discovery pass (UTC) | 2026-10-20T20:03:00Z |
+| Reviewed / indexed / auto-discovered | 78 / 1566 / 2639 |
+| Catalog entries (not all reviewed) | 4283 |
+| Last completed discovery pass (UTC) | 2026-10-20T23:15:12Z |
 | Latest rotating repository metadata check | 2026-10-20 |
-| Repositories with a recorded metadata check | 4166 / 4166 |
+| Repositories with a recorded metadata check | 4179 / 4179 |
 | Repositories unavailable at their last check (404/410) | 62 |
 | Media records with a latest-attempt error | 1 |
 | Editorial exclusions | 1 |
@@ -21,7 +21,7 @@ Repository checks rotate: the newest check date does not mean every entry was ch
 
 The discovery timestamp advances only after a network discovery pass completes. An offline directory rebuild, test run or media-only refresh never advances it. The Actions result, not the cron expression, establishes that a workflow ran successfully.
 
-<a href="https://github.com/Amal-David/awesome-jev/actions/runs/39488463773">Discovery run receipt</a>
+<a href="https://github.com/Amal-David/awesome-jev/actions/runs/39513610124">Discovery run receipt</a>
 
 <a href="https://github.com/Amal-David/awesome-jev/actions/workflows/curate.yml">All refresh runs</a>
 
@@ -69,7 +69,7 @@ The discovery timestamp advances only after a network discovery pass completes. 
 - <a href="https://github.com/ismailakdag/typesafe-jev">ismailakdag/typesafe-jev</a> — last check 2026-10-15
 - <a href="https://github.com/armsteadj1/vibe-smart-router">armsteadj1/vibe-smart-router</a> — last check 2026-10-20
 - <a href="https://github.com/eriestra/almond-fastloop">eriestra/almond-fastloop</a> — last check 2026-10-11
-- <a href="https://github.com/vlad-terin/jev-browser">vlad-terin/jev-browser</a> — last check 2026-10-09
+- <a href="https://github.com/vlad-terin/jev-browser">vlad-terin/jev-browser</a> — last check 2026-10-20
 - <a href="https://github.com/AkashPriyadarshii/jev-git">AkashPriyadarshii/jev-git</a> — last check 2026-10-18
 - <a href="https://github.com/benballintyn/jev-mcp">benballintyn/jev-mcp</a> — last check 2026-10-10
 - <a href="https://github.com/AkashPriyadarshii/jev-scout">AkashPriyadarshii/jev-scout</a> — last check 2026-10-18
