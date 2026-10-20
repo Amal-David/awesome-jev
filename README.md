@@ -165,6 +165,7 @@ These projects are not official TypeSafe Jev weights, and compatible outputs do 
 - [Jev in the Wild](https://arxiv.org/abs/2609.30216) - Surveys 2,170 public Jev projects and maps early growth, application domains, and decision-use patterns.
 - [Jev vs an LLM: the numbers builders published](https://madewithjev.com/jev-vs-llm) - Puts published Jev and LLM runs of the same job side by side (100,000 posts for $0.67 against 214 for $0.98) and lists the cases where the larger model still won.
 - [Jev benchmark](https://github.com/Kumzha/jev-benchmark) - Publishes a harness and raw per-item results for author-run Jev comparisons on two small classification tasks.
+- [Decision Models as Guardrails](https://github.com/raxITlabs/decision-models-as-guardrails) - Publishes per-row results for 19 systems, including Jev 1.13.0, Jev 1.14.0 and Amazon Bedrock Guardrails, on the same 9,975 labelled guardrail checks under one fixed 0.5 block threshold.
 
 ## Supporting Drivers
 
