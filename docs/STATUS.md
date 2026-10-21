@@ -6,11 +6,11 @@
 
 | Measure | Recorded value |
 |---|---|
-| Reviewed / indexed / auto-discovered | 78 / 1586 / 2677 |
-| Catalog entries (not all reviewed) | 4341 |
-| Last completed discovery pass (UTC) | 2026-10-21T13:57:12Z |
+| Reviewed / indexed / auto-discovered | 78 / 1586 / 2697 |
+| Catalog entries (not all reviewed) | 4361 |
+| Last completed discovery pass (UTC) | 2026-10-21T20:15:43Z |
 | Latest rotating repository metadata check | 2026-10-21 |
-| Repositories with a recorded metadata check | 4237 / 4237 |
+| Repositories with a recorded metadata check | 4257 / 4257 |
 | Repositories unavailable at their last check (404/410) | 63 |
 | Media records with a latest-attempt error | 1 |
 | Editorial exclusions | 1 |
@@ -21,7 +21,7 @@ Repository checks rotate: the newest check date does not mean every entry was ch
 
 The discovery timestamp advances only after a network discovery pass completes. An offline directory rebuild, test run or media-only refresh never advances it. The Actions result, not the cron expression, establishes that a workflow ran successfully.
 
-<a href="https://github.com/Amal-David/awesome-jev/actions/runs/39612318016">Discovery run receipt</a>
+<a href="https://github.com/Amal-David/awesome-jev/actions/runs/39668540150">Discovery run receipt</a>
 
 <a href="https://github.com/Amal-David/awesome-jev/actions/workflows/curate.yml">All refresh runs</a>
 
@@ -48,7 +48,7 @@ The discovery timestamp advances only after a network discovery pass completes. 
 - <a href="https://github.com/altregubov/jev-antigravity-decider">altregubov/jev-antigravity-decider</a> — last check 2026-10-20
 - <a href="https://github.com/legostin/jev-browser">legostin/jev-browser</a> — last check 2026-10-12
 - <a href="https://github.com/Nolane-x/JEV-language">Nolane-x/JEV-language</a> — last check 2026-10-19
-- <a href="https://github.com/cleiton1231/jev-loop">cleiton1231/jev-loop</a> — last check 2026-10-10
+- <a href="https://github.com/cleiton1231/jev-loop">cleiton1231/jev-loop</a> — last check 2026-10-21
 - <a href="https://github.com/dominusDeus/jev-trader-fork">dominusDeus/jev-trader-fork</a> — last check 2026-10-11
 - <a href="https://github.com/pininkara/Jev-Trades">pininkara/Jev-Trades</a> — last check 2026-10-10
 - <a href="https://github.com/Baran3575/jev-voice-android">Baran3575/jev-voice-android</a> — last check 2026-10-21
