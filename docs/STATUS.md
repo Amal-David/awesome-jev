@@ -6,12 +6,12 @@
 
 | Measure | Recorded value |
 |---|---|
-| Reviewed / indexed / auto-discovered | 78 / 1586 / 2714 |
-| Catalog entries (not all reviewed) | 4378 |
-| Last completed discovery pass (UTC) | 2026-10-21T23:28:16Z |
-| Latest rotating repository metadata check | 2026-10-21 |
-| Repositories with a recorded metadata check | 4274 / 4274 |
-| Repositories unavailable at their last check (404/410) | 63 |
+| Reviewed / indexed / auto-discovered | 78 / 1585 / 2734 |
+| Catalog entries (not all reviewed) | 4397 |
+| Last completed discovery pass (UTC) | 2026-10-22T05:03:32Z |
+| Latest rotating repository metadata check | 2026-10-22 |
+| Repositories with a recorded metadata check | 4293 / 4293 |
+| Repositories unavailable at their last check (404/410) | 64 |
 | Media records with a latest-attempt error | 1 |
 | Editorial exclusions | 1 |
 
@@ -21,14 +21,14 @@ Repository checks rotate: the newest check date does not mean every entry was ch
 
 The discovery timestamp advances only after a network discovery pass completes. An offline directory rebuild, test run or media-only refresh never advances it. The Actions result, not the cron expression, establishes that a workflow ran successfully.
 
-<a href="https://github.com/Amal-David/awesome-jev/actions/runs/39693448972">Discovery run receipt</a>
+<a href="https://github.com/Amal-David/awesome-jev/actions/runs/39725729462">Discovery run receipt</a>
 
 <a href="https://github.com/Amal-David/awesome-jev/actions/workflows/curate.yml">All refresh runs</a>
 
 ## Unavailable repositories at their last check
 
 - <a href="https://github.com/getainode/ainode">getainode/ainode</a> — last check 2026-10-12
-- <a href="https://github.com/raminaskerov/brownie">raminaskerov/brownie</a> — last check 2026-10-10
+- <a href="https://github.com/raminaskerov/brownie">raminaskerov/brownie</a> — last check 2026-10-22
 - <a href="https://github.com/elberacasa/chimbometro">elberacasa/chimbometro</a> — last check 2026-10-11
 - <a href="https://github.com/matura-lol/datasets">matura-lol/datasets</a> — last check 2026-10-19
 - <a href="https://github.com/elialm94/driva">elialm94/driva</a> — last check 2026-10-11
@@ -52,6 +52,7 @@ The discovery timestamp advances only after a network discovery pass completes. 
 - <a href="https://github.com/dominusDeus/jev-trader-fork">dominusDeus/jev-trader-fork</a> — last check 2026-10-11
 - <a href="https://github.com/pininkara/Jev-Trades">pininkara/Jev-Trades</a> — last check 2026-10-21
 - <a href="https://github.com/Baran3575/jev-voice-android">Baran3575/jev-voice-android</a> — last check 2026-10-21
+- <a href="https://github.com/RavenRepo/jevengineeringgate">RavenRepo/jevengineeringgate</a> — last check 2026-10-22
 - <a href="https://github.com/sethsaler/jevgram">sethsaler/jevgram</a> — last check 2026-10-16
 - <a href="https://github.com/notque/jevs-sprint-planning">notque/jevs-sprint-planning</a> — last check 2026-10-15
 - <a href="https://github.com/kedi-lang/kedi-typesafe">kedi-lang/kedi-typesafe</a> — last check 2026-10-12
@@ -64,7 +65,7 @@ The discovery timestamp advances only after a network discovery pass completes. 
 - <a href="https://github.com/levi-qiao/SemaLoom">levi-qiao/SemaLoom</a> — last check 2026-10-19
 - <a href="https://github.com/ivorpad/skillranker">ivorpad/skillranker</a> — last check 2026-10-14
 - <a href="https://github.com/JTech-CO/Smart-Cart-Autonomy-Lab-Jev">JTech-CO/Smart-Cart-Autonomy-Lab-Jev</a> — last check 2026-10-18
-- <a href="https://github.com/prof-ramos/sneub">prof-ramos/sneub</a> — last check 2026-10-10
+- <a href="https://github.com/prof-ramos/sneub">prof-ramos/sneub</a> — last check 2026-10-22
 - <a href="https://github.com/zoidsh/tenet">zoidsh/tenet</a> — last check 2026-10-11
 - <a href="https://github.com/ismailakdag/typesafe-jev">ismailakdag/typesafe-jev</a> — last check 2026-10-15
 - <a href="https://github.com/armsteadj1/vibe-smart-router">armsteadj1/vibe-smart-router</a> — last check 2026-10-20
@@ -93,4 +94,4 @@ The discovery timestamp advances only after a network discovery pass completes. 
 
 ## Media checks needing attention
 
-- abide-video — HTTPError; attempted 2026-10-21
+- abide-video — HTTPError; attempted 2026-10-22
