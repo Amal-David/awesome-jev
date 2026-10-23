@@ -6,12 +6,12 @@
 
 | Measure | Recorded value |
 |---|---|
-| Reviewed / indexed / auto-discovered | 78 / 1608 / 2836 |
-| Catalog entries (not all reviewed) | 4522 |
-| Last completed discovery pass (UTC) | 2026-10-23T13:36:38Z |
+| Reviewed / indexed / auto-discovered | 78 / 1612 / 2851 |
+| Catalog entries (not all reviewed) | 4541 |
+| Last completed discovery pass (UTC) | 2026-10-23T20:00:02Z |
 | Latest rotating repository metadata check | 2026-10-23 |
-| Repositories with a recorded metadata check | 4418 / 4418 |
-| Repositories unavailable at their last check (404/410) | 65 |
+| Repositories with a recorded metadata check | 4437 / 4437 |
+| Repositories unavailable at their last check (404/410) | 64 |
 | Media records with a latest-attempt error | 1 |
 | Editorial exclusions | 1 |
 
@@ -21,13 +21,12 @@ Repository checks rotate: the newest check date does not mean every entry was ch
 
 The discovery timestamp advances only after a network discovery pass completes. An offline directory rebuild, test run or media-only refresh never advances it. The Actions result, not the cron expression, establishes that a workflow ran successfully.
 
-<a href="https://github.com/Amal-David/awesome-jev/actions/runs/39962432309">Discovery run receipt</a>
+<a href="https://github.com/Amal-David/awesome-jev/actions/runs/40015623946">Discovery run receipt</a>
 
 <a href="https://github.com/Amal-David/awesome-jev/actions/workflows/curate.yml">All refresh runs</a>
 
 ## Unavailable repositories at their last check
 
-- <a href="https://github.com/getainode/ainode">getainode/ainode</a> — last check 2026-10-12
 - <a href="https://github.com/raminaskerov/brownie">raminaskerov/brownie</a> — last check 2026-10-22
 - <a href="https://github.com/elberacasa/chimbometro">elberacasa/chimbometro</a> — last check 2026-10-22
 - <a href="https://github.com/matura-lol/datasets">matura-lol/datasets</a> — last check 2026-10-19
@@ -36,7 +35,7 @@ The discovery timestamp advances only after a network discovery pass completes. 
 - <a href="https://github.com/fine5351/game-assistant">fine5351/game-assistant</a> — last check 2026-10-13
 - <a href="https://github.com/blackplume233/game-developers-skills">blackplume233/game-developers-skills</a> — last check 2026-10-21
 - <a href="https://github.com/giangeralcus/gee-fundriving">giangeralcus/gee-fundriving</a> — last check 2026-10-13
-- <a href="https://github.com/hellomrleeus/google-maps-place-scout">hellomrleeus/google-maps-place-scout</a> — last check 2026-10-12
+- <a href="https://github.com/hellomrleeus/google-maps-place-scout">hellomrleeus/google-maps-place-scout</a> — last check 2026-10-23
 - <a href="https://github.com/tivojn/gpt-live-avatar">tivojn/gpt-live-avatar</a> — last check 2026-10-20
 - <a href="https://github.com/itsaslamopenclawdata/GrowthCompany_JevOutputs">itsaslamopenclawdata/GrowthCompany_JevOutputs</a> — last check 2026-10-15
 - <a href="https://github.com/aoi-yoneda/haikyuBattleJev">aoi-yoneda/haikyuBattleJev</a> — last check 2026-10-20
@@ -67,7 +66,7 @@ The discovery timestamp advances only after a network discovery pass completes. 
 - <a href="https://github.com/ivorpad/skillranker">ivorpad/skillranker</a> — last check 2026-10-14
 - <a href="https://github.com/JTech-CO/Smart-Cart-Autonomy-Lab-Jev">JTech-CO/Smart-Cart-Autonomy-Lab-Jev</a> — last check 2026-10-18
 - <a href="https://github.com/prof-ramos/sneub">prof-ramos/sneub</a> — last check 2026-10-22
-- <a href="https://github.com/zoidsh/tenet">zoidsh/tenet</a> — last check 2026-10-11
+- <a href="https://github.com/zoidsh/tenet">zoidsh/tenet</a> — last check 2026-10-23
 - <a href="https://github.com/ismailakdag/typesafe-jev">ismailakdag/typesafe-jev</a> — last check 2026-10-15
 - <a href="https://github.com/armsteadj1/vibe-smart-router">armsteadj1/vibe-smart-router</a> — last check 2026-10-20
 - <a href="https://github.com/eriestra/almond-fastloop">eriestra/almond-fastloop</a> — last check 2026-10-22
