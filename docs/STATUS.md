@@ -6,11 +6,11 @@
 
 | Measure | Recorded value |
 |---|---|
-| Reviewed / indexed / auto-discovered | 78 / 1599 / 2815 |
-| Catalog entries (not all reviewed) | 4492 |
-| Last completed discovery pass (UTC) | 2026-10-23T05:03:52Z |
+| Reviewed / indexed / auto-discovered | 78 / 1608 / 2836 |
+| Catalog entries (not all reviewed) | 4522 |
+| Last completed discovery pass (UTC) | 2026-10-23T13:36:38Z |
 | Latest rotating repository metadata check | 2026-10-23 |
-| Repositories with a recorded metadata check | 4388 / 4388 |
+| Repositories with a recorded metadata check | 4418 / 4418 |
 | Repositories unavailable at their last check (404/410) | 65 |
 | Media records with a latest-attempt error | 1 |
 | Editorial exclusions | 1 |
@@ -21,7 +21,7 @@ Repository checks rotate: the newest check date does not mean every entry was ch
 
 The discovery timestamp advances only after a network discovery pass completes. An offline directory rebuild, test run or media-only refresh never advances it. The Actions result, not the cron expression, establishes that a workflow ran successfully.
 
-<a href="https://github.com/Amal-David/awesome-jev/actions/runs/39903570560">Discovery run receipt</a>
+<a href="https://github.com/Amal-David/awesome-jev/actions/runs/39962432309">Discovery run receipt</a>
 
 <a href="https://github.com/Amal-David/awesome-jev/actions/workflows/curate.yml">All refresh runs</a>
 
@@ -80,7 +80,7 @@ The discovery timestamp advances only after a network discovery pass completes. 
 - <a href="https://github.com/AkashPriyadarshii/jev-superpowers">AkashPriyadarshii/jev-superpowers</a> — last check 2026-10-18
 - <a href="https://github.com/qianyuxiang-369/pi-jev-governor">qianyuxiang-369/pi-jev-governor</a> — last check 2026-10-19
 - <a href="https://github.com/rajdhakad9826/routeKit">rajdhakad9826/routeKit</a> — last check 2026-10-16
-- <a href="https://github.com/ThePikey/AOS_GLM_language">ThePikey/AOS_GLM_language</a> — last check 2026-10-11
+- <a href="https://github.com/ThePikey/AOS_GLM_language">ThePikey/AOS_GLM_language</a> — last check 2026-10-23
 - <a href="https://github.com/brudarko/jev-mac-voice">brudarko/jev-mac-voice</a> — last check 2026-10-21
 - <a href="https://github.com/Alex314618-create/JevRev">Alex314618-create/JevRev</a> — last check 2026-10-16
 - <a href="https://github.com/usenotra/notra">usenotra/notra</a> — last check 2026-10-20
