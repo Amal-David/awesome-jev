@@ -6,11 +6,11 @@
 
 | Measure | Recorded value |
 |---|---|
-| Reviewed / indexed / auto-discovered | 78 / 1618 / 2910 |
-| Catalog entries (not all reviewed) | 4606 |
-| Last completed discovery pass (UTC) | 2026-10-24T12:47:19Z |
+| Reviewed / indexed / auto-discovered | 78 / 1619 / 2929 |
+| Catalog entries (not all reviewed) | 4626 |
+| Last completed discovery pass (UTC) | 2026-10-24T18:52:08Z |
 | Latest rotating repository metadata check | 2026-10-24 |
-| Repositories with a recorded metadata check | 4502 / 4502 |
+| Repositories with a recorded metadata check | 4522 / 4522 |
 | Repositories unavailable at their last check (404/410) | 65 |
 | Media records with a latest-attempt error | 1 |
 | Editorial exclusions | 1 |
@@ -21,7 +21,7 @@ Repository checks rotate: the newest check date does not mean every entry was ch
 
 The discovery timestamp advances only after a network discovery pass completes. An offline directory rebuild, test run or media-only refresh never advances it. The Actions result, not the cron expression, establishes that a workflow ran successfully.
 
-<a href="https://github.com/Amal-David/awesome-jev/actions/runs/40095295446">Discovery run receipt</a>
+<a href="https://github.com/Amal-David/awesome-jev/actions/runs/40122582338">Discovery run receipt</a>
 
 <a href="https://github.com/Amal-David/awesome-jev/actions/workflows/curate.yml">All refresh runs</a>
 
@@ -33,9 +33,9 @@ The discovery timestamp advances only after a network discovery pass completes. 
 - <a href="https://github.com/elialm94/driva">elialm94/driva</a> — last check 2026-10-22
 - <a href="https://github.com/echelong/evolve">echelong/evolve</a> — last check 2026-10-24
 - <a href="https://github.com/cassiomc1/fast-jev-compaction-alt">cassiomc1/fast-jev-compaction-alt</a> — last check 2026-10-21
-- <a href="https://github.com/fine5351/game-assistant">fine5351/game-assistant</a> — last check 2026-10-13
+- <a href="https://github.com/fine5351/game-assistant">fine5351/game-assistant</a> — last check 2026-10-24
 - <a href="https://github.com/blackplume233/game-developers-skills">blackplume233/game-developers-skills</a> — last check 2026-10-21
-- <a href="https://github.com/giangeralcus/gee-fundriving">giangeralcus/gee-fundriving</a> — last check 2026-10-13
+- <a href="https://github.com/giangeralcus/gee-fundriving">giangeralcus/gee-fundriving</a> — last check 2026-10-24
 - <a href="https://github.com/hellomrleeus/google-maps-place-scout">hellomrleeus/google-maps-place-scout</a> — last check 2026-10-23
 - <a href="https://github.com/tivojn/gpt-live-avatar">tivojn/gpt-live-avatar</a> — last check 2026-10-20
 - <a href="https://github.com/itsaslamopenclawdata/GrowthCompany_JevOutputs">itsaslamopenclawdata/GrowthCompany_JevOutputs</a> — last check 2026-10-15
