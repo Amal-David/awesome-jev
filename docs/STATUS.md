@@ -6,12 +6,12 @@
 
 | Measure | Recorded value |
 |---|---|
-| Reviewed / indexed / auto-discovered | 78 / 1628 / 2985 |
-| Catalog entries (not all reviewed) | 4691 |
-| Last completed discovery pass (UTC) | 2026-10-25T13:15:32Z |
+| Reviewed / indexed / auto-discovered | 78 / 1629 / 3009 |
+| Catalog entries (not all reviewed) | 4716 |
+| Last completed discovery pass (UTC) | 2026-10-25T19:08:10Z |
 | Latest rotating repository metadata check | 2026-10-25 |
-| Repositories with a recorded metadata check | 4587 / 4587 |
-| Repositories unavailable at their last check (404/410) | 66 |
+| Repositories with a recorded metadata check | 4612 / 4612 |
+| Repositories unavailable at their last check (404/410) | 67 |
 | Media records with a latest-attempt error | 1 |
 | Editorial exclusions | 1 |
 
@@ -21,7 +21,7 @@ Repository checks rotate: the newest check date does not mean every entry was ch
 
 The discovery timestamp advances only after a network discovery pass completes. An offline directory rebuild, test run or media-only refresh never advances it. The Actions result, not the cron expression, establishes that a workflow ran successfully.
 
-<a href="https://github.com/Amal-David/awesome-jev/actions/runs/40196692091">Discovery run receipt</a>
+<a href="https://github.com/Amal-David/awesome-jev/actions/runs/40224460833">Discovery run receipt</a>
 
 <a href="https://github.com/Amal-David/awesome-jev/actions/workflows/curate.yml">All refresh runs</a>
 
@@ -42,6 +42,7 @@ The discovery timestamp advances only after a network discovery pass completes. 
 - <a href="https://github.com/aoi-yoneda/haikyuBattleJev">aoi-yoneda/haikyuBattleJev</a> — last check 2026-10-20
 - <a href="https://github.com/speed25200-cyber/Hermes-Fork">speed25200-cyber/Hermes-Fork</a> — last check 2026-10-17
 - <a href="https://github.com/edgardcham/huncho">edgardcham/huncho</a> — last check 2026-10-22
+- <a href="https://github.com/angusforbes/hyprcu">angusforbes/hyprcu</a> — last check 2026-10-25
 - <a href="https://github.com/pnll1991/io-delegation-skill">pnll1991/io-delegation-skill</a> — last check 2026-10-16
 - <a href="https://github.com/Lisayinyy/javvvvvv">Lisayinyy/javvvvvv</a> — last check 2026-10-20
 - <a href="https://github.com/Jev27B/JEV-27B-Desktop">Jev27B/JEV-27B-Desktop</a> — last check 2026-10-18
