@@ -6,12 +6,12 @@
 
 | Measure | Recorded value |
 |---|---|
-| Reviewed / indexed / auto-discovered | 78 / 1622 / 2947 |
-| Catalog entries (not all reviewed) | 4647 |
-| Last completed discovery pass (UTC) | 2026-10-24T22:35:19Z |
-| Latest rotating repository metadata check | 2026-10-24 |
-| Repositories with a recorded metadata check | 4543 / 4543 |
-| Repositories unavailable at their last check (404/410) | 65 |
+| Reviewed / indexed / auto-discovered | 78 / 1621 / 2967 |
+| Catalog entries (not all reviewed) | 4666 |
+| Last completed discovery pass (UTC) | 2026-10-25T04:57:03Z |
+| Latest rotating repository metadata check | 2026-10-25 |
+| Repositories with a recorded metadata check | 4562 / 4562 |
+| Repositories unavailable at their last check (404/410) | 66 |
 | Media records with a latest-attempt error | 1 |
 | Editorial exclusions | 1 |
 
@@ -21,7 +21,7 @@ Repository checks rotate: the newest check date does not mean every entry was ch
 
 The discovery timestamp advances only after a network discovery pass completes. An offline directory rebuild, test run or media-only refresh never advances it. The Actions result, not the cron expression, establishes that a workflow ran successfully.
 
-<a href="https://github.com/Amal-David/awesome-jev/actions/runs/40139115458">Discovery run receipt</a>
+<a href="https://github.com/Amal-David/awesome-jev/actions/runs/40163658089">Discovery run receipt</a>
 
 <a href="https://github.com/Amal-David/awesome-jev/actions/workflows/curate.yml">All refresh runs</a>
 
@@ -61,6 +61,7 @@ The discovery timestamp advances only after a network discovery pass completes. 
 - <a href="https://github.com/blancaile/minecraft-ai">blancaile/minecraft-ai</a> — last check 2026-10-21
 - <a href="https://github.com/Solizardking/musebook">Solizardking/musebook</a> — last check 2026-10-19
 - <a href="https://github.com/novvoo/nanojev">novvoo/nanojev</a> — last check 2026-10-15
+- <a href="https://github.com/villagertim/neonhop-3d">villagertim/neonhop-3d</a> — last check 2026-10-25
 - <a href="https://github.com/develatter/notos-intelligence-go">develatter/notos-intelligence-go</a> — last check 2026-10-22
 - <a href="https://github.com/karoliang/rightsize">karoliang/rightsize</a> — last check 2026-10-19
 - <a href="https://github.com/levi-qiao/SemaLoom">levi-qiao/SemaLoom</a> — last check 2026-10-19
@@ -95,4 +96,4 @@ The discovery timestamp advances only after a network discovery pass completes. 
 
 ## Media checks needing attention
 
-- abide-video — HTTPError; attempted 2026-10-24
+- abide-video — HTTPError; attempted 2026-10-25
