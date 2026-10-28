@@ -6,11 +6,11 @@
 
 | Measure | Recorded value |
 |---|---|
-| Reviewed / indexed / auto-discovered | 78 / 1644 / 3201 |
-| Catalog entries (not all reviewed) | 4923 |
-| Last completed discovery pass (UTC) | 2026-10-28T15:14:25Z |
+| Reviewed / indexed / auto-discovered | 78 / 1649 / 3218 |
+| Catalog entries (not all reviewed) | 4945 |
+| Last completed discovery pass (UTC) | 2026-10-28T21:11:57Z |
 | Latest rotating repository metadata check | 2026-10-28 |
-| Repositories with a recorded metadata check | 4819 / 4819 |
+| Repositories with a recorded metadata check | 4841 / 4841 |
 | Repositories unavailable at their last check (404/410) | 71 |
 | Media records with a latest-attempt error | 1 |
 | Editorial exclusions | 1 |
@@ -21,7 +21,7 @@ Repository checks rotate: the newest check date does not mean every entry was ch
 
 The discovery timestamp advances only after a network discovery pass completes. An offline directory rebuild, test run or media-only refresh never advances it. The Actions result, not the cron expression, establishes that a workflow ran successfully.
 
-<a href="https://github.com/Amal-David/awesome-jev/actions/runs/40713619604">Discovery run receipt</a>
+<a href="https://github.com/Amal-David/awesome-jev/actions/runs/40769694935">Discovery run receipt</a>
 
 <a href="https://github.com/Amal-David/awesome-jev/actions/workflows/curate.yml">All refresh runs</a>
 
@@ -88,7 +88,7 @@ The discovery timestamp advances only after a network discovery pass completes. 
 - <a href="https://github.com/rajdhakad9826/routeKit">rajdhakad9826/routeKit</a> — last check 2026-10-16
 - <a href="https://github.com/ThePikey/AOS_GLM_language">ThePikey/AOS_GLM_language</a> — last check 2026-10-23
 - <a href="https://github.com/brudarko/jev-mac-voice">brudarko/jev-mac-voice</a> — last check 2026-10-21
-- <a href="https://github.com/Alex314618-create/JevRev">Alex314618-create/JevRev</a> — last check 2026-10-16
+- <a href="https://github.com/Alex314618-create/JevRev">Alex314618-create/JevRev</a> — last check 2026-10-28
 - <a href="https://github.com/usenotra/notra">usenotra/notra</a> — last check 2026-10-20
 - <a href="https://github.com/kcb-swe-gh/typesafe-ai-jev">kcb-swe-gh/typesafe-ai-jev</a> — last check 2026-10-27
 - <a href="https://github.com/207studio/jev-codex-tools">207studio/jev-codex-tools</a> — last check 2026-10-17
