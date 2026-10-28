@@ -6,11 +6,11 @@
 
 | Measure | Recorded value |
 |---|---|
-| Reviewed / indexed / auto-discovered | 78 / 1640 / 3179 |
-| Catalog entries (not all reviewed) | 4897 |
-| Last completed discovery pass (UTC) | 2026-10-28T05:56:25Z |
+| Reviewed / indexed / auto-discovered | 78 / 1644 / 3201 |
+| Catalog entries (not all reviewed) | 4923 |
+| Last completed discovery pass (UTC) | 2026-10-28T15:14:25Z |
 | Latest rotating repository metadata check | 2026-10-28 |
-| Repositories with a recorded metadata check | 4793 / 4793 |
+| Repositories with a recorded metadata check | 4819 / 4819 |
 | Repositories unavailable at their last check (404/410) | 71 |
 | Media records with a latest-attempt error | 1 |
 | Editorial exclusions | 1 |
@@ -21,7 +21,7 @@ Repository checks rotate: the newest check date does not mean every entry was ch
 
 The discovery timestamp advances only after a network discovery pass completes. An offline directory rebuild, test run or media-only refresh never advances it. The Actions result, not the cron expression, establishes that a workflow ran successfully.
 
-<a href="https://github.com/Amal-David/awesome-jev/actions/runs/40640747464">Discovery run receipt</a>
+<a href="https://github.com/Amal-David/awesome-jev/actions/runs/40713619604">Discovery run receipt</a>
 
 <a href="https://github.com/Amal-David/awesome-jev/actions/workflows/curate.yml">All refresh runs</a>
 
@@ -57,12 +57,12 @@ The discovery timestamp advances only after a network discovery pass completes. 
 - <a href="https://github.com/Baran3575/jev-voice-android">Baran3575/jev-voice-android</a> — last check 2026-10-21
 - <a href="https://github.com/RavenRepo/jevengineeringgate">RavenRepo/jevengineeringgate</a> — last check 2026-10-22
 - <a href="https://github.com/sethsaler/jevgram">sethsaler/jevgram</a> — last check 2026-10-16
-- <a href="https://github.com/notque/jevs-sprint-planning">notque/jevs-sprint-planning</a> — last check 2026-10-15
+- <a href="https://github.com/notque/jevs-sprint-planning">notque/jevs-sprint-planning</a> — last check 2026-10-28
 - <a href="https://github.com/kedi-lang/kedi-typesafe">kedi-lang/kedi-typesafe</a> — last check 2026-10-23
 - <a href="https://github.com/vhpctnyd5x-lab/localai-16gb">vhpctnyd5x-lab/localai-16gb</a> — last check 2026-10-18
 - <a href="https://github.com/blancaile/minecraft-ai">blancaile/minecraft-ai</a> — last check 2026-10-21
 - <a href="https://github.com/Solizardking/musebook">Solizardking/musebook</a> — last check 2026-10-19
-- <a href="https://github.com/novvoo/nanojev">novvoo/nanojev</a> — last check 2026-10-15
+- <a href="https://github.com/novvoo/nanojev">novvoo/nanojev</a> — last check 2026-10-28
 - <a href="https://github.com/villagertim/neonhop-3d">villagertim/neonhop-3d</a> — last check 2026-10-25
 - <a href="https://github.com/develatter/notos-intelligence-go">develatter/notos-intelligence-go</a> — last check 2026-10-22
 - <a href="https://github.com/karoliang/rightsize">karoliang/rightsize</a> — last check 2026-10-19

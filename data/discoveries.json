@@ -28,14 +28,14 @@
     "repo": "0-qaq-0/hlwby"
   },
   {
-    "description": "Vitest for LLM outputs. Sub-100ms, deterministic CI/CD evaluations powered by TypeSafe Jev.",
+    "description": "YAML-based evaluation runner for recorded LLM outputs, with TypeSafe Jev API integration, offline mock mode, and CI reports.",
     "found": "2026-10-05",
     "metadata": {
       "archived": false,
       "language": "Python",
       "license": "MIT",
-      "metadata_checked": "2026-10-08",
-      "pushed_at": "2026-10-07T16:08:58Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T10:49:28Z",
       "repository_status": "accessible",
       "stars": 1
     },
@@ -600,8 +600,8 @@
       "archived": false,
       "language": "TypeScript",
       "license": "Apache-2.0",
-      "metadata_checked": "2026-09-24",
-      "pushed_at": "2026-09-24T20:01:25Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T14:56:04Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -1490,6 +1490,20 @@
     "repo": "24online24/TicketRouterDemo"
   },
   {
+    "description": "Offline AI scam detection engine with TypeSafe JEV System One architecture",
+    "found": "2026-10-28",
+    "metadata": {
+      "archived": false,
+      "language": "Python",
+      "license": "MIT",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T14:01:41Z",
+      "repository_status": "accessible",
+      "stars": 0
+    },
+    "repo": "25ucc139-rgb/kavach"
+  },
+  {
     "description": "",
     "found": "2026-09-25",
     "metadata": {
@@ -1824,10 +1838,10 @@
       "archived": false,
       "language": "TypeScript",
       "license": "MIT",
-      "metadata_checked": "2026-10-22",
-      "pushed_at": "2026-10-22T20:09:33Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T14:58:50Z",
       "repository_status": "accessible",
-      "stars": 8
+      "stars": 9
     },
     "repo": "47vigen/catherd"
   },
@@ -1880,8 +1894,8 @@
       "archived": false,
       "language": "Python",
       "license": "MIT",
-      "metadata_checked": "2026-10-15",
-      "pushed_at": "2026-10-15T11:56:58Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T14:40:53Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -2329,7 +2343,7 @@
       "language": "Python",
       "license": "not-detected",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-28T05:54:46Z",
+      "pushed_at": "2026-10-28T15:11:10Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -2690,6 +2704,20 @@
       "stars": 127
     },
     "repo": "aaddrick/building-with-typesafe-jev"
+  },
+  {
+    "description": "",
+    "found": "2026-10-28",
+    "metadata": {
+      "archived": false,
+      "language": "Go",
+      "license": "not-detected",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T10:36:23Z",
+      "repository_status": "accessible",
+      "stars": 0
+    },
+    "repo": "Aadesh998/kairo-assistant"
   },
   {
     "description": "",
@@ -3324,6 +3352,20 @@
     "repo": "aatifahmad123/jev-llm-routing"
   },
   {
+    "description": "",
+    "found": "2026-10-28",
+    "metadata": {
+      "archived": false,
+      "language": "Python",
+      "license": "not-detected",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T14:52:57Z",
+      "repository_status": "accessible",
+      "stars": 0
+    },
+    "repo": "AB-7373/tradewatch"
+  },
+  {
     "description": "Jev (TypeSafe)-backed decision layer for Orca Lab: judges what agents are about to run, and stays out of the way otherwise.",
     "found": "2026-09-24",
     "metadata": {
@@ -3331,7 +3373,7 @@
       "language": "TypeScript",
       "license": "not-detected",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-28T05:22:13Z",
+      "pushed_at": "2026-10-28T14:22:06Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -3436,6 +3478,20 @@
       "stars": 0
     },
     "repo": "AbbyPanday/GoogleOpenAgentOps"
+  },
+  {
+    "description": "AIAgentsTrade",
+    "found": "2026-10-28",
+    "metadata": {
+      "archived": false,
+      "language": "Python",
+      "license": "Apache-2.0",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:10:38Z",
+      "repository_status": "accessible",
+      "stars": 0
+    },
+    "repo": "abc13641261102-code/AIAgentsTrade"
   },
   {
     "description": "",
@@ -3976,8 +4032,8 @@
       "archived": false,
       "language": "TypeScript",
       "license": "not-detected",
-      "metadata_checked": "2026-10-27",
-      "pushed_at": "2026-10-27T12:20:33Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T13:04:04Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -4774,16 +4830,16 @@
     "repo": "acifani/actual-jev"
   },
   {
-    "description": "[Agentic AI-RPG Framework] Agentic AI role-playing game framework — narration, NPCs, lore, and character creation are autonomous plugin agents. Build interactive fiction with any AI provider.",
+    "description": "[Agentic AI-RPG Framework] Agentic AI role-playing game framework — narration, NPCs, lore, and character creation are autonomous plugin agents. Build interactive fiction with any AI provider. Online trail, not stable: https://demo.covel.cc",
     "found": "2026-09-25",
     "metadata": {
       "archived": false,
       "language": "TypeScript",
       "license": "MIT",
-      "metadata_checked": "2026-10-15",
-      "pushed_at": "2026-10-15T13:21:16Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:01:40Z",
       "repository_status": "accessible",
-      "stars": 57
+      "stars": 63
     },
     "repo": "ackness/covel"
   },
@@ -5046,8 +5102,8 @@
       "archived": false,
       "language": "Python",
       "license": "AGPL-3.0",
-      "metadata_checked": "2026-10-27",
-      "pushed_at": "2026-10-27T11:47:07Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T06:46:32Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -5236,6 +5292,20 @@
       "stars": 0
     },
     "repo": "adamchok/Lectheo"
+  },
+  {
+    "description": "Open-source AI testing framework on Playwright: plain-English goals to specs, semantic assertions, swappable decision models (Jev, Kev, any LLM). Design stage.",
+    "found": "2026-10-28",
+    "metadata": {
+      "archived": false,
+      "language": "TypeScript",
+      "license": "MIT",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:01:17Z",
+      "repository_status": "accessible",
+      "stars": 0
+    },
+    "repo": "AdamGencel/jevy"
   },
   {
     "description": "1,530 LinkedIn and X posts about Jev with Jev's labels on every post, plus a starter prompt",
@@ -5646,8 +5716,8 @@
       "archived": false,
       "language": "TypeScript",
       "license": "NOASSERTION",
-      "metadata_checked": "2026-10-27",
-      "pushed_at": "2026-10-27T05:01:53Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:02:56Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -6426,8 +6496,8 @@
       "archived": false,
       "language": "Python",
       "license": "not-detected",
-      "metadata_checked": "2026-10-27",
-      "pushed_at": "2026-10-27T20:33:15Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:12:34Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -7033,7 +7103,7 @@
       "language": "TypeScript",
       "license": "Apache-2.0",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-28T04:29:19Z",
+      "pushed_at": "2026-10-28T09:39:27Z",
       "repository_status": "accessible",
       "stars": 1498
     },
@@ -7258,8 +7328,8 @@
       "archived": false,
       "language": "Python",
       "license": "NOASSERTION",
-      "metadata_checked": "2026-10-27",
-      "pushed_at": "2026-10-27T11:12:47Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T11:16:34Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -7287,9 +7357,9 @@
       "language": "TypeScript",
       "license": "Apache-2.0",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-28T05:48:04Z",
+      "pushed_at": "2026-10-28T14:53:44Z",
       "repository_status": "accessible",
-      "stars": 1316
+      "stars": 1341
     },
     "repo": "AgnesAI-Labs/agnes-harness"
   },
@@ -7650,8 +7720,8 @@
       "archived": false,
       "language": "Python",
       "license": "MIT",
-      "metadata_checked": "2026-10-27",
-      "pushed_at": "2026-10-27T20:26:52Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:10:50Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -8340,8 +8410,8 @@
       "archived": false,
       "language": "Python",
       "license": "MIT",
-      "metadata_checked": "2026-10-27",
-      "pushed_at": "2026-10-27T09:06:13Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T09:47:07Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -8371,7 +8441,7 @@
       "language": "Python",
       "license": "MIT",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-28T01:11:52Z",
+      "pushed_at": "2026-10-28T08:18:50Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -9080,10 +9150,10 @@
       "archived": false,
       "language": "TypeScript",
       "license": "not-detected",
-      "metadata_checked": "2026-10-08",
-      "pushed_at": "2026-10-07T13:06:43Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T11:22:16Z",
       "repository_status": "accessible",
-      "stars": 0
+      "stars": 1
     },
     "repo": "akamai-developers/jev-model-router"
   },
@@ -10779,7 +10849,7 @@
       "language": "Go",
       "license": "MIT",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-27T20:58:27Z",
+      "pushed_at": "2026-10-28T07:30:17Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -10793,7 +10863,7 @@
       "language": "TypeScript",
       "license": "MIT",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-27T11:35:23Z",
+      "pushed_at": "2026-10-28T06:21:05Z",
       "repository_status": "accessible",
       "stars": 10
     },
@@ -10880,8 +10950,8 @@
       "archived": false,
       "language": "JavaScript",
       "license": "MIT",
-      "metadata_checked": "2026-10-21",
-      "pushed_at": "2026-10-21T07:39:02Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T10:36:17Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -11258,8 +11328,8 @@
       "archived": false,
       "language": "JavaScript",
       "license": "NOASSERTION",
-      "metadata_checked": "2026-10-26",
-      "pushed_at": "2026-10-26T04:48:30Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:00:39Z",
       "repository_status": "accessible",
       "stars": 4
     },
@@ -11278,6 +11348,20 @@
       "stars": 0
     },
     "repo": "alfredosdpiii/ultron"
+  },
+  {
+    "description": "Algen Agent Runtime",
+    "found": "2026-10-28",
+    "metadata": {
+      "archived": false,
+      "language": "Python",
+      "license": "Apache-2.0",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T14:57:45Z",
+      "repository_status": "accessible",
+      "stars": 6
+    },
+    "repo": "AlgenAI/algen-agent-runtime"
   },
   {
     "description": "Command a hero in a tower-defense map by voice. Whisper speech recognition and the Tev1 decision model run entirely in your browser (WebGPU).",
@@ -11427,7 +11511,7 @@
       "language": "Python",
       "license": "not-detected",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-28T00:25:15Z",
+      "pushed_at": "2026-10-28T13:57:11Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -12859,7 +12943,7 @@
       "language": "JavaScript",
       "license": "not-detected",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-28T05:28:39Z",
+      "pushed_at": "2026-10-28T14:12:01Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -13919,7 +14003,7 @@
       "language": "TypeScript",
       "license": "MIT",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-27T22:52:33Z",
+      "pushed_at": "2026-10-28T15:11:05Z",
       "repository_status": "accessible",
       "stars": 1
     },
@@ -15777,7 +15861,7 @@
       "language": "Python",
       "license": "MIT",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-28T05:30:31Z",
+      "pushed_at": "2026-10-28T13:42:01Z",
       "repository_status": "accessible",
       "stars": 1
     },
@@ -16444,8 +16528,8 @@
       "archived": false,
       "language": "C#",
       "license": "not-detected",
-      "metadata_checked": "2026-10-27",
-      "pushed_at": "2026-10-27T04:54:51Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T13:22:57Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -17900,8 +17984,8 @@
       "archived": false,
       "language": "Python",
       "license": "Apache-2.0",
-      "metadata_checked": "2026-10-24",
-      "pushed_at": "2026-10-24T22:31:30Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T14:52:35Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -19208,8 +19292,8 @@
       "archived": false,
       "language": null,
       "license": "not-detected",
-      "metadata_checked": "2026-10-23",
-      "pushed_at": "2026-10-23T15:58:12Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T09:33:52Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -19934,14 +20018,14 @@
     "status": "readme-unavailable"
   },
   {
-    "description": "A deterministic decision agent for underperforming retail stores.",
+    "description": "A deterministic decision agent for underperforming retail stores, with a Groq LLM for grounded explanations.",
     "found": "2026-10-09",
     "metadata": {
       "archived": false,
       "language": "Python",
       "license": "MIT",
-      "metadata_checked": "2026-10-21",
-      "pushed_at": "2026-10-21T23:15:20Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:07:08Z",
       "repository_status": "accessible",
       "stars": 1
     },
@@ -20631,9 +20715,9 @@
       "language": "Go",
       "license": "MIT",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-28T01:08:31Z",
+      "pushed_at": "2026-10-28T15:01:12Z",
       "repository_status": "accessible",
-      "stars": 2880
+      "stars": 2884
     },
     "readme_checked": "2026-10-14",
     "repo": "Asymptote-Labs/agent-beacon",
@@ -21154,10 +21238,10 @@
     "found": "2026-10-06",
     "metadata": {
       "archived": false,
-      "language": "HTML",
+      "language": "Python",
       "license": "not-detected",
-      "metadata_checked": "2026-10-24",
-      "pushed_at": "2026-10-24T12:45:17Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:08:58Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -21387,7 +21471,7 @@
       "language": "Python",
       "license": "MIT",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-28T05:51:46Z",
+      "pushed_at": "2026-10-28T14:55:32Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -22218,8 +22302,8 @@
       "archived": false,
       "language": "Python",
       "license": "MIT",
-      "metadata_checked": "2026-10-25",
-      "pushed_at": "2026-10-25T04:52:09Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T12:19:21Z",
       "repository_status": "accessible",
       "stars": 1
     },
@@ -23091,7 +23175,7 @@
       "language": "TypeScript",
       "license": "MIT",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-28T04:16:02Z",
+      "pushed_at": "2026-10-28T15:02:07Z",
       "repository_status": "accessible",
       "stars": 4
     },
@@ -24952,8 +25036,8 @@
       "archived": false,
       "language": "Go",
       "license": "MIT",
-      "metadata_checked": "2026-10-26",
-      "pushed_at": "2026-10-26T15:52:21Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T11:47:28Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -26558,10 +26642,10 @@
     "found": "2026-10-27",
     "metadata": {
       "archived": false,
-      "language": "Rust",
+      "language": "TypeScript",
       "license": "Apache-2.0",
-      "metadata_checked": "2026-10-27",
-      "pushed_at": "2026-10-27T05:54:46Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T12:57:55Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -26750,6 +26834,20 @@
     "repo": "bitranox/btx-skill-jev-judge"
   },
   {
+    "description": "Jev MCP server (Cloudflare Worker) + agent skills and guard hook for omp / Claude Code",
+    "found": "2026-10-28",
+    "metadata": {
+      "archived": false,
+      "language": "JavaScript",
+      "license": "MIT",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:03:29Z",
+      "repository_status": "accessible",
+      "stars": 0
+    },
+    "repo": "bitskc/jev-agent-kit"
+  },
+  {
     "description": "Wojak-as-a-service: a Slack bot that picks the most applicable wojak for any prompt using a classifier, not a chatbot. BitStorm R&D.",
     "found": "2026-09-24",
     "metadata": {
@@ -26910,8 +27008,8 @@
       "archived": false,
       "language": "Python",
       "license": "MIT",
-      "metadata_checked": "2026-10-27",
-      "pushed_at": "2026-10-27T16:28:21Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T12:38:11Z",
       "repository_status": "accessible",
       "stars": 5
     },
@@ -27034,10 +27132,10 @@
     "found": "2026-10-26",
     "metadata": {
       "archived": false,
-      "language": "Python",
+      "language": "JavaScript",
       "license": "MIT",
-      "metadata_checked": "2026-10-26",
-      "pushed_at": "2026-10-26T14:55:25Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:06:01Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -27574,8 +27672,8 @@
       "archived": false,
       "language": "Python",
       "license": "Apache-2.0",
-      "metadata_checked": "2026-10-27",
-      "pushed_at": "2026-10-27T20:35:51Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:04:24Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -28405,7 +28503,7 @@
       "language": "Rust",
       "license": "MIT",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-27T23:44:53Z",
+      "pushed_at": "2026-10-28T13:34:28Z",
       "repository_status": "accessible",
       "stars": 8
     },
@@ -28770,8 +28868,8 @@
       "archived": false,
       "language": "JavaScript",
       "license": "MIT",
-      "metadata_checked": "2026-10-27",
-      "pushed_at": "2026-10-26T06:06:37Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T06:44:35Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -29064,8 +29162,8 @@
       "archived": false,
       "language": "JavaScript",
       "license": "not-detected",
-      "metadata_checked": "2026-10-07",
-      "pushed_at": "2026-10-07T15:35:08Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T14:55:13Z",
       "repository_status": "accessible",
       "stars": 1
     },
@@ -29540,6 +29638,20 @@
     "repo": "Bring-AI/JevNext"
   },
   {
+    "description": "Streaming, annotated review tours for pull requests and local diffs",
+    "found": "2026-10-28",
+    "metadata": {
+      "archived": false,
+      "language": "TypeScript",
+      "license": "not-detected",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:01:51Z",
+      "repository_status": "accessible",
+      "stars": 0
+    },
+    "repo": "brishin/gloss"
+  },
+  {
     "description": "Simple but efficient bot detection ",
     "found": "2026-10-02",
     "metadata": {
@@ -29673,7 +29785,7 @@
       "language": "Rust",
       "license": "GPL-3.0",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-28T05:43:30Z",
+      "pushed_at": "2026-10-28T15:11:22Z",
       "repository_status": "accessible",
       "stars": 106
     },
@@ -29970,8 +30082,8 @@
       "archived": false,
       "language": "Swift",
       "license": "not-detected",
-      "metadata_checked": "2026-10-21",
-      "pushed_at": "2026-10-21T20:14:06Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:04:08Z",
       "repository_status": "accessible",
       "stars": 2
     },
@@ -30300,8 +30412,8 @@
       "archived": false,
       "language": "Swift",
       "license": "MIT",
-      "metadata_checked": "2026-10-27",
-      "pushed_at": "2026-10-27T14:17:49Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T06:36:46Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -30650,10 +30762,10 @@
       "archived": false,
       "language": "Python",
       "license": "NOASSERTION",
-      "metadata_checked": "2026-10-27",
-      "pushed_at": "2026-10-27T20:34:44Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:10:30Z",
       "repository_status": "accessible",
-      "stars": 56
+      "stars": 58
     },
     "repo": "buriedsignals/spotlight"
   },
@@ -31116,8 +31228,8 @@
       "archived": false,
       "language": null,
       "license": "not-detected",
-      "metadata_checked": "2026-10-27",
-      "pushed_at": "2026-10-27T05:02:05Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:02:08Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -32189,7 +32301,7 @@
       "language": "Python",
       "license": "not-detected",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-28T05:30:39Z",
+      "pushed_at": "2026-10-28T14:52:56Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -32668,8 +32780,8 @@
       "archived": false,
       "language": "Go",
       "license": "LGPL-3.0",
-      "metadata_checked": "2026-10-27",
-      "pushed_at": "2026-10-27T13:48:11Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T12:06:58Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -32924,8 +33036,8 @@
       "archived": false,
       "language": "Rust",
       "license": "not-detected",
-      "metadata_checked": "2026-10-25",
-      "pushed_at": "2026-10-25T22:13:24Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:03:39Z",
       "repository_status": "accessible",
       "stars": 1
     },
@@ -33620,8 +33732,8 @@
       "archived": false,
       "language": "TypeScript",
       "license": "MIT",
-      "metadata_checked": "2026-10-26",
-      "pushed_at": "2026-10-26T13:11:06Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T13:03:04Z",
       "repository_status": "accessible",
       "stars": 2
     },
@@ -33677,7 +33789,7 @@
       "language": "Python",
       "license": "MIT",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-27T23:24:15Z",
+      "pushed_at": "2026-10-28T09:45:57Z",
       "repository_status": "accessible",
       "stars": 1
     },
@@ -34649,7 +34761,7 @@
       "language": "Python",
       "license": "not-detected",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-28T05:54:05Z",
+      "pushed_at": "2026-10-28T13:22:04Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -35028,8 +35140,8 @@
       "archived": false,
       "language": "Elixir",
       "license": "not-detected",
-      "metadata_checked": "2026-10-26",
-      "pushed_at": "2026-10-26T15:16:05Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T14:50:19Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -35800,6 +35912,20 @@
     "repo": "Circuit-Overtime/Circuit-Overtime"
   },
   {
+    "description": "GitHub profile README — Ciro Vilmer",
+    "found": "2026-10-28",
+    "metadata": {
+      "archived": false,
+      "language": null,
+      "license": "not-detected",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:02:42Z",
+      "repository_status": "accessible",
+      "stars": 0
+    },
+    "repo": "CiroVilmer/CiroVilmer"
+  },
+  {
     "description": "Claude Code mod that picks the model and effort of every subagent from its task type, with Jev as an optional classifier",
     "found": "2026-10-13",
     "metadata": {
@@ -36088,8 +36214,8 @@
       "archived": false,
       "language": "TypeScript",
       "license": "not-detected",
-      "metadata_checked": "2026-10-26",
-      "pushed_at": "2026-10-26T21:02:31Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T14:56:50Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -36334,6 +36460,20 @@
       "stars": 0
     },
     "repo": "Cle2ment/tdm"
+  },
+  {
+    "description": "",
+    "found": "2026-10-28",
+    "metadata": {
+      "archived": false,
+      "language": "HTML",
+      "license": "not-detected",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T14:51:29Z",
+      "repository_status": "accessible",
+      "stars": 0
+    },
+    "repo": "CLEAR-Initiative/clear-grouping-lab"
   },
   {
     "description": "Tell it what you want done on a website: Jet picks each step in a few hundred milliseconds and does it with a real mouse and keyboard in Clearcote. About $0.001 per task. Python API, CLI and MCP server.",
@@ -36870,8 +37010,8 @@
       "archived": false,
       "language": "TypeScript",
       "license": "MIT",
-      "metadata_checked": "2026-10-27",
-      "pushed_at": "2026-10-27T17:43:55Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T13:11:28Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -37843,7 +37983,7 @@
       "language": "Python",
       "license": "MIT",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-28T05:41:29Z",
+      "pushed_at": "2026-10-28T05:59:00Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -37886,8 +38026,8 @@
       "archived": false,
       "language": "TypeScript",
       "license": "not-detected",
-      "metadata_checked": "2026-10-21",
-      "pushed_at": "2026-10-21T19:48:27Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:12:16Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -38367,7 +38507,7 @@
       "language": "TypeScript",
       "license": "MIT",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-28T05:53:14Z",
+      "pushed_at": "2026-10-28T15:08:50Z",
       "repository_status": "accessible",
       "stars": 2
     },
@@ -39084,8 +39224,8 @@
       "archived": false,
       "language": "Shell",
       "license": "not-detected",
-      "metadata_checked": "2026-10-27",
-      "pushed_at": "2026-10-27T16:44:26Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T12:38:25Z",
       "repository_status": "accessible",
       "stars": 6
     },
@@ -40041,7 +40181,7 @@
       "language": "TypeScript",
       "license": "MIT",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-28T04:40:53Z",
+      "pushed_at": "2026-10-28T13:49:40Z",
       "repository_status": "accessible",
       "stars": 1
     },
@@ -40068,10 +40208,10 @@
       "archived": false,
       "language": "Python",
       "license": "AGPL-3.0",
-      "metadata_checked": "2026-10-27",
-      "pushed_at": "2026-10-27T19:18:07Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T14:15:18Z",
       "repository_status": "accessible",
-      "stars": 247
+      "stars": 248
     },
     "repo": "crow-hq/llm-wiki-v2"
   },
@@ -40124,8 +40264,8 @@
       "archived": false,
       "language": "TypeScript",
       "license": "not-detected",
-      "metadata_checked": "2026-10-27",
-      "pushed_at": "2026-10-27T20:19:44Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:12:43Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -40747,7 +40887,7 @@
       "language": "Python",
       "license": "not-detected",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-28T01:13:31Z",
+      "pushed_at": "2026-10-28T06:14:19Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -41224,6 +41364,20 @@
       "stars": 1
     },
     "repo": "cybiqon-ai/faceless-video-studio"
+  },
+  {
+    "description": "A dollar wallet and shop till on Monad: passkey wallets, gasless AUSD payments in about a second (EIP-3009), private sends (ERC-5564), and an on-chain limit for every card, person and AI agent.",
+    "found": "2026-10-28",
+    "metadata": {
+      "archived": false,
+      "language": "TypeScript",
+      "license": "MIT",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T14:57:16Z",
+      "repository_status": "accessible",
+      "stars": 0
+    },
+    "repo": "Cybire1/kova"
   },
   {
     "description": "app_openjev",
@@ -42110,8 +42264,8 @@
       "archived": false,
       "language": "Rust",
       "license": "MIT",
-      "metadata_checked": "2026-10-27",
-      "pushed_at": "2026-10-27T12:06:46Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:10:52Z",
       "repository_status": "accessible",
       "stars": 5
     },
@@ -42530,8 +42684,8 @@
       "archived": false,
       "language": "Python",
       "license": "NOASSERTION",
-      "metadata_checked": "2026-10-26",
-      "pushed_at": "2026-10-26T15:00:35Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T14:55:58Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -43032,6 +43186,20 @@
       "stars": 0
     },
     "repo": "danil31219as/jev-as-a-judge"
+  },
+  {
+    "description": "Sofia — agente de atendimento WhatsApp da Infominas (Infodesk + JEV)",
+    "found": "2026-10-28",
+    "metadata": {
+      "archived": false,
+      "language": "Python",
+      "license": "not-detected",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:12:34Z",
+      "repository_status": "accessible",
+      "stars": 0
+    },
+    "repo": "Danilim04/sofia-agente-ia-infominas"
   },
   {
     "description": "A simple script to populate a web page with links, retrieving link info using the Open Graph protocol. I built it for my personal page.",
@@ -43889,7 +44057,7 @@
       "language": "Python",
       "license": "NOASSERTION",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-28T05:30:09Z",
+      "pushed_at": "2026-10-28T15:05:59Z",
       "repository_status": "accessible",
       "stars": 1
     },
@@ -44000,8 +44168,8 @@
       "archived": false,
       "language": "Java",
       "license": "not-detected",
-      "metadata_checked": "2026-10-27",
-      "pushed_at": "2026-10-27T05:05:06Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:05:08Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -44240,10 +44408,10 @@
       "archived": false,
       "language": "Python",
       "license": "MIT",
-      "metadata_checked": "2026-10-19",
-      "pushed_at": "2026-10-19T04:45:03Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:07:16Z",
       "repository_status": "accessible",
-      "stars": 4042
+      "stars": 4046
     },
     "repo": "datamodel-code-generator/datamodel-code-generator"
   },
@@ -44409,7 +44577,7 @@
       "language": "Python",
       "license": "MIT",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-28T05:49:20Z",
+      "pushed_at": "2026-10-28T14:57:45Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -44450,8 +44618,8 @@
       "archived": false,
       "language": "PHP",
       "license": "not-detected",
-      "metadata_checked": "2026-10-24",
-      "pushed_at": "2026-10-24T18:39:49Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T14:57:00Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -44764,10 +44932,10 @@
       "archived": false,
       "language": "Python",
       "license": "GPL-3.0",
-      "metadata_checked": "2026-10-15",
-      "pushed_at": "2026-10-15T19:41:58Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:00:36Z",
       "repository_status": "accessible",
-      "stars": 432
+      "stars": 439
     },
     "repo": "davidjurgens/potato"
   },
@@ -45424,8 +45592,8 @@
       "archived": false,
       "language": "TypeScript",
       "license": "MIT",
-      "metadata_checked": "2026-10-10",
-      "pushed_at": "2026-10-10T23:25:33Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:08:16Z",
       "repository_status": "accessible",
       "stars": 1
     },
@@ -46525,7 +46693,7 @@
       "language": "Python",
       "license": "not-detected",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-27T21:05:47Z",
+      "pushed_at": "2026-10-28T15:10:26Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -46642,6 +46810,20 @@
       "stars": 0
     },
     "repo": "DerekHertz/DimSumDev"
+  },
+  {
+    "description": "Claude Code& pi plugin that replaces the compaction summary with Jev&clef decisions: every tool call and result is scored in one fast request, stale ones are dropped or truncated, everything kept stays verbatim.",
+    "found": "2026-10-28",
+    "metadata": {
+      "archived": false,
+      "language": "TypeScript",
+      "license": "MIT",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T06:54:02Z",
+      "repository_status": "accessible",
+      "stars": 0
+    },
+    "repo": "dereknex/fast-jev-compaction"
   },
   {
     "description": "",
@@ -48834,10 +49016,10 @@
       "archived": false,
       "language": "Go",
       "license": "not-detected",
-      "metadata_checked": "2026-10-16",
-      "pushed_at": "2026-10-16T08:06:41Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T06:47:35Z",
       "repository_status": "accessible",
-      "stars": 0
+      "stars": 1
     },
     "repo": "dingdinglz/tibo-feishu-monitor"
   },
@@ -49002,8 +49184,8 @@
       "archived": false,
       "language": "Zig",
       "license": "Apache-2.0",
-      "metadata_checked": "2026-09-29",
-      "pushed_at": "2026-09-28T16:53:09Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T10:34:18Z",
       "repository_status": "accessible",
       "stars": 9
     },
@@ -51109,7 +51291,7 @@
       "language": "JavaScript",
       "license": "Apache-2.0",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-28T01:13:14Z",
+      "pushed_at": "2026-10-28T11:20:40Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -52363,7 +52545,7 @@
       "language": "HTML",
       "license": "not-detected",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-28T04:46:09Z",
+      "pushed_at": "2026-10-28T09:22:13Z",
       "repository_status": "accessible",
       "stars": 2
     },
@@ -53106,10 +53288,10 @@
     "found": "2026-10-15",
     "metadata": {
       "archived": false,
-      "language": "JavaScript",
+      "language": "Python",
       "license": "not-detected",
-      "metadata_checked": "2026-10-27",
-      "pushed_at": "2026-10-27T05:56:00Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T08:01:01Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -53538,6 +53720,20 @@
       "stars": 0
     },
     "repo": "EcoRayDev/cpa-plugin-typesafe"
+  },
+  {
+    "description": "A self-hosted Jev with a pluggable decision-backend fleet — typed, calibrated decisions from Clef, a vLLM logprob reader, Laya or any System One server, behind one wire contract",
+    "found": "2026-10-28",
+    "metadata": {
+      "archived": false,
+      "language": "Python",
+      "license": "MIT",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T14:47:32Z",
+      "repository_status": "accessible",
+      "stars": 0
+    },
+    "repo": "edamlabs/e-jev"
   },
   {
     "description": "",
@@ -54420,8 +54616,8 @@
       "archived": false,
       "language": "Python",
       "license": "MIT",
-      "metadata_checked": "2026-10-27",
-      "pushed_at": "2026-10-27T05:03:14Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T14:57:24Z",
       "repository_status": "accessible",
       "stars": 1
     },
@@ -54762,6 +54958,20 @@
       "stars": 1
     },
     "repo": "Eliot5566/jev-arena"
+  },
+  {
+    "description": "Test, calibrate and route System One decision models (Jev, Laya, kev, llama.cpp, Ollama) on your own data.",
+    "found": "2026-10-28",
+    "metadata": {
+      "archived": false,
+      "language": "Python",
+      "license": "MIT",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T08:10:57Z",
+      "repository_status": "accessible",
+      "stars": 0
+    },
+    "repo": "Eliot5566/s1kit"
   },
   {
     "description": "Where language models keep their sense of being an assistant: identity neurons, training stages, system prompts. Predictions written before every run.",
@@ -55717,7 +55927,7 @@
       "language": "Go",
       "license": "LGPL-3.0",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-28T05:48:36Z",
+      "pushed_at": "2026-10-28T15:10:02Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -56322,8 +56532,8 @@
       "archived": false,
       "language": "TypeScript",
       "license": "MIT",
-      "metadata_checked": "2026-10-14",
-      "pushed_at": "2026-10-14T13:32:51Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:07:49Z",
       "repository_status": "accessible",
       "stars": 30
     },
@@ -58368,8 +58578,8 @@
       "archived": false,
       "language": "Python",
       "license": "not-detected",
-      "metadata_checked": "2026-09-24",
-      "pushed_at": "2026-09-24T04:45:24Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T14:54:52Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -58528,6 +58738,20 @@
       "stars": 19
     },
     "repo": "explainers-by-googlers/decisions-api"
+  },
+  {
+    "description": "",
+    "found": "2026-10-28",
+    "metadata": {
+      "archived": false,
+      "language": "TypeScript",
+      "license": "not-detected",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T11:02:41Z",
+      "repository_status": "accessible",
+      "stars": 0
+    },
+    "repo": "exploit123321/cutline"
   },
   {
     "description": "jev in self service mode for business domain",
@@ -59443,7 +59667,7 @@
       "language": "Python",
       "license": "MIT",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-28T05:50:57Z",
+      "pushed_at": "2026-10-28T15:03:32Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -59504,6 +59728,20 @@
       "stars": 5
     },
     "repo": "fan56/dsh-topics-memory"
+  },
+  {
+    "description": "⭐️ Oceanic 2026 Dave Diver Scuba Adventure Skinchanger | Deepsea Dave Diver Version Plunder Esp | Dave Diver Trainer Skins 2026 ⭐️",
+    "found": "2026-10-28",
+    "metadata": {
+      "archived": false,
+      "language": null,
+      "license": "not-detected",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:01:49Z",
+      "repository_status": "accessible",
+      "stars": 1
+    },
+    "repo": "fanghailboard98/Dave-The-Diver-2026"
   },
   {
     "description": "",
@@ -61446,10 +61684,10 @@
       "archived": false,
       "language": "JavaScript",
       "license": "GPL-3.0",
-      "metadata_checked": "2026-10-15",
-      "pushed_at": "2026-10-15T13:12:36Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:05:50Z",
       "repository_status": "accessible",
-      "stars": 12869
+      "stars": 13075
     },
     "repo": "fishjar/kiss-translator"
   },
@@ -63137,7 +63375,7 @@
       "language": "TypeScript",
       "license": "MIT",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-27T20:55:31Z",
+      "pushed_at": "2026-10-28T07:10:26Z",
       "repository_status": "accessible",
       "stars": 1
     },
@@ -63200,6 +63438,20 @@
     "repo": "freedgeanishmai/Payment-Due-Reminder-by-ktripptree-nyc.rr.com-jev7t1bz"
   },
   {
+    "description": "Tree Monstor 是一個運行在 Hermes Agent 框架內的 AI 軟件開發 Profile。它不是普通的 AI 聊天機械人，而是一個具備完整軟件工程能力的虛擬開發團隊。",
+    "found": "2026-10-28",
+    "metadata": {
+      "archived": false,
+      "language": "Shell",
+      "license": "not-detected",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T14:56:00Z",
+      "repository_status": "accessible",
+      "stars": 2
+    },
+    "repo": "freedomw1987/tree_monstor"
+  },
+  {
     "description": "",
     "found": "2026-10-19",
     "metadata": {
@@ -63232,10 +63484,10 @@
     "found": "2026-10-09",
     "metadata": {
       "archived": false,
-      "language": "Python",
+      "language": "HTML",
       "license": "MIT",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-27T09:07:42Z",
+      "pushed_at": "2026-10-28T07:11:55Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -63285,6 +63537,20 @@
   },
   {
     "description": "",
+    "found": "2026-10-28",
+    "metadata": {
+      "archived": false,
+      "language": "JavaScript",
+      "license": "not-detected",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:05:15Z",
+      "repository_status": "accessible",
+      "stars": 0
+    },
+    "repo": "freshstart17173-sketch/eski"
+  },
+  {
+    "description": "",
     "found": "2026-09-29",
     "metadata": {
       "archived": false,
@@ -63304,8 +63570,8 @@
       "archived": false,
       "language": "TypeScript",
       "license": "MIT",
-      "metadata_checked": "2026-10-22",
-      "pushed_at": "2026-10-22T13:52:31Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T14:56:23Z",
       "repository_status": "accessible",
       "stars": 1
     },
@@ -63459,7 +63725,7 @@
       "language": "Go",
       "license": "not-detected",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-28T03:21:24Z",
+      "pushed_at": "2026-10-28T14:57:14Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -64038,8 +64304,8 @@
       "archived": false,
       "language": "HTML",
       "license": "not-detected",
-      "metadata_checked": "2026-10-27",
-      "pushed_at": "2026-10-27T14:35:51Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:12:43Z",
       "repository_status": "accessible",
       "stars": 2
     },
@@ -64378,8 +64644,8 @@
       "archived": false,
       "language": "TypeScript",
       "license": "MIT",
-      "metadata_checked": "2026-10-23",
-      "pushed_at": "2026-10-23T04:59:57Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T14:52:45Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -64854,8 +65120,8 @@
       "archived": false,
       "language": "Python",
       "license": "MIT",
-      "metadata_checked": "2026-10-22",
-      "pushed_at": "2026-10-22T17:45:57Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T14:22:23Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -65137,7 +65403,7 @@
       "language": "TypeScript",
       "license": "MIT",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-28T05:36:40Z",
+      "pushed_at": "2026-10-28T10:28:28Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -68390,6 +68656,20 @@
     "repo": "gee666/news-bot"
   },
   {
+    "description": "",
+    "found": "2026-10-28",
+    "metadata": {
+      "archived": false,
+      "language": "TypeScript",
+      "license": "MIT",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:07:04Z",
+      "repository_status": "accessible",
+      "stars": 0
+    },
+    "repo": "gee666/pi-free-swarm"
+  },
+  {
     "description": "Integrated app + sidecars",
     "found": "2026-10-24",
     "metadata": {
@@ -68957,7 +69237,7 @@
       "language": "TypeScript",
       "license": "AGPL-3.0",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-28T05:53:31Z",
+      "pushed_at": "2026-10-28T07:42:14Z",
       "repository_status": "accessible",
       "stars": 5
     },
@@ -72274,8 +72554,8 @@
       "archived": false,
       "language": "Python",
       "license": "EUPL-1.1",
-      "metadata_checked": "2026-10-21",
-      "pushed_at": "2026-10-21T23:24:31Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:12:42Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -73190,8 +73470,8 @@
       "archived": false,
       "language": "JavaScript",
       "license": "not-detected",
-      "metadata_checked": "2026-10-25",
-      "pushed_at": "2026-10-25T19:06:40Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:07:00Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -73349,7 +73629,7 @@
       "language": "Python",
       "license": "not-detected",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-28T05:45:03Z",
+      "pushed_at": "2026-10-28T07:24:49Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -73967,7 +74247,7 @@
       "language": "TypeScript",
       "license": "not-detected",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-28T02:28:56Z",
+      "pushed_at": "2026-10-28T14:57:05Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -74895,7 +75175,7 @@
       "language": "HTML",
       "license": "not-detected",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-27T23:48:11Z",
+      "pushed_at": "2026-10-28T14:11:30Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -75558,8 +75838,8 @@
       "archived": false,
       "language": "Zig",
       "license": "MIT",
-      "metadata_checked": "2026-10-27",
-      "pushed_at": "2026-10-27T14:16:24Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T11:55:50Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -75942,6 +76222,20 @@
       "stars": 0
     },
     "repo": "harutlc/investor-ai-game"
+  },
+  {
+    "description": "Jev で英語レシピの誤字・取り違えを単語単位で検出し、辞書・RoBERTa・Claude と比べた検証",
+    "found": "2026-10-28",
+    "metadata": {
+      "archived": false,
+      "language": "Python",
+      "license": "MIT",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T12:10:58Z",
+      "repository_status": "accessible",
+      "stars": 0
+    },
+    "repo": "haruto-kamijo/jev-spellcheck"
   },
   {
     "description": "Inspired by Jev and Laya, designed to go beyond classification: forecasting, representations, reinforcement learning and causal inference. Five disciplines, one ambition: master the heart of machine learning. M5PHET: Master's Five-Point Heart-Exploding Technique. A tool for real ML masters.",
@@ -76364,8 +76658,8 @@
       "archived": false,
       "language": "Go",
       "license": "NOASSERTION",
-      "metadata_checked": "2026-10-27",
-      "pushed_at": "2026-10-27T11:37:53Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T10:54:33Z",
       "repository_status": "accessible",
       "stars": 1
     },
@@ -76519,7 +76813,7 @@
       "language": "JavaScript",
       "license": "CC0-1.0",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-28T03:45:08Z",
+      "pushed_at": "2026-10-28T10:41:11Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -76617,7 +76911,7 @@
       "language": "TypeScript",
       "license": "MIT",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-28T05:51:07Z",
+      "pushed_at": "2026-10-28T06:54:54Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -77105,6 +77399,20 @@
   },
   {
     "description": "Plugin for SAP CAP that adds an internal decision service for Jev-compatible System One models, supporting choice, score, and yes/no questions.",
+    "found": "2026-10-28",
+    "metadata": {
+      "archived": false,
+      "language": "JavaScript",
+      "license": "MIT",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T11:02:28Z",
+      "repository_status": "accessible",
+      "stars": 0
+    },
+    "repo": "hendrik77/cap-decisions"
+  },
+  {
+    "description": "Plugin for SAP CAP that adds an internal decision service for Jev-compatible System One models, supporting choice, score, and yes/no questions.",
     "found": "2026-10-19",
     "metadata": {
       "archived": false,
@@ -77180,8 +77488,8 @@
       "archived": false,
       "language": "Python",
       "license": "MIT",
-      "metadata_checked": "2026-10-27",
-      "pushed_at": "2026-10-26T23:44:59Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T13:57:34Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -77556,8 +77864,8 @@
       "archived": false,
       "language": "HTML",
       "license": "not-detected",
-      "metadata_checked": "2026-10-27",
-      "pushed_at": "2026-10-27T20:42:06Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T14:57:44Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -77608,6 +77916,20 @@
       "stars": 2
     },
     "repo": "heyytars/skillguard"
+  },
+  {
+    "description": "An autonomous trading agent for Robinhood with a deterministic risk engine, simulation lab, web app, and native Android client.",
+    "found": "2026-10-28",
+    "metadata": {
+      "archived": false,
+      "language": "TypeScript",
+      "license": "MIT",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:00:36Z",
+      "repository_status": "accessible",
+      "stars": 0
+    },
+    "repo": "hffmnnj/longbow"
   },
   {
     "description": "A user-friendly toolkit for text classification using Large Language Model APIs and local HuggingFace models.",
@@ -78282,8 +78604,8 @@
       "archived": false,
       "language": "Python",
       "license": "MIT",
-      "metadata_checked": "2026-10-21",
-      "pushed_at": "2026-10-21T13:48:54Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:08:59Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -78358,6 +78680,20 @@
       "stars": 0
     },
     "repo": "hiroyannnn/yuru-kit"
+  },
+  {
+    "description": "Reproducing a Jev-style typed-decision model with next-token probabilities of a small local LLM (~50 lines), plus a 30-question comparison with Jev and Opus 5.5",
+    "found": "2026-10-28",
+    "metadata": {
+      "archived": false,
+      "language": "Python",
+      "license": "MIT",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T14:52:14Z",
+      "repository_status": "accessible",
+      "stars": 0
+    },
+    "repo": "hisuzuya/minijev"
   },
   {
     "description": "",
@@ -78548,8 +78884,8 @@
       "archived": false,
       "language": "Python",
       "license": "not-detected",
-      "metadata_checked": "2026-10-20",
-      "pushed_at": "2026-10-20T23:04:57Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T14:57:49Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -80404,6 +80740,20 @@
     "repo": "HurayrahB/jev-lab"
   },
   {
+    "description": "",
+    "found": "2026-10-28",
+    "metadata": {
+      "archived": false,
+      "language": "TypeScript",
+      "license": "not-detected",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T14:51:17Z",
+      "repository_status": "accessible",
+      "stars": 1
+    },
+    "repo": "hurley87/sprout"
+  },
+  {
     "description": "1000 trick questions sent as identical /v1/systemone requests to Jev, Nimble 9B, tev1 4B and Strands Decider 2B",
     "found": "2026-10-06",
     "metadata": {
@@ -80725,7 +81075,7 @@
       "language": "Python",
       "license": "MIT",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-27T23:42:16Z",
+      "pushed_at": "2026-10-28T10:02:42Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -81342,8 +81692,8 @@
       "archived": false,
       "language": "JavaScript",
       "license": "NOASSERTION",
-      "metadata_checked": "2026-10-27",
-      "pushed_at": "2026-10-27T12:19:50Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T13:03:28Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -81692,10 +82042,10 @@
       "archived": false,
       "language": "TypeScript",
       "license": "MIT",
-      "metadata_checked": "2026-10-18",
-      "pushed_at": "2026-10-18T12:36:36Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:08:36Z",
       "repository_status": "accessible",
-      "stars": 532
+      "stars": 536
     },
     "repo": "ianlkl11234s/mini-taiwan-pulse"
   },
@@ -83126,8 +83476,8 @@
       "archived": false,
       "language": "Python",
       "license": "not-detected",
-      "metadata_checked": "2026-10-16",
-      "pushed_at": "2026-10-16T15:31:18Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T07:29:22Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -83568,8 +83918,8 @@
       "archived": false,
       "language": "TypeScript",
       "license": "NOASSERTION",
-      "metadata_checked": "2026-10-26",
-      "pushed_at": "2026-10-26T15:13:18Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:12:12Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -83840,8 +84190,8 @@
       "archived": false,
       "language": "Python",
       "license": "GPL-3.0",
-      "metadata_checked": "2026-10-16",
-      "pushed_at": "2026-10-16T19:24:09Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:04:08Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -84076,6 +84426,20 @@
     "repo": "Inmata/document-learning"
   },
   {
+    "description": "A proof of concept exploring JEV powered language switching in a Gemini Live voice agent, targeting 100% accurate language detection and seamless mid-conversation switching without repeated confirmations.",
+    "found": "2026-10-28",
+    "metadata": {
+      "archived": false,
+      "language": "TypeScript",
+      "license": "not-detected",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T07:10:53Z",
+      "repository_status": "accessible",
+      "stars": 0
+    },
+    "repo": "Innowayshinesps/JEV-LangswitchPOC"
+  },
+  {
     "description": "A local 4B language model plays DOOM in real time and picks every move: clears E1M8 at its teacher's level. Qwen3.5-4B + LoRA, text perception, rule teacher, DAgger.",
     "found": "2026-10-19",
     "metadata": {
@@ -84153,7 +84517,7 @@
       "language": "Python",
       "license": "AGPL-3.0",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-28T01:19:35Z",
+      "pushed_at": "2026-10-28T12:29:40Z",
       "repository_status": "accessible",
       "stars": 8
     },
@@ -84211,7 +84575,7 @@
       "language": "JavaScript",
       "license": "NOASSERTION",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-28T03:14:14Z",
+      "pushed_at": "2026-10-28T13:27:57Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -84910,8 +85274,8 @@
       "archived": false,
       "language": "Python",
       "license": "MIT",
-      "metadata_checked": "2026-10-23",
-      "pushed_at": "2026-10-22T01:13:17Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:06:58Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -84932,16 +85296,30 @@
     "repo": "isaacbitran/english-net"
   },
   {
+    "description": "Counterfactual bias audit of TypeSafe's Jev judgment model: 134,772 answers to paired prompts that differ only in one identity sentence. Party labels swing predictions by up to 58 pp; names barely matter. Reproducible offline.",
+    "found": "2026-10-28",
+    "metadata": {
+      "archived": false,
+      "language": "Python",
+      "license": "MIT",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:06:47Z",
+      "repository_status": "accessible",
+      "stars": 1
+    },
+    "repo": "isaacbitran/jev-bias-audit"
+  },
+  {
     "description": "Agent-based simulation of 10,000 social-media accounts whose only judge of which beliefs fit together is a judgment model (Jev). A feed ranked by predicted likes always hides disagreement; whether it polarizes opinions flips under fair tests. Interactive study page included.",
     "found": "2026-10-21",
     "metadata": {
       "archived": false,
       "language": "Python",
       "license": "MIT",
-      "metadata_checked": "2026-10-23",
-      "pushed_at": "2026-10-22T01:13:16Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:06:55Z",
       "repository_status": "accessible",
-      "stars": 0
+      "stars": 1
     },
     "repo": "isaacbitran/jev-society"
   },
@@ -85065,7 +85443,7 @@
       "language": "Go",
       "license": "Apache-2.0",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-27T08:00:16Z",
+      "pushed_at": "2026-10-28T14:11:47Z",
       "repository_status": "accessible",
       "stars": 2
     },
@@ -85784,8 +86162,8 @@
       "archived": false,
       "language": "TypeScript",
       "license": "not-detected",
-      "metadata_checked": "2026-10-27",
-      "pushed_at": "2026-10-27T13:48:03Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T08:49:20Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -86393,7 +86771,7 @@
       "language": "Python",
       "license": "MIT",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-28T00:38:15Z",
+      "pushed_at": "2026-10-28T09:37:21Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -86454,6 +86832,20 @@
       "stars": 0
     },
     "repo": "j33l/PgQnA"
+  },
+  {
+    "description": "Hermes + Archon + Pi: a reference stack for an end-to-end agentic software factory",
+    "found": "2026-10-28",
+    "metadata": {
+      "archived": false,
+      "language": "TypeScript",
+      "license": "MIT",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:12:34Z",
+      "repository_status": "accessible",
+      "stars": 1
+    },
+    "repo": "j4th/hapi-factory"
   },
   {
     "description": "Structured judgment plugin for DeepSeek Harness: ask batched named questions (choice, score, yes-probability) and get calibrated probabilities from TypeSafe Jev, Luna, or any compatible endpoint. Strict validation, per-connection config, audit ledger, budget metering. It judges; your agent decides. Types-only contract at ./contract.",
@@ -87221,6 +87613,20 @@
   },
   {
     "description": "",
+    "found": "2026-10-28",
+    "metadata": {
+      "archived": false,
+      "language": "Python",
+      "license": "not-detected",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:00:32Z",
+      "repository_status": "accessible",
+      "stars": 0
+    },
+    "repo": "jadmmu/jev-edge"
+  },
+  {
+    "description": "",
     "found": "2026-10-06",
     "metadata": {
       "archived": false,
@@ -87792,8 +88198,8 @@
       "archived": false,
       "language": "Python",
       "license": "not-detected",
-      "metadata_checked": "2026-10-22",
-      "pushed_at": "2026-10-22T11:50:52Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T11:50:40Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -89892,8 +90298,8 @@
       "archived": false,
       "language": "C#",
       "license": "MIT",
-      "metadata_checked": "2026-10-21",
-      "pushed_at": "2026-10-21T04:42:01Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:12:26Z",
       "repository_status": "accessible",
       "stars": 2
     },
@@ -91038,20 +91444,6 @@
     "repo": "jetsongdev/jet-router"
   },
   {
-    "description": "微信消息意图识别悬浮窗（macOS）：看屏 + 本地小模型判断意图和风险，再按话术生成回复候选。纯只读、不注入微信。",
-    "found": "2026-09-22",
-    "metadata": {
-      "archived": false,
-      "language": "Python",
-      "license": "MIT",
-      "metadata_checked": "2026-09-22",
-      "pushed_at": "2026-09-22T09:41:02Z",
-      "repository_status": "accessible",
-      "stars": 105
-    },
-    "repo": "jev-chat/jev-chat-jarvis-mac"
-  },
-  {
     "description": "",
     "found": "2026-09-24",
     "metadata": {
@@ -91064,20 +91456,6 @@
       "stars": 0
     },
     "repo": "jev-chat/jev-chat-jarvis-simple"
-  },
-  {
-    "description": "JevChat-Windows：聊天窗口旁挂的回复辅助。窗口截图 + 本地离线 OCR 读对方消息 → Jev 判断意图 → 3 条候选一键填入，发送永远手动",
-    "found": "2026-09-22",
-    "metadata": {
-      "archived": false,
-      "language": "Python",
-      "license": "NOASSERTION",
-      "metadata_checked": "2026-09-28",
-      "pushed_at": "2026-09-28T11:44:27Z",
-      "repository_status": "accessible",
-      "stars": 651
-    },
-    "repo": "jev-chat/jev-chat-windows"
   },
   {
     "description": "chatjevs.com 官网落地页",
@@ -91192,20 +91570,6 @@
     "repo": "Jev-Engineering/TypeWright"
   },
   {
-    "description": "Blazing-Fast Token-Efficient Intrusion Detection System (IDS) based on TypeSafe's Jev",
-    "found": "2026-09-22",
-    "metadata": {
-      "archived": false,
-      "language": "Python",
-      "license": "MIT",
-      "metadata_checked": "2026-09-22",
-      "pushed_at": "2026-09-22T00:29:59Z",
-      "repository_status": "accessible",
-      "stars": 2
-    },
-    "repo": "jev-ids/jev-ids"
-  },
-  {
     "description": "Blazing-Fast Token-Efficient Intrusion Detection System (IDS) based on TypeSafe's Jev.",
     "found": "2026-10-01",
     "metadata": {
@@ -91218,20 +91582,6 @@
       "stars": 5
     },
     "repo": "jev-sec/jev-ids"
-  },
-  {
-    "description": "Local multimodal decisions on your Mac. Jev-compatible typed probabilities with Qwen, llama.cpp and Metal.",
-    "found": "2026-09-22",
-    "metadata": {
-      "archived": false,
-      "language": "Python",
-      "license": "MIT",
-      "metadata_checked": "2026-09-22",
-      "pushed_at": "2026-09-22T09:40:29Z",
-      "repository_status": "accessible",
-      "stars": 1
-    },
-    "repo": "jev-skills/openjev-multimodal"
   },
   {
     "description": "",
@@ -91248,20 +91598,6 @@
     "repo": "jevAgentDev/jev-polymarket-trading"
   },
   {
-    "description": "Daily curated Jev AI projects, System One community models, and real-world use cases.",
-    "found": "2026-09-22",
-    "metadata": {
-      "archived": false,
-      "language": null,
-      "license": "NOASSERTION",
-      "metadata_checked": "2026-09-27",
-      "pushed_at": "2026-09-27T14:02:06Z",
-      "repository_status": "accessible",
-      "stars": 2
-    },
-    "repo": "jevaidev/jev-ai-radar"
-  },
-  {
     "description": "Classify and tag Jev projects, System One models, and real-world use cases with Jev. GitHub Stars rank; humans review.",
     "found": "2026-09-23",
     "metadata": {
@@ -91274,20 +91610,6 @@
       "stars": 0
     },
     "repo": "jevaidev/jev-project-classifier"
-  },
-  {
-    "description": "Independent benchmark data for TypeSafe's Jev (System One model) vs LLMs: accuracy, calibration, cost. Boards + per-decision logs, CC-BY-4.0",
-    "found": "2026-09-22",
-    "metadata": {
-      "archived": false,
-      "language": null,
-      "license": "CC-BY-4.0",
-      "metadata_checked": "2026-09-22",
-      "pushed_at": "2026-09-21T20:47:42Z",
-      "repository_status": "accessible",
-      "stars": 0
-    },
-    "repo": "Jevals/jevals-data"
   },
   {
     "description": "My personal website",
@@ -91912,20 +92234,6 @@
     "repo": "jevryn07/jevryn07.github.io"
   },
   {
-    "description": "A model commits a probability on-chain before anyone answers. Calibration gets paid in $JEV. Robinhood Chain.",
-    "found": "2026-09-22",
-    "metadata": {
-      "archived": false,
-      "language": "TypeScript",
-      "license": "MIT",
-      "metadata_checked": "2026-09-22",
-      "pushed_at": "2026-09-22T22:48:25Z",
-      "repository_status": "accessible",
-      "stars": 0
-    },
-    "repo": "jevsaidit/jev-said-it"
-  },
-  {
     "description": "Claude Code plugins built on Jev: jev-guard, jev-eval, jev-verify.",
     "found": "2026-10-21",
     "metadata": {
@@ -92078,6 +92386,20 @@
       "stars": 0
     },
     "repo": "jfk-ssa/chess-analytics-lab"
+  },
+  {
+    "description": "opencode plugin that auto-answers the question tool for autonomous agents using Jev (TypeSafe decision model) or an LLM JSON contract, with tool-assisted context gathering",
+    "found": "2026-10-28",
+    "metadata": {
+      "archived": false,
+      "language": "TypeScript",
+      "license": "Apache-2.0",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T14:58:17Z",
+      "repository_status": "accessible",
+      "stars": 0
+    },
+    "repo": "jflowers/opencode-auto-question"
   },
   {
     "description": "J3v is to Jev as k3s is k8s",
@@ -92280,34 +92602,6 @@
     "repo": "jhgcc1/quizforge"
   },
   {
-    "description": "Measure an artifact against a rubric, and calibrate the rubric against cases you already know the answer to.",
-    "found": "2026-09-22",
-    "metadata": {
-      "archived": false,
-      "language": "JavaScript",
-      "license": "MIT",
-      "metadata_checked": "2026-09-30",
-      "pushed_at": "2026-09-30T13:40:58Z",
-      "repository_status": "accessible",
-      "stars": 0
-    },
-    "repo": "jholhewres/assay"
-  },
-  {
-    "description": "Claude Code + Codex CLI plugin that verifies the agent follows project rules through a System One (Jev) model",
-    "found": "2026-09-22",
-    "metadata": {
-      "archived": false,
-      "language": "TypeScript",
-      "license": "MIT",
-      "metadata_checked": "2026-09-22",
-      "pushed_at": "2026-09-22T19:20:08Z",
-      "repository_status": "accessible",
-      "stars": 1
-    },
-    "repo": "Jhonnyr97/JevGuard"
-  },
-  {
     "description": "Long-term memory for Pi Durable agents on Cloudflare.",
     "found": "2026-10-08",
     "metadata": {
@@ -92505,20 +92799,6 @@
   },
   {
     "description": "",
-    "found": "2026-09-22",
-    "metadata": {
-      "archived": false,
-      "language": "TypeScript",
-      "license": "not-detected",
-      "metadata_checked": "2026-09-22",
-      "pushed_at": "2026-09-22T09:31:33Z",
-      "repository_status": "accessible",
-      "stars": 0
-    },
-    "repo": "jiapunk/siebo-captain"
-  },
-  {
-    "description": "",
     "found": "2026-10-23",
     "metadata": {
       "archived": false,
@@ -92650,34 +92930,6 @@
       "stars": 0
     },
     "repo": "JiayiCheung/Jev-for-llm"
-  },
-  {
-    "description": "Typed System-1 decisions (Laya/Jev) as the judgment layer of a quant research stack, with Claude as System 2. Requirements → design → code → experiments.",
-    "found": "2026-09-22",
-    "metadata": {
-      "archived": false,
-      "language": "Python",
-      "license": "Apache-2.0",
-      "metadata_checked": "2026-09-22",
-      "pushed_at": "2026-09-22T09:24:04Z",
-      "repository_status": "accessible",
-      "stars": 3
-    },
-    "repo": "jiayylu/jev-as-quant"
-  },
-  {
-    "description": "",
-    "found": "2026-09-22",
-    "metadata": {
-      "archived": false,
-      "language": "Python",
-      "license": "NOASSERTION",
-      "metadata_checked": "2026-10-20",
-      "pushed_at": "2026-10-20T17:22:11Z",
-      "repository_status": "accessible",
-      "stars": 1
-    },
-    "repo": "Jibalmi/Tez"
   },
   {
     "description": "We have Jev at home: typed-decision models (Jev/Jeeves API) that run on a plain CPU",
@@ -92946,20 +93198,6 @@
     "repo": "jinbumlee95/WhereIsMyTerms_OPEN"
   },
   {
-    "description": "",
-    "found": "2026-09-22",
-    "metadata": {
-      "archived": false,
-      "language": "Python",
-      "license": "MIT",
-      "metadata_checked": "2026-09-22",
-      "pushed_at": "2026-09-22T09:43:26Z",
-      "repository_status": "accessible",
-      "stars": 0
-    },
-    "repo": "jingfang-635/jev-ultrafast"
-  },
-  {
     "description": "MISREAD LAB 003 — Train a tiny robot, change its rewards, and watch it game the rules. Real browser-local Q-learning.",
     "found": "2026-09-21",
     "metadata": {
@@ -93002,6 +93240,20 @@
       "stars": 0
     },
     "repo": "JinhoKim46/TC_AE_Sprint2_MILO"
+  },
+  {
+    "description": "Fast browser tests: Claude Code plans, TypeSafe's Jev picks each step, ego lite drives the browser",
+    "found": "2026-10-28",
+    "metadata": {
+      "archived": false,
+      "language": "JavaScript",
+      "license": "MIT",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T10:44:13Z",
+      "repository_status": "accessible",
+      "stars": 0
+    },
+    "repo": "jinjin99/pickstep"
   },
   {
     "description": "基于 LAYA 微调的立直麻将实时决策推荐系统 — real-time mahjong decision advisor (recommend-only, zero injection), LAYA-finetuned",
@@ -93393,7 +93645,9 @@
       "repository_status": "accessible",
       "stars": 1
     },
-    "repo": "JKasteele/mail-safety-lab"
+    "readme_checked": "2026-10-28",
+    "repo": "JKasteele/mail-safety-lab",
+    "status": "readme-unavailable"
   },
   {
     "description": "Fresh rewrite of Project Phoenix in the Settled Dark setting",
@@ -93408,20 +93662,6 @@
       "stars": 0
     },
     "repo": "jkeywo/phoenix-v3"
-  },
-  {
-    "description": "A terminal agent for coding tasks that decides before it writes",
-    "found": "2026-09-22",
-    "metadata": {
-      "archived": false,
-      "language": "Python",
-      "license": "MIT",
-      "metadata_checked": "2026-09-22",
-      "pushed_at": "2026-09-22T04:57:02Z",
-      "repository_status": "accessible",
-      "stars": 0
-    },
-    "repo": "jkf16m/xg"
   },
   {
     "description": "Jev 특강 실습 코드(1~3강): TypeSafe Jev를 Claude Code·Codex·OpenClaw에 붙이는 스킬·훅·라우터·활용 예제",
@@ -93606,20 +93846,6 @@
     "repo": "jleifeld/maclaya"
   },
   {
-    "description": "Filters your TLDR newsletter editions down to what's actually relevant to you, using an AI judge (Jev) to score interest and actionability, then auto-runs a web-search agent to find tutorials and deeper resources for the articles worth digging into.",
-    "found": "2026-09-22",
-    "metadata": {
-      "archived": false,
-      "language": "TypeScript",
-      "license": "not-detected",
-      "metadata_checked": "2026-09-24",
-      "pushed_at": "2026-09-24T18:38:34Z",
-      "repository_status": "accessible",
-      "stars": 0
-    },
-    "repo": "jlmelis/tldr-radar"
-  },
-  {
     "description": "✨✅ The easiest decisions your code will ever make.",
     "found": "2026-09-24",
     "metadata": {
@@ -93648,20 +93874,6 @@
     "repo": "jltorocode/classifier-pokemon-jev"
   },
   {
-    "description": "",
-    "found": "2026-09-22",
-    "metadata": {
-      "archived": false,
-      "language": "JavaScript",
-      "license": "MIT",
-      "metadata_checked": "2026-10-24",
-      "pushed_at": "2026-10-24T11:29:29Z",
-      "repository_status": "accessible",
-      "stars": 0
-    },
-    "repo": "jly-engineer/claude-jev"
-  },
-  {
     "description": "Reusable project context and specialist workflows for the AI tools you already use. Agents, skills, rules and MCP tools for Claude Code, Codex, Copilot, Cursor and more, plus SDLC workflows, session memory, and Jev decision support that offloads bounded LLM decisions to save tokens.",
     "found": "2026-10-11",
     "metadata": {
@@ -93669,25 +93881,11 @@
       "language": "TypeScript",
       "license": "MIT",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-28T05:24:23Z",
+      "pushed_at": "2026-10-28T15:12:35Z",
       "repository_status": "accessible",
       "stars": 225
     },
     "repo": "jmagly/aiwg"
-  },
-  {
-    "description": "",
-    "found": "2026-09-22",
-    "metadata": {
-      "archived": false,
-      "language": "Python",
-      "license": "not-detected",
-      "metadata_checked": "2026-10-26",
-      "pushed_at": "2026-10-26T13:04:42Z",
-      "repository_status": "accessible",
-      "stars": 0
-    },
-    "repo": "jmanhype/jevmax"
   },
   {
     "description": "better-project",
@@ -94012,20 +94210,6 @@
       "stars": 0
     },
     "repo": "Joaolucas2210/agent-flow-test"
-  },
-  {
-    "description": "Testing TypesafeAI's \"Jev\" model using System One API",
-    "found": "2026-09-22",
-    "metadata": {
-      "archived": false,
-      "language": "Python",
-      "license": "not-detected",
-      "metadata_checked": "2026-09-22",
-      "pushed_at": "2026-09-22T18:32:42Z",
-      "repository_status": "accessible",
-      "stars": 0
-    },
-    "repo": "joaomloureiro-daredata/jev-typesafeai-test"
   },
   {
     "description": "Terraform for the PR review pipeline's AWS glue: EventBridge, Step Functions, the S3 artifacts bucket, Secrets Manager secrets and the GitHub OIDC role.",
@@ -94604,20 +94788,6 @@
     "repo": "John15263/yiju"
   },
   {
-    "description": "BTC/ETH futures martingale research template with a Chinese dashboard and Jev decision gates.",
-    "found": "2026-09-22",
-    "metadata": {
-      "archived": false,
-      "language": "Python",
-      "license": "MIT",
-      "metadata_checked": "2026-09-22",
-      "pushed_at": "2026-09-22T03:15:08Z",
-      "repository_status": "accessible",
-      "stars": 0
-    },
-    "repo": "john222333/martin-lab"
-  },
-  {
     "description": "Live TopstepX bot trading on futures, AI-graded entries (Chronos+XGBoost) with a PPO-learned trailing-stop exit.",
     "found": "2026-10-02",
     "metadata": {
@@ -94644,20 +94814,6 @@
       "stars": 0
     },
     "repo": "johnbuck/unjangled-guardrails"
-  },
-  {
-    "description": "RossRecall: an AI litigation associate that quotes a real case file, checks every sentence against its source, and cannot sign a draft with one open. Jev-first, measured.",
-    "found": "2026-09-22",
-    "metadata": {
-      "archived": false,
-      "language": "TypeScript",
-      "license": "not-detected",
-      "metadata_checked": "2026-09-22",
-      "pushed_at": "2026-09-22T18:28:46Z",
-      "repository_status": "accessible",
-      "stars": 0
-    },
-    "repo": "JohnCari/rossrecall"
   },
   {
     "description": "",
@@ -94723,7 +94879,7 @@
       "language": "TypeScript",
       "license": "Apache-2.0",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-28T05:23:28Z",
+      "pushed_at": "2026-10-28T14:13:57Z",
       "repository_status": "accessible",
       "stars": 2
     },
@@ -94736,8 +94892,8 @@
       "archived": false,
       "language": "PHP",
       "license": "MIT",
-      "metadata_checked": "2026-10-25",
-      "pushed_at": "2026-10-25T22:25:46Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:04:14Z",
       "repository_status": "accessible",
       "stars": 1
     },
@@ -94828,34 +94984,6 @@
       "stars": 1
     },
     "repo": "johnpuri/Open_Source_RepoHub"
-  },
-  {
-    "description": "Test what an AI output means. Natural-language assertions powered by Jev, with pass, fail, and inconclusive results.",
-    "found": "2026-09-22",
-    "metadata": {
-      "archived": false,
-      "language": "JavaScript",
-      "license": "MIT",
-      "metadata_checked": "2026-09-22",
-      "pushed_at": "2026-09-22T02:54:10Z",
-      "repository_status": "accessible",
-      "stars": 0
-    },
-    "repo": "JohnRSandoval/meaning-assert"
-  },
-  {
-    "description": "See the consequences hidden in a code diff. Jev-powered semantic reviews, a CLI, and an interactive demo.",
-    "found": "2026-09-22",
-    "metadata": {
-      "archived": false,
-      "language": "JavaScript",
-      "license": "MIT",
-      "metadata_checked": "2026-09-22",
-      "pushed_at": "2026-09-22T02:20:13Z",
-      "repository_status": "accessible",
-      "stars": 0
-    },
-    "repo": "JohnRSandoval/meaning-aware-diff"
   },
   {
     "description": "对论文的AI检测，判断论文的AI味",
@@ -95055,7 +95183,9 @@
       "repository_status": "accessible",
       "stars": 0
     },
-    "repo": "jokv213/business-ai-recipes"
+    "readme_checked": "2026-10-28",
+    "repo": "jokv213/business-ai-recipes",
+    "status": "needs-review-no-explicit-match"
   },
   {
     "description": "DIII-D-inspired educational virtual shot simulator with numerical verification and an audited agent-development workflow. Not experimentally validated.",
@@ -95069,7 +95199,9 @@
       "repository_status": "accessible",
       "stars": 0
     },
-    "repo": "jolive27/diii-d-simulator"
+    "readme_checked": "2026-10-28",
+    "repo": "jolive27/diii-d-simulator",
+    "status": "readme-unavailable"
   },
   {
     "description": "",
@@ -95093,7 +95225,7 @@
       "language": "Python",
       "license": "MIT",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-28T03:30:02Z",
+      "pushed_at": "2026-10-28T07:25:25Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -95114,20 +95246,6 @@
     "repo": "jon-devlapaz/pi-skimmer"
   },
   {
-    "description": "Dynamic, confidence-aware Agent Skill routing with TypeSafe Jev and Tink",
-    "found": "2026-09-22",
-    "metadata": {
-      "archived": false,
-      "language": "Python",
-      "license": "MIT",
-      "metadata_checked": "2026-09-22",
-      "pushed_at": "2026-09-22T04:58:10Z",
-      "repository_status": "accessible",
-      "stars": 4
-    },
-    "repo": "jon-devlapaz/tink-route"
-  },
-  {
     "description": "maybe useful software factory? ",
     "found": "2026-09-21",
     "metadata": {
@@ -95144,18 +95262,18 @@
     "status": "needs-review-no-explicit-match"
   },
   {
-    "description": "Unofficial typed wrapper around the TypeSafe AI SDK: ask typed questions, get unwrapped answers.",
-    "found": "2026-09-22",
+    "description": "This is a general chat that can use different models to execute chat completion - mistral vibe used for refactor",
+    "found": "2026-10-28",
     "metadata": {
       "archived": false,
-      "language": "JavaScript",
-      "license": "MIT",
-      "metadata_checked": "2026-09-22",
-      "pushed_at": "2026-09-22T21:17:52Z",
+      "language": "Python",
+      "license": "not-detected",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:02:33Z",
       "repository_status": "accessible",
-      "stars": 0
+      "stars": 2
     },
-    "repo": "jonaed1230/typesafe-ai"
+    "repo": "jon2allen/chatybot"
   },
   {
     "description": "Reproduce jev color-bias effect from: https://claude.ai/artifact/BoLN8m6Q456JY3VFtRpwzu",
@@ -95183,7 +95301,9 @@
       "repository_status": "accessible",
       "stars": 0
     },
-    "repo": "Jonakss/calibrated-decisions"
+    "readme_checked": "2026-10-28",
+    "repo": "Jonakss/calibrated-decisions",
+    "status": "needs-review-no-explicit-match"
   },
   {
     "description": "",
@@ -95368,20 +95488,6 @@
       "stars": 0
     },
     "repo": "jonikanerva/rss"
-  },
-  {
-    "description": "AI powered Texas hold'em",
-    "found": "2026-09-22",
-    "metadata": {
-      "archived": false,
-      "language": "TypeScript",
-      "license": "MIT",
-      "metadata_checked": "2026-10-25",
-      "pushed_at": "2026-10-25T18:43:35Z",
-      "repository_status": "accessible",
-      "stars": 0
-    },
-    "repo": "jonime/ai-holdem"
   },
   {
     "description": "",
@@ -95647,7 +95753,7 @@
       "language": "Python",
       "license": "MIT",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-27T22:14:24Z",
+      "pushed_at": "2026-10-28T15:10:49Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -95738,20 +95844,6 @@
     "readme_checked": "2026-10-08",
     "repo": "jorgehara/gentle-shell-jev",
     "status": "needs-review-no-explicit-match"
-  },
-  {
-    "description": "Learned, auditable arbitration between heterogeneous decision engines (LLM, typed classifier, rules), closing the loop decision → outcome → recalibration with no manual retraining.",
-    "found": "2026-09-22",
-    "metadata": {
-      "archived": false,
-      "language": "Python",
-      "license": "MIT",
-      "metadata_checked": "2026-09-22",
-      "pushed_at": "2026-09-22T12:24:12Z",
-      "repository_status": "accessible",
-      "stars": 0
-    },
-    "repo": "JorgeTorresF/dualloop"
   },
   {
     "description": "",
@@ -96927,9 +97019,9 @@
       "language": "Swift",
       "license": "MIT",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-28T05:45:44Z",
+      "pushed_at": "2026-10-28T14:58:30Z",
       "repository_status": "accessible",
-      "stars": 87
+      "stars": 90
     },
     "repo": "jryang1997/MenuBarMijia"
   },
@@ -97874,8 +97966,8 @@
       "archived": false,
       "language": "Java",
       "license": "not-detected",
-      "metadata_checked": "2026-10-25",
-      "pushed_at": "2026-10-25T18:35:44Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T14:59:50Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -100265,7 +100357,7 @@
       "language": "Python",
       "license": "not-detected",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-28T05:35:58Z",
+      "pushed_at": "2026-10-28T15:12:14Z",
       "repository_status": "accessible",
       "stars": 1
     },
@@ -100320,8 +100412,8 @@
       "archived": false,
       "language": "HTML",
       "license": "not-detected",
-      "metadata_checked": "2026-10-27",
-      "pushed_at": "2026-10-27T13:01:15Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T13:52:44Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -100335,7 +100427,7 @@
       "language": "Python",
       "license": "not-detected",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-27T11:29:54Z",
+      "pushed_at": "2026-10-28T12:15:34Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -100951,7 +101043,7 @@
       "language": "Python",
       "license": "not-detected",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-28T05:28:29Z",
+      "pushed_at": "2026-10-28T11:20:54Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -101170,6 +101262,20 @@
       "stars": 1
     },
     "repo": "Kavara-AI/kirk-developer-guide"
+  },
+  {
+    "description": "",
+    "found": "2026-10-28",
+    "metadata": {
+      "archived": false,
+      "language": "TypeScript",
+      "license": "not-detected",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T14:52:42Z",
+      "repository_status": "accessible",
+      "stars": 0
+    },
+    "repo": "kavinrajsi/hcm"
   },
   {
     "description": "⚡ Enterprise Two-Speed AI Customer Support Agent with Deterministic Gating, System 1 Models, LangGraph HITL, and OpenTelemetry",
@@ -103398,8 +103504,8 @@
       "archived": false,
       "language": "PLpgSQL",
       "license": "not-detected",
-      "metadata_checked": "2026-10-27",
-      "pushed_at": "2026-10-27T18:53:57Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:11:13Z",
       "repository_status": "accessible",
       "stars": 1
     },
@@ -103488,6 +103594,20 @@
       "stars": 0
     },
     "repo": "Ki-Seki/jev-heuristic-adapter"
+  },
+  {
+    "description": "Verified Windows installer downloads and public update channel for Ultimate Assistant",
+    "found": "2026-10-28",
+    "metadata": {
+      "archived": false,
+      "language": "Python",
+      "license": "AGPL-3.0",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T14:58:02Z",
+      "repository_status": "accessible",
+      "stars": 0
+    },
+    "repo": "KianJRoss/UltimateAssistant-release"
   },
   {
     "description": "Small, independent projects for experiments, research, and investigations.",
@@ -103781,7 +103901,7 @@
       "language": null,
       "license": "Apache-2.0",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-28T02:17:00Z",
+      "pushed_at": "2026-10-28T06:17:24Z",
       "repository_status": "accessible",
       "stars": 4183
     },
@@ -104626,8 +104746,8 @@
       "archived": false,
       "language": "HTML",
       "license": "not-detected",
-      "metadata_checked": "2026-10-27",
-      "pushed_at": "2026-10-27T05:06:59Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:11:44Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -105402,8 +105522,8 @@
       "archived": false,
       "language": "Python",
       "license": "not-detected",
-      "metadata_checked": "2026-10-26",
-      "pushed_at": "2026-10-26T15:01:13Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T14:58:23Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -105488,8 +105608,8 @@
       "archived": false,
       "language": "TypeScript",
       "license": "not-detected",
-      "metadata_checked": "2026-10-27",
-      "pushed_at": "2026-10-27T05:02:20Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:04:35Z",
       "repository_status": "accessible",
       "stars": 1
     },
@@ -106058,8 +106178,8 @@
       "archived": false,
       "language": "TypeScript",
       "license": "not-detected",
-      "metadata_checked": "2026-10-27",
-      "pushed_at": "2026-10-27T08:53:33Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T11:53:47Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -106754,6 +106874,20 @@
     "repo": "kRrIsH-T/filer-downloads"
   },
   {
+    "description": "A 256M vision model that answers ~50 questions a second and gets 76.5% right: SmolVLM-256M fine-tuned as a one-pass ScienceQA decision model",
+    "found": "2026-10-28",
+    "metadata": {
+      "archived": false,
+      "language": "HTML",
+      "license": "not-detected",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T07:08:13Z",
+      "repository_status": "accessible",
+      "stars": 0
+    },
+    "repo": "krtadev/smolvlm-decision-model"
+  },
+  {
     "description": "",
     "found": "2026-09-20",
     "metadata": {
@@ -106988,8 +107122,8 @@
       "archived": false,
       "language": "TypeScript",
       "license": "MIT",
-      "metadata_checked": "2026-10-27",
-      "pushed_at": "2026-10-27T14:32:58Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T14:54:47Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -108840,8 +108974,8 @@
       "archived": false,
       "language": "PHP",
       "license": "MIT",
-      "metadata_checked": "2026-10-24",
-      "pushed_at": "2026-10-24T12:38:55Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T14:53:02Z",
       "repository_status": "accessible",
       "stars": 6
     },
@@ -110202,6 +110336,20 @@
     "repo": "leidarljos/ljos"
   },
   {
+    "description": "",
+    "found": "2026-10-28",
+    "metadata": {
+      "archived": false,
+      "language": "Go",
+      "license": "LGPL-3.0",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T14:55:25Z",
+      "repository_status": "accessible",
+      "stars": 0
+    },
+    "repo": "Leifuu/sub2apixx"
+  },
+  {
     "description": "A growing kit of Jev-powered tools for Claude, ChatGPT, your browser and your terminal, starting with Laugh Track.",
     "found": "2026-09-27",
     "metadata": {
@@ -110223,7 +110371,7 @@
       "language": "HTML",
       "license": "not-detected",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-28T04:29:39Z",
+      "pushed_at": "2026-10-28T06:02:50Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -111120,8 +111268,8 @@
       "archived": false,
       "language": "JavaScript",
       "license": "MIT",
-      "metadata_checked": "2026-10-27",
-      "pushed_at": "2026-10-27T07:38:17Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T14:17:34Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -111428,8 +111576,8 @@
       "archived": false,
       "language": "Python",
       "license": "MIT",
-      "metadata_checked": "2026-10-24",
-      "pushed_at": "2026-10-24T04:35:15Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:04:18Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -112017,7 +112165,7 @@
       "language": "HTML",
       "license": "MIT",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-28T05:51:39Z",
+      "pushed_at": "2026-10-28T06:27:44Z",
       "repository_status": "accessible",
       "stars": 1
     },
@@ -113688,8 +113836,8 @@
       "archived": false,
       "language": "TypeScript",
       "license": "not-detected",
-      "metadata_checked": "2026-10-27",
-      "pushed_at": "2026-10-27T20:42:52Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:11:48Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -114045,7 +114193,7 @@
       "language": "HTML",
       "license": "MIT",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-28T05:22:41Z",
+      "pushed_at": "2026-10-28T09:59:09Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -114214,8 +114362,8 @@
       "archived": false,
       "language": "TypeScript",
       "license": "AGPL-3.0",
-      "metadata_checked": "2026-10-21",
-      "pushed_at": "2026-10-21T13:54:34Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:12:26Z",
       "repository_status": "accessible",
       "stars": 10
     },
@@ -114314,8 +114462,8 @@
       "archived": false,
       "language": "TypeScript",
       "license": "MIT",
-      "metadata_checked": "2026-10-14",
-      "pushed_at": "2026-10-14T16:25:35Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T10:26:15Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -114852,8 +115000,8 @@
       "archived": false,
       "language": "JavaScript",
       "license": "MIT",
-      "metadata_checked": "2026-10-25",
-      "pushed_at": "2026-10-25T13:06:11Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:11:45Z",
       "repository_status": "accessible",
       "stars": 15
     },
@@ -115405,7 +115553,7 @@
       "language": "Rust",
       "license": "MIT",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-27T06:23:22Z",
+      "pushed_at": "2026-10-28T08:13:22Z",
       "repository_status": "accessible",
       "stars": 516
     },
@@ -115798,8 +115946,8 @@
       "archived": false,
       "language": "Python",
       "license": "not-detected",
-      "metadata_checked": "2026-10-27",
-      "pushed_at": "2026-10-27T20:45:53Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:07:00Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -116818,6 +116966,20 @@
       "stars": 12
     },
     "repo": "lyramakesmusic/jevbot"
+  },
+  {
+    "description": "A dictionary of neuron steering recipes",
+    "found": "2026-10-28",
+    "metadata": {
+      "archived": false,
+      "language": "HTML",
+      "license": "not-detected",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:07:42Z",
+      "repository_status": "accessible",
+      "stars": 6
+    },
+    "repo": "lyramakesmusic/neuronary"
   },
   {
     "description": "Vous tapez n'importe quoi (« la raclette », « le vélo », « Chateaubriand »…) et une IA vous dit si c'est de gauche ou de droite",
@@ -118494,6 +118656,20 @@
     "repo": "Majamato/typesafe-ai-dart"
   },
   {
+    "description": "Rukoo Mail is an email client for Windows and Linux, with experimental macOS support, built with Electron",
+    "found": "2026-10-28",
+    "metadata": {
+      "archived": false,
+      "language": "JavaScript",
+      "license": "MIT",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:08:24Z",
+      "repository_status": "accessible",
+      "stars": 2
+    },
+    "repo": "MajesteitBart/rukoo"
+  },
+  {
     "description": "Chrome extension that scores Indeed job listings against your resume with AI (Claude, OpenAI, Gemini, TypeSafe Jev), marks unsuitable jobs and bookmarks matches.",
     "found": "2026-10-24",
     "metadata": {
@@ -118534,6 +118710,20 @@
       "stars": 1
     },
     "repo": "majkel2403/Jarvis-"
+  },
+  {
+    "description": "",
+    "found": "2026-10-28",
+    "metadata": {
+      "archived": false,
+      "language": "C#",
+      "license": "not-detected",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T11:54:43Z",
+      "repository_status": "accessible",
+      "stars": 0
+    },
+    "repo": "mak-entelect/calc-lens"
   },
   {
     "description": "Prompt-injection and confidence-gating benchmark — Jev vs gpt-oss-20b on Polymarket news headlines",
@@ -118860,6 +119050,20 @@
       "stars": 0
     },
     "repo": "manali-co/yapp"
+  },
+  {
+    "description": "jev-demo for team-a study",
+    "found": "2026-10-28",
+    "metadata": {
+      "archived": false,
+      "language": "JavaScript",
+      "license": "not-detected",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:05:07Z",
+      "repository_status": "accessible",
+      "stars": 0
+    },
+    "repo": "manamun/jev-demo"
   },
   {
     "description": "How much traffic can a small calibrated decision model own? 600 measured decisions with Jev on a RAG answerability gate, and why your test set's negatives decide the answer.",
@@ -119362,8 +119566,8 @@
       "archived": false,
       "language": "Python",
       "license": "not-detected",
-      "metadata_checked": "2026-10-20",
-      "pushed_at": "2026-10-20T07:03:12Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T07:56:44Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -119950,8 +120154,8 @@
       "archived": false,
       "language": "C#",
       "license": "MIT",
-      "metadata_checked": "2026-10-01",
-      "pushed_at": "2026-10-01T21:04:52Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:03:55Z",
       "repository_status": "accessible",
       "stars": 6
     },
@@ -122552,6 +122756,20 @@
     "repo": "Matthew-Eucaristo/s1-landingpage"
   },
   {
+    "description": "Matt Cauble Studios: an open field guide and toolkit for AI cartoon episodes: model routing, consistent characters and sets, animation principles, local ffmpeg editing, voice, QA gates",
+    "found": "2026-10-28",
+    "metadata": {
+      "archived": false,
+      "language": "Python",
+      "license": "MIT",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T14:57:49Z",
+      "repository_status": "accessible",
+      "stars": 0
+    },
+    "repo": "matthewcauble-boop/matt-cauble-studios"
+  },
+  {
     "description": "Self-improving open agents: share verified model fixes as owned traces, classify and search them, back bounties with coins, earn royalties down the family tree.",
     "found": "2026-10-03",
     "metadata": {
@@ -123473,7 +123691,7 @@
       "language": "Rust",
       "license": "MIT",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-27T17:38:57Z",
+      "pushed_at": "2026-10-28T13:41:30Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -124508,6 +124726,20 @@
     "repo": "Melvin0163/Agent_Lex"
   },
   {
+    "description": "",
+    "found": "2026-10-28",
+    "metadata": {
+      "archived": false,
+      "language": "Python",
+      "license": "not-detected",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:11:00Z",
+      "repository_status": "accessible",
+      "stars": 0
+    },
+    "repo": "MelvinKl/code-weaver"
+  },
+  {
     "description": "Safeer Browser Mobile v1.0.2: Private, ad-free Android browser with local C2 threat shield (abuse.ch) and background playback.",
     "found": "2026-09-18",
     "metadata": {
@@ -125538,8 +125770,8 @@
       "archived": false,
       "language": "TypeScript",
       "license": "not-detected",
-      "metadata_checked": "2026-10-18",
-      "pushed_at": "2026-10-18T20:05:21Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T14:12:12Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -125991,7 +126223,7 @@
       "language": "Python",
       "license": "not-detected",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-28T04:20:05Z",
+      "pushed_at": "2026-10-28T14:54:14Z",
       "repository_status": "accessible",
       "stars": 1
     },
@@ -126288,10 +126520,10 @@
       "archived": false,
       "language": "Rust",
       "license": "GPL-3.0",
-      "metadata_checked": "2026-10-17",
-      "pushed_at": "2026-10-16T10:41:48Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T14:30:39Z",
       "repository_status": "accessible",
-      "stars": 3
+      "stars": 4
     },
     "repo": "mihaicristianfarcas/pingpong"
   },
@@ -126706,6 +126938,20 @@
     "repo": "mikolajsemeniuk/systemonebench"
   },
   {
+    "description": "Local First AI; Benchmark data, scripts, and configuration for running production AI on local hardware.",
+    "found": "2026-10-28",
+    "metadata": {
+      "archived": false,
+      "language": "Python",
+      "license": "MIT",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:04:58Z",
+      "repository_status": "accessible",
+      "stars": 0
+    },
+    "repo": "miktam/local-first-ai"
+  },
+  {
     "description": "Sub2API fork: composite groups with priority-based cross-platform failover and weighted per-session load balancing",
     "found": "2026-10-26",
     "metadata": {
@@ -126826,10 +127072,10 @@
       "archived": false,
       "language": "TypeScript",
       "license": "Apache-2.0",
-      "metadata_checked": "2026-10-27",
-      "pushed_at": "2026-10-27T20:43:34Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:01:20Z",
       "repository_status": "accessible",
-      "stars": 5764
+      "stars": 6088
     },
     "repo": "milind-soni/OpenMausBot"
   },
@@ -127801,7 +128047,7 @@
       "language": "Python",
       "license": "not-detected",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-28T05:54:27Z",
+      "pushed_at": "2026-10-28T15:06:28Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -128010,10 +128256,10 @@
       "archived": false,
       "language": "Go",
       "license": "MIT",
-      "metadata_checked": "2026-10-04",
-      "pushed_at": "2026-10-04T13:56:11Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:02:00Z",
       "repository_status": "accessible",
-      "stars": 184
+      "stars": 200
     },
     "repo": "mitkox/esf"
   },
@@ -128721,9 +128967,9 @@
       "language": "Python",
       "license": "Apache-2.0",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-28T05:37:11Z",
+      "pushed_at": "2026-10-28T15:02:19Z",
       "repository_status": "accessible",
-      "stars": 15972
+      "stars": 15976
     },
     "repo": "modelscope/ms-swift"
   },
@@ -129561,7 +129807,7 @@
       "metadata_checked": "2026-10-28",
       "pushed_at": "2026-10-27T05:24:51Z",
       "repository_status": "accessible",
-      "stars": 1108
+      "stars": 1107
     },
     "repo": "momozi1996/momo-code"
   },
@@ -129587,7 +129833,7 @@
       "language": "HTML",
       "license": "BSD-3-Clause",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-28T05:49:25Z",
+      "pushed_at": "2026-10-28T15:10:54Z",
       "repository_status": "accessible",
       "stars": 69
     },
@@ -129706,6 +129952,20 @@
     "repo": "MONISMALIK1/MONISMALIK1"
   },
   {
+    "description": "DSH 侧边栏 BOSS 直聘求职面板：概览仪表盘 + 面试/会话 Tab，8 状态分类引擎、今日简报、面试日程、详情弹窗",
+    "found": "2026-10-28",
+    "metadata": {
+      "archived": false,
+      "language": "JavaScript",
+      "license": "MIT",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:11:15Z",
+      "repository_status": "accessible",
+      "stars": 0
+    },
+    "repo": "monkey-sking/dsh-boss-panel"
+  },
+  {
     "description": "",
     "found": "2026-10-22",
     "metadata": {
@@ -129796,8 +130056,8 @@
       "archived": false,
       "language": "Go",
       "license": "NOASSERTION",
-      "metadata_checked": "2026-10-26",
-      "pushed_at": "2026-10-26T04:52:09Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:12:22Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -130612,10 +130872,10 @@
       "archived": false,
       "language": "Rust",
       "license": "MIT",
-      "metadata_checked": "2026-10-19",
-      "pushed_at": "2026-10-19T20:45:38Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:06:21Z",
       "repository_status": "accessible",
-      "stars": 3
+      "stars": 4
     },
     "repo": "mourad-ghafiri/Bisa"
   },
@@ -130780,8 +131040,8 @@
       "archived": false,
       "language": "TypeScript",
       "license": "MIT",
-      "metadata_checked": "2026-10-19",
-      "pushed_at": "2026-10-19T11:07:24Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T14:35:14Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -131382,6 +131642,20 @@
     "repo": "MrKyaw/MrKyaw"
   },
   {
+    "description": "",
+    "found": "2026-10-28",
+    "metadata": {
+      "archived": false,
+      "language": "Python",
+      "license": "not-detected",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T13:43:48Z",
+      "repository_status": "accessible",
+      "stars": 0
+    },
+    "repo": "MrMatriochka/Outils-Bourse-Jev"
+  },
+  {
     "description": "Jev (TypeSafe AI) System One decision engine plugin for Hermes Agent, backed by Agnes AI Flash.",
     "found": "2026-09-22",
     "metadata": {
@@ -131660,6 +131934,20 @@
       "stars": 0
     },
     "repo": "ms-codehorizon/forkery-case-study"
+  },
+  {
+    "description": "StoryCue · 访谈搭子。为短视频创作者准备的 AI 采访工具：可编辑提纲、全息语音交互、实时字幕与剪辑建议。Desktop-agent planning · automatic turn-taking · bring your own keys.",
+    "found": "2026-10-28",
+    "metadata": {
+      "archived": false,
+      "language": "TypeScript",
+      "license": "MIT",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:01:38Z",
+      "repository_status": "accessible",
+      "stars": 0
+    },
+    "repo": "msaysay/storycue"
   },
   {
     "description": "The open-source of DomA, an AI automation agent for the browser.",
@@ -132413,7 +132701,7 @@
       "language": "Python",
       "license": "not-detected",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-28T03:34:36Z",
+      "pushed_at": "2026-10-28T06:28:15Z",
       "repository_status": "accessible",
       "stars": 1
     },
@@ -133357,7 +133645,7 @@
       "language": "TypeScript",
       "license": "NOASSERTION",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-28T05:41:56Z",
+      "pushed_at": "2026-10-28T06:22:13Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -133488,6 +133776,20 @@
       "stars": 0
     },
     "repo": "MylucksG/Registro-por-texto"
+  },
+  {
+    "description": "Squirrel LLM Gateway is a high-performance, enterprise-grade proxy service designed to unify and manage access to Large Language Model (LLM) providers like OpenAI and Anthropic. It provides intelligent routing, robust failover strategies, comprehensive logging, and a modern management dashboard.",
+    "found": "2026-10-28",
+    "metadata": {
+      "archived": false,
+      "language": "Python",
+      "license": "not-detected",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:02:03Z",
+      "repository_status": "accessible",
+      "stars": 76
+    },
+    "repo": "mylxsw/llm-gateway"
   },
   {
     "description": "Cross-browser testing reference kit for Playwright Node/Python, Stagehand, Replay, screenshots, mobile web, and GitHub Actions.",
@@ -133917,7 +134219,7 @@
       "language": "Python",
       "license": "MIT",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-28T05:12:35Z",
+      "pushed_at": "2026-10-28T06:25:32Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -134006,6 +134308,20 @@
       "stars": 1
     },
     "repo": "nachollorca/lmdk"
+  },
+  {
+    "description": "Support-ticket triage service in Go: Kafka, Postgres, and TypeSafe Jev classification (learning project)",
+    "found": "2026-10-28",
+    "metadata": {
+      "archived": false,
+      "language": null,
+      "license": "not-detected",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:02:04Z",
+      "repository_status": "accessible",
+      "stars": 0
+    },
+    "repo": "nacknime-official/ticket-triage"
   },
   {
     "description": "Project Melos: a source-backed research reader and lexicon for Ancient Greek lyric and its literary traditions",
@@ -134596,6 +134912,20 @@
       "stars": 0
     },
     "repo": "nanangkurnim-svg/dsh-plugin-browserskill-clef"
+  },
+  {
+    "description": "单用户、本地优先的长篇小说创作工作台：文件是唯一真相，SQLite 是可丢弃索引；AI 起草 + 逐场景确认 + 字符级 diff + 叙事地图。附免安装 Windows 便携版。",
+    "found": "2026-10-28",
+    "metadata": {
+      "archived": false,
+      "language": "TypeScript",
+      "license": "not-detected",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T14:57:10Z",
+      "repository_status": "accessible",
+      "stars": 0
+    },
+    "repo": "nancunda/inkloom"
   },
   {
     "description": "Unofficial skill that teaches coding agents to build with TypeSafe AI's Jev: typed decisions, calibrated confidence, and prior art from 150+ community projects.",
@@ -135392,6 +135722,20 @@
     "repo": "naveenraj-g/open-icd-coder"
   },
   {
+    "description": "",
+    "found": "2026-10-28",
+    "metadata": {
+      "archived": false,
+      "language": "Python",
+      "license": "not-detected",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:11:25Z",
+      "repository_status": "accessible",
+      "stars": 0
+    },
+    "repo": "NaveenRaja-M75/Trading"
+  },
+  {
     "description": "Filters the daily UJA bulletin with AI and notifies you on Telegram only about what matters to you.",
     "found": "2026-09-29",
     "metadata": {
@@ -135983,7 +136327,7 @@
       "language": "Rust",
       "license": "Apache-2.0",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-27T02:10:13Z",
+      "pushed_at": "2026-10-28T12:08:10Z",
       "repository_status": "accessible",
       "stars": 20
     },
@@ -136010,8 +136354,8 @@
       "archived": false,
       "language": "C#",
       "license": "not-detected",
-      "metadata_checked": "2026-10-26",
-      "pushed_at": "2026-10-26T13:22:30Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T14:28:47Z",
       "repository_status": "accessible",
       "stars": 1
     },
@@ -136343,6 +136687,20 @@
   },
   {
     "description": "",
+    "found": "2026-10-28",
+    "metadata": {
+      "archived": false,
+      "language": "TypeScript",
+      "license": "MIT",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:00:10Z",
+      "repository_status": "accessible",
+      "stars": 1
+    },
+    "repo": "netaart/generation-sdk"
+  },
+  {
+    "description": "",
     "found": "2026-10-06",
     "metadata": {
       "archived": false,
@@ -136362,8 +136720,8 @@
       "archived": false,
       "language": "Python",
       "license": "not-detected",
-      "metadata_checked": "2026-10-26",
-      "pushed_at": "2026-10-25T12:59:00Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T07:57:18Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -137433,7 +137791,7 @@
       "language": "TypeScript",
       "license": "BSD-3-Clause",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-28T05:41:02Z",
+      "pushed_at": "2026-10-28T05:57:19Z",
       "repository_status": "accessible",
       "stars": 1
     },
@@ -138278,8 +138636,8 @@
       "archived": false,
       "language": "Shell",
       "license": "MIT",
-      "metadata_checked": "2026-10-24",
-      "pushed_at": "2026-10-24T22:24:57Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:03:08Z",
       "repository_status": "accessible",
       "stars": 3
     },
@@ -138505,7 +138863,7 @@
       "language": "Python",
       "license": "not-detected",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-28T05:54:24Z",
+      "pushed_at": "2026-10-28T15:12:19Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -138736,6 +139094,20 @@
     "repo": "Nivetha200111/deadinternet"
   },
   {
+    "description": "Chrome extension that folds low-value posts on X using decision models (Jev / Clef-omni / OpenAI-compatible). Plain-language rules, bilingual UI.",
+    "found": "2026-10-28",
+    "metadata": {
+      "archived": false,
+      "language": "JavaScript",
+      "license": "MIT",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T11:42:57Z",
+      "repository_status": "accessible",
+      "stars": 0
+    },
+    "repo": "Nixz0824/x-semantic-filter"
+  },
+  {
     "description": "",
     "found": "2026-09-26",
     "metadata": {
@@ -138840,8 +139212,8 @@
       "archived": false,
       "language": "Python",
       "license": "not-detected",
-      "metadata_checked": "2026-10-27",
-      "pushed_at": "2026-10-27T20:39:34Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:01:36Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -140905,7 +141277,7 @@
       "language": "Python",
       "license": "not-detected",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-28T05:55:12Z",
+      "pushed_at": "2026-10-28T15:00:25Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -141412,10 +141784,10 @@
       "archived": false,
       "language": "TypeScript",
       "license": "not-detected",
-      "metadata_checked": "2026-10-24",
-      "pushed_at": "2026-10-24T18:47:08Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:00:40Z",
       "repository_status": "accessible",
-      "stars": 0
+      "stars": 1
     },
     "repo": "oh-my-omp/omp-playbooks"
   },
@@ -141638,8 +142010,8 @@
       "archived": false,
       "language": "TypeScript",
       "license": "MIT",
-      "metadata_checked": "2026-10-27",
-      "pushed_at": "2026-10-26T20:33:33Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T14:35:41Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -141837,7 +142209,7 @@
       "language": "Rust",
       "license": "Apache-2.0",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-28T04:28:58Z",
+      "pushed_at": "2026-10-28T14:08:18Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -142495,9 +142867,9 @@
       "language": "Python",
       "license": "Apache-2.0",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-27T19:52:01Z",
+      "pushed_at": "2026-10-28T08:42:56Z",
       "repository_status": "accessible",
-      "stars": 2
+      "stars": 3
     },
     "repo": "OmniJev/Flide"
   },
@@ -143124,6 +143496,20 @@
     "repo": "openbibleinfo/Bible-Passage-Reference-Parser"
   },
   {
+    "description": "An open-source OCR solution for fast, accurate document parsing with correctness assessment.",
+    "found": "2026-10-28",
+    "metadata": {
+      "archived": false,
+      "language": "Python",
+      "license": "Apache-2.0",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:06:49Z",
+      "repository_status": "accessible",
+      "stars": 158
+    },
+    "repo": "OpenBMB/MiniCPM-OCR"
+  },
+  {
     "description": "Compatibility testbed for OpenClaw community plugins and plugin seams 🦀",
     "found": "2026-09-27",
     "metadata": {
@@ -143174,10 +143560,10 @@
       "archived": false,
       "language": "Python",
       "license": "MIT",
-      "metadata_checked": "2026-10-23",
-      "pushed_at": "2026-10-23T04:46:40Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:10:52Z",
       "repository_status": "accessible",
-      "stars": 172
+      "stars": 175
     },
     "repo": "OpenHands/extensions"
   },
@@ -143266,6 +143652,20 @@
     "repo": "OpenLAIR/red-flag-research.github.io"
   },
   {
+    "description": "LABRAT — 3D lab rat with an AI brain pulling BURN / BLESS / STASH levers every 3 min on pump.fun. Live: labrat-two.vercel.app · CA 6gUbPAgMx2gTMCVH9wCEWUpKztmabuHosW8gvtXBpump",
+    "found": "2026-10-28",
+    "metadata": {
+      "archived": false,
+      "language": "JavaScript",
+      "license": "not-detected",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T10:39:44Z",
+      "repository_status": "accessible",
+      "stars": 0
+    },
+    "repo": "openpumptrade/labrat"
+  },
+  {
     "description": "The continual tabular agent harness: every state, move, decision and outcome is a typed row in one SQLite file, and TabPFN learns from the rows which moves make progress. Portable Lua; runs on Moss, an agent's own computer on the BEAM.",
     "found": "2026-10-04",
     "metadata": {
@@ -143300,8 +143700,8 @@
       "archived": false,
       "language": "MDX",
       "license": "not-detected",
-      "metadata_checked": "2026-10-26",
-      "pushed_at": "2026-10-26T21:01:34Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:01:29Z",
       "repository_status": "accessible",
       "stars": 13
     },
@@ -143770,6 +144170,20 @@
       "stars": 0
     },
     "repo": "Organized-AI/judy-mods"
+  },
+  {
+    "description": "Ultiv — local-first AI coworker monorepo",
+    "found": "2026-10-28",
+    "metadata": {
+      "archived": false,
+      "language": "TypeScript",
+      "license": "not-detected",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T13:30:48Z",
+      "repository_status": "accessible",
+      "stars": 0
+    },
+    "repo": "orgrigami/ultiv"
   },
   {
     "description": "",
@@ -144684,8 +145098,8 @@
       "archived": false,
       "language": "HTML",
       "license": "not-detected",
-      "metadata_checked": "2026-09-24",
-      "pushed_at": "2026-09-24T23:08:28Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:12:38Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -145948,10 +146362,10 @@
       "archived": false,
       "language": "TypeScript",
       "license": "Apache-2.0",
-      "metadata_checked": "2026-10-24",
-      "pushed_at": "2026-10-24T18:30:42Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:08:26Z",
       "repository_status": "accessible",
-      "stars": 400
+      "stars": 411
     },
     "repo": "Parcha-ai/agentrun"
   },
@@ -145990,8 +146404,8 @@
       "archived": false,
       "language": "Python",
       "license": "not-detected",
-      "metadata_checked": "2026-10-25",
-      "pushed_at": "2026-10-25T22:25:19Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:09:53Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -146216,8 +146630,8 @@
       "archived": false,
       "language": "Rust",
       "license": "Apache-2.0",
-      "metadata_checked": "2026-10-25",
-      "pushed_at": "2026-10-25T13:10:43Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:01:53Z",
       "repository_status": "accessible",
       "stars": 3
     },
@@ -148201,7 +148615,7 @@
       "language": "Go",
       "license": "not-detected",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-28T05:36:29Z",
+      "pushed_at": "2026-10-28T08:30:41Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -148863,7 +149277,7 @@
       "language": "Python",
       "license": "not-detected",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-28T05:50:53Z",
+      "pushed_at": "2026-10-28T15:11:07Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -149062,8 +149476,8 @@
       "archived": false,
       "language": "TypeScript",
       "license": "not-detected",
-      "metadata_checked": "2026-10-07",
-      "pushed_at": "2026-10-07T15:30:10Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:09:48Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -150744,6 +151158,20 @@
     "repo": "possibilities/decision-model-sampler"
   },
   {
+    "description": "",
+    "found": "2026-10-28",
+    "metadata": {
+      "archived": false,
+      "language": "Python",
+      "license": "not-detected",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:06:18Z",
+      "repository_status": "accessible",
+      "stars": 0
+    },
+    "repo": "postfugus/mangai"
+  },
+  {
     "description": "Jev, OpenJev, Luna Decisions and Claude Haiku 4.5 play Skull, a game about lying: the engine, a browser viewer, 518 recorded games, and every number behind the video",
     "found": "2026-10-16",
     "metadata": {
@@ -151903,7 +152331,7 @@
       "language": "TypeScript",
       "license": "MIT",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-28T03:55:25Z",
+      "pushed_at": "2026-10-28T14:51:22Z",
       "repository_status": "accessible",
       "stars": 1
     },
@@ -151916,8 +152344,8 @@
       "archived": false,
       "language": "TypeScript",
       "license": "MIT",
-      "metadata_checked": "2026-10-27",
-      "pushed_at": "2026-10-27T14:36:10Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T14:51:03Z",
       "repository_status": "accessible",
       "stars": 1
     },
@@ -152253,7 +152681,7 @@
       "language": "Kotlin",
       "license": "MIT",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-28T05:45:38Z",
+      "pushed_at": "2026-10-28T06:23:40Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -152970,8 +153398,8 @@
       "archived": false,
       "language": "TypeScript",
       "license": "MIT",
-      "metadata_checked": "2026-10-27",
-      "pushed_at": "2026-10-27T16:14:31Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T11:35:30Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -153872,6 +154300,20 @@
     "repo": "qbeka/jev-job-search"
   },
   {
+    "description": "",
+    "found": "2026-10-28",
+    "metadata": {
+      "archived": false,
+      "language": "Python",
+      "license": "not-detected",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T14:50:34Z",
+      "repository_status": "accessible",
+      "stars": 0
+    },
+    "repo": "qccmayberight/NEWSagent"
+  },
+  {
     "description": "Jev辅助判断的对话聊天助手",
     "found": "2026-10-17",
     "metadata": {
@@ -153935,9 +154377,9 @@
     "metadata": {
       "archived": false,
       "language": "JavaScript",
-      "license": "NOASSERTION",
-      "metadata_checked": "2026-10-26",
-      "pushed_at": "2026-10-26T03:13:32Z",
+      "license": "AGPL-3.0",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T14:46:47Z",
       "repository_status": "accessible",
       "stars": 1
     },
@@ -154190,10 +154632,10 @@
       "archived": false,
       "language": "JavaScript",
       "license": "MIT",
-      "metadata_checked": "2026-10-25",
-      "pushed_at": "2026-10-24T04:12:56Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T07:42:05Z",
       "repository_status": "accessible",
-      "stars": 997
+      "stars": 998
     },
     "readme_checked": "2026-09-22",
     "repo": "qiz029/dscode",
@@ -154220,8 +154662,8 @@
       "archived": false,
       "language": "Markdown",
       "license": "WTFPL",
-      "metadata_checked": "2026-10-20",
-      "pushed_at": "2026-10-20T13:27:39Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T14:55:57Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -154475,7 +154917,7 @@
       "language": "Rust",
       "license": "MIT",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-27T21:34:15Z",
+      "pushed_at": "2026-10-28T12:54:49Z",
       "repository_status": "accessible",
       "stars": 10
     },
@@ -155116,6 +155558,20 @@
     "repo": "radioboxtv/mrouter"
   },
   {
+    "description": "Declarative model-routing policies for Pi, with interchangeable LLM and decision-model selectors",
+    "found": "2026-10-28",
+    "metadata": {
+      "archived": false,
+      "language": "TypeScript",
+      "license": "Apache-2.0",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T14:55:06Z",
+      "repository_status": "accessible",
+      "stars": 0
+    },
+    "repo": "radioflyer28/pi-routing-policies"
+  },
+  {
     "description": "Единый локальный набор правил, навыков (skills), ролей агентов, MCP и адаптеров для AI-клиентов разработки. Один экземпляр набора обслуживает на машине несколько независимых логических проектов",
     "found": "2026-10-16",
     "metadata": {
@@ -155263,7 +155719,7 @@
       "language": "TypeScript",
       "license": "NOASSERTION",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-28T01:55:26Z",
+      "pushed_at": "2026-10-28T14:27:17Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -155518,8 +155974,8 @@
       "archived": false,
       "language": "Python",
       "license": "Apache-2.0",
-      "metadata_checked": "2026-10-27",
-      "pushed_at": "2026-10-27T20:40:45Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T14:58:01Z",
       "repository_status": "accessible",
       "stars": 1
     },
@@ -155756,8 +156212,8 @@
       "archived": false,
       "language": "Rust",
       "license": "MIT",
-      "metadata_checked": "2026-10-27",
-      "pushed_at": "2026-10-27T12:23:08Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T09:55:43Z",
       "repository_status": "accessible",
       "stars": 2
     },
@@ -156244,6 +156700,20 @@
       "stars": 0
     },
     "repo": "RamonARC97/jev-dataops"
+  },
+  {
+    "description": "A simple JEV example in python",
+    "found": "2026-10-28",
+    "metadata": {
+      "archived": false,
+      "language": "Python",
+      "license": "not-detected",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T13:32:27Z",
+      "repository_status": "accessible",
+      "stars": 0
+    },
+    "repo": "ramonpin/jev-sdk-sample"
   },
   {
     "description": "ramp-cli",
@@ -156854,6 +157324,20 @@
     "repo": "raufimusaddiq/richmod"
   },
   {
+    "description": "Sorot — turn long YouTube or local videos into vertical 9:16 clips with word-timed captions, for Indonesian short-form. Runs locally: Whisper + explainable scoring, optional LLM, auto-discover of source videos.",
+    "found": "2026-10-28",
+    "metadata": {
+      "archived": false,
+      "language": "TypeScript",
+      "license": "MIT",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T14:59:15Z",
+      "repository_status": "accessible",
+      "stars": 0
+    },
+    "repo": "raufimusaddiq/sorot"
+  },
+  {
     "description": "Ask Jev (TypeSafe System One) typed questions from DeepSeek Harness: batch judgements with probabilities, configured per user in Settings.",
     "found": "2026-09-22",
     "metadata": {
@@ -157084,8 +157568,8 @@
       "archived": false,
       "language": "Python",
       "license": "Apache-2.0",
-      "metadata_checked": "2026-10-26",
-      "pushed_at": "2026-10-24T14:23:49Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T13:58:09Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -157330,6 +157814,20 @@
       "stars": 0
     },
     "repo": "RayWangQvQ/miaotoujunshi"
+  },
+  {
+    "description": "Benchmarking System-1 decision models against frontier LLMs through Rubik's Cube solving, comparing decision speed, reasoning quality, solve rates, and solution optimality.",
+    "found": "2026-10-28",
+    "metadata": {
+      "archived": false,
+      "language": "Python",
+      "license": "not-detected",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:04:13Z",
+      "repository_status": "accessible",
+      "stars": 0
+    },
+    "repo": "rayyan-merchant/CubeRace-System1-vs-LLM"
   },
   {
     "description": "Formula 1 Quali, but for the World Drivers' Championship (WDC) built on Jev.",
@@ -158237,7 +158735,7 @@
       "language": "Python",
       "license": "NOASSERTION",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-28T05:31:37Z",
+      "pushed_at": "2026-10-28T15:09:33Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -158651,6 +159149,20 @@
   },
   {
     "description": "",
+    "found": "2026-10-28",
+    "metadata": {
+      "archived": false,
+      "language": "TypeScript",
+      "license": "not-detected",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:12:13Z",
+      "repository_status": "accessible",
+      "stars": 1
+    },
+    "repo": "RestartFU/minecraft-mcp"
+  },
+  {
+    "description": "",
     "found": "2026-09-25",
     "metadata": {
       "archived": false,
@@ -158879,9 +159391,9 @@
     "metadata": {
       "archived": false,
       "language": "TypeScript",
-      "license": "not-detected",
+      "license": "MIT",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-28T05:39:33Z",
+      "pushed_at": "2026-10-28T12:18:10Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -159950,8 +160462,8 @@
       "archived": false,
       "language": "Python",
       "license": "not-detected",
-      "metadata_checked": "2026-10-23",
-      "pushed_at": "2026-10-23T10:50:26Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T12:48:22Z",
       "repository_status": "accessible",
       "stars": 1
     },
@@ -160428,8 +160940,8 @@
       "archived": false,
       "language": "Python",
       "license": "NOASSERTION",
-      "metadata_checked": "2026-10-25",
-      "pushed_at": "2026-10-24T22:53:34Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T09:04:15Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -162714,6 +163226,20 @@
     "repo": "rominirani/gcp-typesafe-jev-hybrid-gateway"
   },
   {
+    "description": "Dispatch requests between multiple ollama instances",
+    "found": "2026-10-28",
+    "metadata": {
+      "archived": false,
+      "language": "Python",
+      "license": "MIT",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T14:56:51Z",
+      "repository_status": "accessible",
+      "stars": 0
+    },
+    "repo": "romkey/llama-router"
+  },
+  {
     "description": "",
     "found": "2026-09-22",
     "metadata": {
@@ -163814,8 +164340,8 @@
       "archived": false,
       "language": "JavaScript",
       "license": "NOASSERTION",
-      "metadata_checked": "2026-10-26",
-      "pushed_at": "2026-10-26T16:24:32Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T09:58:20Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -164232,6 +164758,20 @@
     "repo": "Runtime-Garden/go-evidence-investigator"
   },
   {
+    "description": "Contract review workbench built with Go, Eino and React, with evidence validation, human review and versioned rules.",
+    "found": "2026-10-28",
+    "metadata": {
+      "archived": false,
+      "language": "Go",
+      "license": "not-detected",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T14:50:50Z",
+      "repository_status": "accessible",
+      "stars": 0
+    },
+    "repo": "Rupert-WLLP-Bai/contract-audit-workbench"
+  },
+  {
     "description": "Testing flappy bird with SystemOne Jev like model locally ",
     "found": "2026-09-20",
     "metadata": {
@@ -164423,7 +164963,7 @@
       "language": "Python",
       "license": "MIT",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-27T11:08:23Z",
+      "pushed_at": "2026-10-28T15:07:57Z",
       "repository_status": "accessible",
       "stars": 2
     },
@@ -165414,8 +165954,8 @@
       "archived": false,
       "language": "Python",
       "license": "NOASSERTION",
-      "metadata_checked": "2026-10-27",
-      "pushed_at": "2026-10-27T17:56:58Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T13:38:08Z",
       "repository_status": "accessible",
       "stars": 5
     },
@@ -167279,7 +167819,7 @@
       "language": "Rust",
       "license": "Apache-2.0",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-28T04:52:58Z",
+      "pushed_at": "2026-10-28T07:43:14Z",
       "repository_status": "accessible",
       "stars": 770
     },
@@ -167491,7 +168031,7 @@
       "language": "Java",
       "license": "MIT",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-27T16:52:45Z",
+      "pushed_at": "2026-10-28T09:10:59Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -169004,8 +169544,8 @@
       "archived": false,
       "language": "Python",
       "license": "NOASSERTION",
-      "metadata_checked": "2026-10-27",
-      "pushed_at": "2026-10-27T14:21:19Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T11:52:49Z",
       "repository_status": "accessible",
       "stars": 3
     },
@@ -172362,6 +172902,20 @@
     "repo": "shashank03-dev/rustcast"
   },
   {
+    "description": "",
+    "found": "2026-10-28",
+    "metadata": {
+      "archived": false,
+      "language": "TypeScript",
+      "license": "MIT",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T14:24:13Z",
+      "repository_status": "accessible",
+      "stars": 0
+    },
+    "repo": "shashankrgowda008-crypto/gravity-ai"
+  },
+  {
     "description": "An AI gateway that uses Jev for fast decisions, routes requests to the right LLM or agent, and blocks unsafe tool actions with a safety gate",
     "found": "2026-09-25",
     "metadata": {
@@ -172388,6 +172942,20 @@
       "stars": 0
     },
     "repo": "shashanthnetha/Cliping"
+  },
+  {
+    "description": "",
+    "found": "2026-10-28",
+    "metadata": {
+      "archived": false,
+      "language": "Python",
+      "license": "MIT",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T13:42:29Z",
+      "repository_status": "accessible",
+      "stars": 0
+    },
+    "repo": "ShashikaMihiranga/verbatim"
   },
   {
     "description": "Daily AI news, fact-checked and traced back to its roots. A source-checked history of AI since 1943, a glossary with lineage, and the labs and people behind it. Open data, built nightly on free Gemini and Groq tiers.",
@@ -172625,7 +173193,7 @@
       "metadata_checked": "2026-10-28",
       "pushed_at": "2026-10-27T23:13:12Z",
       "repository_status": "accessible",
-      "stars": 2028
+      "stars": 2032
     },
     "repo": "shcherbak-ai/contextgem"
   },
@@ -172776,8 +173344,8 @@
       "archived": false,
       "language": "Python",
       "license": "not-detected",
-      "metadata_checked": "2026-10-27",
-      "pushed_at": "2026-10-27T04:55:06Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:12:25Z",
       "repository_status": "accessible",
       "stars": 1
     },
@@ -176045,7 +176613,7 @@
       "language": "Python",
       "license": "NOASSERTION",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-28T05:51:40Z",
+      "pushed_at": "2026-10-28T09:54:05Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -176926,6 +177494,20 @@
       "stars": 0
     },
     "repo": "skingko/rna_dev"
+  },
+  {
+    "description": "",
+    "found": "2026-10-28",
+    "metadata": {
+      "archived": false,
+      "language": "Java",
+      "license": "MIT",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T13:59:24Z",
+      "repository_status": "accessible",
+      "stars": 0
+    },
+    "repo": "skipsleep30-dev/pr-risk-guard"
   },
   {
     "description": "A Bun terminal app where configured LLMs propose solutions concurrently, critique each other's answers, and let Laya select a candidate to synthesize a final response.",
@@ -178249,7 +178831,7 @@
       "metadata_checked": "2026-10-28",
       "pushed_at": "2026-10-27T21:56:34Z",
       "repository_status": "accessible",
-      "stars": 247
+      "stars": 248
     },
     "readme_checked": "2026-09-22",
     "repo": "socai-io/socai",
@@ -179291,7 +179873,7 @@
       "language": "Shell",
       "license": "Apache-2.0",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-27T22:25:54Z",
+      "pushed_at": "2026-10-28T11:27:42Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -179432,8 +180014,8 @@
       "archived": false,
       "language": "Rust",
       "license": "not-detected",
-      "metadata_checked": "2026-10-21",
-      "pushed_at": "2026-10-21T19:59:45Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T14:51:15Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -179712,10 +180294,10 @@
       "archived": false,
       "language": "Shell",
       "license": "MIT",
-      "metadata_checked": "2026-10-21",
-      "pushed_at": "2026-10-21T20:02:18Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T14:50:06Z",
       "repository_status": "accessible",
-      "stars": 1
+      "stars": 4
     },
     "repo": "spacepacket1/e3d-pilot"
   },
@@ -180195,7 +180777,7 @@
       "language": "Python",
       "license": "MIT",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-27T20:24:23Z",
+      "pushed_at": "2026-10-28T11:21:29Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -180433,7 +181015,7 @@
       "language": "TypeScript",
       "license": "Apache-2.0",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-27T18:47:08Z",
+      "pushed_at": "2026-10-28T14:12:28Z",
       "repository_status": "accessible",
       "stars": 2
     },
@@ -182110,8 +182692,8 @@
       "archived": false,
       "language": "Python",
       "license": "not-detected",
-      "metadata_checked": "2026-10-24",
-      "pushed_at": "2026-10-24T04:45:48Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:09:41Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -183012,8 +183594,8 @@
       "archived": false,
       "language": "PHP",
       "license": "not-detected",
-      "metadata_checked": "2026-10-27",
-      "pushed_at": "2026-10-27T13:01:46Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T14:05:42Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -183236,8 +183818,8 @@
       "archived": false,
       "language": "TypeScript",
       "license": "MIT",
-      "metadata_checked": "2026-10-24",
-      "pushed_at": "2026-10-24T08:39:45Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T11:32:12Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -183424,6 +184006,20 @@
       "stars": 0
     },
     "repo": "sumitvairagar/jev-spring-boot-starter"
+  },
+  {
+    "description": "Chrome pluging where jev filtters harmfull forum posts",
+    "found": "2026-10-28",
+    "metadata": {
+      "archived": false,
+      "language": "JavaScript",
+      "license": "MIT",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T08:52:53Z",
+      "repository_status": "accessible",
+      "stars": 0
+    },
+    "repo": "Summeli/go-touch-grass"
   },
   {
     "description": "Terminal coding agent in Rust — OpenAI-compatible + Anthropic + Codex providers, agentic tools (MCP included), a streaming ratatui TUI, client↔daemon over HTTP+SSE, resumable JSONL sessions, and no telemetry.",
@@ -184771,7 +185367,7 @@
       "language": "HTML",
       "license": "MIT",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-28T05:52:28Z",
+      "pushed_at": "2026-10-28T15:07:33Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -184784,8 +185380,8 @@
       "archived": false,
       "language": "TypeScript",
       "license": "Apache-2.0",
-      "metadata_checked": "2026-10-27",
-      "pushed_at": "2026-10-27T14:38:32Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:04:00Z",
       "repository_status": "accessible",
       "stars": 38
     },
@@ -186677,7 +187273,7 @@
       "language": "Python",
       "license": "Apache-2.0",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-28T04:57:44Z",
+      "pushed_at": "2026-10-28T10:48:25Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -186916,8 +187512,8 @@
       "archived": false,
       "language": "Python",
       "license": "not-detected",
-      "metadata_checked": "2026-10-22",
-      "pushed_at": "2026-10-22T11:24:51Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T12:57:07Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -188778,6 +189374,20 @@
     "repo": "TauricResearch/TradingAgents"
   },
   {
+    "description": "",
+    "found": "2026-10-28",
+    "metadata": {
+      "archived": false,
+      "language": "TypeScript",
+      "license": "not-detected",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T14:50:29Z",
+      "repository_status": "accessible",
+      "stars": 0
+    },
+    "repo": "tavareshenrique/pick-one"
+  },
+  {
     "description": "Visual-regression CLI for renderers using NVIDIA FLIP, with exact identity proofs, timing checks and a GitHub Action",
     "found": "2026-10-06",
     "metadata": {
@@ -188939,7 +189549,7 @@
       "language": "TypeScript",
       "license": "AGPL-3.0",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-28T01:48:12Z",
+      "pushed_at": "2026-10-28T05:57:09Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -189373,7 +189983,7 @@
       "language": "TypeScript",
       "license": "not-detected",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-28T05:54:49Z",
+      "pushed_at": "2026-10-28T08:47:22Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -189520,6 +190130,20 @@
     "repo": "Tech-Byte-Frontier/jevgate-action"
   },
   {
+    "description": "Source-checked MCP servers, agent skills and tools, with access notes. Point an agent at this repo to bootstrap.",
+    "found": "2026-10-28",
+    "metadata": {
+      "archived": false,
+      "language": "Python",
+      "license": "NOASSERTION",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:09:45Z",
+      "repository_status": "accessible",
+      "stars": 2
+    },
+    "repo": "techhorizonlabs/gearlist"
+  },
+  {
     "description": "",
     "found": "2026-10-15",
     "metadata": {
@@ -189568,8 +190192,8 @@
       "archived": false,
       "language": "Python",
       "license": "MIT",
-      "metadata_checked": "2026-10-16",
-      "pushed_at": "2026-10-16T04:40:44Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:01:10Z",
       "repository_status": "accessible",
       "stars": 2
     },
@@ -189582,8 +190206,8 @@
       "archived": false,
       "language": "Python",
       "license": "MIT",
-      "metadata_checked": "2026-10-27",
-      "pushed_at": "2026-10-27T18:51:54Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T13:10:58Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -190909,7 +191533,7 @@
       "language": "TypeScript",
       "license": "MIT",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-28T05:38:55Z",
+      "pushed_at": "2026-10-28T15:09:21Z",
       "repository_status": "accessible",
       "stars": 1
     },
@@ -191118,8 +191742,8 @@
       "archived": false,
       "language": "Python",
       "license": "MIT",
-      "metadata_checked": "2026-10-25",
-      "pushed_at": "2026-10-25T04:53:08Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:10:26Z",
       "repository_status": "accessible",
       "stars": 1
     },
@@ -191964,8 +192588,8 @@
       "archived": false,
       "language": "Python",
       "license": "NOASSERTION",
-      "metadata_checked": "2026-10-27",
-      "pushed_at": "2026-10-27T12:19:38Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T13:02:41Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -191978,8 +192602,8 @@
       "archived": false,
       "language": "Python",
       "license": "MIT",
-      "metadata_checked": "2026-10-27",
-      "pushed_at": "2026-10-27T10:41:52Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T11:25:49Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -192007,7 +192631,7 @@
       "language": "TypeScript",
       "license": "MIT",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-27T22:43:33Z",
+      "pushed_at": "2026-10-28T09:47:00Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -192401,7 +193025,7 @@
       "language": "Python",
       "license": "Apache-2.0",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-28T02:06:06Z",
+      "pushed_at": "2026-10-28T11:55:18Z",
       "repository_status": "accessible",
       "stars": 177
     },
@@ -192954,8 +193578,8 @@
       "archived": false,
       "language": "HTML",
       "license": "not-detected",
-      "metadata_checked": "2026-10-26",
-      "pushed_at": "2026-10-26T21:02:25Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:09:45Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -193032,6 +193656,20 @@
       "stars": 0
     },
     "repo": "TiChuXiXi/dsh-jev-zxh"
+  },
+  {
+    "description": "Fork of sub2api some improvements",
+    "found": "2026-10-28",
+    "metadata": {
+      "archived": false,
+      "language": "Go",
+      "license": "LGPL-3.0",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:09:00Z",
+      "repository_status": "accessible",
+      "stars": 11
+    },
+    "repo": "tickernelz/sub2api"
   },
   {
     "description": "Tico: an organizational layer for AI employees. Self-hosted hub where people and AI bots share tasks, updates, docs and meetings.",
@@ -194394,8 +195032,8 @@
       "archived": false,
       "language": "C",
       "license": "not-detected",
-      "metadata_checked": "2026-10-23",
-      "pushed_at": "2026-10-23T22:56:59Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T14:57:56Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -195043,7 +195681,7 @@
       "language": "Python",
       "license": "not-detected",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-28T05:55:16Z",
+      "pushed_at": "2026-10-28T15:06:02Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -195636,8 +196274,8 @@
       "archived": false,
       "language": "Python",
       "license": "MIT",
-      "metadata_checked": "2026-10-27",
-      "pushed_at": "2026-10-27T14:37:36Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:06:18Z",
       "repository_status": "accessible",
       "stars": 1
     },
@@ -196329,7 +196967,7 @@
       "language": "TypeScript",
       "license": "MIT",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-28T04:58:50Z",
+      "pushed_at": "2026-10-28T09:23:31Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -197019,7 +197657,7 @@
       "metadata_checked": "2026-10-28",
       "pushed_at": "2026-10-28T02:16:33Z",
       "repository_status": "accessible",
-      "stars": 508
+      "stars": 509
     },
     "repo": "ttlequals0/MinusPod"
   },
@@ -197632,8 +198270,8 @@
       "archived": false,
       "language": "Python",
       "license": "MIT",
-      "metadata_checked": "2026-10-20",
-      "pushed_at": "2026-10-20T04:44:42Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:12:45Z",
       "repository_status": "accessible",
       "stars": 1
     },
@@ -198912,6 +199550,20 @@
     "repo": "Ultonian/jevjavauosdk"
   },
   {
+    "description": "Enforced ticket-system CLI for agents (GitHub Issues / Linear) — every request becomes a well-formed ticket",
+    "found": "2026-10-28",
+    "metadata": {
+      "archived": false,
+      "language": "Python",
+      "license": "MIT",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T10:32:07Z",
+      "repository_status": "accessible",
+      "stars": 0
+    },
+    "repo": "ULTRA-BRICKS/task-cli"
+  },
+  {
     "description": "",
     "found": "2026-09-22",
     "metadata": {
@@ -199243,7 +199895,7 @@
       "language": "TypeScript",
       "license": "MIT",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-27T20:06:17Z",
+      "pushed_at": "2026-10-28T10:30:25Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -199688,6 +200340,20 @@
       "stars": 1
     },
     "repo": "urbisjuridica-ctrl/ARCA-DE-LA-ALIANZA-AGENTS"
+  },
+  {
+    "description": "Local LLM agent defender layer (Apple Silicon + Claude Code)",
+    "found": "2026-10-28",
+    "metadata": {
+      "archived": false,
+      "language": "Python",
+      "license": "not-detected",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T14:51:47Z",
+      "repository_status": "accessible",
+      "stars": 0
+    },
+    "repo": "urika/llama-defender"
   },
   {
     "description": "",
@@ -200713,7 +201379,7 @@
       "language": "Python",
       "license": "not-detected",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-28T05:53:13Z",
+      "pushed_at": "2026-10-28T15:10:49Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -200965,9 +201631,9 @@
       "language": "Python",
       "license": "not-detected",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-28T05:36:05Z",
+      "pushed_at": "2026-10-28T14:49:54Z",
       "repository_status": "accessible",
-      "stars": 0
+      "stars": 1
     },
     "repo": "Vatsa10/Hisaab"
   },
@@ -201851,7 +202517,7 @@
       "language": "TypeScript",
       "license": "MIT",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-28T05:41:48Z",
+      "pushed_at": "2026-10-28T06:09:17Z",
       "repository_status": "accessible",
       "stars": 2
     },
@@ -202484,12 +203150,26 @@
       "archived": false,
       "language": "HTML",
       "license": "not-detected",
-      "metadata_checked": "2026-09-28",
-      "pushed_at": "2026-09-28T16:46:07Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T14:53:30Z",
       "repository_status": "accessible",
       "stars": 0
     },
     "repo": "viicslen-nix/ai"
+  },
+  {
+    "description": "",
+    "found": "2026-10-28",
+    "metadata": {
+      "archived": false,
+      "language": "Nix",
+      "license": "not-detected",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T14:53:33Z",
+      "repository_status": "accessible",
+      "stars": 0
+    },
+    "repo": "viicslen-nix/packages"
   },
   {
     "description": "When and Where Actually to use Jev in your code base.",
@@ -203689,7 +204369,7 @@
       "language": "Python",
       "license": "not-detected",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-28T05:47:13Z",
+      "pushed_at": "2026-10-28T12:59:32Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -204342,6 +205022,20 @@
     "repo": "VoxeveR/hackyeah-scrum-lovers"
   },
   {
+    "description": "Hub-and-spoke parallel agent system for OpenCode: role agents, a lease-guarded board, and a safety suite.",
+    "found": "2026-10-28",
+    "metadata": {
+      "archived": false,
+      "language": "TypeScript",
+      "license": "GPL-3.0",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T14:53:35Z",
+      "repository_status": "accessible",
+      "stars": 0
+    },
+    "repo": "voxslopuli/openagentsy"
+  },
+  {
     "description": "VS Code extension built on the DeepSeek Harness. Self contained, configurable harness for software engineering by software engineers",
     "found": "2026-10-13",
     "metadata": {
@@ -204508,6 +205202,20 @@
       "stars": 0
     },
     "repo": "vtavakkoli/simple-jev"
+  },
+  {
+    "description": "",
+    "found": "2026-10-28",
+    "metadata": {
+      "archived": false,
+      "language": "Go",
+      "license": "LGPL-3.0",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T09:07:42Z",
+      "repository_status": "accessible",
+      "stars": 0
+    },
+    "repo": "vtruong2k3/OmniAPI"
   },
   {
     "description": "⚛️ AgentKthx - minimal, modular, python stdlib, agentic framework for tool calling AI agents. Runs locally with Ollama, BitNet, TurboQuant, in the cloud with OpenRouter, ZAI, HuggingFace, and Google Gemini. Extensible via a manifest-based plugin system for additional backends and features.",
@@ -205214,6 +205922,20 @@
       "stars": 0
     },
     "repo": "Wandersport/WS-Jev"
+  },
+  {
+    "description": "",
+    "found": "2026-10-28",
+    "metadata": {
+      "archived": false,
+      "language": "Python",
+      "license": "not-detected",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T14:57:07Z",
+      "repository_status": "accessible",
+      "stars": 0
+    },
+    "repo": "Wandersport/WS-StepAhead-Lab"
   },
   {
     "description": "",
@@ -207910,8 +208632,8 @@
       "archived": false,
       "language": "Python",
       "license": "MIT",
-      "metadata_checked": "2026-10-25",
-      "pushed_at": "2026-10-23T23:11:02Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:12:38Z",
       "repository_status": "accessible",
       "stars": 8
     },
@@ -209056,6 +209778,20 @@
       "stars": 0
     },
     "repo": "xawt/prism"
+  },
+  {
+    "description": "",
+    "found": "2026-10-28",
+    "metadata": {
+      "archived": false,
+      "language": "Python",
+      "license": "Apache-2.0",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:11:19Z",
+      "repository_status": "accessible",
+      "stars": 0
+    },
+    "repo": "xbill9/gemma-graveyard"
   },
   {
     "description": "Gemma 4 on Google Cloud TPU: a monorepo of accelerator rigs (vLLM, JAX, PyTorch/torch_xla) each shipping a tpu-devops MCP server.",
@@ -210286,8 +211022,8 @@
       "archived": false,
       "language": "TypeScript",
       "license": "not-detected",
-      "metadata_checked": "2026-10-25",
-      "pushed_at": "2026-10-25T19:00:51Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:04:16Z",
       "repository_status": "accessible",
       "stars": 2
     },
@@ -210671,7 +211407,7 @@
       "language": "TypeScript",
       "license": "AGPL-3.0",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-28T01:18:39Z",
+      "pushed_at": "2026-10-28T11:30:29Z",
       "repository_status": "accessible",
       "stars": 2
     },
@@ -211048,8 +211784,8 @@
       "archived": false,
       "language": "TypeScript",
       "license": "not-detected",
-      "metadata_checked": "2026-10-27",
-      "pushed_at": "2026-10-27T07:28:11Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:06:46Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -211350,6 +212086,20 @@
       "stars": 0
     },
     "repo": "YanTKYS/ai-watch"
+  },
+  {
+    "description": "自治体DX・自治体の生成AI活用に関する新着Web情報を、Brave Search APIから定期収集して Markdownの時系列ログとして蓄積するツールです。",
+    "found": "2026-10-28",
+    "metadata": {
+      "archived": false,
+      "language": "Python",
+      "license": "not-detected",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:03:46Z",
+      "repository_status": "accessible",
+      "stars": 0
+    },
+    "repo": "YanTKYS/news-watch"
   },
   {
     "description": "A self-hosted, bilingual playground for Jev’s Choice, Noul, and Score judgments.",
@@ -212060,8 +212810,8 @@
       "archived": false,
       "language": "TypeScript",
       "license": "not-detected",
-      "metadata_checked": "2026-10-27",
-      "pushed_at": "2026-10-27T11:11:41Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T12:03:37Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -212144,8 +212894,8 @@
       "archived": false,
       "language": "Python",
       "license": "CC0-1.0",
-      "metadata_checked": "2026-10-27",
-      "pushed_at": "2026-10-27T14:38:15Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:11:49Z",
       "repository_status": "accessible",
       "stars": 33
     },
@@ -212236,6 +212986,20 @@
     "readme_checked": "2026-09-23",
     "repo": "Yeshwanthyk/pi-subagents",
     "status": "needs-review-no-explicit-match"
+  },
+  {
+    "description": "",
+    "found": "2026-10-28",
+    "metadata": {
+      "archived": false,
+      "language": "TypeScript",
+      "license": "MIT",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T11:19:50Z",
+      "repository_status": "accessible",
+      "stars": 0
+    },
+    "repo": "yesitsfebreeze/orly"
   },
   {
     "description": "",
@@ -212364,6 +213128,20 @@
       "stars": 0
     },
     "repo": "yhauxell/foqz"
+  },
+  {
+    "description": "Replication of Fulgu & Capraro (2024) on two local LM Studio decision models: GPT-4's gender bias keeps its direction, mostly not its size.",
+    "found": "2026-10-28",
+    "metadata": {
+      "archived": false,
+      "language": "Python",
+      "license": "MIT",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T12:06:35Z",
+      "repository_status": "accessible",
+      "stars": 0
+    },
+    "repo": "yhavinga/decision-model-gender-bias"
   },
   {
     "description": "JEV Model Router: task-aware AI model routing for agent-driven development",
@@ -212598,8 +213376,8 @@
       "archived": false,
       "language": "Rust",
       "license": "MIT",
-      "metadata_checked": "2026-10-26",
-      "pushed_at": "2026-10-26T04:40:29Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T14:51:59Z",
       "repository_status": "accessible",
       "stars": 1
     },
@@ -213009,7 +213787,7 @@
       "language": "HTML",
       "license": "not-detected",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-28T05:50:24Z",
+      "pushed_at": "2026-10-28T15:12:38Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -213590,8 +214368,8 @@
       "archived": false,
       "language": "HTML",
       "license": "not-detected",
-      "metadata_checked": "2026-10-25",
-      "pushed_at": "2026-10-25T12:58:00Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T14:51:51Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -214071,7 +214849,7 @@
       "language": "TypeScript",
       "license": "MIT",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-28T01:49:12Z",
+      "pushed_at": "2026-10-28T13:41:20Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -214420,8 +215198,8 @@
       "archived": false,
       "language": "Rust",
       "license": "MIT",
-      "metadata_checked": "2026-10-25",
-      "pushed_at": "2026-10-25T22:18:12Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:10:05Z",
       "repository_status": "accessible",
       "stars": 1
     },
@@ -214560,8 +215338,8 @@
       "archived": false,
       "language": null,
       "license": "not-detected",
-      "metadata_checked": "2026-10-27",
-      "pushed_at": "2026-10-27T20:24:46Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T14:50:19Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -215682,6 +216460,20 @@
     "repo": "zahrahanifehlou/Multi-Agent-Decision"
   },
   {
+    "description": "Chrome MV3 extension hiding Facebook sponsored posts",
+    "found": "2026-10-28",
+    "metadata": {
+      "archived": false,
+      "language": "TypeScript",
+      "license": "not-detected",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T09:15:28Z",
+      "repository_status": "accessible",
+      "stars": 0
+    },
+    "repo": "zain9191/fb-ad-hider"
+  },
+  {
     "description": "",
     "found": "2026-09-29",
     "metadata": {
@@ -216348,8 +217140,8 @@
       "archived": false,
       "language": "Python",
       "license": "not-detected",
-      "metadata_checked": "2026-10-26",
-      "pushed_at": "2026-10-26T15:17:05Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T14:54:40Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -216602,10 +217394,10 @@
       "archived": false,
       "language": null,
       "license": "not-detected",
-      "metadata_checked": "2026-10-27",
-      "pushed_at": "2026-10-27T14:34:03Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:08:28Z",
       "repository_status": "accessible",
-      "stars": 10
+      "stars": 11
     },
     "repo": "Zero0x00/Ai-Security-radar-"
   },
@@ -216927,7 +217719,7 @@
       "language": "TypeScript",
       "license": "MIT",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-28T02:18:20Z",
+      "pushed_at": "2026-10-28T14:18:57Z",
       "repository_status": "accessible",
       "stars": 2
     },
@@ -216940,8 +217732,8 @@
       "archived": false,
       "language": "Python",
       "license": "not-detected",
-      "metadata_checked": "2026-10-26",
-      "pushed_at": "2026-10-26T09:03:23Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T08:58:08Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -217150,10 +217942,10 @@
       "archived": false,
       "language": "Python",
       "license": "NOASSERTION",
-      "metadata_checked": "2026-10-08",
-      "pushed_at": "2026-10-08T06:03:07Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T14:50:37Z",
       "repository_status": "accessible",
-      "stars": 2
+      "stars": 3
     },
     "repo": "ZhenningLang/GitHub-Michelin"
   },
@@ -218528,8 +219320,8 @@
       "archived": false,
       "language": "Swift",
       "license": "AGPL-3.0",
-      "metadata_checked": "2026-10-18",
-      "pushed_at": "2026-10-18T12:38:02Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:09:42Z",
       "repository_status": "accessible",
       "stars": 1
     },
@@ -218698,10 +219490,10 @@
       "archived": false,
       "language": "Go",
       "license": "Apache-2.0",
-      "metadata_checked": "2026-10-25",
-      "pushed_at": "2026-10-25T22:38:12Z",
+      "metadata_checked": "2026-10-28",
+      "pushed_at": "2026-10-28T15:11:31Z",
       "repository_status": "accessible",
-      "stars": 11
+      "stars": 25
     },
     "repo": "zuiho-kai/bothouse"
   },
@@ -218755,7 +219547,7 @@
       "language": "JavaScript",
       "license": "MIT",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-28T03:16:55Z",
+      "pushed_at": "2026-10-28T08:21:38Z",
       "repository_status": "accessible",
       "stars": 0
     },
@@ -218895,7 +219687,7 @@
       "language": "TypeScript",
       "license": "not-detected",
       "metadata_checked": "2026-10-28",
-      "pushed_at": "2026-10-28T02:40:40Z",
+      "pushed_at": "2026-10-28T14:54:16Z",
       "repository_status": "accessible",
       "stars": 0
     },
