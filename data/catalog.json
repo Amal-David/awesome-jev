@@ -390,10 +390,10 @@
     "kind": "direct-integration",
     "language": "TypeScript",
     "license": "MIT",
-    "metadata_checked": "2026-10-17",
+    "metadata_checked": "2026-10-30",
     "name": "1 Million Emojis",
     "notes": "Submitted by cwdx in PR #22. Inspected the public canvas logic, Jev client and unit-test source; no tests or paid inference were run. The inspected request sends stroke geometry, nearby emoji names and a text grid, without painter identity. The client routes through Vercel AI Gateway with TypeSafe HTTPS as fallback; running inference from source requires an API key. The repository mirrors reusable packages, not the hosted site's server. Visitor limits and the daily spending cap are author-described and were not verified; no shared canvas was changed.",
-    "pushed_at": "2026-10-15T01:40:40Z",
+    "pushed_at": "2026-10-30T07:22:01Z",
     "repo": "cwdx/1-million-emojis",
     "repository_status": "accessible",
     "reviewed": "2026-10-08",
@@ -401,7 +401,7 @@
       "https://github.com/cwdx/1-million-emojis/blob/f0e8273ebcedee466c0302f2a8fdb30c7964c29b/README.md",
       "https://github.com/hellogumbo/awesome-jev"
     ],
-    "stars": 0,
+    "stars": 1,
     "url": "https://github.com/cwdx/1-million-emojis"
   },
   {
@@ -504,9 +504,9 @@
     "evidence_level": "community-indexed",
     "language": "TypeScript",
     "license": "GPL-3.0",
-    "metadata_checked": "2026-10-17",
+    "metadata_checked": "2026-10-30",
     "name": "Chess with Jev",
-    "pushed_at": "2026-10-15T01:40:37Z",
+    "pushed_at": "2026-10-30T07:22:04Z",
     "repo": "cwdx/chess-with-jev",
     "repository_status": "accessible",
     "sources": [
@@ -672,7 +672,7 @@
     "evidence_level": "community-indexed",
     "language": "Python",
     "license": "not-detected",
-    "metadata_checked": "2026-10-17",
+    "metadata_checked": "2026-10-30",
     "name": "DoomSat",
     "pushed_at": "2026-10-04T23:21:44Z",
     "repo": "doom-satellite/DoomSat",
@@ -860,7 +860,7 @@
     "evidence_level": "community-indexed",
     "language": "Python",
     "license": "MIT",
-    "metadata_checked": "2026-10-17",
+    "metadata_checked": "2026-10-30",
     "name": "JEV Control Your Roboarm",
     "pushed_at": "2026-09-29T15:43:09Z",
     "repo": "CharlesFeng0314/JEV_control_your_roboarm",
@@ -1199,7 +1199,7 @@
     "evidence_level": "community-indexed",
     "language": "Python",
     "license": "MIT",
-    "metadata_checked": "2026-10-17",
+    "metadata_checked": "2026-10-30",
     "name": "jev-libero",
     "notes": "Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.",
     "pushed_at": "2026-09-21T07:46:34Z",
@@ -1209,7 +1209,7 @@
       "https://github.com/hellogumbo/awesome-jev",
       "https://github.com/Dimweaker/jev-libero/blob/main/README.md"
     ],
-    "stars": 83,
+    "stars": 87,
     "url": "https://github.com/Dimweaker/jev-libero"
   },
   {
@@ -2081,7 +2081,7 @@
     "evidence_level": "community-indexed",
     "language": "Python",
     "license": "GPL-3.0",
-    "metadata_checked": "2026-10-17",
+    "metadata_checked": "2026-10-30",
     "name": "system-one-chess",
     "pushed_at": "2026-10-02T08:03:08Z",
     "repo": "dperezcabrera/ai-chess-lab",
@@ -3112,10 +3112,10 @@
     "evidence_level": "readme-matched",
     "language": "Go",
     "license": "MIT",
-    "metadata_checked": "2026-10-17",
+    "metadata_checked": "2026-10-30",
     "name": "agent-skill-manager",
     "notes": "Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.",
-    "pushed_at": "2026-10-05T07:50:30Z",
+    "pushed_at": "2026-10-30T01:01:19Z",
     "repo": "dees91/agent-skill-manager",
     "repository_status": "accessible",
     "sources": [
@@ -3131,10 +3131,10 @@
     "evidence_level": "readme-matched",
     "language": "Python",
     "license": "not-detected",
-    "metadata_checked": "2026-10-17",
+    "metadata_checked": "2026-10-30",
     "name": "agent-skills",
     "notes": "Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.",
-    "pushed_at": "2026-10-13T14:25:18Z",
+    "pushed_at": "2026-10-23T15:58:32Z",
     "repo": "DrOlu/agent-skills",
     "repository_status": "accessible",
     "sources": [
@@ -3666,6 +3666,25 @@
     ],
     "stars": 2,
     "url": "https://github.com/zlZayn/AI-decision-maker"
+  },
+  {
+    "archived": false,
+    "category": "demos",
+    "description": "Terminal text-adventure driven entirely by TypeSafe AI's Jev decision model - typed choice/score/noul answers, not generated prose",
+    "evidence_level": "readme-matched",
+    "language": "Python",
+    "license": "not-detected",
+    "metadata_checked": "2026-10-30",
+    "name": "ai-dungeon-game",
+    "notes": "Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.",
+    "pushed_at": "2026-09-22T11:57:29Z",
+    "repo": "MONISMALIK1/ai-dungeon-game",
+    "repository_status": "accessible",
+    "sources": [
+      "https://github.com/MONISMALIK1/ai-dungeon-game/blob/main/README.md"
+    ],
+    "stars": 0,
+    "url": "https://github.com/MONISMALIK1/ai-dungeon-game"
   },
   {
     "archived": false,
@@ -5329,9 +5348,9 @@
     "evidence_level": "community-indexed",
     "language": "Python",
     "license": "AGPL-3.0",
-    "metadata_checked": "2026-10-17",
+    "metadata_checked": "2026-10-30",
     "name": "astrbot_plugin_jev",
-    "pushed_at": "2026-10-05T19:21:50Z",
+    "pushed_at": "2026-10-27T15:36:09Z",
     "repo": "czyczy23/astrbot_plugin_jev",
     "repository_status": "accessible",
     "sources": [
@@ -7191,7 +7210,7 @@
     "evidence_level": "community-indexed",
     "language": "HTML",
     "license": "not-detected",
-    "metadata_checked": "2026-10-17",
+    "metadata_checked": "2026-10-30",
     "name": "Bud-Decision-Engine",
     "pushed_at": "2026-10-09T11:24:32Z",
     "repo": "BudEcosystem/Bud-Decision-Engine",
@@ -7199,7 +7218,7 @@
     "sources": [
       "https://github.com/hellogumbo/awesome-jev"
     ],
-    "stars": 110,
+    "stars": 107,
     "url": "https://github.com/BudEcosystem/Bud-Decision-Engine"
   },
   {
@@ -7210,7 +7229,7 @@
     "evidence_level": "community-indexed",
     "language": "HTML",
     "license": "not-detected",
-    "metadata_checked": "2026-10-17",
+    "metadata_checked": "2026-10-30",
     "name": "Bud-Decision-Engine",
     "pushed_at": "2026-10-09T11:24:32Z",
     "repo": "BudEcosystem/Bud-Decision-Studio",
@@ -7218,8 +7237,27 @@
     "sources": [
       "https://github.com/hellogumbo/awesome-jev"
     ],
-    "stars": 110,
+    "stars": 107,
     "url": "https://github.com/BudEcosystem/Bud-Decision-Studio"
+  },
+  {
+    "archived": false,
+    "category": "demos",
+    "description": "🐛 Give your coding agent a detective. Buggo investigates bugs, builds a suspect list, and finds where to look.",
+    "evidence_level": "readme-matched",
+    "language": "TypeScript",
+    "license": "Apache-2.0",
+    "metadata_checked": "2026-10-30",
+    "name": "Buggo",
+    "notes": "Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.",
+    "pushed_at": "2026-09-23T06:19:30Z",
+    "repo": "moraxh/Buggo",
+    "repository_status": "accessible",
+    "sources": [
+      "https://github.com/moraxh/Buggo/blob/main/README.md"
+    ],
+    "stars": 29,
+    "url": "https://github.com/moraxh/Buggo"
   },
   {
     "archived": false,
@@ -8524,7 +8562,7 @@
     "evidence_level": "readme-matched",
     "language": "Shell",
     "license": "MIT",
-    "metadata_checked": "2026-10-17",
+    "metadata_checked": "2026-10-30",
     "name": "claude-code-jev-compaction",
     "notes": "Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.",
     "pushed_at": "2026-09-21T13:34:41Z",
@@ -9911,10 +9949,10 @@
     "evidence_level": "readme-matched",
     "language": "TypeScript",
     "license": "LGPL-2.1",
-    "metadata_checked": "2026-10-17",
+    "metadata_checked": "2026-10-30",
     "name": "corbits-system-one",
     "notes": "Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.",
-    "pushed_at": "2026-10-11T23:15:15Z",
+    "pushed_at": "2026-10-30T19:20:27Z",
     "repo": "corbitsdev/corbits-system-one",
     "repository_status": "accessible",
     "sources": [
@@ -10241,6 +10279,25 @@
   {
     "archived": false,
     "category": "demos",
+    "description": "An open-source System One decision model, named for Danny Kahneman. Calibrated choice/score/noul probabilities in one forward pass on small fine-tuned open models — no text generation. Local on Apple Silicon (MLX), Jev-compatible API, audited experiment log.",
+    "evidence_level": "readme-matched",
+    "language": "Python",
+    "license": "MIT",
+    "metadata_checked": "2026-10-30",
+    "name": "danny",
+    "notes": "Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.",
+    "pushed_at": "2026-09-23T06:39:27Z",
+    "repo": "mpuig/danny",
+    "repository_status": "accessible",
+    "sources": [
+      "https://github.com/mpuig/system-one/blob/main/README.md"
+    ],
+    "stars": 4,
+    "url": "https://github.com/mpuig/danny"
+  },
+  {
+    "archived": false,
+    "category": "demos",
     "description": "Chatbot web em um único arquivo HTML com roteamento de modelos via Jev (modos Pro e Lite) e RAG vetorial com embeddings do Google Gemini",
     "evidence_level": "readme-matched",
     "language": "HTML",
@@ -10503,6 +10560,25 @@
     ],
     "stars": 2,
     "url": "https://github.com/sameerkhan24/decidekit"
+  },
+  {
+    "archived": false,
+    "category": "demos",
+    "description": "Fuse multiple decision engines (Jev, ML models, rules) into one calibrated, replayable verdict.",
+    "evidence_level": "readme-matched",
+    "language": "Python",
+    "license": "MIT",
+    "metadata_checked": "2026-10-30",
+    "name": "decidon",
+    "notes": "Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.",
+    "pushed_at": "2026-09-22T18:22:38Z",
+    "repo": "naibwedi/decidon",
+    "repository_status": "accessible",
+    "sources": [
+      "https://github.com/naibwedi/decidon/blob/master/README.md"
+    ],
+    "stars": 0,
+    "url": "https://github.com/naibwedi/decidon"
   },
   {
     "archived": false,
@@ -11347,7 +11423,7 @@
     "evidence_level": "readme-matched",
     "language": "Python",
     "license": "NOASSERTION",
-    "metadata_checked": "2026-10-17",
+    "metadata_checked": "2026-10-30",
     "name": "dinostomp",
     "notes": "Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.",
     "pushed_at": "2026-09-23T09:31:16Z",
@@ -17053,6 +17129,25 @@
   {
     "archived": false,
     "category": "demos",
+    "description": "Jev (TypeSafe AI) System One decision engine plugin for Hermes Agent, backed by Agnes AI Flash.",
+    "evidence_level": "readme-matched",
+    "language": "Python",
+    "license": "not-detected",
+    "metadata_checked": "2026-10-19",
+    "name": "hermes-plugin-jev",
+    "notes": "Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.",
+    "pushed_at": "2026-10-18T23:14:22Z",
+    "repo": "Mrmimee/hermes-plugin-jev",
+    "repository_status": "accessible",
+    "sources": [
+      "https://github.com/Mrmimee/hermes-plugin-jev/blob/main/README.md"
+    ],
+    "stars": 0,
+    "url": "https://github.com/Mrmimee/hermes-plugin-jev"
+  },
+  {
+    "archived": false,
+    "category": "demos",
     "description": "Jev for Hermes: skill discovery, multi-skill advice, adaptive reasoning effort, model recommendations, typed assessments, session re-ranking, and computer use.",
     "evidence_level": "readme-matched",
     "language": "Python",
@@ -17828,7 +17923,7 @@
     "evidence_level": "readme-matched",
     "language": "TypeScript",
     "license": "not-detected",
-    "metadata_checked": "2026-10-17",
+    "metadata_checked": "2026-10-30",
     "name": "hush",
     "notes": "Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.",
     "pushed_at": "2026-09-20T11:49:11Z",
@@ -21115,6 +21210,25 @@
     ],
     "stars": 0,
     "url": "https://github.com/CankatSarac/jev-arcade"
+  },
+  {
+    "archived": false,
+    "category": "demos",
+    "description": "Cena 3D interativa da arquitetura do modelo Jev (TypeSafe AI, System One Model)",
+    "evidence_level": "readme-matched",
+    "language": "HTML",
+    "license": "not-detected",
+    "metadata_checked": "2026-10-30",
+    "name": "jev-architecture-3d",
+    "notes": "Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.",
+    "pushed_at": "2026-09-25T17:29:33Z",
+    "repo": "narceliosousa-coder/jev-architecture-3d",
+    "repository_status": "accessible",
+    "sources": [
+      "https://github.com/narceliosousa-coder/jev-architecture-3d/blob/main/README.md"
+    ],
+    "stars": 0,
+    "url": "https://github.com/narceliosousa-coder/jev-architecture-3d"
   },
   {
     "archived": false,
@@ -25035,9 +25149,9 @@
     "evidence_level": "community-indexed",
     "language": "Python",
     "license": "MIT",
-    "metadata_checked": "2026-10-17",
+    "metadata_checked": "2026-10-30",
     "name": "jev-demos (DataGobes)",
-    "pushed_at": "2026-10-16T16:11:13Z",
+    "pushed_at": "2026-10-26T14:59:28Z",
     "repo": "DataGobes/jev-demos",
     "repository_status": "accessible",
     "sources": [
@@ -25063,6 +25177,25 @@
     ],
     "stars": 7,
     "url": "https://github.com/mani-aiml/jev-demos"
+  },
+  {
+    "archived": false,
+    "category": "demos",
+    "description": "Design policy linter for coding agents: Codex hooks, static CSS/JSX checks, optional Jev review. MIT licensed.",
+    "evidence_level": "readme-matched",
+    "language": "TypeScript",
+    "license": "MIT",
+    "metadata_checked": "2026-10-30",
+    "name": "jev-design-lint",
+    "notes": "Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.",
+    "pushed_at": "2026-09-22T09:35:19Z",
+    "repo": "MohtashamMurshid/jev-design-lint",
+    "repository_status": "accessible",
+    "sources": [
+      "https://github.com/MohtashamMurshid/jev-design-lint/blob/main/README.md"
+    ],
+    "stars": 0,
+    "url": "https://github.com/MohtashamMurshid/jev-design-lint"
   },
   {
     "archived": false,
@@ -25127,7 +25260,7 @@
     "evidence_level": "readme-matched",
     "language": "TypeScript",
     "license": "MIT",
-    "metadata_checked": "2026-10-17",
+    "metadata_checked": "2026-10-30",
     "name": "jev-dev-kit",
     "notes": "Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.",
     "pushed_at": "2026-09-28T09:55:38Z",
@@ -25959,6 +26092,25 @@
   {
     "archived": false,
     "category": "demos",
+    "description": "examples",
+    "evidence_level": "readme-matched",
+    "language": "TypeScript",
+    "license": "not-detected",
+    "metadata_checked": "2026-10-30",
+    "name": "JEV-examples",
+    "notes": "Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.",
+    "pushed_at": "2026-10-09T16:33:11Z",
+    "repo": "MSFT-TKENDRICK/JEV-examples",
+    "repository_status": "accessible",
+    "sources": [
+      "https://github.com/MSFT-TKENDRICK/JEV-examples/blob/main/README.md"
+    ],
+    "stars": 0,
+    "url": "https://github.com/MSFT-TKENDRICK/JEV-examples"
+  },
+  {
+    "archived": false,
+    "category": "demos",
     "description": "See the linked source for implementation details.",
     "evidence_level": "readme-matched",
     "language": "Python",
@@ -26153,7 +26305,7 @@
     "evidence_level": "readme-matched",
     "language": "Python",
     "license": "not-detected",
-    "metadata_checked": "2026-10-17",
+    "metadata_checked": "2026-10-30",
     "name": "jev-explore",
     "notes": "Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.",
     "pushed_at": "2026-09-26T11:59:36Z",
@@ -27514,6 +27666,26 @@
     ],
     "stars": 3,
     "url": "https://github.com/ClemensSchartmueller/jev-guard"
+  },
+  {
+    "archived": false,
+    "category": "demos",
+    "description": "Probability-scored guardrails for Claude Code: deny rule-breaking edits and unasked-for deploys, route your docs into each prompt, and check the final answer against the turn's own evidence.",
+    "evidence_level": "readme-matched",
+    "language": "TypeScript",
+    "license": "MIT",
+    "metadata_checked": "2026-10-30",
+    "name": "jev-guard",
+    "notes": "Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.",
+    "pushed_at": "2026-09-22T08:21:56Z",
+    "repo": "muratcakmak/jev-guard",
+    "repository_status": "accessible",
+    "sources": [
+      "https://github.com/muratcakmak/jev-guard/blob/main/README.md",
+      "https://github.com/hellogumbo/awesome-jev"
+    ],
+    "stars": 7,
+    "url": "https://github.com/muratcakmak/jev-guard"
   },
   {
     "archived": false,
@@ -29882,6 +30054,25 @@
   {
     "archived": false,
     "category": "demos",
+    "description": "See the linked source for implementation details.",
+    "evidence_level": "readme-matched",
+    "language": "Python",
+    "license": "not-detected",
+    "metadata_checked": "2026-10-30",
+    "name": "Jev-mcp",
+    "notes": "Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.",
+    "pushed_at": "2026-09-22T09:38:08Z",
+    "repo": "Mokusei-Hana/Jev-mcp",
+    "repository_status": "accessible",
+    "sources": [
+      "https://github.com/Mokusei-Hana/Jev-mcp/blob/main/README.md"
+    ],
+    "stars": 0,
+    "url": "https://github.com/Mokusei-Hana/Jev-mcp"
+  },
+  {
+    "archived": false,
+    "category": "demos",
     "description": "Community experimental MCP server and Pi adapter for bounded TypeSafe Jev judgments",
     "evidence_level": "readme-matched",
     "language": "Go",
@@ -30314,6 +30505,25 @@
     ],
     "stars": 2,
     "url": "https://github.com/gualican/jev-model-router"
+  },
+  {
+    "archived": false,
+    "category": "demos",
+    "description": "Routes each Claude Code turn's model and reasoning effort with TypeSafe Jev, and keeps small-window models away from large sessions.",
+    "evidence_level": "readme-matched",
+    "language": "TypeScript",
+    "license": "MIT",
+    "metadata_checked": "2026-10-30",
+    "name": "jev-model-router",
+    "notes": "Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.",
+    "pushed_at": "2026-10-04T16:19:16Z",
+    "repo": "moelahmady/jev-model-router",
+    "repository_status": "accessible",
+    "sources": [
+      "https://github.com/moelahmady/jev-model-router/blob/main/README.md"
+    ],
+    "stars": 1,
+    "url": "https://github.com/moelahmady/jev-model-router"
   },
   {
     "archived": false,
@@ -33423,7 +33633,7 @@
     "evidence_level": "readme-matched",
     "language": "TypeScript",
     "license": "not-detected",
-    "metadata_checked": "2026-10-17",
+    "metadata_checked": "2026-10-30",
     "name": "jev-router",
     "notes": "Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.",
     "pushed_at": "2026-09-21T00:33:15Z",
@@ -34545,7 +34755,7 @@
     "evidence_level": "readme-matched",
     "language": "JavaScript",
     "license": "MIT",
-    "metadata_checked": "2026-10-17",
+    "metadata_checked": "2026-10-30",
     "name": "jev-skill",
     "notes": "Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.",
     "pushed_at": "2026-09-20T15:37:07Z",
@@ -34670,6 +34880,26 @@
     ],
     "stars": 2,
     "url": "https://github.com/i3u8/jev-skill-selection"
+  },
+  {
+    "archived": false,
+    "category": "demos",
+    "description": "Jev-powered decision skills for Claude Code and Codex. Opt-in, advisory, fail-open.",
+    "evidence_level": "readme-matched",
+    "language": "Python",
+    "license": "MIT",
+    "metadata_checked": "2026-10-30",
+    "name": "jev-skills",
+    "notes": "Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.",
+    "pushed_at": "2026-10-02T10:50:07Z",
+    "repo": "n23eos/jev-skills",
+    "repository_status": "accessible",
+    "sources": [
+      "https://github.com/n23eos/jev-skills/blob/main/README.md",
+      "https://github.com/hellogumbo/awesome-jev"
+    ],
+    "stars": 5,
+    "url": "https://github.com/n23eos/jev-skills"
   },
   {
     "archived": false,
@@ -37651,6 +37881,25 @@
   {
     "archived": false,
     "category": "demos",
+    "description": "Can an at-home model match Jev? TypeSafe Jev vs self-hosted Laya on Moroccan Darija sentiment, with reproducible zero-shot evaluation.",
+    "evidence_level": "readme-matched",
+    "language": "Python",
+    "license": "not-detected",
+    "metadata_checked": "2026-10-30",
+    "name": "jev-vs-laya",
+    "notes": "Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.",
+    "pushed_at": "2026-09-23T20:33:33Z",
+    "repo": "mouadse/jev-vs-laya",
+    "repository_status": "accessible",
+    "sources": [
+      "https://github.com/mouadse/jev-vs-laya/blob/main/README.md"
+    ],
+    "stars": 0,
+    "url": "https://github.com/mouadse/jev-vs-laya"
+  },
+  {
+    "archived": false,
+    "category": "demos",
     "description": "TypeSafe AI's Jev vs GPT-5.6 Luna vs Claude Sonnet 5 on support-ticket triage (Vercel AI Gateway)",
     "evidence_level": "readme-matched",
     "language": "JavaScript",
@@ -38472,7 +38721,7 @@
     "evidence_level": "readme-matched",
     "language": "Python",
     "license": "MIT",
-    "metadata_checked": "2026-10-17",
+    "metadata_checked": "2026-10-30",
     "name": "jev48",
     "notes": "Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.",
     "pushed_at": "2026-09-21T06:29:28Z",
@@ -39271,7 +39520,7 @@
     "evidence_level": "readme-matched",
     "language": "Python",
     "license": "Apache-2.0",
-    "metadata_checked": "2026-10-17",
+    "metadata_checked": "2026-10-30",
     "name": "jevassert",
     "notes": "Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.",
     "pushed_at": "2026-09-26T11:14:53Z",
@@ -40256,6 +40505,25 @@
     ],
     "stars": 0,
     "url": "https://github.com/AndrewWayne/JevForSteve"
+  },
+  {
+    "archived": false,
+    "category": "demos",
+    "description": "Jev analysis plugin for WeChat Android",
+    "evidence_level": "readme-matched",
+    "language": "Java",
+    "license": "not-detected",
+    "metadata_checked": "2026-10-30",
+    "name": "JevForWechat",
+    "notes": "Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.",
+    "pushed_at": "2026-09-27T15:57:58Z",
+    "repo": "muliziqi/JevForWechat",
+    "repository_status": "accessible",
+    "sources": [
+      "https://github.com/muliziqi/JevForWechat/blob/main/README.md"
+    ],
+    "stars": 0,
+    "url": "https://github.com/muliziqi/JevForWechat"
   },
   {
     "archived": false,
@@ -41257,7 +41525,7 @@
     "evidence_level": "readme-matched",
     "language": "Python",
     "license": "not-detected",
-    "metadata_checked": "2026-10-17",
+    "metadata_checked": "2026-10-30",
     "name": "jevmarket",
     "notes": "Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.",
     "pushed_at": "2026-09-22T16:43:56Z",
@@ -44424,7 +44692,7 @@
     "evidence_level": "readme-matched",
     "language": "Python",
     "license": "not-detected",
-    "metadata_checked": "2026-10-17",
+    "metadata_checked": "2026-10-30",
     "name": "keys-MiniMax-Code-CLI-Browser-Scroll-Context-Enhancement-Pack-with-Jev-Ultrafast-Integration",
     "notes": "Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.",
     "pushed_at": "2026-09-20T22:42:31Z",
@@ -44787,7 +45055,7 @@
     "evidence_level": "readme-matched",
     "language": "Python",
     "license": "MIT",
-    "metadata_checked": "2026-10-17",
+    "metadata_checked": "2026-10-30",
     "name": "langchain-loadout",
     "notes": "Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.",
     "pushed_at": "2026-10-05T10:54:38Z",
@@ -46063,7 +46331,7 @@
     "evidence_level": "readme-matched",
     "language": "Swift",
     "license": "not-detected",
-    "metadata_checked": "2026-10-17",
+    "metadata_checked": "2026-10-30",
     "name": "living-folders",
     "notes": "Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.",
     "pushed_at": "2026-09-20T21:08:05Z",
@@ -47630,6 +47898,25 @@
   {
     "archived": false,
     "category": "demos",
+    "description": "See the linked source for implementation details.",
+    "evidence_level": "readme-matched",
+    "language": "Java",
+    "license": "not-detected",
+    "metadata_checked": "2026-10-30",
+    "name": "mc_jv_npc",
+    "notes": "Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.",
+    "pushed_at": "2026-09-25T11:09:32Z",
+    "repo": "namimono/mc_jv_npc",
+    "repository_status": "accessible",
+    "sources": [
+      "https://github.com/namimono/mc_jv_npc/blob/main/README.md"
+    ],
+    "stars": 0,
+    "url": "https://github.com/namimono/mc_jv_npc"
+  },
+  {
+    "archived": false,
+    "category": "demos",
     "description": "Minimal MCP wrapper for TypeSafe Jev. Structured yes/no, choice, and score decisions. Docker-ready. Unofficial project.",
     "evidence_level": "readme-matched",
     "language": "Python",
@@ -48374,7 +48661,7 @@
     "evidence_level": "readme-matched",
     "language": "JavaScript",
     "license": "not-detected",
-    "metadata_checked": "2026-10-17",
+    "metadata_checked": "2026-10-30",
     "name": "model-advisor-tester",
     "notes": "Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.",
     "pushed_at": "2026-09-20T02:50:38Z",
@@ -48518,6 +48805,25 @@
     ],
     "stars": 1,
     "url": "https://github.com/Marco-Cricchio/moh"
+  },
+  {
+    "archived": false,
+    "category": "demos",
+    "description": "Config files for my GitHub profile.",
+    "evidence_level": "readme-matched",
+    "language": null,
+    "license": "not-detected",
+    "metadata_checked": "2026-10-30",
+    "name": "MONISMALIK1",
+    "notes": "Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.",
+    "pushed_at": "2026-09-22T13:14:31Z",
+    "repo": "MONISMALIK1/MONISMALIK1",
+    "repository_status": "accessible",
+    "sources": [
+      "https://github.com/MONISMALIK1/MONISMALIK1/blob/main/README.md"
+    ],
+    "stars": 0,
+    "url": "https://github.com/MONISMALIK1/MONISMALIK1"
   },
   {
     "archived": false,
@@ -49096,6 +49402,25 @@
     "evidence_level": "readme-matched",
     "language": "Python",
     "license": "not-detected",
+    "metadata_checked": "2026-10-30",
+    "name": "Nanako0129",
+    "notes": "Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.",
+    "pushed_at": "2026-10-30T19:31:15Z",
+    "repo": "Nanako0129/Nanako0129",
+    "repository_status": "accessible",
+    "sources": [
+      "https://github.com/Nanako0129/Nanako0129/blob/main/README.md"
+    ],
+    "stars": 0,
+    "url": "https://github.com/Nanako0129/Nanako0129"
+  },
+  {
+    "archived": false,
+    "category": "demos",
+    "description": "See the linked source for implementation details.",
+    "evidence_level": "readme-matched",
+    "language": "Python",
+    "license": "not-detected",
     "metadata_checked": "2026-10-28",
     "name": "nanojev",
     "notes": "Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.",
@@ -49525,6 +49850,25 @@
     ],
     "stars": 2,
     "url": "https://github.com/HMuSeaB/NewsPocket"
+  },
+  {
+    "archived": false,
+    "category": "demos",
+    "description": "See the linked source for implementation details.",
+    "evidence_level": "readme-matched",
+    "language": "JavaScript",
+    "license": "not-detected",
+    "metadata_checked": "2026-10-30",
+    "name": "nexo",
+    "notes": "Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.",
+    "pushed_at": "2026-09-29T23:07:23Z",
+    "repo": "msusffalich/nexo",
+    "repository_status": "accessible",
+    "sources": [
+      "https://github.com/msusffalich/nexo/blob/main/README.md"
+    ],
+    "stars": 0,
+    "url": "https://github.com/msusffalich/nexo"
   },
   {
     "archived": false,
@@ -50844,7 +51188,7 @@
     "evidence_level": "readme-matched",
     "language": "TypeScript",
     "license": "MIT",
-    "metadata_checked": "2026-10-17",
+    "metadata_checked": "2026-10-30",
     "name": "openclaw-jev-openrouter",
     "notes": "Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.",
     "pushed_at": "2026-09-20T03:11:42Z",
@@ -52664,6 +53008,25 @@
   {
     "archived": false,
     "category": "demos",
+    "description": "Self Driving car",
+    "evidence_level": "readme-matched",
+    "language": "JavaScript",
+    "license": "not-detected",
+    "metadata_checked": "2026-10-30",
+    "name": "Phaethon",
+    "notes": "Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.",
+    "pushed_at": "2026-09-23T07:16:29Z",
+    "repo": "natarmr/Phaethon",
+    "repository_status": "accessible",
+    "sources": [
+      "https://github.com/natarmr/Phaethon/blob/main/README.md"
+    ],
+    "stars": 0,
+    "url": "https://github.com/natarmr/Phaethon"
+  },
+  {
+    "archived": false,
+    "category": "demos",
     "demo": "https://stevenjonesphotography.ca",
     "description": "An AI-tagged photo gallery you browse with sliders: TypeSafe's Jev image model rates every photo, exported as a static site to Cloudflare",
     "evidence_level": "community-indexed",
@@ -52763,7 +53126,7 @@
     "evidence_level": "readme-matched",
     "language": "TypeScript",
     "license": "MIT",
-    "metadata_checked": "2026-10-17",
+    "metadata_checked": "2026-10-30",
     "name": "pi-auto-model-router",
     "notes": "Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.",
     "pushed_at": "2026-09-20T22:12:46Z",
@@ -52839,7 +53202,7 @@
     "evidence_level": "readme-matched",
     "language": "TypeScript",
     "license": "MIT",
-    "metadata_checked": "2026-10-17",
+    "metadata_checked": "2026-10-30",
     "name": "pi-compact-jev",
     "notes": "Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.",
     "pushed_at": "2026-09-20T22:12:41Z",
@@ -54457,7 +54820,7 @@
     "evidence_level": "readme-matched",
     "language": "JavaScript",
     "license": "MIT",
-    "metadata_checked": "2026-10-17",
+    "metadata_checked": "2026-10-30",
     "name": "playwright-jev",
     "notes": "Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.",
     "pushed_at": "2026-09-23T01:37:13Z",
@@ -54544,6 +54907,25 @@
     ],
     "stars": 0,
     "url": "https://github.com/jiayao/podcast-chat"
+  },
+  {
+    "archived": false,
+    "category": "demos",
+    "description": "Autonomous Pokemon Showdown battle agent powered by Jev AI (System One Model by TypeSafe AI), with a validated poke-env harness, safe fallback decisions, and a live dashboard for transparent battle state, legal moves, probabilities, telemetry, and Jev decision history.",
+    "evidence_level": "readme-matched",
+    "language": "JavaScript",
+    "license": "not-detected",
+    "metadata_checked": "2026-10-30",
+    "name": "pokemon-showdown-jev-agent",
+    "notes": "Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.",
+    "pushed_at": "2026-09-22T15:31:39Z",
+    "repo": "NatBrian/pokemon-showdown-jev-agent",
+    "repository_status": "accessible",
+    "sources": [
+      "https://github.com/NatBrian/pokemon-showdown-jev-agent/blob/master/README.md"
+    ],
+    "stars": 1,
+    "url": "https://github.com/NatBrian/pokemon-showdown-jev-agent"
   },
   {
     "archived": false,
@@ -57194,16 +57576,16 @@
     "evidence_level": "readme-matched",
     "language": "Python",
     "license": "MIT",
-    "metadata_checked": "2026-10-17",
+    "metadata_checked": "2026-10-30",
     "name": "ruling",
     "notes": "Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.",
-    "pushed_at": "2026-10-17T15:00:13Z",
+    "pushed_at": "2026-10-25T16:07:51Z",
     "repo": "bradAGI/ruling",
     "repository_status": "accessible",
     "sources": [
       "https://github.com/bradAGI/ruling/blob/main/README.md"
     ],
-    "stars": 11,
+    "stars": 13,
     "url": "https://github.com/bradAGI/ruling"
   },
   {
@@ -59301,7 +59683,7 @@
     "evidence_level": "readme-matched",
     "language": "JavaScript",
     "license": "not-detected",
-    "metadata_checked": "2026-10-17",
+    "metadata_checked": "2026-10-30",
     "name": "smart-mute",
     "notes": "Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.",
     "pushed_at": "2026-09-20T03:34:18Z",
@@ -59310,7 +59692,7 @@
     "sources": [
       "https://github.com/Dhaiwat10/smart-mute/blob/main/README.md"
     ],
-    "stars": 0,
+    "stars": 1,
     "url": "https://github.com/Dhaiwat10/smart-mute"
   },
   {
@@ -59961,6 +60343,25 @@
   {
     "archived": false,
     "category": "demos",
+    "description": "Describe what you are building. Watch the stack assemble. An AI stack architect that decides real technology architectures with TypeSafe and assembles them from physics-driven logo blocks.",
+    "evidence_level": "readme-matched",
+    "language": "TypeScript",
+    "license": "MIT",
+    "metadata_checked": "2026-10-30",
+    "name": "stack4that",
+    "notes": "Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.",
+    "pushed_at": "2026-10-13T16:08:55Z",
+    "repo": "MoRohn/stack4that",
+    "repository_status": "accessible",
+    "sources": [
+      "https://github.com/MoRohn/stack4that/blob/main/README.md"
+    ],
+    "stars": 0,
+    "url": "https://github.com/MoRohn/stack4that"
+  },
+  {
+    "archived": false,
+    "category": "demos",
     "description": "See the linked source for implementation details.",
     "evidence_level": "readme-matched",
     "language": "Python",
@@ -60288,7 +60689,7 @@
     "evidence_level": "community-indexed",
     "language": "Python",
     "license": "Apache-2.0",
-    "metadata_checked": "2026-10-17",
+    "metadata_checked": "2026-10-30",
     "name": "stuntd",
     "pushed_at": "2026-10-11T08:33:38Z",
     "repo": "bladedevoff/stuntd",
@@ -60296,7 +60697,7 @@
     "sources": [
       "https://github.com/hellogumbo/awesome-jev"
     ],
-    "stars": 70,
+    "stars": 73,
     "url": "https://github.com/bladedevoff/stuntd"
   },
   {
@@ -62983,6 +63384,25 @@
   {
     "archived": false,
     "category": "demos",
+    "description": "Machine-made, human-judged. Jev decides the design, an LLM writes the copy, an image model illustrates it — and code ships the page in about a second for a tenth of a cent. Typed decisions with calibrated confidence, not vibes.",
+    "evidence_level": "readme-matched",
+    "language": "TypeScript",
+    "license": "MIT",
+    "metadata_checked": "2026-10-30",
+    "name": "TurboSlop",
+    "notes": "Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.",
+    "pushed_at": "2026-09-23T03:12:39Z",
+    "repo": "mojomast/TurboSlop",
+    "repository_status": "accessible",
+    "sources": [
+      "https://github.com/mojomast/TurboSlop/blob/main/README.md"
+    ],
+    "stars": 0,
+    "url": "https://github.com/mojomast/TurboSlop"
+  },
+  {
+    "archived": false,
+    "category": "demos",
     "description": "See the linked source for implementation details.",
     "evidence_level": "readme-matched",
     "language": "Python",
@@ -64254,7 +64674,7 @@
     "evidence_level": "readme-matched",
     "language": "Ruby",
     "license": "MIT",
-    "metadata_checked": "2026-10-17",
+    "metadata_checked": "2026-10-30",
     "name": "typesafe-jev-ruby",
     "notes": "Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.",
     "pushed_at": "2026-09-21T17:16:49Z",
@@ -65110,10 +65530,10 @@
     "evidence_level": "readme-matched",
     "language": "PHP",
     "license": "not-detected",
-    "metadata_checked": "2026-10-17",
+    "metadata_checked": "2026-10-30",
     "name": "typo3-webcon-jev",
     "notes": "Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.",
-    "pushed_at": "2026-09-28T16:16:06Z",
+    "pushed_at": "2026-10-24T04:09:46Z",
     "repo": "dirnbauer/typo3-webcon-jev",
     "repository_status": "accessible",
     "sources": [
@@ -66226,6 +66646,25 @@
   {
     "archived": false,
     "category": "demos",
+    "description": "Control Chrome by voice with a Manifest V3 extension powered by Jev.",
+    "evidence_level": "readme-matched",
+    "language": "JavaScript",
+    "license": "MIT",
+    "metadata_checked": "2026-10-30",
+    "name": "voice-browser-extension",
+    "notes": "Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.",
+    "pushed_at": "2026-09-22T20:53:19Z",
+    "repo": "moritzkremb/voice-browser-extension",
+    "repository_status": "accessible",
+    "sources": [
+      "https://github.com/moritzkremb/voice-browser-extension/blob/main/README.md"
+    ],
+    "stars": 1,
+    "url": "https://github.com/moritzkremb/voice-browser-extension"
+  },
+  {
+    "archived": false,
+    "category": "demos",
     "description": "基于jev模型的语音释放魔法技能网站",
     "evidence_level": "readme-matched",
     "language": "JavaScript",
@@ -66591,16 +67030,16 @@
     "evidence_level": "readme-matched",
     "language": "Go",
     "license": "MIT",
-    "metadata_checked": "2026-10-17",
+    "metadata_checked": "2026-10-30",
     "name": "webctl",
     "notes": "Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.",
-    "pushed_at": "2026-09-23T19:05:22Z",
+    "pushed_at": "2026-10-23T06:31:12Z",
     "repo": "dorkitude/webctl",
     "repository_status": "accessible",
     "sources": [
       "https://github.com/dorkitude/webctl/blob/main/README.md"
     ],
-    "stars": 161,
+    "stars": 162,
     "url": "https://github.com/dorkitude/webctl"
   },
   {
@@ -69713,7 +70152,7 @@
     "evidence_level": "community-indexed",
     "language": "Python",
     "license": "NOASSERTION",
-    "metadata_checked": "2026-10-17",
+    "metadata_checked": "2026-10-30",
     "name": "jeva",
     "pushed_at": "2026-09-26T14:50:19Z",
     "repo": "chemany/jeva",
@@ -69965,7 +70404,7 @@
     "evidence_level": "community-indexed",
     "language": "Python",
     "license": "not-detected",
-    "metadata_checked": "2026-10-17",
+    "metadata_checked": "2026-10-30",
     "name": "keys-MiniMax-Code-CLI-Browser-Scroll-Context-Enhancement-Pack-with-Jev-Ultrafast-Integration",
     "notes": "Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.",
     "pushed_at": "2026-09-20T22:42:31Z",
@@ -70155,7 +70594,7 @@
     "evidence_level": "community-indexed",
     "language": "Python",
     "license": "MIT",
-    "metadata_checked": "2026-10-17",
+    "metadata_checked": "2026-10-30",
     "name": "mobile-jev-ultrafast",
     "pushed_at": "2026-09-30T02:13:10Z",
     "repo": "cnhuye/mobile-jev-ultrafast",
@@ -70163,7 +70602,7 @@
     "sources": [
       "https://github.com/hellogumbo/awesome-jev"
     ],
-    "stars": 5,
+    "stars": 6,
     "url": "https://github.com/cnhuye/mobile-jev-ultrafast"
   },
   {
@@ -71160,7 +71599,7 @@
     "evidence_level": "community-indexed",
     "language": "TypeScript",
     "license": "BSD-3-Clause",
-    "metadata_checked": "2026-10-17",
+    "metadata_checked": "2026-10-30",
     "name": "claude-jev-plugin",
     "notes": "Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.",
     "pushed_at": "2026-09-29T21:45:23Z",
@@ -72180,7 +72619,7 @@
     "evidence_level": "community-indexed",
     "language": "Python",
     "license": "not-detected",
-    "metadata_checked": "2026-10-17",
+    "metadata_checked": "2026-10-30",
     "name": "hermes-jev (DoGMaTiiC)",
     "pushed_at": "2026-09-25T18:13:17Z",
     "repo": "DoGMaTiiC/hermes-jev",
@@ -72188,7 +72627,7 @@
     "sources": [
       "https://github.com/hellogumbo/awesome-jev"
     ],
-    "stars": 3,
+    "stars": 4,
     "url": "https://github.com/DoGMaTiiC/hermes-jev"
   },
   {
@@ -72453,7 +72892,7 @@
     "evidence_level": "community-indexed",
     "language": "JavaScript",
     "license": "MIT",
-    "metadata_checked": "2026-10-17",
+    "metadata_checked": "2026-10-30",
     "name": "Jev Flow",
     "pushed_at": "2026-09-25T02:46:14Z",
     "repo": "daltonrpj/jev-flow",
@@ -73150,7 +73589,7 @@
     "evidence_level": "community-indexed",
     "language": "Python",
     "license": "MIT",
-    "metadata_checked": "2026-10-17",
+    "metadata_checked": "2026-10-30",
     "name": "jev-decisions",
     "pushed_at": "2026-10-09T14:13:19Z",
     "repo": "bojansandhaus/jev-decisions-hermes",
@@ -73206,7 +73645,7 @@
     "evidence_level": "community-indexed",
     "language": "JavaScript",
     "license": "not-detected",
-    "metadata_checked": "2026-10-17",
+    "metadata_checked": "2026-10-30",
     "name": "jev-dsh-decision",
     "notes": "Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.",
     "pushed_at": "2026-09-20T04:59:32Z",
@@ -73216,7 +73655,7 @@
       "https://github.com/hellogumbo/awesome-jev",
       "https://github.com/Devin-AXIS/jev-dsh-decision/blob/main/README.md"
     ],
-    "stars": 256,
+    "stars": 267,
     "url": "https://github.com/Devin-AXIS/jev-dsh-decision"
   },
   {
@@ -73469,29 +73908,11 @@
   {
     "archived": false,
     "category": "agents",
-    "description": "Probability-scored guardrails for Claude Code: deny rule-breaking edits and unasked-for deploys, route your docs into each prompt, and check the final answer against the turn's own evidence.",
-    "evidence_level": "community-indexed",
-    "language": "TypeScript",
-    "license": "MIT",
-    "metadata_checked": "2026-10-28",
-    "name": "jev-guard (muratcakmak)",
-    "pushed_at": "2026-09-22T08:21:56Z",
-    "repo": "muratcakmak/jev-guard",
-    "repository_status": "accessible",
-    "sources": [
-      "https://github.com/hellogumbo/awesome-jev"
-    ],
-    "stars": 7,
-    "url": "https://github.com/muratcakmak/jev-guard"
-  },
-  {
-    "archived": false,
-    "category": "agents",
     "description": "Can a System One model (TypeSafe Jev, open-source Kev) replace an LLM-as-judge in agent guardrail callbacks?",
     "evidence_level": "community-indexed",
     "language": "Python",
     "license": "not-detected",
-    "metadata_checked": "2026-10-17",
+    "metadata_checked": "2026-10-30",
     "name": "jev-guardbench",
     "pushed_at": "2026-10-04T16:20:04Z",
     "repo": "dfranco-projects/jev-guardbench",
@@ -73499,7 +73920,7 @@
     "sources": [
       "https://github.com/hellogumbo/awesome-jev"
     ],
-    "stars": 2,
+    "stars": 3,
     "url": "https://github.com/dfranco-projects/jev-guardbench"
   },
   {
@@ -74208,7 +74629,7 @@
     "evidence_level": "community-indexed",
     "language": "Python",
     "license": "MIT",
-    "metadata_checked": "2026-10-17",
+    "metadata_checked": "2026-10-30",
     "name": "jev-netlify-mcp",
     "pushed_at": "2026-10-01T03:49:53Z",
     "repo": "demircigoksu/jev-netlify-mcp",
@@ -74546,9 +74967,9 @@
     "evidence_level": "community-indexed",
     "language": "JavaScript",
     "license": "Apache-2.0",
-    "metadata_checked": "2026-10-17",
+    "metadata_checked": "2026-10-30",
     "name": "jev-router (dirien)",
-    "pushed_at": "2026-10-15T14:24:33Z",
+    "pushed_at": "2026-10-29T14:25:19Z",
     "repo": "dirien/jev-router",
     "repository_status": "accessible",
     "sources": [
@@ -74884,24 +75305,6 @@
   {
     "archived": false,
     "category": "agents",
-    "description": "Jev-powered decision skills for Claude Code and Codex. Opt-in, advisory, fail-open.",
-    "evidence_level": "community-indexed",
-    "language": "Python",
-    "license": "MIT",
-    "metadata_checked": "2026-10-17",
-    "name": "jev-skills (n23eos)",
-    "pushed_at": "2026-10-02T10:50:07Z",
-    "repo": "n23eos/jev-skills",
-    "repository_status": "accessible",
-    "sources": [
-      "https://github.com/hellogumbo/awesome-jev"
-    ],
-    "stars": 5,
-    "url": "https://github.com/n23eos/jev-skills"
-  },
-  {
-    "archived": false,
-    "category": "agents",
     "description": "JEV Smart Router — a Databricks App that uses TypeSafe JEV to pick which model answers each message, then runs inference on the chosen Databricks Foundation Model API endpoint.",
     "evidence_level": "community-indexed",
     "language": "Python",
@@ -75042,7 +75445,7 @@
     "evidence_level": "community-indexed",
     "language": "Go",
     "license": "MIT",
-    "metadata_checked": "2026-10-17",
+    "metadata_checked": "2026-10-30",
     "name": "jev-triage (boldbug1)",
     "pushed_at": "2026-09-20T10:36:58Z",
     "repo": "boldbug1/jev-triage",
@@ -75568,15 +75971,15 @@
     "evidence_level": "community-indexed",
     "language": "Go",
     "license": "MIT",
-    "metadata_checked": "2026-10-17",
+    "metadata_checked": "2026-10-30",
     "name": "jevlint",
-    "pushed_at": "2026-10-16T02:34:10Z",
+    "pushed_at": "2026-10-30T02:35:16Z",
     "repo": "codegirl-007/jevlint",
     "repository_status": "accessible",
     "sources": [
       "https://github.com/hellogumbo/awesome-jev"
     ],
-    "stars": 126,
+    "stars": 124,
     "url": "https://github.com/codegirl-007/jevlint"
   },
   {
@@ -76070,7 +76473,7 @@
     "evidence_level": "community-indexed",
     "language": "Go",
     "license": "MIT",
-    "metadata_checked": "2026-10-17",
+    "metadata_checked": "2026-10-30",
     "name": "lintpal",
     "pushed_at": "2026-10-07T02:35:29Z",
     "repo": "diffpal/lintpal",
@@ -76240,7 +76643,7 @@
     "evidence_level": "community-indexed",
     "language": "Python",
     "license": "MIT",
-    "metadata_checked": "2026-10-17",
+    "metadata_checked": "2026-10-30",
     "name": "muse-jev-playbook",
     "pushed_at": "2026-09-22T14:26:55Z",
     "repo": "Bodila51/muse-jev-playbook",
@@ -76320,7 +76723,7 @@
     "evidence_level": "community-indexed",
     "language": "TypeScript",
     "license": "MIT",
-    "metadata_checked": "2026-10-17",
+    "metadata_checked": "2026-10-30",
     "name": "omo-jev-plugin",
     "pushed_at": "2026-10-06T02:03:05Z",
     "repo": "brianhong-dev/omo-jev-plugin",
@@ -76328,7 +76731,7 @@
     "sources": [
       "https://github.com/hellogumbo/awesome-jev"
     ],
-    "stars": 25,
+    "stars": 27,
     "url": "https://github.com/brianhong-dev/omo-jev-plugin"
   },
   {
@@ -77137,9 +77540,9 @@
     "evidence_level": "community-indexed",
     "language": "TypeScript",
     "license": "MIT",
-    "metadata_checked": "2026-10-17",
+    "metadata_checked": "2026-10-30",
     "name": "pi-typesafe-approve",
-    "pushed_at": "2026-09-26T04:02:10Z",
+    "pushed_at": "2026-10-27T03:21:18Z",
     "repo": "Davidasx/pi-typesafe-approve",
     "repository_status": "accessible",
     "sources": [
@@ -78575,7 +78978,7 @@
     "evidence_level": "community-indexed",
     "language": "Python",
     "license": "Apache-2.0",
-    "metadata_checked": "2026-10-17",
+    "metadata_checked": "2026-10-30",
     "name": "Decis",
     "pushed_at": "2026-10-06T10:17:11Z",
     "repo": "chaitin/Decis",
@@ -78583,7 +78986,7 @@
     "sources": [
       "https://github.com/hellogumbo/awesome-jev"
     ],
-    "stars": 10,
+    "stars": 11,
     "url": "https://github.com/chaitin/Decis"
   },
   {
@@ -78794,15 +79197,15 @@
     "evidence_level": "community-indexed",
     "language": "Python",
     "license": "MIT",
-    "metadata_checked": "2026-10-17",
+    "metadata_checked": "2026-10-30",
     "name": "Entune",
-    "pushed_at": "2026-10-15T11:30:42Z",
+    "pushed_at": "2026-10-25T21:17:47Z",
     "repo": "eandualem/entune",
     "repository_status": "accessible",
     "sources": [
       "https://github.com/hellogumbo/awesome-jev"
     ],
-    "stars": 7,
+    "stars": 9,
     "url": "https://github.com/eandualem/entune"
   },
   {
@@ -79112,7 +79515,7 @@
     "evidence_level": "community-indexed",
     "language": "PowerShell",
     "license": "MIT",
-    "metadata_checked": "2026-10-17",
+    "metadata_checked": "2026-10-30",
     "name": "Jev (dfinke)",
     "pushed_at": "2026-10-16T08:47:38Z",
     "repo": "dfinke/Jev",
@@ -79120,7 +79523,7 @@
     "sources": [
       "https://github.com/hellogumbo/awesome-jev"
     ],
-    "stars": 10,
+    "stars": 11,
     "url": "https://github.com/dfinke/Jev"
   },
   {
@@ -79130,7 +79533,7 @@
     "evidence_level": "community-indexed",
     "language": "Go",
     "license": "MIT",
-    "metadata_checked": "2026-10-17",
+    "metadata_checked": "2026-10-30",
     "name": "jev (drpaneas)",
     "pushed_at": "2026-09-27T09:27:30Z",
     "repo": "drpaneas/jev",
@@ -79557,15 +79960,15 @@
     "evidence_level": "community-indexed",
     "language": "Jupyter Notebook",
     "license": "NOASSERTION",
-    "metadata_checked": "2026-10-17",
+    "metadata_checked": "2026-10-30",
     "name": "jev-docs-zh",
-    "pushed_at": "2026-10-17T03:40:27Z",
+    "pushed_at": "2026-10-30T08:07:45Z",
     "repo": "datawhalechina/jev-cookbook",
     "repository_status": "accessible",
     "sources": [
       "https://github.com/hellogumbo/awesome-jev"
     ],
-    "stars": 427,
+    "stars": 554,
     "url": "https://github.com/datawhalechina/jev-cookbook"
   },
   {
@@ -80311,7 +80714,7 @@
     "evidence_level": "community-indexed",
     "language": "TypeScript",
     "license": "not-detected",
-    "metadata_checked": "2026-10-17",
+    "metadata_checked": "2026-10-30",
     "name": "jev-seo (DeployMates)",
     "pushed_at": "2026-10-01T00:05:57Z",
     "repo": "DeployMates/jev-seo",
@@ -82667,7 +83070,7 @@
     "evidence_level": "community-indexed",
     "language": "Kotlin",
     "license": "MIT",
-    "metadata_checked": "2026-10-17",
+    "metadata_checked": "2026-10-30",
     "name": "jev-android",
     "notes": "Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.",
     "pushed_at": "2026-09-20T17:42:17Z",
@@ -82677,7 +83080,7 @@
       "https://github.com/hellogumbo/awesome-jev",
       "https://github.com/dougsong/jev-android/blob/main/README.md"
     ],
-    "stars": 8,
+    "stars": 9,
     "url": "https://github.com/dougsong/jev-android"
   },
   {
@@ -83630,7 +84033,7 @@
     "evidence_level": "community-indexed",
     "language": "Swift",
     "license": "MIT",
-    "metadata_checked": "2026-10-17",
+    "metadata_checked": "2026-10-30",
     "name": "swift-jev",
     "pushed_at": "2026-09-23T00:09:08Z",
     "repo": "d-date/swift-jev",
@@ -83670,7 +84073,7 @@
     "evidence_level": "community-indexed",
     "language": "Go",
     "license": "MIT",
-    "metadata_checked": "2026-10-17",
+    "metadata_checked": "2026-10-30",
     "name": "system-one-playground",
     "notes": "Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.",
     "pushed_at": "2026-09-23T01:51:19Z",
@@ -85174,7 +85577,7 @@
     "evidence_level": "community-indexed",
     "language": "TypeScript",
     "license": "Apache-2.0",
-    "metadata_checked": "2026-10-17",
+    "metadata_checked": "2026-10-30",
     "name": "jevc",
     "notes": "Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.",
     "pushed_at": "2026-10-01T10:17:45Z",
@@ -85928,15 +86331,15 @@
     "evidence_level": "community-indexed",
     "language": "C++",
     "license": "MIT",
-    "metadata_checked": "2026-10-17",
+    "metadata_checked": "2026-10-30",
     "name": "anofox-decide",
-    "pushed_at": "2026-10-15T03:12:38Z",
+    "pushed_at": "2026-10-25T15:26:31Z",
     "repo": "DataZooDE/anofox-decide",
     "repository_status": "accessible",
     "sources": [
       "https://github.com/hellogumbo/awesome-jev"
     ],
-    "stars": 2,
+    "stars": 3,
     "url": "https://github.com/DataZooDE/anofox-decide"
   },
   {
@@ -86009,7 +86412,7 @@
     "evidence_level": "community-indexed",
     "language": "Python",
     "license": "not-detected",
-    "metadata_checked": "2026-10-17",
+    "metadata_checked": "2026-10-30",
     "name": "askjev",
     "pushed_at": "2026-10-07T06:00:25Z",
     "repo": "brian-w-zhang/askjev",
@@ -86106,7 +86509,7 @@
     "evidence_level": "community-indexed",
     "language": "TypeScript",
     "license": "not-detected",
-    "metadata_checked": "2026-10-17",
+    "metadata_checked": "2026-10-30",
     "name": "can-jev-play",
     "pushed_at": "2026-09-23T05:13:29Z",
     "repo": "carlaiau/can-jev-play",
@@ -86200,7 +86603,7 @@
     "evidence_level": "community-indexed",
     "language": "JavaScript",
     "license": "MIT",
-    "metadata_checked": "2026-10-17",
+    "metadata_checked": "2026-10-30",
     "name": "claude-jev (darwintechlab)",
     "pushed_at": "2026-09-26T00:57:57Z",
     "repo": "darwintechlab/claude-jev",
@@ -86330,7 +86733,7 @@
     "evidence_level": "community-indexed",
     "language": "C",
     "license": "Apache-2.0",
-    "metadata_checked": "2026-10-17",
+    "metadata_checked": "2026-10-30",
     "name": "cu-Jev",
     "notes": "Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.",
     "pushed_at": "2026-09-23T09:05:26Z",
@@ -86818,7 +87221,7 @@
     "evidence_level": "community-indexed",
     "language": "Python",
     "license": "CC-BY-4.0",
-    "metadata_checked": "2026-10-17",
+    "metadata_checked": "2026-10-30",
     "name": "JEV",
     "pushed_at": "2026-09-30T15:03:06Z",
     "repo": "Chorylee7/JEV",
@@ -86948,7 +87351,7 @@
     "evidence_level": "community-indexed",
     "language": "Jupyter Notebook",
     "license": "Apache-2.0",
-    "metadata_checked": "2026-10-17",
+    "metadata_checked": "2026-10-30",
     "name": "jev-270m",
     "pushed_at": "2026-10-15T17:20:19Z",
     "repo": "deep-diver/jev-270m",
@@ -86956,7 +87359,7 @@
     "sources": [
       "https://github.com/hellogumbo/awesome-jev"
     ],
-    "stars": 2,
+    "stars": 3,
     "url": "https://github.com/deep-diver/jev-270m"
   },
   {
@@ -87414,7 +87817,7 @@
     "evidence_level": "community-indexed",
     "language": "TypeScript",
     "license": "MIT",
-    "metadata_checked": "2026-10-17",
+    "metadata_checked": "2026-10-30",
     "name": "jev-carryforward",
     "pushed_at": "2026-09-19T07:48:23Z",
     "repo": "dharun-cohere/jev-carryforward",
@@ -88634,7 +89037,7 @@
     "evidence_level": "community-indexed",
     "language": "Python",
     "license": "MIT",
-    "metadata_checked": "2026-10-17",
+    "metadata_checked": "2026-10-30",
     "name": "Jev-Reranking",
     "pushed_at": "2026-09-25T01:58:41Z",
     "repo": "carlaiau/jev-reranking",
@@ -89654,7 +90057,7 @@
     "evidence_level": "community-indexed",
     "language": "TypeScript",
     "license": "MIT",
-    "metadata_checked": "2026-10-17",
+    "metadata_checked": "2026-10-30",
     "name": "JEVals",
     "pushed_at": "2026-09-28T21:01:49Z",
     "repo": "duberblock/JEVals",
@@ -90365,7 +90768,7 @@
     "evidence_level": "community-indexed",
     "language": "Python",
     "license": "MIT",
-    "metadata_checked": "2026-10-17",
+    "metadata_checked": "2026-10-30",
     "name": "JEVsees",
     "pushed_at": "2026-10-12T11:44:24Z",
     "repo": "CharlesFeng0314/JEV_sees",
@@ -90373,7 +90776,7 @@
     "sources": [
       "https://github.com/hellogumbo/awesome-jev"
     ],
-    "stars": 182,
+    "stars": 14,
     "url": "https://github.com/CharlesFeng0314/JEV_sees"
   },
   {
@@ -91870,7 +92273,7 @@
     "evidence_level": "community-indexed",
     "language": "Python",
     "license": "Apache-2.0",
-    "metadata_checked": "2026-10-17",
+    "metadata_checked": "2026-10-30",
     "name": "rerank-bench-jev",
     "pushed_at": "2026-09-22T06:24:26Z",
     "repo": "denser-org/rerank-bench-jev",
@@ -93126,15 +93529,15 @@
     "evidence_level": "community-indexed",
     "language": "Python",
     "license": "Apache-2.0",
-    "metadata_checked": "2026-10-17",
+    "metadata_checked": "2026-10-30",
     "name": "zh-decision-bench",
-    "pushed_at": "2026-10-13T19:32:47Z",
+    "pushed_at": "2026-10-24T04:45:11Z",
     "repo": "CodyQin/zh-decision-bench",
     "repository_status": "accessible",
     "sources": [
       "https://github.com/hellogumbo/awesome-jev"
     ],
-    "stars": 3,
+    "stars": 4,
     "url": "https://github.com/CodyQin/zh-decision-bench"
   },
   {
@@ -93354,7 +93757,7 @@
     "evidence_level": "readme-matched",
     "language": "Python",
     "license": "MIT",
-    "metadata_checked": "2026-10-17",
+    "metadata_checked": "2026-10-30",
     "name": "awesome-jev",
     "notes": "Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.",
     "pushed_at": "2026-09-20T10:00:41Z",
