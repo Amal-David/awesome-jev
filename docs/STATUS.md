@@ -6,12 +6,12 @@
 
 | Measure | Recorded value |
 |---|---|
-| Reviewed / indexed / auto-discovered | 78 / 1665 / 3397 |
-| Catalog entries (not all reviewed) | 5140 |
-| Last completed discovery pass (UTC) | 2026-10-31T20:06:42Z |
+| Reviewed / indexed / auto-discovered | 78 / 1666 / 3418 |
+| Catalog entries (not all reviewed) | 5162 |
+| Last completed discovery pass (UTC) | 2026-10-31T23:29:46Z |
 | Latest rotating repository metadata check | 2026-10-31 |
-| Repositories with a recorded metadata check | 5036 / 5036 |
-| Repositories unavailable at their last check (404/410) | 72 |
+| Repositories with a recorded metadata check | 5058 / 5058 |
+| Repositories unavailable at their last check (404/410) | 73 |
 | Media records with a latest-attempt error | 1 |
 | Editorial exclusions | 1 |
 
@@ -21,7 +21,7 @@ Repository checks rotate: the newest check date does not mean every entry was ch
 
 The discovery timestamp advances only after a network discovery pass completes. An offline directory rebuild, test run or media-only refresh never advances it. The Actions result, not the cron expression, establishes that a workflow ran successfully.
 
-<a href="https://github.com/Amal-David/awesome-jev/actions/runs/41237231486">Discovery run receipt</a>
+<a href="https://github.com/Amal-David/awesome-jev/actions/runs/41252665268">Discovery run receipt</a>
 
 <a href="https://github.com/Amal-David/awesome-jev/actions/workflows/curate.yml">All refresh runs</a>
 
@@ -91,10 +91,11 @@ The discovery timestamp advances only after a network discovery pass completes. 
 - <a href="https://github.com/brudarko/jev-mac-voice">brudarko/jev-mac-voice</a> — last check 2026-10-21
 - <a href="https://github.com/Alex314618-create/JevRev">Alex314618-create/JevRev</a> — last check 2026-10-28
 - <a href="https://github.com/usenotra/notra">usenotra/notra</a> — last check 2026-10-20
+- <a href="https://github.com/pinkroosterai/SystemOneSharp">pinkroosterai/SystemOneSharp</a> — last check 2026-10-31
 - <a href="https://github.com/kcb-swe-gh/typesafe-ai-jev">kcb-swe-gh/typesafe-ai-jev</a> — last check 2026-10-27
 - <a href="https://github.com/207studio/jev-codex-tools">207studio/jev-codex-tools</a> — last check 2026-10-30
 - <a href="https://github.com/AkashPriyadarshii/jev-curate">AkashPriyadarshii/jev-curate</a> — last check 2026-10-18
-- <a href="https://github.com/silex-ai-lab/jev-runtime-observability">silex-ai-lab/jev-runtime-observability</a> — last check 2026-10-17
+- <a href="https://github.com/silex-ai-lab/jev-runtime-observability">silex-ai-lab/jev-runtime-observability</a> — last check 2026-10-31
 - <a href="https://github.com/24601/rh-guard">24601/rh-guard</a> — last check 2026-10-30
 - <a href="https://github.com/Jwuthri/SelfJev">Jwuthri/SelfJev</a> — last check 2026-10-31
 - <a href="https://github.com/trophee-bot/typesafe-oracles">trophee-bot/typesafe-oracles</a> — last check 2026-10-20
