@@ -6,12 +6,12 @@
 
 | Measure | Recorded value |
 |---|---|
-| Reviewed / indexed / auto-discovered | 78 / 1666 / 3418 |
-| Catalog entries (not all reviewed) | 5162 |
-| Last completed discovery pass (UTC) | 2026-10-31T23:29:46Z |
-| Latest rotating repository metadata check | 2026-10-31 |
-| Repositories with a recorded metadata check | 5058 / 5058 |
-| Repositories unavailable at their last check (404/410) | 73 |
+| Reviewed / indexed / auto-discovered | 78 / 1669 / 3441 |
+| Catalog entries (not all reviewed) | 5188 |
+| Last completed discovery pass (UTC) | 2026-11-01T06:26:13Z |
+| Latest rotating repository metadata check | 2026-11-01 |
+| Repositories with a recorded metadata check | 5084 / 5084 |
+| Repositories unavailable at their last check (404/410) | 74 |
 | Media records with a latest-attempt error | 1 |
 | Editorial exclusions | 1 |
 
@@ -21,7 +21,7 @@ Repository checks rotate: the newest check date does not mean every entry was ch
 
 The discovery timestamp advances only after a network discovery pass completes. An offline directory rebuild, test run or media-only refresh never advances it. The Actions result, not the cron expression, establishes that a workflow ran successfully.
 
-<a href="https://github.com/Amal-David/awesome-jev/actions/runs/41252665268">Discovery run receipt</a>
+<a href="https://github.com/Amal-David/awesome-jev/actions/runs/41280718875">Discovery run receipt</a>
 
 <a href="https://github.com/Amal-David/awesome-jev/actions/workflows/curate.yml">All refresh runs</a>
 
@@ -40,7 +40,7 @@ The discovery timestamp advances only after a network discovery pass completes. 
 - <a href="https://github.com/tivojn/gpt-live-avatar">tivojn/gpt-live-avatar</a> — last check 2026-10-20
 - <a href="https://github.com/itsaslamopenclawdata/GrowthCompany_JevOutputs">itsaslamopenclawdata/GrowthCompany_JevOutputs</a> — last check 2026-10-27
 - <a href="https://github.com/aoi-yoneda/haikyuBattleJev">aoi-yoneda/haikyuBattleJev</a> — last check 2026-10-20
-- <a href="https://github.com/speed25200-cyber/Hermes-Fork">speed25200-cyber/Hermes-Fork</a> — last check 2026-10-17
+- <a href="https://github.com/speed25200-cyber/Hermes-Fork">speed25200-cyber/Hermes-Fork</a> — last check 2026-11-01
 - <a href="https://github.com/edgardcham/huncho">edgardcham/huncho</a> — last check 2026-10-22
 - <a href="https://github.com/angusforbes/hyprcu">angusforbes/hyprcu</a> — last check 2026-10-25
 - <a href="https://github.com/pnll1991/io-delegation-skill">pnll1991/io-delegation-skill</a> — last check 2026-10-29
@@ -76,6 +76,7 @@ The discovery timestamp advances only after a network discovery pass completes. 
 - <a href="https://github.com/zoidsh/tenet">zoidsh/tenet</a> — last check 2026-10-23
 - <a href="https://github.com/ismailakdag/typesafe-jev">ismailakdag/typesafe-jev</a> — last check 2026-10-27
 - <a href="https://github.com/armsteadj1/vibe-smart-router">armsteadj1/vibe-smart-router</a> — last check 2026-10-20
+- <a href="https://github.com/warmlukecore/warmluke">warmlukecore/warmluke</a> — last check 2026-11-01
 - <a href="https://github.com/eriestra/almond-fastloop">eriestra/almond-fastloop</a> — last check 2026-10-22
 - <a href="https://github.com/kyrylosyzonenko/jev-browse">kyrylosyzonenko/jev-browse</a> — last check 2026-10-28
 - <a href="https://github.com/vlad-terin/jev-browser">vlad-terin/jev-browser</a> — last check 2026-10-20
@@ -103,4 +104,4 @@ The discovery timestamp advances only after a network discovery pass completes. 
 
 ## Media checks needing attention
 
-- abide-video — HTTPError; attempted 2026-10-31
+- abide-video — HTTPError; attempted 2026-11-01
