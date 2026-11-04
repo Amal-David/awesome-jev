@@ -823,6 +823,19 @@
     "notes": "Cloudflare-trained models, not TypeSafe Jev weights: Clef uses a Qwen3.8-27B backbone and Clef-flash uses Qwen3.5-9B. The paired Clef-flash model card was inspected at fde727a287004204b7518dcc983fe64379776712; both revisions ship the same Jev/SystemOne adapter source and separate safetensor weights. The adapter supports noul, choice and score answers, truncates long state input to its configured token budget, and extends the shape with local image/video objects. Hosted Workers AI sends state, questions and optional media to Cloudflare; its data-usage documentation says customer content is not used for training or service improvement without explicit consent and may be stored when a storage service is used. Publisher benchmarks and compatibility claims were not independently reproduced. Model weights, custom code, dependencies and inference were not downloaded or executed."
   },
   {
+    "repo": "sgstq0811/VerdictAD-Jev-AD",
+    "name": "VerdictAD",
+    "category": "research",
+    "description": "Training-free few-shot industrial anomaly detection that asks Clef-Flash 9B Noul questions about a query image and its local windows against a few normal references, then reweights an existing detector's image score and anomaly map.",
+    "evidence": "https://github.com/sgstq0811/VerdictAD-Jev-AD/blob/7a57de0a191d751fb04188dbd5ca1c9cedba5a02/README.md",
+    "code": "https://github.com/sgstq0811/VerdictAD-Jev-AD/blob/7a57de0a191d751fb04188dbd5ca1c9cedba5a02/verdictad/decider.py",
+    "post": "https://arxiv.org/abs/2611.02654",
+    "license": "Apache-2.0",
+    "kind": "independent-reproduction",
+    "reviewed": "2026-11-05",
+    "notes": "Author submission, written with AI assistance (Claude Code). Uses Cloudflare's open Clef-Flash 9B locally through its Jev/SystemOne adapter; it does not call hosted TypeSafe Jev. Results on MVTec AD, VisA and MVTec LOCO AD are author-reported in the paper and the repository logs."
+  },
+  {
     "repo": "kisshan13/typesafe-ai-go",
     "name": "TypeSafe Go SDK",
     "category": "sdks",
