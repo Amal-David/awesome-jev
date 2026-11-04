@@ -6,12 +6,12 @@
 
 | Measure | Recorded value |
 |---|---|
-| Reviewed / indexed / auto-discovered | 78 / 1690 / 3621 |
-| Catalog entries (not all reviewed) | 5389 |
-| Last completed discovery pass (UTC) | 2026-11-04T12:19:09Z |
+| Reviewed / indexed / auto-discovered | 78 / 1692 / 3645 |
+| Catalog entries (not all reviewed) | 5415 |
+| Last completed discovery pass (UTC) | 2026-11-04T19:54:52Z |
 | Latest rotating repository metadata check | 2026-11-04 |
-| Repositories with a recorded metadata check | 5285 / 5285 |
-| Repositories unavailable at their last check (404/410) | 74 |
+| Repositories with a recorded metadata check | 5311 / 5311 |
+| Repositories unavailable at their last check (404/410) | 75 |
 | Media records with a latest-attempt error | 1 |
 | Editorial exclusions | 1 |
 
@@ -21,7 +21,7 @@ Repository checks rotate: the newest check date does not mean every entry was ch
 
 The discovery timestamp advances only after a network discovery pass completes. An offline directory rebuild, test run or media-only refresh never advances it. The Actions result, not the cron expression, establishes that a workflow ran successfully.
 
-<a href="https://github.com/Amal-David/awesome-jev/actions/runs/41827967166">Discovery run receipt</a>
+<a href="https://github.com/Amal-David/awesome-jev/actions/runs/41901208330">Discovery run receipt</a>
 
 <a href="https://github.com/Amal-David/awesome-jev/actions/workflows/curate.yml">All refresh runs</a>
 
@@ -44,7 +44,7 @@ The discovery timestamp advances only after a network discovery pass completes. 
 - <a href="https://github.com/edgardcham/huncho">edgardcham/huncho</a> — last check 2026-10-22
 - <a href="https://github.com/angusforbes/hyprcu">angusforbes/hyprcu</a> — last check 2026-10-25
 - <a href="https://github.com/pnll1991/io-delegation-skill">pnll1991/io-delegation-skill</a> — last check 2026-10-29
-- <a href="https://github.com/Lisayinyy/javvvvvv">Lisayinyy/javvvvvv</a> — last check 2026-10-20
+- <a href="https://github.com/Lisayinyy/javvvvvv">Lisayinyy/javvvvvv</a> — last check 2026-11-04
 - <a href="https://github.com/Jev27B/JEV-27B-Desktop">Jev27B/JEV-27B-Desktop</a> — last check 2026-11-01
 - <a href="https://github.com/mjyoke1111/jev-agent-safety-arena">mjyoke1111/jev-agent-safety-arena</a> — last check 2026-10-24
 - <a href="https://github.com/altregubov/jev-antigravity-decider">altregubov/jev-antigravity-decider</a> — last check 2026-11-04
@@ -65,6 +65,7 @@ The discovery timestamp advances only after a network discovery pass completes. 
 - <a href="https://github.com/novvoo/nanojev">novvoo/nanojev</a> — last check 2026-10-28
 - <a href="https://github.com/villagertim/neonhop-3d">villagertim/neonhop-3d</a> — last check 2026-10-25
 - <a href="https://github.com/develatter/notos-intelligence-go">develatter/notos-intelligence-go</a> — last check 2026-10-22
+- <a href="https://github.com/clanker25/opik">clanker25/opik</a> — last check 2026-11-04
 - <a href="https://github.com/marianimatteo-lexroom/poly-jev">marianimatteo-lexroom/poly-jev</a> — last check 2026-11-03
 - <a href="https://github.com/karoliang/rightsize">karoliang/rightsize</a> — last check 2026-11-03
 - <a href="https://github.com/levi-qiao/SemaLoom">levi-qiao/SemaLoom</a> — last check 2026-11-03
@@ -75,7 +76,7 @@ The discovery timestamp advances only after a network discovery pass completes. 
 - <a href="https://github.com/hitakshiA/solari-reflex">hitakshiA/solari-reflex</a> — last check 2026-10-26
 - <a href="https://github.com/zoidsh/tenet">zoidsh/tenet</a> — last check 2026-10-23
 - <a href="https://github.com/ismailakdag/typesafe-jev">ismailakdag/typesafe-jev</a> — last check 2026-10-27
-- <a href="https://github.com/armsteadj1/vibe-smart-router">armsteadj1/vibe-smart-router</a> — last check 2026-10-20
+- <a href="https://github.com/armsteadj1/vibe-smart-router">armsteadj1/vibe-smart-router</a> — last check 2026-11-04
 - <a href="https://github.com/warmlukecore/warmluke">warmlukecore/warmluke</a> — last check 2026-11-01
 - <a href="https://github.com/eriestra/almond-fastloop">eriestra/almond-fastloop</a> — last check 2026-10-22
 - <a href="https://github.com/kyrylosyzonenko/jev-browse">kyrylosyzonenko/jev-browse</a> — last check 2026-10-28
