@@ -6,12 +6,12 @@
 
 | Measure | Recorded value |
 |---|---|
-| Reviewed / indexed / auto-discovered | 78 / 1704 / 3821 |
-| Catalog entries (not all reviewed) | 5603 |
-| Last completed discovery pass (UTC) | 2026-11-07T14:58:08Z |
+| Reviewed / indexed / auto-discovered | 78 / 1700 / 3840 |
+| Catalog entries (not all reviewed) | 5618 |
+| Last completed discovery pass (UTC) | 2026-11-07T20:19:44Z |
 | Latest rotating repository metadata check | 2026-11-07 |
-| Repositories with a recorded metadata check | 5499 / 5499 |
-| Repositories unavailable at their last check (404/410) | 83 |
+| Repositories with a recorded metadata check | 5514 / 5514 |
+| Repositories unavailable at their last check (404/410) | 84 |
 | Media records with a latest-attempt error | 1 |
 | Editorial exclusions | 1 |
 
@@ -21,7 +21,7 @@ Repository checks rotate: the newest check date does not mean every entry was ch
 
 The discovery timestamp advances only after a network discovery pass completes. An offline directory rebuild, test run or media-only refresh never advances it. The Actions result, not the cron expression, establishes that a workflow ran successfully.
 
-<a href="https://github.com/Amal-David/awesome-jev/actions/runs/42383953200">Discovery run receipt</a>
+<a href="https://github.com/Amal-David/awesome-jev/actions/runs/42410400573">Discovery run receipt</a>
 
 <a href="https://github.com/Amal-David/awesome-jev/actions/workflows/curate.yml">All refresh runs</a>
 
@@ -52,6 +52,7 @@ The discovery timestamp advances only after a network discovery pass completes. 
 - <a href="https://github.com/Gazer2020/jev-btzsc">Gazer2020/jev-btzsc</a> — last check 2026-10-29
 - <a href="https://github.com/LIDR-academy/jev-demo">LIDR-academy/jev-demo</a> — last check 2026-10-26
 - <a href="https://github.com/Nolane-x/JEV-language">Nolane-x/JEV-language</a> — last check 2026-11-04
+- <a href="https://github.com/STiFLeR7/Jev-LLM-Playground">STiFLeR7/Jev-LLM-Playground</a> — last check 2026-11-07
 - <a href="https://github.com/cleiton1231/jev-loop">cleiton1231/jev-loop</a> — last check 2026-11-06
 - <a href="https://github.com/dominusDeus/jev-trader-fork">dominusDeus/jev-trader-fork</a> — last check 2026-10-22
 - <a href="https://github.com/pininkara/Jev-Trades">pininkara/Jev-Trades</a> — last check 2026-11-07
