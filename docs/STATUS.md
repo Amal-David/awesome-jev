@@ -6,12 +6,12 @@
 
 | Measure | Recorded value |
 |---|---|
-| Reviewed / indexed / auto-discovered | 78 / 1701 / 3802 |
-| Catalog entries (not all reviewed) | 5581 |
-| Last completed discovery pass (UTC) | 2026-11-07T06:14:39Z |
+| Reviewed / indexed / auto-discovered | 78 / 1704 / 3821 |
+| Catalog entries (not all reviewed) | 5603 |
+| Last completed discovery pass (UTC) | 2026-11-07T14:58:08Z |
 | Latest rotating repository metadata check | 2026-11-07 |
-| Repositories with a recorded metadata check | 5477 / 5477 |
-| Repositories unavailable at their last check (404/410) | 82 |
+| Repositories with a recorded metadata check | 5499 / 5499 |
+| Repositories unavailable at their last check (404/410) | 83 |
 | Media records with a latest-attempt error | 1 |
 | Editorial exclusions | 1 |
 
@@ -21,7 +21,7 @@ Repository checks rotate: the newest check date does not mean every entry was ch
 
 The discovery timestamp advances only after a network discovery pass completes. An offline directory rebuild, test run or media-only refresh never advances it. The Actions result, not the cron expression, establishes that a workflow ran successfully.
 
-<a href="https://github.com/Amal-David/awesome-jev/actions/runs/42346030180">Discovery run receipt</a>
+<a href="https://github.com/Amal-David/awesome-jev/actions/runs/42383953200">Discovery run receipt</a>
 
 <a href="https://github.com/Amal-David/awesome-jev/actions/workflows/curate.yml">All refresh runs</a>
 
@@ -54,7 +54,7 @@ The discovery timestamp advances only after a network discovery pass completes. 
 - <a href="https://github.com/Nolane-x/JEV-language">Nolane-x/JEV-language</a> — last check 2026-11-04
 - <a href="https://github.com/cleiton1231/jev-loop">cleiton1231/jev-loop</a> — last check 2026-11-06
 - <a href="https://github.com/dominusDeus/jev-trader-fork">dominusDeus/jev-trader-fork</a> — last check 2026-10-22
-- <a href="https://github.com/pininkara/Jev-Trades">pininkara/Jev-Trades</a> — last check 2026-10-21
+- <a href="https://github.com/pininkara/Jev-Trades">pininkara/Jev-Trades</a> — last check 2026-11-07
 - <a href="https://github.com/Baran3575/jev-voice-android">Baran3575/jev-voice-android</a> — last check 2026-11-06
 - <a href="https://github.com/RavenRepo/jevengineeringgate">RavenRepo/jevengineeringgate</a> — last check 2026-10-22
 - <a href="https://github.com/sethsaler/jevgram">sethsaler/jevgram</a> — last check 2026-10-30
@@ -81,6 +81,7 @@ The discovery timestamp advances only after a network discovery pass completes. 
 - <a href="https://github.com/ismailakdag/typesafe-jev">ismailakdag/typesafe-jev</a> — last check 2026-10-27
 - <a href="https://github.com/armsteadj1/vibe-smart-router">armsteadj1/vibe-smart-router</a> — last check 2026-11-04
 - <a href="https://github.com/warmlukecore/warmluke">warmlukecore/warmluke</a> — last check 2026-11-01
+- <a href="https://github.com/omsenjalia/weathergpt-app">omsenjalia/weathergpt-app</a> — last check 2026-11-07
 - <a href="https://github.com/eriestra/almond-fastloop">eriestra/almond-fastloop</a> — last check 2026-10-22
 - <a href="https://github.com/kyrylosyzonenko/jev-browse">kyrylosyzonenko/jev-browse</a> — last check 2026-10-28
 - <a href="https://github.com/vlad-terin/jev-browser">vlad-terin/jev-browser</a> — last check 2026-11-05
