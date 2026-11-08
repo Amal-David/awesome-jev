@@ -6,12 +6,12 @@
 
 | Measure | Recorded value |
 |---|---|
-| Reviewed / indexed / auto-discovered | 78 / 1704 / 3877 |
-| Catalog entries (not all reviewed) | 5659 |
-| Last completed discovery pass (UTC) | 2026-11-08T06:19:38Z |
+| Reviewed / indexed / auto-discovered | 78 / 1704 / 3892 |
+| Catalog entries (not all reviewed) | 5674 |
+| Last completed discovery pass (UTC) | 2026-11-08T15:23:13Z |
 | Latest rotating repository metadata check | 2026-11-08 |
-| Repositories with a recorded metadata check | 5555 / 5555 |
-| Repositories unavailable at their last check (404/410) | 86 |
+| Repositories with a recorded metadata check | 5570 / 5570 |
+| Repositories unavailable at their last check (404/410) | 88 |
 | Media records with a latest-attempt error | 1 |
 | Editorial exclusions | 1 |
 
@@ -21,16 +21,17 @@ Repository checks rotate: the newest check date does not mean every entry was ch
 
 The discovery timestamp advances only after a network discovery pass completes. An offline directory rebuild, test run or media-only refresh never advances it. The Actions result, not the cron expression, establishes that a workflow ran successfully.
 
-<a href="https://github.com/Amal-David/awesome-jev/actions/runs/42454202592">Discovery run receipt</a>
+<a href="https://github.com/Amal-David/awesome-jev/actions/runs/42494442567">Discovery run receipt</a>
 
 <a href="https://github.com/Amal-David/awesome-jev/actions/workflows/curate.yml">All refresh runs</a>
 
 ## Unavailable repositories at their last check
 
 - <a href="https://github.com/raminaskerov/brownie">raminaskerov/brownie</a> — last check 2026-10-22
-- <a href="https://github.com/elberacasa/chimbometro">elberacasa/chimbometro</a> — last check 2026-10-22
+- <a href="https://github.com/elberacasa/chimbometro">elberacasa/chimbometro</a> — last check 2026-11-08
 - <a href="https://github.com/matura-lol/datasets">matura-lol/datasets</a> — last check 2026-11-03
-- <a href="https://github.com/elialm94/driva">elialm94/driva</a> — last check 2026-10-22
+- <a href="https://github.com/fangligamedev/deskfront-jevlab">fangligamedev/deskfront-jevlab</a> — last check 2026-11-08
+- <a href="https://github.com/elialm94/driva">elialm94/driva</a> — last check 2026-11-08
 - <a href="https://github.com/echelong/evolve">echelong/evolve</a> — last check 2026-10-24
 - <a href="https://github.com/cassiomc1/fast-jev-compaction-alt">cassiomc1/fast-jev-compaction-alt</a> — last check 2026-11-06
 - <a href="https://github.com/fine5351/game-assistant">fine5351/game-assistant</a> — last check 2026-10-24
@@ -41,7 +42,7 @@ The discovery timestamp advances only after a network discovery pass completes. 
 - <a href="https://github.com/itsaslamopenclawdata/GrowthCompany_JevOutputs">itsaslamopenclawdata/GrowthCompany_JevOutputs</a> — last check 2026-10-27
 - <a href="https://github.com/aoi-yoneda/haikyuBattleJev">aoi-yoneda/haikyuBattleJev</a> — last check 2026-11-04
 - <a href="https://github.com/speed25200-cyber/Hermes-Fork">speed25200-cyber/Hermes-Fork</a> — last check 2026-11-01
-- <a href="https://github.com/edgardcham/huncho">edgardcham/huncho</a> — last check 2026-10-22
+- <a href="https://github.com/edgardcham/huncho">edgardcham/huncho</a> — last check 2026-11-08
 - <a href="https://github.com/angusforbes/hyprcu">angusforbes/hyprcu</a> — last check 2026-10-25
 - <a href="https://github.com/pnll1991/io-delegation-skill">pnll1991/io-delegation-skill</a> — last check 2026-10-29
 - <a href="https://github.com/Lisayinyy/javvvvvv">Lisayinyy/javvvvvv</a> — last check 2026-11-04
@@ -51,10 +52,11 @@ The discovery timestamp advances only after a network discovery pass completes. 
 - <a href="https://github.com/legostin/jev-browser">legostin/jev-browser</a> — last check 2026-10-23
 - <a href="https://github.com/Gazer2020/jev-btzsc">Gazer2020/jev-btzsc</a> — last check 2026-10-29
 - <a href="https://github.com/LIDR-academy/jev-demo">LIDR-academy/jev-demo</a> — last check 2026-10-26
+- <a href="https://github.com/everyai-com/jev-directory">everyai-com/jev-directory</a> — last check 2026-11-08
 - <a href="https://github.com/Nolane-x/JEV-language">Nolane-x/JEV-language</a> — last check 2026-11-04
 - <a href="https://github.com/STiFLeR7/Jev-LLM-Playground">STiFLeR7/Jev-LLM-Playground</a> — last check 2026-11-07
 - <a href="https://github.com/cleiton1231/jev-loop">cleiton1231/jev-loop</a> — last check 2026-11-06
-- <a href="https://github.com/dominusDeus/jev-trader-fork">dominusDeus/jev-trader-fork</a> — last check 2026-10-22
+- <a href="https://github.com/dominusDeus/jev-trader-fork">dominusDeus/jev-trader-fork</a> — last check 2026-11-08
 - <a href="https://github.com/pininkara/Jev-Trades">pininkara/Jev-Trades</a> — last check 2026-11-07
 - <a href="https://github.com/Baran3575/jev-voice-android">Baran3575/jev-voice-android</a> — last check 2026-11-06
 - <a href="https://github.com/RavenRepo/jevengineeringgate">RavenRepo/jevengineeringgate</a> — last check 2026-10-22
@@ -67,7 +69,7 @@ The discovery timestamp advances only after a network discovery pass completes. 
 - <a href="https://github.com/blancaile/minecraft-ai">blancaile/minecraft-ai</a> — last check 2026-11-06
 - <a href="https://github.com/novvoo/nanojev">novvoo/nanojev</a> — last check 2026-10-28
 - <a href="https://github.com/villagertim/neonhop-3d">villagertim/neonhop-3d</a> — last check 2026-10-25
-- <a href="https://github.com/develatter/notos-intelligence-go">develatter/notos-intelligence-go</a> — last check 2026-10-22
+- <a href="https://github.com/develatter/notos-intelligence-go">develatter/notos-intelligence-go</a> — last check 2026-11-08
 - <a href="https://github.com/clanker25/opik">clanker25/opik</a> — last check 2026-11-04
 - <a href="https://github.com/marianimatteo-lexroom/poly-jev">marianimatteo-lexroom/poly-jev</a> — last check 2026-11-03
 - <a href="https://github.com/brenoajs/polygraph-polymarket">brenoajs/polygraph-polymarket</a> — last check 2026-11-06
@@ -84,7 +86,7 @@ The discovery timestamp advances only after a network discovery pass completes. 
 - <a href="https://github.com/armsteadj1/vibe-smart-router">armsteadj1/vibe-smart-router</a> — last check 2026-11-04
 - <a href="https://github.com/warmlukecore/warmluke">warmlukecore/warmluke</a> — last check 2026-11-01
 - <a href="https://github.com/omsenjalia/weathergpt-app">omsenjalia/weathergpt-app</a> — last check 2026-11-07
-- <a href="https://github.com/eriestra/almond-fastloop">eriestra/almond-fastloop</a> — last check 2026-10-22
+- <a href="https://github.com/eriestra/almond-fastloop">eriestra/almond-fastloop</a> — last check 2026-11-08
 - <a href="https://github.com/kyrylosyzonenko/jev-browse">kyrylosyzonenko/jev-browse</a> — last check 2026-10-28
 - <a href="https://github.com/vlad-terin/jev-browser">vlad-terin/jev-browser</a> — last check 2026-11-05
 - <a href="https://github.com/choxos/jev-reviewer">choxos/jev-reviewer</a> — last check 2026-11-06
