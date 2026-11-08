@@ -6,12 +6,12 @@
 
 | Measure | Recorded value |
 |---|---|
-| Reviewed / indexed / auto-discovered | 78 / 1704 / 3892 |
-| Catalog entries (not all reviewed) | 5674 |
-| Last completed discovery pass (UTC) | 2026-11-08T15:23:13Z |
+| Reviewed / indexed / auto-discovered | 78 / 1704 / 3913 |
+| Catalog entries (not all reviewed) | 5695 |
+| Last completed discovery pass (UTC) | 2026-11-08T20:37:51Z |
 | Latest rotating repository metadata check | 2026-11-08 |
-| Repositories with a recorded metadata check | 5570 / 5570 |
-| Repositories unavailable at their last check (404/410) | 88 |
+| Repositories with a recorded metadata check | 5591 / 5591 |
+| Repositories unavailable at their last check (404/410) | 90 |
 | Media records with a latest-attempt error | 1 |
 | Editorial exclusions | 1 |
 
@@ -21,13 +21,13 @@ Repository checks rotate: the newest check date does not mean every entry was ch
 
 The discovery timestamp advances only after a network discovery pass completes. An offline directory rebuild, test run or media-only refresh never advances it. The Actions result, not the cron expression, establishes that a workflow ran successfully.
 
-<a href="https://github.com/Amal-David/awesome-jev/actions/runs/42494442567">Discovery run receipt</a>
+<a href="https://github.com/Amal-David/awesome-jev/actions/runs/42521000741">Discovery run receipt</a>
 
 <a href="https://github.com/Amal-David/awesome-jev/actions/workflows/curate.yml">All refresh runs</a>
 
 ## Unavailable repositories at their last check
 
-- <a href="https://github.com/raminaskerov/brownie">raminaskerov/brownie</a> — last check 2026-10-22
+- <a href="https://github.com/raminaskerov/brownie">raminaskerov/brownie</a> — last check 2026-11-08
 - <a href="https://github.com/elberacasa/chimbometro">elberacasa/chimbometro</a> — last check 2026-11-08
 - <a href="https://github.com/matura-lol/datasets">matura-lol/datasets</a> — last check 2026-11-03
 - <a href="https://github.com/fangligamedev/deskfront-jevlab">fangligamedev/deskfront-jevlab</a> — last check 2026-11-08
@@ -56,10 +56,11 @@ The discovery timestamp advances only after a network discovery pass completes. 
 - <a href="https://github.com/Nolane-x/JEV-language">Nolane-x/JEV-language</a> — last check 2026-11-04
 - <a href="https://github.com/STiFLeR7/Jev-LLM-Playground">STiFLeR7/Jev-LLM-Playground</a> — last check 2026-11-07
 - <a href="https://github.com/cleiton1231/jev-loop">cleiton1231/jev-loop</a> — last check 2026-11-06
+- <a href="https://github.com/realdubb/jev-playground">realdubb/jev-playground</a> — last check 2026-11-08
 - <a href="https://github.com/dominusDeus/jev-trader-fork">dominusDeus/jev-trader-fork</a> — last check 2026-11-08
 - <a href="https://github.com/pininkara/Jev-Trades">pininkara/Jev-Trades</a> — last check 2026-11-07
 - <a href="https://github.com/Baran3575/jev-voice-android">Baran3575/jev-voice-android</a> — last check 2026-11-06
-- <a href="https://github.com/RavenRepo/jevengineeringgate">RavenRepo/jevengineeringgate</a> — last check 2026-10-22
+- <a href="https://github.com/RavenRepo/jevengineeringgate">RavenRepo/jevengineeringgate</a> — last check 2026-11-08
 - <a href="https://github.com/sethsaler/jevgram">sethsaler/jevgram</a> — last check 2026-10-30
 - <a href="https://github.com/notque/jevs-sprint-planning">notque/jevs-sprint-planning</a> — last check 2026-10-28
 - <a href="https://github.com/choxos/JevVsLLM">choxos/JevVsLLM</a> — last check 2026-11-07
@@ -78,7 +79,7 @@ The discovery timestamp advances only after a network discovery pass completes. 
 - <a href="https://github.com/levi-qiao/SemaLoom">levi-qiao/SemaLoom</a> — last check 2026-11-03
 - <a href="https://github.com/ivorpad/skillranker">ivorpad/skillranker</a> — last check 2026-10-26
 - <a href="https://github.com/JTech-CO/Smart-Cart-Autonomy-Lab-Jev">JTech-CO/Smart-Cart-Autonomy-Lab-Jev</a> — last check 2026-11-01
-- <a href="https://github.com/prof-ramos/sneub">prof-ramos/sneub</a> — last check 2026-10-22
+- <a href="https://github.com/prof-ramos/sneub">prof-ramos/sneub</a> — last check 2026-11-08
 - <a href="https://github.com/hitakshiA/solari-fast-showcase">hitakshiA/solari-fast-showcase</a> — last check 2026-10-26
 - <a href="https://github.com/hitakshiA/solari-reflex">hitakshiA/solari-reflex</a> — last check 2026-10-26
 - <a href="https://github.com/zoidsh/tenet">zoidsh/tenet</a> — last check 2026-10-23
@@ -99,8 +100,10 @@ The discovery timestamp advances only after a network discovery pass completes. 
 - <a href="https://github.com/eachann1024/pi-jev-reply">eachann1024/pi-jev-reply</a> — last check 2026-11-06
 - <a href="https://github.com/rajdhakad9826/routeKit">rajdhakad9826/routeKit</a> — last check 2026-10-29
 - <a href="https://github.com/ThePikey/AOS_GLM_language">ThePikey/AOS_GLM_language</a> — last check 2026-10-23
+- <a href="https://github.com/lsp199308/Jev-Chat-for-WeChat">lsp199308/Jev-Chat-for-WeChat</a> — last check 2026-11-08
 - <a href="https://github.com/brudarko/jev-mac-voice">brudarko/jev-mac-voice</a> — last check 2026-11-06
 - <a href="https://github.com/Alex314618-create/JevRev">Alex314618-create/JevRev</a> — last check 2026-10-28
+- <a href="https://github.com/Mushroom-Systems/lichen">Mushroom-Systems/lichen</a> — last check 2026-11-08
 - <a href="https://github.com/usenotra/notra">usenotra/notra</a> — last check 2026-11-05
 - <a href="https://github.com/pinkroosterai/SystemOneSharp">pinkroosterai/SystemOneSharp</a> — last check 2026-10-31
 - <a href="https://github.com/kcb-swe-gh/typesafe-ai-jev">kcb-swe-gh/typesafe-ai-jev</a> — last check 2026-10-27
@@ -112,7 +115,6 @@ The discovery timestamp advances only after a network discovery pass completes. 
 - <a href="https://github.com/choxos/jevchess">choxos/jevchess</a> — last check 2026-11-07
 - <a href="https://github.com/choxos/LetJevDecide">choxos/LetJevDecide</a> — last check 2026-11-06
 - <a href="https://github.com/24601/rh-guard">24601/rh-guard</a> — last check 2026-10-30
-- <a href="https://github.com/Jwuthri/SelfJev">Jwuthri/SelfJev</a> — last check 2026-10-31
 - <a href="https://github.com/trophee-bot/typesafe-oracles">trophee-bot/typesafe-oracles</a> — last check 2026-11-05
 - <a href="https://github.com/sysadarsh/zerosweep">sysadarsh/zerosweep</a> — last check 2026-11-03
 
