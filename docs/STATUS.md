@@ -6,11 +6,11 @@
 
 | Measure | Recorded value |
 |---|---|
-| Reviewed / indexed / auto-discovered | 78 / 1709 / 3968 |
-| Catalog entries (not all reviewed) | 5755 |
-| Last completed discovery pass (UTC) | 2026-11-10T02:49:11Z |
+| Reviewed / indexed / auto-discovered | 78 / 1713 / 3989 |
+| Catalog entries (not all reviewed) | 5780 |
+| Last completed discovery pass (UTC) | 2026-11-10T12:48:14Z |
 | Latest rotating repository metadata check | 2026-11-10 |
-| Repositories with a recorded metadata check | 5651 / 5651 |
+| Repositories with a recorded metadata check | 5676 / 5676 |
 | Repositories unavailable at their last check (404/410) | 92 |
 | Media records with a latest-attempt error | 1 |
 | Editorial exclusions | 1 |
@@ -21,7 +21,7 @@ Repository checks rotate: the newest check date does not mean every entry was ch
 
 The discovery timestamp advances only after a network discovery pass completes. An offline directory rebuild, test run or media-only refresh never advances it. The Actions result, not the cron expression, establishes that a workflow ran successfully.
 
-<a href="https://github.com/Amal-David/awesome-jev/actions/runs/42745162388">Discovery run receipt</a>
+<a href="https://github.com/Amal-David/awesome-jev/actions/runs/42818606954">Discovery run receipt</a>
 
 <a href="https://github.com/Amal-David/awesome-jev/actions/workflows/curate.yml">All refresh runs</a>
 
@@ -37,7 +37,7 @@ The discovery timestamp advances only after a network discovery pass completes. 
 - <a href="https://github.com/fine5351/game-assistant">fine5351/game-assistant</a> — last check 2026-10-24
 - <a href="https://github.com/blackplume233/game-developers-skills">blackplume233/game-developers-skills</a> — last check 2026-11-06
 - <a href="https://github.com/giangeralcus/gee-fundriving">giangeralcus/gee-fundriving</a> — last check 2026-10-24
-- <a href="https://github.com/hellomrleeus/google-maps-place-scout">hellomrleeus/google-maps-place-scout</a> — last check 2026-10-23
+- <a href="https://github.com/hellomrleeus/google-maps-place-scout">hellomrleeus/google-maps-place-scout</a> — last check 2026-11-10
 - <a href="https://github.com/tivojn/gpt-live-avatar">tivojn/gpt-live-avatar</a> — last check 2026-11-05
 - <a href="https://github.com/itsaslamopenclawdata/GrowthCompany_JevOutputs">itsaslamopenclawdata/GrowthCompany_JevOutputs</a> — last check 2026-10-27
 - <a href="https://github.com/aoi-yoneda/haikyuBattleJev">aoi-yoneda/haikyuBattleJev</a> — last check 2026-11-04
@@ -66,7 +66,7 @@ The discovery timestamp advances only after a network discovery pass completes. 
 - <a href="https://github.com/choxos/JevVsLLM">choxos/JevVsLLM</a> — last check 2026-11-07
 - <a href="https://github.com/remotehostai/jg">remotehostai/jg</a> — last check 2026-11-09
 - <a href="https://github.com/raindragon14/kalshi-diffusion-tracker">raindragon14/kalshi-diffusion-tracker</a> — last check 2026-11-05
-- <a href="https://github.com/kedi-lang/kedi-typesafe">kedi-lang/kedi-typesafe</a> — last check 2026-10-23
+- <a href="https://github.com/kedi-lang/kedi-typesafe">kedi-lang/kedi-typesafe</a> — last check 2026-11-10
 - <a href="https://github.com/vhpctnyd5x-lab/localai-16gb">vhpctnyd5x-lab/localai-16gb</a> — last check 2026-11-03
 - <a href="https://github.com/blancaile/minecraft-ai">blancaile/minecraft-ai</a> — last check 2026-11-06
 - <a href="https://github.com/novvoo/nanojev">novvoo/nanojev</a> — last check 2026-10-28
