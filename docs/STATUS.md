@@ -6,12 +6,12 @@
 
 | Measure | Recorded value |
 |---|---|
-| Reviewed / indexed / auto-discovered | 78 / 1723 / 4039 |
-| Catalog entries (not all reviewed) | 5840 |
-| Last completed discovery pass (UTC) | 2026-11-11T16:20:59Z |
+| Reviewed / indexed / auto-discovered | 78 / 1723 / 4054 |
+| Catalog entries (not all reviewed) | 5855 |
+| Last completed discovery pass (UTC) | 2026-11-11T22:51:04Z |
 | Latest rotating repository metadata check | 2026-11-11 |
-| Repositories with a recorded metadata check | 5736 / 5736 |
-| Repositories unavailable at their last check (404/410) | 92 |
+| Repositories with a recorded metadata check | 5751 / 5751 |
+| Repositories unavailable at their last check (404/410) | 93 |
 | Media records with a latest-attempt error | 1 |
 | Editorial exclusions | 1 |
 
@@ -21,7 +21,7 @@ Repository checks rotate: the newest check date does not mean every entry was ch
 
 The discovery timestamp advances only after a network discovery pass completes. An offline directory rebuild, test run or media-only refresh never advances it. The Actions result, not the cron expression, establishes that a workflow ran successfully.
 
-<a href="https://github.com/Amal-David/awesome-jev/actions/runs/43057080819">Discovery run receipt</a>
+<a href="https://github.com/Amal-David/awesome-jev/actions/runs/43114953508">Discovery run receipt</a>
 
 <a href="https://github.com/Amal-David/awesome-jev/actions/workflows/curate.yml">All refresh runs</a>
 
@@ -72,6 +72,7 @@ The discovery timestamp advances only after a network discovery pass completes. 
 - <a href="https://github.com/novvoo/nanojev">novvoo/nanojev</a> — last check 2026-10-28
 - <a href="https://github.com/villagertim/neonhop-3d">villagertim/neonhop-3d</a> — last check 2026-10-25
 - <a href="https://github.com/develatter/notos-intelligence-go">develatter/notos-intelligence-go</a> — last check 2026-11-08
+- <a href="https://github.com/asimog/ontojev">asimog/ontojev</a> — last check 2026-11-11
 - <a href="https://github.com/clanker25/opik">clanker25/opik</a> — last check 2026-11-04
 - <a href="https://github.com/marianimatteo-lexroom/poly-jev">marianimatteo-lexroom/poly-jev</a> — last check 2026-11-03
 - <a href="https://github.com/brenoajs/polygraph-polymarket">brenoajs/polygraph-polymarket</a> — last check 2026-11-06
