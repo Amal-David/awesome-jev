@@ -6,12 +6,12 @@
 
 | Measure | Recorded value |
 |---|---|
-| Reviewed / indexed / auto-discovered | 78 / 1723 / 4054 |
-| Catalog entries (not all reviewed) | 5855 |
-| Last completed discovery pass (UTC) | 2026-11-11T22:51:04Z |
-| Latest rotating repository metadata check | 2026-11-11 |
-| Repositories with a recorded metadata check | 5751 / 5751 |
-| Repositories unavailable at their last check (404/410) | 93 |
+| Reviewed / indexed / auto-discovered | 78 / 1727 / 4076 |
+| Catalog entries (not all reviewed) | 5881 |
+| Last completed discovery pass (UTC) | 2026-11-12T07:25:49Z |
+| Latest rotating repository metadata check | 2026-11-12 |
+| Repositories with a recorded metadata check | 5777 / 5777 |
+| Repositories unavailable at their last check (404/410) | 94 |
 | Media records with a latest-attempt error | 1 |
 | Editorial exclusions | 1 |
 
@@ -21,7 +21,7 @@ Repository checks rotate: the newest check date does not mean every entry was ch
 
 The discovery timestamp advances only after a network discovery pass completes. An offline directory rebuild, test run or media-only refresh never advances it. The Actions result, not the cron expression, establishes that a workflow ran successfully.
 
-<a href="https://github.com/Amal-David/awesome-jev/actions/runs/43114953508">Discovery run receipt</a>
+<a href="https://github.com/Amal-David/awesome-jev/actions/runs/43175013300">Discovery run receipt</a>
 
 <a href="https://github.com/Amal-David/awesome-jev/actions/workflows/curate.yml">All refresh runs</a>
 
@@ -51,6 +51,7 @@ The discovery timestamp advances only after a network discovery pass completes. 
 - <a href="https://github.com/altregubov/jev-antigravity-decider">altregubov/jev-antigravity-decider</a> — last check 2026-11-04
 - <a href="https://github.com/legostin/jev-browser">legostin/jev-browser</a> — last check 2026-11-10
 - <a href="https://github.com/Gazer2020/jev-btzsc">Gazer2020/jev-btzsc</a> — last check 2026-10-29
+- <a href="https://github.com/calebvergene/jev-control-mac">calebvergene/jev-control-mac</a> — last check 2026-11-12
 - <a href="https://github.com/LIDR-academy/jev-demo">LIDR-academy/jev-demo</a> — last check 2026-10-26
 - <a href="https://github.com/everyai-com/jev-directory">everyai-com/jev-directory</a> — last check 2026-11-08
 - <a href="https://github.com/Nolane-x/JEV-language">Nolane-x/JEV-language</a> — last check 2026-11-04
@@ -123,4 +124,4 @@ The discovery timestamp advances only after a network discovery pass completes. 
 
 ## Media checks needing attention
 
-- abide-video — HTTPError; attempted 2026-11-11
+- abide-video — HTTPError; attempted 2026-11-12
