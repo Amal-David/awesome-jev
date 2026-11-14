@@ -6,12 +6,12 @@
 
 | Measure | Recorded value |
 |---|---|
-| Reviewed / indexed / auto-discovered | 78 / 1736 / 4150 |
-| Catalog entries (not all reviewed) | 5964 |
-| Last completed discovery pass (UTC) | 2026-11-13T19:55:45Z |
-| Latest rotating repository metadata check | 2026-11-13 |
-| Repositories with a recorded metadata check | 5860 / 5860 |
-| Repositories unavailable at their last check (404/410) | 95 |
+| Reviewed / indexed / auto-discovered | 78 / 1733 / 4170 |
+| Catalog entries (not all reviewed) | 5981 |
+| Last completed discovery pass (UTC) | 2026-11-14T00:56:16Z |
+| Latest rotating repository metadata check | 2026-11-14 |
+| Repositories with a recorded metadata check | 5877 / 5877 |
+| Repositories unavailable at their last check (404/410) | 96 |
 | Media records with a latest-attempt error | 1 |
 | Editorial exclusions | 1 |
 
@@ -21,7 +21,7 @@ Repository checks rotate: the newest check date does not mean every entry was ch
 
 The discovery timestamp advances only after a network discovery pass completes. An offline directory rebuild, test run or media-only refresh never advances it. The Actions result, not the cron expression, establishes that a workflow ran successfully.
 
-<a href="https://github.com/Amal-David/awesome-jev/actions/runs/43496482443">Discovery run receipt</a>
+<a href="https://github.com/Amal-David/awesome-jev/actions/runs/43537291483">Discovery run receipt</a>
 
 <a href="https://github.com/Amal-David/awesome-jev/actions/workflows/curate.yml">All refresh runs</a>
 
@@ -69,6 +69,7 @@ The discovery timestamp advances only after a network discovery pass completes. 
 - <a href="https://github.com/remotehostai/jg">remotehostai/jg</a> — last check 2026-11-09
 - <a href="https://github.com/raindragon14/kalshi-diffusion-tracker">raindragon14/kalshi-diffusion-tracker</a> — last check 2026-11-05
 - <a href="https://github.com/kedi-lang/kedi-typesafe">kedi-lang/kedi-typesafe</a> — last check 2026-11-10
+- <a href="https://github.com/Averis-T010NG/LadingLens">Averis-T010NG/LadingLens</a> — last check 2026-11-14
 - <a href="https://github.com/vhpctnyd5x-lab/localai-16gb">vhpctnyd5x-lab/localai-16gb</a> — last check 2026-11-03
 - <a href="https://github.com/blancaile/minecraft-ai">blancaile/minecraft-ai</a> — last check 2026-11-06
 - <a href="https://github.com/novvoo/nanojev">novvoo/nanojev</a> — last check 2026-10-28
@@ -125,4 +126,4 @@ The discovery timestamp advances only after a network discovery pass completes. 
 
 ## Media checks needing attention
 
-- abide-video — HTTPError; attempted 2026-11-13
+- abide-video — HTTPError; attempted 2026-11-14
