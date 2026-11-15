@@ -6,12 +6,12 @@
 
 | Measure | Recorded value |
 |---|---|
-| Reviewed / indexed / auto-discovered | 78 / 1747 / 4249 |
-| Catalog entries (not all reviewed) | 6074 |
-| Last completed discovery pass (UTC) | 2026-11-15T06:49:26Z |
+| Reviewed / indexed / auto-discovered | 78 / 1748 / 4274 |
+| Catalog entries (not all reviewed) | 6100 |
+| Last completed discovery pass (UTC) | 2026-11-15T15:44:51Z |
 | Latest rotating repository metadata check | 2026-11-15 |
-| Repositories with a recorded metadata check | 5970 / 5970 |
-| Repositories unavailable at their last check (404/410) | 100 |
+| Repositories with a recorded metadata check | 5996 / 5996 |
+| Repositories unavailable at their last check (404/410) | 101 |
 | Media records with a latest-attempt error | 1 |
 | Editorial exclusions | 1 |
 
@@ -21,7 +21,7 @@ Repository checks rotate: the newest check date does not mean every entry was ch
 
 The discovery timestamp advances only after a network discovery pass completes. An offline directory rebuild, test run or media-only refresh never advances it. The Actions result, not the cron expression, establishes that a workflow ran successfully.
 
-<a href="https://github.com/Amal-David/awesome-jev/actions/runs/43687077474">Discovery run receipt</a>
+<a href="https://github.com/Amal-David/awesome-jev/actions/runs/43731436959">Discovery run receipt</a>
 
 <a href="https://github.com/Amal-David/awesome-jev/actions/workflows/curate.yml">All refresh runs</a>
 
@@ -69,6 +69,7 @@ The discovery timestamp advances only after a network discovery pass completes. 
 - <a href="https://github.com/sethsaler/jevgram">sethsaler/jevgram</a> — last check 2026-10-30
 - <a href="https://github.com/notque/jevs-sprint-planning">notque/jevs-sprint-planning</a> — last check 2026-10-28
 - <a href="https://github.com/choxos/JevVsLLM">choxos/JevVsLLM</a> — last check 2026-11-07
+- <a href="https://github.com/j-asefa/jfind">j-asefa/jfind</a> — last check 2026-11-15
 - <a href="https://github.com/remotehostai/jg">remotehostai/jg</a> — last check 2026-11-09
 - <a href="https://github.com/raindragon14/kalshi-diffusion-tracker">raindragon14/kalshi-diffusion-tracker</a> — last check 2026-11-05
 - <a href="https://github.com/kedi-lang/kedi-typesafe">kedi-lang/kedi-typesafe</a> — last check 2026-11-10
@@ -85,11 +86,11 @@ The discovery timestamp advances only after a network discovery pass completes. 
 - <a href="https://github.com/karoliang/rightsize">karoliang/rightsize</a> — last check 2026-11-03
 - <a href="https://github.com/revgrowth/roi-live-agentic-os">revgrowth/roi-live-agentic-os</a> — last check 2026-11-05
 - <a href="https://github.com/levi-qiao/SemaLoom">levi-qiao/SemaLoom</a> — last check 2026-11-03
-- <a href="https://github.com/ivorpad/skillranker">ivorpad/skillranker</a> — last check 2026-10-26
+- <a href="https://github.com/ivorpad/skillranker">ivorpad/skillranker</a> — last check 2026-11-15
 - <a href="https://github.com/JTech-CO/Smart-Cart-Autonomy-Lab-Jev">JTech-CO/Smart-Cart-Autonomy-Lab-Jev</a> — last check 2026-11-01
 - <a href="https://github.com/prof-ramos/sneub">prof-ramos/sneub</a> — last check 2026-11-08
-- <a href="https://github.com/hitakshiA/solari-fast-showcase">hitakshiA/solari-fast-showcase</a> — last check 2026-10-26
-- <a href="https://github.com/hitakshiA/solari-reflex">hitakshiA/solari-reflex</a> — last check 2026-10-26
+- <a href="https://github.com/hitakshiA/solari-fast-showcase">hitakshiA/solari-fast-showcase</a> — last check 2026-11-15
+- <a href="https://github.com/hitakshiA/solari-reflex">hitakshiA/solari-reflex</a> — last check 2026-11-15
 - <a href="https://github.com/zoidsh/tenet">zoidsh/tenet</a> — last check 2026-11-11
 - <a href="https://github.com/ismailakdag/typesafe-jev">ismailakdag/typesafe-jev</a> — last check 2026-10-27
 - <a href="https://github.com/armsteadj1/vibe-smart-router">armsteadj1/vibe-smart-router</a> — last check 2026-11-04
