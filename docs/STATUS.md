@@ -6,12 +6,12 @@
 
 | Measure | Recorded value |
 |---|---|
-| Reviewed / indexed / auto-discovered | 78 / 1757 / 4411 |
-| Catalog entries (not all reviewed) | 6246 |
-| Last completed discovery pass (UTC) | 2026-11-18T07:43:37Z |
+| Reviewed / indexed / auto-discovered | 78 / 1757 / 4425 |
+| Catalog entries (not all reviewed) | 6260 |
+| Last completed discovery pass (UTC) | 2026-11-18T17:22:05Z |
 | Latest rotating repository metadata check | 2026-11-18 |
-| Repositories with a recorded metadata check | 6142 / 6142 |
-| Repositories unavailable at their last check (404/410) | 103 |
+| Repositories with a recorded metadata check | 6156 / 6156 |
+| Repositories unavailable at their last check (404/410) | 105 |
 | Media records with a latest-attempt error | 1 |
 | Editorial exclusions | 1 |
 
@@ -21,7 +21,7 @@ Repository checks rotate: the newest check date does not mean every entry was ch
 
 The discovery timestamp advances only after a network discovery pass completes. An offline directory rebuild, test run or media-only refresh never advances it. The Actions result, not the cron expression, establishes that a workflow ran successfully.
 
-<a href="https://github.com/Amal-David/awesome-jev/actions/runs/44260891127">Discovery run receipt</a>
+<a href="https://github.com/Amal-David/awesome-jev/actions/runs/44357639373">Discovery run receipt</a>
 
 <a href="https://github.com/Amal-David/awesome-jev/actions/workflows/curate.yml">All refresh runs</a>
 
@@ -65,6 +65,7 @@ The discovery timestamp advances only after a network discovery pass completes. 
 - <a href="https://github.com/dominusDeus/jev-trader-fork">dominusDeus/jev-trader-fork</a> — last check 2026-11-08
 - <a href="https://github.com/pininkara/Jev-Trades">pininkara/Jev-Trades</a> — last check 2026-11-07
 - <a href="https://github.com/Baran3575/jev-voice-android">Baran3575/jev-voice-android</a> — last check 2026-11-06
+- <a href="https://github.com/JYeswak/jev_playground">JYeswak/jev_playground</a> — last check 2026-11-18
 - <a href="https://github.com/RavenRepo/jevengineeringgate">RavenRepo/jevengineeringgate</a> — last check 2026-11-08
 - <a href="https://github.com/sethsaler/jevgram">sethsaler/jevgram</a> — last check 2026-10-30
 - <a href="https://github.com/Cadaquesenc/jevpong">Cadaquesenc/jevpong</a> — last check 2026-11-17
@@ -103,6 +104,7 @@ The discovery timestamp advances only after a network discovery pass completes. 
 - <a href="https://github.com/kyrylosyzonenko/jev-browse">kyrylosyzonenko/jev-browse</a> — last check 2026-10-28
 - <a href="https://github.com/vlad-terin/jev-browser">vlad-terin/jev-browser</a> — last check 2026-11-05
 - <a href="https://github.com/choxos/jev-reviewer">choxos/jev-reviewer</a> — last check 2026-11-06
+- <a href="https://github.com/OxygenAILab/FuckOpenCodeFree">OxygenAILab/FuckOpenCodeFree</a> — last check 2026-11-18
 - <a href="https://github.com/AkashPriyadarshii/jev-git">AkashPriyadarshii/jev-git</a> — last check 2026-11-01
 - <a href="https://github.com/benballintyn/jev-mcp">benballintyn/jev-mcp</a> — last check 2026-11-06
 - <a href="https://github.com/AkashPriyadarshii/jev-scout">AkashPriyadarshii/jev-scout</a> — last check 2026-11-01
@@ -118,7 +120,7 @@ The discovery timestamp advances only after a network discovery pass completes. 
 - <a href="https://github.com/Mushroom-Systems/lichen">Mushroom-Systems/lichen</a> — last check 2026-11-08
 - <a href="https://github.com/usenotra/notra">usenotra/notra</a> — last check 2026-11-05
 - <a href="https://github.com/pinkroosterai/SystemOneSharp">pinkroosterai/SystemOneSharp</a> — last check 2026-10-31
-- <a href="https://github.com/kcb-swe-gh/typesafe-ai-jev">kcb-swe-gh/typesafe-ai-jev</a> — last check 2026-10-27
+- <a href="https://github.com/kcb-swe-gh/typesafe-ai-jev">kcb-swe-gh/typesafe-ai-jev</a> — last check 2026-11-18
 - <a href="https://github.com/bojansandhaus/jev-home-assistant-sentinel">bojansandhaus/jev-home-assistant-sentinel</a> — last check 2026-11-06
 - <a href="https://github.com/dchristopoulos/jev-aita">dchristopoulos/jev-aita</a> — last check 2026-11-06
 - <a href="https://github.com/207studio/jev-codex-tools">207studio/jev-codex-tools</a> — last check 2026-10-30
