@@ -6,12 +6,12 @@
 
 | Measure | Recorded value |
 |---|---|
-| Reviewed / indexed / auto-discovered | 78 / 1755 / 4443 |
-| Catalog entries (not all reviewed) | 6276 |
-| Last completed discovery pass (UTC) | 2026-11-19T01:55:51Z |
+| Reviewed / indexed / auto-discovered | 78 / 1762 / 4462 |
+| Catalog entries (not all reviewed) | 6302 |
+| Last completed discovery pass (UTC) | 2026-11-19T13:31:25Z |
 | Latest rotating repository metadata check | 2026-11-19 |
-| Repositories with a recorded metadata check | 6172 / 6172 |
-| Repositories unavailable at their last check (404/410) | 105 |
+| Repositories with a recorded metadata check | 6198 / 6198 |
+| Repositories unavailable at their last check (404/410) | 107 |
 | Media records with a latest-attempt error | 1 |
 | Editorial exclusions | 1 |
 
@@ -21,7 +21,7 @@ Repository checks rotate: the newest check date does not mean every entry was ch
 
 The discovery timestamp advances only after a network discovery pass completes. An offline directory rebuild, test run or media-only refresh never advances it. The Actions result, not the cron expression, establishes that a workflow ran successfully.
 
-<a href="https://github.com/Amal-David/awesome-jev/actions/runs/44440397145">Discovery run receipt</a>
+<a href="https://github.com/Amal-David/awesome-jev/actions/runs/44533982177">Discovery run receipt</a>
 
 <a href="https://github.com/Amal-David/awesome-jev/actions/workflows/curate.yml">All refresh runs</a>
 
@@ -59,6 +59,7 @@ The discovery timestamp advances only after a network discovery pass completes. 
 - <a href="https://github.com/Nolane-x/JEV-language">Nolane-x/JEV-language</a> — last check 2026-11-04
 - <a href="https://github.com/STiFLeR7/Jev-LLM-Playground">STiFLeR7/Jev-LLM-Playground</a> — last check 2026-11-07
 - <a href="https://github.com/cleiton1231/jev-loop">cleiton1231/jev-loop</a> — last check 2026-11-06
+- <a href="https://github.com/kevin9327/jev-master">kevin9327/jev-master</a> — last check 2026-11-19
 - <a href="https://github.com/fol2/jev-playground">fol2/jev-playground</a> — last check 2026-11-15
 - <a href="https://github.com/realdubb/jev-playground">realdubb/jev-playground</a> — last check 2026-11-08
 - <a href="https://github.com/WXH666-bit/jev-tetris-lab">WXH666-bit/jev-tetris-lab</a> — last check 2026-11-14
@@ -88,6 +89,7 @@ The discovery timestamp advances only after a network discovery pass completes. 
 - <a href="https://github.com/brenoajs/polygraph-polymarket">brenoajs/polygraph-polymarket</a> — last check 2026-11-06
 - <a href="https://github.com/karoliang/rightsize">karoliang/rightsize</a> — last check 2026-11-03
 - <a href="https://github.com/revgrowth/roi-live-agentic-os">revgrowth/roi-live-agentic-os</a> — last check 2026-11-05
+- <a href="https://github.com/JohnCari/rossrecall">JohnCari/rossrecall</a> — last check 2026-11-19
 - <a href="https://github.com/levi-qiao/SemaLoom">levi-qiao/SemaLoom</a> — last check 2026-11-03
 - <a href="https://github.com/ivorpad/skillranker">ivorpad/skillranker</a> — last check 2026-11-15
 - <a href="https://github.com/JTech-CO/Smart-Cart-Autonomy-Lab-Jev">JTech-CO/Smart-Cart-Autonomy-Lab-Jev</a> — last check 2026-11-01
