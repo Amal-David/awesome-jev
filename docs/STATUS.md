@@ -6,11 +6,11 @@
 
 | Measure | Recorded value |
 |---|---|
-| Reviewed / indexed / auto-discovered | 78 / 1757 / 4425 |
-| Catalog entries (not all reviewed) | 6260 |
-| Last completed discovery pass (UTC) | 2026-11-18T17:22:05Z |
-| Latest rotating repository metadata check | 2026-11-18 |
-| Repositories with a recorded metadata check | 6156 / 6156 |
+| Reviewed / indexed / auto-discovered | 78 / 1755 / 4443 |
+| Catalog entries (not all reviewed) | 6276 |
+| Last completed discovery pass (UTC) | 2026-11-19T01:55:51Z |
+| Latest rotating repository metadata check | 2026-11-19 |
+| Repositories with a recorded metadata check | 6172 / 6172 |
 | Repositories unavailable at their last check (404/410) | 105 |
 | Media records with a latest-attempt error | 1 |
 | Editorial exclusions | 1 |
@@ -21,7 +21,7 @@ Repository checks rotate: the newest check date does not mean every entry was ch
 
 The discovery timestamp advances only after a network discovery pass completes. An offline directory rebuild, test run or media-only refresh never advances it. The Actions result, not the cron expression, establishes that a workflow ran successfully.
 
-<a href="https://github.com/Amal-David/awesome-jev/actions/runs/44357639373">Discovery run receipt</a>
+<a href="https://github.com/Amal-David/awesome-jev/actions/runs/44440397145">Discovery run receipt</a>
 
 <a href="https://github.com/Amal-David/awesome-jev/actions/workflows/curate.yml">All refresh runs</a>
 
@@ -116,7 +116,7 @@ The discovery timestamp advances only after a network discovery pass completes. 
 - <a href="https://github.com/ThePikey/AOS_GLM_language">ThePikey/AOS_GLM_language</a> — last check 2026-11-11
 - <a href="https://github.com/lsp199308/Jev-Chat-for-WeChat">lsp199308/Jev-Chat-for-WeChat</a> — last check 2026-11-08
 - <a href="https://github.com/brudarko/jev-mac-voice">brudarko/jev-mac-voice</a> — last check 2026-11-06
-- <a href="https://github.com/Alex314618-create/JevRev">Alex314618-create/JevRev</a> — last check 2026-10-28
+- <a href="https://github.com/Alex314618-create/JevRev">Alex314618-create/JevRev</a> — last check 2026-11-19
 - <a href="https://github.com/Mushroom-Systems/lichen">Mushroom-Systems/lichen</a> — last check 2026-11-08
 - <a href="https://github.com/usenotra/notra">usenotra/notra</a> — last check 2026-11-05
 - <a href="https://github.com/pinkroosterai/SystemOneSharp">pinkroosterai/SystemOneSharp</a> — last check 2026-10-31
@@ -135,4 +135,4 @@ The discovery timestamp advances only after a network discovery pass completes. 
 
 ## Media checks needing attention
 
-- abide-video — HTTPError; attempted 2026-11-18
+- abide-video — HTTPError; attempted 2026-11-19
