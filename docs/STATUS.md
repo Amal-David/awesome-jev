@@ -6,11 +6,11 @@
 
 | Measure | Recorded value |
 |---|---|
-| Reviewed / indexed / auto-discovered | 78 / 1764 / 4502 |
-| Catalog entries (not all reviewed) | 6344 |
-| Last completed discovery pass (UTC) | 2026-11-20T07:31:12Z |
+| Reviewed / indexed / auto-discovered | 78 / 1765 / 4518 |
+| Catalog entries (not all reviewed) | 6361 |
+| Last completed discovery pass (UTC) | 2026-11-20T17:02:57Z |
 | Latest rotating repository metadata check | 2026-11-20 |
-| Repositories with a recorded metadata check | 6240 / 6240 |
+| Repositories with a recorded metadata check | 6257 / 6257 |
 | Repositories unavailable at their last check (404/410) | 119 |
 | Media records with a latest-attempt error | 1 |
 | Editorial exclusions | 1 |
@@ -21,7 +21,7 @@ Repository checks rotate: the newest check date does not mean every entry was ch
 
 The discovery timestamp advances only after a network discovery pass completes. An offline directory rebuild, test run or media-only refresh never advances it. The Actions result, not the cron expression, establishes that a workflow ran successfully.
 
-<a href="https://github.com/Amal-David/awesome-jev/actions/runs/44695370992">Discovery run receipt</a>
+<a href="https://github.com/Amal-David/awesome-jev/actions/runs/44779157277">Discovery run receipt</a>
 
 <a href="https://github.com/Amal-David/awesome-jev/actions/workflows/curate.yml">All refresh runs</a>
 
@@ -55,7 +55,7 @@ The discovery timestamp advances only after a network discovery pass completes. 
 - <a href="https://github.com/mjyoke1111/jev-agent-safety-arena">mjyoke1111/jev-agent-safety-arena</a> — last check 2026-11-13
 - <a href="https://github.com/altregubov/jev-antigravity-decider">altregubov/jev-antigravity-decider</a> — last check 2026-11-04
 - <a href="https://github.com/legostin/jev-browser">legostin/jev-browser</a> — last check 2026-11-10
-- <a href="https://github.com/Gazer2020/jev-btzsc">Gazer2020/jev-btzsc</a> — last check 2026-10-29
+- <a href="https://github.com/Gazer2020/jev-btzsc">Gazer2020/jev-btzsc</a> — last check 2026-11-20
 - <a href="https://github.com/calebvergene/jev-control-mac">calebvergene/jev-control-mac</a> — last check 2026-11-12
 - <a href="https://github.com/LIDR-academy/jev-demo">LIDR-academy/jev-demo</a> — last check 2026-11-16
 - <a href="https://github.com/everyai-com/jev-directory">everyai-com/jev-directory</a> — last check 2026-11-08
