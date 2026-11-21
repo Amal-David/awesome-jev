@@ -6,12 +6,12 @@
 
 | Measure | Recorded value |
 |---|---|
-| Reviewed / indexed / auto-discovered | 78 / 1769 / 4555 |
-| Catalog entries (not all reviewed) | 6402 |
-| Last completed discovery pass (UTC) | 2026-11-21T12:49:38Z |
+| Reviewed / indexed / auto-discovered | 78 / 1769 / 4570 |
+| Catalog entries (not all reviewed) | 6417 |
+| Last completed discovery pass (UTC) | 2026-11-21T21:44:01Z |
 | Latest rotating repository metadata check | 2026-11-21 |
-| Repositories with a recorded metadata check | 6298 / 6298 |
-| Repositories unavailable at their last check (404/410) | 121 |
+| Repositories with a recorded metadata check | 6313 / 6313 |
+| Repositories unavailable at their last check (404/410) | 122 |
 | Media records with a latest-attempt error | 1 |
 | Editorial exclusions | 1 |
 
@@ -21,7 +21,7 @@ Repository checks rotate: the newest check date does not mean every entry was ch
 
 The discovery timestamp advances only after a network discovery pass completes. An offline directory rebuild, test run or media-only refresh never advances it. The Actions result, not the cron expression, establishes that a workflow ran successfully.
 
-<a href="https://github.com/Amal-David/awesome-jev/actions/runs/44905682378">Discovery run receipt</a>
+<a href="https://github.com/Amal-David/awesome-jev/actions/runs/44952921914">Discovery run receipt</a>
 
 <a href="https://github.com/Amal-David/awesome-jev/actions/workflows/curate.yml">All refresh runs</a>
 
@@ -48,7 +48,7 @@ The discovery timestamp advances only after a network discovery pass completes. 
 - <a href="https://github.com/ndolinschi/hiresignal">ndolinschi/hiresignal</a> — last check 2026-11-19
 - <a href="https://github.com/edgardcham/huncho">edgardcham/huncho</a> — last check 2026-11-08
 - <a href="https://github.com/angusforbes/hyprcu">angusforbes/hyprcu</a> — last check 2026-11-13
-- <a href="https://github.com/pnll1991/io-delegation-skill">pnll1991/io-delegation-skill</a> — last check 2026-10-29
+- <a href="https://github.com/pnll1991/io-delegation-skill">pnll1991/io-delegation-skill</a> — last check 2026-11-21
 - <a href="https://github.com/Lisayinyy/javvvvvv">Lisayinyy/javvvvvv</a> — last check 2026-11-04
 - <a href="https://github.com/socialbot114-cell/jerv">socialbot114-cell/jerv</a> — last check 2026-11-13
 - <a href="https://github.com/Jev27B/JEV-27B-Desktop">Jev27B/JEV-27B-Desktop</a> — last check 2026-11-01
@@ -86,6 +86,7 @@ The discovery timestamp advances only after a network discovery pass completes. 
 - <a href="https://github.com/ndolinschi/mcpmatch">ndolinschi/mcpmatch</a> — last check 2026-11-19
 - <a href="https://github.com/jorgegarcelan/midterms-pulse-2026">jorgegarcelan/midterms-pulse-2026</a> — last check 2026-11-18
 - <a href="https://github.com/blancaile/minecraft-ai">blancaile/minecraft-ai</a> — last check 2026-11-06
+- <a href="https://github.com/papisoV/my-github-radar">papisoV/my-github-radar</a> — last check 2026-11-21
 - <a href="https://github.com/novvoo/nanojev">novvoo/nanojev</a> — last check 2026-11-20
 - <a href="https://github.com/villagertim/neonhop-3d">villagertim/neonhop-3d</a> — last check 2026-11-14
 - <a href="https://github.com/develatter/notos-intelligence-go">develatter/notos-intelligence-go</a> — last check 2026-11-08
@@ -128,7 +129,7 @@ The discovery timestamp advances only after a network discovery pass completes. 
 - <a href="https://github.com/AkashPriyadarshii/jev-superpowers">AkashPriyadarshii/jev-superpowers</a> — last check 2026-11-01
 - <a href="https://github.com/qianyuxiang-369/pi-jev-governor">qianyuxiang-369/pi-jev-governor</a> — last check 2026-11-04
 - <a href="https://github.com/eachann1024/pi-jev-reply">eachann1024/pi-jev-reply</a> — last check 2026-11-06
-- <a href="https://github.com/rajdhakad9826/routeKit">rajdhakad9826/routeKit</a> — last check 2026-10-29
+- <a href="https://github.com/rajdhakad9826/routeKit">rajdhakad9826/routeKit</a> — last check 2026-11-21
 - <a href="https://github.com/ThePikey/AOS_GLM_language">ThePikey/AOS_GLM_language</a> — last check 2026-11-11
 - <a href="https://github.com/lsp199308/Jev-Chat-for-WeChat">lsp199308/Jev-Chat-for-WeChat</a> — last check 2026-11-08
 - <a href="https://github.com/brudarko/jev-mac-voice">brudarko/jev-mac-voice</a> — last check 2026-11-06
@@ -139,13 +140,13 @@ The discovery timestamp advances only after a network discovery pass completes. 
 - <a href="https://github.com/kcb-swe-gh/typesafe-ai-jev">kcb-swe-gh/typesafe-ai-jev</a> — last check 2026-11-18
 - <a href="https://github.com/bojansandhaus/jev-home-assistant-sentinel">bojansandhaus/jev-home-assistant-sentinel</a> — last check 2026-11-06
 - <a href="https://github.com/dchristopoulos/jev-aita">dchristopoulos/jev-aita</a> — last check 2026-11-06
-- <a href="https://github.com/207studio/jev-codex-tools">207studio/jev-codex-tools</a> — last check 2026-10-30
+- <a href="https://github.com/207studio/jev-codex-tools">207studio/jev-codex-tools</a> — last check 2026-11-21
 - <a href="https://github.com/AkashPriyadarshii/jev-curate">AkashPriyadarshii/jev-curate</a> — last check 2026-11-01
 - <a href="https://github.com/silex-ai-lab/jev-runtime-observability">silex-ai-lab/jev-runtime-observability</a> — last check 2026-10-31
 - <a href="https://github.com/ringzerosec/jev-runtime-security">ringzerosec/jev-runtime-security</a> — last check 2026-11-09
 - <a href="https://github.com/choxos/jevchess">choxos/jevchess</a> — last check 2026-11-07
 - <a href="https://github.com/choxos/LetJevDecide">choxos/LetJevDecide</a> — last check 2026-11-06
-- <a href="https://github.com/24601/rh-guard">24601/rh-guard</a> — last check 2026-10-30
+- <a href="https://github.com/24601/rh-guard">24601/rh-guard</a> — last check 2026-11-21
 - <a href="https://github.com/trophee-bot/typesafe-oracles">trophee-bot/typesafe-oracles</a> — last check 2026-11-05
 - <a href="https://github.com/sysadarsh/zerosweep">sysadarsh/zerosweep</a> — last check 2026-11-03
 
