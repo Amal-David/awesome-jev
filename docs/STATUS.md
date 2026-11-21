@@ -6,12 +6,12 @@
 
 | Measure | Recorded value |
 |---|---|
-| Reviewed / indexed / auto-discovered | 78 / 1766 / 4537 |
-| Catalog entries (not all reviewed) | 6381 |
-| Last completed discovery pass (UTC) | 2026-11-21T01:36:45Z |
+| Reviewed / indexed / auto-discovered | 78 / 1769 / 4555 |
+| Catalog entries (not all reviewed) | 6402 |
+| Last completed discovery pass (UTC) | 2026-11-21T12:49:38Z |
 | Latest rotating repository metadata check | 2026-11-21 |
-| Repositories with a recorded metadata check | 6277 / 6277 |
-| Repositories unavailable at their last check (404/410) | 120 |
+| Repositories with a recorded metadata check | 6298 / 6298 |
+| Repositories unavailable at their last check (404/410) | 121 |
 | Media records with a latest-attempt error | 1 |
 | Editorial exclusions | 1 |
 
@@ -21,7 +21,7 @@ Repository checks rotate: the newest check date does not mean every entry was ch
 
 The discovery timestamp advances only after a network discovery pass completes. An offline directory rebuild, test run or media-only refresh never advances it. The Actions result, not the cron expression, establishes that a workflow ran successfully.
 
-<a href="https://github.com/Amal-David/awesome-jev/actions/runs/44851080926">Discovery run receipt</a>
+<a href="https://github.com/Amal-David/awesome-jev/actions/runs/44905682378">Discovery run receipt</a>
 
 <a href="https://github.com/Amal-David/awesome-jev/actions/workflows/curate.yml">All refresh runs</a>
 
@@ -107,6 +107,7 @@ The discovery timestamp advances only after a network discovery pass completes. 
 - <a href="https://github.com/ndolinschi/swarmrouter">ndolinschi/swarmrouter</a> — last check 2026-11-20
 - <a href="https://github.com/hraness/sys1">hraness/sys1</a> — last check 2026-11-21
 - <a href="https://github.com/zoidsh/tenet">zoidsh/tenet</a> — last check 2026-11-11
+- <a href="https://github.com/kurocoma/terminal-app">kurocoma/terminal-app</a> — last check 2026-11-21
 - <a href="https://github.com/ndolinschi/toolgate">ndolinschi/toolgate</a> — last check 2026-11-20
 - <a href="https://github.com/ndolinschi/trustgate">ndolinschi/trustgate</a> — last check 2026-11-20
 - <a href="https://github.com/ismailakdag/typesafe-jev">ismailakdag/typesafe-jev</a> — last check 2026-11-18
