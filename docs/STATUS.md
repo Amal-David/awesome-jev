@@ -6,12 +6,12 @@
 
 | Measure | Recorded value |
 |---|---|
-| Reviewed / indexed / auto-discovered | 78 / 1772 / 4588 |
-| Catalog entries (not all reviewed) | 6438 |
-| Last completed discovery pass (UTC) | 2026-11-22T07:07:12Z |
+| Reviewed / indexed / auto-discovered | 78 / 1772 / 4605 |
+| Catalog entries (not all reviewed) | 6455 |
+| Last completed discovery pass (UTC) | 2026-11-22T16:27:19Z |
 | Latest rotating repository metadata check | 2026-11-22 |
-| Repositories with a recorded metadata check | 6334 / 6334 |
-| Repositories unavailable at their last check (404/410) | 123 |
+| Repositories with a recorded metadata check | 6351 / 6351 |
+| Repositories unavailable at their last check (404/410) | 125 |
 | Media records with a latest-attempt error | 1 |
 | Editorial exclusions | 1 |
 
@@ -21,7 +21,7 @@ Repository checks rotate: the newest check date does not mean every entry was ch
 
 The discovery timestamp advances only after a network discovery pass completes. An offline directory rebuild, test run or media-only refresh never advances it. The Actions result, not the cron expression, establishes that a workflow ran successfully.
 
-<a href="https://github.com/Amal-David/awesome-jev/actions/runs/44996643103">Discovery run receipt</a>
+<a href="https://github.com/Amal-David/awesome-jev/actions/runs/45043797248">Discovery run receipt</a>
 
 <a href="https://github.com/Amal-David/awesome-jev/actions/workflows/curate.yml">All refresh runs</a>
 
@@ -82,6 +82,7 @@ The discovery timestamp advances only after a network discovery pass completes. 
 - <a href="https://github.com/kedi-lang/kedi-typesafe">kedi-lang/kedi-typesafe</a> — last check 2026-11-10
 - <a href="https://github.com/Averis-T010NG/LadingLens">Averis-T010NG/LadingLens</a> — last check 2026-11-14
 - <a href="https://github.com/ndolinschi/lanebreak">ndolinschi/lanebreak</a> — last check 2026-11-19
+- <a href="https://github.com/MI-1222/local-jev">MI-1222/local-jev</a> — last check 2026-11-22
 - <a href="https://github.com/vhpctnyd5x-lab/localai-16gb">vhpctnyd5x-lab/localai-16gb</a> — last check 2026-11-03
 - <a href="https://github.com/ndolinschi/mcpmatch">ndolinschi/mcpmatch</a> — last check 2026-11-19
 - <a href="https://github.com/jorgegarcelan/midterms-pulse-2026">jorgegarcelan/midterms-pulse-2026</a> — last check 2026-11-18
@@ -92,6 +93,7 @@ The discovery timestamp advances only after a network discovery pass completes. 
 - <a href="https://github.com/develatter/notos-intelligence-go">develatter/notos-intelligence-go</a> — last check 2026-11-08
 - <a href="https://github.com/asimog/ontojev">asimog/ontojev</a> — last check 2026-11-11
 - <a href="https://github.com/clanker25/opik">clanker25/opik</a> — last check 2026-11-04
+- <a href="https://github.com/dingw530/playwright-jev">dingw530/playwright-jev</a> — last check 2026-11-22
 - <a href="https://github.com/marianimatteo-lexroom/poly-jev">marianimatteo-lexroom/poly-jev</a> — last check 2026-11-03
 - <a href="https://github.com/brenoajs/polygraph-polymarket">brenoajs/polygraph-polymarket</a> — last check 2026-11-06
 - <a href="https://github.com/ndolinschi/pulselane">ndolinschi/pulselane</a> — last check 2026-11-19
