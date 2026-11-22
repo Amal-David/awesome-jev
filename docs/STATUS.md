@@ -6,12 +6,12 @@
 
 | Measure | Recorded value |
 |---|---|
-| Reviewed / indexed / auto-discovered | 78 / 1769 / 4570 |
-| Catalog entries (not all reviewed) | 6417 |
-| Last completed discovery pass (UTC) | 2026-11-21T21:44:01Z |
-| Latest rotating repository metadata check | 2026-11-21 |
-| Repositories with a recorded metadata check | 6313 / 6313 |
-| Repositories unavailable at their last check (404/410) | 122 |
+| Reviewed / indexed / auto-discovered | 78 / 1772 / 4588 |
+| Catalog entries (not all reviewed) | 6438 |
+| Last completed discovery pass (UTC) | 2026-11-22T07:07:12Z |
+| Latest rotating repository metadata check | 2026-11-22 |
+| Repositories with a recorded metadata check | 6334 / 6334 |
+| Repositories unavailable at their last check (404/410) | 123 |
 | Media records with a latest-attempt error | 1 |
 | Editorial exclusions | 1 |
 
@@ -21,7 +21,7 @@ Repository checks rotate: the newest check date does not mean every entry was ch
 
 The discovery timestamp advances only after a network discovery pass completes. An offline directory rebuild, test run or media-only refresh never advances it. The Actions result, not the cron expression, establishes that a workflow ran successfully.
 
-<a href="https://github.com/Amal-David/awesome-jev/actions/runs/44952921914">Discovery run receipt</a>
+<a href="https://github.com/Amal-David/awesome-jev/actions/runs/44996643103">Discovery run receipt</a>
 
 <a href="https://github.com/Amal-David/awesome-jev/actions/workflows/curate.yml">All refresh runs</a>
 
@@ -127,6 +127,7 @@ The discovery timestamp advances only after a network discovery pass completes. 
 - <a href="https://github.com/AkashPriyadarshii/jev-scout">AkashPriyadarshii/jev-scout</a> — last check 2026-11-01
 - <a href="https://github.com/AkashPriyadarshii/jev-seo">AkashPriyadarshii/jev-seo</a> — last check 2026-11-01
 - <a href="https://github.com/AkashPriyadarshii/jev-superpowers">AkashPriyadarshii/jev-superpowers</a> — last check 2026-11-01
+- <a href="https://github.com/Bodila51/muse-jev-playbook">Bodila51/muse-jev-playbook</a> — last check 2026-11-22
 - <a href="https://github.com/qianyuxiang-369/pi-jev-governor">qianyuxiang-369/pi-jev-governor</a> — last check 2026-11-04
 - <a href="https://github.com/eachann1024/pi-jev-reply">eachann1024/pi-jev-reply</a> — last check 2026-11-06
 - <a href="https://github.com/rajdhakad9826/routeKit">rajdhakad9826/routeKit</a> — last check 2026-11-21
@@ -152,4 +153,4 @@ The discovery timestamp advances only after a network discovery pass completes. 
 
 ## Media checks needing attention
 
-- abide-video — HTTPError; attempted 2026-11-21
+- abide-video — HTTPError; attempted 2026-11-22
