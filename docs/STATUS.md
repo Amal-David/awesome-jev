@@ -6,12 +6,12 @@
 
 | Measure | Recorded value |
 |---|---|
-| Reviewed / indexed / auto-discovered | 78 / 1776 / 4703 |
-| Catalog entries (not all reviewed) | 6557 |
-| Last completed discovery pass (UTC) | 2026-11-25T00:54:04Z |
+| Reviewed / indexed / auto-discovered | 78 / 1784 / 4719 |
+| Catalog entries (not all reviewed) | 6581 |
+| Last completed discovery pass (UTC) | 2026-11-25T14:38:44Z |
 | Latest rotating repository metadata check | 2026-11-25 |
-| Repositories with a recorded metadata check | 6453 / 6453 |
-| Repositories unavailable at their last check (404/410) | 129 |
+| Repositories with a recorded metadata check | 6477 / 6477 |
+| Repositories unavailable at their last check (404/410) | 130 |
 | Media records with a latest-attempt error | 1 |
 | Editorial exclusions | 1 |
 
@@ -21,7 +21,7 @@ Repository checks rotate: the newest check date does not mean every entry was ch
 
 The discovery timestamp advances only after a network discovery pass completes. An offline directory rebuild, test run or media-only refresh never advances it. The Actions result, not the cron expression, establishes that a workflow ran successfully.
 
-<a href="https://github.com/Amal-David/awesome-jev/actions/runs/45521525405">Discovery run receipt</a>
+<a href="https://github.com/Amal-David/awesome-jev/actions/runs/45636027660">Discovery run receipt</a>
 
 <a href="https://github.com/Amal-David/awesome-jev/actions/workflows/curate.yml">All refresh runs</a>
 
@@ -142,6 +142,7 @@ The discovery timestamp advances only after a network discovery pass completes. 
 - <a href="https://github.com/Alex314618-create/JevRev">Alex314618-create/JevRev</a> — last check 2026-11-19
 - <a href="https://github.com/Mushroom-Systems/lichen">Mushroom-Systems/lichen</a> — last check 2026-11-08
 - <a href="https://github.com/usenotra/notra">usenotra/notra</a> — last check 2026-11-05
+- <a href="https://github.com/kerryrm/systemANE">kerryrm/systemANE</a> — last check 2026-11-25
 - <a href="https://github.com/pinkroosterai/SystemOneSharp">pinkroosterai/SystemOneSharp</a> — last check 2026-10-31
 - <a href="https://github.com/kcb-swe-gh/typesafe-ai-jev">kcb-swe-gh/typesafe-ai-jev</a> — last check 2026-11-18
 - <a href="https://github.com/bojansandhaus/jev-home-assistant-sentinel">bojansandhaus/jev-home-assistant-sentinel</a> — last check 2026-11-06
