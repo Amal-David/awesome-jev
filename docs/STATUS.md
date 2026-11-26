@@ -6,11 +6,11 @@
 
 | Measure | Recorded value |
 |---|---|
-| Reviewed / indexed / auto-discovered | 78 / 1784 / 4719 |
-| Catalog entries (not all reviewed) | 6581 |
-| Last completed discovery pass (UTC) | 2026-11-25T14:38:44Z |
-| Latest rotating repository metadata check | 2026-11-25 |
-| Repositories with a recorded metadata check | 6477 / 6477 |
+| Reviewed / indexed / auto-discovered | 78 / 1784 / 4741 |
+| Catalog entries (not all reviewed) | 6603 |
+| Last completed discovery pass (UTC) | 2026-11-26T00:32:41Z |
+| Latest rotating repository metadata check | 2026-11-26 |
+| Repositories with a recorded metadata check | 6499 / 6499 |
 | Repositories unavailable at their last check (404/410) | 130 |
 | Media records with a latest-attempt error | 1 |
 | Editorial exclusions | 1 |
@@ -21,7 +21,7 @@ Repository checks rotate: the newest check date does not mean every entry was ch
 
 The discovery timestamp advances only after a network discovery pass completes. An offline directory rebuild, test run or media-only refresh never advances it. The Actions result, not the cron expression, establishes that a workflow ran successfully.
 
-<a href="https://github.com/Amal-David/awesome-jev/actions/runs/45636027660">Discovery run receipt</a>
+<a href="https://github.com/Amal-David/awesome-jev/actions/runs/45729314773">Discovery run receipt</a>
 
 <a href="https://github.com/Amal-David/awesome-jev/actions/workflows/curate.yml">All refresh runs</a>
 
@@ -143,7 +143,7 @@ The discovery timestamp advances only after a network discovery pass completes. 
 - <a href="https://github.com/Mushroom-Systems/lichen">Mushroom-Systems/lichen</a> — last check 2026-11-08
 - <a href="https://github.com/usenotra/notra">usenotra/notra</a> — last check 2026-11-05
 - <a href="https://github.com/kerryrm/systemANE">kerryrm/systemANE</a> — last check 2026-11-25
-- <a href="https://github.com/pinkroosterai/SystemOneSharp">pinkroosterai/SystemOneSharp</a> — last check 2026-10-31
+- <a href="https://github.com/pinkroosterai/SystemOneSharp">pinkroosterai/SystemOneSharp</a> — last check 2026-11-26
 - <a href="https://github.com/kcb-swe-gh/typesafe-ai-jev">kcb-swe-gh/typesafe-ai-jev</a> — last check 2026-11-18
 - <a href="https://github.com/bojansandhaus/jev-home-assistant-sentinel">bojansandhaus/jev-home-assistant-sentinel</a> — last check 2026-11-06
 - <a href="https://github.com/dchristopoulos/jev-aita">dchristopoulos/jev-aita</a> — last check 2026-11-06
@@ -160,4 +160,4 @@ The discovery timestamp advances only after a network discovery pass completes. 
 
 ## Media checks needing attention
 
-- abide-video — HTTPError; attempted 2026-11-25
+- abide-video — HTTPError; attempted 2026-11-26
