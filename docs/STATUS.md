@@ -6,12 +6,12 @@
 
 | Measure | Recorded value |
 |---|---|
-| Reviewed / indexed / auto-discovered | 78 / 1790 / 4760 |
-| Catalog entries (not all reviewed) | 6628 |
-| Last completed discovery pass (UTC) | 2026-11-26T14:03:07Z |
-| Latest rotating repository metadata check | 2026-11-26 |
-| Repositories with a recorded metadata check | 6524 / 6524 |
-| Repositories unavailable at their last check (404/410) | 125 |
+| Reviewed / indexed / auto-discovered | 78 / 1789 / 4777 |
+| Catalog entries (not all reviewed) | 6644 |
+| Last completed discovery pass (UTC) | 2026-11-27T00:41:32Z |
+| Latest rotating repository metadata check | 2026-11-27 |
+| Repositories with a recorded metadata check | 6540 / 6540 |
+| Repositories unavailable at their last check (404/410) | 126 |
 | Media records with a latest-attempt error | 1 |
 | Editorial exclusions | 1 |
 
@@ -21,12 +21,13 @@ Repository checks rotate: the newest check date does not mean every entry was ch
 
 The discovery timestamp advances only after a network discovery pass completes. An offline directory rebuild, test run or media-only refresh never advances it. The Actions result, not the cron expression, establishes that a workflow ran successfully.
 
-<a href="https://github.com/Amal-David/awesome-jev/actions/runs/45834793220">Discovery run receipt</a>
+<a href="https://github.com/Amal-David/awesome-jev/actions/runs/45918063067">Discovery run receipt</a>
 
 <a href="https://github.com/Amal-David/awesome-jev/actions/workflows/curate.yml">All refresh runs</a>
 
 ## Unavailable repositories at their last check
 
+- <a href="https://github.com/AlexBabescu/ActionJev">AlexBabescu/ActionJev</a> — last check 2026-11-27
 - <a href="https://github.com/raminaskerov/brownie">raminaskerov/brownie</a> — last check 2026-11-08
 - <a href="https://github.com/ndolinschi/cartshield">ndolinschi/cartshield</a> — last check 2026-11-19
 - <a href="https://github.com/elberacasa/chimbometro">elberacasa/chimbometro</a> — last check 2026-11-08
@@ -155,4 +156,4 @@ The discovery timestamp advances only after a network discovery pass completes. 
 
 ## Media checks needing attention
 
-- abide-video — HTTPError; attempted 2026-11-26
+- abide-video — HTTPError; attempted 2026-11-27
