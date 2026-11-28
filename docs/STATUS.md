@@ -6,12 +6,12 @@
 
 | Measure | Recorded value |
 |---|---|
-| Reviewed / indexed / auto-discovered | 78 / 1794 / 4835 |
-| Catalog entries (not all reviewed) | 6707 |
-| Last completed discovery pass (UTC) | 2026-11-28T08:05:04Z |
+| Reviewed / indexed / auto-discovered | 78 / 1792 / 4858 |
+| Catalog entries (not all reviewed) | 6728 |
+| Last completed discovery pass (UTC) | 2026-11-28T16:59:42Z |
 | Latest rotating repository metadata check | 2026-11-28 |
-| Repositories with a recorded metadata check | 6603 / 6603 |
-| Repositories unavailable at their last check (404/410) | 137 |
+| Repositories with a recorded metadata check | 6624 / 6624 |
+| Repositories unavailable at their last check (404/410) | 138 |
 | Media records with a latest-attempt error | 1 |
 | Editorial exclusions | 1 |
 
@@ -21,7 +21,7 @@ Repository checks rotate: the newest check date does not mean every entry was ch
 
 The discovery timestamp advances only after a network discovery pass completes. An offline directory rebuild, test run or media-only refresh never advances it. The Actions result, not the cron expression, establishes that a workflow ran successfully.
 
-<a href="https://github.com/Amal-David/awesome-jev/actions/runs/46124030328">Discovery run receipt</a>
+<a href="https://github.com/Amal-David/awesome-jev/actions/runs/46167965079">Discovery run receipt</a>
 
 <a href="https://github.com/Amal-David/awesome-jev/actions/workflows/curate.yml">All refresh runs</a>
 
@@ -108,6 +108,7 @@ The discovery timestamp advances only after a network discovery pass completes. 
 - <a href="https://github.com/dingw530/playwright-jev">dingw530/playwright-jev</a> — last check 2026-11-22
 - <a href="https://github.com/marianimatteo-lexroom/poly-jev">marianimatteo-lexroom/poly-jev</a> — last check 2026-11-03
 - <a href="https://github.com/brenoajs/polygraph-polymarket">brenoajs/polygraph-polymarket</a> — last check 2026-11-06
+- <a href="https://github.com/Shawny-W/ProjectJEV">Shawny-W/ProjectJEV</a> — last check 2026-11-28
 - <a href="https://github.com/ndolinschi/pulselane">ndolinschi/pulselane</a> — last check 2026-11-19
 - <a href="https://github.com/karoliang/rightsize">karoliang/rightsize</a> — last check 2026-11-03
 - <a href="https://github.com/JoeSun-421/robotic_agent_use_jev">JoeSun-421/robotic_agent_use_jev</a> — last check 2026-11-27
